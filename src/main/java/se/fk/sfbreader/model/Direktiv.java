@@ -1,0 +1,17 @@
+package se.fk.sfbreader.model;
+
+public class Direktiv implements Layer {
+    private final String direktiv;
+
+    public Direktiv(String direktiv) {
+        this.direktiv = direktiv;
+    }
+
+    public String direktiv() {
+        return direktiv;
+    }
+
+    public String toString() {
+        return "Direktiv{" + direktiv + "}";
+    }
+}
