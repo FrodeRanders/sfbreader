@@ -10,7 +10,7 @@ public class Paragraf implements Layer {
     private final Collection<Stycke> stycke = new ArrayList<>();
 
     public Paragraf(String nummer) {
-        this.nummer = nummer;
+        this.nummer = nummer.trim();
     }
 
     public String nummer() {

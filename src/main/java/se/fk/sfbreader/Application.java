@@ -70,16 +70,17 @@ public class Application {
                     case "pre" -> stycke4(state, stack, element);
                     case "i" -> referens(stack, element);
                     case "#document", "html", "body", "div" -> {
-                        System.out.println(" <ignoring " + nodeName + ">");
+                        // Ignore if any present (should actually only be the <div>)
                     }
-                    default -> System.out.println("####### " + node);
+                    default -> System.out.println("???? " + node);
                 }
             } else if (node instanceof TextNode textNode)
                 text(state, stack, textNode);
             else
-                System.out.println("#### " + node);
+                System.out.println("???? " + node);
 
         });
+
         Layer top = stack.elementAt(0);
         if (null != top) {
             System.out.println("TOP: " + top);
@@ -95,8 +96,6 @@ public class Application {
             String id = matcher.group(1);
             String name = matcher.group(2);
 
-            System.out.println("AVDELNING: " + id + " " + name);
-
             //
             Avdelning avdelning = new Avdelning(id, name);
             while (!stack.empty() && !(stack.peek() instanceof Lag)) {
@@ -104,8 +103,7 @@ public class Application {
                 System.out.println("Pop: " + l);
             }
 
-            if (!stack.empty() && stack.peek() instanceof Lag) {
-                Lag lag = (Lag) stack.peek();
+            if (!stack.empty() && stack.peek() instanceof Lag lag) {
                 lag.add(avdelning);
             }
             stack.push(avdelning);
@@ -113,6 +111,8 @@ public class Application {
 
         } else {
             System.out.println("SUB-AVDELNING: " + element.id());
+
+            // TODO ???
         }
     }
 
@@ -122,8 +122,6 @@ public class Application {
             String chapter = matcher.group(1);
             String name = matcher.group(2);
 
-            System.out.println("KAPITEL: " + chapter + " " + name);
-
             //
             Kapitel kapitel = new Kapitel(chapter, name);
             while (!stack.empty() && !(stack.peek() instanceof Avdelning)) {
@@ -131,8 +129,7 @@ public class Application {
                 System.out.println("Pop: " + l);
             }
 
-            if (!stack.empty() && stack.peek() instanceof Avdelning) {
-                Avdelning avdelning = (Avdelning) stack.peek();
+            if (!stack.empty() && stack.peek() instanceof Avdelning avdelning) {
                 avdelning.add(kapitel);
             }
             stack.push(kapitel);
@@ -142,6 +139,8 @@ public class Application {
 
     private static void kapitelSektion(Stack<Layer> stack, Element element) {
         System.out.println("KAPITEL-SEKTION: " + element.text());
+
+        // TODO ???
     }
 
     private static void paragraf(Stack<Layer> stack, Element element) {
@@ -149,28 +148,27 @@ public class Application {
         if (matcher.find()) {
             String paragraph = matcher.group(1);
 
-            System.out.println("PARAGRAF: " + paragraph + " (" + element.text() + ")");
-
             //
-            Paragraf paragraf = new Paragraf(paragraph);
-            while (!stack.empty() && !(stack.peek() instanceof Kapitel)) {
-                Layer l = stack.pop();
-                System.out.println("Pop: " + l);
-            }
+            if (!stack.empty()) {
+                Paragraf paragraf = new Paragraf(paragraph);
+                while (!(stack.peek() instanceof Kapitel)) {
+                    Layer l = stack.pop();
+                    System.out.println("Pop: " + l);
+                }
 
-            if (!stack.empty() && stack.peek() instanceof Kapitel) {
-                Kapitel kapitel = (Kapitel) stack.peek();
-                kapitel.add(paragraf);
-            }
+                if (stack.peek() instanceof Kapitel kapitel) {
+                    kapitel.add(paragraf);
+                }
 
-            stack.push(paragraf);
-            System.out.println("Push: " + paragraf);
+                stack.push(paragraf);
+                System.out.println("Push: " + paragraf);
+            }
         }
     }
 
     private static void stycke(State state, Stack<Layer> stack, Element element) {
         if (stack.isEmpty()) {
-            System.err.println("#### <br> and empty stack");
+            System.err.println("???? <br> and empty stack");
         } else {
             if (state.isBreaking) {
                 if (stack.peek() instanceof Stycke) {
@@ -185,15 +183,14 @@ public class Application {
                     paragraf.add(nyttStycke);
 
                     stack.push(nyttStycke);
-                    System.out.println("STYCKE(2): " + ((Stycke) stack.peek()).nummer());
                     System.out.println("Push: " + nyttStycke);
-                } else if (stack.peek() instanceof Paragraf paragraf) {
+                }
+                else if (stack.peek() instanceof Paragraf paragraf) {
                     // Unlikely since paragraphs don't usually start with a <br>
                     Stycke nyttStycke = new Stycke(1);
                     paragraf.add(nyttStycke);
 
                     stack.push(nyttStycke);
-                    System.out.println("STYCKE(3): " + ((Stycke) stack.peek()).nummer());
                     System.out.println("Push: " + nyttStycke);
                 }
             } else {
@@ -204,12 +201,11 @@ public class Application {
 
     private static void stycke4(State state, Stack<Layer> stack, Element element) {
         if (stack.isEmpty()) {
-            System.err.println("#### <pre> and empty stack");
+            System.err.println("???? <pre> and empty stack");
         } else {
             if (stack.peek() instanceof Stycke stycke) {
                 String text = element.text();
                 stycke.add(text);
-                System.out.println("STYCKE(4): " + ((Stycke) stack.peek()).nummer());
                 System.out.println(text);
             }
         }
@@ -227,12 +223,15 @@ public class Application {
                 if (stack.peek() instanceof Stycke stycke) {
                     stycke.add(referens);
                 }
-            } else if (current instanceof Direktiv direktiv) {
+            }
+            else if (current instanceof Direktiv direktiv) {
                 Layer l = stack.pop();
                 System.out.println("Pop: " + l);
 
-                String d = direktiv.direktiv();
-            } else {
+                // String d = direktiv.direktiv();
+                // TODO
+            }
+            else {
                 if (!text.isEmpty()) {
                     state.isBreaking = false;
                 }
@@ -240,14 +239,13 @@ public class Application {
                 if (current instanceof Stycke stycke) {
                     stycke.add(text);
                     System.out.println(text);
-                } else if (current instanceof Paragraf paragraf) {
+                }
+                else if (current instanceof Paragraf paragraf) {
                     if (paragraf.get().isEmpty()) {
                         Stycke nyttStycke = new Stycke(1);
-                        //nyttStycke.add(text); // Will be paragraph number
                         paragraf.add(nyttStycke);
 
                         stack.push(nyttStycke);
-                        System.out.println("STYCKE(1): " + ((Stycke) stack.peek()).nummer());
                         System.out.println("Push: " + nyttStycke);
                     }
                 }
@@ -258,7 +256,6 @@ public class Application {
     private static void referens(Stack<Layer> stack, Element element) {
         String text = element.text();
         if (text.startsWith("/")) {
-            System.out.println("DIREKTIV: " + text);
             if (!stack.isEmpty()) {
                 if (stack.peek() instanceof Paragraf) {
                     Direktiv direktiv = new Direktiv(text);
@@ -267,7 +264,6 @@ public class Application {
                 }
             }
         } else {
-            System.out.println("REFERENS: " + text);
             if (!stack.isEmpty()) {
                 if (stack.peek() instanceof Stycke) {
                     Referens referens = new Referens(text);
