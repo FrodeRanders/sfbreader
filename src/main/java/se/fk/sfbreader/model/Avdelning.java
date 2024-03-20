@@ -10,6 +10,8 @@ public class Avdelning implements Layer {
 
     private final Collection<Kapitel> kapitel = new ArrayList<>();
 
+    private transient Rubrik subRubrik = null;
+
     public Avdelning() {
     }
 
@@ -29,8 +31,15 @@ public class Avdelning implements Layer {
         return Optional.ofNullable(namn);
     }
 
-    public void add(Kapitel k) {
+    public void addKapitel(Kapitel k) {
+        if (null != subRubrik) {
+            k.setRubrik(subRubrik);
+        }
         kapitel.add(k);
+    }
+
+    public void addSubRubrik(Rubrik r) {
+        subRubrik = r;
     }
 
     public Collection<Kapitel> get() {
@@ -42,6 +51,10 @@ public class Avdelning implements Layer {
     }
 
     public String toString() {
-        return "Avdelning{id=" + id + " namn=\"" + namn + "\"}";
+        StringBuilder buf = new StringBuilder("Avdelning{");
+        buf.append("id=").append(id);
+        buf.append(" namn=\"").append(namn).append("\"");
+        buf.append("}");
+        return buf.toString();
     }
 }

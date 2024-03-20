@@ -10,6 +10,10 @@ public class Kapitel implements Layer {
 
     private final Collection<Paragraf> paragraf = new ArrayList<>();
 
+    private String rubrik = null;
+
+    private transient Rubrik subRubrik = null;
+
     public Kapitel(String id, String namn) {
         this.id = id;
         this.namn = namn;
@@ -23,8 +27,19 @@ public class Kapitel implements Layer {
         return namn;
     }
 
-    public void add(Paragraf p) {
+    public void addParagraf(Paragraf p) {
+        if (null != subRubrik) {
+            p.setRubrik(subRubrik);
+        }
         paragraf.add(p);
+    }
+
+    public void setRubrik(Rubrik r) {
+        rubrik = r.rubrik();
+    }
+
+    public void addSubRubrik(Rubrik r) {
+        subRubrik = r;
     }
 
     public Collection<Paragraf> get() {
@@ -36,6 +51,13 @@ public class Kapitel implements Layer {
     }
 
     public String toString() {
-        return "Kapitel{id=" + id + " namn=\"" + namn + "\"}";
+        StringBuilder buf = new StringBuilder("Kapitel{");
+        buf.append("id=").append(id);
+        buf.append(" namn=\"").append(namn).append("\"");
+        if (null != rubrik && !rubrik.isEmpty()) {
+            buf.append(" rubrik=\"").append(rubrik).append("\"");
+        }
+        buf.append("}");
+        return buf.toString();
     }
 }

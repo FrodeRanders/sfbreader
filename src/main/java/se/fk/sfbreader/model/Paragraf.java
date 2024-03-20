@@ -1,5 +1,7 @@
 package se.fk.sfbreader.model;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
@@ -9,6 +11,9 @@ public class Paragraf implements Layer {
     private final String nummer;
 
     private final Collection<Stycke> stycke = new ArrayList<>();
+
+    @SerializedName(value = "rubrik", alternate = "paragrafRubrik")
+    private String rubrik = null;
 
     public Paragraf(String nummer) {
         this.nummer = nummer.trim();
@@ -20,6 +25,10 @@ public class Paragraf implements Layer {
 
     public void add(Stycke s) {
         stycke.add(s);
+    }
+
+    public void setRubrik(Rubrik r) {
+        rubrik = r.rubrik();
     }
 
     public boolean isEmpty() {
@@ -48,6 +57,12 @@ public class Paragraf implements Layer {
     }
 
     public String toString() {
-        return "Paragraf{nummer=" + nummer + "}";
+        StringBuilder buf = new StringBuilder("Paragraf{");
+        buf.append("nummer=").append(nummer);
+        if (null != rubrik && !rubrik.isEmpty()) {
+            buf.append(" rubrik=\"").append(rubrik).append("\"");
+        }
+        buf.append("}");
+        return buf.toString();
     }
 }

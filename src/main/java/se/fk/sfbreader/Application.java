@@ -64,7 +64,7 @@ public class Application {
                 switch (nodeName) {
                     case "h2" -> avdelning(stack, element);
                     case "h3" -> kapitel(stack, element);
-                    case "h4" -> kapitelSektion(stack, element);
+                    case "h4" -> rubrik(stack, element);
                     case "b" -> paragraf(stack, element); // TODO Consider go via ankare
                     // case "br" -> stycke(stack, element);
                     // case "pre" -> stycke4(stack, element);
@@ -137,7 +137,7 @@ public class Application {
     }
 
     private static void avdelning(Stack<Layer> stack, Element element) {
-        System.out.println("<avdelning> " + element);
+        System.out.println("[avdelning] >> " + element);
 
         Matcher matcher = AVDELNING_RE.matcher(element.text());
         if (matcher.find()) {
@@ -173,14 +173,14 @@ public class Application {
                 System.out.println("[avdelning] Push: " + avdelning);
             }
         } else {
-            System.out.println("SUB-AVDELNING: " + element.text());
+            System.out.println("UNDERAVDELNING: " + element.text());
 
             // TODO ???
         }
     }
 
     private static void kapitel(Stack<Layer> stack, Element element) {
-        System.out.println("<kapitel> " + element);
+        System.out.println("[kapitel] >> " + element);
         Matcher matcher = KAPITEL_RE.matcher(element.text());
         if (matcher.find()) {
             String chapter = matcher.group(1);
@@ -206,7 +206,7 @@ public class Application {
 
 
                 if (!stack.empty() && stack.peek() instanceof Avdelning avdelning) {
-                    avdelning.add(kapitel);
+                    avdelning.addKapitel(kapitel);
                 }
                 stack.push(kapitel);
                 System.out.println("[kapitel] Push: " + kapitel);
@@ -214,14 +214,44 @@ public class Application {
         }
     }
 
-    private static void kapitelSektion(Stack<Layer> stack, Element element) {
-        System.out.println("KAPITEL-SEKTION: " + element.text());
+    private static void rubrik(Stack<Layer> stack, Element element) {
+        System.out.println("[rubrik] >> " + element.text());
+        System.out.println("---");
+        stack.forEach(System.out::println);
+        System.out.println("---");
 
-        // TODO ???
+        String text = element.text();
+        //
+        boolean stop = stack.empty();
+        if (!stop) {
+            Rubrik rubrik = new Rubrik(text);
+
+            // We have a new chapter section (Rubrik), so we want to pop anything lower than chapter (Kapitel)
+            do {
+                Layer layer = stack.peek();
+                switch (layer.type()) {
+                    case "Stycke", "Paragraf" -> System.out.println("[rubrik] Pop: " + stack.pop());
+                    default /* "Kapitel", "Avdelning", "Lag" */ -> {
+                        System.out.println("[rubrik] Keeping: " + layer);
+                        stop = true;
+                    }
+                }
+                stop |= stack.empty();
+            } while (!stop);
+
+            if (stack.peek() instanceof Kapitel kapitel) {
+                kapitel.addSubRubrik(rubrik);
+            } else if (stack.peek() instanceof Avdelning avdelning){
+                avdelning.addSubRubrik(rubrik);
+            }
+
+            stack.push(rubrik);
+            System.out.println("[rubrik] Push: " + rubrik);
+        }
     }
 
     private static void paragraf(Stack<Layer> stack, Element element) {
-        System.out.println("<paragraf> " + element);
+        System.out.println("[paragraf] >> " + element);
         Matcher matcher = PARAGRAF_RE.matcher(element.text());
         if (matcher.find()) {
             String paragraph = matcher.group(1);
@@ -245,7 +275,7 @@ public class Application {
                 } while (!stop);
 
                 if (stack.peek() instanceof Kapitel kapitel) {
-                    kapitel.add(paragraf);
+                    kapitel.addParagraf(paragraf);
                 }
 
                 stack.push(paragraf);
@@ -261,72 +291,16 @@ public class Application {
         }
     }
 
-    /*
-    private static void stycke(Stack<Layer> stack, Element element) {
-        System.out.println("<stycke> " + element);
-        if (stack.isEmpty()) {
-            System.err.println("[stycke] Empty stack?");
-        } else {
-            switch (stack.peek().type()) {
-                case "Stycke" -> {
-                    Stycke stycke = (Stycke) stack.peek();
-                    // Likely
-                    System.out.println("[stycke@stycke] Existing: " + stycke);
-
-                    Stycke lastStycke = (Stycke) stack.pop();
-                    System.out.println("[stycke@stycke] Pop: " + lastStycke);
-
-                    assert (stack.peek() instanceof Paragraf);
-                    Paragraf paragraf = (Paragraf) stack.peek();
-
-                    Stycke nyttStycke = new Stycke(lastStycke.nummer() + 1);
-                    paragraf.add(nyttStycke);
-
-                    stack.push(nyttStycke);
-                    System.out.println("[stycke@stycke] Push: " + nyttStycke);
-                }
-                case "Paragraf" -> {
-                    Paragraf paragraf = (Paragraf) stack.peek();
-                    System.out.println("[stycke@paragraf] Found: " + paragraf);
-
-                    // Unlikely since paragraphs don't usually start with a <br>
-                    Stycke nyttStycke = new Stycke(1);
-                    paragraf.add(nyttStycke);
-
-                    stack.push(nyttStycke);
-                    System.out.println("[stycke@paragraf] Push: " + nyttStycke);
-                }
-                default / * "Kapitel", "Avdelning", "Lag" * / -> {
-                    System.out.println("[stycke] Ignoring at " + stack.peek());
-                }
-            }
-        }
-    }
-
-    private static void stycke4(Stack<Layer> stack, Element element) {
-        System.out.println("<stycke4> " + element);
-        if (stack.isEmpty()) {
-            System.err.println("[stycke4] Empty stack?");
-        } else {
-            if (stack.peek() instanceof Stycke stycke) {
-                String text = element.text();
-                stycke.add(text);
-                System.out.println("[stycke4] " + text);
-            }
-        }
-    }
-   */
-
     private static void text(Stack<Layer> stack, TextNode textNode) {
         String text = textNode.text().strip();
-        System.out.println("<text> " + text);
+        System.out.println("[text] >> " + text);
 
         if (!stack.isEmpty()) {
             Layer current = stack.peek();
             switch (current.type()) {
                 case "Referens" -> {
                     Referens referens = (Referens) stack.pop();
-                    System.out.println("[text@referens] Pop: " + referens);
+                    System.out.println("[text#referens] Pop: " + referens);
 
                     if (stack.peek() instanceof Stycke stycke) {
                         stycke.add(referens);
@@ -334,7 +308,7 @@ public class Application {
                 }
                 case "Direktiv" -> {
                     Direktiv direktiv = (Direktiv) stack.pop();
-                    System.out.println("[text@direktiv] Pop: " + direktiv);
+                    System.out.println("[text#direktiv] Pop: " + direktiv);
                 }
                 case "Stycke" -> {
                     Stycke stycke = (Stycke) current;
@@ -344,11 +318,11 @@ public class Application {
                         Matcher matcher = PARAGRAF_RE.matcher(text);
                         if (!matcher.find()) {
                             stycke.add(text);
-                            System.out.println("[text@stycke] " + text);
+                            System.out.println("[text#stycke] " + text);
                         }
                     } else {
                         stycke.add(text);
-                        System.out.println("[text@stycke] " + text);
+                        System.out.println("[text#stycke] " + text);
                     }
                 }
                 case "Paragraf" -> {
@@ -360,8 +334,12 @@ public class Application {
                         paragraf.add(nyttStycke);
 
                         stack.push(nyttStycke);
-                        System.out.println("[text@paragraf] Push: " + nyttStycke);
+                        System.out.println("[text#paragraf] Push: " + nyttStycke);
                     }
+                }
+                case "Rubrik" -> {
+                    Rubrik rubrik = (Rubrik) stack.pop();
+                    System.out.println("[text#rubrik] Pop: " + rubrik);
                 }
                 default /* "Kapitel", "Avdelning", "Lag" */ -> {
                     System.out.println("[text] Ignoring at " + current);
@@ -371,20 +349,20 @@ public class Application {
     }
 
     private static void referens(Stack<Layer> stack, Element element) {
-        System.out.println("<referens eller direktiv> " + element);
+        System.out.println("[referens || direktiv] >> " + element);
         String text = element.text();
         if (!stack.isEmpty()) {
             if (text.startsWith("/")) {
                 if (stack.peek() instanceof Paragraf) {
                     Direktiv direktiv = new Direktiv(text);
                     stack.push(direktiv);
-                    System.out.println("[direktiv@paragraf] Push: " + direktiv);
+                    System.out.println("[direktiv#paragraf] Push: " + direktiv);
                 }
             } else {
                 if (stack.peek() instanceof Stycke) {
                     Referens referens = new Referens(text);
                     stack.push(referens);
-                    System.out.println("[referens@stycke] Push: " + referens);
+                    System.out.println("[referens#stycke] Push: " + referens);
                 }
             }
         }
