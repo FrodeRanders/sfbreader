@@ -2,6 +2,7 @@ package se.fk.sfbreader.model;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 import java.util.stream.Collectors;
 
 public class Stycke implements Layer {
@@ -9,6 +10,8 @@ public class Stycke implements Layer {
     private final Collection<String> referens = new ArrayList<>();
 
     private final Collection<String> text = new ArrayList<>();
+
+    private final static String[] T = {};
 
     public Stycke(int nummer) {
         this.nummer = nummer;
@@ -32,7 +35,14 @@ public class Stycke implements Layer {
     }
 
     public void add(String s) {
-        text.add(s);
+        // Treat a single '.' specifically
+        if (".".equals(s) && !text.isEmpty()) {
+            int lastIndex = text.size() - 1;
+            String updated = ((List<String>)text).get(lastIndex) + s;
+            ((List<String>)text).set(lastIndex, updated);
+        } else {
+            text.add(s);
+        }
     }
 
     public void add(Referens r) {

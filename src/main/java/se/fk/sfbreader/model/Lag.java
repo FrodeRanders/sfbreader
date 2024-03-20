@@ -37,6 +37,11 @@ public class Lag implements Layer {
     }
 
     public String toString() {
-        return "Lag{namn=" + namn + " (" + id + ")}";
+        StringBuilder buf = new StringBuilder("Lag{");
+        buf.append("namn=\"").append(namn).append("\"");
+        buf.append(" id=\"").append(id).append("\"");
+        buf.append("}");
+        return buf.toString();
+
     }
 }

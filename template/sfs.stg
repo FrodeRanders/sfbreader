@@ -1,0 +1,153 @@
+group sfs;
+
+delimiters "$", "$"
+
+preamble(namn, id, date) ::= <<
+%% -------------------------------------------------------
+%%  This file was automatically generated at $date$.
+%%  Manual modifications to this file will be lost!
+%% -------------------------------------------------------
+\documentclass[a4paper,10pt]{book}
+\usepackage{makeidx}
+
+\usepackage{longtable}
+\usepackage{lscape}
+\usepackage{nameref}
+\usepackage{url}
+\usepackage{tabularx}
+%\usepackage[table]{xcolor}
+\usepackage{placeins}
+\usepackage{multirow}
+
+%\usepackage{textcomp}
+%\usepackage[]{inputenc}
+\usepackage{marvosym}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[swedish]{babel}
+\usepackage[swedish]{varioref}
+\usepackage{hyperref}
+
+\usepackage[useregional]{datetime2}
+%%\renewcommand{\dateseparator}{-}
+
+%% \r{a} \"{a}  \"{o}
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage[figuresright]{rotating}  % PDF version
+%\usepackage{rotating} % Printing version
+
+%-------------------------------------------------------------------
+% Inscribed character
+%-------------------------------------------------------------------
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+	\node[shape=circle,draw,inner sep=1pt] (char) {\fontencoding{T1}\fontfamily{phv}\fontsize{7}{10}\selectfont #1};}}
+
+%-------------------------------------------------------------------
+% Horizontal figure
+%-------------------------------------------------------------------
+\newenvironment{lyingfigure}
+{
+    \begin{sidewaysfigure}[!htbp]
+}
+{
+    \end{sidewaysfigure}
+}
+
+%-------------------------------------------------------------------
+% Notabene box
+%-------------------------------------------------------------------
+\newenvironment{notabene}[1][]
+{
+    \ifstrempty{#1}%
+    {\mdfsetup{%
+    frametitle={%
+    \tikz[baseline=(current bounding box.east),outer sep=0pt]
+    \node[anchor=east,rectangle,fill=red!20]
+    {\strut Notera};}}
+    }%
+    {\mdfsetup{%
+    frametitle={%
+    \tikz[baseline=(current bounding box.east),outer sep=0pt]
+    \node[anchor=east,rectangle,fill=red!20]
+    {\strut Notera:~#1};}}%
+    }%
+    \mdfsetup{innertopmargin=10pt,linecolor=red!20,%
+    linewidth=2pt,topline=true,%
+    frametitleaboveskip=\dimexpr-\ht\strutbox\relax
+    }
+    \begin{mdframed}[]\relax%
+}
+{
+    \end{mdframed}
+}
+
+%-------------------------------------------------------------------
+
+\date{\today}
+\title{$namn$ ($id$)}
+%\author{}
+\date{$date$}
+
+%\makeindex
+
+\begin{document}
+
+%\rhead{}
+\maketitle
+
+\vfill
+
+\newpage
+%\renewcommand\contentsname{Inneh{\aa}llsf{\"o}rteckning}
+%\tableofcontents
+\newpage
+
+>>
+
+postamble() ::= <<
+\printindex
+\end{document}
+
+>>
+
+//
+// \part{''part''}	-1	not in letters
+//   \chapter{''chapter''}	0	only books and reports
+//   \section{''section''}	1	not in letters
+//   \subsection{''subsection''}	2	not in letters
+//   \subsubsection{''subsubsection''}	3	not in letters
+//   \paragraph{''paragraph''}	4	not in letters
+//   \subparagraph{''subparagraph''}
+
+
+avdelning(id, namn) ::= <<
+\part*{$id$ $namn$}
+
+>>
+
+kapitel(id, namn) ::= <<
+\chapter*{$id$ $namn$}
+
+>>
+
+kapitelsektion(namn) ::= <<
+\section*{$namn$}
+
+>>
+
+paragraf(nummer) ::= <<
+\subsection*{$nummer$ §}
+
+>>
+
+paragrafsektion(namn) ::= <<
+\subsubsection*{$namn$}
+
+>>
+
+stycke() ::= <<
+\paragraph*{}
+
+>>
+
+
