@@ -6,6 +6,8 @@ import org.apache.logging.log4j.Logger;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import se.fk.sfbreader.model.Lag;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 import java.io.File;
 import java.io.IOException;
@@ -21,6 +23,8 @@ import java.util.Optional;
 
 public class Application {
     private final static Logger log = LogManager.getLogger(Application.class);
+
+    private static final Gson gson = new GsonBuilder().disableHtmlEscaping().create();
 
     public static void main(String[] args) {
         if (!System.getProperty("file.encoding").equals("UTF-8")) {
@@ -115,21 +119,27 @@ public class Application {
     }
 
     private static void process(final Path inputFile, final Collection<Path> templates, final Path directory, final PrintStream out) {
-        Processor processor = new Processor();
+        HtmlProcessor processor = new HtmlProcessor();
         try (InputStream is = Files.newInputStream(inputFile)) {
-            Optional<Lag> lag = pullFromStream(is, "http://nope.local", StandardCharsets.UTF_8, processor);
-            if (lag.isPresent()) {
-                Printer printer = new Printer();
-                printer.process(lag.get(), templates, directory, out);
-            }
+            Optional<Lag> _lag = pullFromStream(is, "http://nope.local", StandardCharsets.UTF_8, processor);
+            if (_lag.isPresent()) {
+                Lag lag = _lag.get();
+                lag.prune();
 
+                //
+                LatexProcessor printer = new LatexProcessor();
+                printer.process(lag, templates, directory, out);
+
+                //
+                System.out.println(gson.toJson(lag));
+            }
         } catch (IOException e) {
             System.err.println("Can't read file: " + inputFile.getFileName() + ": " + e.getMessage());
             System.exit(3);
         }
     }
 
-    private static Optional<Lag> pullFromStream(InputStream is, String baseUri, Charset charset, Processor processor) throws IOException {
+    private static Optional<Lag> pullFromStream(InputStream is, String baseUri, Charset charset, HtmlProcessor processor) throws IOException {
         Document doc = Jsoup.parse(is, charset.name(), baseUri);
         return processor.process(doc);
     }

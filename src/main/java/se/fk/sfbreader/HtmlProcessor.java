@@ -14,15 +14,15 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 
-public class Processor {
-    private static final Logger log = LoggerFactory.getLogger(Processor.class);
+public class HtmlProcessor {
+    private static final Logger log = LoggerFactory.getLogger(HtmlProcessor.class);
 
     private static final Pattern AVDELNING_RE = Pattern.compile("^AVD\\.\\s+([A-Z])\\s+(.+)$");
     private static final Pattern KAPITEL_RE = Pattern.compile("^(\\d+\\s*[a-z]?)\\s+kap\\.\\s+(.+)$");
     private static final Pattern PARAGRAF_RE = Pattern.compile("^(\\d+\\s*[a-z]?)\\s*§$");
     private static final Pattern ANCHOR_RE = Pattern.compile("K(\\d+[a-zA-Z]?)P(\\d+[a-zA-Z]?)S(\\d+)");
 
-    public Processor() {}
+    public HtmlProcessor() {}
 
     public Optional<Lag> process(Document doc) {
         Stack<Layer> stack = new Stack<>();

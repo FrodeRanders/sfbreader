@@ -15,15 +15,11 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Collection;
 import java.util.Optional;
-import java.util.regex.Pattern;
 
-public class Printer {
-    private static final Logger log = LoggerFactory.getLogger(Processor.class);
+public class LatexProcessor {
+    private static final Logger log = LoggerFactory.getLogger(LatexProcessor.class);
 
     private static final String NEEDS_EXTRA_SPACING_RE = "^(-\\s|\\d+\\.\\s|[a-z]\\.\\s).+";
-    //private static final String NEEDS_EXTRA_SPACING_RE = "^-\\s.+";
-
-    private static final Pattern _NEEDS_EXTRA_SPACING_RE = Pattern.compile("^(-\\s.+)");
 
     public void process(
             final Lag lag,
