@@ -7,7 +7,7 @@ preamble(namn, id, date) ::= <<
 %%  This file was automatically generated at $date$.
 %%  Manual modifications to this file will be lost!
 %% -------------------------------------------------------
-\documentclass[a4paper,10pt]{book}
+\documentclass[a4paper,notitlepage,openany,10pt]{book}
 \usepackage{makeidx}
 
 \usepackage{longtable}

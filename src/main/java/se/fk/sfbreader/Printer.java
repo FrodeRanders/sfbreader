@@ -15,11 +15,15 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Collection;
 import java.util.Optional;
+import java.util.regex.Pattern;
 
 public class Printer {
     private static final Logger log = LoggerFactory.getLogger(Processor.class);
 
-     private static final String NEEDS_EXTRA_SPACING_RE = "^(-\\s|\\d+\\.\\s|[a-z]\\.\\s)";
+    private static final String NEEDS_EXTRA_SPACING_RE = "^(-\\s|\\d+\\.\\s|[a-z]\\.\\s).+";
+    //private static final String NEEDS_EXTRA_SPACING_RE = "^-\\s.+";
+
+    private static final Pattern _NEEDS_EXTRA_SPACING_RE = Pattern.compile("^(-\\s.+)");
 
     public void process(
             final Lag lag,
@@ -137,14 +141,8 @@ public class Printer {
             }
 
             for (String text : stycke.get()) {
-                /*
                 if (text.matches(NEEDS_EXTRA_SPACING_RE)) {
-                    writer.append("\n");
-                }
-                 */
-
-                if (text.startsWith("- ")) {
-                    writer.append("\n");
+                    writer.append("\\newline ");
                 }
                 writer.append(text).append("\n");
             }
@@ -156,4 +154,22 @@ public class Printer {
     paragrafsektion(namn) ::= <<
     */
 
+    private String toHex(String s) {
+        StringBuilder sb = new StringBuilder();
+
+        final int bytesPerLine = 16;
+        final byte[] bytes = s.getBytes();
+
+        long count = 0;
+        for (byte b : bytes) {
+            if (count++ % bytesPerLine == 0)
+                sb.append("\n");
+            else
+                sb.append(" ");
+
+            sb.append(String.format("%02x", b));
+        }
+
+        return sb.toString();
+    }
 }

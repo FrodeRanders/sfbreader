@@ -1,7 +1,5 @@
 package se.fk.sfbreader;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import org.jsoup.nodes.Attribute;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -23,7 +21,6 @@ public class Processor {
     private static final Pattern KAPITEL_RE = Pattern.compile("^(\\d+\\s*[a-z]?)\\s+kap\\.\\s+(.+)$");
     private static final Pattern PARAGRAF_RE = Pattern.compile("^(\\d+\\s*[a-z]?)\\s*§$");
     private static final Pattern ANCHOR_RE = Pattern.compile("K(\\d+[a-zA-Z]?)P(\\d+[a-zA-Z]?)S(\\d+)");
-    private static final Gson gson = new GsonBuilder().disableHtmlEscaping().create();
 
     public Processor() {}
 

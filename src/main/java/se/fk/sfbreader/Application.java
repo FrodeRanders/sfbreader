@@ -50,15 +50,15 @@ public class Application {
             CommandLine commandLine = parser.parse(options, args);
 
             Path inputFile = null;
-            for (String _gedcomFile : commandLine.getArgs()) {
-                Path path = Path.of(_gedcomFile);
+            for (String _inputFile : commandLine.getArgs()) {
+                Path path = Path.of(_inputFile);
                 File file = path.toFile();
                 if (!file.exists()) {
-                    System.err.println("File does not exist: " + _gedcomFile);
+                    System.err.println("File does not exist: " + _inputFile);
                     System.exit(1);
                 }
                 if (!file.canRead()) {
-                    System.err.println("Can't read file: " + _gedcomFile);
+                    System.err.println("Can't read file: " + _inputFile);
                     System.exit(1);
                 }
                 inputFile = path;
