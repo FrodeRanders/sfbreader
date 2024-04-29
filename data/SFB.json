@@ -781,51 +781,50 @@
                     "2. barnbidrag, (15 och 16 kap.)",
                     "3. underhållsstöd, (17-19 kap.)",
                     "4. adoptionsbidrag, (21 kap.)",
-                    "5. omvårdnadsbidrag (22 kap.)",
-                    "Avdelning C Förmåner vid sjukdom eller arbetsskada"
+                    "5. omvårdnadsbidrag (22 kap.)"
                   ]
                 },
                 {
                   "nummer": 3,
                   "referens": [],
                   "text": [
+                    "Avdelning C Förmåner vid sjukdom eller arbetsskada",
                     "6. sjukpenning i särskilda fall, (28 a kap.)",
                     "7. rehabilitering, bidrag till arbetshjälpmedel, särskilt bidrag och rehabiliteringspenning i",
                     "särskilda fall, (29-31 a kap.)",
                     "8. sjukersättning och aktivitetsersättning i form av",
-                    "garantiersättning, (33 och 35-37 kap.)",
-                    "Avdelning D Särskilda förmåner vid funktionshinder"
+                    "garantiersättning, (33 och 35-37 kap.)"
                   ]
                 },
                 {
                   "nummer": 4,
                   "referens": [],
                   "text": [
+                    "Avdelning D Särskilda förmåner vid funktionshinder",
                     "9. merkostnadsersättning, (50 kap.)",
                     "10. assistansersättning, (51 kap.)",
-                    "11. bilstöd, (52 kap.)",
-                    "Avdelning E Förmåner vid ålderdom"
+                    "11. bilstöd, (52 kap.)"
                   ]
                 },
                 {
                   "nummer": 5,
                   "referens": [],
                   "text": [
+                    "Avdelning E Förmåner vid ålderdom",
                     "12. garantipension, (55, 56, 65-67 och",
                     "69-71 kap.)",
                     "13. särskilt pensionstillägg, (73 kap.)",
-                    "14. äldreförsörjningsstöd, (74 kap.)",
-                    "Avdelning F Förmåner till efterlevande"
+                    "14. äldreförsörjningsstöd, (74 kap.)"
                   ]
                 },
                 {
                   "nummer": 6,
                   "referens": [],
                   "text": [
+                    "Avdelning F Förmåner till efterlevande",
                     "15. efterlevandestöd, (77, 79 och 85 kap.)",
                     "16. garantipension till",
-                    "omställningspension, (77, 81 och 85 kap.)",
-                    "Avdelning G Bostadsstöd"
+                    "omställningspension, (77, 81 och 85 kap.)"
                   ]
                 },
                 {
@@ -834,6 +833,7 @@
                     "Lag (2018:1265)"
                   ],
                   "text": [
+                    "Avdelning G Bostadsstöd",
                     "17. bostadsbidrag, (95-98 kap.)",
                     "18. bostadstillägg, och (100-103 kap.)",
                     "19. boendetillägg. (103 a-103 e kap.)",
@@ -1214,31 +1214,33 @@
                   "nummer": 2,
                   "referens": [],
                   "text": [
-                    "Avdelning B Familjeförmåner"
+                    "Avdelning B Familjeförmåner",
+                    "1. graviditetspenning, (10 kap.)",
+                    "2. föräldrapenning på grundnivå eller sjukpenningnivå och",
+                    "tillfällig föräldrapenning, (11-13 kap.)"
                   ]
                 },
                 {
                   "nummer": 3,
                   "referens": [],
                   "text": [
-                    "1. graviditetspenning, (10 kap.)",
-                    "2. föräldrapenning på grundnivå eller sjukpenningnivå och",
-                    "tillfällig föräldrapenning, (11-13 kap.)",
-                    "Avdelning C Förmåner vid sjukdom eller arbetsskada"
-                  ]
-                },
-                {
-                  "nummer": 4,
-                  "referens": [],
-                  "text": [
+                    "Avdelning C Förmåner vid sjukdom eller arbetsskada",
                     "3. sjukpenning, (24-28 kap.)",
                     "4. rehabilitering, rehabiliteringsersättning och",
                     "bidrag till arbetshjälpmedel, (29-31 kap.)",
                     "5. inkomstrelaterad sjukersättning och inkomstrelaterad",
                     "aktivitetsersättning, (33, 34, 36 och 37 kap.)",
                     "6. arbetsskadeersättning, (39-42 kap.)",
-                    "7. närståendepenning, (47 kap.)",
-                    "Avdelning E Förmåner vid ålderdom"
+                    "7. närståendepenning, (47 kap.)"
+                  ]
+                },
+                {
+                  "nummer": 4,
+                  "referens": [],
+                  "text": [
+                    "Avdelning E Förmåner vid ålderdom",
+                    "8. inkomstgrundad ålderspension, (55-64 och 69-71 kap.)",
+                    "8 a. inkomstpensionstillägg, (74 a kap.)"
                   ]
                 },
                 {
@@ -1247,8 +1249,6 @@
                     "Lag (2020:1239)"
                   ],
                   "text": [
-                    "8. inkomstgrundad ålderspension, (55-64 och 69-71 kap.)",
-                    "8 a. inkomstpensionstillägg, (74 a kap.)",
                     "Avdelning F Förmåner till efterlevande",
                     "9. inkomstrelaterad",
                     "efterlevandepension, (77, 78, 80 och 82-85",
@@ -7418,8 +7418,14 @@
                     "Rätten till omvårdnadsbidrag ska omprövas",
                     "1. minst vartannat år, om det inte finns skäl för omprövning med längre mellanrum, eller",
                     "2. när förhållanden som påverkar rätten till bidraget ändras.",
-                    "Omprövning enligt första stycket 2 ska dock inte göras vid enbart tillfälliga förändringar.",
                     "Lag (2018:1265)."
+                  ]
+                },
+                {
+                  "nummer": 2,
+                  "referens": [],
+                  "text": [
+                    "Omprövning enligt första stycket 2 ska dock inte göras vid enbart tillfälliga förändringar."
                   ]
                 }
               ],
@@ -10478,7 +10484,13 @@
                     "- ersättningsnivå och beräkningsunderlag i 7-9 §§,",
                     "- kalenderdagsberäknad sjukpenning i 10 och 11 §§,",
                     "- arbetstidsberäknad sjukpenning i 12-18 §§, och",
-                    "- samordning av sjukpenning med samtidig lön i 19-21 §§.",
+                    "- samordning av sjukpenning med samtidig lön i 19-21 §§."
+                  ]
+                },
+                {
+                  "nummer": 3,
+                  "referens": [],
+                  "text": [
                     "Grundläggande bestämmelser Beräkningsmetoder"
                   ]
                 }
@@ -10567,8 +10579,7 @@
                     "Sjukpenning ska alltid kalenderdagsberäknas när den försäkrade",
                     "1. är helt eller delvis arbetslös, om inte annat följer av tredje stycket,",
                     "2. får sjukpenning för tid då han eller hon annars skulle ha fått graviditetspenning, föräldrapenning eller rehabiliteringspenning, eller",
-                    "3. är egenföretagare och har en sjukpenninggrundande inkomst som består av endast inkomst av annat förvärvsarbete.",
-                    "Om sjukpenning till en familjehemsförälder ska beräknas på grundval av en sjukpenninggrundande inkomst som omfattar ersättning för vården, ska sjukpenning som motsvarar denna ersättning kalenderdagsberäknas."
+                    "3. är egenföretagare och har en sjukpenninggrundande inkomst som består av endast inkomst av annat förvärvsarbete."
                   ]
                 },
                 {
@@ -10577,6 +10588,7 @@
                     "Lag (2010:2005)"
                   ],
                   "text": [
+                    "Om sjukpenning till en familjehemsförälder ska beräknas på grundval av en sjukpenninggrundande inkomst som omfattar ersättning för vården, ska sjukpenning som motsvarar denna ersättning kalenderdagsberäknas.",
                     "För en försäkrad som avses i första stycket 1 lämnas kalenderdagsberäknad sjukpenning under de första 14 dagarna i en sjukperiod endast om den försäkrade är anmäld som arbetssökande hos den offentliga arbetsförmedlingen samt är beredd att ta ett erbjudet arbete i en omfattning som svarar mot den bestämda sjukpenninggrundande inkomsten. Om det som nu föreskrivits skulle framstå som oskäligt, får kalenderdagsberäknad sjukpenning ändå lämnas under de första 14 dagarna i sjukperioden.",
                     "Lag (2010:2005)."
                   ]
@@ -16218,9 +16230,15 @@
                     "En smittbärare har rätt till smittbärarpenning om han eller hon måste avstå från förvärvsarbete på grund av",
                     "1. beslut enligt smittskyddslagen (2004:168) eller livsmedelslagen (2006:804) eller föreskrifter som har meddelats med stöd av sistnämnda lag, eller",
                     "2. läkarundersökning eller hälsokontroll som smittbäraren genomgår utan föregående beslut enligt 1 och som syftar till att klarlägga om han eller hon är smittad av en allmänfarlig sjukdom eller har en sjukdom, en smitta, ett sår eller en annan skada, som kan göra livsmedel som han eller hon hanterar otjänligt som människoföda.",
-                    "Första stycket gäller inte när det är fråga om",
                     "1. hälsokontroll vid inresa enligt 3 kap. 8 § smittskyddslagen, eller",
                     "2. beslut som avser avspärrning enligt 3 kap. 10 § smittskyddslagen."
+                  ]
+                },
+                {
+                  "nummer": 2,
+                  "referens": [],
+                  "text": [
+                    "Första stycket gäller inte när det är fråga om"
                   ]
                 }
               ],
@@ -20121,8 +20139,14 @@
                   "text": [
                     "Den som i en handling som upprättas i samband med uppdraget har lämnat uppgift om godkännande för F-skatt ska anses ha haft ett sådant godkännande om handlingen även innehåller följande uppgifter:",
                     "1. utbetalarens och betalningsmottagarens namn och adress eller andra uppgifter som är godtagbara för identifiering, och 2. betalningsmottagarens personnummer, samordningsnummer eller organisationsnummer.",
-                    "Uppgiften om godkännande för F-skatt gäller även som sådant skriftligt åberopande av godkännande som avses i 16 §.",
                     "Lag (2011:1434)."
+                  ]
+                },
+                {
+                  "nummer": 2,
+                  "referens": [],
+                  "text": [
+                    "Uppgiften om godkännande för F-skatt gäller även som sådant skriftligt åberopande av godkännande som avses i 16 §."
                   ]
                 }
               ],
@@ -22139,7 +22163,13 @@
                   "referens": [],
                   "text": [
                     "Om en försäkrad har återkallat eller minskat sitt uttag av inkomstpension ska hans eller hennes pensionsbehållning ökas med produkten av",
-                    "- det delningstal som skulle ha använts om den försäkrade hade gjort nytt uttag av inkomstpension från och med den månad då pensionsuttaget upphört eller minskat och - den årliga inkomstpension som skulle ha lämnats om återkallelse inte hade skett, respektive den andel av den årliga inkomstpensionen med vilken pensionen minskats.",
+                    "- det delningstal som skulle ha använts om den försäkrade hade gjort nytt uttag av inkomstpension från och med den månad då pensionsuttaget upphört eller minskat och - den årliga inkomstpension som skulle ha lämnats om återkallelse inte hade skett, respektive den andel av den årliga inkomstpensionen med vilken pensionen minskats."
+                  ]
+                },
+                {
+                  "nummer": 2,
+                  "referens": [],
+                  "text": [
                     "Omräkning av pensionsbehållning med hänsyn till arvsvinster"
                   ]
                 }
@@ -29480,7 +29510,13 @@
                   "text": [
                     "En änka som är född 1945 eller senare har rätt till änkepension enligt 2 § första stycket 1 om hon var gift med den avlidne vid utgången av 1989 och fortlöpande fram till dödsfallet. Vidare krävs att",
                     "1. äktenskapet vid utgången av 1989 hade varat minst fem år och ingåtts senast den dag då mannen fyllde 60 år eller mannen vid utgången av 1989 hade barn som också var barn till kvinnan, och",
-                    "2. något av de villkor som anges i 1 var uppfyllt även vid dödsfallet.",
+                    "2. något av de villkor som anges i 1 var uppfyllt även vid dödsfallet."
+                  ]
+                },
+                {
+                  "nummer": 2,
+                  "referens": [],
+                  "text": [
                     "Rätten till 90-procentstillägg"
                   ]
                 }
@@ -29551,7 +29587,13 @@
                     "I detta kapitel finns bestämmelser om",
                     "- änkor som är födda 1944 eller tidigare i 2-5 §§,",
                     "- änkor som är födda 1945 eller senare i 6-11 §§, och",
-                    "- samordning med inkomstgrundad ålderspension i 12-17 §.",
+                    "- samordning med inkomstgrundad ålderspension i 12-17 §."
+                  ]
+                },
+                {
+                  "nummer": 2,
+                  "referens": [],
+                  "text": [
                     "Änkor som är födda 1944 eller tidigare"
                   ]
                 }
@@ -32778,7 +32820,13 @@
                     "1. sjukersättning eller aktivitetsersättning,",
                     "2. hel allmän ålderspension,",
                     "3. änkepension, eller",
-                    "4. pension eller invaliditetsförmån enligt lagstiftningen i en stat som ingår i Europeiska ekonomiska samarbetsområdet, under förutsättning att förmånen motsvarar svensk pension eller ersättning enligt 1-3.",
+                    "4. pension eller invaliditetsförmån enligt lagstiftningen i en stat som ingår i Europeiska ekonomiska samarbetsområdet, under förutsättning att förmånen motsvarar svensk pension eller ersättning enligt 1-3."
+                  ]
+                },
+                {
+                  "nummer": 2,
+                  "referens": [],
+                  "text": [
                     "Särskilt om sjukersättning eller aktivitetsersättning"
                   ]
                 }
@@ -35221,7 +35269,13 @@
                     "- sjukdom, skada eller dödsfall på grund av brott i 6-8 §§,",
                     "- utmätning, pantsättning och överlåtelse av fordran i 9-11 §§,",
                     "- preskription i 12-16 §§, och",
-                    "- skadestånd i 17 och 18 §§.",
+                    "- skadestånd i 17 och 18 §§."
+                  ]
+                },
+                {
+                  "nummer": 2,
+                  "referens": [],
+                  "text": [
                     "Sammanträffande av förmåner vid retroaktiv utbetalning"
                   ]
                 }
@@ -37119,7 +37173,6 @@
                     "Ersättning får dras in eller sättas ned om den försäkrade utan giltig anledning vägrar att medverka till",
                     "1. behandling eller rehabilitering enligt 27 kap. 6 §, eller",
                     "2. rehabiliteringsåtgärder enligt 30 kap. 7 § och 31 kap. 3 §.",
-                    "Det som anges i första stycket gäller endast",
                     "1. omvårdnadsbidrag,",
                     "2. sjukpenning,",
                     "3. sjukersättning och aktivitetsersättning,",
@@ -37134,6 +37187,7 @@
                     "Lag (2018:1265)"
                   ],
                   "text": [
+                    "Det som anges i första stycket gäller endast",
                     "Det som i andra stycket föreskrivs om arbetsskada tillämpas också på motsvarande ersättningar enligt 43 och 44 kap.",
                     "Lag (2018:1265)."
                   ]

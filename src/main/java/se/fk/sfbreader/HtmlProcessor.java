@@ -20,7 +20,8 @@ public class HtmlProcessor {
     private static final Pattern AVDELNING_RE = Pattern.compile("^AVD\\.\\s+([A-Z])\\s+(.+)$");
     private static final Pattern KAPITEL_RE = Pattern.compile("^(\\d+\\s*[a-z]?)\\s+kap\\.\\s+(.+)$");
     private static final Pattern PARAGRAF_RE = Pattern.compile("^(\\d+\\s*[a-z]?)\\s*§$");
-    private static final Pattern ANCHOR_RE = Pattern.compile("K(\\d+[a-zA-Z]?)P(\\d+[a-zA-Z]?)S(\\d+)");
+    private static final Pattern PARAGRAPH_ANCHOR_RE = Pattern.compile("K(\\d+[a-zA-Z]?)P(\\d+[a-zA-Z]?)");
+    private static final Pattern PART_ANCHOR_RE = Pattern.compile("K(\\d+[a-zA-Z]?)P(\\d+[a-zA-Z]?)S(\\d+)");
 
     public HtmlProcessor() {}
 
@@ -62,9 +63,24 @@ public class HtmlProcessor {
     }
 
     private void ankare(Stack<Layer> stack, Element element) {
+        Attribute clazz = element.attribute("class");
         Attribute name = element.attribute("name");
-        Matcher matcher = ANCHOR_RE.matcher(name.getValue());
+
+        if (null != clazz && "paragraf".equalsIgnoreCase(clazz.getValue())) {
+            // <a class="paragraf" name="K5P9"><b>9 §</b></a>
+            Matcher matcher = PARAGRAPH_ANCHOR_RE.matcher(name.getValue());
+            if (matcher.find()) {
+                String chapter = matcher.group(1);
+                String paragraph = matcher.group(2);
+
+                log.debug("[ankare] Kapitel {}, paragraf {}", chapter, paragraph);
+            }
+            return;
+        }
+
+        Matcher matcher = PART_ANCHOR_RE.matcher(name.getValue());
         if (matcher.find()) {
+            // <a name="K5P8S3"></a>
             String chapter = matcher.group(1);
             String paragraph = matcher.group(2);
             String part = matcher.group(3);
@@ -74,16 +90,14 @@ public class HtmlProcessor {
             boolean stop = stack.empty();
             if (!stop) {
 
-                int lastStyckeNummer = 0;
-
                 // We have a new part (Stycke) coming soon, so we want to pop anything lower than paragraph (Paragraf)
+                Stycke previous = null;
                 do {
                     Layer layer = stack.peek();
                     switch (layer.type()) {
                         case "Stycke" -> {
-                            Stycke stycke = (Stycke) stack.pop();
-                            log.debug("[ankare] Pop: {}", stycke);
-                            lastStyckeNummer = stycke.nummer();
+                            previous = (Stycke) stack.pop();
+                            log.debug("[ankare] Pop: {}", previous);
                         }
                         default /* "Paragraf", "Kapitel", "Avdelning", "Lag" */ -> {
                             log.debug("[ankare] Keeping: {}", layer);
@@ -94,9 +108,12 @@ public class HtmlProcessor {
                 } while (!stop);
 
                 if (stack.peek() instanceof Paragraf paragraf) {
-                    Stycke nyttStycke = new Stycke(
-                            lastStyckeNummer > 0 ? ++lastStyckeNummer : 1
-                    );
+                    Stycke nyttStycke;
+                    if (null != previous) {
+                        nyttStycke = new Stycke(previous);
+                    } else {
+                        nyttStycke = new Stycke();
+                    }
                     paragraf.add(nyttStycke);
 
                     stack.push(nyttStycke);
@@ -252,7 +269,7 @@ public class HtmlProcessor {
                 log.debug("[paragraf] Push: {}", paragraf);
 
                 // Prepare the first stycke in this paragraph
-                Stycke nyttStycke = new Stycke(1);
+                Stycke nyttStycke = new Stycke();
                 paragraf.add(nyttStycke);
 
                 stack.push(nyttStycke);
@@ -300,7 +317,7 @@ public class HtmlProcessor {
 
                     if (paragraf.isEmpty()) {
                         // No Stycke yet, this text goes into first Stycke
-                        Stycke nyttStycke = new Stycke(1);
+                        Stycke nyttStycke = new Stycke();
                         paragraf.add(nyttStycke);
 
                         stack.push(nyttStycke);

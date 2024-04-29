@@ -136,11 +136,14 @@ public class LatexProcessor {
                 writer.append(template.render());
             }
 
+            int writtenLines = 0;
+
             for (String text : stycke.get()) {
-                if (text.matches(NEEDS_EXTRA_SPACING_RE)) {
+                if (text.matches(NEEDS_EXTRA_SPACING_RE) && writtenLines > 0) {
                     writer.append("\\newline ");
                 }
                 writer.append(text).append("\n");
+                writtenLines++;
             }
         }
     }
