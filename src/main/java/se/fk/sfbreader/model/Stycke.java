@@ -101,9 +101,11 @@ public class Stycke implements Layer {
     }
 
     public void prune() {
-        text.addAll(textOnHold);
-        textOnHold.clear();
-
+        if (!textOnHold.isEmpty()) {
+            log.warn("Text on hold in part " + this.nummer);
+            text.addAll(textOnHold);
+            textOnHold.clear();
+        }
         text.removeIf(String::isEmpty);
     }
 
