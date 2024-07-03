@@ -8,6 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import se.fk.sfbreader.model.*;
 
+import java.util.Objects;
 import java.util.Optional;
 import java.util.Stack;
 import java.util.regex.Matcher;
@@ -25,9 +26,57 @@ public class HtmlProcessor {
 
     public HtmlProcessor() {}
 
+    private void pushLayer(String where, Stack<Layer> stack, Layer layer) {
+        Objects.requireNonNull(where, "where");
+
+        stack.push(layer);
+        log.debug("[{}] Push: {}", where, layer);
+
+    }
+
+    private Layer popLayer(String where, Stack<Layer> stack) {
+        Objects.requireNonNull(where, "where");
+
+        Layer layer = stack.pop();
+        log.debug("[{}] Pop: {}", where, layer);
+        return layer;
+    }
+
+    /*
+     * Avdelningar are located in HTML like this (Note that superfluous trailing anchor <a name="S2">):
+     * <pre>
+     *   <h2>AVD. A ÖVERGRIPANDE BESTÄMMELSER</h2><p><a name="S2"></a></p>
+     * </pre>
+     * Currently detecting the h2...
+     *
+     * Underavdelingar are located in HTML like this (Note that superfluous trailing anchor <a name="S3">):
+     * <pre>
+     *   <h4 name="I  Bla bla bla"><a name="I  Bla bla bla">I  Bla bla bla</a></h4><p><a name="S3"></a></p><br />
+     * </pre>
+     * Currently detecting the h4... and treating as same kind of "rubrik" as found in chapters and paragraphs.
+     *
+     * Kapitel (chapters) are located in HTML like this:
+     * <pre>
+     *   <h3 name="K1"><a name="K1">1 kap. Something...
+     * </pre>
+     * Should we detect the h3.name or the a.name? Currently doing a RE on h3.name...
+     *
+     * Paragrafer (paragraphs) are located in HTML like this:
+     * <pre>
+     *   <a class="paragraf" name="K1P1"><b>1 §</b></a> &nbsp;&nbsp;Denna balk innehåller
+     * </pre>
+     * Should we detect the a.class or the b? Currently doing a RE on a.class...
+     *
+     * Stycken (parts) are located in HTML like this (Note how part 1 is implicit as part of paragraph):
+     * <pre>
+     *   <a class="paragraf" name="K26P29"><b>29 §</b></a> &nbsp;&nbsp;Stycke 1...<p><a name="K26P29S2"></a></p>Stycke 2...
+     * </pre>
+     *
+     *
+     */
     public Optional<Lag> process(Document doc) {
         Stack<Layer> stack = new Stack<>();
-        stack.push(new Lag("Socialförsäkringsbalk", "2010:110")); // Socialförsäkringsbalk (2010:110)
+        stack.push(new Lag("Socialförsäkringsbalk", "2010:110"));
 
         // want to ignore <div class="sfstoc">
         Element body = doc.select("div:not(.sfstoc)").first();
@@ -39,10 +88,9 @@ public class HtmlProcessor {
                     case "h2" -> avdelning(stack, element);
                     case "h3" -> kapitel(stack, element);
                     case "h4" -> rubrik(stack, element);
-                    case "b" -> paragraf(stack, element); // TODO Consider go via ankare
                     case "a" -> ankare(stack, element);
                     case "i" -> referens(stack, element);
-                    case "div", "p", "br", "pre" -> {
+                    case "div", "p", "br", "pre", "b" -> {
                         log.trace("Ignoring {}", nodeName);
                     }
                     default -> log.info("???? {}", node);
@@ -66,7 +114,9 @@ public class HtmlProcessor {
         Attribute clazz = element.attribute("class");
         Attribute name = element.attribute("name");
 
-        if (null != clazz && "paragraf".equalsIgnoreCase(clazz.getValue())) {
+        if (/* necessary */ null != clazz && "paragraf".equalsIgnoreCase(clazz.getValue())) {
+            // --- paragraf ---
+
             // <a class="paragraf" name="K5P9"><b>9 §</b></a>
             Matcher matcher = PARAGRAPH_ANCHOR_RE.matcher(name.getValue());
             if (matcher.find()) {
@@ -74,12 +124,15 @@ public class HtmlProcessor {
                 String paragraph = matcher.group(2);
 
                 log.debug("[ankare] Kapitel {}, paragraf {}", chapter, paragraph);
+                paragraf(stack, element, paragraph);
             }
             return;
         }
 
         Matcher matcher = PART_ANCHOR_RE.matcher(name.getValue());
         if (matcher.find()) {
+            // --- stycke ---
+
             // <a name="K5P8S3"></a>
             String chapter = matcher.group(1);
             String paragraph = matcher.group(2);
@@ -96,8 +149,7 @@ public class HtmlProcessor {
                     Layer layer = stack.peek();
                     switch (layer.type()) {
                         case "Stycke" -> {
-                            previous = (Stycke) stack.pop();
-                            log.debug("[ankare] Pop: {}", previous);
+                            previous = (Stycke) popLayer("ankare", stack);
                         }
                         default /* "Paragraf", "Kapitel", "Avdelning", "Lag" */ -> {
                             log.debug("[ankare] Keeping: {}", layer);
@@ -116,8 +168,7 @@ public class HtmlProcessor {
                     }
                     paragraf.add(nyttStycke);
 
-                    stack.push(nyttStycke);
-                    log.debug("[ankare] Push: {}", nyttStycke);
+                    pushLayer("ankare", stack, nyttStycke);
                 }
             }
         }
@@ -182,7 +233,7 @@ public class HtmlProcessor {
                 do {
                     Layer layer = stack.peek();
                     switch (layer.type()) {
-                        case "Stycke", "Paragraf", "Kapitel" -> log.debug("[kapitel] Pop: {}", stack.pop());
+                        case "Stycke", "Paragraf", "Kapitel" -> popLayer("kapitel", stack);
                         default /* "Avdelning", "Lag" */ -> {
                             log.debug("[kapitel] Keeping: {}", layer);
                             stop = true;
@@ -191,12 +242,11 @@ public class HtmlProcessor {
                     stop |= stack.empty();
                 } while (!stop);
 
-
                 if (!stack.empty() && stack.peek() instanceof Avdelning avdelning) {
                     avdelning.addKapitel(kapitel);
                 }
-                stack.push(kapitel);
-                log.debug("[kapitel] Push: {}", kapitel);
+
+                pushLayer("kapitel", stack, kapitel);
             }
         }
     }
@@ -217,7 +267,7 @@ public class HtmlProcessor {
             do {
                 Layer layer = stack.peek();
                 switch (layer.type()) {
-                    case "Stycke", "Paragraf" -> log.debug("[rubrik] Pop: {}", stack.pop());
+                    case "Stycke", "Paragraf" -> popLayer("rubriK", stack);
                     default /* "Kapitel", "Avdelning", "Lag" */ -> {
                         log.debug("[rubrik] Keeping: {}", layer);
                         stop = true;
@@ -232,49 +282,42 @@ public class HtmlProcessor {
                 avdelning.addSubRubrik(rubrik);
             }
 
-            stack.push(rubrik);
-            log.debug("[rubrik] Push: {}", rubrik);
+            pushLayer("rubrik", stack, rubrik);
         }
     }
 
-    private void paragraf(Stack<Layer> stack, Element element) {
+    private void paragraf(Stack<Layer> stack, Element element, String paragraph) {
         log.trace("[paragraf] >> {}", element);
-        Matcher matcher = PARAGRAF_RE.matcher(element.text());
-        if (matcher.find()) {
-            String paragraph = matcher.group(1);
 
-            //
-            boolean stop = stack.empty();
-            if (!stop) {
-                Paragraf paragraf = new Paragraf(paragraph);
+        //
+        boolean stop = stack.empty();
+        if (!stop) {
+            Paragraf paragraf = new Paragraf(paragraph);
 
-                // We have a new paragraph (Paragraf), so we want to pop anything lower than chapter (Kapitel)
-                do {
-                    Layer layer = stack.peek();
-                    switch (layer.type()) {
-                        case "Stycke", "Paragraf" -> log.debug("[paragraf] Pop: {}", stack.pop());
-                        default /* "Kapitel", "Avdelning", "Lag" */ -> {
-                            log.debug("[paragraf] Keeping: {}", layer);
-                            stop = true;
-                        }
+            // We have a new paragraph (Paragraf), so we want to pop anything lower than chapter (Kapitel)
+            do {
+                Layer layer = stack.peek();
+                switch (layer.type()) {
+                    case "Stycke", "Paragraf" -> popLayer("paragraf", stack);
+                    default /* "Kapitel", "Avdelning", "Lag" */ -> {
+                        log.debug("[paragraf] Keeping: {}", layer);
+                        stop = true;
                     }
-                    stop |= stack.empty();
-                } while (!stop);
-
-                if (stack.peek() instanceof Kapitel kapitel) {
-                    kapitel.addParagraf(paragraf);
                 }
+                stop |= stack.empty();
+            } while (!stop);
 
-                stack.push(paragraf);
-                log.debug("[paragraf] Push: {}", paragraf);
-
-                // Prepare the first stycke in this paragraph
-                Stycke nyttStycke = new Stycke();
-                paragraf.add(nyttStycke);
-
-                stack.push(nyttStycke);
-                log.debug("[paragraf] Push: {}", nyttStycke);
+            if (stack.peek() instanceof Kapitel kapitel) {
+                kapitel.addParagraf(paragraf);
             }
+
+            pushLayer("paragraf", stack, paragraf);
+
+            // Prepare the first stycke in this paragraph
+            Stycke nyttStycke = new Stycke();
+            paragraf.add(nyttStycke);
+
+            pushLayer("paragraf", stack, nyttStycke);
         }
     }
 
@@ -286,16 +329,14 @@ public class HtmlProcessor {
             Layer current = stack.peek();
             switch (current.type()) {
                 case "Referens" -> {
-                    Referens referens = (Referens) stack.pop();
-                    log.debug("[text#referens] Pop: {}", referens);
+                    Referens referens = (Referens) popLayer("text#referen", stack);
 
                     if (stack.peek() instanceof Stycke stycke) {
                         stycke.add(referens);
                     }
                 }
                 case "Direktiv" -> {
-                    Direktiv direktiv = (Direktiv) stack.pop();
-                    log.debug("[text#direktiv] Pop: {}", direktiv);
+                    Direktiv direktiv = (Direktiv) popLayer("text#direktiv", stack);
                 }
                 case "Stycke" -> {
                     Stycke stycke = (Stycke) current;
@@ -316,17 +357,15 @@ public class HtmlProcessor {
                     Paragraf paragraf = (Paragraf) current;
 
                     if (paragraf.isEmpty()) {
-                        // No Stycke yet, this text goes into first Stycke
+                        // This text goes into first Stycke
                         Stycke nyttStycke = new Stycke();
                         paragraf.add(nyttStycke);
 
-                        stack.push(nyttStycke);
-                        log.debug("[text#paragraf] Push: {}", nyttStycke);
+                        pushLayer("text#paragraf", stack, nyttStycke);
                     }
                 }
                 case "Rubrik" -> {
-                    Rubrik rubrik = (Rubrik) stack.pop();
-                    log.debug("[text#rubrik] Pop: {}", rubrik);
+                    Rubrik rubrik = (Rubrik) popLayer("text#rubrik", stack);
                 }
                 default /* "Kapitel", "Avdelning", "Lag" */ -> {
                     log.debug("[text] Ignoring at {}", current);
@@ -342,14 +381,12 @@ public class HtmlProcessor {
             if (text.startsWith("/")) {
                 if (stack.peek() instanceof Paragraf) {
                     Direktiv direktiv = new Direktiv(text);
-                    stack.push(direktiv);
-                    log.debug("[direktiv#paragraf] Push: {}", direktiv);
+                    pushLayer("direktiv#paragraf", stack, direktiv);
                 }
             } else {
                 if (stack.peek() instanceof Stycke) {
                     Referens referens = new Referens(text);
-                    stack.push(referens);
-                    log.debug("[referens#stycke] Push: {}", referens);
+                    pushLayer("referens#stycke", stack, referens);
                 }
             }
         }

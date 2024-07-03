@@ -114,7 +114,7 @@ public class Application {
             //
             process(inputFile, templates, directory.toPath(), System.out);
         } catch (Throwable t) {
-            System.err.println(t.getMessage());
+            t.printStackTrace(System.err);
         }
     }
 

@@ -145,9 +145,9 @@ paragrafsektion(namn) ::= <<
 
 >>
 
-stycke() ::= <<
+stycke(kapitelnummer,paragrafnummer,styckenummer) ::= <<
 \paragraph*{}
+{\tiny K$kapitelnummer$P$paragrafnummer$S$styckenummer$}
 
 >>
-
 

@@ -119,20 +119,25 @@ public class LatexProcessor {
                 writer.append(template.render());
             }
 
-            processParagraf(paragraf, group, writer);
+            processParagraf(kapitel, paragraf, group, writer);
         }
     }
 
     private void processParagraf(
+            final Kapitel kapitel,
             final Paragraf paragraf,
             final STGroup group,
             final FileWriterWithEncoding writer
     ) throws IOException {
 
+        int styckeNummer = 0;
         for (Stycke stycke : paragraf.get()) {
-            // stycke()
+            // stycke(kapitelnummer,paragrafnummer,styckenummer)
             {
                 ST template = group.getInstanceOf("stycke");
+                template.add("kapitelnummer", kapitel.id());
+                template.add("paragrafnummer", paragraf.nummer());
+                template.add("styckenummer", ++styckeNummer);
                 writer.append(template.render());
             }
 
@@ -142,6 +147,7 @@ public class LatexProcessor {
                 if (text.matches(NEEDS_EXTRA_SPACING_RE) && writtenLines > 0) {
                     writer.append("\\newline ");
                 }
+
                 writer.append(text).append("\n");
                 writtenLines++;
             }

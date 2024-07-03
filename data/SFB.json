@@ -210,7 +210,7 @@
               "rubrik": "Internationella förhållanden"
             },
             {
-              "nummer": "5 a",
+              "nummer": "5a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -291,7 +291,7 @@
               "rubrik": "Prisbasbelopp m.m."
             },
             {
-              "nummer": "10 a",
+              "nummer": "10a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -307,7 +307,7 @@
               "rubrik": "Riktålder för pension"
             },
             {
-              "nummer": "10 b",
+              "nummer": "10b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -332,7 +332,7 @@
               "rubrik": "Riktålder för pension"
             },
             {
-              "nummer": "10 c",
+              "nummer": "10c",
               "stycke": [
                 {
                   "nummer": 1,
@@ -355,7 +355,7 @@
               "rubrik": "Riktålder för pension"
             },
             {
-              "nummer": "10 d",
+              "nummer": "10d",
               "stycke": [
                 {
                   "nummer": 1,
@@ -586,7 +586,7 @@
               "rubrik": "Internationella förhållanden"
             },
             {
-              "nummer": "5 a",
+              "nummer": "5a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -698,6 +698,37 @@
                   "referens": [],
                   "text": [
                     "En person som på grund av anknytning till en internationell organisation omfattas av bestämmelserna i 4 § lagen om immunitet och privilegier i vissa fall ska anses vara bosatt i Sverige endast i den mån det är förenligt med vad som följer av tillämplig stadga eller avtal som anges i bilagan till den lagen."
+                  ]
+                }
+              ],
+              "rubrik": "Diplomater m.fl."
+            },
+            {
+              "nummer": "5a",
+              "stycke": [
+                {
+                  "nummer": 1,
+                  "referens": [],
+                  "text": [
+                    "/Träder i kraft I:den dag som regeringen bestämmer/",
+                    "Den som tillhör en främmande stats militära styrka eller ett Natohögkvarter, inklusive deras civila komponenter, och omfattas av 7, 8 eller 10 § lagen (1976:661) om immunitet och privilegier i vissa fall ska inte anses vara bosatt här i landet."
+                  ]
+                },
+                {
+                  "nummer": 2,
+                  "referens": [],
+                  "text": [
+                    "Första stycket gäller inte den som är anställd av en utländsk organisation och ingår i den civila komponenten av en sådan militär styrka som avses i 10 § lagen om immunitet och privilegier i vissa fall, om han eller hon är svensk medborgare."
+                  ]
+                },
+                {
+                  "nummer": 3,
+                  "referens": [
+                    "Lag (2024:536)"
+                  ],
+                  "text": [
+                    "Den som är anhörig till den som avses i första stycket eller är en sådan leverantör till styrkan som avses i 10 § lagen om immunitet och privilegier i vissa fall, ska anses vara bosatt i Sverige endast om han eller hon är svensk medborgare eller, utan att vara svensk medborgare, var bosatt här när han eller hon fick ställning som anhörig eller leverantör.",
+                    "Lag (2024:536)."
                   ]
                 }
               ],
@@ -996,7 +1027,7 @@
               "rubrik": "Speciella försäkringssituationer"
             },
             {
-              "nummer": "17 a",
+              "nummer": "17a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -1028,7 +1059,7 @@
               "rubrik": "Speciella försäkringssituationer"
             },
             {
-              "nummer": "18 a",
+              "nummer": "18a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -1187,6 +1218,7 @@
                   "nummer": 1,
                   "referens": [],
                   "text": [
+                    "/Upphör att gälla U:den dag som regeringen bestämmer/",
                     "Arbete som utförs av en person som tillhör en annan stats beskickning eller karriärkonsulat ska anses som arbete i Sverige endast om det är förenligt med bestämmelserna om immunitet och privilegier i de konventioner som anges i 2 och 3 §§ lagen (1976:661) om immunitet och privilegier i vissa fall. Detta gäller även en sådan persons privattjänare."
                   ]
                 },
@@ -1195,6 +1227,37 @@
                   "referens": [],
                   "text": [
                     "Ett sådant arbete som medför att en person på grund av anknytning till en internationell organisation omfattas av bestämmelserna i 4 § lagen om immunitet och privilegier i vissa fall ska anses som arbete i Sverige endast i den mån det är förenligt med vad som följer av tillämplig stadga eller avtal som anges i bilagan till den lagen."
+                  ]
+                }
+              ],
+              "rubrik": "Diplomater m.fl."
+            },
+            {
+              "nummer": "5",
+              "stycke": [
+                {
+                  "nummer": 1,
+                  "referens": [],
+                  "text": [
+                    "/Träder i kraft I:den dag som regeringen bestämmer/",
+                    "Arbete som utförs av en person som tillhör en annan stats beskickning eller karriärkonsulat ska anses som arbete i Sverige endast om det är förenligt med bestämmelserna om immunitet och privilegier i de konventioner som anges i 2 och 3 §§ lagen (1976:661) om immunitet och privilegier i vissa fall. Detta gäller även en sådan persons privattjänare."
+                  ]
+                },
+                {
+                  "nummer": 2,
+                  "referens": [],
+                  "text": [
+                    "Ett sådant arbete som medför att en person på grund av anknytning till en internationell organisation omfattas av bestämmelserna i 4 § lagen om immunitet och privilegier i vissa fall ska anses som arbete i Sverige endast i den mån det är förenligt med vad som följer av tillämplig stadga eller avtal som anges i bilagan till den lagen."
+                  ]
+                },
+                {
+                  "nummer": 3,
+                  "referens": [
+                    "Lag (2024:536)"
+                  ],
+                  "text": [
+                    "Arbete som utförs av en person som tillhör en amerikansk styrka, en anhörig till en sådan person eller en leverantör till styrkan ska anses som arbete i Sverige endast om det är förenligt med avtalet den 5 december 2023 mellan Sverige och Amerikas förenta stater om försvarssamarbete.",
+                    "Lag (2024:536)."
                   ]
                 }
               ],
@@ -1214,14 +1277,20 @@
                   "nummer": 2,
                   "referens": [],
                   "text": [
-                    "Avdelning B Familjeförmåner",
+                    "Avdelning B Familjeförmåner"
+                  ]
+                },
+                {
+                  "nummer": 3,
+                  "referens": [],
+                  "text": [
                     "1. graviditetspenning, (10 kap.)",
                     "2. föräldrapenning på grundnivå eller sjukpenningnivå och",
                     "tillfällig föräldrapenning, (11-13 kap.)"
                   ]
                 },
                 {
-                  "nummer": 3,
+                  "nummer": 4,
                   "referens": [],
                   "text": [
                     "Avdelning C Förmåner vid sjukdom eller arbetsskada",
@@ -1235,21 +1304,14 @@
                   ]
                 },
                 {
-                  "nummer": 4,
-                  "referens": [],
-                  "text": [
-                    "Avdelning E Förmåner vid ålderdom",
-                    "8. inkomstgrundad ålderspension, (55-64 och 69-71 kap.)",
-                    "8 a. inkomstpensionstillägg, (74 a kap.)"
-                  ]
-                },
-                {
                   "nummer": 5,
                   "referens": [
                     "Lag (2020:1239)"
                   ],
                   "text": [
-                    "Avdelning F Förmåner till efterlevande",
+                    "Avdelning E Förmåner vid ålderdom",
+                    "8. inkomstgrundad ålderspension, (55-64 och 69-71 kap.)",
+                    "8 a. inkomstpensionstillägg, (74 a kap.)",
                     "9. inkomstrelaterad",
                     "efterlevandepension, (77, 78, 80 och 82-85",
                     "kap.)",
@@ -1258,6 +1320,13 @@
                     "11. efterlevandeskydd i form av",
                     "premiepension. (89-92 kap.)",
                     "Lag (2020:1239)."
+                  ]
+                },
+                {
+                  "nummer": 6,
+                  "referens": [],
+                  "text": [
+                    "Avdelning F Förmåner till efterlevande"
                   ]
                 }
               ],
@@ -1490,6 +1559,7 @@
                     "Lag (2018:1265)"
                   ],
                   "text": [
+                    "/Upphör att gälla U:2025-10-01/",
                     "Den som får någon av följande förmåner är försäkrad för inkomstrelaterad sjukersättning och inkomstrelaterad aktivitetsersättning enligt 6 § 5, inkomstgrundad ålderspension enligt 6 § 8 och inkomstrelaterad efterlevandeförmån enligt 6 § 9 och 11:",
                     "1. omvårdnadsbidrag enligt 5 kap. 9 § 5,",
                     "2. dagpenning från arbetslöshetskassa,",
@@ -1498,6 +1568,29 @@
                     "5. dagpenning till totalförsvarspliktiga som tjänstgör enligt lagen (1994:1809) om totalförsvarsplikt och till andra som får dagpenning enligt de grunder som gäller för totalförsvarspliktiga, och",
                     "6. stipendium som enligt 11 kap. 46 § inkomstskattelagen (1999:1229) ska tas upp som intäkt i inkomstslaget tjänst.",
                     "Lag (2018:1265)."
+                  ]
+                }
+              ],
+              "rubrik": "Speciella försäkringssituationer"
+            },
+            {
+              "nummer": "20",
+              "stycke": [
+                {
+                  "nummer": 1,
+                  "referens": [
+                    "Lag (2024:508)"
+                  ],
+                  "text": [
+                    "/Träder i kraft I:2025-10-01/",
+                    "Den som får någon av följande förmåner är försäkrad för inkomstrelaterad sjukersättning och inkomstrelaterad aktivitetsersättning enligt 6 § 5, inkomstgrundad ålderspension enligt 6 § 8 och inkomstrelaterad efterlevandeförmån enligt 6 § 9 och 11:",
+                    "1. omvårdnadsbidrag enligt 5 kap. 9 § 5,",
+                    "2. arbetslöshetsersättning enligt lagen (2024:506) om arbetslöshetsförsäkring,",
+                    "3. aktivitetsstöd till den som deltar i ett arbetsmarknadspolitiskt program,",
+                    "4. ersättning till deltagare i teckenspråksutbildning för vissa föräldrar (TUFF),",
+                    "5. dagpenning till totalförsvarspliktiga som tjänstgör enligt lagen (1994:1809) om totalförsvarsplikt och till andra som får dagpenning enligt de grunder som gäller för totalförsvarspliktiga, och",
+                    "6. stipendium som enligt 11 kap. 46 § inkomstskattelagen (1999:1229) ska tas upp som intäkt i inkomstslaget tjänst.",
+                    "Lag (2024:508)."
                   ]
                 }
               ],
@@ -1904,7 +1997,7 @@
               "rubrik": "Förbud mot förvärvsarbete"
             },
             {
-              "nummer": "3 a",
+              "nummer": "3a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -1981,7 +2074,7 @@
               "rubrik": "Förmånstiden"
             },
             {
-              "nummer": "7 a",
+              "nummer": "7a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -2152,19 +2245,12 @@
                     "4. blivande adoptivförälder.",
                     "Lag (2018:1952)."
                   ]
-                },
-                {
-                  "nummer": 2,
-                  "referens": [],
-                  "text": [
-                    "/Rubriken träder i kraft I:2024-07-01/"
-                  ]
                 }
               ],
               "rubrik": "Vem som likställs med förälder"
             },
             {
-              "nummer": "4 a",
+              "nummer": "4a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -2172,7 +2258,6 @@
                     "Lag (2023:905)"
                   ],
                   "text": [
-                    "/Träder i kraft I:2024-07-01/",
                     "I fråga om föräldrapenning för en försäkrad som har fått rätt till sådan förmån genom överlåtelse enligt 12 kap. 17 a § likställs den försäkrade med en förälder.",
                     "Lag (2023:905)."
                   ]
@@ -2422,37 +2507,9 @@
                 {
                   "nummer": 1,
                   "referens": [
-                    "Lag (2013:999)"
-                  ],
-                  "text": [
-                    "/Upphör att gälla U:2024-07-01/",
-                    "I detta kapitel finns bestämmelser om",
-                    "- rätten till föräldrapenning i 2-11 §§,",
-                    "- förmånstiden i 12-13 §§,",
-                    "- vem som får föräldrapenningen i 14-17 §§,",
-                    "- ersättningsnivåer i 18-24 §§,",
-                    "- beräkning av föräldrapenning på sjukpenningnivån i 25-31 §§,",
-                    "- beräkning av antalet dagar med rätt till föräldrapenning i 32-34 §§,",
-                    "- föräldrapenning för de första 180 dagarna i 35-38 §§,",
-                    "- föräldrapenning efter 180 dagar i 39-41 §§,",
-                    "- föräldrapenning för tid efter barnets fjärde levnadsår i 41 a-41 h §§, och",
-                    "- föräldrapenning vid flerbarnsfödsel i 42-46 §§.",
-                    "Lag (2013:999)."
-                  ]
-                }
-              ],
-              "rubrik": "Innehåll"
-            },
-            {
-              "nummer": "1",
-              "stycke": [
-                {
-                  "nummer": 1,
-                  "referens": [
                     "Lag (2023:905)"
                   ],
                   "text": [
-                    "/Träder i kraft I:2024-07-01/",
                     "I detta kapitel finns bestämmelser om",
                     "- rätten till föräldrapenning i 2-11 §§,",
                     "- förmånstiden i 12-13 §§,",
@@ -2523,37 +2580,12 @@
               "rubrik": "Allmänna bestämmelser"
             },
             {
-              "nummer": "4 a",
+              "nummer": "4a",
               "stycke": [
                 {
                   "nummer": 1,
                   "referens": [],
                   "text": [
-                    "/Upphör att gälla U:2024-07-01/",
-                    "Föräldrapenning får för samma barn och tid lämnas till båda föräldrarna samtidigt i högst 30 dagar under barnets första levnadsår, räknat från barnets födelse eller därmed likställd tidpunkt. Detta gäller endast dagar för vilka det inte för någon av föräldrarna finns hinder enligt 17 § andra stycket mot att avstå föräldrapenning till förmån för den andra föräldern."
-                  ]
-                },
-                {
-                  "nummer": 2,
-                  "referens": [
-                    "Lag (2011:1082)"
-                  ],
-                  "text": [
-                    "Bestämmelser om ansökan i fall som avses i första stycket finns i 110 kap. 5 a §.",
-                    "Lag (2011:1082)."
-                  ]
-                }
-              ],
-              "rubrik": "Allmänna bestämmelser"
-            },
-            {
-              "nummer": "4 a",
-              "stycke": [
-                {
-                  "nummer": 1,
-                  "referens": [],
-                  "text": [
-                    "/Träder i kraft I:2024-07-01/",
                     "Föräldrapenning får för samma barn och tid lämnas till båda föräldrarna samtidigt i högst 60 dagar under 15 månader, räknat från barnets födelse eller därmed likställd tidpunkt. Detta gäller endast dagar för vilka det inte för någon av föräldrarna finns hinder enligt 17 § andra stycket mot att avstå föräldrapenning till förmån för den andra föräldern."
                   ]
                 },
@@ -2591,7 +2623,7 @@
               "rubrik": "Barnets mor"
             },
             {
-              "nummer": "5 a",
+              "nummer": "5a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -2650,7 +2682,7 @@
               "rubrik": "Förskola, skola och viss annan pedagogisk verksamhet"
             },
             {
-              "nummer": "7 a",
+              "nummer": "7a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -2786,7 +2818,7 @@
               "rubrik": "Förmånstiden"
             },
             {
-              "nummer": "12 a",
+              "nummer": "12a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -2847,7 +2879,7 @@
               "rubrik": "Gemensam vårdnad"
             },
             {
-              "nummer": "15 a",
+              "nummer": "15a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -2863,7 +2895,7 @@
               "rubrik": "Gemensam vårdnad"
             },
             {
-              "nummer": "15 b",
+              "nummer": "15b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -2920,25 +2952,17 @@
                     "I anmälan ska det anges vilka ersättningsnivåer enligt 18 § avståendet avser.",
                     "Lag (2022:1291)."
                   ]
-                },
-                {
-                  "nummer": 4,
-                  "referens": [],
-                  "text": [
-                    "/Rubriken träder i kraft I:2024-07-01/"
-                  ]
                 }
               ],
               "rubrik": "Förmåga att vårda barnet saknas"
             },
             {
-              "nummer": "17 a",
+              "nummer": "17a",
               "stycke": [
                 {
                   "nummer": 1,
                   "referens": [],
                   "text": [
-                    "/Träder i kraft I:2024-07-01/",
                     "En förälder kan genom skriftlig anmälan till Försäkringskassan överlåta rätten till föräldrapenning till någon annan som är försäkrad för sådan förmån. Detta gäller dock inte föräldrapenning för sådan tid som avses i 17 § andra stycket."
                   ]
                 },
@@ -2963,7 +2987,7 @@
               "rubrik": "Överlåtelse av rätten till föräldrapenning"
             },
             {
-              "nummer": "17 b",
+              "nummer": "17b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -2971,23 +2995,15 @@
                     "Lag (2023:905)"
                   ],
                   "text": [
-                    "/Träder i kraft I:2024-07-01/",
                     "Högst 90 dagar för varje barn får överlåtas. Om föräldrarna har gemensam vårdnad om ett barn, har vardera föräldern rätt att överlåta högst 45 dagar.",
                     "Lag (2023:905)."
-                  ]
-                },
-                {
-                  "nummer": 2,
-                  "referens": [],
-                  "text": [
-                    "/Rubriken träder i kraft I:2024-07-01/"
                   ]
                 }
               ],
               "rubrik": "Överlåtelse av rätten till föräldrapenning"
             },
             {
-              "nummer": "17 c",
+              "nummer": "17c",
               "stycke": [
                 {
                   "nummer": 1,
@@ -2995,7 +3011,6 @@
                     "Lag (2023:905)"
                   ],
                   "text": [
-                    "/Träder i kraft I:2024-07-01/",
                     "En förälder som har avstått eller överlåtit rätten till föräldrapenning får återta avståendet eller överlåtelsen för dagar som inte har utnyttjats.",
                     "Lag (2023:905)."
                   ]
@@ -3325,7 +3340,7 @@
               "rubrik": "Avräkning för utländsk förmån"
             },
             {
-              "nummer": "34 a",
+              "nummer": "34a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -3458,7 +3473,7 @@
               "rubrik": "Enbart arbetsbaserad föräldrapenning"
             },
             {
-              "nummer": "41 a",
+              "nummer": "41a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -3475,7 +3490,7 @@
               "rubrik": "Föräldrapenning för tid efter barnets fjärde levnadsår"
             },
             {
-              "nummer": "41 b",
+              "nummer": "41b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -3491,7 +3506,7 @@
               "rubrik": "Föräldrapenning för tid efter barnets fjärde levnadsår"
             },
             {
-              "nummer": "41 c",
+              "nummer": "41c",
               "stycke": [
                 {
                   "nummer": 1,
@@ -3507,7 +3522,7 @@
               "rubrik": "Föräldrapenning för tid efter barnets fjärde levnadsår"
             },
             {
-              "nummer": "41 d",
+              "nummer": "41d",
               "stycke": [
                 {
                   "nummer": 1,
@@ -3523,7 +3538,7 @@
               "rubrik": "Föräldrapenning för tid efter barnets fjärde levnadsår"
             },
             {
-              "nummer": "41 e",
+              "nummer": "41e",
               "stycke": [
                 {
                   "nummer": 1,
@@ -3546,7 +3561,7 @@
               "rubrik": "Föräldrapenning för tid efter barnets fjärde levnadsår"
             },
             {
-              "nummer": "41 f",
+              "nummer": "41f",
               "stycke": [
                 {
                   "nummer": 1,
@@ -3562,7 +3577,7 @@
               "rubrik": "Föräldrapenning för tid efter barnets fjärde levnadsår"
             },
             {
-              "nummer": "41 g",
+              "nummer": "41g",
               "stycke": [
                 {
                   "nummer": 1,
@@ -3578,7 +3593,7 @@
               "rubrik": "Föräldrapenning för tid efter barnets fjärde levnadsår"
             },
             {
-              "nummer": "41 h",
+              "nummer": "41h",
               "stycke": [
                 {
                   "nummer": 1,
@@ -3654,7 +3669,7 @@
               "rubrik": "Flerbarnsfödsel med minst tre barn"
             },
             {
-              "nummer": "45 a",
+              "nummer": "45a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -3753,7 +3768,7 @@
               "rubrik": "Inledande bestämmelser"
             },
             {
-              "nummer": "2 a",
+              "nummer": "2a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -3794,7 +3809,7 @@
               "rubrik": "Inledande bestämmelser"
             },
             {
-              "nummer": "3 a",
+              "nummer": "3a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -3921,7 +3936,7 @@
               "rubrik": "Överlåtelse av rätten till tillfällig föräldrapenning"
             },
             {
-              "nummer": "9 a",
+              "nummer": "9a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -4313,7 +4328,7 @@
               "rubrik": "Vård av allvarligt sjukt barn"
             },
             {
-              "nummer": "31 a",
+              "nummer": "31a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -4332,7 +4347,7 @@
               "rubrik": "Rätten till förmånen"
             },
             {
-              "nummer": "31 b",
+              "nummer": "31b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -4345,7 +4360,7 @@
               "rubrik": "Rätten till förmånen"
             },
             {
-              "nummer": "31 c",
+              "nummer": "31c",
               "stycke": [
                 {
                   "nummer": 1,
@@ -4358,7 +4373,7 @@
               "rubrik": "Rätten till förmånen"
             },
             {
-              "nummer": "31 d",
+              "nummer": "31d",
               "stycke": [
                 {
                   "nummer": 1,
@@ -4371,7 +4386,7 @@
               "rubrik": "Förmånstiden"
             },
             {
-              "nummer": "31 e",
+              "nummer": "31e",
               "stycke": [
                 {
                   "nummer": 1,
@@ -4387,7 +4402,7 @@
               "rubrik": "Tillfällig föräldrapenning i samband med att ett barn har avlidit"
             },
             {
-              "nummer": "31 f",
+              "nummer": "31f",
               "stycke": [
                 {
                   "nummer": 1,
@@ -5451,7 +5466,7 @@
               "rubrik": "Betalning av underhåll"
             },
             {
-              "nummer": "9 a",
+              "nummer": "9a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -6005,7 +6020,7 @@
               "rubrik": "Särskilda handläggningsbestämmelser"
             },
             {
-              "nummer": "40 a",
+              "nummer": "40a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -6048,7 +6063,7 @@
               "rubrik": "Särskilda handläggningsbestämmelser"
             },
             {
-              "nummer": "42 a",
+              "nummer": "42a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -7804,12 +7819,13 @@
               "rubrik": "Inkomst av anställning"
             },
             {
-              "nummer": "7 a",
+              "nummer": "7a",
               "stycke": [
                 {
                   "nummer": 1,
                   "referens": [],
                   "text": [
+                    "/Upphör att gälla U:2025-10-01/",
                     "För en försäkrad som har inkomst av anställning, bedriver näringsverksamhet i aktiebolagsform och som är företagare i den mening som avses i 34-34 c §§ lagen (1997:238) om arbetslöshetsförsäkring ska, under en tid om 36 månader räknat från den månad då anmälan för registrering enligt 7 kap. 2 § skatteförfarandelagen (2011:1244) har gjorts eller borde ha gjorts (uppbyggnadsskedet), den sjukpenninggrundande inkomsten av anställningen i aktiebolaget beräknas till minst vad som motsvarar skälig avlöning för liknande arbete för annans räkning."
                   ]
                 },
@@ -7821,6 +7837,30 @@
                   "text": [
                     "Om den försäkrade tidigare har bedrivit samma verksamhet i en sådan företagsform som avses i 9 § första stycket ska uppbyggnadsskedet räknas från den tidpunkt som följer av den paragrafen.",
                     "Lag (2018:670)."
+                  ]
+                }
+              ],
+              "rubrik": "Inkomst av anställning"
+            },
+            {
+              "nummer": "7a",
+              "stycke": [
+                {
+                  "nummer": 1,
+                  "referens": [],
+                  "text": [
+                    "/Träder i kraft I:2025-10-01/",
+                    "För en försäkrad som har inkomst av anställning, bedriver näringsverksamhet i aktiebolagsform och som är företagare i den mening som avses i 2 kap. 6 och 7 §§ lagen (2024:506) om arbetslöshetsförsäkring ska, under en tid om 36 månader räknat från den månad då anmälan för registrering enligt 7 kap. 2 § skatteförfarandelagen (2011:1244) har gjorts eller borde ha gjorts (uppbyggnadsskedet), den sjukpenninggrundande inkomsten av anställningen i aktiebolaget beräknas till minst vad som motsvarar skälig avlöning för liknande arbete för annans räkning."
+                  ]
+                },
+                {
+                  "nummer": 2,
+                  "referens": [
+                    "Lag (2024:508)"
+                  ],
+                  "text": [
+                    "Om den försäkrade tidigare har bedrivit samma verksamhet i en sådan företagsform som avses i 9 § första stycket ska uppbyggnadsskedet räknas från den tidpunkt som följer av den paragrafen.",
+                    "Lag (2024:508)."
                   ]
                 }
               ],
@@ -7993,9 +8033,33 @@
                     "Har upphävts genom",
                     "lag (2012:834)."
                   ]
+                },
+                {
+                  "nummer": 2,
+                  "referens": [],
+                  "text": [
+                    "/Rubriken träder i kraft I:den dag som regeringen bestämmer/"
+                  ]
                 }
               ],
               "rubrik": "Ersättning från handelsbolag till delägare, m.m."
+            },
+            {
+              "nummer": "15",
+              "stycke": [
+                {
+                  "nummer": 1,
+                  "referens": [
+                    "Lag (2024:536)"
+                  ],
+                  "text": [
+                    "/Träder i kraft I:den dag som regeringen bestämmer/",
+                    "Som inkomst av annat förvärvsarbete räknas lön eller annan ersättning för arbete som den försäkrade får från en amerikansk styrka eller en utländsk organisation som driver en sådan militär serviceverksamhet som regleras i avtalet den 5 december 2023 mellan Sverige och Amerikas förenta stater om försvarssamarbete, om den försäkrade är en sådan lokal civilanställd som avses i artikel 24 i avtalet.",
+                    "Lag (2024:536)."
+                  ]
+                }
+              ],
+              "rubrik": "Ersättning som lämnas av vissa militära serviceverksamheter"
             },
             {
               "nummer": "17",
@@ -8470,7 +8534,7 @@
               "rubrik": "Plikttjänstgöring samt annan militär utbildning och tjänstgöring"
             },
             {
-              "nummer": "16 a",
+              "nummer": "16a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -8579,7 +8643,7 @@
               "rubrik": "Kortare avbrott i förvärvsarbete"
             },
             {
-              "nummer": "18 a",
+              "nummer": "18a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -8671,7 +8735,7 @@
               "rubrik": "Studieuppehåll"
             },
             {
-              "nummer": "22 a",
+              "nummer": "22a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -8695,7 +8759,7 @@
               "rubrik": "Försäkrade som fått sjukersättning, aktivitetsersättning eller livränta"
             },
             {
-              "nummer": "22 a",
+              "nummer": "22a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -8719,7 +8783,7 @@
               "rubrik": "Försäkrade som fått sjukersättning, aktivitetsersättning eller livränta"
             },
             {
-              "nummer": "22 b",
+              "nummer": "22b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -8736,7 +8800,7 @@
               "rubrik": "Försäkrade som fått sjukersättning, aktivitetsersättning eller livränta"
             },
             {
-              "nummer": "22 b",
+              "nummer": "22b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -9116,7 +9180,7 @@
               "rubrik": "Samordning med sjuklön"
             },
             {
-              "nummer": "9 a",
+              "nummer": "9a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -9165,7 +9229,7 @@
               "rubrik": "De första fjorton dagarna"
             },
             {
-              "nummer": "11 a",
+              "nummer": "11a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -9251,7 +9315,7 @@
               "rubrik": "Plikttjänstgöring"
             },
             {
-              "nummer": "16 a",
+              "nummer": "16a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -9421,7 +9485,7 @@
               "rubrik": "Förmånstiden för sjukpenning på fortsättningsnivån"
             },
             {
-              "nummer": "24 a",
+              "nummer": "24a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -9517,7 +9581,7 @@
               "rubrik": "Karensavdrag och karensdagar"
             },
             {
-              "nummer": "27 a",
+              "nummer": "27a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -9563,7 +9627,7 @@
               "rubrik": "Karensavdrag och karensdagar"
             },
             {
-              "nummer": "28 a",
+              "nummer": "28a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -9586,7 +9650,7 @@
               "rubrik": "Karensavdrag och karensdagar"
             },
             {
-              "nummer": "28 b",
+              "nummer": "28b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -9717,7 +9781,7 @@
               "rubrik": "Återinsjuknande"
             },
             {
-              "nummer": "33 a",
+              "nummer": "33a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -9769,7 +9833,7 @@
               "rubrik": "Sjukpenning i samband med sjukersättning, aktivitetsersättning eller pension"
             },
             {
-              "nummer": "35 a",
+              "nummer": "35a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -9878,7 +9942,7 @@
               "rubrik": "Allmänt högriskskydd"
             },
             {
-              "nummer": "39 a",
+              "nummer": "39a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -10124,7 +10188,7 @@
               "rubrik": "Särskilt om bedömningen efter 365 dagar"
             },
             {
-              "nummer": "49 a",
+              "nummer": "49a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -10140,7 +10204,7 @@
               "rubrik": "Särskilt om bedömningen efter 365 dagar"
             },
             {
-              "nummer": "49 b",
+              "nummer": "49b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -10172,7 +10236,7 @@
               "rubrik": "Bedömningen för behovsanställda"
             },
             {
-              "nummer": "49 c",
+              "nummer": "49c",
               "stycke": [
                 {
                   "nummer": 1,
@@ -10188,7 +10252,7 @@
               "rubrik": "Bedömningen för behovsanställda"
             },
             {
-              "nummer": "49 d",
+              "nummer": "49d",
               "stycke": [
                 {
                   "nummer": 1,
@@ -10218,7 +10282,7 @@
               "rubrik": "Undantag för vissa försäkrade som har rätt till inkomstgrundad ålderspension"
             },
             {
-              "nummer": "49 e",
+              "nummer": "49e",
               "stycke": [
                 {
                   "nummer": 1,
@@ -10327,7 +10391,7 @@
               "rubrik": "Försäkrade som får sjukersättning eller aktivitetsersättning m.m."
             },
             {
-              "nummer": "55 a",
+              "nummer": "55a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -10343,7 +10407,7 @@
               "rubrik": "Försäkrade som får sjukersättning eller aktivitetsersättning m.m."
             },
             {
-              "nummer": "55 b",
+              "nummer": "55b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -11463,7 +11527,7 @@
               "rubrik": "Arbetsgivarens skyldigheter"
             },
             {
-              "nummer": "6 a",
+              "nummer": "6a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -12422,7 +12486,7 @@
               "rubrik": "Bedömningen av arbetsförmågans nedsättning"
             },
             {
-              "nummer": "10 a",
+              "nummer": "10a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -12447,7 +12511,7 @@
               "rubrik": "Sjukersättning för äldre"
             },
             {
-              "nummer": "10 b",
+              "nummer": "10b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -13685,7 +13749,7 @@
               "rubrik": "Livränta"
             },
             {
-              "nummer": "9 a",
+              "nummer": "9a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -13817,7 +13881,7 @@
               "rubrik": "Tiden för vilandeförklaring"
             },
             {
-              "nummer": "15 a",
+              "nummer": "15a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -13833,7 +13897,7 @@
               "rubrik": "Tiden för vilandeförklaring"
             },
             {
-              "nummer": "15 b",
+              "nummer": "15b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -13901,7 +13965,7 @@
               "rubrik": "Sjukersättning eller aktivitetsersättning under period med vilande sådan ersättning"
             },
             {
-              "nummer": "18 a",
+              "nummer": "18a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -13917,7 +13981,7 @@
               "rubrik": "Aktivitetsersättning efter tid för vilandeförklaring"
             },
             {
-              "nummer": "18 b",
+              "nummer": "18b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -13933,7 +13997,7 @@
               "rubrik": "Aktivitetsersättning efter tid för vilandeförklaring"
             },
             {
-              "nummer": "18 c",
+              "nummer": "18c",
               "stycke": [
                 {
                   "nummer": 1,
@@ -13956,7 +14020,7 @@
               "rubrik": "Aktivitetsersättning efter tid för vilandeförklaring"
             },
             {
-              "nummer": "18 d",
+              "nummer": "18d",
               "stycke": [
                 {
                   "nummer": 1,
@@ -15503,7 +15567,7 @@
               "rubrik": "Samordning med andra socialförsäkringsförmåner"
             },
             {
-              "nummer": "4 a",
+              "nummer": "4a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -17602,7 +17666,7 @@
               "rubrik": "Beräkning av assistansersättning"
             },
             {
-              "nummer": "11 a",
+              "nummer": "11a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -17711,7 +17775,7 @@
               "rubrik": "Utbetalning till den försäkrade"
             },
             {
-              "nummer": "16 a",
+              "nummer": "16a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -17734,7 +17798,7 @@
               "rubrik": "Utbetalning till den försäkrade"
             },
             {
-              "nummer": "16 b",
+              "nummer": "16b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -18318,7 +18382,7 @@
               "rubrik": "Anskaffningsbidrag"
             },
             {
-              "nummer": "18 a",
+              "nummer": "18a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -18334,7 +18398,7 @@
               "rubrik": "Tilläggsbidrag vid behov av efteranpassning"
             },
             {
-              "nummer": "18 b",
+              "nummer": "18b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -18352,7 +18416,7 @@
               "rubrik": "Tilläggsbidrag för särskilt lämpad personbil"
             },
             {
-              "nummer": "18 c",
+              "nummer": "18c",
               "stycke": [
                 {
                   "nummer": 1,
@@ -18375,7 +18439,7 @@
               "rubrik": "Tilläggsbidrag för särskilda originalmonterade anordningar"
             },
             {
-              "nummer": "18 d",
+              "nummer": "18d",
               "stycke": [
                 {
                   "nummer": 1,
@@ -18424,7 +18488,7 @@
               "rubrik": "Anpassningsbidrag"
             },
             {
-              "nummer": "19 a",
+              "nummer": "19a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -18502,7 +18566,7 @@
               "rubrik": "Begränsningsregler"
             },
             {
-              "nummer": "22 a",
+              "nummer": "22a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -18988,7 +19052,7 @@
               "rubrik": "Allmänna bestämmelser"
             },
             {
-              "nummer": "4 a",
+              "nummer": "4a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -19005,7 +19069,7 @@
               "rubrik": "Allmänna bestämmelser"
             },
             {
-              "nummer": "4 a",
+              "nummer": "4a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -19644,7 +19708,7 @@
               "rubrik": "Balanstal"
             },
             {
-              "nummer": "20 a",
+              "nummer": "20a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -20044,6 +20108,7 @@
                     "Lag (2022:858)"
                   ],
                   "text": [
+                    "/Upphör att gälla U:2025-10-01/",
                     "Som inkomst av anställning räknas följande sociala förmåner:",
                     "1. Föräldrapenningsförmåner.",
                     "2. Omvårdnadsbidrag.",
@@ -20059,6 +20124,36 @@
                     "12. Bidrag från Sveriges författarfond och Konstnärsnämnden i den utsträckning som regeringen föreskriver det.",
                     "13. Omställningsstudiebidrag enligt lagen (2022:856) om omställningsstudiestöd.",
                     "Lag (2022:858)."
+                  ]
+                }
+              ],
+              "rubrik": "Sociala förmåner"
+            },
+            {
+              "nummer": "13",
+              "stycke": [
+                {
+                  "nummer": 1,
+                  "referens": [
+                    "Lag (2024:508)"
+                  ],
+                  "text": [
+                    "/Träder i kraft I:2025-10-01/",
+                    "Som inkomst av anställning räknas följande sociala förmåner:",
+                    "1. Föräldrapenningsförmåner.",
+                    "2. Omvårdnadsbidrag.",
+                    "3. Ersättning från Försäkringskassan i form av sjuklönegaranti enligt 20 § lagen (1999:1047) om sjuklön.",
+                    "4. Sjukpenning eller motsvarande ersättning enligt denna balk eller annan författning eller på grund av särskilt beslut av regeringen. Detta gäller i den utsträckning ersättningen har trätt i stället för en försäkrads inkomst som arbetstagare i allmän eller enskild tjänst.",
+                    "5. Inkomstrelaterad sjukersättning och inkomstrelaterad aktivitets-ersättning.",
+                    "6. Livränta på grund av arbetsskada eller annan skada som avses i 41-44 kap.",
+                    "7. Närståendepenning.",
+                    "8. Arbetslöshetsersättning enligt lagen (2024:506) om arbetslöshetsförsäkring.",
+                    "9. Aktivitetsstöd till den som deltar i ett arbetsmarknadspolitiskt program.",
+                    "10. Ersättning till deltagare i teckenspråksutbildning för vissa föräldrar (TUFF).",
+                    "11. Dagpenning till totalförsvarspliktiga som tjänstgör enligt lagen (1994:1809) om totalförsvarsplikt och till andra som får dagpenning enligt de grunder som gäller för totalförsvarspliktiga.",
+                    "12. Bidrag från Sveriges författarfond och Konstnärsnämnden i den utsträckning som regeringen föreskriver det.",
+                    "13. Omställningsstudiebidrag enligt lagen (2022:856) om omställningsstudiestöd.",
+                    "Lag (2024:508)."
                   ]
                 }
               ],
@@ -20217,9 +20312,33 @@
                     "Har upphävts genom",
                     "lag (2012:834)."
                   ]
+                },
+                {
+                  "nummer": 2,
+                  "referens": [],
+                  "text": [
+                    "/Rubriken träder i kraft I:den dag som regeringen bestämmer/"
+                  ]
                 }
               ],
               "rubrik": "Ersättning från handelsbolag till delägare, m.m."
+            },
+            {
+              "nummer": "21",
+              "stycke": [
+                {
+                  "nummer": 1,
+                  "referens": [
+                    "Lag (2024:536)"
+                  ],
+                  "text": [
+                    "/Träder i kraft I:den dag som regeringen bestämmer/",
+                    "Som inkomst av annat förvärvsarbete räknas lön eller annan ersättning för arbete som den försäkrade får från en amerikansk styrka eller en utländsk organisation som driver en sådan militär serviceverksamhet som regleras i avtalet den 5 december 2023 mellan Sverige och Amerikas förenta stater om försvarssamarbete, om den försäkrade är en sådan lokal civilanställd som avses i artikel 24 i avtalet.",
+                    "Lag (2024:536)."
+                  ]
+                }
+              ],
+              "rubrik": "Ersättning som lämnas av vissa militära serviceverksamheter"
             },
             {
               "nummer": "22",
@@ -23523,7 +23642,7 @@
               "rubrik": "Premiepensionssystemet"
             },
             {
-              "nummer": "2 a",
+              "nummer": "2a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -23541,7 +23660,7 @@
               "rubrik": "Målet för premiepensionssystemet"
             },
             {
-              "nummer": "2 b",
+              "nummer": "2b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -23590,7 +23709,7 @@
               "rubrik": "Försäkringsgivare"
             },
             {
-              "nummer": "3 a",
+              "nummer": "3a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -23613,7 +23732,7 @@
               "rubrik": "Fondtorget för premiepensionen"
             },
             {
-              "nummer": "3 b",
+              "nummer": "3b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -23629,7 +23748,7 @@
               "rubrik": "Fondtorget för premiepensionen"
             },
             {
-              "nummer": "3 c",
+              "nummer": "3c",
               "stycke": [
                 {
                   "nummer": 1,
@@ -23876,7 +23995,7 @@
               "rubrik": "Tillfällig förvaltning"
             },
             {
-              "nummer": "17 a",
+              "nummer": "17a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -23892,7 +24011,7 @@
               "rubrik": "Tillfällig förvaltning"
             },
             {
-              "nummer": "17 b",
+              "nummer": "17b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -23908,7 +24027,7 @@
               "rubrik": "Tillfällig förvaltning"
             },
             {
-              "nummer": "17 c",
+              "nummer": "17c",
               "stycke": [
                 {
                   "nummer": 1,
@@ -23924,7 +24043,7 @@
               "rubrik": "Tillfällig förvaltning"
             },
             {
-              "nummer": "17 d",
+              "nummer": "17d",
               "stycke": [
                 {
                   "nummer": 1,
@@ -24128,7 +24247,7 @@
               "rubrik": "Årlig överföring"
             },
             {
-              "nummer": "26 a",
+              "nummer": "26a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -24144,7 +24263,7 @@
               "rubrik": "Valarkitekturen för premiepensionssystemet"
             },
             {
-              "nummer": "26 b",
+              "nummer": "26b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -24160,7 +24279,7 @@
               "rubrik": "Valarkitekturen för premiepensionssystemet"
             },
             {
-              "nummer": "26 c",
+              "nummer": "26c",
               "stycke": [
                 {
                   "nummer": 1,
@@ -24183,7 +24302,7 @@
               "rubrik": "Valarkitekturen för premiepensionssystemet"
             },
             {
-              "nummer": "26 d",
+              "nummer": "26d",
               "stycke": [
                 {
                   "nummer": 1,
@@ -24199,7 +24318,7 @@
               "rubrik": "Valarkitekturen för premiepensionssystemet"
             },
             {
-              "nummer": "26 e",
+              "nummer": "26e",
               "stycke": [
                 {
                   "nummer": 1,
@@ -24228,7 +24347,7 @@
               "rubrik": "Föreskrifter om valarkitekturen"
             },
             {
-              "nummer": "27 a",
+              "nummer": "27a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -24251,7 +24370,7 @@
               "rubrik": "Överföring av medel när ett fondavtal upphör att gälla"
             },
             {
-              "nummer": "27 b",
+              "nummer": "27b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -25083,7 +25202,7 @@
               "rubrik": "Uppräkning av vissa beräkningsunderlag"
             },
             {
-              "nummer": "20 a",
+              "nummer": "20a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -25142,7 +25261,7 @@
               "rubrik": "Garantipension i andra fall"
             },
             {
-              "nummer": "22 a",
+              "nummer": "22a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -25547,7 +25666,7 @@
               "rubrik": "Inkomstgrundad ålderspension"
             },
             {
-              "nummer": "16 a",
+              "nummer": "16a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -25582,7 +25701,7 @@
               "rubrik": "Övriga förmåner som ingår i beräkningsunderlaget"
             },
             {
-              "nummer": "17 a",
+              "nummer": "17a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -25647,7 +25766,7 @@
               "rubrik": "Uttag av inkomstgrundad ålderspension från en annan tidpunkt än vid 65 års ålder för den som är född 1953 eller tidigare"
             },
             {
-              "nummer": "20 a",
+              "nummer": "20a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -25670,7 +25789,7 @@
               "rubrik": "Uttag av inkomstgrundad ålderspension från en annan tidpunkt än vid 65 års ålder för den som är född 1954-1957"
             },
             {
-              "nummer": "20 b",
+              "nummer": "20b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -25687,7 +25806,7 @@
               "rubrik": "Uttag av inkomstgrundad ålderspension från en annan tidpunkt än vid 66 års ålder för den som är född 1958 eller senare"
             },
             {
-              "nummer": "20 b",
+              "nummer": "20b",
               "stycke": [
                 {
                   "nummer": 1,
@@ -25711,7 +25830,7 @@
               "rubrik": "Uttag av inkomstgrundad ålderspension från en annan tidpunkt än vid 66 års ålder för den som är född 1958 eller senare"
             },
             {
-              "nummer": "20 c",
+              "nummer": "20c",
               "stycke": [
                 {
                   "nummer": 1,
@@ -28696,7 +28815,7 @@
               "rubrik": "Grundläggande bestämmelser"
             },
             {
-              "nummer": "9 a",
+              "nummer": "9a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -31115,7 +31234,7 @@
                   "nummer": 1,
                   "referens": [],
                   "text": [
-                    "/Upphör att gälla U:2024-07-01/",
+                    "/Upphör att gälla U:2025-01-01/",
                     "En förmån enligt denna avdelning lämnas endast till den som har ett gällande försäkringsskydd för förmånen enligt 4 och 5 kap."
                   ]
                 },
@@ -31139,7 +31258,7 @@
                   "nummer": 1,
                   "referens": [],
                   "text": [
-                    "/Träder i kraft I:2024-07-01/",
+                    "/Träder i kraft I:2025-01-01/",
                     "En förmån enligt denna avdelning lämnas endast till den som har ett gällande försäkringsskydd för förmånen enligt 4 och 5 kap."
                   ]
                 },
@@ -31252,7 +31371,7 @@
                   "nummer": 1,
                   "referens": [],
                   "text": [
-                    "/Upphör att gälla U:2024-07-01/",
+                    "/Upphör att gälla U:2025-01-01/",
                     "Bostadsbidrag lämnas i form av",
                     "1. bidrag till kostnader för bostad,",
                     "2. särskilt bidrag för hemmavarande barn,",
@@ -31281,7 +31400,7 @@
                   "nummer": 1,
                   "referens": [],
                   "text": [
-                    "/Träder i kraft I:2024-07-01/",
+                    "/Träder i kraft I:2025-01-01/",
                     "Bostadsbidrag lämnas i form av",
                     "1. bidrag till kostnader för bostad,",
                     "2. särskilt bidrag för hemmavarande barn,",
@@ -31322,7 +31441,7 @@
                   "nummer": 1,
                   "referens": [],
                   "text": [
-                    "/Upphör att gälla U:2024-07-01/",
+                    "/Upphör att gälla U:2025-01-01/",
                     "Bostadsbidrag enligt 2 § första stycket 1-4 betalas ut löpande som preliminärt bidrag, beräknat efter en uppskattad bidragsgrundande inkomst. Sådant bidrag bestäms slutligt i efterhand på grundval av den fastställda bidragsgrundande inkomsten."
                   ]
                 },
@@ -31348,7 +31467,7 @@
                     "Lag (2022:1042)"
                   ],
                   "text": [
-                    "/Träder i kraft I:2024-07-01/",
+                    "/Träder i kraft I:2025-01-01/",
                     "Bostadsbidrag betalas ut löpande som preliminärt bidrag, beräknat efter en uppskattad bidragsgrundande inkomst. Bostadsbidraget bestäms slutligt i efterhand på grundval av den fastställda bidragsgrundande inkomsten.",
                     "Lag (2022:1042)."
                   ]
@@ -31433,7 +31552,7 @@
                   "nummer": 1,
                   "referens": [],
                   "text": [
-                    "/Upphör att gälla U:2024-07-01/",
+                    "/Upphör att gälla U:2025-01-01/",
                     "I detta kapitel finns allmänna bestämmelser i 2-3 a §§."
                   ]
                 },
@@ -31460,7 +31579,7 @@
                   "nummer": 1,
                   "referens": [],
                   "text": [
-                    "/Träder i kraft I:2024-07-01/",
+                    "/Träder i kraft I:2025-01-01/",
                     "I detta kapitel finns allmänna bestämmelser i 2 och 3 §§."
                   ]
                 },
@@ -31533,7 +31652,7 @@
               "rubrik": "Särskilda bidrag och umgängesbidrag"
             },
             {
-              "nummer": "3 a",
+              "nummer": "3a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -31582,7 +31701,7 @@
               "rubrik": "Hushåll med hemmavarande barn"
             },
             {
-              "nummer": "5 a",
+              "nummer": "5a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -31772,7 +31891,7 @@
                     "Lag (2022:1041)"
                   ],
                   "text": [
-                    "/Upphör att gälla U:2024-07-01/",
+                    "/Upphör att gälla U:2025-01-01/",
                     "I detta kapitel finns bestämmelser om",
                     "- bidragsgrundande inkomst i 2-13 §§,",
                     "- kostnader för bostad i 14 §,",
@@ -31794,7 +31913,7 @@
                     "Lag (2022:1042)"
                   ],
                   "text": [
-                    "/Träder i kraft I:2024-07-01/",
+                    "/Träder i kraft I:2025-01-01/",
                     "I detta kapitel finns bestämmelser om",
                     "- bidragsgrundande inkomst i 2-13 §§,",
                     "- kostnader för bostad i 14 §,",
@@ -32099,7 +32218,7 @@
                   "nummer": 1,
                   "referens": [],
                   "text": [
-                    "/Upphör att gälla U:2024-07-01/",
+                    "/Upphör att gälla U:2025-01-01/",
                     "Bostadsbidrag till barnfamiljer beräknas enligt 18-23 a §§."
                   ]
                 },
@@ -32123,7 +32242,7 @@
                   "nummer": 1,
                   "referens": [],
                   "text": [
-                    "/Träder i kraft I:2024-07-01/",
+                    "/Träder i kraft I:2025-01-01/",
                     "Bostadsbidrag till barnfamiljer beräknas enligt 18-23 §§."
                   ]
                 },
@@ -32270,7 +32389,7 @@
               "rubrik": "Särskilda bidrag"
             },
             {
-              "nummer": "22 a",
+              "nummer": "22a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -32325,7 +32444,7 @@
               "rubrik": "Umgängesbidrag"
             },
             {
-              "nummer": "23 a",
+              "nummer": "23a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -32443,7 +32562,7 @@
                     "Lag (2022:1041)"
                   ],
                   "text": [
-                    "/Upphör att gälla U:2024-07-01/",
+                    "/Upphör att gälla U:2025-01-01/",
                     "I detta kapitel finns bestämmelser om",
                     "- preliminärt bostadsbidrag i 2-4 §§,",
                     "- slutligt bostadsbidrag i 5-7 §§,",
@@ -32465,7 +32584,7 @@
                     "Lag (2022:1042)"
                   ],
                   "text": [
-                    "/Träder i kraft I:2024-07-01/",
+                    "/Träder i kraft I:2025-01-01/",
                     "I detta kapitel finns bestämmelser om",
                     "- preliminärt bostadsbidrag i 2-4 §§,",
                     "- slutligt bostadsbidrag i 5-7 §§,",
@@ -32963,7 +33082,7 @@
               "rubrik": "Förmånstiden"
             },
             {
-              "nummer": "10 a",
+              "nummer": "10a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -33244,7 +33363,7 @@
               "rubrik": "Grundläggande bestämmelser"
             },
             {
-              "nummer": "16 a",
+              "nummer": "16a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -33276,7 +33395,7 @@
               "rubrik": "Grundläggande bestämmelser"
             },
             {
-              "nummer": "16 a",
+              "nummer": "16a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -33468,7 +33587,7 @@
               "rubrik": "Beräkning av bostadstillägg"
             },
             {
-              "nummer": "22 a",
+              "nummer": "22a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -33506,7 +33625,7 @@
               "rubrik": "Beräkning av bostadstillägg"
             },
             {
-              "nummer": "22 a",
+              "nummer": "22a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -33586,7 +33705,7 @@
               "rubrik": "Beräkning av bostadstillägg"
             },
             {
-              "nummer": "25 a",
+              "nummer": "25a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -33603,7 +33722,7 @@
               "rubrik": "Beräkning av bostadstillägg"
             },
             {
-              "nummer": "25 a",
+              "nummer": "25a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -33651,7 +33770,7 @@
               "rubrik": "Skälig bostadskostnad"
             },
             {
-              "nummer": "27 a",
+              "nummer": "27a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -34997,7 +35116,7 @@
               "rubrik": "Assistansersättning"
             },
             {
-              "nummer": "25 a",
+              "nummer": "25a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -35694,7 +35813,7 @@
               "rubrik": "Sjukersättning och bostadsbidrag"
             },
             {
-              "nummer": "9 a",
+              "nummer": "9a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -35815,7 +35934,7 @@
               "rubrik": "Sjukersättning och bostadsbidrag"
             },
             {
-              "nummer": "14 a",
+              "nummer": "14a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -36148,7 +36267,7 @@
               "rubrik": "Ansökan m.m."
             },
             {
-              "nummer": "5 a",
+              "nummer": "5a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -36170,7 +36289,7 @@
                   "nummer": 1,
                   "referens": [],
                   "text": [
-                    "/Upphör att gälla U:2024-07-01/",
+                    "/Upphör att gälla U:2025-01-01/",
                     "Ansökan behöver, trots det som föreskrivs i 4 §, inte göras om följande förmåner.",
                     "1. Barnbidrag, i annat fall än som avses i 15 kap. 6 §. Det finns dock särskilda bestämmelser om anmälan som gäller flerbarnstillägg i 16 kap. 12 §.",
                     "2. Sjukpenning i fall där den försäkrade på grund av sjukdomen är förhindrad eller har synnerliga svårigheter att göra en ansökan.",
@@ -36211,7 +36330,7 @@
                   "nummer": 1,
                   "referens": [],
                   "text": [
-                    "/Träder i kraft I:2024-07-01/",
+                    "/Träder i kraft I:2025-01-01/",
                     "Ansökan behöver, trots det som föreskrivs i 4 §, inte göras om följande förmåner.",
                     "1. Barnbidrag, i annat fall än som avses i 15 kap. 6 §. Det finns dock särskilda bestämmelser om anmälan som gäller flerbarnstillägg i 16 kap. 12 §.",
                     "2. Sjukpenning i fall där den försäkrade på grund av sjukdomen är förhindrad eller har synnerliga svårigheter att göra en ansökan.",
@@ -36351,7 +36470,7 @@
               "rubrik": "Huvudregler"
             },
             {
-              "nummer": "13 a",
+              "nummer": "13a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -36718,7 +36837,7 @@
               "rubrik": "Centrala studiestödsnämnden"
             },
             {
-              "nummer": "34 a",
+              "nummer": "34a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -36786,7 +36905,7 @@
               "rubrik": "Huvudman för en skola"
             },
             {
-              "nummer": "37 a",
+              "nummer": "37a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -36890,7 +37009,7 @@
               "rubrik": "Undantag från sekretess"
             },
             {
-              "nummer": "42 a",
+              "nummer": "42a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -37196,7 +37315,7 @@
               "rubrik": "Vägran att medverka till behandling eller rehabilitering"
             },
             {
-              "nummer": "57 a",
+              "nummer": "57a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -37420,7 +37539,7 @@
               "rubrik": "Allmänna bestämmelser"
             },
             {
-              "nummer": "2 a",
+              "nummer": "2a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -37887,7 +38006,7 @@
               "rubrik": "Tidsfrister för begäran om omprövning och överklagande"
             },
             {
-              "nummer": "20 a",
+              "nummer": "20a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -38185,7 +38304,7 @@
               "rubrik": "Överklagande"
             },
             {
-              "nummer": "36 a",
+              "nummer": "36a",
               "stycke": [
                 {
                   "nummer": 1,
@@ -39973,7 +40092,7 @@
                   "referens": [],
                   "text": [
                     "2022:1042",
-                    "1. Denna lag träder i kraft den 1 juli 2024. (Lag 2023:907).",
+                    "1. Denna lag träder i kraft den 1 januari 2025. (Lag 2024:471).",
                     "2. Äldre bestämmelser gäller fortfarande för bostadsbidrag som avser tid före ikraftträdandet."
                   ]
                 },
@@ -40049,6 +40168,15 @@
                     "2023:905",
                     "1. Denna lag träder i kraft den 1 januari 2024 i fråga om 64 kap. 34 § och i övrigt den 1 juli 2024.",
                     "2. Äldre föreskrifter gäller fortfarande för föräldrapenning som avser tid före ikraftträdandet."
+                  ]
+                },
+                {
+                  "nummer": 123,
+                  "referens": [],
+                  "text": [
+                    "2024:508",
+                    "1. Denna lag träder i kraft den 1 oktober 2025.",
+                    "2. Äldre bestämmelser gäller fortfarande när en försäkrad får dagpenning enligt den upphävda lagen (1997:238) om arbetslöshetsförsäkring."
                   ]
                 }
               ],
