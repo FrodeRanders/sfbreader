@@ -36,6 +36,27 @@ preamble(namn, id, date) ::= <<
 \usepackage[figuresright]{rotating}  % PDF version
 %\usepackage{rotating} % Printing version
 
+\hyphenation{Försäkrings-kassan}
+\hyphenation{Pensions-myndigheten}
+\hyphenation{Migrations-verket}
+\hyphenation{Sverige}
+\hyphenation{sociala}
+\hyphenation{social-försäkringen}
+\hyphenation{social-försäkrings-skyddet}
+\hyphenation{försäkrings-tider}
+\hyphenation{försäkrad}
+\hyphenation{försäkrade}
+\hyphenation{för-ordning}
+\hyphenation{social-nämndens}
+\hyphenation{balans-tal}
+\hyphenation{fostran}
+\hyphenation{ut-sändnings-tiden}
+\hyphenation{arbets-givarens}
+\hyphenation{med-följande}
+\hyphenation{an-sökan}
+\hyphenation{arbets-givare}
+\hyphenation{någon}
+
 %-------------------------------------------------------------------
 % Inscribed character
 %-------------------------------------------------------------------
