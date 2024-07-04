@@ -11,10 +11,13 @@ public class Paragraf implements Layer {
 
     private final String nummer;
 
+    // Such as /Träder i kraft I:den dag som regeringen bestämmer/
+    private String periodisering = null;
+
     @SerializedName(value = "stycke")
     private final Collection<Stycke> stycken = new ArrayList<>();
 
-    private String rubrik;
+    private String rubrik = null;
 
     public Paragraf(String nummer) {
         this.nummer = nummer.trim();
@@ -26,6 +29,14 @@ public class Paragraf implements Layer {
 
     public void add(Stycke s) {
         stycken.add(s);
+    }
+
+    public void setPeriodisering(String periodisering) {
+        this.periodisering = periodisering;
+    }
+
+    public Optional<String> getPeriodisering() {
+        return Optional.ofNullable(periodisering);
     }
 
     public void setAktuellParagrafrubrik(Paragrafrubrik aktuellParagrafRubrik) {

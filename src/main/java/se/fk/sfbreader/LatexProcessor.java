@@ -101,6 +101,15 @@ public class LatexProcessor {
                 writer.append(template.render());
             }
 
+            // periodisering(info)
+            Optional<String> periodisering = kapitel.getPeriodisering();
+            if (periodisering.isPresent()) {
+                ST template = group.getInstanceOf("periodisering");
+                template.add("kontext", "detta kapitel");
+                template.add("info", periodisering.get());
+                writer.append(template.render());
+            }
+
             processKapitel(kapitel, group, writer);
         }
     }
@@ -116,6 +125,15 @@ public class LatexProcessor {
             {
                 ST template = group.getInstanceOf("paragraf");
                 template.add("nummer", paragraf.nummer());
+                writer.append(template.render());
+            }
+
+            // periodisering(info)
+            Optional<String> periodisering = paragraf.getPeriodisering();
+            if (periodisering.isPresent()) {
+                ST template = group.getInstanceOf("periodisering");
+                template.add("kontext", "denna paragraf");
+                template.add("info", periodisering.get());
                 writer.append(template.render());
             }
 
@@ -138,6 +156,15 @@ public class LatexProcessor {
                 template.add("kapitelnummer", kapitel.id());
                 template.add("paragrafnummer", paragraf.nummer());
                 template.add("styckenummer", ++styckeNummer);
+                writer.append(template.render());
+            }
+
+            // periodisering(info)
+            Optional<String> periodisering = stycke.getPeriodisering();
+            if (periodisering.isPresent()) {
+                ST template = group.getInstanceOf("periodisering");
+                template.add("kontext", "detta stycke");
+                template.add("info", periodisering.get());
                 writer.append(template.render());
             }
 

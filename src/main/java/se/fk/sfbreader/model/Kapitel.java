@@ -15,12 +15,15 @@ public class Kapitel implements Layer {
     private final String nummer;
     private final String namn;
 
+    // Such as /Träder i kraft I:den dag som regeringen bestämmer/
+    private String periodisering = null;
+
     @SerializedName(value = "paragraf")
     private final Collection<Paragraf> paragrafer = new ArrayList<>();
 
-    private String avdelning; // only for serialization purposes!!!
-    private String underavdelning; // only for serialization purposes!!!
-    private String rubrik; // only for serialization purposes!!!
+    private String avdelning = null; // only for serialization purposes!!!
+    private String underavdelning = null; // only for serialization purposes!!!
+    private String rubrik = null; // only for serialization purposes!!!
 
     private transient Paragrafrubrik aktuellParagrafrubrik = null;
 
@@ -35,6 +38,14 @@ public class Kapitel implements Layer {
 
     public String namn() {
         return namn;
+    }
+
+    public void setPeriodisering(String periodisering) {
+        this.periodisering = periodisering;
+    }
+
+    public Optional<String> getPeriodisering() {
+        return Optional.ofNullable(periodisering);
     }
 
     public void addParagraf(Paragraf p) {

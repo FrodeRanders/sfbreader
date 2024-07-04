@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class Stycke implements Layer {
@@ -14,6 +15,10 @@ public class Stycke implements Layer {
     private static final String IS_ITEMIZED_RE = "^(-\\s|\\d+\\.\\s|[a-z]\\.\\s).+";
 
     private final int nummer;
+
+    // Such as /Träder i kraft I:den dag som regeringen bestämmer/
+    private String periodisering = null;
+
     private final Collection<String> referens = new ArrayList<>();
 
     private final Collection<String> text = new ArrayList<>();
@@ -50,6 +55,14 @@ public class Stycke implements Layer {
     public Stycke(int nummer, String t) {
         this(nummer);
         text.add(t);
+    }
+
+    public void setPeriodisering(String periodisering) {
+        this.periodisering = periodisering;
+    }
+
+    public Optional<String> getPeriodisering() {
+        return Optional.ofNullable(periodisering);
     }
 
     public boolean isEmpty() {

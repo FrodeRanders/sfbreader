@@ -8,6 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import se.fk.sfbreader.model.*;
 
+import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.Stack;
@@ -23,6 +24,7 @@ public class HtmlProcessor {
     private static final Pattern PARAGRAF_RE = Pattern.compile("^(\\d+\\s*[a-z]?)\\s*§$");
     private static final Pattern PARAGRAPH_ANCHOR_RE = Pattern.compile("K(\\d+[a-zA-Z]?)P(\\d+[a-zA-Z]?)");
     private static final Pattern PART_ANCHOR_RE = Pattern.compile("K(\\d+[a-zA-Z]?)P(\\d+[a-zA-Z]?)S(\\d+)");
+    private static final Pattern PERIODISERING_RE = Pattern.compile("^/(.+)/$");
 
     public HtmlProcessor() {}
 
@@ -347,10 +349,23 @@ public class HtmlProcessor {
                 case "Stycke" -> {
                     Stycke stycke = (Stycke) current;
 
-                    if (stycke.isEmpty()) {
+                    Matcher periodiseringMatcher = PERIODISERING_RE.matcher(text);
+                    if (periodiseringMatcher.find()) {
+                        String periodisering = periodiseringMatcher.group(1);
+                        log.info("[text#periodisering] {}", periodisering);
+
+                        List<Layer> reversedStack = stack.reversed();
+                        assert(current == reversedStack.get(0));
+
+                        // This actually belong to the parent paragraf
+                        Layer p = reversedStack.get(1);
+                        if (p instanceof Paragraf paragraf) {
+                            paragraf.setPeriodisering(periodisering);
+                        }
+                    } else if (stycke.isEmpty()) {
                         // Avoid "1 §"
-                        Matcher matcher = PARAGRAF_RE.matcher(text);
-                        if (!matcher.find()) {
+                        Matcher paragrafMatcher = PARAGRAF_RE.matcher(text);
+                        if (!paragrafMatcher.find()) {
                             stycke.add(text);
                             log.debug("[text#stycke] {}", text);
                         }
@@ -362,7 +377,21 @@ public class HtmlProcessor {
                 case "Paragraf" -> {
                     Paragraf paragraf = (Paragraf) current;
 
-                    if (paragraf.isEmpty()) {
+                    Matcher periodiseringMatcher = PERIODISERING_RE.matcher(text);
+                    if (periodiseringMatcher.find()) {
+                        String periodisering = periodiseringMatcher.group(1);
+                        log.info("[text#periodisering] {}", periodisering);
+
+                        List<Layer> reversedStack = stack.reversed();
+                        assert(current == reversedStack.get(0));
+
+                        // This actually belong to the parent kapitel
+                        Layer p = reversedStack.get(1);
+                        if (p instanceof Kapitel kapitel) {
+                            kapitel.setPeriodisering(periodisering);
+                        }
+                    }
+                    else if (paragraf.isEmpty()) {
                         // This text goes into first Stycke
                         Stycke nyttStycke = new Stycke();
                         paragraf.add(nyttStycke);
@@ -373,7 +402,25 @@ public class HtmlProcessor {
                 case "Underavdelning", "Kapitelrubrik", "Paragrafrubrik" -> {
                     popLayer("text#sektion", stack);
                 }
+                case "Kapitel"-> {
+                    Matcher periodiseringMatcher = PERIODISERING_RE.matcher(text);
+                    if (periodiseringMatcher.find()) {
+                        String periodisering = periodiseringMatcher.group(1);
+                        log.info("[text#periodisering] {}", periodisering);
+
+                        Kapitel kapitel = (Kapitel) current;
+                        kapitel.setPeriodisering(periodisering);
+
+                    } else {
+                        log.debug("[text] (superfluous) ignored at {}", current);
+                    }
+                }
                 default /* "Kapitel", "Avdelning", "Lag" */ -> {
+                    Matcher periodiseringMatcher = PERIODISERING_RE.matcher(text);
+                    if (periodiseringMatcher.find()) {
+                        String periodisering = periodiseringMatcher.group(1);
+                        log.warn("[text#periodisering] <<<OBS>>> {}", periodisering);
+                    }
                     log.debug("[text] (superfluous) ignored at {}", current);
                 }
             }

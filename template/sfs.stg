@@ -131,15 +131,23 @@ postamble() ::= <<
 
 >>
 
-//
+// --- Structure in class ---
 // \part{''part''}	-1	not in letters
-//   \chapter{''chapter''}	0	only books and reports
-//   \section{''section''}	1	not in letters
-//   \subsection{''subsection''}	2	not in letters
-//   \subsubsection{''subsubsection''}	3	not in letters
-//   \paragraph{''paragraph''}	4	not in letters
-//   \subparagraph{''subparagraph''}
+// \chapter{''chapter''}	0	only books and reports
+// \section{''section''}	1	not in letters
+// \subsection{''subsection''}	2	not in letters
+// \subsubsection{''subsubsection''}	3	not in letters
+// \paragraph{''paragraph''}	4	not in letters
+// \subparagraph{''subparagraph''}
 
+
+periodisering(kontext, info) ::= <<
+\begin{notabene}
+\textbf{$info$}
+\newline\newline Avser $kontext$.
+\end{notabene}
+
+>>
 
 avdelning(id, namn) ::= <<
 \part*{$id$ $namn$}
