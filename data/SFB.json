@@ -821,10 +821,8 @@
               "text": [
                 "Avdelning C Förmåner vid sjukdom eller arbetsskada",
                 "6. sjukpenning i särskilda fall, (28 a kap.)",
-                "7. rehabilitering, bidrag till arbetshjälpmedel, särskilt bidrag och rehabiliteringspenning i",
-                "särskilda fall, (29-31 a kap.)",
-                "8. sjukersättning och aktivitetsersättning i form av",
-                "garantiersättning, (33 och 35-37 kap.)"
+                "7. rehabilitering, bidrag till arbetshjälpmedel, särskilt bidrag och rehabiliteringspenning i särskilda fall, (29-31 a kap.)",
+                "8. sjukersättning och aktivitetsersättning i form av garantiersättning, (33 och 35-37 kap.)"
               ]
             },
             {
@@ -842,8 +840,7 @@
               "referens": [],
               "text": [
                 "Avdelning E Förmåner vid ålderdom",
-                "12. garantipension, (55, 56, 65-67 och",
-                "69-71 kap.)",
+                "12. garantipension, (55, 56, 65-67 och 69-71 kap.)",
                 "13. särskilt pensionstillägg, (73 kap.)",
                 "14. äldreförsörjningsstöd, (74 kap.)"
               ]
@@ -854,8 +851,7 @@
               "text": [
                 "Avdelning F Förmåner till efterlevande",
                 "15. efterlevandestöd, (77, 79 och 85 kap.)",
-                "16. garantipension till",
-                "omställningspension, (77, 81 och 85 kap.)"
+                "16. garantipension till omställningspension, (77, 81 och 85 kap.)"
               ]
             },
             {
@@ -992,8 +988,7 @@
                 "Lag (2011:1513)"
               ],
               "text": [
-                "Tidsbegränsningen och kravet på medgivande gäller inte heller för familjeförmåner enligt 9 § 1-4 till biståndsarbetare m.fl.",
-                "och studerande eller deras familjemedlemmar som avses i 6-8 §§.",
+                "Tidsbegränsningen och kravet på medgivande gäller inte heller för familjeförmåner enligt 9 § 1-4 till biståndsarbetare m.fl. och studerande eller deras familjemedlemmar som avses i 6-8 §§.",
                 "Lag (2011:1513)."
               ]
             }
@@ -1278,30 +1273,30 @@
               "nummer": 2,
               "referens": [],
               "text": [
-                "Avdelning B Familjeförmåner"
+                "Avdelning B Familjeförmåner",
+                "1. graviditetspenning, (10 kap.)",
+                "2. föräldrapenning på grundnivå eller sjukpenningnivå och tillfällig föräldrapenning, (11-13 kap.)"
               ]
             },
             {
               "nummer": 3,
               "referens": [],
               "text": [
-                "1. graviditetspenning, (10 kap.)",
-                "2. föräldrapenning på grundnivå eller sjukpenningnivå och",
-                "tillfällig föräldrapenning, (11-13 kap.)"
+                "Avdelning C Förmåner vid sjukdom eller arbetsskada",
+                "3. sjukpenning, (24-28 kap.)",
+                "4. rehabilitering, rehabiliteringsersättning och bidrag till arbetshjälpmedel, (29-31 kap.)",
+                "5. inkomstrelaterad sjukersättning och inkomstrelaterad aktivitetsersättning, (33, 34, 36 och 37 kap.)",
+                "6. arbetsskadeersättning, (39-42 kap.)",
+                "7. närståendepenning, (47 kap.)"
               ]
             },
             {
               "nummer": 4,
               "referens": [],
               "text": [
-                "Avdelning C Förmåner vid sjukdom eller arbetsskada",
-                "3. sjukpenning, (24-28 kap.)",
-                "4. rehabilitering, rehabiliteringsersättning och",
-                "bidrag till arbetshjälpmedel, (29-31 kap.)",
-                "5. inkomstrelaterad sjukersättning och inkomstrelaterad",
-                "aktivitetsersättning, (33, 34, 36 och 37 kap.)",
-                "6. arbetsskadeersättning, (39-42 kap.)",
-                "7. närståendepenning, (47 kap.)"
+                "Avdelning E Förmåner vid ålderdom",
+                "8. inkomstgrundad ålderspension, (55-64 och 69-71 kap.)",
+                "8 a. inkomstpensionstillägg, (74 a kap.)"
               ]
             },
             {
@@ -1310,24 +1305,11 @@
                 "Lag (2020:1239)"
               ],
               "text": [
-                "Avdelning E Förmåner vid ålderdom",
-                "8. inkomstgrundad ålderspension, (55-64 och 69-71 kap.)",
-                "8 a. inkomstpensionstillägg, (74 a kap.)",
-                "9. inkomstrelaterad",
-                "efterlevandepension, (77, 78, 80 och 82-85",
-                "kap.)",
-                "10. efterlevandeförmåner från",
-                "arbetsskadeförsäkringen, och (87 och 88 kap.)",
-                "11. efterlevandeskydd i form av",
-                "premiepension. (89-92 kap.)",
+                "Avdelning F Förmåner till efterlevande",
+                "9. inkomstrelaterad efterlevandepension, (77, 78, 80 och 82-85 kap.)",
+                "10. efterlevandeförmåner från arbetsskadeförsäkringen, och (87 och 88 kap.)",
+                "11. efterlevandeskydd i form av premiepension. (89-92 kap.)",
                 "Lag (2020:1239)."
-              ]
-            },
-            {
-              "nummer": 6,
-              "referens": [],
-              "text": [
-                "Avdelning F Förmåner till efterlevande"
               ]
             }
           ],
