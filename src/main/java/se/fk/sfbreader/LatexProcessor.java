@@ -77,8 +77,8 @@ public class LatexProcessor {
                 ST template = group.getInstanceOf("avdelning");
                 Optional<String> id = avdelning.id();
                 id.ifPresent(s -> template.add("id", s));
-                Optional<String> namn = avdelning.namn();
-                namn.ifPresent(s -> template.add("namn", s));
+                String namn = avdelning.namn();
+                template.add("namn", namn);
                 writer.append(template.render());
             }
 

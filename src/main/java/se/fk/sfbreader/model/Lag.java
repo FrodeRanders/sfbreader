@@ -1,7 +1,10 @@
 package se.fk.sfbreader.model;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Objects;
 
 // Exempel: Socialförsäkringsbalk (2010:110)
 public class Lag implements Layer {
@@ -9,7 +12,12 @@ public class Lag implements Layer {
 
     private final String id;
 
-    private final Collection<Avdelning> avdelning = new ArrayList<>();
+    @SerializedName(value = "kapitel")
+    private final Collection<Kapitel> kapitlen = new ArrayList<>();
+
+    // Don't serialize
+    private transient Collection<Avdelning> avdelningar = new ArrayList<>();
+    private transient Avdelning aktuellAvdelning = null;
 
     public Lag(String namn, String id) {
         this.namn = namn;
@@ -24,16 +32,24 @@ public class Lag implements Layer {
         return id;
     }
 
+    public void setAktuellAvdelning(Avdelning aa) {
+        this.aktuellAvdelning = aa;
+    }
+
     public void add(Avdelning a) {
-        avdelning.add(a);
+        Objects.requireNonNull(a, "a");
+
+        //
+        a.assignAccessTo(kapitlen);
+        avdelningar.add(a);
     }
 
     public Collection<Avdelning> get() {
-        return avdelning;
+        return avdelningar;
     }
 
     public void prune() {
-        avdelning.forEach(Avdelning::prune);
+        kapitlen.forEach(Kapitel::prune);
     }
 
     public String toString() {
@@ -42,6 +58,5 @@ public class Lag implements Layer {
         buf.append(" id=\"").append(id).append("\"");
         buf.append("}");
         return buf.toString();
-
     }
 }

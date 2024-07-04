@@ -4,20 +4,17 @@ import com.google.gson.annotations.SerializedName;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.Optional;
+import java.util.*;
 
 public class Paragraf implements Layer {
     private static final Logger log = LoggerFactory.getLogger(Paragraf.class);
 
     private final String nummer;
 
-    private final Collection<Stycke> stycke = new ArrayList<>();
+    @SerializedName(value = "stycke")
+    private final Collection<Stycke> stycken = new ArrayList<>();
 
-    @SerializedName(value = "rubrik", alternate = "paragrafRubrik")
-    private String rubrik = null;
+    private String rubrik;
 
     public Paragraf(String nummer) {
         this.nummer = nummer.trim();
@@ -28,28 +25,32 @@ public class Paragraf implements Layer {
     }
 
     public void add(Stycke s) {
-        stycke.add(s);
+        stycken.add(s);
     }
 
-    public void setRubrik(Rubrik r) {
-        rubrik = r.rubrik();
+    public void setAktuellParagrafrubrik(Paragrafrubrik aktuellParagrafRubrik) {
+        Objects.requireNonNull(aktuellParagrafRubrik, "aktuellParagrafRubrik");
+
+        log.trace("Paragraf {}#rubrik <-- {}", nummer, aktuellParagrafRubrik);
+
+        rubrik = aktuellParagrafRubrik.namn();
     }
 
     public boolean isEmpty() {
-        if (stycke.isEmpty())
+        if (stycken.isEmpty())
             return true;
         else {
-            Optional<Stycke> s = stycke.stream().findFirst();
+            Optional<Stycke> s = stycken.stream().findFirst();
             return s.get().isEmpty();
         }
     }
 
     public Collection<Stycke> get() {
-        return stycke;
+        return stycken;
     }
 
     public void prune() {
-        Iterator<Stycke> it = stycke.iterator();
+        Iterator<Stycke> it = stycken.iterator();
         while (it.hasNext()) {
             Stycke s = it.next();
             s.prune();

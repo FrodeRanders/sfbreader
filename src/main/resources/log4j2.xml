@@ -17,12 +17,12 @@
             <Policies>
                 <SizeBasedTriggeringPolicy size="10 MB"/>
             </Policies>
-            <DefaultRolloverStrategy max="9"/>
+            <DefaultRolloverStrategy max="50"/>
         </RollingFile>
     </Appenders>
 
     <Loggers>
-        <Logger name="se.fk" level="DEBUG" />
+        <Logger name="se.fk" level="TRACE" />
         <Logger name="org.antlr" level="WARN" />
         <Logger name="org.apache" level="WARN" />
 

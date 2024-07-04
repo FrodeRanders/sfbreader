@@ -53,7 +53,9 @@ public class HtmlProcessor {
      * <pre>
      *   <h4 name="I  Bla bla bla"><a name="I  Bla bla bla">I  Bla bla bla</a></h4><p><a name="S3"></a></p><br />
      * </pre>
-     * Currently detecting the h4... and treating as same kind of "rubrik" as found in chapters and paragraphs.
+     * As h4 may be found at different levels, it signifies different things in the context of Avdelning, Kapitel
+     * and Paragraf. We will be detecting the h4 and depending on context, we will discriminate among Underavdelning,
+     * Kapitelrubrik and Paragrafrubrik.
      *
      * Kapitel (chapters) are located in HTML like this:
      * <pre>
@@ -87,7 +89,7 @@ public class HtmlProcessor {
                 switch (nodeName) {
                     case "h2" -> avdelning(stack, element);
                     case "h3" -> kapitel(stack, element);
-                    case "h4" -> rubrik(stack, element);
+                    case "h4" -> sektion(stack, element);
                     case "a" -> ankare(stack, element);
                     case "i" -> referens(stack, element);
                     case "div", "p", "br", "pre", "b" -> {
@@ -210,10 +212,6 @@ public class HtmlProcessor {
                 stack.push(avdelning);
                 log.debug("[avdelning] Push: {}", avdelning);
             }
-        } else {
-            log.debug("UNDERAVDELNING: {}", element.text());
-
-            // TODO ???
         }
     }
 
@@ -251,38 +249,46 @@ public class HtmlProcessor {
         }
     }
 
-    private void rubrik(Stack<Layer> stack, Element element) {
-        log.trace("[rubrik] >> {}", element.text());
-        log.trace("---");
+    private void sektion(Stack<Layer> stack, Element element) {
+        log.trace("[sektion] >> {}", element.text());
+        log.trace("--- current stack ---------------------------------------------");
         stack.forEach(l -> log.trace("{}", l));
-        log.trace("---");
+        log.trace("---------------------------------------------------------------");
 
         String text = element.text();
         //
         boolean stop = stack.empty();
         if (!stop) {
-            Rubrik rubrik = new Rubrik(text);
-
-            // We have a new chapter section (Rubrik), so we want to pop anything lower than chapter (Kapitel)
+            // We have a new section. If we encounter a section within a Stycke or Paragraf,
+            // we need to break these up -- we will pop anything lower than Kapitel
             do {
                 Layer layer = stack.peek();
                 switch (layer.type()) {
-                    case "Stycke", "Paragraf" -> popLayer("rubriK", stack);
-                    default /* "Kapitel", "Avdelning", "Lag" */ -> {
-                        log.debug("[rubrik] Keeping: {}", layer);
+                    case "Stycke", "Paragraf" ->
+                            popLayer("sektion", stack);
+                    default /* "Kapitel", ["Underavdelning",] "Avdelning", "Lag" */ -> {
+                        log.debug("[sektion] Keeping: {}", layer);
                         stop = true;
                     }
                 }
                 stop |= stack.empty();
             } while (!stop);
+        }
 
-            if (stack.peek() instanceof Kapitel kapitel) {
-                kapitel.addSubRubrik(rubrik);
-            } else if (stack.peek() instanceof Avdelning avdelning){
-                avdelning.addSubRubrik(rubrik);
-            }
+        if (stack.peek() instanceof Paragraf paragraf) {
+            Paragrafrubrik rubrik = new Paragrafrubrik(text);
+            paragraf.setAktuellParagrafrubrik(rubrik);
+            pushLayer("sektion#paragrafrubrik", stack, rubrik);
 
-            pushLayer("rubrik", stack, rubrik);
+        } else if (stack.peek() instanceof Kapitel kapitel) {
+            Paragrafrubrik rubrik = new Paragrafrubrik(text);
+            kapitel.setAktuellParagrafrubrik(rubrik);
+            pushLayer("sektion#paragrafrubrik", stack, rubrik);
+
+        } else if (stack.peek() instanceof Avdelning avdelning){
+            Underavdelning rubrik = new Underavdelning(text);
+            avdelning.setAktuellUnderavdelning(rubrik);
+            pushLayer("sektion#underavdelning", stack, rubrik);
         }
     }
 
@@ -364,11 +370,11 @@ public class HtmlProcessor {
                         pushLayer("text#paragraf", stack, nyttStycke);
                     }
                 }
-                case "Rubrik" -> {
-                    Rubrik rubrik = (Rubrik) popLayer("text#rubrik", stack);
+                case "Underavdelning", "Kapitelrubrik", "Paragrafrubrik" -> {
+                    popLayer("text#sektion", stack);
                 }
                 default /* "Kapitel", "Avdelning", "Lag" */ -> {
-                    log.debug("[text] Ignoring at {}", current);
+                    log.debug("[text] (superfluous) ignored at {}", current);
                 }
             }
         }
