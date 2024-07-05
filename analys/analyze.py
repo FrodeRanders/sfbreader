@@ -12,38 +12,35 @@ with open(file_path, "r", encoding="utf-8") as file:
 nlp = spacy.load('sv_core_news_lg')
 
 ignoredTokens = [
-    '.', '§', ')', '-', 'a.', 'a', 'b', 'b.', 'd', 'e', 'eg', 'en', 'kap.', 'som', 'i',
-    'de', 'det', 'den', 'detta', 'denna', 'dessa', 'någon', 'något', 'sig',
-    'vem', 'alla', 'andra', 'annat', 'då', 'fall', 'fram', 'från', 'frågan',
-    'förelåg', 'för', 'först', 'första', 'gjorts', 'gravt', 'gäller', 'gång',
-    'gången', 'gånger', 'göras', 'han', 'hon', 'honom', 'hans', 'hennes',
-    'har', 'hel', 'hela', 'helt', 'ingen', 'inleddes', 'intresse', 'kap',
-    'kortare', 'kr', 'kronor', 'kvar', 'legat', 'lämnas', 'längst', 'm.fl.',
-    'med', 'män', 'nio', 'nr', 'nytt', 'om', 'ordning', 'pengar', 'procent',
-    'räknat', 'senare', 'situation', 'situationer', 'sjuk', 'sjukt', 'ska',
-    'skedde', 'skillnaden', 'skriftligen', 'skäligen', 'skötsel', 'solidariskt',
-    'sondmatning', 'stadigvarande', 'storlek', 'storleken', 'strecksatsen',
-    'stycket', 'styckena', 'största', 'summan', 'syfte', 'säljer', 'sätt',
-    'sådant', 'såvitt', 'tal', 'talet', 'tillbaka', 'tillfällen', 'tillfälligt',
-    'tillgodoräknas', 'till', 'tillsyn', 'tillsynen', 'tillämpliga', 'tillämpligheten',
-    'timmar', 'timme', 'tjugofjärde', 'tjänster', 'tolftedel', 'tolv', 'tre',
-    'tretton', 'tusental', 'underlåten', 'unga', 'uppehåll', 'uppehälle',
-    'uppenbarligen', 'uppfyllt', 'upphävda', 'upphörande', 'upphör', 'uppkommer',
-    'upplupen', 'upplysa', 'uppnådd', 'uppnår', 'uppnås', 'uppnått', 'uteslutande',
-    'utförandet', 'utsträckning', 'vad', 'valt', 'var', 'vars', 'vart', 'vecka',
-    'veckan', 'veckor', 'vikt', 'vilande', 'vilket', 'vi', 'vissa', 'vistas',
-    'vistelse', 'vistelsen', 'vuxen', 'värdet', 'väsentligen', 'vårdat', 'vården',
-    'vård', 'yngsta', 'ändrades', 'ändringar', 'ändringen', 'ändring', 'är',
-    'åren', 'året', 'år', 'återinsjuknande', 'åtskild', 'åttondels', 'ökningen',
-    'ökning', 'öre', 'överklaga', 'överklagar', 'överstiger', 'övervägs',
-    'alkohol', 'allmänna', 'andning', 'angelägenhet', 'anmält', 'annan',
-    'antal', 'antalet', 'användning', 'användningen', 'april', 'artikel',
-    'augusti', 'automatiserat', 'avbrottet', 'avdelning', 'avdelningarna',
-    'avled', 'av', 'avresa', 'avse', 'avser', 'avses', 'avsikt', 'avsikten',
-    'avslås', 'avstående', 'avståendet', 'avvikelse', 'avvikelser', 'anses'
-
-
+    '.', '§', ')', '-', 'a.', 'a', 'alkohol', 'allmänna', 'alla', 'andra', 'angelägenhet',
+    'annan', 'annat', 'antal', 'antalet', 'andning', 'anmält', 'anses', 'antalet', 'användning',
+    'användningen', 'april', 'artikel', 'augusti', 'automatiserat', 'av', 'avbrottet',
+    'avdelning', 'avdelningarna', 'avled', 'avresa', 'avsikt', 'avsikten', 'avse', 'avser',
+    'avses', 'avslås', 'avstående', 'avståendet', 'avvikelse', 'avvikelser', 'b', 'b.',
+    'd', 'de', 'den', 'dem', 'denne', 'denna', 'dessa', 'detsamma', 'det', 'detta', 'då', 'där',
+    'därefter', 'e', 'efter', 'eg', 'en', 'ett', 'f', 'fall', 'faktorn', 'fattades', 'februari',
+    'felet', 'femårsperiod', 'ferier', 'fjärdedel', 'fjärdedels', 'fråga', 'förd', 'färden',
+    'följande', 'följd', 'för', 'förelåg', 'före', 'först', 'första', 'från', 'fram', 'frågan', 'gjorts',
+    'gäller', 'gång', 'gången', 'gånger', 'göras', 'han', 'hans', 'hela', 'helt', 'hel', 'hennes',
+    'henne', 'hon', 'honom', 'har', 'i', 'inleddes', 'intresse', 'ingen', 'kap', 'kap.', 'kr',
+    'kronor', 'kortare', 'kvar', 'legat', 'lämnas', 'längst', 'm.fl.', 'med', 'män', 'någon',
+    'något', 'nio', 'nr', 'nytt', 'om', 'ordning', 'pengar', 'procent', 'räknat', 'senare', 'sig',
+    'situationen', 'situations', 'sjuk', 'sjukt', 'ska', 'skedde', 'skillnaden', 'skriftligen',
+    'skäligen', 'skötsel', 'solidariskt', 'som', 'sondmatning', 'stadigvarande', 'storlek',
+    'storleken', 'strecksatsen', 'stycket', 'styckena', 'största', 'summan', 'syfte', 'säljer',
+    'sätt', 'sådant', 'såvitt', 'tal', 'talet', 'till', 'tillbaka', 'tillfällen', 'tillfälligt',
+    'tillgodoräknas', 'tillsyn', 'tillsynen', 'tillämpliga', 'tillämpligheten', 'timmar', 'timme',
+    'tjugofjärde', 'tjänster', 'tolftedel', 'tolv', 'tre', 'tretton', 'tusental', 'underlåten',
+    'unga', 'uppehåll', 'uppehälle', 'uppenbarligen', 'uppfyllt', 'upphävda', 'upphörande',
+    'upphör', 'uppkommer', 'upplupen', 'upplysa', 'uppnådd', 'uppnår', 'uppnås', 'uppnått',
+    'uteslutande', 'utförandet', 'utsträckning', 'vad', 'valt', 'var', 'vars', 'vart', 'vecka',
+    'veckan', 'veckor', 'vikt', 'vilande', 'vilket', 'vi', 'vissa', 'vistas', 'vistelse',
+    'vistelsen', 'vuxen', 'värdet', 'väsentligen', 'vårdat', 'vården', 'vård', 'yngsta',
+    'ändrades', 'ändringar', 'ändringen', 'ändring', 'är', 'åren', 'året', 'år', 'återinsjuknande',
+    'åtskild', 'åttondels', 'ökningen', 'ökning', 'öre', 'överklaga', 'överklagar', 'överstiger',
+    'övervägs'
 ]
+
 rangePattern = r'^\d+\-\d+$'
 rangePattern2 = r'^[a-z]\-\d+$'
 rangePattern3 = r'^[a-z]\-[a-z]+$'

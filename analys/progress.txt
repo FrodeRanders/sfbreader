@@ -170,7 +170,6 @@ Entity: föräldrar
 Entity: barnet
 
 Med [case] avgiftspliktig [amod] ersättning [obl] och [cc] avgiftspliktig [amod] inkomst [conj] avses [ROOT] detsamma [nsubj:pass] som [cc] i [case] 2 [nummod] kap. [cc] 10-11 [nummod] § [cc] § [ROOT] respektive [cc] 3 [nummod] kap. [nmod] 3-8 [nummod] § [obl] § [nmod] socialavgiftslagen [nsubj] ( [punct] 2000:980 [appos] ) [punct] . [punct] Lag [ROOT] ( [punct] 2012:834 [appos] ) [punct] . [punct] 
-Entity: detsamma
 Entity: socialavgiftslagen
 
 I [case] denna [det] underavdelning [obl] finns [ROOT] allmänna [amod] bestämmelser [nsubj] om [case] socialförsäkringsskyddet [nmod] i [case] 4 [nummod] kap. [nmod] 
@@ -295,7 +294,6 @@ Avdelning [nmod] E [nsubj] Förmåner [flat:name] vid [case] ålderdom [nmod] 12
 Entity: ålderdom
 
 Avdelning [nmod] F [nsubj] Förmåner [nmod] till [case] efterlevande [nmod] 15 [nmod] . [punct] efterlevandestöd [ROOT] , [punct] ( [punct] 77 [conj] , [punct] 79 [nummod] och [cc] 85 [nummod] kap. [appos] ) [punct] 16 [conj] . [punct] garantipension [ROOT] till [case] omställningspension [nmod] , [punct] ( [punct] 77 [appos] , [punct] 81 [nummod] och [cc] 85 [nummod] kap. [conj] ) [punct] 
-Entity: f
 Entity: förmåner
 Entity: efterlevande
 Entity: omställningspension
@@ -552,9 +550,7 @@ Entity: pensioner
 Entity: förmån
 Entity: bestämmelser
 Entity: sverige
-Entity: detsamma
 Entity: föräldrapenning
-Relation: detsamma gäller försäkringen
 
 Försäkringen [nsubj] för [case] pensioner [nmod] enligt [case] första [amod] stycket [nmod] gäller [ROOT] också [advmod] när [mark] rätten [nsubj:pass] till [case] förmånen [obl] kan [aux] härledas [advcl] från [case] sådan [amod] ersättning [obl] som [nsubj:pass] anges [acl:relcl] i [case] 19 [nummod] och [cc] 20 [nummod] § [nmod] § [obl] . [punct] 
 Entity: försäkringen
@@ -591,7 +587,6 @@ Entity: försäkrad
 Entity: sjukdom
 Entity: barn
 Entity: ersättningsfall
-Entity: där
 Entity: försäkringskassan
 
 Förmåner [nsubj:pass] enligt [case] 6 [nummod] § [nmod] 5 [nmod] , [punct] 6 [nummod] , [cc] 8 [nummod] och [cc] 9-11 [conj] lämnas [ROOT] för [case] tid [obl] då [advmod] den [det] försäkrade [amod] vistas [advcl] utomlands [advmod] så [advmod] länge [fixed] rätten [nsubj] till [case] förmånen [nmod] består [advcl] . [punct] Detta [nsubj] gäller [ROOT] också [advmod] i [case] fråga [fixed] om [fixed] föräldrapenning [obl] på [case] grund- [nmod] eller [cc] sjukpenningnivå [conj] enligt [case] 6 [nummod] § [nmod] 2 [obl] , [punct] 1 [nummod] . [punct] om [mark] barnet [nsubj] är [cop] bosatt [advcl] i [case] Sverige [obl] , [punct] eller [cc] 2 [nummod] . [conj] om [mark] Försäkringskassan [nsubj] medger [advcl] det [obj] , [punct] när [mark] ett [det] barn [nsubj:pass] hämtas [ccomp] i [case] samband [fixed] med [fixed] adoption [obl] . [punct] 
@@ -889,6 +884,7 @@ Entity: barn
 Entity: anledning
 Entity: födelse
 Entity: barn
+Entity: situationer
 Entity: barn
 
 I [case] föräldraledighetslagen [obl] ( [punct] 1995:584 [nummod] ) [punct] finns [ROOT] bestämmelser [nsubj] i [case] vilka [obl] anges [ROOT] när [mark] en [det] arbetstagare [nsubj] som [nsubj] får [acl:relcl] föräldrapenningsförmåner [obj] har [advcl] rätt [obj] att [mark] vara [cop] ledig [acl] från [case] sin [nmod:poss] anställning [obl] . [punct] 
@@ -1376,11 +1372,9 @@ Vid [case] beräkning [obl] av [case] antalet [nmod] dagar [nmod] med [case] rä
 Entity: dagar
 Entity: rätt
 Entity: föräldrapenning
-Entity: följande
 Entity: dag
 Entity: föräldrapenning
 Entity: dag
-Entity: fjärdedels
 Entity: dag
 Relation: dag motsvarar dag
 Relation: dag motsvarar fjärdedelar
@@ -1893,11 +1887,9 @@ Vid [case] beräkning [obl] av [case] antal [nmod] dagar [nmod] med [case] rätt
 Entity: dagar
 Entity: rätt
 Entity: föräldrapenning
-Entity: följande
 Entity: dag
 Entity: föräldrapenning
 Entity: dag
-Entity: fjärdedels
 Entity: åttondel
 Entity: dag
 Relation: dag motsvarar dag
@@ -2084,7 +2076,6 @@ Entity: föräldrar
 Entity: barnbidrag
 Entity: föräldrarna
 Entity: försäkringskassan
-Entity: dem
 Entity: barnbidraget
 
 Är [cop] endast [advmod] en [nsubj] av [case] föräldrarna [nmod] försäkrad [advcl] för [case] barnbidrag [obl] lämnas [ROOT] hela [amod] barnbidraget [nsubj:pass] till [case] den [det] föräldern [obl] . [punct] 
@@ -2104,7 +2095,6 @@ Entity: barnbidraget
 Entity: barnet
 Entity: barnbidraget
 Entity: anmälan
-Entity: dem
 
 Ett [det] barn [nsubj:pass] ska [aux] anses [ROOT] ha [xcomp] växelvist [amod] boende [obj] , [punct] om [case] sådant [amod] boende [obl] görs [parataxis] sannolikt [advmod] av [case] den [det] förälder [obl:agent] som [nsubj] har [aux] anmält [acl:relcl] att [mark] barnbidraget [nsubj:pass] ska [aux] lämnas [ccomp] med [case] hälften [obl] till [case] vardera [det] föräldern [obl] . [punct] Lag [ROOT] ( [punct] 2013:1018 [appos] ) [punct] . [punct] 
 Entity: barn
@@ -2140,7 +2130,6 @@ Entity: flerbarnstillägget
 
 Skulle [aux] två [nummod] personer [nsubj] som [nsubj] bor [acl:relcl] tillsammans [compound:prt] och [cc] som [nsubj] inte [advmod] får [conj] barnbidrag [obj] för [case] samma [det] barn [obl] kunna [aux] få [xcomp] flerbarnstillägget [obj] , [punct] betalas [ROOT] detta [nsubj:pass] till [case] den [obl] av [case] dem [nmod] som [nsubj] anmäls [acl:relcl] som [mark] bidragsmottagare [xcomp] . [punct] Anmälan [nsubj:pass] ska [aux] göras [ROOT] till [case] Försäkringskassan [obl] av [case] personerna [nmod] gemensamt [advmod] . [punct] 
 Entity: personer
-Entity: dem
 Entity: anmälan
 Entity: personerna
 
@@ -2372,10 +2361,8 @@ Entity: underhållsstödet
 Om [mark] de [det] särskilt [advmod] förordnade [amod] vårdnadshavarna [nsubj] är [cop] av [case] samma [det] kön [obl] betalas [ROOT] underhållsstödet [nsubj:pass] ut [compound:prt] till [case] den [det] äldre [obl] av [case] dem [nmod] . [punct] Om [mark] vårdnadshavarna [nsubj] begär [advcl] det [expl] betalas [ROOT] underhållsstödet [nsubj:pass] i [advmod] stället [fixed] ut [advmod] till [case] den [det] yngre [advcl] av [case] dem [nmod] . [punct] 
 Entity: vårdnadshavarna
 Entity: underhållsstödet
-Entity: dem
 Entity: vårdnadshavarna
 Entity: underhållsstödet
-Entity: dem
 
 Det [det] förlängda [amod] underhållsstödet [nsubj:pass] betalas [ROOT] ut [compound:prt] till [case] den [det] studerande [obl] . [punct] 
 Entity: underhållsstödet
@@ -2404,7 +2391,6 @@ Entity: förälder
 Entity: beloppet
 
 I [case] stället [fixed] för [fixed] det [obl] som [nsubj:pass] föreskrivs [acl:relcl] i [case] 21 [nummod] § [obl] ska [aux] följande [nsubj] gälla [ROOT] , [punct] om [mark] 1 [nummod] . [nummod] den [det] bidragsskyldige [nsubj] bor [advcl] utomlands [advmod] , [punct] eller [cc] 2 [conj] . [punct] den [det] bidragsskyldige [nsubj] bor [ROOT] i [case] Sverige [obl] och [cc] i [case] eller [cc] från [conj] utlandet [conj] får [ccomp] lön [obj] eller [cc] annan [amod] sådan [amod] inkomst [conj] som [nsubj:pass] avses [acl:relcl] i [case] 7 [nummod] kap. [obl] 1 [nummod] § [nummod] utsökningsbalken [nsubj:pass] men [cc] som [nsubj:pass] inte [advmod] kan [aux] tas [conj] i [compound:prt] anspråk [fixed] genom [case] utmätning [obl] på [case] sådant [amod] sätt [nmod] som [nsubj:pass] anges [acl:relcl] i [case] samma [det] kapitel [obl] . [punct] 
-Entity: följande
 Entity: bidragsskyldige
 Entity: bidragsskyldige
 Entity: utsökningsbalken
@@ -2637,7 +2623,6 @@ Entity: försäkringskassan
 Relation: bidragsskyldige betala skillnaden
 
 Om [mark] betalningsskyldighet [obl] har [aux] fastställts [ROOT] slutligt [advmod] för [case] en [det] man [obl] och [cc] denne [nsubj] senare [advmod] frias [conj] från [case] faderskapet [obl] till [case] barnet [obl] , [punct] har [conj] han [nsubj] rätt [obj] att [mark] få [acl] tillbaka [compound:prt] vad [obl] han [nsubj] har [aux] betalat [ccomp] jämte [case] ränta [obl] enligt [case] 5 [nummod] § [nmod] räntelagen [obl] ( [punct] 1975:635 [appos] ) [punct] från [case] varje [det] betalningsdag [nmod] . [punct] 
-Entity: denne
 Entity: betalningsdag
 
 Första [amod] stycket [nsubj:pass] tillämpas [ROOT] också [advmod] i [case] fråga [fixed] om [fixed] föräldraskap [obl] enligt [case] 1 [nummod] kap. [nmod] 9 [nummod] § [nmod] föräldrabalken [obl:agent] . [punct] 
@@ -2729,7 +2714,6 @@ Entity: bidragsskyldige
 Om [mark] den [det] bidragsskyldige [nsubj] är [cop] underhållsskyldig [ROOT] enligt [case] 7 [nummod] kap. [nmod] 1 [nummod] § [nmod] föräldrabalken [nsubj] för [case] ett [nmod] , [punct] två [nummod] eller [cc] tre [conj] barn [conj] utgör [advcl] procenttalet [nmod] 14 [nummod] , [cc] 11,5 [nummod] respektive [advmod] 10 [nummod] procent [obj] . [punct] 
 Entity: bidragsskyldige
 Entity: föräldrabalken
-Entity: ett
 Entity: procenttalet
 
 Om [mark] underhållsskyldigheten [nsubj] gäller [advcl] fler [advmod] än [case] tre [nummod] barn [obl] motsvarar [ROOT] procenttalet [nsubj] kvoten [obj] mellan [case] - [punct] summan [nmod] av [case] antalet [nmod] barn [nmod] och [cc] 27 [conj] och [cc] - [punct] antalet [nmod] barn [conj] . [punct] 
@@ -2865,7 +2849,6 @@ Entity: bidragsskyldige
 Entity: försäkringskassan
 Entity: beslut
 Entity: skatt
-Entity: fråga
 Entity: jämkning
 Entity: beslut
 Entity: skatt
@@ -2873,9 +2856,7 @@ Entity: beslutet
 
 Om [mark] betalningsskyldigheten [nsubj:pass] enligt [case] 35 [nummod] § [nmod] bestäms [advcl] till [case] ett [det] lägre [amod] belopp [obl] än [mark] vad [nsubj] den [det] bidragsskyldige [acl] i [case] enlighet [fixed] med [fixed] tidigare [amod] beslut [obl] betalat [xcomp] för [case] samma [det] tid [obl] , [punct] ska [aux] skillnaden [nsubj:pass] betalas [ROOT] ut [compound:prt] till [case] den [det] bidragsskyldige [obl] . [punct] Detsamma [nsubj] gäller [ROOT] betald [amod] ränta [obj] som [nsubj] hänför [acl:relcl] sig [obj] till [case] skillnadsbeloppet [obl] , [punct] om [mark] räntan [nsubj] uppgår [advcl] till [case] minst [advmod] 100 [nummod] kronor [obl] . [punct] 
 Entity: betalningsskyldigheten
-Entity: detsamma
 Entity: räntan
-Relation: detsamma gäller ränta
 
 Om [mark] betalningsskyldigheten [nsubj:pass] bestäms [advcl] till [case] ett [det] högre [amod] belopp [obl] än [mark] vad [nsubj] den [det] bidragsskyldige [acl] i [case] enlighet [fixed] med [fixed] tidigare [amod] beslut [obl] betalat [xcomp] för [case] samma [det] tid [obl] , [punct] ska [aux] den [det] bidragsskyldige [nsubj] betala [ROOT] in [compound:prt] skillnaden [obj] till [case] Försäkringskassan [nmod] . [punct] 
 Entity: betalningsskyldigheten
@@ -2886,7 +2867,6 @@ Relation: bidragsskyldige betala skillnaden
 Beslut [ROOT] om [case] betalningsskyldighet [nmod] som [nsubj:pass] har [aux] bestämts [acl:relcl] enligt [case] 16-21 [obl] , [punct] 26 [nummod] och [cc] 27 [nummod] § [nsubj:pass] § [nsubj:pass] får [aux] upphävas [conj] helt [advmod] eller [cc] delvis [conj] om [mark] den [det] bidragsskyldige [nsubj] bosatt [conj] sig [obj] utomlands [advmod] . [punct] Detsamma [nsubj] gäller [ROOT] om [mark] den [det] bidragsskyldige [nsubj] bor [advcl] i [case] Sverige [obl] och [cc] i [case] eller [cc] från [conj] utlandet [conj] får [advcl] lön [obj] eller [cc] annan [amod] inkomst [conj] som [nsubj:pass] inte [advmod] kan [aux] tas [acl:relcl] i [advmod] anspråk [fixed] genom [case] utmätning [obl] enligt [case] 7 [nummod] kap. [nmod] utsökningsbalken [nmod] . [punct] 
 Entity: betalningsskyldighet
 Entity: bidragsskyldige
-Entity: detsamma
 Entity: bidragsskyldige
 Entity: utsökningsbalken
 
@@ -3050,6 +3030,7 @@ Entity: haagkonventionen
 Entity: barn
 Entity: adoptioner
 Entity: adoption
+Entity: situationer
 
 Adoptionsbidrag [nsubj:pass] lämnas [ROOT] endast [advmod] för [case] barn [obl] som [nsubj] inte [advmod] hade [aux] fyllt [acl:relcl] tio [nummod] år [obj] när [mark] föräldrarna [nsubj] fick [advcl] barnet [obj] i [case] sin [nmod:poss] vård [obl] . [punct] 
 Entity: adoptionsbidrag
@@ -3102,7 +3083,6 @@ Entity: barn
 
 Omvårdnadsbidraget [nsubj:pass] lämnas [ROOT] som [mark] 1 [nummod] . [nummod] en [det] fjärdedels [nsubj] förmån [xcomp] om [mark] barnet [nsubj] har [advcl] mer [advmod] än [fixed] måttliga [amod] behov [obj] av [case] omvårdnad [nmod] och [cc] tillsyn [conj] på [case] grund [fixed] av [fixed] funktionsnedsättning [obl] , [punct] 2 [nummod] . [nummod] halv [advmod] förmån [conj] om [mark] barnet [nsubj] har [advcl] stora [amod] behov [obj] av [case] omvårdnad [obl] och [cc] tillsyn [conj] på [case] grund [fixed] av [fixed] funktionsnedsättning [obl] , [punct] 3 [nummod] . [nummod] tre [nummod] fjärdedels [conj] förmån [obj] om [mark] barnet [nsubj] har [advcl] mycket [advmod] stora [amod] behov [obj] av [case] omvårdnad [nmod] och [cc] tillsyn [conj] på [case] grund [fixed] av [fixed] funktionsnedsättning [obl] , [punct] och [cc] 4 [nummod] . [nummod] hel [amod] förmån [conj] om [mark] barnet [nsubj] har [advcl] särskilt [advmod] stora [amod] behov [obj] av [case] omvårdnad [nmod] och [cc] tillsyn [conj] på [case] grund [fixed] av [fixed] funktionsnedsättning [obl] . [punct] Lag [ROOT] ( [punct] 2018:1265 [nummod] ) [punct] . [punct] 
 Entity: omvårdnadsbidraget
-Entity: fjärdedels
 Entity: barnet
 Entity: omvårdnad
 Entity: barnet
@@ -3174,7 +3154,6 @@ Entity: skäl
 Entity: bidraget
 
 Om [mark] det [nsubj:pass] lämnas [advcl] mer [advmod] än [mark] en [det] fjärdedels [nsubj] omvårdnadsbidrag [nsubj:pass] för [case] ett [det] barn [obl] och [cc] barnet [nsubj] avlider [advcl] , [punct] lämnas [ROOT] omvårdnadsbidraget [nsubj:pass] till [compound:prt] och [cc] med [case] den [det] åttonde [amod] månaden [conj] efter [case] dödsfallet [obl] eller [cc] den [det] tidigare [amod] månad [conj] när [mark] bidraget [nsubj] annars [advmod] skulle [aux] ha [aux] upphört [advcl] . [punct] Lag [ROOT] ( [punct] 2018:1265 [nummod] ) [punct] . [punct] 
-Entity: fjärdedels
 Entity: omvårdnadsbidrag
 Entity: barnet
 Entity: omvårdnadsbidraget
@@ -3184,7 +3163,6 @@ Under [case] den [det] tid [obl] som [nsubj:pass] anges [acl:relcl] i [case] 11 
 Entity: omvårdnadsbidrag
 Entity: tiden
 Entity: dödsfallet
-Entity: fjärdedels
 Entity: tiden
 Entity: dödsfallet
 
@@ -3204,7 +3182,6 @@ Ansökan [nsubj:pass] om [case] omvårdnadsbidrag [nmod] kan [aux] göras [ROOT]
 Entity: ansökan
 Entity: omvårdnadsbidrag
 Entity: föräldrarna
-Entity: dem
 
 Rätten [nsubj:pass] till [case] omvårdnadsbidrag [nmod] ska [aux] omprövas [ROOT] 1 [nummod] . [punct] minst [advmod] vartannat [fixed] år [obl] , [punct] om [mark] det [expl] inte [advmod] finns [acl] skäl [nsubj] för [case] omprövning [obl] med [case] längre [amod] mellanrum [obl] , [punct] eller [cc] 2 [nummod] . [punct] när [mark] förhållanden [nsubj:pass] som [nsubj] påverkar [acl:relcl] rätten [obj] till [case] bidraget [nmod] ändras [advcl] . [punct] Lag [ROOT] ( [punct] 2018:1265 [nummod] ) [punct] . [punct] 
 Entity: rätten
@@ -3274,6 +3251,7 @@ Entity: bestämmelser
 Vidare [advmod] finns [ROOT] bestämmelser [nsubj] om [mark] - [punct] bestämmande [acl] och [cc] behållande [conj] av [case] sjukpenninggrundande [amod] inkomst [obl] samt [cc] beräkning [conj] av [case] årsarbetstiden [nmod] i [case] vissa [amod] situationer [nmod] i [case] 26 [nummod] kap. [nmod] , [punct] - [punct] sjukpenning [obl] i [case] 27 [nmod] och [cc] 28 [nummod] kap. [conj] , [punct] och [cc] - [punct] sjukpenning [conj] i [case] särskilda [amod] fall [nmod] i [case] 28 [nmod] a [advmod] kap. [nmod] Lag [nmod] ( [punct] 2011:1513 [nummod] ) [punct] . [punct] 
 Entity: bestämmelser
 Entity: årsarbetstiden
+Entity: situationer
 Entity: lag
 
 Sjukpenning [nsubj:pass] kan [aux] lämnas [ROOT] till [case] en [det] försäkrad [obl] som [nsubj] har [acl:relcl] nedsatt [amod] arbetsförmåga [obj] på [case] grund [fixed] av [fixed] sjukdom [nmod] . [punct] Ersättningens [nmod:poss] storlek [nsubj] är [cop] beroende [ROOT] av [case] den [det] försäkrades [nmod:poss] sjukpenninggrundande [amod] inkomst [obl] ( [punct] SGI [appos] ) [punct] och [cc] den [det] omfattning [conj] i [case] vilken [det] dennes [nmod:poss] arbetsförmåga [nmod] är [cop] nedsatt [acl:relcl] . [punct] 
@@ -3311,7 +3289,6 @@ Entity: inkomst
 För [mark] att [mark] sjukpenninggrundande [amod] inkomst [nsubj:pass] ska [aux] kunna [aux] fastställas [advcl] krävs [ROOT] dessutom [advmod] att [mark] den [det] försäkrades [advcl] årliga [amod] inkomst [nsubj:pass] 1 [nummod] . [punct] kommer [ROOT] från [case] arbete [obl] i [case] Sverige [obl] , [punct] 2 [nummod] . [nummod] kommer [parataxis] från [case] arbete [obl] som [nsubj:pass] kan [aux] antas [acl:relcl] vara [cop] under [case] minst [advmod] sex [nummod] månader [obl] i [case] följd [nmod] eller [cc] vara [cop] årligen [advmod] återkommande [conj] , [punct] och [cc] 3 [nummod] . [nummod] kan [aux] antas [conj] uppgå [xcomp] till [case] minst [advmod] 24 [nummod] procent [obl] av [case] prisbasbeloppet [nmod] . [punct] 
 Entity: inkomst
 Entity: inkomst
-Entity: följd
 Entity: prisbasbeloppet
 
 Av [case] ett [det] beslut [obl] om [case] fastställande [nmod] av [case] sjukpenninggrundande [amod] inkomst [nmod] ska [aux] det [expl] framgå [ROOT] hur [advmod] stor [ccomp] den [det] sjukpenninggrundande [amod] inkomsten [nsubj] är [cop] och [cc] i [case] vilken [det] utsträckning [obl] denna [nsubj] avser [conj] inkomst [obj] av [case] anställning [nmod] eller [cc] inkomst [conj] av [case] annat [amod] förvärvsarbete [nmod] . [punct] 
@@ -3393,10 +3370,8 @@ Inkomst [nsubj:pass] av [case] näringsverksamhet [nmod] ska [aux] räknas [ROOT
 Entity: inkomst
 Entity: näringsverksamhet
 Entity: förvärvsarbete
-Entity: detsamma
 Entity: arbete
 Entity: tjänst
-Relation: detsamma gäller inkomst
 
 Det [nsubj] som [nsubj:pass] anges [acl:relcl] i [case] första [amod] stycket [obl] gäller [ROOT] endast [advmod] i [case] den [det] utsträckning [obl] inkomsten [nsubj:pass] inte [advmod] ska [aux] räknas [acl:relcl] som [mark] inkomst [xcomp] av [case] anställning [nmod] . [punct] Vidare [advmod] gäller [ROOT] det [nsubj] som [nsubj:pass] anges [acl:cleft] i [case] 9-17 [obl] och [cc] 19-24 [nummod] § [nmod] § [conj] . [punct] 
 Entity: inkomsten
@@ -3545,8 +3520,6 @@ Om [mark] arbetsgivaren [nsubj] är [cop] ett [det] fåmansföretag [obl] eller 
 Entity: arbetsgivaren
 Entity: ersättning
 Entity: personen
-Entity: dem
-Entity: detsamma
 
 Som [mark] sjukpenninggrundande [amod] inkomst [nsubj:pass] räknas [ROOT] inte [advmod] sådan [amod] ersättning [nsubj:pass] från [case] en [det] vinstandelsstiftelse [obl] som [nsubj] härrör [acl:relcl] från [case] bidrag [obl] som [obj] arbetsgivaren [nsubj] har [aux] lämnat [acl:relcl] under [case] något [obl] av [case] åren [nmod] 1988-1991 [nmod] . [punct] 
 Entity: inkomst
@@ -3584,7 +3557,6 @@ Entity: studietid
 Entity: löneförmåner
 Entity: tid
 Entity: försäkrade
-Entity: ferier
 Entity: lärare
 
 Årsarbetstiden [nsubj:pass] avrundas [ROOT] till [case] närmast [advmod] hela [amod] timtal [obl] , [punct] varvid [advmod] halv [advmod] timme [cc] avrundas [advcl] uppåt [advmod] . [punct] 
@@ -3600,6 +3572,7 @@ I [case] 26 [nummod] kap. [ROOT] samt [cc] 28 [nummod] kap. [nmod] 8 [nmod] och 
 Entity: bestämmelser
 Entity: beräkning
 Entity: årsarbetstid
+Entity: situationer
 
 I [case] detta [det] kapitel [obl] finns [ROOT] bestämmelser [nsubj] om [mark] - [punct] när [case] sjukpenninggrundande [amod] inkomst [nsubj:pass] bestäms [advcl] i [case] 2 [nummod] och [cc] 3 [nummod] § [nmod] § [obl] , [punct] - [punct] ändring [obl] av [case] den [det] sjukpenninggrundande [amod] inkomsten [nmod] i [case] 4-8 [nummod] § [nmod] § [nmod] , [punct] - [punct] sjukpenninggrundande [amod] inkomst [appos] vid [case] förvärvsavbrott [nmod] ( [punct] SGI- [nsubj:pass] skyddad [parataxis] tid [obj] ) [punct] i [case] 9-18 [nummod] § [nmod] § [obl] , [punct] - [punct] sjukpenninggrundande [amod] inkomst [obl] och [cc] årsarbetstid [conj] i [case] vissa [amod] situationer [nmod] i [case] 19-27 [nummod] § [nmod] § [nmod] , [punct] och [cc] - [punct] årlig [amod] omräkning [conj] av [case] sjukpenninggrundande [amod] inkomst [nmod] vid [case] förvärvsavbrott [nmod] i [case] vissa [amod] fall [nmod] ( [punct] SGI-skyddad [amod] tid [appos] ) [punct] i [case] 28-31 [nummod] § [nmod] § [nmod] . [punct] 
 Entity: bestämmelser
@@ -3607,6 +3580,7 @@ Entity: inkomst
 Entity: inkomsten
 Entity: förvärvsavbrott
 Entity: sgi-
+Entity: situationer
 Entity: inkomst
 Entity: förvärvsavbrott
 
@@ -3922,7 +3896,6 @@ Entity: nedsättning
 En [det] försäkrad [nsubj] har [ROOT] rätt [obj] till [case] sjukpenning [obl] vid [case] sjukdom [nmod] som [nsubj] sätter [acl:relcl] ned [compound:prt] hans [nmod:poss] eller [cc] hennes [nmod:poss] arbetsförmåga [obj] med [case] minst [advmod] en [det] fjärdedel [nmod] . [punct] 
 Entity: försäkrad
 Entity: sjukdom
-Entity: fjärdedel
 Relation: försäkrad har rätt
 
 Med [case] sjukdom [obl] likställs [ROOT] ett [det] tillstånd [nsubj:pass] av [case] nedsatt [amod] arbetsförmåga [nmod] som [nsubj:pass] orsakats [acl:relcl] av [case] sjukdom [obl:agent] för [case] vilken [obl] det [expl] lämnats [advcl] sjukpenning [nsubj:pass] , [punct] om [mark] tillståndet [nsubj] fortfarande [advmod] kvarstår [advcl] efter [compound:prt] det [fixed] att [mark] sjukdomen [nsubj] upphört [ccomp] . [punct] 
@@ -3937,7 +3910,6 @@ Entity: försäkrade
 
 Sjukpenning [nsubj:pass] lämnas [ROOT] som [mark] hel [advcl] , [punct] tre [nummod] fjärdedels [appos] , [punct] halv [obl] eller [cc] en [det] fjärdedels [nsubj] förmån [conj] enligt [case] 45 [nummod] § [obl] . [punct] 
 Entity: sjukpenning
-Entity: fjärdedels
 
 För [mark] att [mark] underlätta [advcl] den [det] försäkrades [amod] återgång [obj] till [case] arbete [nmod] i [case] anslutning [fixed] till [fixed] ett [det] sjukdomsfall [obl] får [ROOT] , [punct] i [case] stället [fixed] för [fixed] den [det] sjukpenning [parataxis] som [nsubj:pass] annars [advmod] skulle [aux] ha [aux] lämnats [acl:relcl] , [punct] skälig [amod] ersättning [obj] lämnas [xcomp] för [case] den [det] försäkrades [nmod:poss] merutgifter [obl] för [case] resor [obl] till [case] och [cc] från [conj] arbetet [nmod] . [punct] 
 Entity: arbete
@@ -4102,7 +4074,6 @@ Entity: bestämmelserna
 
 Det [nsubj] som [nsubj:pass] föreskrivs [acl:relcl] i [case] första [amod] stycket [obl] gäller [ROOT] när [case] den [det] försäkrades [nmod:poss] arbetsförmåga [nsubj] till [case] minst [advmod] en [det] fjärdedel [nmod] är [cop] nedsatt [advcl] till [cc] följd [fixed] av [case] en [det] allvarlig [amod] sjukdom [obl:agent] . [punct] Lag [ROOT] ( [punct] 2018:647 [appos] ) [punct] . [punct] 
 Entity: arbetsförmåga
-Entity: fjärdedel
 
 Sjukpenning [nsubj:pass] på [case] fortsättningsnivån [nmod] lämnas [nsubj:pass] om [case] sjukpenning [obl] på [case] normalnivån [nmod] inte [advmod] kan [aux] lämnas [ROOT] på [case] grund [fixed] av [fixed] det [obl] som [nsubj:pass] föreskrivs [acl:relcl] i [case] 21 [nummod] § [obl] . [punct] Detta [nsubj] gäller [ROOT] även [advmod] för [case] dagar [obl] i [case] en [det] ny [amod] sjukperiod [nmod] . [punct] Lag [ROOT] ( [punct] 2015:963 [appos] ) [punct] . [punct] 
 Entity: sjukpenning
@@ -4128,7 +4099,6 @@ Som [case] sjukperiod [obl] anses [ROOT] tid [nsubj:pass] då [advmod] en [det] 
 Entity: tid
 Entity: försäkrad
 Entity: oavbruten
-Entity: följd
 
 Om [mark] rätt [fixed] till [case] sjukpenning [obl] för [case] den [det] försäkrade [nmod] uppkommer [acl:relcl] i [case] omedelbar [amod] anslutning [obl] till [case] en [det] period [nmod] med [case] lön [nmod] enligt [case] 34 [nummod] § [obl] sjömanslagen [nmod] ( [punct] 1973:282 [appos] ) [punct] , [punct] en [det] sjuklöneperiod [obl] enligt [case] lagen [nmod] ( [punct] 1991:1047 [appos] ) [punct] om [case] sjuklön [obl] eller [cc] en [nummod] period [conj] när [case] en [det] arbetsgivare [nmod] för [case] sjömän [nmod] som [nsubj:pass] avses [acl:relcl] i [case] sjömanslagen [obl] har [aux] betalat [advcl] ut [compound:prt] lön [obj] vid [case] sjukdom [obl] med [case] stöd [nmod] av [case] sådant [amod] kollektivavtal [nmod] som [nsubj:pass] avses [acl:relcl] i [case] 56 [nummod] § [obl] , [punct] ska [aux] sjukperioden [nsubj:pass] enligt [case] denna [det] lag [nmod] anses [ROOT] omfatta [xcomp] också [advmod] sådana [amod] perioder [nsubj:pass] . [punct] Lag [ROOT] ( [punct] 2017:1305 [appos] ) [punct] . [punct] 
 Entity: försäkrade
@@ -4175,7 +4145,6 @@ Entity: sjukpenning
 Entity: karens
 
 Detsamma [nsubj] gäller [ROOT] för [case] den [obl] som [nsubj] betalar [acl:relcl] egenavgift [obj] och [cc] som [nsubj] gjort [conj] anmälan [obj] om [case] karenstid [obl] på [case] 1 [nummod] dag [obl] enligt [case] 29 [nummod] § [obl] , [punct] för [case] den [det] första [amod] dagen [obl] i [case] en [det] sjukperiod [nmod] . [punct] Lag [ROOT] ( [punct] 2018:647 [appos] ) [punct] . [punct] 
-Entity: detsamma
 Entity: sjukperiod
 
 Till [case] en [det] sjöman [obl] på [case] fartyg [nmod] som [nsubj] inte [advmod] uteslutande [advmod] går [acl:relcl] i [case] inre [amod] fart [obl] lämnas [ROOT] sjukpenning [nsubj:pass] utan [case] beaktande [obl] av [case] sådan [amod] karens [nmod] som [nsubj:pass] avses [acl:relcl] i [case] 27 [obl] och [cc] 27 [nummod] a [cc] § [nmod] § [obl] . [punct] 
@@ -4184,12 +4153,10 @@ Entity: sjukpenning
 Entity: karens
 
 Med [case] inre [amod] fart [obl] avses [ROOT] detsamma [nsubj:pass] som [case] i [case] 64 [nummod] kap. [obl] 6 [nummod] § [nmod] inkomstskattelagen [obl] ( [punct] 1999:1229 [appos] ) [punct] . [punct] Lag [ROOT] ( [punct] 2018:647 [appos] ) [punct] . [punct] 
-Entity: detsamma
 
 För [case] en [det] försäkrad [advcl] som [nsubj:pass] omfattas [acl:relcl] av [case] bestämmelserna [obl:agent] i [case] 27 [nummod] a [cc] § [nmod] och [cc] som [nsubj] blir [conj] arbetslös [xcomp] , [punct] gäller [ROOT] i [advmod] stället [fixed] bestämmelserna [nsubj] om [case] karensavdrag [nmod] i [case] 27 [nummod] § [obl] . [punct] Detsamma [nsubj] gäller [ROOT] för [case] en [det] försäkrad [obl] som [nsubj] inte [advmod] längre [advmod] uppfyller [acl:relcl] villkoren [obj] för [case] karenstid [obl] i [case] 29-31 [nummod] § [nmod] § [obl] på [mark] grund [fixed] av [fixed] att [mark] han [nsubj] eller [cc] hon [conj] är [cop] arbetslös [obl] . [punct] 
 Entity: bestämmelserna
 Entity: karensavdrag
-Entity: detsamma
 
 Till [case] en [det] försäkrad [obl] som [nsubj:pass] omfattas [acl:relcl] av [case] första [amod] stycket [obl:agent] lämnas [ROOT] sjukpenning [nsubj:pass] utan [case] beaktande [obl] av [case] bestämmelserna [nmod] om [case] karens [nmod:poss] enligt [case] 28 [nummod] § [obl] första [amod] stycket [nmod] . [punct] Lag [ROOT] ( [punct] 2018:647 [appos] ) [punct] . [punct] 
 Entity: sjukpenning
@@ -4302,7 +4269,6 @@ Entity: försäkringskassan
 Entity: sjukpenning
 
 Detsamma [nsubj] gäller [ROOT] i [case] förhållande [fixed] till [fixed] en [det] försäkrad [obl] som [nsubj:pass] omfattas [acl:relcl] av [case] bestämmelserna [obl:agent] i [case] 28 [nummod] b [obl] § [fixed] första [amod] stycket [obl] . [punct] Lag [ROOT] ( [punct] 2018:647 [appos] ) [punct] . [punct] 
-Entity: detsamma
 
 Ett [det] beslut [nsubj:pass] om [mark] särskilt [amod] högriskskydd [nsubj:pass] får [aux] meddelas [ROOT] om [mark] den [det] försäkrade [nsubj] har [advcl] en [det] sjukdom [obj] som [nsubj:pass] under [case] en [det] tolvmånadersperiod [obl] kan [aux] antas [acl:relcl] medföra [xcomp] ett [det] större [amod] antal [nmod] sjukperioder [obj] . [punct] 
 Entity: beslut
@@ -4844,12 +4810,10 @@ Entity: sjukersättning
 Entity: sjukpenning
 Entity: dag
 Entity: sjukersättning
-Entity: fjärdedels
 Entity: dag
 Entity: sjukersättning
 Entity: dag
 Entity: sjukersättning
-Entity: fjärdedels
 
 När [case] sjukpenning [nsubj:pass] i [case] särskilda [amod] fall [nmod] ska [aux] lämnas [ROOT] som [mark] partiell [amod] förmån [xcomp] , [punct] lämnas [conj] ersättning [nsubj:pass] med [case] högst [advmod] tre [nummod] fjärdedelar [obl] , [punct] hälften [appos] eller [cc] en [det] fjärdedel [conj] av [case] beloppen [nmod] i [case] första [amod] stycket [nmod] . [punct] 
 Entity: sjukpenning
@@ -4901,6 +4865,7 @@ Entity: normalnivån
 
 En [det] försäkrad [nsubj] behåller [ROOT] sin [nmod:poss] rätt [obj] till [case] sjukpenning [obl] i [case] särskilda [amod] fall [nmod] under [case] tid [obl] då [advmod] 1 [nummod] . [nummod] han [nsubj] eller [cc] hon [conj] förvärvsarbetar [acl:relcl] , [punct] 2 [nummod] . [nummod] en [det] sådan [amod] situation [nsubj] föreligger [conj] som [nsubj:pass] anges [appos] i [case] 26 [nummod] kap. [nmod] 11 [obl] , [punct] 12 [nummod] , [punct] eller [cc] 14-18 [nummod] § [nmod] § [conj] som [mark] grund [appos] för [case] SGI-skydd [obl] , [punct] eller [cc] 3 [nummod] . [obl] han [nsubj] eller [cc] hon [conj] deltar [conj] i [case] ett [det] arbetsmarknadspolitiskt [amod] program [obl] och [cc] får [conj] aktivitetsstöd [obj] eller [cc] står [conj] till [case] arbetsmarknadens [nmod:poss] förfogande [obl] . [punct] 
 Entity: försäkrad
+Entity: situation
 Relation: försäkrad behåller rätt
 
 Rätten [nsubj] enligt [case] första [amod] stycket [nmod] gäller [ROOT] endast [advmod] om [mark] den [nsubj] inte [advmod] upphör [advcl] på [case] grund [fixed] av [fixed] 19 [nummod] § [obl] . [punct] 
@@ -5242,12 +5207,10 @@ Entity: sjukersättning
 Entity: rehabiliteringspenning
 Entity: dag
 Entity: sjukersättning
-Entity: fjärdedels
 Entity: dag
 Entity: sjukersättning
 Entity: dag
 Entity: sjukersättning
-Entity: fjärdedels
 
 När [mark] rehabiliteringspenning [nsubj:pass] i [case] särskilda [amod] fall [nmod] ska [aux] lämnas [advcl] som [mark] partiell [amod] förmån [xcomp] , [punct] lämnas [ROOT] ersättning [nsubj:pass] med [case] högst [advmod] tre [nummod] fjärdedelar [obl] , [punct] hälften [appos] eller [cc] en [det] fjärdedel [conj] av [case] beloppen [nmod] i [case] första [amod] stycket [nmod] . [punct] 
 Entity: rehabiliteringspenning
@@ -5283,6 +5246,7 @@ Entity: rehabiliteringspenning
 
 En [det] försäkrad [nsubj] behåller [ROOT] sin [nmod:poss] rätt [obj] till [case] rehabiliteringspenning [obl] i [case] särskilda [amod] fall [obl] under [case] tid [obl] då [advmod] 1 [nummod] . [nummod] han [nsubj] eller [cc] hon [conj] förvärvsarbetar [acl:relcl] , [punct] 2 [nummod] . [nummod] en [det] sådan [amod] situation [nsubj] föreligger [conj] som [nsubj:pass] anges [appos] i [case] 26 [nummod] kap. [nmod] 11 [obl] , [punct] 12 [nummod] , [punct] eller [cc] 14-18 [nummod] § [nmod] § [conj] som [mark] grund [appos] för [case] SGI-skydd [obl] , [punct] eller [cc] 3 [nummod] . [obl] han [nsubj] eller [cc] hon [conj] deltar [conj] i [case] ett [det] arbetsmarknadspolitiskt [amod] program [obl] och [cc] får [conj] aktivitetsstöd [obj] eller [cc] står [conj] till [case] arbetsmarknadens [nmod:poss] förfogande [obl] . [punct] 
 Entity: försäkrad
+Entity: situation
 Relation: försäkrad behåller rätt
 
 Rätten [nsubj] enligt [case] första [amod] stycket [nmod] gäller [ROOT] endast [advmod] om [mark] den [nsubj] inte [advmod] upphör [advcl] på [case] grund [fixed] av [fixed] 14 [nummod] § [obl] . [punct] 
@@ -5644,7 +5608,6 @@ Entity: försäkringstid
 Entity: rätt
 Entity: garantiersättning
 Entity: försäkrad
-Entity: därefter
 Entity: försäkringsfallet
 
 Försäkringstid [nsubj:pass] för [case] rätt [nmod] till [case] garantiersättning [nmod] tillgodoräknas [ROOT] en [det] försäkrad [nsubj:pass] 1 [nummod] . [punct] enligt [case] 6-11 [nummod] § [nmod] § [nsubj:pass] under [case] tiden [obl] från [case] och [fixed] med [fixed] det [det] år [obl] då [advmod] han [nsubj] eller [cc] hon [conj] fyllde [acl:relcl] 16 [nummod] år [obj] till [case] och [fixed] med [case] året [obl] före [case] försäkringsfallet [obl] ( [punct] faktisk [amod] försäkringstid [appos] ) [punct] , [punct] 2 [nummod] . [nummod] enligt [case] 12 [nummod] och [cc] 13 [nummod] § [nmod] § [nsubj:pass] för [case] tiden [obl] därefter [nmod] till [fixed] och [fixed] med [case] året [obl] före [case] det [det] år [obl] då [advmod] han [nsubj] eller [cc] hon [conj] uppnår [acl:relcl] den [obj] vid [case] försäkringsfallet [obl] gällande [amod] riktåldern [obj] för [case] pension [obl] ( [punct] framtida [amod] försäkringstid [obl] ) [punct] , [punct] och [cc] 3 [nummod] . [nummod] enligt [case] 14 [nummod] och [cc] 15 [nummod] § [nmod] § [nsubj:pass] om [case] försäkringsfallet [nmod] har [aux] inträffat [conj] före [case] 18 [nummod] års [nmod:poss] ålder [obl] . [punct] Lag [ROOT] ( [punct] 2022:879 [appos] ) [punct] . [punct] 
@@ -5652,7 +5615,6 @@ Entity: försäkringstid
 Entity: rätt
 Entity: garantiersättning
 Entity: försäkrad
-Entity: därefter
 Entity: försäkringsfallet
 
 Faktisk [amod] försäkringstid [nsubj:pass] och [cc] framtida [amod] försäkringstid [conj] sätts [ROOT] ned [compound:prt] var [advmod] för [fixed] sig [fixed] till [case] närmaste [amod] antal [obl] hela [amod] månader [nmod] . [punct] 
@@ -5799,7 +5761,6 @@ Entity: försäkrade
 Entity: försäkrade
 
 För [case] den [obl] som [nsubj:pass] inte [advmod] kan [aux] tillgodoräknas [acl:relcl] 40 [nummod] års [nmod:poss] försäkringstid [obj] gäller [ROOT] följande [nsubj] : [punct] 
-Entity: följande
 
 Garantinivån [nsubj:pass] enligt [case] 18 [nummod] eller [cc] 19 [nummod] § [nmod] ska [aux] avkortas [ROOT] till [case] så [advmod] stor [amod] andel [obl] av [case] denna [nmod] som [nsubj] svarar [acl:relcl] mot [case] kvoten [obl] mellan [case] - [punct] försäkringstiden [nmod] enligt [case] 5 [nummod] § [nmod] andra [amod] stycket [conj] och [cc] - [case] 40 [conj] . [punct] 
 Entity: garantinivån
@@ -5822,7 +5783,6 @@ Entity: garantiersättning
 Relation: sjukersättning motsvarar garantinivån
 
 För [case] den [det] vars [nmod:poss] hela [amod] inkomstrelaterade [amod] sjukersättning [obl] eller [cc] aktivitetsersättning [conj] för [case] år [nmod] räknat [ROOT] understiger [advcl] garantinivån [obj] gäller [ROOT] följande [nsubj] : [punct] 
-Entity: följande
 
 Årlig [amod] garantiersättning [nsubj] motsvarar [ROOT] differensen [obj] mellan [case] - [punct] garantinivån [obl] och [cc] - [punct] hela [amod] den [det] årliga [amod] inkomstrelaterade [amod] sjukersättningen [conj] eller [cc] aktivitetsersättningen [conj] enligt [case] 21 [nummod] och [cc] 22 [nummod] § [nmod] § [obj] . [punct] 
 Entity: garantiersättning
@@ -6004,7 +5964,6 @@ Entity: försäkringskassan
 Entity: försäkrade
 
 Detsamma [nsubj] gäller [ROOT] om [mark] den [nsubj] försäkrade [cc] helt [advmod] eller [cc] delvis [conj] avbryter [advcl] det [obj] arbetsförsök [obj] eller [cc] de [det] studier [conj] som [nsubj] legat [acl:relcl] till [case] grund [fixed] för [fixed] beslutet [obl] om [case] vilandeförklaring [nmod] för [mark] att [mark] i [advmod] stället [fixed] få [advcl] - [punct] graviditetspenning [obj] , [punct] - [punct] föräldrapenning [obl] , [punct] eller [cc] - [case] tillfällig [amod] föräldrapenning [conj] . [punct] 
-Entity: detsamma
 Entity: vilandeförklaring
 
 Försäkringskassan [nsubj] får [aux] besluta [ROOT] att [mark] en [det] försäkrad [ccomp] som [nsubj] förvärvsarbetar [acl:relcl] , [punct] när [mark] sjukersättning [cc] eller [cc] aktivitetsersättning [conj] helt [advmod] eller [cc] delvis [advmod] har [aux] förklarats [conj] vilande [cc] , [punct] varje [det] månad [nsubj] ska [aux] erhålla [advcl] ett [det] belopp [obj] som [nsubj] motsvarar [acl:relcl] 25 [nummod] procent [obj] av [case] den [det] sjukersättning [nmod] eller [cc] aktivitetsersättning [conj] som [nsubj] har [aux] förklarats [acl:relcl] vilande [xcomp] . [punct] Beloppet [nsubj:pass] får [aux] betalas [ROOT] ut [compound:prt] för [case] varje [det] månad [obl] under [case] en [det] period [obl] om [case] 24 [nummod] månader [nmod] . [punct] Lag [ROOT] ( [punct] 2016:1291 [advmod] ) [punct] . [punct] 
@@ -6026,7 +5985,6 @@ Entity: ersättningen
 Entity: mån
 Entity: arbetsförmågan
 Entity: ersättning
-Entity: denne
 
 Ett [det] beslut [nsubj] om [case] aktivitetsersättning [nmod] enligt [case] 18 [nummod] a [cc] § [nmod] ersätter [ROOT] ett [det] beslut [obj] om [case] förlängning [obl] enligt [case] 15 [nummod] b [cc] § [nmod] . [punct] Lag [ROOT] ( [punct] 2012:933 [appos] ) [punct] . [punct] 
 Entity: beslut
@@ -6087,7 +6045,6 @@ En [det] försäkrad [nsubj:pass] som [mark] regelbundet [advcl] och [cc] under 
 Entity: försäkrad
 Entity: beslutet
 Entity: aktivitetsersättning
-Entity: fattades
 
 Vid [case] omprövning [obl] enligt [case] 22 [nummod] § [nmod] får [aux] sådan [amod] aktivitetsersättning [nsubj:pass] som [nsubj:pass] har [aux] förklarats [acl:relcl] vilande [xcomp] enligt [case] 13 [nummod] § [obl] inte [advmod] ändras [ROOT] med [case] anledning [obl] av [mark] att [mark] den [det] försäkrade [acl] under [case] den [det] tid [obl] och [cc] i [case] den [det] omfattning [conj] som [nsubj:pass] anges [acl:relcl] i [case] beslutet [obl] genom [case] förvärvsarbete [nmod] eller [cc] studier [conj] har [aux] visat [advcl] en [det] väsentligt [advmod] förbättrad [amod] arbetsförmåga [obj] . [punct] 
 Entity: aktivitetsersättning
@@ -6104,7 +6061,6 @@ Entity: försäkringskassan
 Relation: försäkringskassan bevilja honom
 
 Detsamma [nsubj] ska [aux] gälla [ROOT] då [mark] en [det] försäkrad [nsubj] får [advcl] sjukpenning [obj] , [punct] ersättning [conj] för [case] sjukhusvård [nmod] eller [cc] livränta [conj] enligt [case] 40-44 [nummod] kap. [nmod] eller [cc] motsvarande [amod] ersättning [conj] som [nsubj:pass] lämnas [acl:relcl] enligt [case] annan [amod] författning [obl] eller [cc] på [case] grund [fixed] av [fixed] särskilt [amod] beslut [conj] av [case] regeringen [nmod] . [punct] 
-Entity: detsamma
 Entity: försäkrad
 Entity: sjukhusvård
 Entity: regeringen
@@ -6148,9 +6104,7 @@ Entity: juni
 Entity: arbetsförmåga
 Entity: bestämmelserna
 Entity: kapitel
-Entity: detsamma
 Entity: tiden
-Relation: detsamma gäller den
 
 Det [ROOT] som [nsubj:pass] anges [acl:relcl] i [case] första [amod] stycket [obl] ska [aux] inte [advmod] gälla [parataxis] för [case] en [det] försäkrad [obl] som [nsubj] får [acl:relcl] sjukersättning [obj] med [case] en [det] högre [amod] förmånsnivå [obl] efter [case] juni [nmod] eller [cc] , [punct] för [case] en [det] försäkrad [conj] som [nsubj:pass] avses [conj] i [case] första [amod] stycket [nmod] andra [amod] meningen [obl] , [punct] juli [conj] 2008 [nummod] . [punct] 
 Entity: juni
@@ -6305,7 +6259,6 @@ Entity: försäkringskassan
 Entity: självmant
 
 En [det] fråga [nsubj:pass] om [case] ny [amod] slutlig [amod] sjukersättning [nmod] enligt [case] bestämmelserna [nmod] i [case] första [amod] stycket [obl] får [aux] inte [advmod] tas [ROOT] upp [compound:prt] efter [case] utgången [obl] av [case] femte [amod] året [nmod] efter [case] det [det] år [fixed] beslutet [obl] om [case] pensionsgrundande [amod] inkomst [nmod] meddelades [xcomp] . [punct] 
-Entity: fråga
 Entity: sjukersättning
 Entity: bestämmelserna
 Entity: inkomst
@@ -6381,7 +6334,6 @@ Entity: olycksfall
 Entity: färd
 Entity: arbetsstället
 Entity: arbetet
-Entity: färden
 
 En [det] skada [nsubj:pass] som [nsubj] beror [acl:relcl] på [case] ett [det] olycksfall [obl] anses [ROOT] ha [aux] inträffat [xcomp] dagen [obj] för [case] olycksfallet [obl] . [punct] 
 Entity: skada
@@ -6671,7 +6623,6 @@ Entity: bestämmelser
 
 Utan [case] hinder [obl] av [case] bestämmelserna [nmod] i [case] 22 [nummod] § [nmod] ska [aux] följande [nsubj] gälla [ROOT] . [punct] 
 Entity: bestämmelserna
-Entity: följande
 
 Ett [det] beslut [nsubj] om [case] sjukersättning [nmod] enligt [case] 37 [nummod] kap. [nmod] ska [aux] också [advmod] omfatta [ROOT] sådan [amod] livränta [obj] som [nsubj] enligt [case] 42 [nummod] kap. [cc] 2 [nummod] § [nsubj] är [cop] samordnad [acl:relcl] med [case] sjukersättningen [obl] . [punct] Det [ROOT] som [nsubj:pass] där [advmod] föreskrivs [acl:relcl] om [case] sjukersättning [obl] ska [aux] då [advmod] även [advmod] avse [conj] livränta [obj] . [punct] 
 Entity: beslut
@@ -7029,7 +6980,6 @@ Entity: förvärvsarbete
 
 Med [case] tid [obl] för [case] förvärvsarbete [nmod] likställs [ROOT] följande [nsubj:pass] : [punct] 1 [ROOT] . [punct] Ledighet [nsubj] för [case] semester [nmod] , [punct] dock [advmod] inte [advmod] om [mark] den [det] försäkrade [ROOT] under [case] ledigheten [obl] får [advcl] semesterlön [obj] enligt [case] semesterlagen [obl] ( [punct] 1977:480 [appos] ) [punct] och [cc] , [punct] enligt [case] 15 [nummod] § [obl] samma [det] lag [nsubj] , [punct] kan [aux] begära [conj] att [mark] dag [obl] då [mark] han [nsubj] eller [cc] hon [conj] inte [advmod] kan [aux] arbeta [ccomp] på [case] grund [fixed] av [fixed] sjukdom [obl] inte [advmod] ska [aux] räknas [conj] som [mark] semesterdag [xcomp] . [punct] 2 [nummod] . [punct] Ledighet [nsubj:pass] under [case] studietid [nmod] för [case] vilken [det] oavkortade [amod] löneförmåner [conj] lämnas [ROOT] . [punct] 3 [ROOT] . [punct] Ledighet [ROOT] under [case] tid [nmod] då [advmod] den [det] försäkrade [nsubj] får [advcl] ersättning [obj] för [mark] att [mark] delta [advcl] i [case] teckenspråksutbildning [obl] för [case] vissa [amod] föräldrar [obl] ( [punct] TUFF [appos] ) [punct] . [punct] 4 [ROOT] . [punct] Ledighet [ROOT] för [case] ferier [nmod] eller [cc] motsvarande [amod] uppehåll [conj] för [case] lärare [nmod] som [nsubj] är [cop] anställda [acl:relcl] inom [case] utbildningsväsendet [obl] . [punct] 
 Entity: förvärvsarbete
-Entity: följande
 Entity: ledighet
 Entity: semester
 Entity: lag
@@ -7037,7 +6987,6 @@ Entity: ledighet
 Entity: studietid
 Entity: tid
 Entity: försäkrade
-Entity: ferier
 Entity: lärare
 
 Smittbärarpenning [nsubj:pass] lämnas [ROOT] med [case] ett [det] belopp [obl] som [nsubj] motsvarar [acl:relcl] den [det] försäkrades [nmod:poss] sjukpenning [obj] på [case] normalnivån [nmod] enligt [case] 28 [nummod] kap. [obl] 
@@ -7167,11 +7116,9 @@ Vid [case] beräkning [obl] av [case] antalet [nmod] dagar [nmod] med [case] rä
 Entity: dagar
 Entity: rätt
 Entity: ersättning
-Entity: följande
 Entity: dag
 Entity: närståendepenning
 Entity: dag
-Entity: fjärdedels
 Entity: dag
 Relation: dag motsvarar dag
 Relation: dag motsvarar fjärdedelar
@@ -7423,7 +7370,6 @@ Entity: ansökan
 Entity: merkostnadsersättning
 Entity: barn
 Entity: föräldrarna
-Entity: dem
 
 Rätten [nsubj:pass] till [case] merkostnadsersättning [nmod] ska [aux] omprövas [ROOT] 1 [nummod] . [punct] minst [advmod] vart [det] fjärde [amod] år [obl] , [punct] om [mark] det [expl] inte [advmod] finns [acl] skäl [nsubj] för [case] omprövning [obl] med [case] längre [amod] mellanrum [obl] , [punct] eller [cc] 2 [nummod] . [punct] när [mark] förhållanden [nsubj:pass] som [nsubj] påverkar [acl:relcl] rätten [obj] till [case] merkostnadsersättningen [nmod] ändras [advcl] . [punct] 
 Entity: rätten
@@ -7693,7 +7639,6 @@ Entity: assistenter
 Entity: återbetalning
 Entity: skäl
 Entity: ersättningen
-Entity: denne
 Entity: förmyndare
 Relation: försäkrade betala ersättning
 
@@ -7930,7 +7875,6 @@ Relation: anpassningsbidraget motsvarar kostnaden
 Försäkringskassan [nsubj] får [aux] besluta [ROOT] att [mark] inte [advmod] medge [ccomp] anpassningsbidrag [obj] om [case] det [det] fordon [advcl] som [nsubj] den [det] försäkrade [amod] valt [nsubj] är [cop] olämpligt [acl:relcl] med [case] hänsyn [fixed] till [fixed] den [det] form [obl] av [case] anpassning [nmod] som [nsubj:pass] behövs [acl:relcl] . [punct] Detsamma [nsubj] gäller [ROOT] om [mark] fordonet [nsubj] är [cop] olämpligt [advcl] med [case] hänsyn [fixed] till [fixed] sitt [nmod:poss] skick [obl] . [punct] 
 Entity: försäkringskassan
 Entity: anpassning
-Entity: detsamma
 Entity: fordonet
 
 Om [mark] fordonet [nsubj] är [cop] äldre [advcl] än [case] fyra [nummod] år [obl] eller [cc] har [aux] framförts [conj] mer [advmod] än [fixed] 6 [nummod] 000 [nmod] mil [obl] , [punct] lämnas [ROOT] anpassningsbidrag [nsubj:pass] för [case] ändring [obl] av [case] fordonet [nmod] eller [cc] anskaffning [conj] av [case] en [det] särskild [amod] anordning [nmod] på [case] fordonet [nmod] endast [advmod] om [mark] det [expl] finns [advcl] särskilda [amod] skäl [nsubj] . [punct] Sådana [amod] särskilda [amod] skäl [nsubj:pass] krävs [ROOT] dock [advmod] endast [advmod] när [advmod] det [fixed] till [case] den [det] försäkrade [amod] för [case] första [amod] gången [fixed] ska [aux] lämnas [advcl] anpassningsbidrag [nsubj:pass] för [case] fordonet [obl] . [punct] Lag [ROOT] ( [punct] 2020:509 [appos] ) [punct] . [punct] 
@@ -8072,6 +8016,8 @@ Relation: myndighet upprätta redovisning
 Relation: försäkringskassan lämna uppgifter
 
 Vem [nsubj] kan [aux] få [ROOT] inkomstpension [obj] , [punct] tilläggspension [conj] och [cc] premiepension [conj] ? [punct] 
+Entity: vem
+Relation: vem få inkomstpension
 
 En [det] försäkrad [ROOT] som [nsubj] är [cop] född [acl:relcl] 1937 [nummod] eller [cc] tidigare [advmod] kan [aux] få [conj] inkomstgrundad [amod] ålderspension [obj] i [case] form [fixed] av [fixed] tilläggspension [obl] . [punct] 
 
@@ -8314,7 +8260,6 @@ Entity: förändringen
 Entity: indextalet
 Entity: inkomster
 Entity: indexet
-Entity: därefter
 Relation: förändringen motsvara förändringen
 
 Regeringen [nsubj] eller [cc] den [det] myndighet [conj] som [obj] regeringen [nsubj] bestämmer [acl:relcl] meddelar [ROOT] närmare [amod] föreskrifter [obj] om [case] inkomstindexet [nmod] . [punct] 
@@ -8377,7 +8322,6 @@ Entity: pensionsbehållningar
 Entity: förändringen
 Entity: inkomstindex
 Entity: balanstalet
-Entity: därefter
 Entity: pensionsrätter
 Entity: inkomstpension
 Entity: åldersgrupp
@@ -8386,7 +8330,6 @@ Entity: pensionsbelopp
 Entity: åldersgrupp
 Entity: utbetalningar
 Entity: tilläggspension
-Entity: dem
 Relation: pensionsbehållningar avser pension
 
 Om [mark] ett [det] balansindex [nsubj:pass] har [aux] beräknats [advcl] enligt [case] 22-24 [nummod] § [nmod] § [obl] för [case] det [det] år [obl] som [advmod] värdet [nsubj:pass] av [case] pensionsrätter [nmod] för [case] inkomstpension [nmod] ska [aux] beräknas [acl:relcl] enligt [case] första [amod] stycket [obl] 2 [nummod] , [punct] ska [aux] pensionsrätterna [nsubj:pass] beräknas [ROOT] på [case] det [det] sätt [obl] som [nsubj:pass] anges [acl:relcl] i [case] 62 [nummod] kap. [nmod] 5 [nummod] § [nmod] andra [amod] stycket [obl] . [punct] 
@@ -8601,7 +8544,6 @@ Entity: lagen
 
 Som [mark] inkomst [obl] av [case] annat [amod] förvärvsarbete [nmod] räknas [ROOT] följande [nsubj:pass] : [punct] 1 [ROOT] . [punct] Inkomst [nsubj] av [case] en [det] sådan [amod] näringsverksamhet [nmod] som [mark] enligt [case] 2 [nummod] kap. [nmod] 23 [nummod] § [nmod] inkomstskattelagen [appos] ( [punct] 1999:1229 [nummod] ) [punct] utgör [ROOT] aktiv [amod] näringsverksamhet [obj] . [punct] 2 [ROOT] . [punct] Tillfällig [amod] förvärvsinkomst [ROOT] av [case] självständigt [advmod] bedriven [amod] verksamhet [nmod] . [punct] 3 [ROOT] . [punct] Ersättning [ROOT] för [case] arbete [nmod] för [case] någon [det] annans [nmod:poss] räkning [nmod] i [case] pengar [nmod] eller [cc] andra [amod] skattepliktiga [amod] förmåner [conj] . [punct] 4 [ROOT] . [punct] Sjukpenning [ROOT] eller [cc] motsvarande [amod] ersättning [conj] enligt [case] denna [det] balk [obl] eller [cc] annan [amod] författning [conj] eller [cc] på [case] grund [fixed] av [fixed] särskilt [amod] beslut [conj] av [case] regeringen [nmod] . [punct] Detta [nsubj] gäller [ROOT] i [case] den [det] utsträckning [obl] ersättningen [nsubj] har [aux] trätt [acl:relcl] i [case] stället [fixed] för [fixed] inkomst [obl] som [nsubj:pass] anges [acl:relcl] i [case] 1-3 [obl] . [punct] 5 [nummod] . [punct] Stipendium [ROOT] som [nsubj:pass] enligt [case] 11 [nummod] kap. [obl] 46 [nummod] § [nmod] inkomstskattelagen [nsubj:pass] ska [aux] tas [acl:relcl] upp [compound:prt] som [mark] intäkt [obl] i [case] inkomstslaget [amod] tjänst [nmod] . [punct] 
 Entity: förvärvsarbete
-Entity: följande
 Entity: inkomst
 Entity: näringsverksamhet
 Entity: verksamhet
@@ -8738,10 +8680,8 @@ Om [mark] arbetsgivaren [nsubj] är [cop] ett [det] fåmansföretag [obl] eller 
 Entity: arbetsgivaren
 Entity: ersättning
 Entity: personen
-Entity: dem
 
 Med [case] fåmansföretag [obl] , [punct] fåmanshandelsbolag [conj] , [punct] företagsledare [conj] och [cc] närstående [conj] avses [ROOT] detsamma [nsubj:pass] som [case] i [case] inkomstskattelagen [obl] ( [punct] 1999:1229 [appos] ) [punct] . [punct] 
-Entity: detsamma
 
 När [mark] pensionsgrundande [amod] inkomst [nsubj:pass] beräknas [advcl] ska [aux] det [expl] bortses [ROOT] från [case] sådan [amod] ersättning [obl] från [case] en [det] vinstandelsstiftelse [obl] som [nsubj] härrör [acl:relcl] från [case] bidrag [obl] som [obj] arbetsgivaren [nsubj] har [aux] lämnat [acl:relcl] under [case] åren [nmod] 1988-1991 [obl] . [punct] Hur [advmod] är [cop] samordnade [amod] sociala [amod] förmåner [ROOT] pensionsgrundande [nsubj] ? [punct] 
 Entity: inkomst
@@ -8936,7 +8876,6 @@ Entity: minskning
 
 Om [mark] inkomstrelaterad [amod] sjukersättning [nsubj] eller [cc] inkomstrelaterad [amod] aktivitetsersättning [conj] , [punct] med [case] tillämpning [obl] av [case] 42 [nummod] kap. [nmod] 2-4 [nummod] § [nmod] § [nsubj] har [aux] varit [cop] samordnad [advcl] med [case] pensionsgrundande [amod] livränta [obl] gäller [ROOT] följande [nsubj] . [punct] Den [det] del [nsubj:pass] av [case] antagandeinkomsten [nmod] som [nsubj:pass] avses [acl:relcl] i [case] 9 [nummod] och [cc] 10 [nummod] § [nmod] § [obl] tillgodoräknas [ROOT] den [det] försäkrade [amod] som [mark] pensionsgrundande [amod] belopp [nsubj:pass] endast [advmod] om [fixed] och [cc] i [case] den [det] utsträckning [obl] den [nsubj] överstiger [acl:relcl] den [det] försäkrades [nmod:poss] livränta [obj] efter [case] samordning [nmod] . [punct] 
 Entity: sjukersättning
-Entity: följande
 Entity: del
 Entity: antagandeinkomsten
 Entity: belopp
@@ -8945,7 +8884,6 @@ Entity: samordning
 Om [mark] endast [advmod] en [det] del [nsubj] av [case] den [det] inkomstrelaterade [amod] sjukersättningen [nmod] eller [cc] inkomstrelaterade [amod] aktivitetsersättningen [conj] har [aux] varit [cop] samordnad [advcl] med [case] livräntan [obl] gäller [ROOT] följande [nsubj] . [punct] Den [det] andel [nsubj:pass] av [case] det [det] belopp [nmod] som [nsubj] svarar [acl:relcl] mot [case] den [det] samordnade [amod] delen [obl] av [case] den [det] inkomstrelaterade [amod] sjukersättningen [nmod] eller [cc] inkomstrelaterade [amod] aktivitetsersättningen [conj] tillgodoräknas [ROOT] den [det] försäkrade [amod] som [mark] pensionsgrundande [amod] belopp [nsubj:pass] endast [mark] om [fixed] och [cc] i [case] den [det] utsträckning [obl] andelen [nsubj] överstiger [advcl] den [det] försäkrades [amod] livränta [obj] efter [case] samordning [nmod] . [punct] 
 Entity: del
 Entity: sjukersättningen
-Entity: följande
 Entity: andel
 Entity: belopp
 Entity: sjukersättningen
@@ -9037,7 +8975,6 @@ Pensionsgrundande [amod] belopp [nsubj:pass] för [case] barnår [nmod] ska [aux
 Entity: belopp
 Entity: barnår
 Entity: föräldrar
-Entity: detsamma
 Entity: föräldrar
 Entity: föräldrarna
 
@@ -9049,7 +8986,6 @@ Om [mark] föräldrarna [nsubj:pass] var [advmod] för [fixed] sig [fixed] kan [
 Entity: föräldrarna
 Entity: belopp
 Entity: pensionsmyndigheten
-Entity: dem
 
 Om [mark] anmälan [nsubj:pass] enligt [case] 23 [nummod] § [nmod] inte [advmod] görs [advcl] ska [dep] det [det] pensionsgrundande [amod] beloppet [nsubj:pass] för [case] barnår [obl] tillgodoräknas [ROOT] den [nsubj:pass] av [case] föräldrarna [nmod] som [nsubj] , [punct] för [advmod] det [fixed] år [fixed] beloppet [nsubj] avser [advcl] , [punct] har [dep] lägst [amod] pensionsunderlag [obj] enligt [case] 61 [nummod] kap. [obl] 5 [nummod] § [nmod] . [punct] 
 Entity: anmälan
@@ -9062,7 +8998,6 @@ Entity: föräldrarna
 Entity: beloppet
 Entity: mor
 Entity: föräldrarna
-Entity: dem
 
 När [mark] 24 [nummod] § [nsubj:pass] tillämpas [advcl] ska [aux] i [case] pensionsunderlaget [obl] räknas [ROOT] in [compound:prt] följande [amod] poster [nsubj:pass] : [punct] 1 [nummod] . [nummod] pensionsgrundande [amod] inkomst [appos] enligt [case] 59 [nummod] kap [nmod] , [punct] 2 [nummod] . [nummod] utlandsinkomster [conj] enligt [case] 47 [nummod] § [nmod] första [amod] stycket [nmod] 1 [nummod] och [cc] 2 [nummod] , [punct] 3 [nummod] . [nummod] pensionsgrundande [amod] belopp [conj] för [case] sjukersättning [obl] eller [cc] aktivitetsersättning [conj] enligt [case] 7 [nummod] § [obl] , [punct] 4 [nummod] . [nummod] pensionsgrundande [amod] belopp [conj] för [case] plikttjänstgöring [nmod] enligt [case] 17 [nummod] § [nmod] , [punct] och [cc] 5 [nummod] . [nummod] pensionsgrundande [amod] belopp [conj] för [case] studier [obl] enligt [case] 19 [nummod] § [nmod] . [punct] 
 Entity: poster
@@ -9320,7 +9255,6 @@ Entity: förälder
 Entity: belopp
 
 För [case] en [det] försäkrad [obl] som [nsubj] under [case] intjänandeåret [obl] har [aux] fått [acl:relcl] sådana [amod] utlandsinkomster [obj] som [nsubj:pass] avses [acl:relcl] i [case] 47 [nummod] § [obl] första [amod] stycket [nsubj] 1 [nummod] och [cc] 2 [nummod] gäller [ROOT] dock [advmod] följande [nsubj] . [punct] Det [det] inkomstbasbelopp [nsubj:pass] som [nsubj] gäller [acl:relcl] för [case] intjänandeåret [obl] ska [aux] minskas [ROOT] om [mark] det [expl] tillsammans [advmod] med [case] utfyllnadsinkomst [cc] enligt [case] 46 [nummod] § [obl] överstiger [advcl] 7,5 [nummod] inkomstbasbelopp [obj] ( [punct] intjänandetaket [appos] ) [punct] . [punct] Det [det] pensionsgrundande [amod] beloppet [nsubj:pass] för [case] barnår [nmod] ska [aux] då [advmod] beräknas [ROOT] som [ROOT] differensen [cc] mellan [nmod] - [punct] det [expl] för [case] intjänandeåret [conj] gällande [case] inkomstbasbeloppet [nmod] och [cc] - [punct] det [det] belopp [conj] som [nsubj] överstiger [acl:relcl] intjänandetaket [obj] . [punct] 
-Entity: följande
 Entity: inkomstbasbelopp
 Entity: beloppet
 Entity: barnår
@@ -9437,7 +9371,6 @@ Entity: förvärvsarbete
 Entity: avgifter
 
 För [case] en [det] försäkrad [obl] som [nsubj] är [cop] född [acl:relcl] under [case] något [obl] av [case] åren [nmod] 1938-1953 [nummod] gäller [ROOT] följande [nsubj] . [punct] Pensionsrätt [nsubj:pass] för [case] inkomstpension [nmod] och [cc] pensionsrätt [conj] för [case] premiepension [nmod] ska [aux] minskas [ROOT] med [case] en [det] tjugondel [obl] för [case] varje [det] helt [amod] år [nmod] från [fixed] och [cc] med [case] året [obl] efter [case] födelseåret [conj] till [case] utgången [nmod] av [case] 1954 [nmod] . [punct] 
-Entity: följande
 Entity: pensionsrätt
 Entity: inkomstpension
 Entity: premiepension
@@ -9563,7 +9496,6 @@ Entity: föräldern
 Vårdår [nsubj:pass] får [aux] inte [advmod] tillgodoräknas [ROOT] en [det] försäkrad [nsubj:pass] för [case] 1 [obl] . [nummod] år [obl] före [nmod] det [fixed] år [fixed] då [advmod] han [nsubj] eller [cc] hon [conj] fyllt [advcl] 16 [nummod] år [obj] , [punct] 2 [nummod] . [nummod] det [det] år [parataxis] då [advmod] han [nsubj] eller [cc] hon [conj] avlidit [acl:relcl] , [punct] 3 [nummod] . [nummod] år [obl] efter [case] det [obl] då [advmod] han [nsubj] eller [cc] hon [conj] fyllt [acl:relcl] 64 [nummod] år [obj] , [punct] 4 [nummod] . [nummod] år [appos] som [advmod] han [nsubj:pass] eller [cc] hon [conj] tillgodoräknas [dep] pensionspoäng [obj] för [advmod] , [punct] eller [cc] 5 [nummod] . [nummod] år [conj] som [advmod] han [nsubj] eller [cc] hon [conj] enligt [case] 21 [nummod] § [obl] på [case] grund [fixed] av [fixed] bristande [amod] eller [cc] underlåten [conj] avgiftsbetalning [nmod] inte [advmod] tillgodoräknas [conj] pensionspoäng [nsubj:pass] för [advmod] . [punct] 
 Entity: vårdår
 Entity: försäkrad
-Entity: före
 Entity: avgiftsbetalning
 Entity: pensionspoäng
 
@@ -9801,14 +9733,12 @@ Entity: pensionsbehållningen
 Entity: inkomstindex
 Entity: index
 Entity: arvsvinstomräkningen
-Entity: därefter
 
 Om [mark] arvsvinstomräkning [nsubj:pass] inte [advmod] ska [aux] göras [advcl] , [punct] ska [aux] pensionsbehållningen [nsubj:pass] räknas [ROOT] om [case] med [case] hänsyn [fixed] till [fixed] förändringen [obl] av [case] inkomstindex [nmod] mellan [case] fastställelseåret [nmod] och [cc] året [conj] därefter [nmod] . [punct] 
 Entity: arvsvinstomräkning
 Entity: pensionsbehållningen
 Entity: inkomstindex
 Entity: fastställelseåret
-Entity: därefter
 
 För [case] år [obl] då [advmod] balansindex [nsubj:pass] fastställs [acl:relcl] ska [aux] beräkningen [nsubj:pass] göras [ROOT] med [case] hänsyn [fixed] till [fixed] detta [det] index [obl] i [case] stället [fixed] för [case] inkomstindexet [nmod] . [punct] 
 Entity: balansindex
@@ -9854,7 +9784,6 @@ Entity: kostnaderna
 Entity: förvaltningen
 Entity: försäkringen
 Entity: inkomstpension
-Entity: faktorn
 Entity: pensionsbehållningar
 
 När [mark] förvaltningskostnadsfaktorn [nsubj:pass] bestäms [advcl] ska [aux] hänsyn [nsubj:pass] också [advmod] tas [ROOT] till [case] differensen [obl] mellan [case] - [punct] det [det] belopp [obl] som [nsubj:pass] pensionsbehållningarna [nsubj:pass] minskats [acl:relcl] med [case] genom [case] föregående [amod] års [nmod:poss] omräkning [obl] enligt [case] 22 [nummod] och [cc] 23 [nummod] § [nmod] § [nmod] och [cc] - [punct] de [det] faktiska [amod] kostnaderna [conj] för [case] förvaltning [nmod] av [case] försäkringen [nmod] för [case] inkomstpension [nmod] och [cc] tilläggspension [conj] för [case] det [det] året [nmod] . [punct] 
@@ -10843,7 +10772,6 @@ Entity: garantipensionen
 Entity: gemenskaperna
 
 Med [case] tjänstepension [obl] enligt [case] 5 [nummod] § [obl] andra [amod] stycket [nmod] 3 [nummod] och [cc] 4 [nummod] avses [ROOT] följande [nsubj:pass] : [punct] 1 [nummod] . [nummod] pension [ROOT] som [nsubj:pass] betalas [acl:relcl] ut [compound:prt] på [case] grund [fixed] av [fixed] sådan [amod] tjänstepensionsförsäkring [obl] som [nsubj:pass] avses [acl:relcl] i [case] 58 [nummod] kap. [nmod] 7 [nummod] § [nmod] inkomstskattelagen [obj] ( [punct] 1999:1229 [appos] ) [punct] , [punct] och [cc] 2 [nummod] . [nummod] pension [conj] som [nsubj:pass] betalas [acl:relcl] ut [compound:prt] på [case] grund [fixed] av [fixed] tidigare [amod] tjänst [obl] på [case] annat [amod] sätt [obl] än [case] genom [case] försäkring [acl] . [punct] 
-Entity: följande
 
 Tjänstepension [nsubj] ska [aux] ingå [ROOT] i [case] beräkningsunderlaget [obl] med [case] det [det] belopp [obl] som [nsubj] framgår [acl:relcl] av [case] beslutet [obl] om [case] slutlig [amod] skatt [nmod] året [nsubj] före [advmod] det [fixed] år [fixed] garantipensionen [nsubj] avser [advcl] . [punct] 
 Entity: tjänstepension
@@ -10863,7 +10791,6 @@ Entity: efterlevande
 Entity: beräkningsunderlaget
 Entity: omräkningen
 Entity: pensionsmyndigheten
-Entity: detsamma
 Entity: pension
 Entity: ålderspension
 
@@ -10956,7 +10883,6 @@ Relation: garantipensionen motsvarar differensen
 
 För [case] den [obl] vars [nmod:poss] beräkningsunderlag [nsubj] inte [advmod] överstiger [acl:relcl] 0,25 [nummod] prisbasbelopp [obj] gäller [ROOT] följande [nsubj] : [punct] 
 Entity: beräkningsunderlag
-Entity: följande
 
 Den [det] årliga [amod] garantipensionen [nsubj] motsvarar [ROOT] differensen [obj] mellan [case] - [punct] beräkningsunderlaget [obl] som [nsubj:pass] först [advmod] har [aux] multiplicerats [acl:relcl] med [case] 1,04 [obl] och [cc] därefter [advmod] har [aux] ökats [conj] med [case] 0,3 [nummod] prisbasbelopp [obl] som [nsubj:pass] i [advmod] sin [fixed] tur [fixed] har [aux] beräknats [acl:relcl] på [case] samma [det] sätt [obl] som [nsubj:pass] anges [acl:relcl] i [case] 13 [nummod] § [obl] andra [amod] stycket [nmod] första [amod] meningen [obj] och [cc] - [punct] summan [conj] av [case] sådan [amod] tilläggspension [nmod] , [punct] tjänstepension [conj] , [punct] änkepension [conj] , [punct] utländsk [amod] pension [conj] och [cc] sådana [amod] andra [amod] förmåner [conj] som [nsubj] enligt [case] 5 [nummod] § [obl] andra [amod] stycket [nmod] 7 [nsubj] har [aux] ingått [acl:relcl] i [case] beräkningsunderlaget [obl] . [punct] Lag [ROOT] ( [punct] 2022:1031 [appos] ) [punct] . [punct] 
 Entity: garantipensionen
@@ -10981,7 +10907,6 @@ Entity: prisbasbelopp
 
 För [case] den [det] vars [nmod:poss] beräkningsunderlag [nsubj:pass] har [aux] beräknats [ROOT] enligt [case] 22 [nummod] a [fixed] § [obl] gäller [parataxis] följande [nsubj] : [punct] 
 Entity: beräkningsunderlag
-Entity: följande
 
 Den [det] årliga [amod] garantipensionen [nsubj] motsvarar [ROOT] differensen [obj] mellan [case] - [punct] beräkningsunderlaget [obl] och [cc] - [punct] summan [conj] av [case] sådan [amod] tilläggspension [nmod] , [punct] tjänstepension [conj] , [punct] änkepension [conj] , [punct] utländsk [amod] pension [conj] och [cc] sådana [amod] andra [amod] förmåner [conj] som [nsubj] enligt [case] 5 [nummod] § [obl] andra [amod] stycket [nmod] 7 [nsubj] har [aux] ingått [acl:relcl] i [case] beräkningsunderlaget [obl] . [punct] Lag [ROOT] ( [punct] 2019:651 [appos] ) [punct] . [punct] 
 Entity: garantipensionen
@@ -11085,7 +11010,6 @@ Har [aux] upphävts [ROOT] genom [case] lag [obl] ( [punct] 2022:1266 [appos] ) 
 
 För [case] den [obl] som [nsubj] omedelbart [advmod] före [case] den [det] kalendermånad [acl:relcl] då [advmod] han [nsubj] eller [cc] hon [conj] uppnådde [acl:relcl] riktåldern [obj] för [case] pension [obl] hade [dep] rätt [obj] till [case] hel [amod] sjukersättning [obl] i [case] form [fixed] av [fixed] garantiersättning [nmod] gäller [ROOT] följande [nsubj] . [punct] Om [mark] det [expl] är [cop] förmånligare [advcl] än [case] en [det] beräkning [obl] enligt [case] 5-12 [nummod] § [nmod] § [nmod] , [punct] räknas [ROOT] som [mark] försäkringstid [xcomp] för [case] garantipension [nmod] den [det] försäkringstid [nsubj:pass] som [nsubj] legat [acl:relcl] till [case] grund [fixed] för [fixed] beräkning [obl] av [case] sjukersättningen [nmod] . [punct] Lag [ROOT] ( [punct] 2022:879 [appos] ) [punct] . [punct] 
 Entity: garantiersättning
-Entity: följande
 Entity: garantipension
 Entity: försäkringstid
 Entity: sjukersättningen
@@ -11237,7 +11161,6 @@ Entity: arbete
 Entity: yrkessjukdomar
 
 Detsamma [nsubj] gäller [ROOT] om [mark] den [det] försäkrade [amod] 1 [nsubj] . [punct] enligt [case] någon [det] annan [amod] författning [obl] eller [cc] enligt [case] särskilt [amod] beslut [conj] av [case] regeringen [nmod] har [advcl] rätt [obj] till [case] annan [amod] livränta [obl] , [punct] som [nsubj:pass] bestäms [acl:relcl] eller [cc] betalas [conj] ut [compound:prt] av [case] Försäkringskassan [obl:agent] , [punct] eller [cc] 2 [cc] . [punct] får [ROOT] livränta [obj] enligt [case] utländsk [amod] lagstiftning [nmod] om [case] yrkesskadeförsäkring [obl] . [punct] 
-Entity: detsamma
 Entity: regeringen
 Entity: lagstiftning
 
@@ -11303,7 +11226,6 @@ Entity: beslut
 Entity: ålderspension
 Entity: beslut
 Entity: skatteförfarandelagen
-Entity: detsamma
 Entity: beslutet
 Entity: skatt
 
@@ -11426,7 +11348,6 @@ Entity: januari
 För [case] år [obl] efter [case] det [det] år [obl] då [advmod] en [det] förälder [nsubj] har [aux] fyllt [advcl] 64 [nummod] år [obj] får [ROOT] vårdår [nsubj] inte [advmod] tillgodoräknas [xcomp] honom [nsubj:pass] eller [cc] henne [conj] . [punct] Detsamma [nsubj] gäller [ROOT] för [case] år [obl] då [advmod] föräldern [nsubj] före [case] den [det] månad [advcl] när [mark] han [nsubj] eller [cc] hon [conj] fyller [advcl] 65 [nummod] år [obj] har [aux] tagit [conj] ut [compound:prt] ålderspension [obj] enligt [case] 6 [nummod] kap. [obl] i [case] den [obl] upphävda [advcl] lagen [obj] ( [punct] 1962:381 [appos] ) [punct] om [case] allmän [amod] försäkring [obl] i [case] dess [nmod:poss] lydelse [nmod] före [case] den [det] 1 [nummod] januari [nmod] 2001 [nummod] . [punct] 
 Entity: förälder
 Entity: vårdår
-Entity: detsamma
 Entity: föräldern
 Entity: lydelse
 Entity: januari
@@ -12159,11 +12080,9 @@ Entity: omställningspension
 En [det] efterlevande [amod] make [nsubj] , [punct] som [mark] stadigvarande [amod] sammanbodde [conj] med [case] sin [nmod:poss] make [nmod] vid [case] dennes [nmod:poss] död [obl] , [punct] har [ROOT] rätt [obj] till [case] allmän [amod] omställningspension [obl] om [mark] denne [nsubj] var [cop] försäkrad [acl] för [case] sådan [amod] förmån [obl:agent] enligt [case] 4 [nummod] och [cc] 6 [nummod] kap. [acl] och [cc] den [det] efterlevande [nmod] 1 [conj] . [punct] vid [case] dödsfallet [nmod] stadigvarande [amod] sammanbodde [ROOT] med [case] barn [nmod] under [advmod] 18 [nummod] år [nmod] , [punct] som [nsubj] stod [acl:relcl] under [case] vårdnad [obl] av [case] makarna [obl] eller [conj] en [obj] av [case] dem [nmod] , [punct] eller [cc] 2 [nummod] . [nummod] oavbrutet [advmod] hade [aux] sammanbott [conj] med [case] maken [obl] under [case] en [det] tid [obl] av [case] minst [advmod] fem [nummod] år [nmod] fram [nmod] till [case] dödsfallet [obl] . [punct] 
 Entity: make
 Entity: make
-Entity: denne
 Entity: efterlevande
 Entity: dödsfallet
 Entity: barn
-Entity: dem
 Relation: make har rätt
 
 När [case] det [fixed] gäller [fixed] allmän [amod] omställningspension [nsubj:pass] likställs [ROOT] med [case] efterlevande [amod] make [obl] en [det] ogift [amod] person [obj] som [nsubj] är [cop] sambo [acl:relcl] med [case] en [det] annan [amod] ogift [amod] person [obl] vid [case] hans [nmod:poss] eller [cc] hennes [conj] död [nmod] och [cc] som [nsubj:pass] 1 [acl:relcl] . [punct] tidigare [advmod] har [aux] varit [cop] gift [ROOT] med [case] den [det] avlidne [obl] , [punct] 2 [nummod] . [nummod] har [conj] eller [cc] har [aux] haft [conj] barn [obj] med [case] den [det] avlidne [obl] , [punct] eller [cc] 3 [nummod] . [case] vid [case] dödsfallet [obl] väntade [amod] barn [conj] med [case] den [det] avlidne [acl] . [punct] 
@@ -12586,7 +12505,6 @@ Entity: avlidne
 Om [mark] den [det] avlidne [nsubj] har [aux] tillgodoräknats [ROOT] pensionspoäng [nsubj:pass] för [case] tilläggspension [obl] för [case] färre [advmod] än [fixed] 30 [nummod] år [nmod] gäller [parataxis] vid [case] beräkningen [obl] enligt [case] 22-25 [nummod] § [nmod] § [nmod] följande [nsubj:pass] . [punct] Hänsyn [nsubj:pass] ska [aux] tas [ROOT] endast [advmod] till [compound:prt] så [advmod] stor [amod] del [obl] av [case] den [det] i [case] 22 [nummod] § [obl] angivna [amod] produkten [nmod] som [nsubj] motsvarar [acl:cleft] kvoten [obj] mellan [case] - [punct] det [det] antal [nmod] år [nmod] för [mark] vilka [det] pensionspoäng [nsubj:pass] har [aux] tillgodoräknats [advcl] och [cc] - [punct] talet [nmod] 30 [obl] . [punct] 
 Entity: avlidne
 Entity: pensionspoäng
-Entity: följande
 Entity: hänsyn
 Entity: produkten
 Entity: pensionspoäng
@@ -12741,7 +12659,6 @@ Entity: änkan
 
 Beloppet [nsubj:pass] enligt [case] 6 [nummod] § [nmod] 1 [nmod] ska [aux] beräknas [ROOT] på [case] grundval [fixed] av [fixed] den [det] förtidspension [obl] som [nsubj:pass] skulle [aux] ha [aux] lämnats [acl:relcl] till [case] mannen [obl] om [mark] denne [nsubj] hade [aux] fått [advcl] rätt [obj] till [case] hel [advmod] sådan [amod] pension [obl] vid [case] utgången [nmod] av [case] 1989 [nmod] och [cc] om [mark] pensionen [nsubj:pass] då [advmod] hade [aux] beräknats [conj] med [case] tillämpning [obl] av [case] 13 [nummod] kap. [nmod] 3 [nummod] § [nmod] i [case] den [obl] upphävda [xcomp] lagen [obj] ( [punct] 1962:381 [appos] ) [punct] om [case] allmän [amod] försäkring [obl] . [punct] Om [mark] mannen [cc] vid [case] utgången [obl] av [case] 1989 [nmod] hade [advcl] rätt [obj] till [case] tilläggspension [obl] i [case] form [fixed] av [fixed] ålderspension [nmod] , [punct] ska [aux] dock [advmod] beloppet [nsubj:pass] enligt [case] 6 [nummod] § [nmod] 1 [nmod] beräknas [ROOT] med [case] tillämpning [obl] av [case] 12 [nummod] kap. [nmod] 2 [nummod] § [obl] första [amod] och [cc] andra [conj] styckena [nmod] i [case] den [nmod] upphävda [xcomp] lagen [obj] om [case] allmän [amod] försäkring [obl] i [case] deras [nmod:poss] lydelse [nmod] vid [case] utgången [nmod] av [case] 1989 [nmod] . [punct] Minskning [ROOT] av [case] 90-procentstillägg [nmod] för [case] änkor [nmod] som [nsubj] inte [advmod] hade [aux] fyllt [acl:relcl] 50 [nummod] år [obj] vid [case] makens [nmod:poss] död [obl] 
 Entity: beloppet
-Entity: denne
 Entity: utgången
 Entity: pensionen
 Entity: ålderspension
@@ -12897,7 +12814,6 @@ Entity: försäkring
 Entity: yrkessjukdomar
 
 Detsamma [nsubj] gäller [ROOT] om [case] den [det] efterlevande [cc] 1 [obl] . [punct] enligt [case] någon [det] annan [amod] författning [obl] eller [cc] enligt [case] särskilt [amod] beslut [conj] av [case] regeringen [nmod] har [parataxis] rätt [obj] till [case] annan [amod] livränta [obl] , [punct] som [nsubj:pass] bestäms [acl:relcl] eller [cc] betalas [conj] ut [compound:prt] av [case] Försäkringskassan [obl:agent] , [punct] eller [cc] 2 [cc] . [punct] får [ROOT] livränta [obj] enligt [case] utländsk [amod] lagstiftning [nmod] om [case] yrkesskadeförsäkring [obl] . [punct] 
-Entity: detsamma
 Entity: regeringen
 Entity: lagstiftning
 
@@ -13269,7 +13185,6 @@ Entity: död
 Entity: skyddet
 
 I [case] fråga [fixed] om [fixed] sambor [obl] krävs [ROOT] också [advmod] att [mark] inte [advmod] någon [nsubj] av [case] dem [nmod] var [cop] gift [advcl] med [case] någon [det] annan [obl] vid [case] dödsfallet [nmod] . [punct] 
-Entity: dem
 Entity: dödsfallet
 
 Omfattningen [nsubj:pass] av [case] efterlevandeskyddet [nmod] ska [aux] beräknas [ROOT] med [case] utgångspunkt [fixed] i [fixed] tillgodohavandet [obl] på [case] pensionsspararens [nmod:poss] premiepensionskonto [nmod] . [punct] Pensionsspararens [nmod:poss] egen [amod] premiepension [nsubj:pass] ska [aux] då [advmod] räknas [ROOT] om [obl] . [punct] 
@@ -13289,7 +13204,6 @@ Entity: efterlevandeskyddet
 Entity: månad
 
 I [advmod] fall [fixed] som [nsubj:pass] avses [ROOT] i [case] 3 [nummod] § [obl] tredje [amod] stycket [nsubj] börjar [parataxis] efterlevandeskyddet [obj] gälla [xcomp] vid [case] det [det] första [amod] månadsskiftet [obl] ett [nummod] år [nmod] efter [nmod] det [fixed] att [mark] ansökan [nsubj] kom [advcl] in [compound:prt] till [case] Pensionsmyndigheten [obl] . [punct] Lag [ROOT] ( [punct] 2013:747 [appos] ) [punct] . [punct] 
-Entity: efter
 Entity: ansökan
 
 Om [mark] äktenskapet [nsubj:pass] eller [cc] samboförhållandet [conj] upplöses [advcl] på [case] annat [amod] sätt [obl] än [case] genom [case] dödsfall [obl] , [punct] ska [aux] Pensionsmyndigheten [nsubj] på [case] begäran [nmod] av [case] pensionsspararen [nmod] räkna [ROOT] om [mark] försäkringen [nsubj] till [mark] att [mark] gälla [advcl] bara [advmod] på [case] spararens [nmod:poss] liv [obl] . [punct] 
@@ -13763,7 +13677,6 @@ Tillägg [nsubj:pass] enligt [case] 11 [nummod] § [nmod] ska [aux] fördelas [R
 Entity: tillägg
 
 Med [case] vissa [amod] andra [amod] inkomster [obl] enligt [case] 2 [nummod] § [nmod] första [amod] stycket [nmod] 6 [nummod] avses [ROOT] följande [nsubj:pass] : [punct] 1 [nummod] . [nummod] inkomst [obl] som [nsubj:pass] på [case] grund [fixed] av [fixed] 3 [nummod] kap. [nmod] 9-13 [nummod] § [nmod] § [amod] inkomstskattelagen [cc] ( [punct] 1999:1229 [nmod] ) [punct] eller [cc] skatteavtal [nsubj:pass] inte [advmod] ska [aux] tas [acl:relcl] upp [compound:prt] som [mark] intäkt [obl] i [case] inkomstslaget [nmod] näringsverksamhet [nmod] , [punct] tjänst [conj] eller [cc] kapital [conj] , [punct] 2 [nummod] . [nummod] studiemedel [conj] i [case] form [fixed] av [fixed] studiebidrag [nmod] enligt [case] 3 [nummod] kap. [nmod] studiestödslagen [nmod] ( [punct] 1999:1395 [appos] ) [punct] och [cc] studiestartsstöd [conj] enligt [case] lagen [nmod] ( [punct] 2017:527 [appos] ) [punct] om [case] studiestartsstöd [nmod] , [punct] utom [case] de [det] delar [conj] som [nsubj] avser [acl:relcl] tilläggsbidrag [obj] , [punct] 3 [nummod] . [nummod] skattefria [amod] stipendier [conj] över [advmod] 3 [nummod] 000 [nummod] kronor [nmod] per [case] månad [nmod] , [punct] 4 [nummod] . [nummod] skattepliktiga [amod] inkomster [appos] enligt [case] 5 [nummod] § [nmod] lagen [nmod] ( [punct] 1991:586 [appos] ) [punct] om [case] särskild [amod] inkomstskatt [nmod] för [advmod] utomlands [fixed] bosatta [advmod] , [punct] och [cc] 5 [nummod] . [conj] etableringsersättning [obj] för [case] vissa [amod] nyanlända [amod] invandrare [obl] . [punct] 
-Entity: följande
 Entity: 1999:1229
 Entity: skatteavtal
 Entity: inkomstslaget
@@ -13790,7 +13703,6 @@ Entity: barnfamiljer
 
 Om [mark] den [det] bidragsgrundande [amod] inkomsten [nsubj] överstiger [advcl] 150 [nummod] 000 [nmod] kronor [obj] för [case] en [det] försäkrad [obl] , [punct] eller [cc] för [case] makar [obl] 75 [nummod] 000 [nummod] kronor [conj] för [case] var [nmod] och [fixed] en [fixed] av [case] dem [nmod] , [punct] ska [aux] bidraget [nsubj:pass] enligt [case] 95 [nummod] kap. [nmod] 2 [nummod] § [nmod] första [amod] stycket [nmod] 1-4 [nummod] minskas [ROOT] med [case] 20 [nummod] procent [obl] av [case] den [det] överskjutande [amod] inkomsten [nmod] . [punct] Lag [ROOT] ( [punct] 2022:1041 [appos] ) [punct] . [punct] 
 Entity: inkomsten
-Entity: dem
 Entity: bidraget
 Entity: inkomsten
 
@@ -13800,7 +13712,6 @@ Entity: barnfamiljer
 
 Om [mark] den [det] bidragsgrundande [amod] inkomsten [nsubj] överstiger [advcl] 150 [nummod] 000 [nmod] kronor [obj] för [case] en [det] försäkrad [obl] , [punct] eller [cc] för [case] makar [obl] 75 [nummod] 000 [nummod] kronor [conj] för [case] var [nmod] och [fixed] en [fixed] av [case] dem [nmod] , [punct] ska [aux] bidraget [nsubj:pass] minskas [ROOT] med [case] 20 [nummod] procent [obl] av [case] den [det] överskjutande [amod] inkomsten [nmod] . [punct] Lag [ROOT] ( [punct] 2022:1042 [appos] ) [punct] . [punct] 
 Entity: inkomsten
-Entity: dem
 Entity: bidraget
 Entity: inkomsten
 
@@ -14021,7 +13932,6 @@ Entity: försäkringskassan
 Entity: självmant
 
 En [det] fråga [nsubj:pass] om [case] nytt [amod] slutligt [amod] bostadsbidrag [nmod] enligt [case] denna [det] paragraf [nmod] får [aux] inte [advmod] tas [ROOT] upp [compound:prt] efter [case] utgången [obl] av [case] sjätte [amod] året [nmod] efter [case] det [fixed] år [fixed] beslutet [obl] om [case] slutlig [amod] skatt [nmod] avser [advcl] eller [cc] sjätte [amod] året [obl] efter [mark] det [fixed] att [mark] studiebidraget [nsubj:pass] lämnades [advcl] . [punct] Lag [ROOT] ( [punct] 2017:528 [appos] ) [punct] . [punct] 
-Entity: fråga
 Entity: bostadsbidrag
 Entity: paragraf
 Entity: skatt
@@ -14182,7 +14092,6 @@ Entity: beräkning
 
 I [case] fråga [fixed] om [fixed] makar [obl] ska [aux] reduceringsinkomsten [nsubj:pass] för [case] var [nmod] och [fixed] en [fixed] av [case] dem [nmod] beräknas [ROOT] utgöra [xcomp] hälften [obj] av [case] deras [nmod:poss] sammanlagda [amod] reduceringsinkomst [obl] . [punct] Beräkning [ROOT] av [case] bidragsgrundande [amod] inkomst [nmod] 
 Entity: reduceringsinkomsten
-Entity: dem
 Entity: inkomst
 
 Den [det] bidragsgrundande [amod] inkomsten [nsubj] är [cop] summan [nsubj] av [case] 1 [nmod] . [punct] ett [det] uppskattat [amod] överskott [conj] i [case] inkomstslaget [amod] tjänst [nmod] enligt [case] 10 [nummod] kap. [nmod] 16 [nummod] § [nmod] inkomstskattelagen [nsubj] ( [punct] 1999:1229 [nmod] ) [punct] minskat [acl] med [case] inkomstpensionstillägg [obl] enligt [case] 74 [nummod] a [cc] kap. [nmod] , [punct] 2 [nummod] . [nummod] ett [det] uppskattat [amod] överskott [conj] i [case] inkomstslaget [nmod] näringsverksamhet [nmod] beräknat [xcomp] enligt [case] 8 [nummod] § [nmod] , [punct] 3 [nummod] . [nummod] överskott [appos] i [case] inkomstslaget [nmod] kapital [conj] beräknat [ROOT] enligt [case] 9 [nummod] § [obl] utifrån [case] de [det] uppgifter [nmod] som [nsubj] har [aux] legat [acl:relcl] till [case] grund [fixed] för [fixed] Skatteverkets [nmod:poss] beslut [obl] om [case] slutlig [amod] skatt [obl] , [punct] för [case] senast [amod] möjliga [amod] beskattningsår [obl] , [punct] som [nsubj:pass] har [aux] fattats [acl:relcl] närmast [advmod] före [case] den [det] första [amod] månad [obl] som [mark] prövningen [nsubj] av [case] bostadstillägget [nmod] avser [acl:relcl] , [punct] 4 [nummod] . [nummod] del [ROOT] av [case] förmögenhet [nmod] enligt [case] 10-13 [nummod] § [nmod] § [nmod] , [punct] och [cc] 5 [nummod] . [conj] vissa [amod] andra [amod] inkomster [ROOT] enligt [case] 15 [nummod] § [nmod] . [punct] Lag [ROOT] ( [punct] 2020:1239 [appos] ) [punct] . [punct] 
@@ -14233,7 +14142,6 @@ Entity: beräkning
 Entity: förmåner
 
 Med [case] vissa [amod] andra [amod] inkomster [obl] enligt [case] 7 [nummod] § [nmod] 5 [nummod] avses [ROOT] detsamma [nsubj:pass] som [case] i [case] 97 [nummod] kap. [nmod] 13 [nummod] § [obl] första [amod] stycket [obl] 1-3 [nummod] och [cc] 5 [nummod] samt [cc] ersättning [obl] från [case] avtalsgruppsjukförsäkringar [nmod] för [case] sjukdomsfall [nmod] som [nsubj] inträffat [acl:relcl] före [case] år [nmod] 1991 [obl] . [punct] Lag [ROOT] ( [punct] 2015:758 [appos] ) [punct] . [punct] 
-Entity: detsamma
 Entity: avtalsgruppsjukförsäkringar
 Entity: sjukdomsfall
 
@@ -14419,7 +14327,6 @@ Entity: kostnaden
 Entity: andel
 Entity: bostadskostnaden
 Entity: barnet
-Entity: detsamma
 Entity: barnet
 
 Den [det] del [ROOT] av [case] reduceringsinkomsten [nmod] som [nsubj:pass] avses [acl:relcl] i [case] 21 [nummod] § [obl] är [cop] - [punct] 62 [nummod] procent [appos] av [case] inkomsten [nmod] till [case] den [det] del [nmod] den [nsubj] inte [advmod] överstiger [acl:relcl] ett [det] prisbasbelopp [obj] , [punct] och [cc] - [punct] 50 [nummod] procent [conj] av [case] inkomsten [nmod] till [case] den [det] del [nmod] den [nsubj] överstiger [acl:relcl] ett [det] prisbasbelopp [obj] . [punct] 
@@ -14502,7 +14409,6 @@ Summan [nsubj:pass] av [case] inkomsterna [nmod] enligt [case] 29 [nummod] § [n
 Entity: inkomsterna
 Entity: skatt
 Entity: inkomsterna
-Entity: dem
 
 För [case] den [obl] som [nsubj] är [cop] född [acl:relcl] 1937 [nummod] eller [cc] tidigare [conj] ska [aux] inkomsterna [nsubj] i [case] stället [fixed] för [fixed] de [det] belopp [obl] som [nsubj:pass] anges [acl:relcl] i [case] 17 [nummod] § [obl] , [punct] alltid [advmod] , [punct] efter [case] avdrag [appos] för [case] beräknad [amod] preliminär [amod] skatt [nmod] enligt [case] första [amod] stycket [nmod] , [punct] anses [ROOT] utgöra [xcomp] lägst [amod] en [det] tolftedel [obl] av [case] - [punct] 2,47 [nummod] prisbasbelopp [nmod] för [case] den [nmod] som [nsubj] är [cop] ogift [acl:relcl] , [punct] och [cc] - [punct] 2,235 [cc] prisbasbelopp [conj] för [case] den [obl] som [nsubj] är [cop] gift [acl:relcl] . [punct] Lag [ROOT] ( [punct] 2022:1856 [appos] ) [punct] . [punct] 
 Entity: inkomsterna
@@ -14643,6 +14549,7 @@ Entity: boendetillägg
 
 En [det] försäkrad [nsubj] behåller [ROOT] sin [nmod:poss] rätt [obj] till [case] boendetillägg [obl] under [case] tid [obl] då [advmod] 1 [nummod] . [nummod] han [nsubj] eller [cc] hon [conj] förvärvsarbetar [advcl] , [punct] 2 [nummod] . [nummod] en [det] sådan [amod] situation [nsubj] föreligger [conj] som [nsubj:pass] anges [appos] i [case] 26 [nummod] kap. [nmod] 11 [obl] , [punct] 12 [nummod] eller [cc] 14-18 [nummod] § [nmod] § [conj] som [mark] grund [acl:relcl] för [case] SGI-skydd [obl] , [punct] eller [cc] 3 [nummod] . [obl] han [nsubj] eller [cc] hon [conj] deltar [conj] i [case] ett [det] arbetsmarknadspolitiskt [amod] program [obl] och [cc] får [conj] aktivitetsstöd [obj] eller [cc] står [conj] till [case] arbetsmarknadens [nmod:poss] förfogande [obl] . [punct] 
 Entity: försäkrad
+Entity: situation
 Relation: försäkrad behåller rätt
 
 Regeringen [nsubj] eller [cc] den [det] myndighet [conj] som [obj] regeringen [nsubj] bestämmer [acl:relcl] kan [aux] med [case] stöd [obl] av [case] 8 [nummod] kap. [nmod] 7 [nummod] § [nmod] regeringsformen [nsubj] meddela [ROOT] 1 [nummod] . [punct] föreskrifter [obj] om [case] undantag [nmod] från [case] kravet [nmod] på [mark] att [mark] den [nsubj] som [nsubj] deltar [acl:relcl] i [case] ett [det] arbetsmarknadspolitiskt [amod] program [obl] ska [aux] få [acl] aktivitetsstöd [obj] , [punct] och [cc] 2 [nummod] . [nummod] föreskrifter [conj] om [case] de [det] villkor [nmod] som [nsubj] gäller [acl:relcl] för [mark] att [mark] den [det] försäkrade [nsubj:pass] ska [aux] anses [advcl] stå [xcomp] till [case] arbetsmarknadens [nmod:poss] förfogande [obl] . [punct] Lag [ROOT] ( [punct] 2015:119 [appos] ) [punct] . [punct] 
@@ -14837,7 +14744,6 @@ Entity: funktionshindrade
 
 För [case] den [obl] som [nsubj:pass] vårdas [acl:relcl] på [case] en [det] institution [obl] som [nsubj] tillhör [acl:relcl] eller [cc] till [case] vars [nmod:poss] drift [obj] det [nsubj:pass] betalas [ROOT] ut [compound:prt] bidrag [nsubj:pass] från [case] staten [obl] , [punct] en [det] kommun [conj] eller [cc] en [det] region [conj] , [punct] lämnas [conj] omvårdnadsbidrag [xcomp] endast [advmod] om [mark] vården [nsubj:pass] kan [aux] beräknas [advcl] pågå [xcomp] högst [advmod] sex [nummod] månader [obl] . [punct] Detsamma [nsubj] gäller [ROOT] om [mark] han [nsubj:pass] eller [cc] hon [conj] vårdas [advcl] utanför [case] institutionen [obl] genom [case] dess [nmod:poss] försorg [obl] eller [cc] i [case] annat [amod] fall [obl] vårdas [conj] utanför [case] en [det] sådan [amod] institution [obl] och [cc] staten [conj] , [punct] kommunen [conj] eller [cc] regionen [conj] är [cop] huvudman [conj] för [case] vården [obl] . [punct] Lag [ROOT] ( [punct] 2019:843 [appos] ) [punct] . [punct] 
 Entity: bidrag
-Entity: detsamma
 
 Är [cop] den [det] beräknade [amod] vårdtiden [nsubj] längre [advmod] än [case] sex [nummod] månader [obl] kan [aux] omvårdnadsbidrag [nsubj:pass] , [punct] trots [case] det [conj] som [nsubj:pass] föreskrivs [acl:relcl] i [case] 9 [nummod] § [obl] , [punct] lämnas [ROOT] för [case] ett [det] svårt [amod] sjukt [amod] barn [nsubj:pass] under [case] högst [advmod] tolv [nummod] månader [obl] om [case] en [det] förälder [obl] i [case] betydande [amod] omfattning [nmod] regelbundet [advmod] behöver [aux] vara [cop] närvarande [conj] på [case] institutionen [obl] som [mark] en [det] del [appos] av [case] behandlingen [nmod] av [case] barnet [nmod] . [punct] Lag [ROOT] ( [punct] 2018:1265 [nummod] ) [punct] . [punct] 
 Entity: vårdtiden
@@ -14898,7 +14804,6 @@ Om [mark] en [det] försäkrad [advcl] som [nsubj] får [acl:relcl] sjukersättn
 Entity: skyddstillsyn
 Entity: behandlingsplan
 Entity: staten
-Entity: detsamma
 Entity: försäkrade
 
 Bestämmelserna [nsubj:pass] i [case] 12-14 [nummod] § [nmod] § [nmod] tillämpas [ROOT] även [advmod] i [case] fråga [fixed] om [fixed] sjukpenning [obl] enligt [case] 40 [nummod] , [punct] 43 [conj] och [cc] 44 [nummod] kap. [ROOT] 
@@ -14969,7 +14874,6 @@ Om [mark] den [nsubj] som [nsubj] får [acl:relcl] omställningspension [obj] , 
 Entity: skyddstillsyn
 Entity: behandlingsplan
 Entity: staten
-Entity: detsamma
 Entity: pensionsberättigad
 
 Bestämmelserna [nsubj] i [case] 30 [nummod] och [cc] 31 [nummod] § [nmod] § [nmod] gäller [ROOT] endast [advmod] under [mark] förutsättning [fixed] att [fixed] den [det] pensionsberättigade [nsubj] inte [advmod] dessutom [advmod] får [advcl] allmän [amod] ålderspension [obj] eller [cc] äldreförsörjningsstöd [conj] . [punct] 
@@ -15008,7 +14912,6 @@ Entity: kalendermånad
 Entity: ersättningen
 Entity: trettiondel
 Entity: månadsbeloppet
-Entity: detsamma
 Entity: omställningspension
 Entity: del
 Entity: kalendermånad
@@ -15179,7 +15082,6 @@ Entity: ersättning
 Entity: ersättningen
 
 Detsamma [nsubj] gäller [ROOT] om [case] ersättning [nsubj:pass] i [case] annat [amod] fall [nmod] har [aux] lämnats [conj] felaktigt [advmod] eller [cc] med [case] ett [det] för [advmod] högt [amod] belopp [conj] och [cc] den [nsubj] som [nsubj] fått [acl:relcl] ersättningen [nsubj] har [aux] insett [conj] eller [cc] skäligen [conj] borde [aux] ha [aux] insett [conj] detta [obj] . [punct] 
-Entity: detsamma
 Entity: ersättning
 Entity: ersättningen
 
@@ -15223,7 +15125,6 @@ Entity: pensionsrätt
 Pensionsmyndigheten [nsubj] ska [aux] besluta [ROOT] om [case] återbetalning [obl] enligt [case] 2 [nummod] § [obl] av [case] premiepension [nmod] bara [advmod] om [mark] felet [nsubj] belastar [advcl] övriga [amod] pensionssparare [obj] eller [cc] kan [aux] innebära [conj] en [det] avsevärd [amod] påverkan [obj] på [case] framtida [amod] utbetalningar [nmod] av [case] pension [nmod] till [case] pensionsspararen [nmod] . [punct] Detta [nsubj] gäller [ROOT] också [advmod] i [case] fråga [fixed] om [fixed] premiepension [obj] till [case] efterlevande [nmod] . [punct] 
 Entity: pensionsmyndigheten
 Entity: premiepension
-Entity: felet
 Entity: utbetalningar
 Entity: pension
 Entity: pensionsspararen
@@ -15252,13 +15153,11 @@ Entity: ersättningen
 
 Återkrav [nsubj] mot [case] någon [det] annan [nmod] än [mark] den [det] försäkrade [acl] får [aux] uppgå [ROOT] till [case] högst [advmod] det [det] belopp [obl] som [obj] denne [nsubj] tagit [acl:relcl] emot [compound:prt] . [punct] 
 Entity: återkrav
-Entity: denne
 
 Om [mark] det [expl] inte [advmod] finns [advcl] särskilda [amod] skäl [nsubj] , [punct] ska [aux] hela [amod] beloppet [nsubj:pass] återkrävas [ROOT] från [case] den [det] försäkrades [advcl] förmyndare [nsubj:pass] i [case] stället [fixed] för [fixed] från [case] den [det] försäkrade [advcl] , [punct] om [mark] denne [nsubj] är [cop] under [advmod] 18 [nummod] år [advcl] . [punct] Om [mark] det [expl] finns [advcl] flera [amod] förmyndare [nsubj] , [punct] svarar [ROOT] de [nsubj] solidariskt [advmod] för [case] återkravet [obl] . [punct] Lag [ROOT] ( [punct] 2012:935 [appos] ) [punct] . [punct] 
 Entity: skäl
 Entity: beloppet
 Entity: förmyndare
-Entity: denne
 Entity: förmyndare
 
 Om [case] ett [det] sådant [amod] interimistiskt [amod] beslut [advcl] som [nsubj:pass] avses [acl:relcl] i [case] 112 [nummod] kap. [nmod] 2 [nummod] eller [cc] 2 [nummod] a [cc] § [nmod] § [nsubj:pass] har [aux] fattats [ROOT] och [cc] det [det] senare [advmod] bestäms [conj] att [mark] ersättning [nsubj:pass] inte [advmod] ska [aux] lämnas [ccomp] eller [cc] ska [aux] lämnas [conj] med [case] lägre [amod] belopp [obl] föreligger [conj] inte [advmod] skyldighet [nsubj] att [mark] betala [acl] tillbaka [compound:prt] utbetalad [amod] ersättning [obj] i [case] andra [amod] fall [obl] än [mark] som [nsubj:pass] anges [acl] i [case] 2 [nummod] § [obl] . [punct] 
@@ -15410,9 +15309,7 @@ Entity: bestämmelserna
 Entity: skatteverket
 
 Den [nsubj] som [nsubj] vill [aux] begära [acl:relcl] en [det] förmån [obj] ( [punct] sökanden [appos] ) [punct] ska [aux] ansöka [ROOT] om [mark] den [nsubj] skriftligen [advcl] . [punct] Detsamma [nsubj] gäller [ROOT] begäran [obj] om [case] ökning [nmod] av [case] en [det] förmån [nmod] . [punct] 
-Entity: detsamma
 Entity: förmån
-Relation: detsamma gäller begäran
 
 En [det] ansökan [nsubj] om [case] en [det] förmån [nmod] ska [aux] innehålla [ROOT] de [det] uppgifter [obj] som [nsubj:pass] behövs [acl:relcl] i [case] ärendet [obl] och [cc] ska [aux] vara [cop] egenhändigt [advmod] undertecknad [conj] . [punct] Uppgifter [nsubj:pass] om [case] faktiska [amod] förhållanden [nmod] ska [aux] lämnas [ROOT] på [case] heder [obl] och [cc] samvete [conj] . [punct] 
 Entity: ansökan
@@ -15514,7 +15411,6 @@ Om [mark] en [det] ansökan [nsubj] , [punct] anmälan [conj] eller [cc] liknand
 Entity: ansökan
 Entity: arbetsskada
 Entity: inkommen
-Entity: detsamma
 
 Den [det] handläggande [amod] myndigheten [nsubj] ska [aux] se [ROOT] till [compound:prt] att [mark] ärendena [nsubj] blir [ccomp] utredda [xcomp] i [case] den [det] omfattning [obl] som [obj] deras [nmod:poss] beskaffenhet [nsubj] kräver [acl:relcl] . [punct] 
 Entity: myndigheten
@@ -15638,7 +15534,6 @@ Entity: utbetalning
 Entity: efterlevandestöd
 Entity: förklaring
 Entity: heder
-Entity: denne
 Entity: person
 Entity: personen
 
@@ -15810,7 +15705,6 @@ Entity: sverige
 
 Anmälan [ROOT] som [nsubj] gäller [acl:relcl] assistansersättning [nsubj:pass] ska [aux] även [advmod] göras [parataxis] av [mark] den [nsubj:pass] till [case] vilken [det] assistansersättning [obl] har [aux] betalats [obl:agent] ut [compound:prt] enligt [case] 51 [nummod] kap. [nmod] 19 [nummod] § [obl] , [punct] om [mark] denne [nsubj] har [advcl] kännedom [obj] om [case] de [det] ändrade [amod] förhållandena [obl] . [punct] 
 Entity: assistansersättning
-Entity: denne
 
 Anmälan [nsubj:pass] behöver [aux] inte [advmod] göras [ROOT] om [mark] den [det] handläggande [amod] myndigheten [nsubj] har [advcl] kännedom [obj] om [case] ändringen [obl] och [cc] därför [advmod] saknar [conj] behov [obj] av [case] en [det] anmälan [nmod] . [punct] Anmälan [nsubj:pass] behöver [aux] inte [advmod] heller [advmod] göras [ROOT] i [case] ett [det] ärende [obl] om [case] bostadstillägg [nmod] eller [cc] äldreförsörjningsstöd [conj] om [case] ändringen [obl] innebär [parataxis] att [mark] inkomsterna [nsubj] eller [cc] förmögenheten [conj] endast [advmod] har [aux] ökat [ccomp] i [case] mindre [amod] omfattning [obl] . [punct] Lag [ROOT] ( [punct] 2014:470 [appos] ) [punct] . [punct] 
 Entity: anmälan
@@ -16018,7 +15912,6 @@ Entity: pensionsmyndigheten
 Entity: motivering
 Entity: beslutet
 Entity: förvaltningslagen
-Entity: detsamma
 Entity: beslut
 Entity: inkomstpensionstillägg
 
@@ -16078,7 +15971,6 @@ Entity: stöd
 Entity: skäl
 
 En [det] fråga [nsubj:pass] om [case] ändring [nmod] enligt [case] 3 [nummod] § [nmod] får [aux] inte [advmod] tas [ROOT] upp [compound:prt] av [case] den [det] handläggande [amod] myndigheten [obl:agent] senare [advmod] än [case] två [nummod] år [obl] efter [case] den [det] dag [obl] då [advmod] beslutet [nsubj:pass] meddelades [acl:relcl] . [punct] Ändring [nsubj] får [aux] dock [advmod] ske [ROOT] även [advmod] senare [advmod] än [case] två [nummod] år [obl] efter [case] den [det] dag [obl] då [advmod] beslutet [nsubj:pass] meddelades [acl:relcl] 1 [nummod] . [punct] om [mark] det [expl] först [advmod] därefter [advmod] kommit [ROOT] fram [compound:prt] att [mark] beslutet [nsubj:pass] har [aux] fattats [ccomp] på [case] uppenbart [advmod] felaktigt [amod] eller [cc] ofullständigt [amod] underlag [obl] , [punct] eller [cc] 2 [conj] . [punct] om [mark] det [expl] finns [ROOT] andra [amod] synnerliga [amod] skäl [nsubj] . [punct] 
-Entity: fråga
 Entity: beslutet
 Entity: beslutet
 Entity: beslutet
@@ -16200,7 +16092,6 @@ Entity: omprövning
 Entity: arbetsskada
 Entity: handlingen
 Entity: inkommen
-Entity: detsamma
 Entity: begäran
 Entity: omprövning
 
@@ -17006,7 +16897,6 @@ Entity: lydelsen
 2016:1291 [ROOT] 1 [nummod] . [punct] Denna [det] lag [nsubj] träder [ROOT] i [compound:prt] kraft [fixed] den [det] 1 [nummod] februari [obj] 2017 [nummod] . [punct] 2 [nummod] . [punct] Föreskrifterna [nsubj:pass] i [case] 33 [nummod] kap. [nmod] 16 [nummod] § [nmod] , [punct] 34 [nummod] kap. [appos] 10 [nummod] § [obl] , [punct] 35 [nummod] kap. [nmod] 18 [nmod] och [cc] 19 [nummod] § [nmod] § [conj] , [punct] 36 [nummod] kap. [nmod] 2 [appos] , [punct] 9 [nummod] a [nmod] , [punct] 15 [nummod] och [cc] 18 [nummod] § [obl] § [nmod] samt [cc] 79 [nummod] kap. [nmod] 7 [nummod] § [conj] tillämpas [ROOT] första [amod] gången [obl] i [case] fråga [fixed] om [fixed] ersättning [obl] som [nsubj] avser [acl:relcl] tid [obj] efter [case] den [det] 28 [nummod] februari [nmod] 2017 [nummod] . [punct] 3 [ROOT] . [punct] Om [case] ett [det] beslut [obl] om [mark] förnyad [advcl] utredning [obj] enligt [case] 33 [nummod] kap. [nmod] 17 [nummod] § [obl] har [aux] fattats [conj] före [case] ikraftträdandet [obl] ska [aux] en [det] sådan [amod] utredning [nsubj:pass] göras [ROOT] även [mark] om [fixed] tidpunkten [nsubj] för [case] utredningen [nmod] infaller [advcl] efter [case] ikraftträdandet [obl] . [punct] När [mark] den [det] utredningen [nsubj:pass] har [aux] slutförts [advcl] ska [aux] Försäkringskassan [nsubj] , [punct] så [advmod] länge [amod] rätt [fixed] till [case] sjukersättning [obl] föreligger [ROOT] , [punct] minst [advmod] vart [det] tredje [fixed] år [obl] göra [xcomp] en [det] uppföljning [obj] av [case] den [det] försäkrades [nmod:poss] arbetsförmåga [nmod] enligt [case] 33 [nummod] kap. [nmod] 17 [nummod] § [obl] i [case] den [det] nya [amod] lydelsen [nmod] . [punct] 
 Entity: lag
 Entity: föreskrifterna
-Entity: februari
 Entity: utredning
 Entity: tidpunkten
 Entity: utredningen
@@ -17067,7 +16957,6 @@ Entity: bestämmelserna
 2017:1123 [nmod] 1 [ROOT] . [punct] Denna [det] lag [nsubj] träder [ROOT] i [compound:prt] kraft [fixed] den [det] 1 [nummod] mars [obl] 2018 [nummod] . [punct] 2 [ROOT] . [punct] De [nsubj:pass] upphävda [nsubj] bestämmelserna [obj] i [case] 17 [nummod] kap. [obl] 4 [nummod] § [obl] och [cc] 18 [nummod] kap. [nmod] 5 [conj] , [punct] 16 [nummod] , [punct] 25 [nummod] , [punct] 31 [nummod] , [punct] 37 [conj] och [cc] 39 [nummod] § [nmod] § [conj] samt [cc] de [det] äldre [amod] bestämmelserna [conj] i [case] 18 [nummod] kap. [nmod] 2 [nmod] , [punct] 20 [nummod] och [cc] 35 [nummod] § [conj] § [xcomp] och [cc] 19 [nummod] kap. [advcl] 4 [nummod] § [obl] ska [aux] fortfarande [advmod] gälla [ROOT] för [case] underhållsstöd [obl] som [nsubj] avser [acl:relcl] tid [obj] före [case] april [nmod] månad [obl] 2018 [nummod] . [punct] 3 [ROOT] . [punct] De [nsubj:pass] upphävda [ROOT] bestämmelserna [obj] i [case] 17 [nummod] kap. [obl] 4 [nummod] § [obl] och [cc] 18 [nummod] kap. [nmod] 5 [conj] , [punct] 16 [nummod] , [punct] 25 [nummod] , [punct] 31 [nummod] , [punct] 37 [conj] och [cc] 39 [nummod] § [nmod] § [conj] samt [cc] de [det] äldre [amod] bestämmelserna [conj] i [case] 18 [nummod] kap. [nmod] 2 [nmod] , [punct] 20 [nummod] och [cc] 35 [nummod] § [conj] § [xcomp] och [cc] 19 [nummod] kap. [obj] 4 [nummod] § [obl] ska [aux] utöver [case] vad [obl] som [nsubj:pass] föreskrivs [acl:relcl] i [case] andra [amod] punkten [obl] fortfarande [advmod] gälla [advcl] för [case] underhållsstöd [obl] som [nsubj] avser [acl:relcl] tid [obj] före [case] februari [nmod] månad [obl] 2021 [obl] , [punct] om [mark] det [expl] för [case] mars [cc] månad [nmod] 2018 [obl] har [aux] lämnats [advcl] underhållsstöd [nsubj:pass] för [case] barnet [obl] vid [case] växelvist [amod] boende [obl] . [punct] I [case] stället [fixed] för [fixed] det [det] belopp [obl] som [nsubj:pass] avses [acl:relcl] i [case] den [obl] upphävda [ROOT] 18 [nummod] kap. [advcl] 25 [nummod] § [conj] första [amod] stycket [nsubj:pass] ska [aux] underhållsstöd [nsubj:pass] då [advmod] lämnas [parataxis] för [case] var [obl] och [fixed] en [fixed] av [case] föräldrarna [nmod] med [case] hälften [obl] av [case] 1 [nummod] 173 [nummod] kronor [nmod] när [advmod] stödet [nsubj] avser [acl:relcl] en [det] månad [obj] som [nsubj] infaller [acl:relcl] under [case] tiden [nmod] april [obl] 2018 [nummod] - [case] januari [obl] 2019 [nummod] , [punct] med [case] hälften [obl] av [case] 773 [nummod] kronor [nmod] när [mark] stödet [nsubj] avser [parataxis] en [det] månad [obj] som [nsubj] infaller [acl:relcl] under [case] tiden [nmod] februari [obl] 2019 [nummod] - [punct] januari [nmod] 2020 [obl] och [cc] med [case] hälften [conj] av [case] 373 [nummod] kronor [nmod] när [advmod] stödet [nsubj] avser [advcl] en [det] månad [obj] som [nsubj] infaller [acl:relcl] under [case] tiden [nmod] februari [obl] 2020 [nummod] - [punct] januari [conj] 2021 [nummod] . [punct] Från [case] och [fixed] med [fixed] månaden [obl] efter [case] den [obl] då [advmod] barnet [nsubj] har [aux] fyllt [acl:relcl] 15 [nummod] år [obj] ska [aux] respektive [amod] belopp [conj] före [case] halveringen [nmod] höjas [ROOT] med [case] 150 [nummod] kronor [obl] . [punct] 4 [ROOT] . [punct] Äldre [amod] bestämmelser [nsubj] i [case] 95 [nummod] kap. [nmod] 2 [nummod] § [nmod] , [punct] 96 [nummod] kap. [appos] 3 [nummod] § [obl] , [punct] 97 [nummod] kap. [nmod] 6 [nmod] , [punct] 11 [nummod] , [cc] 15 [nummod] och [cc] 23 [nummod] § [nmod] § [obl] och [cc] 110 [nummod] kap. [conj] 5 [nummod] § [obl] ska [aux] fortfarande [advmod] gälla [ROOT] för [case] bostadsbidrag [obl] som [nsubj] avser [acl:relcl] tid [obj] före [case] mars [nmod] månad [obl] 2018 [nummod] . [punct] 5 [ROOT] . [punct] De [det] nya [amod] bestämmelserna [nsubj:pass] i [case] 95 [nummod] kap. [nmod] 2 [nummod] § [nmod] , [punct] 96 [nummod] kap. [nmod] 3 [nmod] och [cc] 5 [nummod] a [advmod] § [nmod] § [nmod] och [cc] 97 [nummod] kap. [nmod] 6 [nummod] , [punct] 11 [nummod] , [punct] 15 [nummod] och [cc] 22 [nummod] a [cc] § [nmod] § [nmod] ska [aux] tillämpas [ROOT] första [amod] gången [obl] på [case] bostadsbidrag [obl] som [nsubj] avser [acl:relcl] tid [obj] efter [case] februari [nmod] månad [obl] 2018 [nummod] . [punct] 6 [ROOT] . [punct] I [case] stället [fixed] för [fixed] de [det] belopp [obl] som [nsubj:pass] anges [acl:relcl] i [case] 97 [nummod] kap. [nmod] 15 [nummod] § [nmod] andra [amod] stycket [nsubj:pass] ska [aux] minskning [nsubj:pass] av [case] bostadsbidraget [nmod] göras [ROOT] om [mark] den [det] bidragsgrundande [amod] inkomsten [nsubj] överstiger [advcl] 135 [nummod] 000 [nmod] kronor [obj] respektive [advmod] 67 [nummod] 500 [nummod] kronor [obj] när [advmod] bidraget [nsubj] avser [advcl] en [det] månad [obj] som [nsubj] infaller [acl:relcl] under [case] tiden [nmod] mars [obl] - [punct] december [obl] 2018 [nummod] , [punct] 142 [nummod] 000 [nummod] kronor [appos] respektive [advmod] 71 [nummod] 000 [nmod] kronor [obj] när [advmod] bidraget [nsubj] avser [advcl] en [det] månad [obj] som [nsubj] infaller [acl:relcl] under [case] år [nmod] 2019 [obl] och [cc] 148 [nummod] 000 [nummod] kronor [conj] respektive [advmod] 74 [nummod] 000 [nummod] kronor [obj] när [advmod] bidraget [nsubj] avser [advcl] en [det] månad [obj] som [nsubj] infaller [acl:relcl] under [case] år [nmod] 2020 [obl] . [punct] 
 Entity: 2017:1123
 Entity: lag
-Entity: februari
 Entity: månad
 Entity: underhållsstöd
 Entity: underhållsstöd
@@ -17084,7 +16973,6 @@ Entity: halveringen
 Entity: bestämmelser
 Entity: mars
 Entity: bestämmelserna
-Entity: februari
 Entity: minskning
 Entity: bostadsbidraget
 Entity: inkomsten
