@@ -70,7 +70,10 @@ for item in texts_with_context:
     paragraf_info = f"Paragraf: {context.get('paragraf')}"
     if paragraf_periodisering:
         paragraf_info += f" ({paragraf_periodisering})"
+    rubrik = context.get('rubrik')
+    if rubrik:
+        paragraf_info += f", Rubrik: {rubrik}"
 
-    print(f"{kapitel_info}, Avdelning: {context.get('avdelning_id')} {context.get('avdelning_namn')}, Underavdelning: {context.get('underavdelning_id')} {context.get('underavdelning_namn')}, {paragraf_info}, Rubrik: {context.get('rubrik')}, Stycke: {context.get('stycke')}")
+    print(f"{kapitel_info}, Avdelning: {context.get('avdelning_id')} {context.get('avdelning_namn')}, Underavdelning: {context.get('underavdelning_id')} {context.get('underavdelning_namn')}, {paragraf_info}, Stycke: {context.get('stycke')}")
     print(f"Text: {text}")
     print("="*80)
