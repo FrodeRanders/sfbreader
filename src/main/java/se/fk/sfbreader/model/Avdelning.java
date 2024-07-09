@@ -12,13 +12,10 @@ public class Avdelning extends Sektion implements Layer {
     private static final Logger log = LoggerFactory.getLogger(Avdelning.class);
 
     private String id;
-
-    private Lag lag = null;
+    // name as part of Sektion
 
     private transient Collection<Kapitel> kapitlen = null;
-
     private transient Underavdelning aktuellUnderavdelning = null;
-    private String underavdelning; // only for serialization purposes!!!
 
     public Avdelning(String id, String namn) {
         super(namn);
@@ -41,7 +38,7 @@ public class Avdelning extends Sektion implements Layer {
         // Kapitel will know it's position within the context of Avdelning
         k.setAktuellAvdelning(this);
 
-        // ... and Underavdelning (possibly several within Avdelning)
+        // ... and Underavdelning (possibly several within one Avdelning)
         if (null != aktuellUnderavdelning) {
             k.setAktuellUnderavdelning(aktuellUnderavdelning);
         }
@@ -50,10 +47,9 @@ public class Avdelning extends Sektion implements Layer {
         kapitlen.add(k);
     }
 
-    public void setAktuellUnderavdelning(Underavdelning au) {
-        log.trace("Avdelning {} <-- {}", id, au);
-        aktuellUnderavdelning = au;
-        underavdelning = aktuellUnderavdelning.namn();
+    public void setAktuellUnderavdelning(Underavdelning aktuellUnderavdelning) {
+        log.trace("Avdelning {} <-- {}", id, aktuellUnderavdelning);
+        this.aktuellUnderavdelning = aktuellUnderavdelning;
     }
 
     public Collection<Kapitel> get() {
@@ -64,13 +60,14 @@ public class Avdelning extends Sektion implements Layer {
         kapitlen.forEach(Kapitel::prune);
     }
 
+    @Override
     public String toString() {
         StringBuilder buf = new StringBuilder("Avdelning{");
         buf.append("id=").append(id);
         buf.append(" namn=\"").append(namn()).append("\"");
-        if (null != underavdelning && !underavdelning.isEmpty()) {
-            buf.append(" underavdelning=\"").append(underavdelning).append("\"");
-        }
+        // if (null != aktuellUnderavdelning) {
+        //    buf.append(" ").append(aktuellUnderavdelning);
+        // }
         buf.append("}");
         return buf.toString();
     }

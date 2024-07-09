@@ -11,7 +11,8 @@ public abstract class Sektion implements Layer {
         return namn;
     }
 
+    @Override
     public String toString() {
-        return "Sektion{" + namn + "}";
+        return "Sektion{\"" + namn + "\"}";
     }
 }

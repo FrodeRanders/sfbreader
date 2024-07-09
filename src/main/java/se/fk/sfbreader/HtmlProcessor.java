@@ -20,6 +20,7 @@ public class HtmlProcessor {
     private static final Logger log = LoggerFactory.getLogger(HtmlProcessor.class);
 
     private static final Pattern AVDELNING_RE = Pattern.compile("^AVD\\.\\s+([A-Z])\\s+(.+)$");
+    private static final Pattern UNDERAVDELNING_RE = Pattern.compile("^([IVX]+)\\s+(.+)$");
     private static final Pattern KAPITEL_RE = Pattern.compile("^(\\d+\\s*[a-z]?)\\s+kap\\.\\s+(.+)$");
     private static final Pattern PARAGRAF_RE = Pattern.compile("^(\\d+\\s*[a-z]?)\\s*§$");
     private static final Pattern PARAGRAPH_ANCHOR_RE = Pattern.compile("K(\\d+[a-zA-Z]?)P(\\d+[a-zA-Z]?)");
@@ -258,39 +259,70 @@ public class HtmlProcessor {
         log.trace("---------------------------------------------------------------");
 
         String text = element.text();
-        //
-        boolean stop = stack.empty();
-        if (!stop) {
-            // We have a new section. If we encounter a section within a Stycke or Paragraf,
-            // we need to break these up -- we will pop anything lower than Kapitel
-            do {
-                Layer layer = stack.peek();
-                switch (layer.type()) {
-                    case "Stycke", "Paragraf" ->
-                            popLayer("sektion", stack);
-                    default /* "Kapitel", ["Underavdelning",] "Avdelning", "Lag" */ -> {
-                        log.debug("[sektion] Keeping: {}", layer);
-                        stop = true;
+
+        Matcher matcher = UNDERAVDELNING_RE.matcher(element.text());
+        if (matcher.find()) {
+            String id = matcher.group(1);
+            String name = matcher.group(2);
+            log.debug("Underavdelning: {} {}", id, name);
+
+            boolean stop = stack.empty();
+            if (!stop) {
+                // This is an underavdelning, so we want to interrupt everything lower than Avdelning
+                do {
+                    Layer layer = stack.peek();
+                    switch (layer.type()) {
+                        case "Stycke", "Paragraf", "Kapitel", "Underavdelning" -> popLayer("sektion", stack);
+                        default /* "Avdelning", "Lag" */ -> {
+                            log.debug("[sektion] Keeping: {}", layer);
+                            stop = true;
+                        }
                     }
-                }
-                stop |= stack.empty();
-            } while (!stop);
-        }
+                    stop |= stack.empty();
+                } while (!stop);
+            }
 
-        if (stack.peek() instanceof Paragraf paragraf) {
-            Paragrafrubrik rubrik = new Paragrafrubrik(text);
-            paragraf.setAktuellParagrafrubrik(rubrik);
-            pushLayer("sektion#paragrafrubrik", stack, rubrik);
+            if (stack.peek() instanceof Avdelning avdelning){
+                Underavdelning underavdelning = new Underavdelning(id, name);
+                avdelning.setAktuellUnderavdelning(underavdelning);
+                pushLayer("sektion#underavdelning", stack, underavdelning);
+            }
+        } else {
+            boolean stop = stack.empty();
+            if (!stop) {
+                // We have a new section. If we encounter a section within a Stycke or Paragraf,
+                // we need to break these up -- we will pop anything lower than Kapitel
+                do {
+                    Layer layer = stack.peek();
+                    switch (layer.type()) {
+                        case "Stycke", "Paragraf" -> popLayer("sektion", stack);
+                        default /* "Kapitel", ["Underavdelning",] "Avdelning", "Lag" */ -> {
+                            log.debug("[sektion] Keeping: {}", layer);
+                            stop = true;
+                        }
+                    }
+                    stop |= stack.empty();
+                } while (!stop);
+            }
 
-        } else if (stack.peek() instanceof Kapitel kapitel) {
-            Paragrafrubrik rubrik = new Paragrafrubrik(text);
-            kapitel.setAktuellParagrafrubrik(rubrik);
-            pushLayer("sektion#paragrafrubrik", stack, rubrik);
-
-        } else if (stack.peek() instanceof Avdelning avdelning){
-            Underavdelning rubrik = new Underavdelning(text);
-            avdelning.setAktuellUnderavdelning(rubrik);
-            pushLayer("sektion#underavdelning", stack, rubrik);
+            //------------------------------------------------------------------------
+            // TODO We can have multiple (or at least two) levels of rubrik within
+            //      a kapitel, e.g.:
+            //
+            //  Kap 2
+            //    10 d §  Regeringen eller den myndighet som...
+            //
+            //    <h4>Definitioner och förklaringar</h4>
+            //
+            //    <h4>Förmån</h4>
+            //    11 §  Med förmåner avses i denna balk...
+            //
+            //------------------------------------------------------------------------
+            if (stack.peek() instanceof Kapitel kapitel) {
+                Paragrafrubrik rubrik = new Paragrafrubrik(text);
+                kapitel.setAktuellParagrafrubrik(rubrik);
+                pushLayer("sektion#paragrafrubrik", stack, rubrik);
+            }
         }
     }
 

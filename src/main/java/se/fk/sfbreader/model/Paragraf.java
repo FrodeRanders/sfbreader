@@ -72,6 +72,7 @@ public class Paragraf implements Layer {
         }
     }
 
+    @Override
     public String toString() {
         StringBuilder buf = new StringBuilder("Paragraf{");
         buf.append("nummer=").append(nummer);

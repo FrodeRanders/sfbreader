@@ -52,6 +52,7 @@ public class Lag implements Layer {
         kapitlen.forEach(Kapitel::prune);
     }
 
+    @Override
     public String toString() {
         StringBuilder buf = new StringBuilder("Lag{");
         buf.append("namn=\"").append(namn).append("\"");

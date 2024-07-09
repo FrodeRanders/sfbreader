@@ -5,7 +5,8 @@ public class Kapitelrubrik extends Sektion implements Layer  {
         super(namn);
     }
 
+    @Override
     public String toString() {
-        return "Kapitelrubrik{" + namn() + "}";
+        return "Kapitelrubrik{\"" + namn() + "\"}";
     }
 }

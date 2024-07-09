@@ -5,7 +5,8 @@ public class Paragrafrubrik extends Sektion implements Layer  {
         super(namn);
     }
 
+    @Override
     public String toString() {
-        return "Paragrafrubrik{" + namn() + "}";
+        return "Paragrafrubrik{\"" + namn() + "\"}";
     }
 }

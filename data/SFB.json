@@ -94,8 +94,14 @@
           ]
         }
       ],
-      "avdelning": "A ÖVERGRIPANDE BESTÄMMELSER",
-      "underavdelning": "I Inledande bestämmelser, definitioner och förklaringar"
+      "avdelning": {
+        "id": "A",
+        "namn": "ÖVERGRIPANDE BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "I",
+        "namn": "Inledande bestämmelser, definitioner och förklaringar"
+      }
     },
     {
       "nummer": "2",
@@ -465,8 +471,14 @@
           "rubrik": "Avgiftspliktig"
         }
       ],
-      "avdelning": "A ÖVERGRIPANDE BESTÄMMELSER",
-      "underavdelning": "I Inledande bestämmelser, definitioner och förklaringar"
+      "avdelning": {
+        "id": "A",
+        "namn": "ÖVERGRIPANDE BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "I",
+        "namn": "Inledande bestämmelser, definitioner och förklaringar"
+      }
     },
     {
       "nummer": "3",
@@ -495,8 +507,14 @@
           ]
         }
       ],
-      "avdelning": "A ÖVERGRIPANDE BESTÄMMELSER",
-      "underavdelning": "I Inledande bestämmelser, definitioner och förklaringar"
+      "avdelning": {
+        "id": "A",
+        "namn": "ÖVERGRIPANDE BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Socialförsäkringsskyddet"
+      }
     },
     {
       "nummer": "4",
@@ -601,8 +619,14 @@
           "rubrik": "Internationella förhållanden"
         }
       ],
-      "avdelning": "A ÖVERGRIPANDE BESTÄMMELSER",
-      "underavdelning": "I Inledande bestämmelser, definitioner och förklaringar"
+      "avdelning": {
+        "id": "A",
+        "namn": "ÖVERGRIPANDE BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Socialförsäkringsskyddet"
+      }
     },
     {
       "nummer": "5",
@@ -807,8 +831,7 @@
               "referens": [],
               "text": [
                 "Avdelning B Familjeförmåner",
-                "1. föräldrapenning på lägstanivå",
-                "och grundnivå, (11 och 12 kap.)",
+                "1. föräldrapenning på lägstanivå och grundnivå, (11 och 12 kap.)",
                 "2. barnbidrag, (15 och 16 kap.)",
                 "3. underhållsstöd, (17-19 kap.)",
                 "4. adoptionsbidrag, (21 kap.)",
@@ -822,7 +845,8 @@
                 "Avdelning C Förmåner vid sjukdom eller arbetsskada",
                 "6. sjukpenning i särskilda fall, (28 a kap.)",
                 "7. rehabilitering, bidrag till arbetshjälpmedel, särskilt bidrag och rehabiliteringspenning i särskilda fall, (29-31 a kap.)",
-                "8. sjukersättning och aktivitetsersättning i form av garantiersättning, (33 och 35-37 kap.)"
+                "8. sjukersättning och aktivitetsersättning i form av",
+                "garantiersättning, (33 och 35-37 kap.)"
               ]
             },
             {
@@ -840,7 +864,8 @@
               "referens": [],
               "text": [
                 "Avdelning E Förmåner vid ålderdom",
-                "12. garantipension, (55, 56, 65-67 och 69-71 kap.)",
+                "12. garantipension, (55, 56, 65-67 och",
+                "69-71 kap.)",
                 "13. särskilt pensionstillägg, (73 kap.)",
                 "14. äldreförsörjningsstöd, (74 kap.)"
               ]
@@ -851,7 +876,8 @@
               "text": [
                 "Avdelning F Förmåner till efterlevande",
                 "15. efterlevandestöd, (77, 79 och 85 kap.)",
-                "16. garantipension till omställningspension, (77, 81 och 85 kap.)"
+                "16. garantipension till",
+                "omställningspension, (77, 81 och 85 kap.)"
               ]
             },
             {
@@ -988,7 +1014,8 @@
                 "Lag (2011:1513)"
               ],
               "text": [
-                "Tidsbegränsningen och kravet på medgivande gäller inte heller för familjeförmåner enligt 9 § 1-4 till biståndsarbetare m.fl. och studerande eller deras familjemedlemmar som avses i 6-8 §§.",
+                "Tidsbegränsningen och kravet på medgivande gäller inte heller för familjeförmåner enligt 9 § 1-4 till biståndsarbetare m.fl.",
+                "och studerande eller deras familjemedlemmar som avses i 6-8 §§.",
                 "Lag (2011:1513)."
               ]
             }
@@ -1070,8 +1097,14 @@
           "rubrik": "Speciella försäkringssituationer"
         }
       ],
-      "avdelning": "A ÖVERGRIPANDE BESTÄMMELSER",
-      "underavdelning": "I Inledande bestämmelser, definitioner och förklaringar"
+      "avdelning": {
+        "id": "A",
+        "namn": "ÖVERGRIPANDE BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Socialförsäkringsskyddet"
+      }
     },
     {
       "nummer": "6",
@@ -1291,7 +1324,7 @@
               ]
             },
             {
-              "nummer": 4,
+              "nummer": 5,
               "referens": [],
               "text": [
                 "Avdelning E Förmåner vid ålderdom",
@@ -1300,7 +1333,7 @@
               ]
             },
             {
-              "nummer": 5,
+              "nummer": 6,
               "referens": [
                 "Lag (2020:1239)"
               ],
@@ -1616,8 +1649,14 @@
           "rubrik": "Speciella försäkringssituationer"
         }
       ],
-      "avdelning": "A ÖVERGRIPANDE BESTÄMMELSER",
-      "underavdelning": "I Inledande bestämmelser, definitioner och förklaringar"
+      "avdelning": {
+        "id": "A",
+        "namn": "ÖVERGRIPANDE BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Socialförsäkringsskyddet"
+      }
     },
     {
       "nummer": "7",
@@ -1783,8 +1822,14 @@
           "rubrik": "Smittbärarersättning"
         }
       ],
-      "avdelning": "A ÖVERGRIPANDE BESTÄMMELSER",
-      "underavdelning": "I Inledande bestämmelser, definitioner och förklaringar"
+      "avdelning": {
+        "id": "A",
+        "namn": "ÖVERGRIPANDE BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Socialförsäkringsskyddet"
+      }
     },
     {
       "nummer": "8",
@@ -1879,8 +1924,14 @@
           "rubrik": "Försäkring och ansökan, m.m."
         }
       ],
-      "avdelning": "B FAMILJEFÖRMÅNER",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "B",
+        "namn": "FAMILJEFÖRMÅNER"
+      },
+      "underavdelning": {
+        "id": "I",
+        "namn": "Inledande bestämmelser"
+      }
     },
     {
       "nummer": "9",
@@ -1910,8 +1961,14 @@
           ]
         }
       ],
-      "avdelning": "B FAMILJEFÖRMÅNER",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "B",
+        "namn": "FAMILJEFÖRMÅNER"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Graviditetspenning och föräldrapenningsförmåner"
+      }
     },
     {
       "nummer": "10",
@@ -2148,8 +2205,14 @@
           "rubrik": "Beräkning av graviditetspenning, m.m."
         }
       ],
-      "avdelning": "B FAMILJEFÖRMÅNER",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "B",
+        "namn": "FAMILJEFÖRMÅNER"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Graviditetspenning och föräldrapenningsförmåner"
+      }
     },
     {
       "nummer": "11",
@@ -2477,8 +2540,14 @@
           "rubrik": "Utbetalning till annan än förälder"
         }
       ],
-      "avdelning": "B FAMILJEFÖRMÅNER",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "B",
+        "namn": "FAMILJEFÖRMÅNER"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Graviditetspenning och föräldrapenningsförmåner"
+      }
     },
     {
       "nummer": "12",
@@ -3688,8 +3757,14 @@
           "rubrik": "Antalet dagar för vilka föräldrapenning kan lämnas efter barnets fjärde levnadsår"
         }
       ],
-      "avdelning": "B FAMILJEFÖRMÅNER",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "B",
+        "namn": "FAMILJEFÖRMÅNER"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Graviditetspenning och föräldrapenningsförmåner"
+      }
     },
     {
       "nummer": "13",
@@ -4541,8 +4616,14 @@
           "rubrik": "Familjehemsförälder"
         }
       ],
-      "avdelning": "B FAMILJEFÖRMÅNER",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "B",
+        "namn": "FAMILJEFÖRMÅNER"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Graviditetspenning och föräldrapenningsförmåner"
+      }
     },
     {
       "nummer": "14",
@@ -4563,8 +4644,14 @@
           ]
         }
       ],
-      "avdelning": "B FAMILJEFÖRMÅNER",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "B",
+        "namn": "FAMILJEFÖRMÅNER"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Barnbidrag"
+      }
     },
     {
       "nummer": "15",
@@ -4802,8 +4889,14 @@
           "rubrik": "Förlust av bidrag"
         }
       ],
-      "avdelning": "B FAMILJEFÖRMÅNER",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "B",
+        "namn": "FAMILJEFÖRMÅNER"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Barnbidrag"
+      }
     },
     {
       "nummer": "16",
@@ -5166,8 +5259,14 @@
           "rubrik": "Utbetalning av barnbidrag"
         }
       ],
-      "avdelning": "B FAMILJEFÖRMÅNER",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "B",
+        "namn": "FAMILJEFÖRMÅNER"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Barnbidrag"
+      }
     },
     {
       "nummer": "17",
@@ -5257,8 +5356,14 @@
           "rubrik": "Blivande adoptivförälder"
         }
       ],
-      "avdelning": "B FAMILJEFÖRMÅNER",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "B",
+        "namn": "FAMILJEFÖRMÅNER"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Underhållsstöd"
+      }
     },
     {
       "nummer": "18",
@@ -6084,8 +6189,14 @@
           "rubrik": "Särskilda handläggningsbestämmelser"
         }
       ],
-      "avdelning": "B FAMILJEFÖRMÅNER",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "B",
+        "namn": "FAMILJEFÖRMÅNER"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Underhållsstöd"
+      }
     },
     {
       "nummer": "19",
@@ -6957,8 +7068,14 @@
           "rubrik": "Indrivning"
         }
       ],
-      "avdelning": "B FAMILJEFÖRMÅNER",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "B",
+        "namn": "FAMILJEFÖRMÅNER"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Underhållsstöd"
+      }
     },
     {
       "nummer": "20",
@@ -6982,8 +7099,14 @@
           ]
         }
       ],
-      "avdelning": "B FAMILJEFÖRMÅNER",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "B",
+        "namn": "FAMILJEFÖRMÅNER"
+      },
+      "underavdelning": {
+        "id": "V",
+        "namn": "Särskilda familjeförmåner"
+      }
     },
     {
       "nummer": "21",
@@ -7117,8 +7240,14 @@
           "rubrik": "Vem av föräldrarna får adoptionsbidraget?"
         }
       ],
-      "avdelning": "B FAMILJEFÖRMÅNER",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "B",
+        "namn": "FAMILJEFÖRMÅNER"
+      },
+      "underavdelning": {
+        "id": "V",
+        "namn": "Särskilda familjeförmåner"
+      }
     },
     {
       "nummer": "22",
@@ -7472,8 +7601,14 @@
           "rubrik": "Utbetalning"
         }
       ],
-      "avdelning": "B FAMILJEFÖRMÅNER",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "B",
+        "namn": "FAMILJEFÖRMÅNER"
+      },
+      "underavdelning": {
+        "id": "V",
+        "namn": "Särskilda familjeförmåner"
+      }
     },
     {
       "nummer": "23",
@@ -7576,8 +7711,14 @@
           "rubrik": "Försäkring och ansökan, m.m."
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "I",
+        "namn": "Inledande bestämmelser"
+      }
     },
     {
       "nummer": "24",
@@ -7656,8 +7797,14 @@
           "rubrik": "Inledande bestämmelser"
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Sjukpenning m.m."
+      }
     },
     {
       "nummer": "25",
@@ -8240,8 +8387,14 @@
           "rubrik": "Beräkning av årsarbetstiden"
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Sjukpenning m.m."
+      }
     },
     {
       "nummer": "26",
@@ -8991,8 +9144,14 @@
           "rubrik": "Årlig omräkning av sjukpenninggrundande inkomst vid förvärvsavbrott i vissa fall (SGI-skyddad tid)"
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Sjukpenning m.m."
+      }
     },
     {
       "nummer": "27",
@@ -10505,8 +10664,14 @@
           "rubrik": "Föreskrifter för arbetsgivare för sjömän"
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Sjukpenning m.m."
+      }
     },
     {
       "nummer": "28",
@@ -10887,8 +11052,14 @@
           "rubrik": "Samordning av sjukpenning med samtidig lön"
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Sjukpenning m.m."
+      }
     },
     {
       "nummer": "28 a",
@@ -11350,8 +11521,14 @@
           "rubrik": "Arbetsgivarinträde m.m."
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Sjukpenning m.m."
+      }
     },
     {
       "nummer": "29",
@@ -11406,8 +11583,14 @@
           "rubrik": "Inledande bestämmelser"
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Rehabilitering och rehabiliteringsersättning"
+      }
     },
     {
       "nummer": "30",
@@ -11662,8 +11845,14 @@
           "rubrik": "Kontroll och uppföljning"
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Rehabilitering och rehabiliteringsersättning"
+      }
     },
     {
       "nummer": "31",
@@ -11938,8 +12127,14 @@
           "rubrik": "Särskilt bidrag"
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Rehabilitering och rehabiliteringsersättning"
+      }
     },
     {
       "nummer": "31 a",
@@ -12278,8 +12473,14 @@
           "rubrik": "Arbetsgivarinträde m.m."
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Rehabilitering och rehabiliteringsersättning"
+      }
     },
     {
       "nummer": "32",
@@ -12309,8 +12510,14 @@
           ]
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Sjukersättning och aktivitetsersättning"
+      }
     },
     {
       "nummer": "33",
@@ -12845,8 +13052,14 @@
           "rubrik": "Särskilda insatser för försäkrade med tre fjärdedels ersättning"
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Sjukersättning och aktivitetsersättning"
+      }
     },
     {
       "nummer": "34",
@@ -13077,8 +13290,14 @@
           "rubrik": "Samordning med utländsk ersättning"
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Sjukersättning och aktivitetsersättning"
+      }
     },
     {
       "nummer": "35",
@@ -13597,8 +13816,14 @@
           "rubrik": "Partiell ersättning"
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Sjukersättning och aktivitetsersättning"
+      }
     },
     {
       "nummer": "36",
@@ -14193,8 +14418,14 @@
           "rubrik": "Ändring av ersättning"
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Sjukersättning och aktivitetsersättning"
+      }
     },
     {
       "nummer": "37",
@@ -14619,8 +14850,14 @@
           "rubrik": "Ansökan om indragning eller minskning av sjukersättning"
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Sjukersättning och aktivitetsersättning"
+      }
     },
     {
       "nummer": "38",
@@ -14664,8 +14901,14 @@
           ]
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "V",
+        "namn": "Förmåner vid arbetsskada m.m."
+      }
     },
     {
       "nummer": "39",
@@ -14798,8 +15041,14 @@
           "rubrik": "Skadetidpunkt"
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "V",
+        "namn": "Förmåner vid arbetsskada m.m."
+      }
     },
     {
       "nummer": "40",
@@ -15022,8 +15271,14 @@
           "rubrik": "Sjukvårdsersättning"
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "V",
+        "namn": "Förmåner vid arbetsskada m.m."
+      }
     },
     {
       "nummer": "41",
@@ -15485,8 +15740,14 @@
           "rubrik": "Omräkning av livränteunderlag"
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "V",
+        "namn": "Förmåner vid arbetsskada m.m."
+      }
     },
     {
       "nummer": "42",
@@ -15702,8 +15963,14 @@
           "rubrik": "Prövning av frågan om arbetsskada"
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "V",
+        "namn": "Förmåner vid arbetsskada m.m."
+      }
     },
     {
       "nummer": "43",
@@ -16076,8 +16343,14 @@
           "rubrik": "Skadeanmälan till Försäkringskassan, m.m."
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "V",
+        "namn": "Förmåner vid arbetsskada m.m."
+      }
     },
     {
       "nummer": "44",
@@ -16193,8 +16466,14 @@
           "rubrik": "Övriga frågor"
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "V",
+        "namn": "Förmåner vid arbetsskada m.m."
+      }
     },
     {
       "nummer": "45",
@@ -16214,8 +16493,14 @@
           ]
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "V",
+        "namn": "Förmåner vid arbetsskada m.m."
+      }
     },
     {
       "nummer": "46",
@@ -16571,8 +16856,14 @@
           "rubrik": "Resekostnadsersättning"
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "V",
+        "namn": "Förmåner vid arbetsskada m.m."
+      }
     },
     {
       "nummer": "47",
@@ -16867,8 +17158,14 @@
           "rubrik": "Samordning med andra förmåner"
         }
       ],
-      "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "V",
+        "namn": "Förmåner vid arbetsskada m.m."
+      }
     },
     {
       "nummer": "48",
@@ -16963,8 +17260,14 @@
           "rubrik": "Försäkring och ansökan, m.m."
         }
       ],
-      "avdelning": "D SÄRSKILDA FÖRMÅNER VID FUNKTIONSHINDER",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "D",
+        "namn": "SÄRSKILDA FÖRMÅNER VID FUNKTIONSHINDER"
+      },
+      "underavdelning": {
+        "id": "I",
+        "namn": "Inledande bestämmelser"
+      }
     },
     {
       "nummer": "49",
@@ -16989,8 +17292,14 @@
           ]
         }
       ],
-      "avdelning": "D SÄRSKILDA FÖRMÅNER VID FUNKTIONSHINDER",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "D",
+        "namn": "SÄRSKILDA FÖRMÅNER VID FUNKTIONSHINDER"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Merkostnadsersättning, assistansersättning och bilstöd till försäkrade med funktionshinder"
+      }
     },
     {
       "nummer": "50",
@@ -17387,8 +17696,14 @@
           "rubrik": "Utbetalning"
         }
       ],
-      "avdelning": "D SÄRSKILDA FÖRMÅNER VID FUNKTIONSHINDER",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "D",
+        "namn": "SÄRSKILDA FÖRMÅNER VID FUNKTIONSHINDER"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Merkostnadsersättning, assistansersättning och bilstöd till försäkrade med funktionshinder"
+      }
     },
     {
       "nummer": "51",
@@ -17980,8 +18295,14 @@
           "rubrik": "Uppgiftsskyldighet"
         }
       ],
-      "avdelning": "D SÄRSKILDA FÖRMÅNER VID FUNKTIONSHINDER",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "D",
+        "namn": "SÄRSKILDA FÖRMÅNER VID FUNKTIONSHINDER"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Merkostnadsersättning, assistansersättning och bilstöd till försäkrade med funktionshinder"
+      }
     },
     {
       "nummer": "52",
@@ -18645,8 +18966,14 @@
           "rubrik": "Återbetalning av bilstöd"
         }
       ],
-      "avdelning": "D SÄRSKILDA FÖRMÅNER VID FUNKTIONSHINDER",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "D",
+        "namn": "SÄRSKILDA FÖRMÅNER VID FUNKTIONSHINDER"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Merkostnadsersättning, assistansersättning och bilstöd till försäkrade med funktionshinder"
+      }
     },
     {
       "nummer": "53",
@@ -18756,8 +19083,14 @@
           "rubrik": "Försäkring och ansökan, m.m."
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "I",
+        "namn": "Inledande bestämmelser"
+      }
     },
     {
       "nummer": "54",
@@ -18778,8 +19111,14 @@
           ]
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Övergripande bestämmelser om allmän ålderspension"
+      }
     },
     {
       "nummer": "55",
@@ -18945,8 +19284,14 @@
           "rubrik": "Vem kan få garantipension?"
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Övergripande bestämmelser om allmän ålderspension"
+      }
     },
     {
       "nummer": "56",
@@ -19276,8 +19621,14 @@
           "rubrik": "Omräkning av allmän ålderspension"
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Övergripande bestämmelser om allmän ålderspension"
+      }
     },
     {
       "nummer": "57",
@@ -19330,8 +19681,14 @@
           ]
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Inkomstgrundad ålderspension"
+      }
     },
     {
       "nummer": "58",
@@ -19873,8 +20230,14 @@
           "rubrik": "Inkomstbasbelopp"
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Inkomstgrundad ålderspension"
+      }
     },
     {
       "nummer": "59",
@@ -20616,8 +20979,14 @@
           "rubrik": "Avdrag för kostnader och allmän pensionsavgift"
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Inkomstgrundad ålderspension"
+      }
     },
     {
       "nummer": "60",
@@ -21701,8 +22070,14 @@
           "rubrik": "Återkallelse av anmälan"
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Inkomstgrundad ålderspension"
+      }
     },
     {
       "nummer": "61",
@@ -22160,8 +22535,14 @@
           "rubrik": "År med pensionspoäng vid vård av småbarn (vårdår)"
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Inkomstgrundad ålderspension"
+      }
     },
     {
       "nummer": "62",
@@ -23093,8 +23474,14 @@
           "rubrik": "Omräkning vid partiellt eller ändrat pensionsuttag"
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Inkomstgrundad ålderspension"
+      }
     },
     {
       "nummer": "63",
@@ -23562,8 +23949,14 @@
           "rubrik": "Icke svenska medborgare födda 1923 eller tidigare"
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Inkomstgrundad ålderspension"
+      }
     },
     {
       "nummer": "64",
@@ -24774,8 +25167,14 @@
           "rubrik": "Samverkan"
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Inkomstgrundad ålderspension"
+      }
     },
     {
       "nummer": "65",
@@ -24823,8 +25222,14 @@
           "rubrik": "Personer som likställs med ogifta"
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Garantipension"
+      }
     },
     {
       "nummer": "66",
@@ -25308,8 +25713,14 @@
           "rubrik": "Partiell garantipension"
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Garantipension"
+      }
     },
     {
       "nummer": "67",
@@ -25929,8 +26340,14 @@
           "rubrik": "Partiell garantipension"
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Garantipension"
+      }
     },
     {
       "nummer": "68",
@@ -25952,8 +26369,14 @@
           ]
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Garantipension"
+      }
     },
     {
       "nummer": "69",
@@ -26134,8 +26557,14 @@
           "rubrik": "Försäkrade födda 1937 eller tidigare"
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Garantipension"
+      }
     },
     {
       "nummer": "70",
@@ -26223,8 +26652,14 @@
           "rubrik": "Garantipension"
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Garantipension"
+      }
     },
     {
       "nummer": "71",
@@ -26293,8 +26728,14 @@
           "rubrik": "Premiepension"
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Garantipension"
+      }
     },
     {
       "nummer": "72",
@@ -26319,8 +26760,14 @@
           ]
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "VI",
+        "namn": "Särskilda förmåner vid ålderdom"
+      }
     },
     {
       "nummer": "73",
@@ -26585,8 +27032,14 @@
           "rubrik": "Likställande med garantipension"
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "VI",
+        "namn": "Särskilda förmåner vid ålderdom"
+      }
     },
     {
       "nummer": "74",
@@ -26992,8 +27445,14 @@
           "rubrik": "Utbetalning av äldreförsörjningsstöd"
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "VI",
+        "namn": "Särskilda förmåner vid ålderdom"
+      }
     },
     {
       "nummer": "74 a",
@@ -27572,8 +28031,14 @@
           "rubrik": "Likställande med allmän ålderspension vid utbetalning"
         }
       ],
-      "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "VI",
+        "namn": "Särskilda förmåner vid ålderdom"
+      }
     },
     {
       "nummer": "75",
@@ -27674,8 +28139,14 @@
           "rubrik": "Försäkring och ansökan, m.m."
         }
       ],
-      "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "F",
+        "namn": "FÖRMÅNER TILL EFTERLEVANDE"
+      },
+      "underavdelning": {
+        "id": "I",
+        "namn": "Inledande bestämmelser"
+      }
     },
     {
       "nummer": "76",
@@ -27715,8 +28186,14 @@
           ]
         }
       ],
-      "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "F",
+        "namn": "FÖRMÅNER TILL EFTERLEVANDE"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Efterlevandepension och efterlevandestöd"
+      }
     },
     {
       "nummer": "77",
@@ -28046,8 +28523,14 @@
           "rubrik": "Förmånstiden"
         }
       ],
-      "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "F",
+        "namn": "FÖRMÅNER TILL EFTERLEVANDE"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Efterlevandepension och efterlevandestöd"
+      }
     },
     {
       "nummer": "78",
@@ -28270,8 +28753,14 @@
           "rubrik": "Begränsningsregler för flera barnpensioner"
         }
       ],
-      "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "F",
+        "namn": "FÖRMÅNER TILL EFTERLEVANDE"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Efterlevandepension och efterlevandestöd"
+      }
     },
     {
       "nummer": "79",
@@ -28381,8 +28870,14 @@
           "rubrik": "Samordning med sjukersättning eller aktivitetsersättning"
         }
       ],
-      "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "F",
+        "namn": "FÖRMÅNER TILL EFTERLEVANDE"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Efterlevandepension och efterlevandestöd"
+      }
     },
     {
       "nummer": "80",
@@ -28540,8 +29035,14 @@
           "rubrik": "Beräkning av omställningspension"
         }
       ],
-      "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "F",
+        "namn": "FÖRMÅNER TILL EFTERLEVANDE"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Efterlevandepension och efterlevandestöd"
+      }
     },
     {
       "nummer": "81",
@@ -28859,8 +29360,14 @@
           "rubrik": "Avkortning när den avlidnes försäkringstid understiger 40 år"
         }
       ],
-      "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "F",
+        "namn": "FÖRMÅNER TILL EFTERLEVANDE"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Efterlevandepension och efterlevandestöd"
+      }
     },
     {
       "nummer": "82",
@@ -29504,8 +30011,14 @@
           "rubrik": "Avkortning när den avlidne inte kan tillgodoräknas 30 år med pensionspoäng"
         }
       ],
-      "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "F",
+        "namn": "FÖRMÅNER TILL EFTERLEVANDE"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Efterlevandepension och efterlevandestöd"
+      }
     },
     {
       "nummer": "83",
@@ -29650,8 +30163,14 @@
           "rubrik": "Om änkan gifter sig"
         }
       ],
-      "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "F",
+        "namn": "FÖRMÅNER TILL EFTERLEVANDE"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Efterlevandepension och efterlevandestöd"
+      }
     },
     {
       "nummer": "84",
@@ -30048,8 +30567,14 @@
           "rubrik": "Obetalda avgifter för änkor födda 1930-1953"
         }
       ],
-      "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "F",
+        "namn": "FÖRMÅNER TILL EFTERLEVANDE"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Efterlevandepension och efterlevandestöd"
+      }
     },
     {
       "nummer": "85",
@@ -30312,8 +30837,14 @@
           "rubrik": "Avrundning"
         }
       ],
-      "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "F",
+        "namn": "FÖRMÅNER TILL EFTERLEVANDE"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Efterlevandepension och efterlevandestöd"
+      }
     },
     {
       "nummer": "86",
@@ -30339,8 +30870,14 @@
           ]
         }
       ],
-      "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "F",
+        "namn": "FÖRMÅNER TILL EFTERLEVANDE"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Efterlevandeförmåner från arbetsskadeförsäkringen m.m."
+      }
     },
     {
       "nummer": "87",
@@ -30467,8 +31004,14 @@
           "rubrik": "Förlust av ersättning"
         }
       ],
-      "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "F",
+        "namn": "FÖRMÅNER TILL EFTERLEVANDE"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Efterlevandeförmåner från arbetsskadeförsäkringen m.m."
+      }
     },
     {
       "nummer": "88",
@@ -30799,8 +31342,14 @@
           "rubrik": "Samordning av efterlevandelivränta med efterlevandepension"
         }
       ],
-      "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "F",
+        "namn": "FÖRMÅNER TILL EFTERLEVANDE"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Efterlevandeförmåner från arbetsskadeförsäkringen m.m."
+      }
     },
     {
       "nummer": "89",
@@ -30851,8 +31400,14 @@
           "rubrik": "Inledande bestämmelser"
         }
       ],
-      "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "F",
+        "namn": "FÖRMÅNER TILL EFTERLEVANDE"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Efterlevandeskydd i form av premiepension"
+      }
     },
     {
       "nummer": "91",
@@ -31052,8 +31607,14 @@
           "rubrik": "Vem får premiepensionen?"
         }
       ],
-      "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "F",
+        "namn": "FÖRMÅNER TILL EFTERLEVANDE"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Efterlevandeskydd i form av premiepension"
+      }
     },
     {
       "nummer": "92",
@@ -31125,8 +31686,14 @@
           "rubrik": "Utbetalning av premiepension"
         }
       ],
-      "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "F",
+        "namn": "FÖRMÅNER TILL EFTERLEVANDE"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Efterlevandeskydd i form av premiepension"
+      }
     },
     {
       "nummer": "93",
@@ -31269,8 +31836,14 @@
           "rubrik": "Försäkring och ansökan, m.m."
         }
       ],
-      "avdelning": "G BOSTADSSTÖD",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "G",
+        "namn": "BOSTADSSTÖD"
+      },
+      "underavdelning": {
+        "id": "I",
+        "namn": "Inledande bestämmelser"
+      }
     },
     {
       "nummer": "94",
@@ -31299,8 +31872,14 @@
           ]
         }
       ],
-      "avdelning": "G BOSTADSSTÖD",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "G",
+        "namn": "BOSTADSSTÖD"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Bostadsbidrag"
+      }
     },
     {
       "nummer": "95",
@@ -31504,8 +32083,14 @@
           "rubrik": "Ansökan"
         }
       ],
-      "avdelning": "G BOSTADSSTÖD",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "G",
+        "namn": "BOSTADSSTÖD"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Bostadsbidrag"
+      }
     },
     {
       "nummer": "96",
@@ -31842,8 +32427,14 @@
           "rubrik": "Förmånstiden"
         }
       ],
-      "avdelning": "G BOSTADSSTÖD",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "G",
+        "namn": "BOSTADSSTÖD"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Bostadsbidrag"
+      }
     },
     {
       "nummer": "97",
@@ -32514,8 +33105,14 @@
           "rubrik": "Undantag när bidragsbehov saknas"
         }
       ],
-      "avdelning": "G BOSTADSSTÖD",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "G",
+        "namn": "BOSTADSSTÖD"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Bostadsbidrag"
+      }
     },
     {
       "nummer": "98",
@@ -32741,8 +33338,14 @@
           "rubrik": "Utbetalning till annan än den försäkrade"
         }
       ],
-      "avdelning": "G BOSTADSSTÖD",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "G",
+        "namn": "BOSTADSSTÖD"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Bostadsbidrag"
+      }
     },
     {
       "nummer": "99",
@@ -32771,8 +33374,14 @@
           ]
         }
       ],
-      "avdelning": "G BOSTADSSTÖD",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "G",
+        "namn": "BOSTADSSTÖD"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Bostadstillägg"
+      }
     },
     {
       "nummer": "100",
@@ -32844,8 +33453,14 @@
           "rubrik": "Sambor och makar"
         }
       ],
-      "avdelning": "G BOSTADSSTÖD",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "G",
+        "namn": "BOSTADSSTÖD"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Bostadstillägg"
+      }
     },
     {
       "nummer": "101",
@@ -33086,8 +33701,14 @@
           "rubrik": "Förmånstiden"
         }
       ],
-      "avdelning": "G BOSTADSSTÖD",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "G",
+        "namn": "BOSTADSSTÖD"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Bostadstillägg"
+      }
     },
     {
       "nummer": "102",
@@ -33859,8 +34480,14 @@
           "rubrik": "Inkomster"
         }
       ],
-      "avdelning": "G BOSTADSSTÖD",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "G",
+        "namn": "BOSTADSSTÖD"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Bostadstillägg"
+      }
     },
     {
       "nummer": "103",
@@ -33987,8 +34614,14 @@
           "rubrik": "Utbetalning av bostadstillägg"
         }
       ],
-      "avdelning": "G BOSTADSSTÖD",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "G",
+        "namn": "BOSTADSSTÖD"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Bostadstillägg"
+      }
     },
     {
       "nummer": "103 a",
@@ -34020,8 +34653,14 @@
           ]
         }
       ],
-      "avdelning": "G BOSTADSSTÖD",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "G",
+        "namn": "BOSTADSSTÖD"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Boendetillägg"
+      }
     },
     {
       "nummer": "103 b",
@@ -34106,8 +34745,14 @@
           "rubrik": "Sambor och makar"
         }
       ],
-      "avdelning": "G BOSTADSSTÖD",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "G",
+        "namn": "BOSTADSSTÖD"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Boendetillägg"
+      }
     },
     {
       "nummer": "103 c",
@@ -34318,8 +34963,14 @@
           "rubrik": "Upphörande av rätten till boendetillägg"
         }
       ],
-      "avdelning": "G BOSTADSSTÖD",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "G",
+        "namn": "BOSTADSSTÖD"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Boendetillägg"
+      }
     },
     {
       "nummer": "103 d",
@@ -34514,8 +35165,14 @@
           "rubrik": "Samordning med bostadsbidrag"
         }
       ],
-      "avdelning": "G BOSTADSSTÖD",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "G",
+        "namn": "BOSTADSSTÖD"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Boendetillägg"
+      }
     },
     {
       "nummer": "103 e",
@@ -34614,8 +35271,14 @@
           "rubrik": "Utbetalning av boendetillägg"
         }
       ],
-      "avdelning": "G BOSTADSSTÖD",
-      "underavdelning": "I Inledande bestämmelser"
+      "avdelning": {
+        "id": "G",
+        "namn": "BOSTADSSTÖD"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Boendetillägg"
+      }
     },
     {
       "nummer": "104",
@@ -34637,8 +35300,14 @@
           ]
         }
       ],
-      "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
-      "underavdelning": "I Inledande bestämmelse"
+      "avdelning": {
+        "id": "H",
+        "namn": "VISSA GEMENSAMMA BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "I",
+        "namn": "Inledande bestämmelse"
+      }
     },
     {
       "nummer": "105",
@@ -34660,8 +35329,14 @@
           ]
         }
       ],
-      "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
-      "underavdelning": "I Inledande bestämmelse"
+      "avdelning": {
+        "id": "H",
+        "namn": "VISSA GEMENSAMMA BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Gemensamma bestämmelser om förmåner m.m."
+      }
     },
     {
       "nummer": "106",
@@ -35345,8 +36020,14 @@
           "rubrik": "Ersättning endast för del av kalendermånad"
         }
       ],
-      "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
-      "underavdelning": "I Inledande bestämmelse"
+      "avdelning": {
+        "id": "H",
+        "namn": "VISSA GEMENSAMMA BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Gemensamma bestämmelser om förmåner m.m."
+      }
     },
     {
       "nummer": "107",
@@ -35636,8 +36317,14 @@
           "rubrik": "Skadestånd"
         }
       ],
-      "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
-      "underavdelning": "I Inledande bestämmelse"
+      "avdelning": {
+        "id": "H",
+        "namn": "VISSA GEMENSAMMA BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Gemensamma bestämmelser om förmåner m.m."
+      }
     },
     {
       "nummer": "108",
@@ -36105,8 +36792,14 @@
           "rubrik": "Närmare om förmåner till efterlevande"
         }
       ],
-      "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
-      "underavdelning": "I Inledande bestämmelse"
+      "avdelning": {
+        "id": "H",
+        "namn": "VISSA GEMENSAMMA BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "II",
+        "namn": "Gemensamma bestämmelser om förmåner m.m."
+      }
     },
     {
       "nummer": "109",
@@ -36130,8 +36823,14 @@
           ]
         }
       ],
-      "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
-      "underavdelning": "I Inledande bestämmelse"
+      "avdelning": {
+        "id": "H",
+        "namn": "VISSA GEMENSAMMA BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Gemensamma bestämmelser om handläggning m.m."
+      }
     },
     {
       "nummer": "110",
@@ -37328,8 +38027,14 @@
           "rubrik": "Information om betydelsen av vägrad medverkan"
         }
       ],
-      "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
-      "underavdelning": "I Inledande bestämmelse"
+      "avdelning": {
+        "id": "H",
+        "namn": "VISSA GEMENSAMMA BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Gemensamma bestämmelser om handläggning m.m."
+      }
     },
     {
       "nummer": "111",
@@ -37473,8 +38178,14 @@
           "rubrik": "När anses en uppgift ha kommit in?"
         }
       ],
-      "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
-      "underavdelning": "I Inledande bestämmelse"
+      "avdelning": {
+        "id": "H",
+        "namn": "VISSA GEMENSAMMA BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Gemensamma bestämmelser om handläggning m.m."
+      }
     },
     {
       "nummer": "112",
@@ -37634,8 +38345,14 @@
           "rubrik": "Beslut som fattas av Pensionsmyndigheten"
         }
       ],
-      "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
-      "underavdelning": "I Inledande bestämmelse"
+      "avdelning": {
+        "id": "H",
+        "namn": "VISSA GEMENSAMMA BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Gemensamma bestämmelser om handläggning m.m."
+      }
     },
     {
       "nummer": "113",
@@ -38372,8 +39089,14 @@
           "rubrik": "Särskilda bestämmelser om beslut som rör fondförvaltare"
         }
       ],
-      "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
-      "underavdelning": "I Inledande bestämmelse"
+      "avdelning": {
+        "id": "H",
+        "namn": "VISSA GEMENSAMMA BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Gemensamma bestämmelser om handläggning m.m."
+      }
     },
     {
       "nummer": "114",
@@ -38752,8 +39475,14 @@
           "rubrik": "Tystnadsplikt"
         }
       ],
-      "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
-      "underavdelning": "I Inledande bestämmelse"
+      "avdelning": {
+        "id": "H",
+        "namn": "VISSA GEMENSAMMA BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Gemensamma bestämmelser om handläggning m.m."
+      }
     },
     {
       "nummer": "115",
@@ -38818,8 +39547,14 @@
           "rubrik": "Arbetsgivare och uppdragsgivare m.fl."
         }
       ],
-      "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
-      "underavdelning": "I Inledande bestämmelse"
+      "avdelning": {
+        "id": "H",
+        "namn": "VISSA GEMENSAMMA BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "III",
+        "namn": "Gemensamma bestämmelser om handläggning m.m."
+      }
     },
     {
       "nummer": "116",
@@ -38838,8 +39573,14 @@
           ]
         }
       ],
-      "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
-      "underavdelning": "I Inledande bestämmelse"
+      "avdelning": {
+        "id": "H",
+        "namn": "VISSA GEMENSAMMA BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Vissa organisatoriska bestämmelser"
+      }
     },
     {
       "nummer": "117",
@@ -40169,8 +40910,14 @@
           "rubrik": "Avvikande föreskrifter"
         }
       ],
-      "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
-      "underavdelning": "I Inledande bestämmelse"
+      "avdelning": {
+        "id": "H",
+        "namn": "VISSA GEMENSAMMA BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Vissa organisatoriska bestämmelser"
+      }
     }
   ]
 }

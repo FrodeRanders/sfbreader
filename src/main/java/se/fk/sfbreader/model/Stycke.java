@@ -122,6 +122,7 @@ public class Stycke implements Layer {
         text.removeIf(String::isEmpty);
     }
 
+    @Override
     public String toString() {
         return referens.stream()
                 .map(r -> " referens=\"" + r + "\"")

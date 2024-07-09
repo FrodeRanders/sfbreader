@@ -66,7 +66,7 @@ def extract_entities_and_relations(text, progress):
                     or re.match(rangePattern2, tokenText)    # a-100
                     or re.match(rangePattern3, tokenText)):  # b-g
                 # Identify noun phrases and named entities as potential entities
-                if token.dep_ in ['nsubj', 'dobj', 'pobj', 'nmod', 'nsubj:pass']:
+                if token.dep_ in ['nsubj', 'dobj', 'pobj', 'nmod']: # not 'nsubj:pass'
                     entities.append((tokenText, token.dep_, token.head.text.lower()))
 
                 # Look for specific relations involving verbs and their arguments
