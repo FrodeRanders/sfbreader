@@ -93,7 +93,7 @@ public class Stycke implements Layer {
 
                 Character c = s.charAt(0);
 
-                if (/* already containes itemized entries? */ itemized && !adding_itemized
+                if (/* already contains itemized entries? */ itemized && !adding_itemized
                         && /* is letter? */ Character.isLetter(c)
                         && /* is uppercase (letter)? */ 0 == c.compareTo(Character.toUpperCase(c))) {
                     textOnHold.add(s);
