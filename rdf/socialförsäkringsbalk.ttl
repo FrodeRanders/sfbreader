@@ -1,0 +1,226 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix eu:    <http://publications.europa.eu/resource/authority/subdivision/> .
+@prefix selaw: <http://fk.se/ontology/definitions#> .
+@prefix sfb:   <http://fk.se/ontology/socialforsakringsbalk#> .
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Nivåer
+# +======================================================================+
+# |      Nivå      | SKOS:Concept |  Svensk term  |    Engelsk term      |
+# +======================================================================+
+# |      Lag       |   eu:ACT     |     akt       |        act           |
+# +----------------+--------------+---------------+----------------------+
+# |   Avdelning    |   eu:PRT     |     del       |        part          |
+# +----------------+--------------+---------------+----------------------+
+# | Underavdelning |   eu:TIS     |   avdelning   |  title (subdivision) |
+# +----------------+--------------+---------------+----------------------+
+# |    Kapitel     |   eu:CPT     |    kapitel    |       chapter        |
+# +----------------+--------------+---------------+----------------------+
+# |   Paragraf     |   eu:ART     |    artikel    |       article        |
+# +----------------+--------------+---------------+----------------------+
+# |    Stycke      |   eu:PAR     |    punkt      |      paragraph       |
+# +----------------+--------------+---------------+----------------------+
+# |    Punkt       |   eu:SUB     |    stycke     |    subparagraph      |
+# +----------------+--------------+---------------+----------------------+
+#           (finare uppdelning än detta är inte nödvändig)
+# +----------------+--------------+---------------+----------------------+
+# | (1), (2), ...  |   eu:PNT     |               |                      |
+# | (a), (b), ...  |   eu:PTA     |     led       |       point          |
+# | (i), (ii), ... |   eu:PTI     |               |                      |
+# +----------------+--------------+---------------+----------------------+
+#
+# Kommentar:
+#     Den engelska definitionen av eu:PAR svarar mot stycke medan den
+#     engelska definitionen av eu:SUB svarar mot punkt. Den svenska termen
+#     ser ut att vara omkastad, så vi utgår därför ifrån definitionen
+#     i stället för svensk term.
+#     Vi har en liknande situation för eu:PRT <-> eu:TIS, där den svenska
+#     termen är märklig. Definitionen av eu:TIS nämner att denna "faller
+#     mellan eu:PAR och eu:CPT".
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Metadata
+selaw:
+    a            owl:Ontology ;
+    rdfs:label   "Försäkringskassans Ontologi för svensk lagstiftning (med avseende på Socialförsäkringsbalken)"@sv ;
+    rdfs:comment "En ontologi för att beskriva strukturen och innehållet i Socialförsäkringsbalken."@sv .
+
+# Kärnklasser i ontologin
+selaw:Lag
+    a               owl:Class ;
+    rdfs:label      "Lag"@sv ;
+    rdfs:comment    "En svensk lag."@sv ;
+    skos:exactMatch eu:ACT .
+
+selaw:EnkelLag
+    a               owl:Class ;
+    rdfs:subClassOf selaw:Lag ;
+    rdfs:label      "Enkel lag"@sv ;
+    rdfs:comment    "En lag utan avdelning eller underavdelning, möjligtvis också utan kapitel."@sv .
+
+selaw:KomplexLag
+    a               owl:Class ;
+    rdfs:subClassOf selaw:Lag ;
+    rdfs:label      "Komplex lag"@sv ;
+    rdfs:comment    "En lag som innehåller flera nivåer."@sv .
+
+selaw:Avdelning
+    a               owl:Class ;
+    rdfs:label      "Avdelning"@sv ;
+    rdfs:comment    "En avdelning i en lag (så som förekommer i Socialförsäkringsbalken)."@sv ;
+    rdfs:subClassOf selaw:KomplexLag ;
+    skos:exactMatch eu:PRT .
+
+selaw:Underavdelning
+    a               owl:Class ;
+    rdfs:label      "Underavdelning"@sv ;
+    rdfs:comment    "En underavdelning i en lag (så som förekommer i Socialförsäkringsbalken)."@sv ;
+    rdfs:subClassOf selaw:Avdelning ;
+    skos:exactMatch eu:TIS .
+
+selaw:Kapitel
+    a               owl:Class ;
+    rdfs:label      "Kapitel"@sv ;
+    rdfs:comment    "Ett kapitel i en lag (så som förekommer i Socialförsäkringsbalken)."@sv ;
+    rdfs:subClassOf selaw:EnkelLag ;
+    rdfs:subClassOf selaw:Underavdelning ;
+    skos:exactMatch eu:CPT .
+
+selaw:Paragraf
+    a               owl:Class ;
+    rdfs:label      "Paragraf"@sv ;
+    rdfs:comment    "En paragraf (i ett kapitel) i en lag."@sv ;
+    rdfs:subClassOf selaw:EnkelLag ;
+    rdfs:subClassOf selaw:Kapitel ;
+    skos:exactMatch eu:ART .
+
+selaw:Stycke
+    a               owl:Class ;
+    rdfs:label      "Stycke"@sv ;
+    rdfs:comment    "Ett stycke i en paragraf i Socialförsäkringsbalken."@sv ;
+    rdfs:subClassOf selaw:Paragraf ;
+    skos:exactMatch eu:PAR .
+
+selaw:Punkt
+    a               owl:Class ;
+    rdfs:label      "Punkt"@sv ;
+    rdfs:comment    "En punkt i ett stycke i Socialförsäkringsbalken."@sv ;
+    rdfs:subClassOf selaw:Stycke ;
+    skos:exactMatch eu:SUB .
+
+# Relationer
+selaw:harAvdelning
+    a            owl:ObjectProperty ;
+    rdfs:domain  selaw:Lag ;
+    rdfs:range   selaw:Avdelning ;
+    rdfs:label   "har avdelning"@sv ;
+    rdfs:comment "Relaterar en lag till dess avdelningar."@sv .
+
+selaw:harUnderavdelning
+    a            owl:ObjectProperty ;
+    rdfs:domain  selaw:Avdelning ;
+    rdfs:range   selaw:Underavdelning ;
+    rdfs:label   "har underavdelning"@sv ;
+    rdfs:comment "Relaterar en avdelning till dess underavdelningar."@sv .
+
+selaw:harKapitel
+    a            owl:ObjectProperty ;
+    rdfs:domain  selaw:Avdelning ;
+    rdfs:range   selaw:Kapitel ;
+    rdfs:label   "har kapitel"@sv ;
+    rdfs:comment "Relaterar ett avdelning till dess kapitel."@sv .
+
+selaw:harParagraf
+    a            owl:ObjectProperty ;
+    rdfs:domain  selaw:Kapitel ;
+    rdfs:range   selaw:Paragraf ;
+    rdfs:label   "har paragraf"@sv ;
+    rdfs:comment "Relaterar ett kapitel till dess paragrafer."@sv .
+
+selaw:harStycke
+    a            owl:ObjectProperty ;
+    rdfs:domain  selaw:Paragraf ;
+    rdfs:range   selaw:Stycke ;
+    rdfs:label   "har stycke"@sv ;
+    rdfs:comment "Kopplar en paragraf till dess stycken."@sv .
+
+selaw:harPunkt
+    a            owl:ObjectProperty ;
+    rdfs:domain  selaw:Stycke ;
+    rdfs:range   selaw:Punkt ;
+    rdfs:label   "har punkt"@sv ;
+    rdfs:comment "Kopplar ett stycke till dess punkter."@sv .
+
+selaw:harText
+    a            owl:DatatypeProperty ;
+    rdfs:domain  selaw:Punkt ;
+    rdfs:range   xsd:string ;
+    rdfs:label   "har text"@sv ;
+    rdfs:comment "Innehåller texten i en punkt."@sv .
+
+selaw:harTitel
+    a                      owl:DatatypeProperty ;
+    rdfs:domain            selaw:Avdelning, selaw:Underavdelning ;
+    rdfs:range             xsd:string ;
+    rdfs:label             "har titel"@sv ;
+    rdfs:comment           "Anger titeln för en avdelning eller underavdelning."@sv ;
+    owl:equivalentProperty dc:title .
+
+# Temporala egenskaper
+selaw:giltigFrom
+    a            owl:DatatypeProperty ;
+    rdfs:domain  selaw:Kapitel, selaw:Paragraf ;
+    rdfs:range   xsd:date ;
+    rdfs:label   "börjar gälla från och med"@sv ;
+    rdfs:comment "Anger från vilket datum kapitlet eller paragrafen börjar gälla."@sv .
+
+selaw:giltigTill
+    a            owl:DatatypeProperty ;
+    rdfs:domain  selaw:Kapitel, selaw:Paragraf ;
+    rdfs:range   xsd:date ;
+    rdfs:label   "upphör att gälla"@sv ;
+    rdfs:comment "Anger från vilket datum kapitlet eller paragrafen upphör att gälla."@sv .
+
+
+# Instansdata, exempel
+sfb:Socialforsakringsbalken
+    a                  selaw:KomplexLag ;
+    rdfs:label         "Socialförsäkringsbalken"@sv ;
+    selaw:harAvdelning sfb:AvdelningA .
+
+sfb:AvdelningA
+    a                       selaw:Avdelning ;
+    rdfs:label              "Avdelning A"@sv ;
+    selaw:harUnderavdelning sfb:UnderavdelningA1 ;
+    selaw:harKapitel        sfb:Kapitel1 .
+
+sfb:UnderavdelningA1
+    a                selaw:Underavdelning ;
+    rdfs:label       "Underavdelning A1"@sv ;
+    selaw:harKapitel sfb:Kapitel1 .
+
+sfb:Kapitel1
+    a                 selaw:Kapitel ;
+    rdfs:label        "Kapitel 1"@sv ;
+    selaw:harParagraf sfb:Kapitel1_Paragraf1 .
+
+sfb:Kapitel1_Paragraf1
+    a               selaw:Paragraf ;
+    rdfs:label      "Kapitel 1, Paragraf 1"@sv ;
+    selaw:harStycke sfb:Kapitel1_Paragraf1_Stycke1 .
+
+sfb:Kapitel1_Paragraf1_Stycke1
+    a              selaw:Stycke ;
+    rdfs:label     "Kapitel 1, Paragraf 1, Stycke 1"@sv ;
+    selaw:harPunkt sfb:Kapitel1_Paragraf1_Stycke1_Punkt1 .
+
+sfb:Kapitel1_Paragraf1_Stycke1_Punkt1
+    a          selaw:Punkt ;
+    rdfs:label "Kapitel 1, Paragraf 1, Stycke 1, Punkt 1"@sv ;
+    selaw:harText "Detta är ett exempel på text i en punkt"@sv .
+

@@ -1,0 +1,60 @@
+ACT;akt;act;This element indicates a differentiated legal act, e.g. in the context of an accession treaty.;N/A
+AGR;avtal;agreement;This element indicates an agreement as part of an act.;N/A
+ALN;stycke;unnumbered paragraph;sole element or a non-independent element of an article (JPG 15.4, table) or exceptionally an element of an annex;Subdivision of an article which does not have a distinctive sign (number, letter or dash).
+ANX;bilaga;annex;distinct part of an act that generally contains rules or technical data which, for practical reasons, do not appear in the enacting terms, and frequently take the form of a list or table;N/A
+APP;tillägg;appendix;An appendix is a distinct supplementary part of an act which generally contains explanatory or statistical information, and which frequently take the form of a list or table.;N/A
+ART;artikel;article;basic component of the enacting terms of a legal act;Distinguishable by the standardised title, which consists of the expression ‘Article’ followed by a sequential number or preceded by ‘sole’.
+CGR;grupp av rättelser;group of corrections;This element is specific to the corrigendum type of document. It is used to mark up two or more corrections that have a common introductory sentence.;N/A
+CIT;beaktandeled;citation;legal basis for an act or a preparatory act and in the case of a legislative act also the procedure followed and the transmission of a draft legislative act to national parliaments;In the hierarchy, citations are elements of the preamble.
+CLS;klausul;clause;A clause is a distinct provision at the end of an agreement, a treaty or another act.;N/A
+CNV;konvention;convention;This element indicates a convention, a specific part of a document, e.g. in a treaty.;N/A
+COL;tabellkolumn;table column;vertical arrangement of data in a table;N/A
+COR;rättelse;correction;This element is specific to the corrigendum type of document. It is used to mark up the details about the correction/modification asked for a legal document after its publication.;N/A
+CPT;kapitel;chapter;higher subdivision within a legal act used to introduce a group of articles in the enacting terms;In the hierarchy of subdivisions, chapter is between title and section.
+DCL;förklaring;declaration;This element indicates a common declaration, a specific part of a document, in general in international agreements.;N/A
+DES;beskrivning;description;This element is specific to the corrigendum type of document. It is a subdivision of the correction and is used to mark up the details (subject, location) where the modification should be implemented in a legal document.;N/A
+ENC;artikeldel;enacting terms;operative part of a legal document which follows the preamble;Comprising for example the legal definitions.
+END;slutnot;endnote;reference included in a legal document which is specified in the end of a subdivision of an act;N/A
+EXL;skriftväxling;exchange of letters;This element indicates an exchange of letters, a specific part of a document, e.g. in a treaty.;N/A
+FGR;figur;figure;image supplemented by related text;N/A
+FNA;slutakt;final act;This element indicates a final act, a specific part of a document, in general in international agreements.;N/A
+FNP;avslutande del;final part;This element indicates the final part of a legal act which follows the enacting terms. The final part contains the place, date and signatures and sometimes also the rule of application.;N/A
+FTN;fotnot;footnote;reference included in a legal document which is specified at the bottom of the same page;N/A
+IDT;strecksats;indent;element of an enumeration preceded by a dash;As indents have no figure nor other sign of identification, ordinal numbers written by letters are used to refer to them: first indent, second indent, third indent etc.
+IMG;bild;image;graphical element depicting an object which may contain alphanumeric data;N/A
+INP;inledande del;introductory part;one or more sentences or phrases in the beginning of a paragraph, or of a subparagraph, or of a point, preceding an enumeration (of points or indents) and ending with a colon ‘:’;N/A
+ITM;punkt;item;subdivision of a bigger text, presented in the form of a list of interventions;N/A
+LGD;förklaring;legend;text detailing the meaning of the elements of an image, a table or a scientific formula it relates to;N/A
+LLG;rad i förklaring;line of legend;In a legend, a line of legend is a description of an individual element.;N/A
+LST;förteckning;list;This element indicates information structured by means of a list in a legal document.;N/A
+LTR;skrivelse;letter;This element indicates a letter integrated into a document, in general in international agreements.;N/A
+MNT;protokoll;minutes;This element indicates minutes, a specific part of a document, e.g. in a treaty.;N/A
+NOT;anmärkning;note;specific additional explanatory part of a legal document;N/A
+OP_DATPRO;Tillfälliga uppgifter;Provisional data;N/A;N/A
+OTH;andra;other;This element indicates any non specified subdivision.;N/A
+PAG;sida;page;This element indicates a subdivision of the basic act of a consolidation, specified by page number as given in the original publication in the Official Journal (OJ). The figure added to the subdivision indicates the page number in the original publication of the basic act in the OJ.Example: PG:40 indicates a position on page 40 in the original publication of the basic act in the OJ.;N/A
+PAR;punkt;paragraph;The PAR element is used to mark up a subdivision of an article numbered using Arab numerals within a European legal text. It is made up of at least one alinea or quoted text.;N/A
+PBL;ingress;preamble;part of an act positioned after the title of the act that includes the citations, the recitals and the solemn forms preceding the enacting terms;N/A
+PCD;förfarande;procedure;This element indicates a procedure, a specific part of a document, e.g. in a treaty.;N/A
+PNT;led;point;structure component of a legal article that has a distinctive sign of the type Arabic numbers: (1), (2), (3) etc.;Indicates either each element of an enumeration inside a paragraph, a subparagraph or a point (this enumeration being generally preceded by an introductory phrase); or is possibly used independently as a basic unit, e.g. in annexes or preparatory documents.
+PRO;protokoll;protocol;This element indicates a protocol, a specific part of a legal document.;N/A
+PRT;del;part;subdivision of a legal document used to introduce a group of articles in the enacting terms;In the hierarchy of subdivisions, part is above title.
+PTA;led;point;structure component of a legal article that has a distinctive sign of the type lowercase letters: (a), (b), (c) etc.;N/A
+PTI;led;point;structure component of a legal article that has a distinctive sign of the type lowercase Roman numbers: (i), (ii), (iii) etc.;N/A
+RCT;skäl;recital;element in the preamble that sets out the reasoning for the chief provisions of the enacting terms;N/A
+ROW;tabellrad;table row;horizontal arrangement of data in a table;N/A
+RUL;regel;rule;The RULE element is used in some acts, such as in Commission Regulation (EC) No 2868/95 of 13 December 1995.;N/A
+SBS;underavsnitt;subsection;This element indicates a subclause in the regular structure of a legal document below the level of a section. Example: Council Regulation (EC) No 491/2009 of 25 May 2009.;N/A
+SCT;avsnitt;section;lowest of the four higher subdivisions of an act (others are parts, titles and chapters) used to introduce a group of articles in the enacting terms;Sections have distinctive signs of type Arab numerals 1, 2, 3 etc.
+SFR;vetenskaplig formel;scientific formula;complex technical or scientific expression;N/A
+SNT;mening;sentence;A sentence is a linguistic unit of grammatically linked words. This subdivision can be cited.;N/A
+SUB;stycke;subparagraph;first level of an unnumbered subdivision of a numbered paragraph, point or indent, where there are at least two of such elements of subdivision;N/A
+TAB;tabell;table;This element indicates a table in a legal document containing text structured in rows and columns with the related data.;N/A
+TBG;grupp av tabeller;group of tables;This element is used to group tables together that share a common title or a common note.;N/A
+TIS;avdelning (del);title (subdivision);higher subdivision of an act positioned between part and chapter used to introduce a group of articles in the enacting terms;Indicates in long and highly structured texts the grouping of higher subdivisions (JPG 15.4, p. 28).
+TIT;titel;title;designation of an act or the designation of a subdivision (e.g. article, chapter, part) of an act;The Common Vocabulary (CoV) definition ‘The title of the document comprises all the information in the heading of the document which serves to identify it’ is referring to the same.
+TOC;innehållsförteckning;table of contents;list of headings and subjects of a document, presented in the order in which they appear;N/A
+TXN;ny text;new text;This element is specific to the corrigendum type of document. It is a subdivision of the correction and is used to mark up the new text that should replace the old one in a legal document.;N/A
+TXO;gammal text;old text;This element is specific to the corrigendum type of document. It is a subdivision of the correction and is used to mark up the original text that was published in a document and should be modified by the corrigendum.;N/A
+UNP;stycke;unnumbered paragraph;unnumbered subdivision of an article or, exceptionally an element of an annex;If an article is not subdivided, i.e. has only one paragraph, it is an unnumbered paragraph.
+WRP;slutdel;closing part;part that follows the enumeration in a sentence that includes an enumeration of points or indents;N/A
