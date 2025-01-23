@@ -41,7 +41,7 @@
 #     i stället för svensk term.
 #     Vi har en liknande situation för eu:PRT <-> eu:TIS, där den svenska
 #     termen är märklig. Definitionen av eu:TIS nämner att denna "faller
-#     mellan eu:PAR och eu:CPT".
+#     mellan eu:PRT och eu:CPT".
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Metadata
