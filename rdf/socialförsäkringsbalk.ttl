@@ -6,7 +6,7 @@
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix eu:    <http://publications.europa.eu/resource/authority/subdivision/> .
 @prefix selaw: <http://fk.se/ontology/definitions#> .
-@prefix sfb:   <http://fk.se/ontology/socialforsakringsbalk#> .
+@prefix :      <http://fk.se/ontology/socialforsakringsbalk#> .
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Nivåer
@@ -188,38 +188,39 @@ selaw:giltigTill
 
 
 # Instansdata, exempel
-sfb:Socialforsakringsbalken
+:Socialforsakringsbalken
     a                  selaw:KomplexLag ;
     rdfs:label         "Socialförsäkringsbalken"@sv ;
-    selaw:harAvdelning sfb:AvdelningA .
+    selaw:harAvdelning :AvdelningA .
 
-sfb:AvdelningA
+:AvdelningA
     a                       selaw:Avdelning ;
     rdfs:label              "Avdelning A"@sv ;
-    selaw:harUnderavdelning sfb:UnderavdelningA1 ;
-    selaw:harKapitel        sfb:Kapitel1 .
+    selaw:harUnderavdelning :UnderavdelningA1 ;
+    selaw:harKapitel        :Kapitel1 .
 
-sfb:UnderavdelningA1
+:UnderavdelningA1
     a                selaw:Underavdelning ;
     rdfs:label       "Underavdelning A1"@sv ;
-    selaw:harKapitel sfb:Kapitel1 .
+    selaw:harKapitel :Kapitel1 .
 
-sfb:Kapitel1
+:Kapitel1
     a                 selaw:Kapitel ;
     rdfs:label        "Kapitel 1"@sv ;
-    selaw:harParagraf sfb:Kapitel1_Paragraf1 .
+    selaw:giltigFrom  "2013-11-09"^^xsd:date ;
+    selaw:harParagraf :Kapitel1_Paragraf1 .
 
-sfb:Kapitel1_Paragraf1
+:Kapitel1_Paragraf1
     a               selaw:Paragraf ;
     rdfs:label      "Kapitel 1, Paragraf 1"@sv ;
-    selaw:harStycke sfb:Kapitel1_Paragraf1_Stycke1 .
+    selaw:harStycke :Kapitel1_Paragraf1_Stycke1 .
 
-sfb:Kapitel1_Paragraf1_Stycke1
+:Kapitel1_Paragraf1_Stycke1
     a              selaw:Stycke ;
     rdfs:label     "Kapitel 1, Paragraf 1, Stycke 1"@sv ;
-    selaw:harPunkt sfb:Kapitel1_Paragraf1_Stycke1_Punkt1 .
+    selaw:harPunkt :Kapitel1_Paragraf1_Stycke1_Punkt1 .
 
-sfb:Kapitel1_Paragraf1_Stycke1_Punkt1
+:Kapitel1_Paragraf1_Stycke1_Punkt1
     a          selaw:Punkt ;
     rdfs:label "Kapitel 1, Paragraf 1, Stycke 1, Punkt 1"@sv ;
     selaw:harText "Detta är ett exempel på text i en punkt"@sv .
