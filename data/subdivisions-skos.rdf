@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:at="http://publications.europa.eu/ontology/authority/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:atold="http://publications.europa.eu/resource/authority/"
+         xml:base="http://publications.europa.eu/resource/authority/subdivision">
+    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/subdivision"
+                        at:table.id="subdivision"
+                        at:table.version.number="20241211-0">
+        <owl:versionInfo>20241211-0</owl:versionInfo>
+        <skos:prefLabel xml:lang="en">Subdivision</skos:prefLabel>
+        <rdfs:label xml:lang="en">Subdivision</rdfs:label>
+        <at:prefLabel xml:lang="en">Subdivision</at:prefLabel>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/EXL"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/TIS"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/APP"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/LLG"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/COR"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/TXN"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/ENC"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/TOC"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/COL"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/OTH"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/ALN"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/SBS"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/ACT"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/UNP"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/CLS"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/CPT"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/TBG"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/NOT"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/PTA"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/WRP"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/DES"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/FTN"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/FNA"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/ART"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/CIT"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/ITM"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/LTR"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/IDT"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/PCD"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/DCL"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/ANX"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/PBL"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/SFR"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/SCT"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/FGR"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/LST"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/SUB"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/SNT"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/RCT"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/TAB"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/ROW"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/INP"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/CGR"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/IMG"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/PNT"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/AGR"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/FNP"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/PRO"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/MNT"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/CNV"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/TIT"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/LGD"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/RUL"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/PAG"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/PRT"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/TXO"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/END"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/PTI"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/PAR"/>
+        <skos:hasTopConcept rdf:resource="http://publications.europa.eu/resource/authority/subdivision/OP_DATPRO"/>
+    </skos:ConceptScheme>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/EXL"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">skriftväxling</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">exchange of letters</skos:prefLabel>
+        <skos:definition xml:lang="en">This element indicates an exchange of letters, a specific part of a document,
+            e.g. in a treaty.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>EXL</dc:identifier>
+        <atold:op-code>EXL</atold:op-code>
+        <at:op-code>EXL</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>EXL</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/TIS"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">avdelning (del)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">title (subdivision)</skos:prefLabel>
+        <skos:definition xml:lang="en">higher subdivision of an act positioned between part and chapter used to
+            introduce a group of articles in the enacting terms
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>TIS</dc:identifier>
+        <atold:op-code>TIS</atold:op-code>
+        <at:op-code>TIS</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>TIS</at:authority-code>
+        <skos:scopeNote xml:lang="en">Indicates in long and highly structured texts the grouping of higher subdivisions
+            (JPG 15.4, p. 28).
+        </skos:scopeNote>
+        <skos:scopeNote xml:lang="en">Titles have distinctive signs of type uppercase Roman numbers I, II, III etc.
+        </skos:scopeNote>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">TT</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>TT</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/APP"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">tillägg</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">appendix</skos:prefLabel>
+        <skos:definition xml:lang="en">An appendix is a distinct supplementary part of an act which generally contains
+            explanatory or statistical information, and which frequently take the form of a list or table.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>APP</dc:identifier>
+        <atold:op-code>APP</atold:op-code>
+        <at:op-code>APP</at:op-code>
+        <at:start.use>2015-03-18</at:start.use>
+        <at:authority-code>APP</at:authority-code>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">AP</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>AP</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/LLG"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">rad i förklaring</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">line of legend</skos:prefLabel>
+        <skos:definition xml:lang="en">In a legend, a line of legend is a description of an individual element.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>LLG</dc:identifier>
+        <atold:op-code>LLG</atold:op-code>
+        <at:op-code>LLG</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>LLG</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/COR"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">correction</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">rättelse</skos:prefLabel>
+        <skos:definition xml:lang="en">This element is specific to the corrigendum type of document. It is used to mark
+            up the details about the correction/modification asked for a legal document after its publication.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>COR</dc:identifier>
+        <atold:op-code>COR</atold:op-code>
+        <at:op-code>COR</at:op-code>
+        <at:start.use>2004-05-01</at:start.use>
+        <at:authority-code>COR</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/TXN"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">new text</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">ny text</skos:prefLabel>
+        <skos:definition xml:lang="en">This element is specific to the corrigendum type of document. It is a subdivision
+            of the correction and is used to mark up the new text that should replace the old one in a legal document.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>TXN</dc:identifier>
+        <atold:op-code>TXN</atold:op-code>
+        <at:op-code>TXN</at:op-code>
+        <at:start.use>2004-05-01</at:start.use>
+        <at:authority-code>TXN</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/ENC"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">artikeldel</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">enacting terms</skos:prefLabel>
+        <skos:definition xml:lang="en">operative part of a legal document which follows the preamble</skos:definition>
+        <skos:altLabel xml:lang="sv">normativ del</skos:altLabel>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>ENC</dc:identifier>
+        <atold:op-code>ENC</atold:op-code>
+        <at:op-code>ENC</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>ENC</at:authority-code>
+        <skos:scopeNote xml:lang="en">Comprising for example the legal definitions.</skos:scopeNote>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">DI</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>DI</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/TOC"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">innehållsförteckning</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">table of contents</skos:prefLabel>
+        <skos:definition xml:lang="en">list of headings and subjects of a document, presented in the order in which they
+            appear
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>TOC</dc:identifier>
+        <atold:op-code>TOC</atold:op-code>
+        <at:op-code>TOC</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>TOC</at:authority-code>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">SU</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>SU</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/COL"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">tabellkolumn</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">table column</skos:prefLabel>
+        <skos:definition xml:lang="en">vertical arrangement of data in a table</skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>COL</dc:identifier>
+        <atold:op-code>COL</atold:op-code>
+        <at:op-code>COL</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>COL</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/OTH"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">andra</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+        <skos:definition xml:lang="en">This element indicates any non specified subdivision.</skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>OTH</dc:identifier>
+        <atold:op-code>OTH</atold:op-code>
+        <at:op-code>OTH</at:op-code>
+        <at:start.use>1952-07-24</at:start.use>
+        <at:authority-code>OTH</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/ALN"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">unnumbered paragraph</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">stycke</skos:prefLabel>
+        <skos:definition xml:lang="en">sole element or a non-independent element of an article (JPG 15.4, table) or
+            exceptionally an element of an annex
+        </skos:definition>
+        <skos:altLabel xml:lang="en">sub-paragraph</skos:altLabel>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>ALN</dc:identifier>
+        <atold:op-code>ALN</atold:op-code>
+        <at:op-code>ALN</at:op-code>
+        <at:start.use>2015-03-18</at:start.use>
+        <at:authority-code>ALN</at:authority-code>
+        <skos:scopeNote xml:lang="en">Subdivision of an article which does not have a distinctive sign (number, letter
+            or dash).
+        </skos:scopeNote>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#CJ">L</skos:notation>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">AL</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>CJ</dc:source>
+                <at:legacy-code>L</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>AL</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/SBS"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">subsection</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">underavsnitt</skos:prefLabel>
+        <skos:definition xml:lang="en">This element indicates a subclause in the regular structure of a legal document
+            below the level of a section. Example: Council Regulation (EC) No 491/2009 of 25 May 2009.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>SBS</dc:identifier>
+        <atold:op-code>SBS</atold:op-code>
+        <at:op-code>SBS</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>SBS</at:authority-code>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">SD</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>SD</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/ACT"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">act</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">akt</skos:prefLabel>
+        <skos:definition xml:lang="en">This element indicates a differentiated legal act, e.g. in the context of an
+            accession treaty.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>ACT</dc:identifier>
+        <atold:op-code>ACT</atold:op-code>
+        <at:op-code>ACT</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>ACT</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/UNP"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">unnumbered paragraph</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">stycke</skos:prefLabel>
+        <skos:definition xml:lang="en">unnumbered subdivision of an article or, exceptionally an element of an annex
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>UNP</dc:identifier>
+        <atold:op-code>UNP</atold:op-code>
+        <at:op-code>UNP</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>UNP</at:authority-code>
+        <skos:scopeNote xml:lang="en">If an article is not subdivided, i.e. has only one paragraph, it is an unnumbered
+            paragraph.
+        </skos:scopeNote>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/CLS"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">clause</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">klausul</skos:prefLabel>
+        <skos:definition xml:lang="en">A clause is a distinct provision at the end of an agreement, a treaty or another
+            act.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>CLS</dc:identifier>
+        <atold:op-code>CLS</atold:op-code>
+        <at:op-code>CLS</at:op-code>
+        <at:start.use>2015-03-18</at:start.use>
+        <at:authority-code>CLS</at:authority-code>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#CJ">CL</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>CJ</dc:source>
+                <at:legacy-code>CL</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/CPT"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">kapitel</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">chapter</skos:prefLabel>
+        <skos:definition xml:lang="en">higher subdivision within a legal act used to introduce a group of articles in
+            the enacting terms
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>CPT</dc:identifier>
+        <atold:op-code>CPT</atold:op-code>
+        <at:op-code>CPT</at:op-code>
+        <at:start.use>2015-03-18</at:start.use>
+        <at:authority-code>CPT</at:authority-code>
+        <skos:scopeNote xml:lang="en">In the hierarchy of subdivisions, chapter is between title and section.
+        </skos:scopeNote>
+        <skos:scopeNote xml:lang="en">Chapters have distinctive signs of type Arab numerals 1, 2, 3 etc. or uppercase
+            Roman numbers I, II, III etc.
+        </skos:scopeNote>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">CH</skos:notation>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#CJ">CH</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>CJ</dc:source>
+                <at:legacy-code>CH</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>CH</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/TBG"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">group of tables</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">grupp av tabeller</skos:prefLabel>
+        <skos:definition xml:lang="en">This element is used to group tables together that share a common title or a
+            common note.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>TBG</dc:identifier>
+        <atold:op-code>TBG</atold:op-code>
+        <at:op-code>TBG</at:op-code>
+        <at:start.use>2004-05-01</at:start.use>
+        <at:authority-code>TBG</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/NOT"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">anmärkning</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">note</skos:prefLabel>
+        <skos:definition xml:lang="en">specific additional explanatory part of a legal document</skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>NOT</dc:identifier>
+        <atold:op-code>NOT</atold:op-code>
+        <at:op-code>NOT</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>NOT</at:authority-code>
+        <skos:example xml:lang="en">Commission Directive (EU) 2015/1787 of 6 October 2015</skos:example>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/PTA"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">point</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">led</skos:prefLabel>
+        <skos:definition xml:lang="en">structure component of a legal article that has a distinctive sign of the type
+            lowercase letters: (a), (b), (c) etc.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>PTA</dc:identifier>
+        <atold:op-code>PTA</atold:op-code>
+        <at:op-code>PTA</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>PTA</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/WRP"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">closing part</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">slutdel</skos:prefLabel>
+        <skos:definition xml:lang="en">part that follows the enumeration in a sentence that includes an enumeration of
+            points or indents
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>WRP</dc:identifier>
+        <atold:op-code>WRP</atold:op-code>
+        <at:op-code>WRP</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>WRP</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/DES"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">beskrivning</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">description</skos:prefLabel>
+        <skos:definition xml:lang="en">This element is specific to the corrigendum type of document. It is a subdivision
+            of the correction and is used to mark up the details (subject, location) where the modification should be
+            implemented in a legal document.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>DES</dc:identifier>
+        <atold:op-code>DES</atold:op-code>
+        <at:op-code>DES</at:op-code>
+        <at:start.use>2004-05-01</at:start.use>
+        <at:authority-code>DES</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/FTN"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">fotnot</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">footnote</skos:prefLabel>
+        <skos:definition xml:lang="en">reference included in a legal document which is specified at the bottom of the
+            same page
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>FTN</dc:identifier>
+        <atold:op-code>FTN</atold:op-code>
+        <at:op-code>FTN</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>FTN</at:authority-code>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">FN</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>FN</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/FNA"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">final act</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">slutakt</skos:prefLabel>
+        <skos:definition xml:lang="en">This element indicates a final act, a specific part of a document, in general in
+            international agreements.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>FNA</dc:identifier>
+        <atold:op-code>FNA</atold:op-code>
+        <at:op-code>FNA</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>FNA</at:authority-code>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">FA</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>FA</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/ART"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">article</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">artikel</skos:prefLabel>
+        <skos:definition xml:lang="en">basic component of the enacting terms of a legal act</skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>ART</dc:identifier>
+        <atold:op-code>ART</atold:op-code>
+        <at:op-code>ART</at:op-code>
+        <at:start.use>2015-03-18</at:start.use>
+        <at:authority-code>ART</at:authority-code>
+        <skos:scopeNote xml:lang="en">Distinguishable by the standardised title, which consists of the expression
+            ‘Article’ followed by a sequential number or preceded by ‘sole’.
+        </skos:scopeNote>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#CJ">A</skos:notation>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">AR</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>AR</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>CJ</dc:source>
+                <at:legacy-code>A</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/CIT"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">beaktandeled</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">citation</skos:prefLabel>
+        <skos:definition xml:lang="en">legal basis for an act or a preparatory act and in the case of a legislative act
+            also the procedure followed and the transmission of a draft legislative act to national parliaments
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>CIT</dc:identifier>
+        <atold:op-code>CIT</atold:op-code>
+        <at:op-code>CIT</at:op-code>
+        <at:start.use>2015-03-18</at:start.use>
+        <at:authority-code>CIT</at:authority-code>
+        <skos:scopeNote xml:lang="en">In the hierarchy, citations are elements of the preamble.</skos:scopeNote>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">VI</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>VI</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/ITM"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">item</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">punkt</skos:prefLabel>
+        <skos:definition xml:lang="en">subdivision of a bigger text, presented in the form of a list of interventions
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>ITM</dc:identifier>
+        <atold:op-code>ITM</atold:op-code>
+        <at:op-code>ITM</at:op-code>
+        <at:start.use>1979-07-01</at:start.use>
+        <at:authority-code>ITM</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/LTR"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">skrivelse</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">letter</skos:prefLabel>
+        <skos:definition xml:lang="en">This element indicates a letter integrated into a document, in general in
+            international agreements.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>LTR</dc:identifier>
+        <atold:op-code>LTR</atold:op-code>
+        <at:op-code>LTR</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>LTR</at:authority-code>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">LT</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>LT</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/IDT"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">indent</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">strecksats</skos:prefLabel>
+        <skos:definition xml:lang="en">element of an enumeration preceded by a dash</skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>IDT</dc:identifier>
+        <atold:op-code>IDT</atold:op-code>
+        <at:op-code>IDT</at:op-code>
+        <at:start.use>2015-03-18</at:start.use>
+        <at:authority-code>IDT</at:authority-code>
+        <skos:scopeNote xml:lang="en">As indents have no figure nor other sign of identification, ordinal numbers
+            written by letters are used to refer to them: first indent, second indent, third indent etc.
+        </skos:scopeNote>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">DA</skos:notation>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#CJ">T</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>DA</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>CJ</dc:source>
+                <at:legacy-code>T</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/PCD"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">procedure</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">förfarande</skos:prefLabel>
+        <skos:definition xml:lang="en">This element indicates a procedure, a specific part of a document, e.g. in a
+            treaty.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>PCD</dc:identifier>
+        <atold:op-code>PCD</atold:op-code>
+        <at:op-code>PCD</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>PCD</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/DCL"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">declaration</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">förklaring</skos:prefLabel>
+        <skos:definition xml:lang="en">This element indicates a common declaration, a specific part of a document, in
+            general in international agreements.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>DCL</dc:identifier>
+        <atold:op-code>DCL</atold:op-code>
+        <at:op-code>DCL</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>DCL</at:authority-code>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">DC</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>DC</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/ANX"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">bilaga</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">annex</skos:prefLabel>
+        <skos:definition xml:lang="en">distinct part of an act that generally contains rules or technical data which,
+            for practical reasons, do not appear in the enacting terms, and frequently take the form of a list or table
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>ANX</dc:identifier>
+        <atold:op-code>ANX</atold:op-code>
+        <at:op-code>ANX</at:op-code>
+        <at:start.use>2015-03-18</at:start.use>
+        <at:authority-code>ANX</at:authority-code>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#CJ">N</skos:notation>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">AX</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>CJ</dc:source>
+                <at:legacy-code>N</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>AX</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/PBL"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">preamble</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">ingress</skos:prefLabel>
+        <skos:definition xml:lang="en">part of an act positioned after the title of the act that includes the citations,
+            the recitals and the solemn forms preceding the enacting terms
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>PBL</dc:identifier>
+        <atold:op-code>PBL</atold:op-code>
+        <at:op-code>PBL</at:op-code>
+        <at:start.use>2015-03-18</at:start.use>
+        <at:authority-code>PBL</at:authority-code>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">PB</skos:notation>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#CJ">PR</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>PB</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>CJ</dc:source>
+                <at:legacy-code>PR</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/SFR"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">scientific formula</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">vetenskaplig formel</skos:prefLabel>
+        <skos:definition xml:lang="en">complex technical or scientific expression</skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>SFR</dc:identifier>
+        <atold:op-code>SFR</atold:op-code>
+        <at:op-code>SFR</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>SFR</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/SCT"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">avsnitt</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">section</skos:prefLabel>
+        <skos:definition xml:lang="en">lowest of the four higher subdivisions of an act (others are parts, titles and
+            chapters) used to introduce a group of articles in the enacting terms
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>SCT</dc:identifier>
+        <atold:op-code>SCT</atold:op-code>
+        <at:op-code>SCT</at:op-code>
+        <at:start.use>2015-03-18</at:start.use>
+        <at:authority-code>SCT</at:authority-code>
+        <skos:scopeNote xml:lang="en">Sections have distinctive signs of type Arab numerals 1, 2, 3 etc.
+        </skos:scopeNote>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#CJ">S</skos:notation>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">SE</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>CJ</dc:source>
+                <at:legacy-code>S</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>SE</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/FGR"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">figur</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">figure</skos:prefLabel>
+        <skos:definition xml:lang="en">image supplemented by related text</skos:definition>
+        <skos:altLabel xml:lang="en">image</skos:altLabel>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>FGR</dc:identifier>
+        <atold:op-code>FGR</atold:op-code>
+        <at:op-code>FGR</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>FGR</at:authority-code>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">FG</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>FG</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/LST"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">list</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">förteckning</skos:prefLabel>
+        <skos:definition xml:lang="en">This element indicates information structured by means of a list in a legal
+            document.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>LST</dc:identifier>
+        <atold:op-code>LST</atold:op-code>
+        <at:op-code>LST</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>LST</at:authority-code>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">LI</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>LI</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/SUB"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">stycke</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">subparagraph</skos:prefLabel>
+        <skos:definition xml:lang="en">first level of an unnumbered subdivision of a numbered paragraph, point or
+            indent, where there are at least two of such elements of subdivision
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>SUB</dc:identifier>
+        <atold:op-code>SUB</atold:op-code>
+        <at:op-code>SUB</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>SUB</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/SNT"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">mening</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">sentence</skos:prefLabel>
+        <skos:definition xml:lang="en">A sentence is a linguistic unit of grammatically linked words. This subdivision
+            can be cited.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>SNT</dc:identifier>
+        <atold:op-code>SNT</atold:op-code>
+        <at:op-code>SNT</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>SNT</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/RCT"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">skäl</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">recital</skos:prefLabel>
+        <skos:definition xml:lang="en">element in the preamble that sets out the reasoning for the chief provisions of
+            the enacting terms
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>RCT</dc:identifier>
+        <atold:op-code>RCT</atold:op-code>
+        <at:op-code>RCT</at:op-code>
+        <at:start.use>2015-03-18</at:start.use>
+        <at:authority-code>RCT</at:authority-code>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">CO</skos:notation>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#CJ">C</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>CJ</dc:source>
+                <at:legacy-code>C</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>CO</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/TAB"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">table</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">tabell</skos:prefLabel>
+        <skos:definition xml:lang="en">This element indicates a table in a legal document containing text structured in
+            rows and columns with the related data.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>TAB</dc:identifier>
+        <atold:op-code>TAB</atold:op-code>
+        <at:op-code>TAB</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>TAB</at:authority-code>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">TA</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>TA</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/ROW"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">table row</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">tabellrad</skos:prefLabel>
+        <skos:definition xml:lang="en">horizontal arrangement of data in a table</skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>ROW</dc:identifier>
+        <atold:op-code>ROW</atold:op-code>
+        <at:op-code>ROW</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>ROW</at:authority-code>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">RO</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>RO</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/INP"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">introductory part</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">inledande del</skos:prefLabel>
+        <skos:definition xml:lang="en">one or more sentences or phrases in the beginning of a paragraph, or of a
+            subparagraph, or of a point, preceding an enumeration (of points or indents) and ending with a colon ‘:’
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>INP</dc:identifier>
+        <atold:op-code>INP</atold:op-code>
+        <at:op-code>INP</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>INP</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/CGR"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">group of corrections</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">grupp av rättelser</skos:prefLabel>
+        <skos:definition xml:lang="en">This element is specific to the corrigendum type of document. It is used to mark
+            up two or more corrections that have a common introductory sentence.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>CGR</dc:identifier>
+        <atold:op-code>CGR</atold:op-code>
+        <at:op-code>CGR</at:op-code>
+        <at:start.use>2004-05-01</at:start.use>
+        <at:authority-code>CGR</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/IMG"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">image</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">bild</skos:prefLabel>
+        <skos:definition xml:lang="en">graphical element depicting an object which may contain alphanumeric data
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>IMG</dc:identifier>
+        <atold:op-code>IMG</atold:op-code>
+        <at:op-code>IMG</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>IMG</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/PNT"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">point</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">led</skos:prefLabel>
+        <skos:definition xml:lang="en">structure component of a legal article that has a distinctive sign of the type
+            Arabic numbers: (1), (2), (3) etc.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>PNT</dc:identifier>
+        <atold:op-code>PNT</atold:op-code>
+        <at:op-code>PNT</at:op-code>
+        <at:start.use>2015-03-18</at:start.use>
+        <at:authority-code>PNT</at:authority-code>
+        <skos:scopeNote xml:lang="en">Indicates either each element of an enumeration inside a paragraph, a subparagraph
+            or a point (this enumeration being generally preceded by an introductory phrase); or is possibly used
+            independently as a basic unit, e.g. in annexes or preparatory documents.
+        </skos:scopeNote>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#CJ">PT</skos:notation>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">PT</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>CJ</dc:source>
+                <at:legacy-code>PT</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>PT</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/AGR"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">agreement</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">avtal</skos:prefLabel>
+        <skos:definition xml:lang="en">This element indicates an agreement as part of an act.</skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>AGR</dc:identifier>
+        <atold:op-code>AGR</atold:op-code>
+        <at:op-code>AGR</at:op-code>
+        <at:start.use>1952-07-24</at:start.use>
+        <at:authority-code>AGR</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/FNP"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">final part</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">avslutande del</skos:prefLabel>
+        <skos:definition xml:lang="en">This element indicates the final part of a legal act which follows the enacting
+            terms. The final part contains the place, date and signatures and sometimes also the rule of application.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>FNP</dc:identifier>
+        <atold:op-code>FNP</atold:op-code>
+        <at:op-code>FNP</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>FNP</at:authority-code>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">FI</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>FI</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/PRO"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">protokoll</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">protocol</skos:prefLabel>
+        <skos:definition xml:lang="en">This element indicates a protocol, a specific part of a legal document.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>PRO</dc:identifier>
+        <atold:op-code>PRO</atold:op-code>
+        <at:op-code>PRO</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>PRO</at:authority-code>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">PC</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>PC</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/MNT"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">protokoll</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">minutes</skos:prefLabel>
+        <skos:definition xml:lang="en">This element indicates minutes, a specific part of a document, e.g. in a
+            treaty.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>MNT</dc:identifier>
+        <atold:op-code>MNT</atold:op-code>
+        <at:op-code>MNT</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>MNT</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/CNV"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">convention</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">konvention</skos:prefLabel>
+        <skos:definition xml:lang="en">This element indicates a convention, a specific part of a document, e.g. in a
+            treaty.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>CNV</dc:identifier>
+        <atold:op-code>CNV</atold:op-code>
+        <at:op-code>CNV</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>CNV</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/TIT"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">titel</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">title</skos:prefLabel>
+        <skos:definition xml:lang="en">designation of an act or the designation of a subdivision (e.g. article, chapter,
+            part) of an act
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>TIT</dc:identifier>
+        <atold:op-code>TIT</atold:op-code>
+        <at:op-code>TIT</at:op-code>
+        <at:start.use>2015-03-18</at:start.use>
+        <at:authority-code>TIT</at:authority-code>
+        <skos:scopeNote xml:lang="en">The Common Vocabulary (CoV) definition ‘The title of the document comprises all
+            the information in the heading of the document which serves to identify it’ is referring to the same.
+        </skos:scopeNote>
+        <skos:scopeNote xml:lang="en">The complete title of an act comprises type of act, number of act, name of the
+            author of the act, date of adoption and subject matter. In the case of subdivisions, the title contains the
+            subject matter.
+        </skos:scopeNote>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">TI</skos:notation>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#CJ">TIT</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>CJ</dc:source>
+                <at:legacy-code>TIT</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>TI</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/LGD"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">förklaring</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">legend</skos:prefLabel>
+        <skos:definition xml:lang="en">text detailing the meaning of the elements of an image, a table or a scientific
+            formula it relates to
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>LGD</dc:identifier>
+        <atold:op-code>LGD</atold:op-code>
+        <at:op-code>LGD</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>LGD</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/RUL"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">regel</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">rule</skos:prefLabel>
+        <skos:definition xml:lang="en">The RULE element is used in some acts, such as in Commission Regulation (EC) No
+            2868/95 of 13 December 1995.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>RUL</dc:identifier>
+        <atold:op-code>RUL</atold:op-code>
+        <at:op-code>RUL</at:op-code>
+        <at:start.use>2015-03-18</at:start.use>
+        <at:authority-code>RUL</at:authority-code>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#CJ">R</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>CJ</dc:source>
+                <at:legacy-code>R</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/PAG"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">sida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">page</skos:prefLabel>
+        <skos:definition xml:lang="en">This element indicates a subdivision of the basic act of a consolidation,
+            specified by page number as given in the original publication in the Official Journal (OJ). The figure added
+            to the subdivision indicates the page number in the original publication of the basic act in the OJ.Example:
+            PG:40 indicates a position on page 40 in the original publication of the basic act in the OJ.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>PAG</dc:identifier>
+        <atold:op-code>PAG</atold:op-code>
+        <at:op-code>PAG</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>PAG</at:authority-code>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">PG</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>PG</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/PRT"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">part</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">del</skos:prefLabel>
+        <skos:definition xml:lang="en">subdivision of a legal document used to introduce a group of articles in the
+            enacting terms
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>PRT</dc:identifier>
+        <atold:op-code>PRT</atold:op-code>
+        <at:op-code>PRT</at:op-code>
+        <at:start.use>2015-03-18</at:start.use>
+        <at:authority-code>PRT</at:authority-code>
+        <skos:scopeNote xml:lang="en">In the hierarchy of subdivisions, part is above title.</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">Parts have distinctive signs of type uppercase Roman numbers I, II, III etc. or
+            numbers written by letters, Part One, Part Two, Part Three etc. which can also be referenced as first part,
+            second part, third part etc.
+        </skos:scopeNote>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#CJ">PART</skos:notation>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">PR</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>PR</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>CJ</dc:source>
+                <at:legacy-code>PART</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/TXO"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">gammal text</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">old text</skos:prefLabel>
+        <skos:definition xml:lang="en">This element is specific to the corrigendum type of document. It is a subdivision
+            of the correction and is used to mark up the original text that was published in a document and should be
+            modified by the corrigendum.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>TXO</dc:identifier>
+        <atold:op-code>TXO</atold:op-code>
+        <at:op-code>TXO</at:op-code>
+        <at:start.use>2004-05-01</at:start.use>
+        <at:authority-code>TXO</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/END"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">endnote</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">slutnot</skos:prefLabel>
+        <skos:definition xml:lang="en">reference included in a legal document which is specified in the end of a
+            subdivision of an act
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>END</dc:identifier>
+        <atold:op-code>END</atold:op-code>
+        <at:op-code>END</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>END</at:authority-code>
+        <skos:example xml:lang="en">Commission Regulation (EU) 2015/1005 of 25 June 2015</skos:example>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/PTI"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">point</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">led</skos:prefLabel>
+        <skos:definition xml:lang="en">structure component of a legal article that has a distinctive sign of the type
+            lowercase Roman numbers: (i), (ii), (iii) etc.
+        </skos:definition>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>PTI</dc:identifier>
+        <atold:op-code>PTI</atold:op-code>
+        <at:op-code>PTI</at:op-code>
+        <at:start.use>1952-12-30</at:start.use>
+        <at:authority-code>PTI</at:authority-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/PAR"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="sv">punkt</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">paragraph</skos:prefLabel>
+        <skos:definition xml:lang="en">The PAR element is used to mark up a subdivision of an article numbered using
+            Arab numerals within a European legal text. It is made up of at least one alinea or quoted text.
+        </skos:definition>
+        <skos:altLabel xml:lang="en">numbered paragraph</skos:altLabel>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>PAR</dc:identifier>
+        <atold:op-code>PAR</atold:op-code>
+        <at:op-code>PAR</at:op-code>
+        <at:start.use>2015-03-18</at:start.use>
+        <at:authority-code>PAR</at:authority-code>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#CJ">P</skos:notation>
+        <skos:notation rdf:datatype="http://publications.europa.eu/ontology/euvoc#FORMEX">PA</skos:notation>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>CJ</dc:source>
+                <at:legacy-code>P</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+        <at:op-mapped-code>
+            <at:MappedCode>
+                <dc:source>FORMEX</dc:source>
+                <at:legacy-code>PA</at:legacy-code>
+            </at:MappedCode>
+        </at:op-mapped-code>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/subdivision/OP_DATPRO"
+                  at:deprecated="false">
+        <skos:prefLabel xml:lang="en">Provisional data</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Tillfälliga uppgifter</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/subdivision"/>
+        <dc:identifier>OP_DATPRO</dc:identifier>
+        <atold:op-code>OP_DATPRO</atold:op-code>
+        <at:op-code>OP_DATPRO</at:op-code>
+        <at:start.use>1952-07-23</at:start.use>
+        <at:authority-code>OP_DATPRO</at:authority-code>
+    </skos:Concept>
+</rdf:RDF>

@@ -1,18 +1,15 @@
 package se.fk.sfbreader;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import org.apache.commons.cli.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import se.fk.sfbreader.model.Lag;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.PrintStream;
+import java.io.*;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -131,7 +128,9 @@ public class Application {
                 printer.process(lag, templates, directory, out);
 
                 //
-                System.out.println(gson.toJson(lag));
+                try (PrintWriter pw = new PrintWriter(Files.newBufferedWriter(inputFile.resolveSibling("output.json"), StandardCharsets.UTF_8))) {
+                    pw.write(gson.toJson(lag));
+                }
             }
         } catch (IOException e) {
             System.err.println("Can't read file: " + inputFile.getFileName() + ": " + e.getMessage());

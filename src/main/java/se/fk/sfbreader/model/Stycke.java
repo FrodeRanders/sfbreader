@@ -1,5 +1,6 @@
 package se.fk.sfbreader.model;
 
+import com.google.gson.annotations.SerializedName;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -7,16 +8,22 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public class Stycke implements Layer {
     private static final Logger log = LoggerFactory.getLogger(Stycke.class);
 
-    private static final String IS_ITEMIZED_RE = "^(-\\s|\\d+\\.\\s|[a-z]\\.\\s).+";
+    //String ROMAN_NUMERAL_RE_LOWER = "^m{0,3}(cm|cd|d?c{0,3})(xc|xl|l?x{0,3})(ix|iv|v?i{0,3})$";
+
+    // Cf. se.fk.sfbreader.LatexProcessor NEEDS_EXTRA_SPACING_RE
+    private static final String IS_ITEMIZED_RE = "^(?<id>(-(?=\\s)|\\d+(\\s?[a-z])?(?=\\.\\s)|[a-z](?=\\.\\s))).+";
+    private static final Pattern itemIdPattern = Pattern.compile(IS_ITEMIZED_RE);
 
     private final int nummer;
 
-    // Such as /Träder i kraft I:den dag som regeringen bestämmer/
+    // Such as "/Träder i kraft I:den dag som regeringen bestämmer/"
     private String periodisering = null;
 
     private final Collection<String> referens = new ArrayList<>();
@@ -24,17 +31,19 @@ public class Stycke implements Layer {
     private final Collection<String> text = new ArrayList<>();
 
     //@Expose(serialize = false, deserialize = false)
-    private transient boolean itemized;
+    private transient boolean isItemized;
 
     //@Expose(serialize = false, deserialize = false)
-    private transient final Collection<String> textOnHold = new ArrayList<>();
+    private transient final List<String> textOnHold = new ArrayList<>();
 
+    @SerializedName(value = "punkt")
+    private final List<Punkt> punkter = new ArrayList<>();
 
     private final static String[] T = {};
 
     private Stycke(int nummer) {
         this.nummer = nummer;
-        this.itemized = false;
+        this.isItemized = false;
     }
 
     public Stycke() {
@@ -88,16 +97,59 @@ public class Stycke implements Layer {
             ((List<String>)text).set(lastIndex, updated);
         } else {
             if (!s.isEmpty()) {
-                boolean adding_itemized = s.matches(IS_ITEMIZED_RE);
-                itemized |= adding_itemized;
+                final boolean alreadyItemized = isItemized; // since we mutate isItemized next
 
+                Matcher matcher = itemIdPattern.matcher(s);
+                final boolean adding_itemized = matcher.matches();
+                isItemized |= adding_itemized;
+
+                String id = "";
+                if (adding_itemized) {
+                    id = matcher.group("id");
+                }
+
+                /* Explanation of example from K5P9 SFB.
+
+                   [
+                       "Avdelning C Förmåner vid sjukdom eller arbetsskada",
+                       "6. sjukpenning i särskilda fall, (28 a kap.)",
+                       "7. rehabilitering, bidrag till arbetshjälpmedel, särskilt bidrag och rehabiliteringspenning i",
+                       "särskilda fall, (29-31 a kap.)",
+                       "8. sjukersättning och aktivitetsersättning i form av",
+                       "garantiersättning, (33 och 35-37 kap.)"
+                   ]
+
+                   In this example you see that punkt 7. and 8. is broken up, so we want to re-assemble them
+                   into correct items (Punkter).
+
+                   Also, we may actually run into text from the next part (Stycke), such
+                   as (building on this example) "Avdelning D Särskilda förmåner vid funktionshinder".
+                   In that case we can't add the text to this Stycke, so we will keep it "on hold"
+                   for the next Stycke.
+                */
+
+                // An item (Punkt) in this part (Stycke), such as "6. sjukpenning i särskilda fall, (28 a kap.)",
+                // or even "7. rehabilitering, bidrag till arbetshjälpmedel, särskilt bidrag och rehabiliteringspenning i".
+                if (adding_itemized) {
+                    punkter.add(new Punkt(punkter.size() + 1, id.trim(), s));
+                }
+
+                // In case we encounter (building on the example) "Avdelning D Särskilda förmåner vid funktionshinder"
+                // then we will keep the text on hold -- it may actually be part of next Stycke
                 Character c = s.charAt(0);
-
-                if (/* already contains itemized entries? */ itemized && !adding_itemized
+                if (/* already contains itemized entries? */ isItemized && !adding_itemized
                         && /* is letter? */ Character.isLetter(c)
                         && /* is uppercase (letter)? */ 0 == c.compareTo(Character.toUpperCase(c))) {
                     textOnHold.add(s);
                     return;
+                }
+
+                // Reassemble item (Punkt) if it was broken up item
+                if (alreadyItemized && !adding_itemized) {
+                    if (!punkter.isEmpty()) {
+                        Punkt lastPunkt = punkter.getLast();
+                        lastPunkt.add(s);
+                    }
                 }
             }
             text.add(s);

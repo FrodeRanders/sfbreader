@@ -19,7 +19,8 @@ import java.util.Optional;
 public class LatexProcessor {
     private static final Logger log = LoggerFactory.getLogger(LatexProcessor.class);
 
-    private static final String NEEDS_EXTRA_SPACING_RE = "^(-\\s|\\d+\\.\\s|[a-z]\\.\\s).+";
+    // Cf. se.fk.sfbreader.model.Stycke IS_ITEMIZED_RE
+    private static final String NEEDS_EXTRA_SPACING_RE = "^(-\\s|\\d+(\\s?[a-z])?\\.\\s|[a-z]\\.\\s).+";
 
     public void process(
             final Lag lag,

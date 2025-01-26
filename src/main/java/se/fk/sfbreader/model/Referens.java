@@ -1,8 +1,5 @@
 package se.fk.sfbreader.model;
 
-import java.util.ArrayList;
-import java.util.Collection;
-
 public class Referens implements Layer {
     private final String referens;
 

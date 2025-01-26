@@ -98,9 +98,9 @@ public class HtmlProcessor {
                     case "div", "p", "br", "pre", "b" -> {
                         log.trace("Ignoring {}", nodeName);
                     }
-                    default -> log.info("???? {}", node);
+                    default -> log.info("<????> {}", node);
                 }
-            } else if (node instanceof TextNode textNode)
+            } else if (node instanceof TextNode textNode) /* includes content of <pre> tags and such */
                 text(stack, textNode);
             else
                 log.debug("???? {}", node);
@@ -394,7 +394,7 @@ public class HtmlProcessor {
                         if (p instanceof Paragraf paragraf) {
                             paragraf.setPeriodisering(periodisering);
                         }
-                    } else if (stycke.isEmpty()) {
+                    } else if (stycke.isEmpty()) { /* First text in Stycke */
                         // Avoid "1 §"
                         Matcher paragrafMatcher = PARAGRAF_RE.matcher(text);
                         if (!paragrafMatcher.find()) {
