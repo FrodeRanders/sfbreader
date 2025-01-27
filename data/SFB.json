@@ -964,6 +964,40 @@
           "rubrik": "Diplomater m.fl."
         },
         {
+          "nummer": "5a",
+          "periodisering": "Träder i kraft I:den dag som regeringen bestämmer",
+          "stycke": [
+            {
+              "nummer": 1,
+              "referens": [],
+              "text": [
+                "Den som tillhör en främmande stats militära styrka eller ett Natohögkvarter, inklusive deras civila komponenter, och omfattas av 7, 8 eller 10 § lagen (1976:661) om immunitet och privilegier i vissa fall ska inte anses vara bosatt här i landet."
+              ],
+              "punkt": []
+            },
+            {
+              "nummer": 2,
+              "referens": [],
+              "text": [
+                "Första stycket gäller inte den som är anställd av en utländsk organisation och ingår i den civila komponenten av en sådan militär styrka som avses i 10 § lagen om immunitet och privilegier i vissa fall, om han eller hon är svensk medborgare."
+              ],
+              "punkt": []
+            },
+            {
+              "nummer": 3,
+              "referens": [
+                "Lag (2024:536)"
+              ],
+              "text": [
+                "Den som är anhörig till den som avses i första stycket eller är en sådan leverantör till styrkan som avses i 10 § lagen om immunitet och privilegier i vissa fall, ska anses vara bosatt i Sverige endast om han eller hon är svensk medborgare eller, utan att vara svensk medborgare, var bosatt här när han eller hon fick ställning som anhörig eller leverantör.",
+                "Lag (2024:536)."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Diplomater m.fl."
+        },
+        {
           "nummer": "6",
           "stycke": [
             {
@@ -1659,6 +1693,7 @@
         },
         {
           "nummer": "5",
+          "periodisering": "Upphör att gälla U:den dag som regeringen bestämmer",
           "stycke": [
             {
               "nummer": 1,
@@ -1673,6 +1708,40 @@
               "referens": [],
               "text": [
                 "Ett sådant arbete som medför att en person på grund av anknytning till en internationell organisation omfattas av bestämmelserna i 4 § lagen om immunitet och privilegier i vissa fall ska anses som arbete i Sverige endast i den mån det är förenligt med vad som följer av tillämplig stadga eller avtal som anges i bilagan till den lagen."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Diplomater m.fl."
+        },
+        {
+          "nummer": "5",
+          "periodisering": "Träder i kraft I:den dag som regeringen bestämmer",
+          "stycke": [
+            {
+              "nummer": 1,
+              "referens": [],
+              "text": [
+                "Arbete som utförs av en person som tillhör en annan stats beskickning eller karriärkonsulat ska anses som arbete i Sverige endast om det är förenligt med bestämmelserna om immunitet och privilegier i de konventioner som anges i 2 och 3 §§ lagen (1976:661) om immunitet och privilegier i vissa fall. Detta gäller även en sådan persons privattjänare."
+              ],
+              "punkt": []
+            },
+            {
+              "nummer": 2,
+              "referens": [],
+              "text": [
+                "Ett sådant arbete som medför att en person på grund av anknytning till en internationell organisation omfattas av bestämmelserna i 4 § lagen om immunitet och privilegier i vissa fall ska anses som arbete i Sverige endast i den mån det är förenligt med vad som följer av tillämplig stadga eller avtal som anges i bilagan till den lagen."
+              ],
+              "punkt": []
+            },
+            {
+              "nummer": 3,
+              "referens": [
+                "Lag (2024:536)"
+              ],
+              "text": [
+                "Arbete som utförs av en person som tillhör en amerikansk styrka, en anhörig till en sådan person eller en leverantör till styrkan ska anses som arbete i Sverige endast om det är förenligt med avtalet den 5 december 2023 mellan Sverige och Amerikas förenta stater om försvarssamarbete.",
+                "Lag (2024:536)."
               ],
               "punkt": []
             }
@@ -2071,6 +2140,7 @@
         },
         {
           "nummer": "20",
+          "periodisering": "Upphör att gälla U:2025-10-01",
           "stycke": [
             {
               "nummer": 1,
@@ -2097,6 +2167,61 @@
                   "nummer": 2,
                   "id": "2",
                   "text": "2. dagpenning från arbetslöshetskassa,"
+                },
+                {
+                  "nummer": 3,
+                  "id": "3",
+                  "text": "3. aktivitetsstöd till den som deltar i ett arbetsmarknadspolitiskt program,"
+                },
+                {
+                  "nummer": 4,
+                  "id": "4",
+                  "text": "4. ersättning till deltagare i teckenspråksutbildning för vissa föräldrar (TUFF),"
+                },
+                {
+                  "nummer": 5,
+                  "id": "5",
+                  "text": "5. dagpenning till totalförsvarspliktiga som tjänstgör enligt lagen (1994:1809) om totalförsvarsplikt och till andra som får dagpenning enligt de grunder som gäller för totalförsvarspliktiga, och"
+                },
+                {
+                  "nummer": 6,
+                  "id": "6",
+                  "text": "6. stipendium som enligt 11 kap. 46 § inkomstskattelagen (1999:1229) ska tas upp som intäkt i inkomstslaget tjänst."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Speciella försäkringssituationer"
+        },
+        {
+          "nummer": "20",
+          "periodisering": "Träder i kraft I:2025-10-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "referens": [
+                "Lag (2024:508)"
+              ],
+              "text": [
+                "Den som får någon av följande förmåner är försäkrad för inkomstrelaterad sjukersättning och inkomstrelaterad aktivitetsersättning enligt 6 § 5, inkomstgrundad ålderspension enligt 6 § 8 och inkomstrelaterad efterlevandeförmån enligt 6 § 9 och 11:",
+                "1. omvårdnadsbidrag enligt 5 kap. 9 § 5,",
+                "2. arbetslöshetsersättning enligt lagen (2024:506) om arbetslöshetsförsäkring,",
+                "3. aktivitetsstöd till den som deltar i ett arbetsmarknadspolitiskt program,",
+                "4. ersättning till deltagare i teckenspråksutbildning för vissa föräldrar (TUFF),",
+                "5. dagpenning till totalförsvarspliktiga som tjänstgör enligt lagen (1994:1809) om totalförsvarsplikt och till andra som får dagpenning enligt de grunder som gäller för totalförsvarspliktiga, och",
+                "6. stipendium som enligt 11 kap. 46 § inkomstskattelagen (1999:1229) ska tas upp som intäkt i inkomstslaget tjänst.",
+                "Lag (2024:508)."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. omvårdnadsbidrag enligt 5 kap. 9 § 5,"
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. arbetslöshetsersättning enligt lagen (2024:506) om arbetslöshetsförsäkring,"
                 },
                 {
                   "nummer": 3,
@@ -3093,7 +3218,6 @@
         },
         {
           "nummer": "4",
-          "periodisering": "Rubriken träder i kraft I:2024-07-01",
           "stycke": [
             {
               "nummer": 1,
@@ -3136,7 +3260,6 @@
         },
         {
           "nummer": "4a",
-          "periodisering": "Träder i kraft I:2024-07-01",
           "stycke": [
             {
               "nummer": 1,
@@ -3432,86 +3555,6 @@
       "paragraf": [
         {
           "nummer": "1",
-          "periodisering": "Upphör att gälla U:2024-07-01",
-          "stycke": [
-            {
-              "nummer": 1,
-              "referens": [
-                "Lag (2013:999)"
-              ],
-              "text": [
-                "I detta kapitel finns bestämmelser om",
-                "- rätten till föräldrapenning i 2-11 §§,",
-                "- förmånstiden i 12-13 §§,",
-                "- vem som får föräldrapenningen i 14-17 §§,",
-                "- ersättningsnivåer i 18-24 §§,",
-                "- beräkning av föräldrapenning på sjukpenningnivån i 25-31 §§,",
-                "- beräkning av antalet dagar med rätt till föräldrapenning i 32-34 §§,",
-                "- föräldrapenning för de första 180 dagarna i 35-38 §§,",
-                "- föräldrapenning efter 180 dagar i 39-41 §§,",
-                "- föräldrapenning för tid efter barnets fjärde levnadsår i 41 a-41 h §§, och",
-                "- föräldrapenning vid flerbarnsfödsel i 42-46 §§.",
-                "Lag (2013:999)."
-              ],
-              "punkt": [
-                {
-                  "nummer": 1,
-                  "id": "-",
-                  "text": "- rätten till föräldrapenning i 2-11 §§,"
-                },
-                {
-                  "nummer": 2,
-                  "id": "-",
-                  "text": "- förmånstiden i 12-13 §§,"
-                },
-                {
-                  "nummer": 3,
-                  "id": "-",
-                  "text": "- vem som får föräldrapenningen i 14-17 §§,"
-                },
-                {
-                  "nummer": 4,
-                  "id": "-",
-                  "text": "- ersättningsnivåer i 18-24 §§,"
-                },
-                {
-                  "nummer": 5,
-                  "id": "-",
-                  "text": "- beräkning av föräldrapenning på sjukpenningnivån i 25-31 §§,"
-                },
-                {
-                  "nummer": 6,
-                  "id": "-",
-                  "text": "- beräkning av antalet dagar med rätt till föräldrapenning i 32-34 §§,"
-                },
-                {
-                  "nummer": 7,
-                  "id": "-",
-                  "text": "- föräldrapenning för de första 180 dagarna i 35-38 §§,"
-                },
-                {
-                  "nummer": 8,
-                  "id": "-",
-                  "text": "- föräldrapenning efter 180 dagar i 39-41 §§,"
-                },
-                {
-                  "nummer": 9,
-                  "id": "-",
-                  "text": "- föräldrapenning för tid efter barnets fjärde levnadsår i 41 a-41 h §§, och"
-                },
-                {
-                  "nummer": 10,
-                  "id": "-",
-                  "text": "- föräldrapenning vid flerbarnsfödsel i 42-46 §§."
-                }
-              ]
-            }
-          ],
-          "rubrik": "Innehåll"
-        },
-        {
-          "nummer": "1",
-          "periodisering": "Träder i kraft I:2024-07-01",
           "stycke": [
             {
               "nummer": 1,
@@ -3646,33 +3689,6 @@
         },
         {
           "nummer": "4a",
-          "periodisering": "Upphör att gälla U:2024-07-01",
-          "stycke": [
-            {
-              "nummer": 1,
-              "referens": [],
-              "text": [
-                "Föräldrapenning får för samma barn och tid lämnas till båda föräldrarna samtidigt i högst 30 dagar under barnets första levnadsår, räknat från barnets födelse eller därmed likställd tidpunkt. Detta gäller endast dagar för vilka det inte för någon av föräldrarna finns hinder enligt 17 § andra stycket mot att avstå föräldrapenning till förmån för den andra föräldern."
-              ],
-              "punkt": []
-            },
-            {
-              "nummer": 2,
-              "referens": [
-                "Lag (2011:1082)"
-              ],
-              "text": [
-                "Bestämmelser om ansökan i fall som avses i första stycket finns i 110 kap. 5 a §.",
-                "Lag (2011:1082)."
-              ],
-              "punkt": []
-            }
-          ],
-          "rubrik": "Allmänna bestämmelser"
-        },
-        {
-          "nummer": "4a",
-          "periodisering": "Träder i kraft I:2024-07-01",
           "stycke": [
             {
               "nummer": 1,
@@ -4119,7 +4135,6 @@
         },
         {
           "nummer": "17",
-          "periodisering": "Rubriken träder i kraft I:2024-07-01",
           "stycke": [
             {
               "nummer": 1,
@@ -4166,7 +4181,6 @@
         },
         {
           "nummer": "17a",
-          "periodisering": "Träder i kraft I:2024-07-01",
           "stycke": [
             {
               "nummer": 1,
@@ -4200,7 +4214,6 @@
         },
         {
           "nummer": "17b",
-          "periodisering": "Rubriken träder i kraft I:2024-07-01",
           "stycke": [
             {
               "nummer": 1,
@@ -4218,7 +4231,6 @@
         },
         {
           "nummer": "17c",
-          "periodisering": "Träder i kraft I:2024-07-01",
           "stycke": [
             {
               "nummer": 1,
@@ -10758,6 +10770,7 @@
         },
         {
           "nummer": "7a",
+          "periodisering": "Upphör att gälla U:2025-10-01",
           "stycke": [
             {
               "nummer": 1,
@@ -10775,6 +10788,32 @@
               "text": [
                 "Om den försäkrade tidigare har bedrivit samma verksamhet i en sådan företagsform som avses i 9 § första stycket ska uppbyggnadsskedet räknas från den tidpunkt som följer av den paragrafen.",
                 "Lag (2018:670)."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Inkomst av anställning"
+        },
+        {
+          "nummer": "7a",
+          "periodisering": "Träder i kraft I:2025-10-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "referens": [],
+              "text": [
+                "För en försäkrad som har inkomst av anställning, bedriver näringsverksamhet i aktiebolagsform och som är företagare i den mening som avses i 2 kap. 6 och 7 §§ lagen (2024:506) om arbetslöshetsförsäkring ska, under en tid om 36 månader räknat från den månad då anmälan för registrering enligt 7 kap. 2 § skatteförfarandelagen (2011:1244) har gjorts eller borde ha gjorts (uppbyggnadsskedet), den sjukpenninggrundande inkomsten av anställningen i aktiebolaget beräknas till minst vad som motsvarar skälig avlöning för liknande arbete för annans räkning."
+              ],
+              "punkt": []
+            },
+            {
+              "nummer": 2,
+              "referens": [
+                "Lag (2024:508)"
+              ],
+              "text": [
+                "Om den försäkrade tidigare har bedrivit samma verksamhet i en sådan företagsform som avses i 9 § första stycket ska uppbyggnadsskedet räknas från den tidpunkt som följer av den paragrafen.",
+                "Lag (2024:508)."
               ],
               "punkt": []
             }
@@ -10988,6 +11027,7 @@
         },
         {
           "nummer": "15",
+          "periodisering": "Rubriken träder i kraft I:den dag som regeringen bestämmer",
           "stycke": [
             {
               "nummer": 1,
@@ -11002,6 +11042,24 @@
             }
           ],
           "rubrik": "Ersättning från handelsbolag till delägare, m.m."
+        },
+        {
+          "nummer": "15",
+          "periodisering": "Träder i kraft I:den dag som regeringen bestämmer",
+          "stycke": [
+            {
+              "nummer": 1,
+              "referens": [
+                "Lag (2024:536)"
+              ],
+              "text": [
+                "Som inkomst av annat förvärvsarbete räknas lön eller annan ersättning för arbete som den försäkrade får från en amerikansk styrka eller en utländsk organisation som driver en sådan militär serviceverksamhet som regleras i avtalet den 5 december 2023 mellan Sverige och Amerikas förenta stater om försvarssamarbete, om den försäkrade är en sådan lokal civilanställd som avses i artikel 24 i avtalet.",
+                "Lag (2024:536)."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Ersättning som lämnas av vissa militära serviceverksamheter"
         },
         {
           "nummer": "17",
@@ -27176,6 +27234,7 @@
         },
         {
           "nummer": "13",
+          "periodisering": "Upphör att gälla U:2025-10-01",
           "stycke": [
             {
               "nummer": 1,
@@ -27239,6 +27298,103 @@
                   "nummer": 8,
                   "id": "8",
                   "text": "8. Dagpenning från arbetslöshetskassa."
+                },
+                {
+                  "nummer": 9,
+                  "id": "9",
+                  "text": "9. Aktivitetsstöd till den som deltar i ett arbetsmarknadspolitiskt program."
+                },
+                {
+                  "nummer": 10,
+                  "id": "10",
+                  "text": "10. Ersättning till deltagare i teckenspråksutbildning för vissa föräldrar (TUFF)."
+                },
+                {
+                  "nummer": 11,
+                  "id": "11",
+                  "text": "11. Dagpenning till totalförsvarspliktiga som tjänstgör enligt lagen (1994:1809) om totalförsvarsplikt och till andra som får dagpenning enligt de grunder som gäller för totalförsvarspliktiga."
+                },
+                {
+                  "nummer": 12,
+                  "id": "12",
+                  "text": "12. Bidrag från Sveriges författarfond och Konstnärsnämnden i den utsträckning som regeringen föreskriver det."
+                },
+                {
+                  "nummer": 13,
+                  "id": "13",
+                  "text": "13. Omställningsstudiebidrag enligt lagen (2022:856) om omställningsstudiestöd."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Sociala förmåner"
+        },
+        {
+          "nummer": "13",
+          "periodisering": "Träder i kraft I:2025-10-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "referens": [
+                "Lag (2024:508)"
+              ],
+              "text": [
+                "Som inkomst av anställning räknas följande sociala förmåner:",
+                "1. Föräldrapenningsförmåner.",
+                "2. Omvårdnadsbidrag.",
+                "3. Ersättning från Försäkringskassan i form av sjuklönegaranti enligt 20 § lagen (1999:1047) om sjuklön.",
+                "4. Sjukpenning eller motsvarande ersättning enligt denna balk eller annan författning eller på grund av särskilt beslut av regeringen. Detta gäller i den utsträckning ersättningen har trätt i stället för en försäkrads inkomst som arbetstagare i allmän eller enskild tjänst.",
+                "5. Inkomstrelaterad sjukersättning och inkomstrelaterad aktivitets-ersättning.",
+                "6. Livränta på grund av arbetsskada eller annan skada som avses i 41-44 kap.",
+                "7. Närståendepenning.",
+                "8. Arbetslöshetsersättning enligt lagen (2024:506) om arbetslöshetsförsäkring.",
+                "9. Aktivitetsstöd till den som deltar i ett arbetsmarknadspolitiskt program.",
+                "10. Ersättning till deltagare i teckenspråksutbildning för vissa föräldrar (TUFF).",
+                "11. Dagpenning till totalförsvarspliktiga som tjänstgör enligt lagen (1994:1809) om totalförsvarsplikt och till andra som får dagpenning enligt de grunder som gäller för totalförsvarspliktiga.",
+                "12. Bidrag från Sveriges författarfond och Konstnärsnämnden i den utsträckning som regeringen föreskriver det.",
+                "13. Omställningsstudiebidrag enligt lagen (2022:856) om omställningsstudiestöd.",
+                "Lag (2024:508)."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. Föräldrapenningsförmåner."
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. Omvårdnadsbidrag."
+                },
+                {
+                  "nummer": 3,
+                  "id": "3",
+                  "text": "3. Ersättning från Försäkringskassan i form av sjuklönegaranti enligt 20 § lagen (1999:1047) om sjuklön."
+                },
+                {
+                  "nummer": 4,
+                  "id": "4",
+                  "text": "4. Sjukpenning eller motsvarande ersättning enligt denna balk eller annan författning eller på grund av särskilt beslut av regeringen. Detta gäller i den utsträckning ersättningen har trätt i stället för en försäkrads inkomst som arbetstagare i allmän eller enskild tjänst."
+                },
+                {
+                  "nummer": 5,
+                  "id": "5",
+                  "text": "5. Inkomstrelaterad sjukersättning och inkomstrelaterad aktivitets-ersättning."
+                },
+                {
+                  "nummer": 6,
+                  "id": "6",
+                  "text": "6. Livränta på grund av arbetsskada eller annan skada som avses i 41-44 kap."
+                },
+                {
+                  "nummer": 7,
+                  "id": "7",
+                  "text": "7. Närståendepenning."
+                },
+                {
+                  "nummer": 8,
+                  "id": "8",
+                  "text": "8. Arbetslöshetsersättning enligt lagen (2024:506) om arbetslöshetsförsäkring."
                 },
                 {
                   "nummer": 9,
@@ -27492,6 +27648,7 @@
         },
         {
           "nummer": "21",
+          "periodisering": "Rubriken träder i kraft I:den dag som regeringen bestämmer",
           "stycke": [
             {
               "nummer": 1,
@@ -27506,6 +27663,24 @@
             }
           ],
           "rubrik": "Ersättning från handelsbolag till delägare, m.m."
+        },
+        {
+          "nummer": "21",
+          "periodisering": "Träder i kraft I:den dag som regeringen bestämmer",
+          "stycke": [
+            {
+              "nummer": 1,
+              "referens": [
+                "Lag (2024:536)"
+              ],
+              "text": [
+                "Som inkomst av annat förvärvsarbete räknas lön eller annan ersättning för arbete som den försäkrade får från en amerikansk styrka eller en utländsk organisation som driver en sådan militär serviceverksamhet som regleras i avtalet den 5 december 2023 mellan Sverige och Amerikas förenta stater om försvarssamarbete, om den försäkrade är en sådan lokal civilanställd som avses i artikel 24 i avtalet.",
+                "Lag (2024:536)."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Ersättning som lämnas av vissa militära serviceverksamheter"
         },
         {
           "nummer": "22",
@@ -42039,7 +42214,7 @@
         },
         {
           "nummer": "4",
-          "periodisering": "Upphör att gälla U:2024-07-01",
+          "periodisering": "Upphör att gälla U:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -42065,7 +42240,7 @@
         },
         {
           "nummer": "4",
-          "periodisering": "Träder i kraft I:2024-07-01",
+          "periodisering": "Träder i kraft I:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -42233,7 +42408,7 @@
         },
         {
           "nummer": "2",
-          "periodisering": "Upphör att gälla U:2024-07-01",
+          "periodisering": "Upphör att gälla U:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -42290,7 +42465,7 @@
         },
         {
           "nummer": "2",
-          "periodisering": "Träder i kraft I:2024-07-01",
+          "periodisering": "Träder i kraft I:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -42355,7 +42530,7 @@
         },
         {
           "nummer": "4",
-          "periodisering": "Upphör att gälla U:2024-07-01",
+          "periodisering": "Upphör att gälla U:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -42381,7 +42556,7 @@
         },
         {
           "nummer": "4",
-          "periodisering": "Träder i kraft I:2024-07-01",
+          "periodisering": "Träder i kraft I:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -42497,7 +42672,7 @@
       "paragraf": [
         {
           "nummer": "1",
-          "periodisering": "Upphör att gälla U:2024-07-01",
+          "periodisering": "Upphör att gälla U:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -42542,7 +42717,7 @@
         },
         {
           "nummer": "1",
-          "periodisering": "Träder i kraft I:2024-07-01",
+          "periodisering": "Träder i kraft I:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -42938,7 +43113,7 @@
       "paragraf": [
         {
           "nummer": "1",
-          "periodisering": "Upphör att gälla U:2024-07-01",
+          "periodisering": "Upphör att gälla U:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -42987,7 +43162,7 @@
         },
         {
           "nummer": "1",
-          "periodisering": "Träder i kraft I:2024-07-01",
+          "periodisering": "Träder i kraft I:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -43481,7 +43656,7 @@
         },
         {
           "nummer": "15",
-          "periodisering": "Upphör att gälla U:2024-07-01",
+          "periodisering": "Upphör att gälla U:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -43507,7 +43682,7 @@
         },
         {
           "nummer": "15",
-          "periodisering": "Träder i kraft I:2024-07-01",
+          "periodisering": "Träder i kraft I:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -43983,7 +44158,7 @@
       "paragraf": [
         {
           "nummer": "1",
-          "periodisering": "Upphör att gälla U:2024-07-01",
+          "periodisering": "Upphör att gälla U:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -44032,7 +44207,7 @@
         },
         {
           "nummer": "1",
-          "periodisering": "Träder i kraft I:2024-07-01",
+          "periodisering": "Träder i kraft I:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -49129,7 +49304,7 @@
         },
         {
           "nummer": "6",
-          "periodisering": "Upphör att gälla U:2024-07-01",
+          "periodisering": "Upphör att gälla U:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -49225,7 +49400,7 @@
         },
         {
           "nummer": "6",
-          "periodisering": "Träder i kraft I:2024-07-01",
+          "periodisering": "Träder i kraft I:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -55356,14 +55531,14 @@
               "referens": [],
               "text": [
                 "2022:1042",
-                "1. Denna lag träder i kraft den 1 juli 2024. (Lag 2023:907).",
+                "1. Denna lag träder i kraft den 1 januari 2025. (Lag 2024:471).",
                 "2. Äldre bestämmelser gäller fortfarande för bostadsbidrag som avser tid före ikraftträdandet."
               ],
               "punkt": [
                 {
                   "nummer": 1,
                   "id": "1",
-                  "text": "1. Denna lag träder i kraft den 1 juli 2024. (Lag 2023:907)."
+                  "text": "1. Denna lag träder i kraft den 1 januari 2025. (Lag 2024:471)."
                 },
                 {
                   "nummer": 2,
@@ -55549,6 +55724,27 @@
                   "nummer": 2,
                   "id": "2",
                   "text": "2. Äldre föreskrifter gäller fortfarande för föräldrapenning som avser tid före ikraftträdandet."
+                }
+              ]
+            },
+            {
+              "nummer": 123,
+              "referens": [],
+              "text": [
+                "2024:508",
+                "1. Denna lag träder i kraft den 1 oktober 2025.",
+                "2. Äldre bestämmelser gäller fortfarande när en försäkrad får dagpenning enligt den upphävda lagen (1997:238) om arbetslöshetsförsäkring."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. Denna lag träder i kraft den 1 oktober 2025."
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. Äldre bestämmelser gäller fortfarande när en försäkrad får dagpenning enligt den upphävda lagen (1997:238) om arbetslöshetsförsäkring."
                 }
               ]
             }
