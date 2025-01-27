@@ -117,13 +117,16 @@ public class HtmlProcessor {
 
     private void ankare(Stack<Layer> stack, Element element) {
         Attribute clazz = element.attribute("class");
-        Attribute name = element.attribute("name");
+        Attribute id = element.attribute("id");
+        if (null == id || !id.hasDeclaredValue()) {
+            id = element.attribute("name");
+        }
 
         if (/* necessary */ null != clazz && "paragraf".equalsIgnoreCase(clazz.getValue())) {
             // --- paragraf ---
 
             // <a class="paragraf" name="K5P9"><b>9 §</b></a>
-            Matcher matcher = PARAGRAPH_ANCHOR_RE.matcher(name.getValue());
+            Matcher matcher = PARAGRAPH_ANCHOR_RE.matcher(id.getValue());
             if (matcher.find()) {
                 String chapter = matcher.group(1);
                 String paragraph = matcher.group(2);
@@ -134,7 +137,7 @@ public class HtmlProcessor {
             return;
         }
 
-        Matcher matcher = PART_ANCHOR_RE.matcher(name.getValue());
+        Matcher matcher = PART_ANCHOR_RE.matcher(id.getValue());
         if (matcher.find()) {
             // --- stycke ---
 
