@@ -610,7 +610,7 @@
     "paragraf_rubrik": "De bosättningsbaserade förmånerna",
     "paragraf": "9",
     "stycke": 2,
-    "text": "Avdelning B Familjeförmåner\n1. föräldrapenning på lägstanivå och grundnivå, (11 och 12 kap.)\n2. barnbidrag, (15 och 16 kap.)\n3. underhållsstöd, (17-19 kap.)\n4. adoptionsbidrag, (21 kap.)\n5. omvårdnadsbidrag (22 kap.)"
+    "text": "Avdelning B Familjeförmåner\n1. föräldrapenning på lägstanivå\noch grundnivå, (11 och 12 kap.)\n2. barnbidrag, (15 och 16 kap.)\n3. underhållsstöd, (17-19 kap.)\n4. adoptionsbidrag, (21 kap.)\n5. omvårdnadsbidrag (22 kap.)"
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -620,7 +620,7 @@
     "paragraf_rubrik": "De bosättningsbaserade förmånerna",
     "paragraf": "9",
     "stycke": 3,
-    "text": "Avdelning C Förmåner vid sjukdom eller arbetsskada\n6. sjukpenning i särskilda fall, (28 a kap.)\n7. rehabilitering, bidrag till arbetshjälpmedel, särskilt bidrag och rehabiliteringspenning i särskilda fall, (29-31 a kap.)\n8. sjukersättning och aktivitetsersättning i form av\ngarantiersättning, (33 och 35-37 kap.)"
+    "text": "Avdelning C Förmåner vid sjukdom eller arbetsskada\n6. sjukpenning i särskilda fall, (28 a kap.)\n7. rehabilitering, bidrag till arbetshjälpmedel, särskilt bidrag och rehabiliteringspenning i\nsärskilda fall, (29-31 a kap.)\n8. sjukersättning och aktivitetsersättning i form av\ngarantiersättning, (33 och 35-37 kap.)"
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -1021,7 +1021,7 @@
     "paragraf_rubrik": "De arbetsbaserade förmånerna",
     "paragraf": "6",
     "stycke": 2,
-    "text": "Avdelning B Familjeförmåner\n1. graviditetspenning, (10 kap.)\n2. föräldrapenning på grundnivå eller sjukpenningnivå och tillfällig föräldrapenning, (11-13 kap.)"
+    "text": "Avdelning B Familjeförmåner\n1. graviditetspenning, (10 kap.)\n2. föräldrapenning på grundnivå eller sjukpenningnivå och\ntillfällig föräldrapenning, (11-13 kap.)"
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -1031,7 +1031,7 @@
     "paragraf_rubrik": "De arbetsbaserade förmånerna",
     "paragraf": "6",
     "stycke": 3,
-    "text": "Avdelning C Förmåner vid sjukdom eller arbetsskada\n3. sjukpenning, (24-28 kap.)\n4. rehabilitering, rehabiliteringsersättning och bidrag till arbetshjälpmedel, (29-31 kap.)\n5. inkomstrelaterad sjukersättning och inkomstrelaterad aktivitetsersättning, (33, 34, 36 och 37 kap.)\n6. arbetsskadeersättning, (39-42 kap.)\n7. närståendepenning, (47 kap.)"
+    "text": "Avdelning C Förmåner vid sjukdom eller arbetsskada\n3. sjukpenning, (24-28 kap.)\n4. rehabilitering, rehabiliteringsersättning och\nbidrag till arbetshjälpmedel, (29-31 kap.)\n5. inkomstrelaterad sjukersättning och inkomstrelaterad\naktivitetsersättning, (33, 34, 36 och 37 kap.)\n6. arbetsskadeersättning, (39-42 kap.)\n7. närståendepenning, (47 kap.)"
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -1040,7 +1040,7 @@
     "kapitel": "6",
     "paragraf_rubrik": "De arbetsbaserade förmånerna",
     "paragraf": "6",
-    "stycke": 5,
+    "stycke": 4,
     "text": "Avdelning E Förmåner vid ålderdom\n8. inkomstgrundad ålderspension, (55-64 och 69-71 kap.)\n8 a. inkomstpensionstillägg, (74 a kap.)"
   },
   {
@@ -1050,8 +1050,8 @@
     "kapitel": "6",
     "paragraf_rubrik": "De arbetsbaserade förmånerna",
     "paragraf": "6",
-    "stycke": 6,
-    "text": "Avdelning F Förmåner till efterlevande\n9. inkomstrelaterad efterlevandepension, (77, 78, 80 och 82-85 kap.)\n10. efterlevandeförmåner från arbetsskadeförsäkringen, och (87 och 88 kap.)\n11. efterlevandeskydd i form av premiepension. (89-92 kap.)\nLag (2020:1239)."
+    "stycke": 5,
+    "text": "Avdelning F Förmåner till efterlevande\n9. inkomstrelaterad\nefterlevandepension, (77, 78, 80 och 82-85\nkap.)\n10. efterlevandeförmåner från\narbetsskadeförsäkringen, och (87 och 88 kap.)\n11. efterlevandeskydd i form av\npremiepension. (89-92 kap.)\nLag (2020:1239)."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
