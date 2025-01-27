@@ -1,6 +1,6 @@
 
 import json
-import re
+# import re
 
 file_path = "../data/SFB.json"
 
@@ -43,7 +43,7 @@ def extract_texts(data):
                     if isinstance(stycke, dict):
                         stycke_context = current_context.copy()
                         stycke_context["stycke"] = stycke["nummer"]
-                        concatenated_text = " ".join(stycke["text"])
+                        concatenated_text = "\n".join(stycke["text"])
                         texts.append({"context": stycke_context, "text": concatenated_text})
             for key, value in obj.items():
                 traverse(value, current_context)
@@ -57,23 +57,46 @@ def extract_texts(data):
 # Extract the texts with contextual information
 texts_with_context = extract_texts(data)
 
-
-for item in texts_with_context:
+def assemble_stycke(item):
     context = item["context"]
-    text = item["text"]
-    kapitel_periodisering = context.get('kapitel_periodisering')
-    kapitel_info = f"Kapitel: {context.get('kapitel')}"
-    if kapitel_periodisering:
-        kapitel_info += f" ({kapitel_periodisering})"
+    avdelning = f"{context.get('avdelning_id')} {context.get('avdelning_namn')}"
+    underavdelning = f"{context.get('underavdelning_id')} {context.get('underavdelning_namn')}"
 
-    paragraf_periodisering = context.get('paragraf_periodisering')
-    paragraf_info = f"Paragraf: {context.get('paragraf')}"
-    if paragraf_periodisering:
-        paragraf_info += f" ({paragraf_periodisering})"
+    dict = {
+        "lag": "Socialförsäkringsbalk (2010:110)",
+        "avdelning": avdelning,
+        "underavdelning": underavdelning,
+        "kapitel": context.get('kapitel')
+    }
+
+    kapitel_periodisering = context.get('kapitel_periodisering')
+    if kapitel_periodisering:
+        dict["kapitel_periodisering"] = kapitel_periodisering
+
     rubrik = context.get('rubrik')
     if rubrik:
-        paragraf_info += f", Rubrik: {rubrik}"
+        dict["paragraf_rubrik"] = rubrik
 
-    print(f"{kapitel_info}, Avdelning: {context.get('avdelning_id')} {context.get('avdelning_namn')}, Underavdelning: {context.get('underavdelning_id')} {context.get('underavdelning_namn')}, {paragraf_info}, Stycke: {context.get('stycke')}")
-    print(f"Text: {text}")
-    print("="*80)
+    dict["paragraf"] = context.get('paragraf')
+
+    paragraf_periodisering = context.get('paragraf_periodisering')
+    if paragraf_periodisering:
+        dict["paragraf_periodisering"] = paragraf_periodisering
+
+    dict["stycke"] = context.get('stycke')
+    dict["text"] = item["text"]
+
+    return dict
+
+with open("sfb-flat.json", "w", encoding="utf-8") as file:
+    file.write('[\n')
+    post_count = 0
+    for item in texts_with_context:
+        if post_count > 0:
+            file.write(",\n")
+
+        file.write(json.dumps(assemble_stycke(item), ensure_ascii=False))
+        post_count += 1
+
+    file.write("]")
+
