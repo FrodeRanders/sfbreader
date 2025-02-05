@@ -18,6 +18,7 @@ public class Paragraf implements Layer {
     private final Collection<Stycke> stycken = new ArrayList<>();
 
     private String rubrik = null;
+    private String underrubrik = null;
 
     public Paragraf(String nummer) {
         this.nummer = nummer.trim();
@@ -39,12 +40,27 @@ public class Paragraf implements Layer {
         return Optional.ofNullable(periodisering);
     }
 
-    public void setAktuellParagrafrubrik(Paragrafrubrik aktuellParagrafRubrik) {
-        Objects.requireNonNull(aktuellParagrafRubrik, "aktuellParagrafRubrik");
+    public void setParagrafrubriker(List<Paragrafrubrik> paragrafrubriker) {
+        Objects.requireNonNull(paragrafrubriker, "paragrafrubriker");
+        assert paragrafrubriker.size() <= 2;
 
-        log.trace("Paragraf {}#rubrik <-- {}", nummer, aktuellParagrafRubrik);
+        if (!paragrafrubriker.isEmpty()) {
+            if (paragrafrubriker.size() == 1) {
+                log.trace("Paragraf {} # rubrik <-- {}", nummer, paragrafrubriker.getFirst().namn());
+            }
+            else {
+                log.trace("Paragraf {} # rubrik <-- {} / {}", nummer, paragrafrubriker.getFirst().namn(), paragrafrubriker.getLast().namn());
+            }
+        }
 
-        rubrik = aktuellParagrafRubrik.namn();
+        // TODO Rework
+        int antalRubriker = paragrafrubriker.size();
+        if (antalRubriker-- > 0) {
+            rubrik = paragrafrubriker.getFirst().namn();
+        }
+        if (antalRubriker > 0) {
+            underrubrik = paragrafrubriker.getLast().namn();
+        }
     }
 
     public boolean isEmpty() {
@@ -78,6 +94,9 @@ public class Paragraf implements Layer {
         buf.append("nummer=").append(nummer);
         if (null != rubrik && !rubrik.isEmpty()) {
             buf.append(" rubrik=\"").append(rubrik).append("\"");
+        }
+        if (null != underrubrik && !underrubrik.isEmpty()) {
+            buf.append(" underrubrik=\"").append(underrubrik).append("\"");
         }
         buf.append("}");
         return buf.toString();

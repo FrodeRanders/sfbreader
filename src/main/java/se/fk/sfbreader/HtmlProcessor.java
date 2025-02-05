@@ -298,7 +298,7 @@ public class HtmlProcessor {
                 do {
                     Layer layer = stack.peek();
                     switch (layer.type()) {
-                        case "Stycke", "Paragraf" -> popLayer("sektion", stack);
+                        case "Stycke", "Paragraf", "Paragrafrubrik" -> popLayer("sektion", stack);
                         default /* "Kapitel", ["Underavdelning",] "Avdelning", "Lag" */ -> {
                             log.debug("[sektion] Keeping: {}", layer);
                             stop = true;
@@ -372,7 +372,7 @@ public class HtmlProcessor {
             Layer current = stack.peek();
             switch (current.type()) {
                 case "Referens" -> {
-                    Referens referens = (Referens) popLayer("text#referen", stack);
+                    Referens referens = (Referens) popLayer("text#referens", stack);
 
                     if (stack.peek() instanceof Stycke stycke) {
                         stycke.add(referens);
@@ -434,8 +434,14 @@ public class HtmlProcessor {
                         pushLayer("text#paragraf", stack, nyttStycke);
                     }
                 }
-                case "Underavdelning", "Kapitelrubrik", "Paragrafrubrik" -> {
-                    popLayer("text#sektion", stack);
+                case "Underavdelning" -> {
+                    popLayer("text#sektion( Underavdelning )", stack);
+                }
+                case "Kapitelrubrik" -> {
+                    popLayer("text#sektion( Kapitelrubrik )", stack);
+                }
+                case "Paragrafrubrik" -> {
+                    popLayer("text#sektion( Paragrafrubrik )", stack); // TODO
                 }
                 case "Kapitel"-> {
                     Matcher periodiseringMatcher = PERIODISERING_RE.matcher(text);

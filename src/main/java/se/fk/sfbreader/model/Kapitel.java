@@ -4,10 +4,7 @@ import com.google.gson.annotations.SerializedName;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Objects;
-import java.util.Optional;
+import java.util.*;
 
 public class Kapitel implements Layer {
     private static final Logger log = LoggerFactory.getLogger(Kapitel.class);
@@ -30,7 +27,8 @@ public class Kapitel implements Layer {
     @SerializedName(value = "rubrik")
     private String aktuellKapitelrubrik = null;
 
-    private transient Paragrafrubrik aktuellParagrafrubrik = null;
+    private transient List<Paragrafrubrik> paragrafrubriker = new ArrayList<>();
+    private transient boolean paragrafrubrikRecentlySet = false;
 
     public Kapitel(String nummer, String namn) {
         this.nummer = nummer;
@@ -47,6 +45,7 @@ public class Kapitel implements Layer {
 
     public void setPeriodisering(String periodisering) {
         this.periodisering = periodisering;
+        paragrafrubrikRecentlySet = false;
     }
 
     public Optional<String> getPeriodisering() {
@@ -56,39 +55,63 @@ public class Kapitel implements Layer {
     public void addParagraf(Paragraf p) {
         Objects.requireNonNull(p, "p");
 
-        if (null != aktuellParagrafrubrik) {
-            p.setAktuellParagrafrubrik(aktuellParagrafrubrik);
+        if (null != paragrafrubriker) {
+            p.setParagrafrubriker(paragrafrubriker);
         }
 
         paragrafer.add(p);
+        paragrafrubrikRecentlySet = false;
     }
 
     public void setAktuellAvdelning(Avdelning aktuellAvdelning) {
         Objects.requireNonNull(aktuellAvdelning, "aktuellAvdelning");
 
-        log.trace("Kapitel {}#avdelning <-- {}", nummer, aktuellAvdelning);
+        log.trace("Kapitel {} # avdelning <-- {}", nummer, aktuellAvdelning);
         this.aktuellAvdelning = aktuellAvdelning;
+
+        paragrafrubrikRecentlySet = false;
     }
 
     public void setAktuellUnderavdelning(Underavdelning aktuellUnderavdelning) {
         Objects.requireNonNull(aktuellUnderavdelning, "aktuellUnderavdelning");
 
-        log.trace("Kapitel {}#underavdelning <-- {}", nummer, aktuellUnderavdelning);
+        log.trace("Kapitel {} # underavdelning <-- {}", nummer, aktuellUnderavdelning);
         this.aktuellUnderavdelning = aktuellUnderavdelning;
+
+        paragrafrubrikRecentlySet = false;
     }
 
     public void setAktuellKapitelrubrik(Kapitelrubrik aktuellKapitelrubrik) {
         Objects.requireNonNull(aktuellKapitelrubrik, "aktuellKapitelrubrik");
 
-        log.trace("Kapitel {}#rubrik <-- {}", nummer, aktuellKapitelrubrik);
+        log.trace("Kapitel {} # rubrik <-- {}", nummer, aktuellKapitelrubrik);
         this.aktuellKapitelrubrik = aktuellKapitelrubrik.namn();
+
+        paragrafrubrikRecentlySet = false;
     }
 
     public void setAktuellParagrafrubrik(Paragrafrubrik aktuellParagrafrubrik) {
         Objects.requireNonNull(aktuellParagrafrubrik, "aktuellParagrafrubrik");
 
-        log.trace("Kapitel {}#paragrafrubrik <-- {}", nummer, aktuellParagrafrubrik);
-        this.aktuellParagrafrubrik = aktuellParagrafrubrik;
+        log.trace("Kapitel {} # paragrafrubrik <-- {} ({})", nummer, aktuellParagrafrubrik, paragrafrubriker.size());
+
+        if (paragrafrubrikRecentlySet) {
+            assert paragrafrubriker.size() == 1;
+        }
+        else if (paragrafrubriker.size() > 1) {
+            Paragrafrubrik r = paragrafrubriker.removeLast();
+            log.debug("Pop: aktuell paragrafrubrik {}, keeping {} ({})", r, paragrafrubriker.getLast(), paragrafrubriker.size());
+        }
+        else {
+            if (paragrafrubriker.size() == 1) {
+                log.debug("Clear: aktuell paragrafrubrik {} ({})", paragrafrubriker.getFirst(), paragrafrubriker.size());
+                paragrafrubriker.clear();
+            }
+        }
+        paragrafrubriker.add(aktuellParagrafrubrik);
+        log.debug("Now {} paragrafrubriker", paragrafrubriker.size());
+
+        paragrafrubrikRecentlySet = true;
     }
 
     public Collection<Paragraf> get() {
