@@ -29,6 +29,8 @@ def extract_texts(data):
                 current_context["underavdelning_namn"] = obj["underavdelning"].get("namn", "")
             if "rubrik" in obj:
                 current_context["rubrik"] = obj["rubrik"]
+            if "underrubrik" in obj:
+                current_context["underrubrik"] = obj["underrubrik"]
             if "periodisering" in obj:
                 # if "kapitel" in context:
                 #    current_context["paragraf_periodisering"] = obj["periodisering"]
@@ -76,6 +78,10 @@ def assemble_stycke(item):
     rubrik = context.get('rubrik')
     if rubrik:
         dict["paragraf_rubrik"] = rubrik
+
+    underrubrik = context.get('underrubrik')
+    if underrubrik:
+        dict["paragraf_underrubrik"] = underrubrik
 
     dict["paragraf"] = context.get('paragraf')
 
