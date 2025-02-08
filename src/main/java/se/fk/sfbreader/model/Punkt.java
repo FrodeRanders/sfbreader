@@ -1,6 +1,11 @@
 package se.fk.sfbreader.model;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class Punkt /* implements Layer  */ {
+    private static final Logger strukturLog = LoggerFactory.getLogger("STRUKTUR");
+
     private final int nummer;
     private final String id;
     private String text = "";
@@ -9,6 +14,8 @@ public class Punkt /* implements Layer  */ {
         this.nummer = nummer;
         this.id = id;
         this.text = text;
+
+        strukturLog.trace("Punkt: " + nummer + " (\"" + id + "\")");
     }
 
     public void add(String s) {

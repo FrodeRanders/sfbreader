@@ -88,17 +88,29 @@ public class HtmlProcessor {
 
         body.forEachNode(node -> {
             if (node instanceof Element element) {
+                Element parent = element.parent(); // parent may be null!
+
                 String nodeName = element.nodeName().toLowerCase();
                 switch (nodeName) {
-                    case "h2" -> avdelning(stack, element);
-                    case "h3" -> kapitel(stack, element);
-                    case "h4" -> sektion(stack, element);
-                    case "a" -> ankare(stack, element);
-                    case "i" -> referens(stack, element);
+                    case "h2" -> avdelning(stack, parent, element);
+                    case "h3" -> kapitel(stack, parent, element);
+                    case "h4" -> sektion(stack, parent, element);
+                    case "a" -> ankare(stack, parent, element);
+                    case "i" -> referens(stack, parent, element);
                     case "div", "p", "br", "pre", "b" -> {
-                        log.trace("Ignoring {}", nodeName);
+                        String es = element.text().trim();
+                        if (es.length() > 32) {
+                            es = es.substring(0, 32) + "...";
+                        }
+                        log.trace("Ignoring {}: {}", nodeName, es);
                     }
-                    default -> log.info("<????> {}", node);
+                    default -> {
+                        String es = element.text().trim();
+                        if (es.length() > 32) {
+                            es = es.substring(0, 32) + "...";
+                        }
+                        log.info("<????> {}: {}", node, es);
+                    }
                 }
             } else if (node instanceof TextNode textNode) /* includes content of <pre> tags and such */
                 text(stack, textNode);
@@ -115,15 +127,16 @@ public class HtmlProcessor {
         return Optional.ofNullable((Lag) top);
     }
 
-    private void ankare(Stack<Layer> stack, Element element) {
+    private void ankare(Stack<Layer> stack, Element parent, Element element) {
         Attribute clazz = element.attribute("class");
-        Attribute id = element.attribute("id");
-        if (null == id || !id.hasDeclaredValue()) {
+        Attribute id = element.attribute("id"); // id may indeed be null!
+        if (/* necessary */ null == id || !id.hasDeclaredValue()) {
             id = element.attribute("name");
         }
 
         if (/* necessary */ null != clazz && "paragraf".equalsIgnoreCase(clazz.getValue())) {
             // --- paragraf ---
+            assert "div".equals(parent.nodeName());
 
             // <a class="paragraf" name="K5P9"><b>9 §</b></a>
             Matcher matcher = PARAGRAPH_ANCHOR_RE.matcher(id.getValue());
@@ -132,7 +145,7 @@ public class HtmlProcessor {
                 String paragraph = matcher.group(2);
 
                 log.debug("[ankare] Kapitel {}, paragraf {}", chapter, paragraph);
-                paragraf(stack, element, paragraph);
+                paragraf(stack, parent, element, paragraph);
             }
             return;
         }
@@ -140,6 +153,7 @@ public class HtmlProcessor {
         Matcher matcher = PART_ANCHOR_RE.matcher(id.getValue());
         if (matcher.find()) {
             // --- stycke ---
+            assert "p".equals(parent.nodeName());
 
             // <a name="K5P8S3"></a>
             String chapter = matcher.group(1);
@@ -182,8 +196,9 @@ public class HtmlProcessor {
         }
     }
 
-    private void avdelning(Stack<Layer> stack, Element element) {
+    private void avdelning(Stack<Layer> stack, Element parent, Element element) {
         log.trace("[avdelning] >> {}", element);
+        assert "div".equals(parent.nodeName());
 
         Matcher matcher = AVDELNING_RE.matcher(element.text());
         if (matcher.find()) {
@@ -221,8 +236,11 @@ public class HtmlProcessor {
         }
     }
 
-    private void kapitel(Stack<Layer> stack, Element element) {
+    private void kapitel(Stack<Layer> stack, Element parent, Element element) {
         log.trace("[kapitel] >> {}", element);
+        Element firstChild = element.children().first();
+        assert "a".equals(firstChild.nodeName());
+
         Matcher matcher = KAPITEL_RE.matcher(element.text());
         if (matcher.find()) {
             String chapter = matcher.group(1);
@@ -255,8 +273,11 @@ public class HtmlProcessor {
         }
     }
 
-    private void sektion(Stack<Layer> stack, Element element) {
+    private void sektion(Stack<Layer> stack, Element parent, Element element) {
         log.trace("[sektion] >> {}", element.text());
+        Element firstChild = element.children().first();
+        assert "a".equals(firstChild.nodeName());
+
         log.trace("--- current stack ---------------------------------------------");
         stack.forEach(l -> log.trace("{}", l));
         log.trace("---------------------------------------------------------------");
@@ -329,8 +350,9 @@ public class HtmlProcessor {
         }
     }
 
-    private void paragraf(Stack<Layer> stack, Element element, String paragraph) {
+    private void paragraf(Stack<Layer> stack, Element parent, Element element, String paragraph) {
         log.trace("[paragraf] >> {}", element);
+        assert "div".equals(parent.nodeName());
 
         //
         boolean stop = stack.empty();
@@ -361,6 +383,24 @@ public class HtmlProcessor {
             paragraf.add(nyttStycke);
 
             pushLayer("paragraf", stack, nyttStycke);
+        }
+    }
+
+    private void referens(Stack<Layer> stack, Element parent, Element element) {
+        log.trace("[referens || direktiv] >> {}", element);
+        String text = element.text();
+        if (!stack.isEmpty()) {
+            if (text.startsWith("/")) {
+                if (stack.peek() instanceof Paragraf) {
+                    Direktiv direktiv = new Direktiv(text);
+                    pushLayer("direktiv#paragraf", stack, direktiv);
+                }
+            } else {
+                if (stack.peek() instanceof Stycke) {
+                    Referens referens = new Referens(text);
+                    pushLayer("referens#stycke", stack, referens);
+                }
+            }
         }
     }
 
@@ -463,24 +503,6 @@ public class HtmlProcessor {
                         log.warn("[text#periodisering] <<<OBS>>> {}", periodisering);
                     }
                     log.debug("[text] (superfluous) ignored at {}", current);
-                }
-            }
-        }
-    }
-
-    private void referens(Stack<Layer> stack, Element element) {
-        log.trace("[referens || direktiv] >> {}", element);
-        String text = element.text();
-        if (!stack.isEmpty()) {
-            if (text.startsWith("/")) {
-                if (stack.peek() instanceof Paragraf) {
-                    Direktiv direktiv = new Direktiv(text);
-                    pushLayer("direktiv#paragraf", stack, direktiv);
-                }
-            } else {
-                if (stack.peek() instanceof Stycke) {
-                    Referens referens = new Referens(text);
-                    pushLayer("referens#stycke", stack, referens);
                 }
             }
         }

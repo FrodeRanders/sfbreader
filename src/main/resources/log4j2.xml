@@ -19,12 +19,29 @@
             </Policies>
             <DefaultRolloverStrategy max="50"/>
         </RollingFile>
+
+        <RollingFile name="STRUKTUR"
+                     fileName="${log-path}/struktur.log"
+                     filePattern="${log-path}/struktur-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout> <!-- %c{1} -->
+                <!--<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] [%t] %c %m%n</pattern>-->
+                <pattern>%m%n</pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="50"/>
+        </RollingFile>
     </Appenders>
 
     <Loggers>
         <Logger name="se.fk" level="TRACE" />
         <Logger name="org.antlr" level="WARN" />
         <Logger name="org.apache" level="WARN" />
+
+        <logger name="STRUKTUR" level="INFO">
+            <appender-ref ref="STRUKTUR"/>
+        </logger>
 
         <Root level="DEBUG">
             <appender-ref ref="INTERNAL"/>

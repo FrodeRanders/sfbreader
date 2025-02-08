@@ -14,6 +14,7 @@ import java.util.stream.Collectors;
 
 public class Stycke implements Layer {
     private static final Logger log = LoggerFactory.getLogger(Stycke.class);
+    private static final Logger strukturLog = LoggerFactory.getLogger("STRUKTUR");
 
     //String ROMAN_NUMERAL_RE_LOWER = "^m{0,3}(cm|cd|d?c{0,3})(xc|xl|l?x{0,3})(ix|iv|v?i{0,3})$";
 
@@ -44,6 +45,8 @@ public class Stycke implements Layer {
     private Stycke(int nummer) {
         this.nummer = nummer;
         this.isItemized = false;
+
+        strukturLog.debug("Stycke: {}", nummer);
     }
 
     public Stycke() {

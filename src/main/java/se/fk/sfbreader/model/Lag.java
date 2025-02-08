@@ -1,6 +1,8 @@
 package se.fk.sfbreader.model;
 
 import com.google.gson.annotations.SerializedName;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -8,6 +10,7 @@ import java.util.Objects;
 
 // Exempel: Socialförsäkringsbalk (2010:110)
 public class Lag implements Layer {
+    private static final Logger strukturLog = LoggerFactory.getLogger("STRUKTUR");
     private final String namn;
 
     private final String id;
@@ -22,6 +25,8 @@ public class Lag implements Layer {
     public Lag(String namn, String id) {
         this.namn = namn;
         this.id = id;
+
+        strukturLog.info("Lag: " + namn + " (" + id + ")");
     }
 
     public String namn() {

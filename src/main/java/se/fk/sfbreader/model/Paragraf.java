@@ -28,6 +28,17 @@ public class Paragraf implements Layer {
         return nummer;
     }
 
+    public String rubriker() {
+        StringBuilder buf = new StringBuilder();
+        if (null != rubrik && !rubrik.isEmpty()) {
+            buf.append("rubrik=\"").append(rubrik).append("\"");
+        }
+        if (null != underrubrik && !underrubrik.isEmpty()) {
+            buf.append(" underrubrik=\"").append(underrubrik).append("\"");
+        }
+        return buf.toString();
+    }
+
     public void add(Stycke s) {
         stycken.add(s);
     }

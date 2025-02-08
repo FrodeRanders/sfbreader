@@ -31,6 +31,10 @@ public class Application {
             System.setProperty("file.encoding", "UTF-8");
         }
 
+        // Enable assertions
+        ClassLoader loader = ClassLoader.getSystemClassLoader();
+        loader.setDefaultAssertionStatus(true);
+
         Options options = new Options();
         options.addOption(Option.builder("t")
                 .required(true)
@@ -111,6 +115,7 @@ public class Application {
             //
             process(inputFile, templates, directory.toPath(), System.out);
         } catch (Throwable t) {
+            log.error(t.getMessage(), t);
             t.printStackTrace(System.err);
         }
     }

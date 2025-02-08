@@ -8,6 +8,7 @@ import java.util.*;
 
 public class Kapitel implements Layer {
     private static final Logger log = LoggerFactory.getLogger(Kapitel.class);
+    private static final Logger strukturLog = LoggerFactory.getLogger("STRUKTUR");
 
     private final String nummer;
     private final String namn;
@@ -33,6 +34,7 @@ public class Kapitel implements Layer {
     public Kapitel(String nummer, String namn) {
         this.nummer = nummer;
         this.namn = namn;
+        strukturLog.info("Kapitel: " + nummer + " " + namn);
     }
 
     public String id() {
@@ -61,6 +63,8 @@ public class Kapitel implements Layer {
 
         paragrafer.add(p);
         paragrafrubrikRecentlySet = false;
+
+        strukturLog.info("Paragraf: {} {}", p.nummer(), p.rubriker()); // logging here instead of in Paragraf ctor
     }
 
     public void setAktuellAvdelning(Avdelning aktuellAvdelning) {
@@ -93,23 +97,70 @@ public class Kapitel implements Layer {
     public void setAktuellParagrafrubrik(Paragrafrubrik aktuellParagrafrubrik) {
         Objects.requireNonNull(aktuellParagrafrubrik, "aktuellParagrafrubrik");
 
-        log.trace("Kapitel {} # paragrafrubrik <-- {} ({})", nummer, aktuellParagrafrubrik, paragrafrubriker.size());
+        strukturLog.trace("Kapitel {} # paragrafrubrik <-- {} ({})", nummer, aktuellParagrafrubrik, paragrafrubriker.size());
 
         if (paragrafrubrikRecentlySet) {
-            assert paragrafrubriker.size() == 1;
+            if (paragrafrubriker.size() > 1) {
+                // Vi hade redan en huvud- och underrubrik (i paragrafrubriker) och stötte nyss
+                // på en ny huvudrubrik (i och med att vi nu sett den efterföljande underrubriken)
+                Paragrafrubrik nyHuvudrubrik = paragrafrubriker.removeLast();
+                paragrafrubriker.clear();
+                paragrafrubriker.add(nyHuvudrubrik);
+            } else {
+                assert paragrafrubriker.size() == 1 : "antal befintliga paragrafrubriker != 1";
+            }
         }
         else if (paragrafrubriker.size() > 1) {
+            // Här har vi ett problem!!!
+            // Det finns inga indikationer i HTML-versionen av lagtexten som hjälper oss avgöra om denna
+            // rubrik är en ny huvudrubrik (och alltså ersätter befintliga rubriker) eller en ny underrubrik.
+            // Just nu antar vi att man fortsätter med huvud- och underrubriker ut kapitlet om man väl börjat,
+            // fast vi vet att så inte är fallet!
+            // Se 9 kap 8 § där "Särskilda personkategorier"/"Familjemedlemmar" plötsligt övergår till
+            // "De bosättningsbaserade förmånerna"
+            //
+            // Förmodligen är ända sättet att hantera detta på ett tillförlitligt sätt, att tillhandahålla
+            // information om samtliga förekomster av denna art genom hela lagtexten :(
+            /*
+            # Huvudrubrik: Särskilda personkategorier
+            <p><a name="K5P3S3"></a></p>
+            <h4 name="Särskilda personkategorier"><a name="Särskilda personkategorier">Särskilda personkategorier</a></h4>
+
+            # Underrubrik: Statsanställda
+            <p><a name="K5P3S4"></a></p>
+            <h4 name="Statsanställda"><a name="Statsanställda">Statsanställda</a></h4>
+
+            # Ny underrubrik: Diplomater m.fl.
+            <p><a name="K5P4S3"></a></p>
+            <h4 name="Diplomater m.fl."><a name="Diplomater m.fl.">Diplomater m.fl.</a></h4>
+
+            # Ny underrubrik: Biståndsarbetare m.fl.
+            <p><a name="K5P5S3"></a></p>
+            <h4 name="Biståndsarbetare m.fl."><a name="Biståndsarbetare m.fl.">Biståndsarbetare m.fl.</a></h4>
+
+            # Ny underrubrik: Utlandsstuderande m.fl.
+            <p><a name="K5P6S3"></a></p>
+            <h4 name="Utlandsstuderande m.fl."><a name="Utlandsstuderande m.fl.">Utlandsstuderande m.fl.</a></h4>
+
+            # Ny underrubrik: Familjemedlemmar
+            <p><a name="K5P7S3"></a></p>
+            <h4 name="Familjemedlemmar"><a name="Familjemedlemmar">Familjemedlemmar</a></h4>
+
+            # Ny huvudrubrik: De bosättningsbaserade förmånerna
+            <p><a name="K5P8S2"></a></p>
+            <h4 name="De bosättningsbaserade förmånerna"><a name="De bosättningsbaserade förmånerna">De bosättningsbaserade förmånerna</a></h4>
+            */
             Paragrafrubrik r = paragrafrubriker.removeLast();
-            log.debug("Pop: aktuell paragrafrubrik {}, keeping {} ({})", r, paragrafrubriker.getLast(), paragrafrubriker.size());
+            strukturLog.debug("Pop: aktuell paragrafrubrik {}, keeping {} ({})", r, paragrafrubriker.getLast(), paragrafrubriker.size());
         }
         else {
             if (paragrafrubriker.size() == 1) {
-                log.debug("Clear: aktuell paragrafrubrik {} ({})", paragrafrubriker.getFirst(), paragrafrubriker.size());
+                strukturLog.debug("Clear: aktuell paragrafrubrik {} ({})", paragrafrubriker.getFirst(), paragrafrubriker.size());
                 paragrafrubriker.clear();
             }
         }
         paragrafrubriker.add(aktuellParagrafrubrik);
-        log.debug("Now {} paragrafrubriker", paragrafrubriker.size());
+        strukturLog.debug("Now {} paragrafrubriker", paragrafrubriker.size());
 
         paragrafrubrikRecentlySet = true;
     }

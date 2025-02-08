@@ -9,6 +9,7 @@ import java.util.Optional;
 
 public class Avdelning extends Sektion implements Layer {
     private static final Logger log = LoggerFactory.getLogger(Avdelning.class);
+    private static final Logger strukturLog = LoggerFactory.getLogger("STRUKTUR");
 
     private String id;
     // name as part of Sektion
@@ -19,6 +20,8 @@ public class Avdelning extends Sektion implements Layer {
     public Avdelning(String id, String namn) {
         super(namn);
         this.id = id;
+
+        strukturLog.info("Avdelning: " + id + " " + namn);
     }
 
     public Optional<String> id() {
