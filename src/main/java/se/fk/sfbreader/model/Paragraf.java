@@ -29,6 +29,12 @@ public class Paragraf implements Layer {
     }
 
     public String rubriker() {
+        /*
+        if (null == underrubrik || underrubrik.isEmpty()) {
+            return "";
+        }
+        */
+
         StringBuilder buf = new StringBuilder();
         if (null != rubrik && !rubrik.isEmpty()) {
             buf.append("rubrik=\"").append(rubrik).append("\"");

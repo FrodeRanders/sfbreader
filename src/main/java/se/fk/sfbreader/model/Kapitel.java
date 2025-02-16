@@ -34,7 +34,7 @@ public class Kapitel implements Layer {
     public Kapitel(String nummer, String namn) {
         this.nummer = nummer;
         this.namn = namn;
-        strukturLog.info("Kapitel: " + nummer + " " + namn);
+        strukturLog.info(indent(4, "Kapitel: " + nummer + " " + namn));
     }
 
     public String id() {
@@ -64,7 +64,15 @@ public class Kapitel implements Layer {
         paragrafer.add(p);
         paragrafrubrikRecentlySet = false;
 
-        strukturLog.info("Paragraf: {} {}", p.nummer(), p.rubriker()); // logging here instead of in Paragraf ctor
+        strukturLog.info(
+                indent(5,
+                        String.format("K%sP%s", this.nummer, p.nummer()),
+                        String.format("<a href=\"%s\">Paragraf: %s</a> %s",
+                           String.format(" https://lagen.nu/2010:110#K%sP%s", this.nummer, p.nummer()),
+                           p.nummer(), p.rubriker()
+                        )
+                )
+        ); // logging here instead of in Paragraf ctor
     }
 
     public void setAktuellAvdelning(Avdelning aktuellAvdelning) {

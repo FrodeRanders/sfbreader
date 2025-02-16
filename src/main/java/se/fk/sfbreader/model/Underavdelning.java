@@ -13,7 +13,7 @@ public class Underavdelning extends Sektion implements Layer  {
         super(namn);
         this.id = id;
 
-        strukturLog.info("Underavdelning: " + id + " " + namn);
+        strukturLog.info(indent(3, "Underavdelning: " + id + " " + namn));
     }
 
     @Override

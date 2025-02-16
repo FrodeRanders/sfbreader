@@ -21,7 +21,7 @@ public class Avdelning extends Sektion implements Layer {
         super(namn);
         this.id = id;
 
-        strukturLog.info("Avdelning: " + id + " " + namn);
+        strukturLog.info(indent(2, "Avdelning: " + id + " " + namn));
     }
 
     public Optional<String> id() {

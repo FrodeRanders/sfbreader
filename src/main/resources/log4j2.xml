@@ -21,8 +21,8 @@
         </RollingFile>
 
         <RollingFile name="STRUKTUR"
-                     fileName="${log-path}/struktur.log"
-                     filePattern="${log-path}/struktur-%d{yyyy-MM-dd}-%i.log">
+                     fileName="${log-path}/struktur.html"
+                     filePattern="${log-path}/struktur-%d{yyyy-MM-dd}-%i.html">
             <PatternLayout> <!-- %c{1} -->
                 <!--<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] [%t] %c %m%n</pattern>-->
                 <pattern>%m%n</pattern>

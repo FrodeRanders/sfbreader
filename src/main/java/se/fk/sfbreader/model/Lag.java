@@ -26,7 +26,8 @@ public class Lag implements Layer {
         this.namn = namn;
         this.id = id;
 
-        strukturLog.info("Lag: " + namn + " (" + id + ")");
+        strukturLog.info("<html><meta charset=\"UTF-8\"><body>");
+        strukturLog.info("<h1>Lag: " + namn + " (" + id + ")</h1>");
     }
 
     public String namn() {

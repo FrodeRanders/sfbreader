@@ -178,6 +178,7 @@
               <directory>.</directory>
               <includes>
                 <include>**/*.log</include>
+                <include>struktur.html</include>
               </includes>
               <!--<excludes>
                 <exclude>**/another-important.log</exclude>

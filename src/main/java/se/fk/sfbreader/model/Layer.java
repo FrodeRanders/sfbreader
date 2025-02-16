@@ -16,6 +16,17 @@ package se.fk.sfbreader.model;
  *   7  (Punkt)
  */
 public interface Layer {
+    default String indent(int level, String text) {
+        return String.format("<h%d>%s%s</h%d>",
+                level, "&nbsp;".repeat(level-1), text, level
+        );
+    }
+
+    default String indent(int level, String ref, String text) {
+        return String.format("<h%d>%s%s&nbsp;%s</h%d>",
+                level, "&nbsp;".repeat(level-1), ref, text, level
+        );
+    }
 
     default String type() {
         return getClass().getSimpleName();
