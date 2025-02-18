@@ -456,8 +456,11 @@ public class HtmlProcessor {
                 case "Referens" -> {
                     Referens referens = (Referens) popLayer("text#referens", stack);
 
-                    if (stack.peek() instanceof Stycke stycke) {
-                        stycke.add(referens);
+                    List<Layer> reversedStack = stack.reversed();
+                    Layer nextToLast = reversedStack.get(1);
+
+                    if (nextToLast instanceof Paragraf paragraf) {
+                        paragraf.add(referens);
                     }
                 }
                 case "Direktiv" -> {

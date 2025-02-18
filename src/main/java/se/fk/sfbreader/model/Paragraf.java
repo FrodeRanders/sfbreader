@@ -5,6 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Paragraf implements Layer {
     private static final Logger log = LoggerFactory.getLogger(Paragraf.class);
@@ -19,6 +20,8 @@ public class Paragraf implements Layer {
 
     private String rubrik = null;
     private String underrubrik = null;
+
+    private final Collection<String> referens = new ArrayList<>();
 
     public Paragraf(String nummer) {
         this.nummer = nummer.trim();
@@ -47,6 +50,10 @@ public class Paragraf implements Layer {
 
     public void add(Stycke s) {
         stycken.add(s);
+    }
+
+    public void add(Referens r) {
+        referens.add(r.referens());
     }
 
     public void setPeriodisering(String periodisering) {
@@ -114,6 +121,9 @@ public class Paragraf implements Layer {
         }
         if (null != underrubrik && !underrubrik.isEmpty()) {
             buf.append(" underrubrik=\"").append(underrubrik).append("\"");
+        }
+        for (String ref : referens) {
+            buf.append(" referens=\"").append(ref).append("\"");
         }
         buf.append("}");
         return buf.toString();

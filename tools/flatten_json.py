@@ -31,6 +31,10 @@ def extract_texts(data):
                 current_context["rubrik"] = obj["rubrik"]
             if "underrubrik" in obj:
                 current_context["underrubrik"] = obj["underrubrik"]
+            if "referens" in obj:
+                referens = obj["referens"]
+                if referens:
+                    current_context["referens"] = referens[0]
             if "periodisering" in obj:
                 # if "kapitel" in context:
                 #    current_context["paragraf_periodisering"] = obj["periodisering"]
@@ -47,6 +51,7 @@ def extract_texts(data):
                         stycke_context["stycke"] = stycke["nummer"]
                         concatenated_text = "\n".join(stycke["text"])
                         texts.append({"context": stycke_context, "text": concatenated_text})
+
             for key, value in obj.items():
                 traverse(value, current_context)
         elif isinstance(obj, list):
@@ -88,6 +93,10 @@ def assemble_stycke(item):
     paragraf_periodisering = context.get('paragraf_periodisering')
     if paragraf_periodisering:
         dict["paragraf_periodisering"] = paragraf_periodisering
+
+    referens = context.get('referens')
+    if referens:
+        dict["referens"] = referens
 
     dict["stycke"] = context.get('stycke')
     dict["text"] = item["text"]
