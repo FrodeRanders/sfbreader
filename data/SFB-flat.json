@@ -483,8 +483,9 @@
     "kapitel": "5",
     "paragraf_rubrik": "Bosättning i Sverige",
     "paragraf": "3",
+    "referens": "Lag (2024:694)",
     "stycke": 1,
-    "text": "Den som kommer till Sverige och kan antas komma att vistas här under längre tid än ett år ska anses vara bosatt här i landet. Detta gäller dock inte om synnerliga skäl talar mot det. En utlänning som enligt 4 § andra stycket folkbokföringslagen (1991:481) inte ska folkbokföras ska inte heller anses vara bosatt här."
+    "text": "Den som kommer till Sverige och kan antas komma att vistas här under längre tid än ett år ska anses vara bosatt här i landet. Detta gäller dock inte om synnerliga skäl talar mot det."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -493,7 +494,19 @@
     "kapitel": "5",
     "paragraf_rubrik": "Bosättning i Sverige",
     "paragraf": "3",
+    "referens": "Lag (2024:694)",
     "stycke": 2,
+    "text": "En utlänning som har ett uppehållstillstånd med tillfälligt skydd, eller uppehållstillstånd efter tillfälligt skydd, enligt 21 kap. 2, 3, 4 eller 6 § utlänningslagen (2005:716) ska inte anses vara bosatt här. Detta gäller dock inte, om utlänningen har beviljats en flyktingstatusförklaring enligt 4 kap. 3 c § utlänningslagen eller ett resedokument enligt 4 kap. 4 § utlänningslagen."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "A ÖVERGRIPANDE BESTÄMMELSER",
+    "underavdelning": "II Socialförsäkringsskyddet",
+    "kapitel": "5",
+    "paragraf_rubrik": "Bosättning i Sverige",
+    "paragraf": "3",
+    "referens": "Lag (2024:694)",
+    "stycke": 3,
     "text": "En i Sverige bosatt person som lämnar landet ska fortfarande anses vara bosatt här i landet om utlandsvistelsen kan antas vara längst ett år."
   },
   {
@@ -548,7 +561,6 @@
     "paragraf_rubrik": "Särskilda personkategorier",
     "paragraf_underrubrik": "Diplomater m.fl.",
     "paragraf": "5a",
-    "paragraf_periodisering": "Träder i kraft I:den dag som regeringen bestämmer",
     "referens": "Lag (2024:536)",
     "stycke": 1,
     "text": "Den som tillhör en främmande stats militära styrka eller ett Natohögkvarter, inklusive deras civila komponenter, och omfattas av 7, 8 eller 10 § lagen (1976:661) om immunitet och privilegier i vissa fall ska inte anses vara bosatt här i landet."
@@ -561,7 +573,6 @@
     "paragraf_rubrik": "Särskilda personkategorier",
     "paragraf_underrubrik": "Diplomater m.fl.",
     "paragraf": "5a",
-    "paragraf_periodisering": "Träder i kraft I:den dag som regeringen bestämmer",
     "referens": "Lag (2024:536)",
     "stycke": 2,
     "text": "Första stycket gäller inte den som är anställd av en utländsk organisation och ingår i den civila komponenten av en sådan militär styrka som avses i 10 § lagen om immunitet och privilegier i vissa fall, om han eller hon är svensk medborgare."
@@ -574,7 +585,6 @@
     "paragraf_rubrik": "Särskilda personkategorier",
     "paragraf_underrubrik": "Diplomater m.fl.",
     "paragraf": "5a",
-    "paragraf_periodisering": "Träder i kraft I:den dag som regeringen bestämmer",
     "referens": "Lag (2024:536)",
     "stycke": 3,
     "text": "Den som är anhörig till den som avses i första stycket eller är en sådan leverantör till styrkan som avses i 10 § lagen om immunitet och privilegier i vissa fall, ska anses vara bosatt i Sverige endast om han eller hon är svensk medborgare eller, utan att vara svensk medborgare, var bosatt här när han eller hon fick ställning som anhörig eller leverantör."
@@ -658,7 +668,7 @@
     "paragraf": "9",
     "referens": "Lag (2018:1265)",
     "stycke": 2,
-    "text": "Avdelning B Familjeförmåner\n1. föräldrapenning på lägstanivå\noch grundnivå, (11 och 12 kap.)\n2. barnbidrag, (15 och 16 kap.)\n3. underhållsstöd, (17-19 kap.)\n4. adoptionsbidrag, (21 kap.)\n5. omvårdnadsbidrag (22 kap.)"
+    "text": "Avdelning B Familjeförmåner"
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -670,7 +680,7 @@
     "paragraf": "9",
     "referens": "Lag (2018:1265)",
     "stycke": 3,
-    "text": "Avdelning C Förmåner vid sjukdom eller arbetsskada\n6. sjukpenning i särskilda fall, (28 a kap.)\n7. rehabilitering, bidrag till arbetshjälpmedel, särskilt bidrag och rehabiliteringspenning i\nsärskilda fall, (29-31 a kap.)\n8. sjukersättning och aktivitetsersättning i form av\ngarantiersättning, (33 och 35-37 kap.)"
+    "text": "1. föräldrapenning på lägstanivå\noch grundnivå, (11 och 12 kap.)\n2. barnbidrag, (15 och 16 kap.)\n3. underhållsstöd, (17-19 kap.)\n4. adoptionsbidrag, (21 kap.)\n5. omvårdnadsbidrag (22 kap.)"
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -682,7 +692,7 @@
     "paragraf": "9",
     "referens": "Lag (2018:1265)",
     "stycke": 4,
-    "text": "Avdelning D Särskilda förmåner vid funktionshinder\n9. merkostnadsersättning, (50 kap.)\n10. assistansersättning, (51 kap.)\n11. bilstöd, (52 kap.)"
+    "text": "Avdelning C Förmåner vid sjukdom eller arbetsskada\n6. sjukpenning i särskilda fall, (28 a kap.)\n7. rehabilitering, bidrag till arbetshjälpmedel, särskilt bidrag och rehabiliteringspenning i\nsärskilda fall, (29-31 a kap.)\n8. sjukersättning och aktivitetsersättning i form av\ngarantiersättning, (33 och 35-37 kap.)"
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -694,7 +704,7 @@
     "paragraf": "9",
     "referens": "Lag (2018:1265)",
     "stycke": 5,
-    "text": "Avdelning E Förmåner vid ålderdom\n12. garantipension, (55, 56, 65-67 och\n69-71 kap.)\n13. särskilt pensionstillägg, (73 kap.)\n14. äldreförsörjningsstöd, (74 kap.)"
+    "text": "Avdelning D Särskilda förmåner vid funktionshinder\n9. merkostnadsersättning, (50 kap.)\n10. assistansersättning, (51 kap.)\n11. bilstöd, (52 kap.)"
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -706,7 +716,7 @@
     "paragraf": "9",
     "referens": "Lag (2018:1265)",
     "stycke": 6,
-    "text": "Avdelning F Förmåner till efterlevande\n15. efterlevandestöd, (77, 79 och 85 kap.)\n16. garantipension till\nomställningspension, (77, 81 och 85 kap.)"
+    "text": "Avdelning E Förmåner vid ålderdom\n12. garantipension, (55, 56, 65-67 och\n69-71 kap.)\n13. särskilt pensionstillägg, (73 kap.)\n14. äldreförsörjningsstöd, (74 kap.)"
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -718,6 +728,18 @@
     "paragraf": "9",
     "referens": "Lag (2018:1265)",
     "stycke": 7,
+    "text": "Avdelning F Förmåner till efterlevande\n15. efterlevandestöd, (77, 79 och 85 kap.)\n16. garantipension till\nomställningspension, (77, 81 och 85 kap.)"
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "A ÖVERGRIPANDE BESTÄMMELSER",
+    "underavdelning": "II Socialförsäkringsskyddet",
+    "kapitel": "5",
+    "paragraf_rubrik": "Särskilda personkategorier",
+    "paragraf_underrubrik": "De bosättningsbaserade förmånerna",
+    "paragraf": "9",
+    "referens": "Lag (2018:1265)",
+    "stycke": 8,
     "text": "Avdelning G Bostadsstöd\n17. bostadsbidrag, (95-98 kap.)\n18. bostadstillägg, och (100-103 kap.)\n19. boendetillägg. (103 a-103 e kap.)"
   },
   {
@@ -762,7 +784,7 @@
     "paragraf_rubrik": "Socialförsäkringsskyddet i samband med inflyttning till Sverige",
     "paragraf_underrubrik": "När uppehållstillstånd behövs",
     "paragraf": "12",
-    "referens": "Lag (2022:304)",
+    "referens": "Lag (2024:1221)",
     "stycke": 1,
     "text": "Till den som enligt utlänningslagen (2005:716) behöver ha uppehållstillstånd i Sverige får bosättningsbaserade förmåner lämnas tidigast från och med den dag då ett sådant tillstånd börjar gälla men inte för längre tid tillbaka än tre månader före det att tillståndet beviljades. Om det finns synnerliga skäl, får förmåner lämnas även om uppehållstillstånd inte har beviljats."
   },
@@ -774,9 +796,9 @@
     "paragraf_rubrik": "Socialförsäkringsskyddet i samband med inflyttning till Sverige",
     "paragraf_underrubrik": "När uppehållstillstånd behövs",
     "paragraf": "12",
-    "referens": "Lag (2022:304)",
+    "referens": "Lag (2024:1221)",
     "stycke": 2,
-    "text": "Till den som har beviljats ett tidsbegränsat uppehållstillstånd får bosättningsbaserade förmåner lämnas utan hinder av att tillståndet har upphört att gälla, om en ansökan om fortsatt uppehållstillstånd har kommit in till Migrationsverket innan det tidigare tillståndet har upphört att gälla och ansökan avser ett fortsatt tillstånd på samma grund eller på en sådan annan grund som enligt 5 kap. 18 § andra stycket 8 b eller 5 b kap. 15 § andra stycket 3 utlänningslagen kan beviljas efter inresan eller ett nytt tillstånd med stöd av någon bestämmelse i lagen (2017:353) om uppehållstillstånd för studerande på gymnasial nivå. Om ansökan avslås får förmåner lämnas till dess att utlänningens tidsfrist för frivillig avresa enligt 8 kap. 21 § första stycket utlänningslagen har löpt ut. Om avslagsbeslutet inte innehåller någon tidsfrist för frivillig avresa får förmåner lämnas till dess att beslutet har fått laga kraft."
+    "text": "Till den som har beviljats ett tidsbegränsat uppehållstillstånd får bosättningsbaserade förmåner lämnas utan hinder av att tillståndet har upphört att gälla, om en ansökan om fortsatt uppehållstillstånd har kommit in till Migrationsverket innan det tidigare tillståndet har upphört att gälla och ansökan avser ett fortsatt tillstånd på samma grund eller på en sådan annan grund som enligt 5 kap. 18 § andra stycket 8 b, 5 b kap. 15 § andra stycket 3 eller 6 a kap. 4 § andra stycket 10 utlänningslagen kan beviljas efter inresan eller ett nytt tillstånd med stöd av någon bestämmelse i lagen (2017:353) om uppehållstillstånd för studerande på gymnasial nivå. Om ansökan avslås får förmåner lämnas till dess att utlänningens tidsfrist för frivillig avresa enligt 8 kap. 21 § första stycket utlänningslagen har löpt ut. Om avslagsbeslutet inte innehåller någon tidsfrist för frivillig avresa får förmåner lämnas till dess att beslutet har fått laga kraft."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -786,7 +808,7 @@
     "paragraf_rubrik": "Socialförsäkringsskyddet i samband med inflyttning till Sverige",
     "paragraf_underrubrik": "När uppehållstillstånd behövs",
     "paragraf": "12",
-    "referens": "Lag (2022:304)",
+    "referens": "Lag (2024:1221)",
     "stycke": 3,
     "text": "Förmåner enligt första stycket lämnas inte för tid då bistånd enligt lagen (1994:137) om mottagande av asylsökande m.fl. har lämnats till den försäkrade, om förmånerna är av motsvarande karaktär."
   },
@@ -1054,31 +1076,6 @@
     "paragraf_rubrik": "Särskilda personkategorier",
     "paragraf_underrubrik": "Diplomater m.fl.",
     "paragraf": "5",
-    "paragraf_periodisering": "Upphör att gälla U:den dag som regeringen bestämmer",
-    "stycke": 1,
-    "text": "Arbete som utförs av en person som tillhör en annan stats beskickning eller karriärkonsulat ska anses som arbete i Sverige endast om det är förenligt med bestämmelserna om immunitet och privilegier i de konventioner som anges i 2 och 3 §§ lagen (1976:661) om immunitet och privilegier i vissa fall. Detta gäller även en sådan persons privattjänare."
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "A ÖVERGRIPANDE BESTÄMMELSER",
-    "underavdelning": "II Socialförsäkringsskyddet",
-    "kapitel": "6",
-    "paragraf_rubrik": "Särskilda personkategorier",
-    "paragraf_underrubrik": "Diplomater m.fl.",
-    "paragraf": "5",
-    "paragraf_periodisering": "Upphör att gälla U:den dag som regeringen bestämmer",
-    "stycke": 2,
-    "text": "Ett sådant arbete som medför att en person på grund av anknytning till en internationell organisation omfattas av bestämmelserna i 4 § lagen om immunitet och privilegier i vissa fall ska anses som arbete i Sverige endast i den mån det är förenligt med vad som följer av tillämplig stadga eller avtal som anges i bilagan till den lagen."
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "A ÖVERGRIPANDE BESTÄMMELSER",
-    "underavdelning": "II Socialförsäkringsskyddet",
-    "kapitel": "6",
-    "paragraf_rubrik": "Särskilda personkategorier",
-    "paragraf_underrubrik": "Diplomater m.fl.",
-    "paragraf": "5",
-    "paragraf_periodisering": "Träder i kraft I:den dag som regeringen bestämmer",
     "referens": "Lag (2024:536)",
     "stycke": 1,
     "text": "Arbete som utförs av en person som tillhör en annan stats beskickning eller karriärkonsulat ska anses som arbete i Sverige endast om det är förenligt med bestämmelserna om immunitet och privilegier i de konventioner som anges i 2 och 3 §§ lagen (1976:661) om immunitet och privilegier i vissa fall. Detta gäller även en sådan persons privattjänare."
@@ -1091,7 +1088,6 @@
     "paragraf_rubrik": "Särskilda personkategorier",
     "paragraf_underrubrik": "Diplomater m.fl.",
     "paragraf": "5",
-    "paragraf_periodisering": "Träder i kraft I:den dag som regeringen bestämmer",
     "referens": "Lag (2024:536)",
     "stycke": 2,
     "text": "Ett sådant arbete som medför att en person på grund av anknytning till en internationell organisation omfattas av bestämmelserna i 4 § lagen om immunitet och privilegier i vissa fall ska anses som arbete i Sverige endast i den mån det är förenligt med vad som följer av tillämplig stadga eller avtal som anges i bilagan till den lagen."
@@ -1104,7 +1100,6 @@
     "paragraf_rubrik": "Särskilda personkategorier",
     "paragraf_underrubrik": "Diplomater m.fl.",
     "paragraf": "5",
-    "paragraf_periodisering": "Träder i kraft I:den dag som regeringen bestämmer",
     "referens": "Lag (2024:536)",
     "stycke": 3,
     "text": "Arbete som utförs av en person som tillhör en amerikansk styrka, en anhörig till en sådan person eller en leverantör till styrkan ska anses som arbete i Sverige endast om det är förenligt med avtalet den 5 december 2023 mellan Sverige och Amerikas förenta stater om försvarssamarbete."
@@ -1131,7 +1126,7 @@
     "paragraf": "6",
     "referens": "Lag (2020:1239)",
     "stycke": 2,
-    "text": "Avdelning B Familjeförmåner\n1. graviditetspenning, (10 kap.)\n2. föräldrapenning på grundnivå eller sjukpenningnivå och\ntillfällig föräldrapenning, (11-13 kap.)"
+    "text": "Avdelning B Familjeförmåner"
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -1143,7 +1138,7 @@
     "paragraf": "6",
     "referens": "Lag (2020:1239)",
     "stycke": 3,
-    "text": "Avdelning C Förmåner vid sjukdom eller arbetsskada\n3. sjukpenning, (24-28 kap.)\n4. rehabilitering, rehabiliteringsersättning och\nbidrag till arbetshjälpmedel, (29-31 kap.)\n5. inkomstrelaterad sjukersättning och inkomstrelaterad\naktivitetsersättning, (33, 34, 36 och 37 kap.)\n6. arbetsskadeersättning, (39-42 kap.)\n7. närståendepenning, (47 kap.)"
+    "text": "1. graviditetspenning, (10 kap.)\n2. föräldrapenning på grundnivå eller sjukpenningnivå och\ntillfällig föräldrapenning, (11-13 kap.)"
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -1155,7 +1150,7 @@
     "paragraf": "6",
     "referens": "Lag (2020:1239)",
     "stycke": 4,
-    "text": "Avdelning E Förmåner vid ålderdom\n8. inkomstgrundad ålderspension, (55-64 och 69-71 kap.)\n8 a. inkomstpensionstillägg, (74 a kap.)"
+    "text": "Avdelning C Förmåner vid sjukdom eller arbetsskada\n3. sjukpenning, (24-28 kap.)\n4. rehabilitering, rehabiliteringsersättning och\nbidrag till arbetshjälpmedel, (29-31 kap.)\n5. inkomstrelaterad sjukersättning och inkomstrelaterad\naktivitetsersättning, (33, 34, 36 och 37 kap.)\n6. arbetsskadeersättning, (39-42 kap.)\n7. närståendepenning, (47 kap.)"
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -1167,6 +1162,18 @@
     "paragraf": "6",
     "referens": "Lag (2020:1239)",
     "stycke": 5,
+    "text": "Avdelning E Förmåner vid ålderdom\n8. inkomstgrundad ålderspension, (55-64 och 69-71 kap.)\n8 a. inkomstpensionstillägg, (74 a kap.)"
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "A ÖVERGRIPANDE BESTÄMMELSER",
+    "underavdelning": "II Socialförsäkringsskyddet",
+    "kapitel": "6",
+    "paragraf_rubrik": "Särskilda personkategorier",
+    "paragraf_underrubrik": "De arbetsbaserade förmånerna",
+    "paragraf": "6",
+    "referens": "Lag (2020:1239)",
+    "stycke": 6,
     "text": "Avdelning F Förmåner till efterlevande\n9. inkomstrelaterad\nefterlevandepension, (77, 78, 80 och 82-85\nkap.)\n10. efterlevandeförmåner från\narbetsskadeförsäkringen, och (87 och 88 kap.)\n11. efterlevandeskydd i form av\npremiepension. (89-92 kap.)"
   },
   {
@@ -1998,8 +2005,21 @@
     "paragraf_rubrik": "Rätten till föräldrapenningsförmåner",
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "paragraf": "8",
+    "referens": "Lag (2024:694)",
     "stycke": 1,
     "text": "En förälder har rätt till föräldrapenningsförmåner endast för vård av barn som är bosatt i Sverige. Vid adoption ska barnet anses bosatt i Sverige om den blivande föräldern är bosatt här."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "B FAMILJEFÖRMÅNER",
+    "underavdelning": "II Graviditetspenning och föräldrapenningsförmåner",
+    "kapitel": "11",
+    "paragraf_rubrik": "Rätten till föräldrapenningsförmåner",
+    "paragraf_underrubrik": "Allmänna bestämmelser",
+    "paragraf": "8",
+    "referens": "Lag (2024:694)",
+    "stycke": 2,
+    "text": "Trots det som anges i första stycket har en förälder rätt till föräldrapenningsförmåner för vård av barn som har beviljats uppehållstillstånd med tillfälligt skydd, eller uppehållstillstånd efter tillfälligt skydd, enligt 21 kap. 2, 3, 4 eller 6 § utlänningslagen (2005:716)."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -2343,6 +2363,7 @@
     "paragraf_rubrik": "Rätten till föräldrapenning",
     "paragraf_underrubrik": "Förmånsnivåer och förvärvsarbete",
     "paragraf": "9",
+    "paragraf_periodisering": "Upphör att gälla U:2025-04-01",
     "stycke": 1,
     "text": "Föräldrapenning lämnas enligt följande förmånsnivåer:\n1. Hel föräldrapenning lämnas för dag när föräldern inte förvärvsarbetar.\n2. Tre fjärdedels föräldrapenning lämnas när föräldern förvärvsarbetar högst en fjärdedel av normal arbetstid.\n3. Halv föräldrapenning lämnas när föräldern förvärvsarbetar högst hälften av normal arbetstid.\n4. En fjärdedels föräldrapenning lämnas när föräldern förvärvsarbetar högst tre fjärdedelar av normal arbetstid.\n5. En åttondels föräldrapenning lämnas när föräldern förvärvsarbetar högst sju åttondelar av normal arbetstid."
   },
@@ -2354,8 +2375,22 @@
     "paragraf_rubrik": "Rätten till föräldrapenning",
     "paragraf_underrubrik": "Förmånsnivåer och förvärvsarbete",
     "paragraf": "9",
+    "paragraf_periodisering": "Upphör att gälla U:2025-04-01",
     "stycke": 2,
     "text": "Föräldrapenning får dock lämnas som hel, tre fjärdedels, halv, en fjärdedels eller en åttondels föräldrapenning på grundnivå enligt 23 § eller på lägstanivå enligt 24 § när föräldern arbetar högst sju åttondelar av normal arbetstid."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "B FAMILJEFÖRMÅNER",
+    "underavdelning": "II Graviditetspenning och föräldrapenningsförmåner",
+    "kapitel": "12",
+    "paragraf_rubrik": "Rätten till föräldrapenning",
+    "paragraf_underrubrik": "Förmånsnivåer och förvärvsarbete",
+    "paragraf": "9",
+    "paragraf_periodisering": "Träder i kraft I:2025-04-01",
+    "referens": "Lag (2024:1255)",
+    "stycke": 1,
+    "text": "Föräldrapenning lämnas enligt följande förmånsnivåer:\n1. Hel föräldrapenning lämnas för dag när föräldern inte förvärvsarbetar.\n2. Tre fjärdedels föräldrapenning lämnas när föräldern förvärvsarbetar högst en fjärdedel av normal arbetstid.\n3. Halv föräldrapenning lämnas när föräldern förvärvsarbetar högst hälften av normal arbetstid.\n4. En fjärdedels föräldrapenning lämnas när föräldern förvärvsarbetar högst tre fjärdedelar av normal arbetstid.\n5. En åttondels föräldrapenning lämnas när föräldern förvärvsarbetar högst sju åttondelar av normal arbetstid."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -2387,8 +2422,22 @@
     "paragraf_rubrik": "Rätten till föräldrapenning",
     "paragraf_underrubrik": "Förmånsnivåer och förvärvsarbete",
     "paragraf": "11",
+    "paragraf_periodisering": "Upphör att gälla U:2025-04-01",
     "stycke": 1,
     "text": "Föräldrapenning på sjukpenningnivå enligt 21 och 22 §§ lämnas för tid som normalt är arbetsfri för föräldern endast om han eller hon i direkt anslutning till den arbetsfria tiden får föräldrapenning på motsvarande eller högre förmånsnivå. Detta gäller dock endast för perioder av arbetsfri tid om högst fyra dagar."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "B FAMILJEFÖRMÅNER",
+    "underavdelning": "II Graviditetspenning och föräldrapenningsförmåner",
+    "kapitel": "12",
+    "paragraf_rubrik": "Rätten till föräldrapenning",
+    "paragraf_underrubrik": "Förmånsnivåer och förvärvsarbete",
+    "paragraf": "11",
+    "paragraf_periodisering": "Träder i kraft I:2025-04-01",
+    "referens": "Lag (2024:1255)",
+    "stycke": 1,
+    "text": "Föräldrapenning lämnas för tid som normalt är arbetsfri för föräldern endast om han eller hon i direkt anslutning till den arbetsfria tiden får föräldrapenning på motsvarande eller högre förmånsnivå och ersättningsnivå. Detta gäller dock endast för perioder av arbetsfri tid om högst fyra dagar."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -6776,7 +6825,7 @@
     "paragraf_rubrik": "Inkomst av annat förvärvsarbete",
     "paragraf_underrubrik": "Ersättning till den som är godkänd för F-skatt",
     "paragraf": "10",
-    "referens": "Lag (2011:1434)",
+    "referens": "Lag (2024:1135)",
     "stycke": 1,
     "text": "Som inkomst av annat förvärvsarbete räknas ersättning för arbete om ersättningen betalas ut till en mottagare som är godkänd för F-skatt när ersättningen bestäms eller när den betalas ut."
   },
@@ -6788,9 +6837,9 @@
     "paragraf_rubrik": "Inkomst av annat förvärvsarbete",
     "paragraf_underrubrik": "Ersättning till den som är godkänd för F-skatt",
     "paragraf": "10",
-    "referens": "Lag (2011:1434)",
+    "referens": "Lag (2024:1135)",
     "stycke": 2,
-    "text": "Om mottagaren är godkänd för F-skatt med villkor enligt 9 kap. 3 § skatteförfarandelagen (2011:1244), räknas ersättningen som inkomst av annat förvärvsarbete bara om godkännandet skriftligen åberopas."
+    "text": "Om mottagaren är godkänd för F-skatt med villkor enligt 9 kap. 2 § skatteförfarandelagen (2011:1244), räknas ersättningen som inkomst av annat förvärvsarbete bara om godkännandet åberopas skriftligen."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -6848,9 +6897,9 @@
     "paragraf_rubrik": "Inkomst av annat förvärvsarbete",
     "paragraf_underrubrik": "Viss ersättning från privatpersoner",
     "paragraf": "13",
-    "referens": "Lag (2011:1434)",
+    "referens": "Lag (2024:1135)",
     "stycke": 1,
-    "text": "Som inkomst av annat förvärvsarbete räknas ersättning för arbete om ersättningen betalas ut till en mottagare som inte är godkänd för F-skatt eller är godkänd för F-skatt med villkor enligt 9 kap. 3 § skatteförfarandelagen (2011:1244), om\n1. utbetalaren är en fysisk person eller ett dödsbo,\n2. ersättningen inte är en utgift i en näringsverksamhet som bedrivs av utbetalaren,\n3. ersättningen tillsammans med annan ersättning för arbete från samma utbetalare under beskattningsåret kan antas bli mindre än 10 000 kronor,\n4. utbetalaren och mottagaren inte har träffat en överenskommelse om att ersättningen ska anses som inkomst av anställning, och\n5. det inte är fråga om sådan ersättning för arbete som avses i 12 kap. 16 § föräldrabalken."
+    "text": "Som inkomst av annat förvärvsarbete räknas ersättning för arbete om ersättningen betalas ut till en mottagare som inte är godkänd för F-skatt eller är godkänd för F-skatt med villkor enligt 9 kap. 2 § skatteförfarandelagen (2011:1244), om\n1. utbetalaren är en fysisk person eller ett dödsbo,\n2. ersättningen inte är en utgift i en näringsverksamhet som bedrivs av utbetalaren,\n3. ersättningen tillsammans med annan ersättning för arbete från samma utbetalare under beskattningsåret kan antas bli mindre än 10 000 kronor,\n4. utbetalaren och mottagaren inte har träffat en överenskommelse om att ersättningen ska anses som inkomst av anställning, och\n5. det inte är fråga om sådan ersättning för arbete som avses i 12 kap. 16 § föräldrabalken."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -6869,22 +6918,8 @@
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel": "25",
     "paragraf_rubrik": "Inkomst av annat förvärvsarbete",
-    "paragraf_underrubrik": "Ersättning från handelsbolag till delägare, m.m.",
-    "paragraf": "15",
-    "paragraf_periodisering": "Rubriken träder i kraft I:den dag som regeringen bestämmer",
-    "referens": "lag (2012:834)",
-    "stycke": 1,
-    "text": "Har upphävts genom"
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-    "underavdelning": "II Sjukpenning m.m.",
-    "kapitel": "25",
-    "paragraf_rubrik": "Inkomst av annat förvärvsarbete",
     "paragraf_underrubrik": "Ersättning som lämnas av vissa militära serviceverksamheter",
     "paragraf": "15",
-    "paragraf_periodisering": "Träder i kraft I:den dag som regeringen bestämmer",
     "referens": "Lag (2024:536)",
     "stycke": 1,
     "text": "Som inkomst av annat förvärvsarbete räknas lön eller annan ersättning för arbete som den försäkrade får från en amerikansk styrka eller en utländsk organisation som driver en sådan militär serviceverksamhet som regleras i avtalet den 5 december 2023 mellan Sverige och Amerikas förenta stater om försvarssamarbete, om den försäkrade är en sådan lokal civilanställd som avses i artikel 24 i avtalet."
@@ -7142,9 +7177,22 @@
     "kapitel": "26",
     "paragraf_rubrik": "Ändring av den sjukpenninggrundande inkomsten",
     "paragraf": "8",
+    "paragraf_periodisering": "Upphör att gälla U:2025-06-01",
     "referens": "Lag (2014:239)",
     "stycke": 1,
     "text": "Bestämmelsen i 7 § 1 ska tillämpas även när den försäkrade skulle ha fått sådan ersättning som avses där i form av garantiersättning om han eller hon hade haft rätt till sådan ersättning enligt bestämmelserna i 35 kap. 4-15 §§ om försäkringstid."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
+    "underavdelning": "II Sjukpenning m.m.",
+    "kapitel": "26",
+    "paragraf_rubrik": "Ändring av den sjukpenninggrundande inkomsten",
+    "paragraf": "8",
+    "paragraf_periodisering": "Träder i kraft I:2025-06-01",
+    "referens": "Lag (2024:1270)",
+    "stycke": 1,
+    "text": "Bestämmelsen i 7 § 1 ska tillämpas även när den försäkrade skulle ha fått sådan ersättning som avses där i form av garantiersättning om han eller hon hade haft rätt till sådan ersättning enligt bestämmelserna i 35 kap. 4-7 och 11-15 §§ om försäkringstid."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -8436,9 +8484,9 @@
     "paragraf_rubrik": "Förmånstiden",
     "paragraf_underrubrik": "Karenstid för den som betalar egenavgift",
     "paragraf": "31",
-    "referens": "Lag (2018:647)",
+    "referens": "Lag (2024:1269)",
     "stycke": 1,
-    "text": "Den som betalar egenavgift och som gjort anmälan om karenstid enligt 29 § får efter uppsägningstid övergå till sjukpenning med kortare eller ingen karenstid, om han eller hon inte har fyllt 55 år vid anmälan till Försäkringskassan om ändrad karenstid. Uppsägningstiden är det antal dagar med vilka karenstiden förkortas."
+    "text": "Den som betalar egenavgift och som gjort anmälan om karenstid enligt 29 § får efter uppsägningstid övergå till sjukpenning med kortare eller ingen karenstid. Uppsägningstiden är det antal dagar med vilka karenstiden förkortas."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -8449,7 +8497,7 @@
     "paragraf_rubrik": "Förmånstiden",
     "paragraf_underrubrik": "Karenstid för den som betalar egenavgift",
     "paragraf": "31",
-    "referens": "Lag (2018:647)",
+    "referens": "Lag (2024:1269)",
     "stycke": 2,
     "text": "Uppsägningstid enligt första stycket gäller även för en försäkrad som omfattas av bestämmelserna i 27 a § och som gör anmälan om karenstid på 1 dag enligt 29 §."
   },
@@ -8462,7 +8510,7 @@
     "paragraf_rubrik": "Förmånstiden",
     "paragraf_underrubrik": "Karenstid för den som betalar egenavgift",
     "paragraf": "31",
-    "referens": "Lag (2018:647)",
+    "referens": "Lag (2024:1269)",
     "stycke": 3,
     "text": "Ändringen börjar gälla efter det att uppsägningstiden löpt ut. Ändringen får dock inte tillämpas vid sjukdom som inträffat innan ändringen har börjat gälla."
   },
@@ -8551,9 +8599,24 @@
     "paragraf_rubrik": "Förmånstiden",
     "paragraf_underrubrik": "Sjukpenning i samband med sjukersättning, aktivitetsersättning eller pension",
     "paragraf": "35",
+    "paragraf_periodisering": "Upphör att gälla U:2025-06-01",
     "referens": "Lag (2014:239)",
     "stycke": 1,
     "text": "Bestämmelserna i 34 § om sjukersättning och aktivitetsersättning ska tillämpas även när den försäkrade skulle ha haft sådan ersättning i form av garantiersättning om han eller hon hade haft rätt till sådan ersättning enligt bestämmelserna i 35 kap. 4-15 §§ om försäkringstid."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
+    "underavdelning": "II Sjukpenning m.m.",
+    "kapitel": "27",
+    "kapitel_periodisering": "Rubriken träder i kraft I:2025-12-01",
+    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_underrubrik": "Sjukpenning i samband med sjukersättning, aktivitetsersättning eller pension",
+    "paragraf": "35",
+    "paragraf_periodisering": "Träder i kraft I:2025-06-01",
+    "referens": "Lag (2024:1270)",
+    "stycke": 1,
+    "text": "Bestämmelserna i 34 § om sjukersättning och aktivitetsersättning ska tillämpas även när den försäkrade skulle ha haft sådan ersättning i form av garantiersättning om han eller hon hade haft rätt till sådan ersättning enligt bestämmelserna i 35 kap. 4-7 och 11-15 §§ om försäkringstid."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -9088,9 +9151,24 @@
     "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Försäkrade som får sjukersättning eller aktivitetsersättning m.m.",
     "paragraf": "54",
+    "paragraf_periodisering": "Upphör att gälla U:2025-06-01",
     "referens": "Lag (2014:239)",
     "stycke": 1,
     "text": "Bestämmelsen i 53 § 1 ska tillämpas även när den försäkrade skulle ha haft sjukersättning eller aktivitetsersättning i form av garantiersättning om han eller hon hade haft rätt till sådan ersättning enligt bestämmelserna i 35 kap. 4-15 §§ om försäkringstid."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
+    "underavdelning": "II Sjukpenning m.m.",
+    "kapitel": "27",
+    "kapitel_periodisering": "Rubriken träder i kraft I:2025-12-01",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
+    "paragraf_underrubrik": "Försäkrade som får sjukersättning eller aktivitetsersättning m.m.",
+    "paragraf": "54",
+    "paragraf_periodisering": "Träder i kraft I:2025-06-01",
+    "referens": "Lag (2024:1270)",
+    "stycke": 1,
+    "text": "Bestämmelsen i 53 § 1 ska tillämpas även när den försäkrade skulle ha haft sjukersättning eller aktivitetsersättning i form av garantiersättning om han eller hon hade haft rätt till sådan ersättning enligt bestämmelserna i 35 kap. 4-7 och 11-15 §§ om försäkringstid."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -9617,9 +9695,9 @@
     "kapitel": "28 a",
     "paragraf_rubrik": "Rätten till sjukpenning i särskilda fall",
     "paragraf": "4",
-    "referens": "Lag (2011:1513)",
+    "referens": "Lag (2024:1269)",
     "stycke": 1,
-    "text": "En försäkrad som omfattas av 3 § och som på grund av bestämmelserna om sjukpenninggrundande inkomst i denna balk inte skulle ha rätt till hel sjukpenning som på fortsättningsnivån medför en sjukpenning om minst 160 kronor per kalenderdag, har rätt till sjukpenning i särskilda fall vid sjukdom som sätter ned hans eller hennes arbetsförmåga."
+    "text": "En försäkrad som omfattas av 3 § och som på grund av bestämmelserna om sjukpenninggrundande inkomst i denna balk inte skulle ha rätt till hel sjukpenning som på fortsättningsnivån medför en sjukpenning om minst 230 kronor per kalenderdag, har rätt till sjukpenning i särskilda fall vid sjukdom som sätter ned hans eller hennes arbetsförmåga."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -9628,7 +9706,7 @@
     "kapitel": "28 a",
     "paragraf_rubrik": "Rätten till sjukpenning i särskilda fall",
     "paragraf": "4",
-    "referens": "Lag (2011:1513)",
+    "referens": "Lag (2024:1269)",
     "stycke": 2,
     "text": "Med sjukdom likställs, förutom vad som föreskrivs i 27 kap. 2 § andra stycket, även annan nedsättning av den fysiska eller psykiska prestationsförmågan."
   },
@@ -9718,9 +9796,9 @@
     "kapitel": "28 a",
     "paragraf_rubrik": "Ersättningsnivåer",
     "paragraf": "9",
-    "referens": "Lag (2011:1513)",
+    "referens": "Lag (2024:1269)",
     "stycke": 1,
-    "text": "Sjukpenning i särskilda fall lämnas med högst\n- 160 kronor per dag vid hel förmån,\n- 120 kronor per dag vid tre fjärdedels förmån,\n- 80 kronor per dag vid halv förmån, och\n- 40 kronor per dag vid en fjärdedels förmån."
+    "text": "Sjukpenning i särskilda fall lämnas med högst\n- 230 kronor per dag vid hel förmån,\n- 173 kronor per dag vid tre fjärdedels förmån,\n- 115 kronor per dag vid halv förmån, och\n- 58 kronor per dag vid en fjärdedels förmån."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -9762,9 +9840,9 @@
     "kapitel": "28 a",
     "paragraf_rubrik": "Sjukpenning i särskilda fall vid sjukersättning",
     "paragraf": "13",
-    "referens": "Lag (2011:1513)",
+    "referens": "Lag (2024:1269)",
     "stycke": 1,
-    "text": "I det fall en försäkrad får sjukersättning lämnas hel sjukpenning i särskilda fall med högst\n- 120 kronor per dag när sjukersättning lämnas som en fjärdedels förmån,\n- 80 kronor per dag när sjukersättning lämnas som en halv förmån, och\n- 40 kronor per dag när sjukersättning lämnas som tre fjärdedels förmån."
+    "text": "I det fall en försäkrad får sjukersättning lämnas hel sjukpenning i särskilda fall med högst\n- 173 kronor per dag när sjukersättning lämnas som en fjärdedels förmån,\n- 115 kronor per dag när sjukersättning lämnas som en halv förmån, och\n- 58 kronor per dag när sjukersättning lämnas som tre fjärdedels förmån."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -9773,7 +9851,7 @@
     "kapitel": "28 a",
     "paragraf_rubrik": "Sjukpenning i särskilda fall vid sjukersättning",
     "paragraf": "13",
-    "referens": "Lag (2011:1513)",
+    "referens": "Lag (2024:1269)",
     "stycke": 2,
     "text": "När sjukpenning i särskilda fall ska lämnas som partiell förmån, lämnas ersättning med högst tre fjärdedelar, hälften eller en fjärdedel av beloppen i första stycket."
   },
@@ -9784,20 +9862,9 @@
     "kapitel": "28 a",
     "paragraf_rubrik": "Sjukpenning i särskilda fall vid sjukersättning",
     "paragraf": "13",
-    "referens": "Lag (2011:1513)",
+    "referens": "Lag (2024:1269)",
     "stycke": 3,
     "text": "För en försäkrad för vilken en sjukpenninggrundande inkomst kan fastställas, motsvarar sjukpenning i särskilda fall per dag differensen mellan\n- de belopp som framgår av första eller andra styckena och\n- den sjukpenning som lämnas per dag enligt 27 och 28 kap."
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-    "underavdelning": "II Sjukpenning m.m.",
-    "kapitel": "28 a",
-    "paragraf_rubrik": "Sjukpenning i särskilda fall vid sjukersättning",
-    "paragraf": "13",
-    "referens": "Lag (2011:1513)",
-    "stycke": 4,
-    "text": "Sjukpenning i särskilda fall vid livränta enligt 41 eller 43 kap."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -9916,9 +9983,9 @@
     "kapitel": "28 a",
     "paragraf_rubrik": "Upphörande av rätten till sjukpenning i särskilda fall",
     "paragraf": "19",
-    "referens": "Lag (2011:1513)",
+    "referens": "Lag (2024:1269)",
     "stycke": 1,
-    "text": "Rätten till sjukpenning i särskilda fall upphör när det för den försäkrade har bestämts eller skulle ha kunnat bestämmas en sjukpenninggrundande inkomst som uppgår till minst 80 300 kronor."
+    "text": "Rätten till sjukpenning i särskilda fall upphör när det för den försäkrade har bestämts eller skulle ha kunnat bestämmas en sjukpenninggrundande inkomst som uppgår till minst 115 400 kronor."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -10458,9 +10525,9 @@
     "kapitel": "31 a",
     "paragraf_rubrik": "Rätten till rehabiliteringspenning i särskilda fall",
     "paragraf": "4",
-    "referens": "Lag (2011:1513)",
+    "referens": "Lag (2024:1269)",
     "stycke": 1,
-    "text": "En försäkrad som omfattas av 3 § och som på grund av bestämmelserna om sjukpenninggrundande inkomst i denna balk inte skulle ha rätt till hel rehabiliteringspenning motsvarande vad som för sjukpenning på fortsättningsnivån medför en sjukpenning om minst 160 kronor per kalenderdag, har rätt till rehabiliteringspenning i särskilda fall vid sjukdom som sätter ned hans eller hennes arbetsförmåga under tid som anges i 31 kap. 3 §."
+    "text": "En försäkrad som omfattas av 3 § och som på grund av bestämmelserna om sjukpenninggrundande inkomst i denna balk inte skulle ha rätt till hel rehabiliteringspenning motsvarande vad som för sjukpenning på fortsättningsnivån medför en sjukpenning om minst 230 kronor per kalenderdag, har rätt till rehabiliteringspenning i särskilda fall vid sjukdom som sätter ned hans eller hennes arbetsförmåga under tid som anges i 31 kap. 3 §."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -10469,7 +10536,7 @@
     "kapitel": "31 a",
     "paragraf_rubrik": "Rätten till rehabiliteringspenning i särskilda fall",
     "paragraf": "4",
-    "referens": "Lag (2011:1513)",
+    "referens": "Lag (2024:1269)",
     "stycke": 2,
     "text": "Med sjukdom likställs, förutom vad som föreskrivs i 27 kap. 2 § andra stycket, även annan nedsättning av den fysiska eller psykiska prestationsförmågan."
   },
@@ -10502,9 +10569,9 @@
     "kapitel": "31 a",
     "paragraf_rubrik": "Ersättningsnivåer",
     "paragraf": "7",
-    "referens": "Lag (2011:1513)",
+    "referens": "Lag (2024:1269)",
     "stycke": 1,
-    "text": "Rehabiliteringspenning i särskilda fall lämnas med högst\n- 160 kronor per dag vid hel förmån,\n- 120 kronor per dag vid tre fjärdedels förmån,\n- 80 kronor per dag vid halv förmån, och\n- 40 kronor per dag vid en fjärdedels förmån."
+    "text": "Rehabiliteringspenning i särskilda fall lämnas med högst\n- 230 kronor per dag vid hel förmån,\n- 173 kronor per dag vid tre fjärdedels förmån,\n- 115 kronor per dag vid halv förmån, och\n- 58 kronor per dag vid en fjärdedels förmån."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -10535,9 +10602,9 @@
     "kapitel": "31 a",
     "paragraf_rubrik": "Rehabiliteringspenning i särskilda fall vid sjukersättning",
     "paragraf": "10",
-    "referens": "Lag (2011:1513)",
+    "referens": "Lag (2024:1269)",
     "stycke": 1,
-    "text": "I det fall en försäkrad får sjukersättning lämnas hel rehabiliteringspenning i särskilda fall med högst\n- 120 kronor per dag när sjukersättning lämnas som en fjärdedels förmån,\n- 80 kronor per dag när sjukersättning lämnas som en halv förmån, och\n- 40 kronor per dag när sjukersättning lämnas som tre fjärdedels förmån."
+    "text": "I det fall en försäkrad får sjukersättning lämnas hel rehabiliteringspenning i särskilda fall med högst\n- 173 kronor per dag när sjukersättning lämnas som en fjärdedels förmån,\n- 115 kronor per dag när sjukersättning lämnas som en halv förmån, och\n- 58 kronor per dag när sjukersättning lämnas som tre fjärdedels förmån."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -10546,7 +10613,7 @@
     "kapitel": "31 a",
     "paragraf_rubrik": "Rehabiliteringspenning i särskilda fall vid sjukersättning",
     "paragraf": "10",
-    "referens": "Lag (2011:1513)",
+    "referens": "Lag (2024:1269)",
     "stycke": 2,
     "text": "När rehabiliteringspenning i särskilda fall ska lämnas som partiell förmån, lämnas ersättning med högst tre fjärdedelar, hälften eller en fjärdedel av beloppen i första stycket."
   },
@@ -10557,20 +10624,9 @@
     "kapitel": "31 a",
     "paragraf_rubrik": "Rehabiliteringspenning i särskilda fall vid sjukersättning",
     "paragraf": "10",
-    "referens": "Lag (2011:1513)",
+    "referens": "Lag (2024:1269)",
     "stycke": 3,
     "text": "För en försäkrad för vilken en sjukpenninggrundande inkomst kan fastställas, motsvarar rehabiliteringspenning i särskilda fall per dag differensen mellan\n- de belopp som framgår av första eller andra styckena och\n- den rehabiliteringspenning som lämnas per dag enligt 31 kap."
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-    "underavdelning": "III Rehabilitering och rehabiliteringsersättning",
-    "kapitel": "31 a",
-    "paragraf_rubrik": "Rehabiliteringspenning i särskilda fall vid sjukersättning",
-    "paragraf": "10",
-    "referens": "Lag (2011:1513)",
-    "stycke": 4,
-    "text": "Rehabiliteringspenning i särskilda fall vid livränta enligt 41 eller 43 kap."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -10656,9 +10712,9 @@
     "kapitel": "31 a",
     "paragraf_rubrik": "Upphörande av rätten till rehabiliteringspenning i särskilda fall",
     "paragraf": "14",
-    "referens": "Lag (2011:1513)",
+    "referens": "Lag (2024:1269)",
     "stycke": 1,
-    "text": "Rätten till rehabiliteringspenning i särskilda fall upphör när det för den försäkrade har bestämts eller skulle ha kunnat bestämmas en sjukpenninggrundande inkomst som uppgår till minst 80 300 kronor."
+    "text": "Rätten till rehabiliteringspenning i särskilda fall upphör när det för den försäkrade har bestämts eller skulle ha kunnat bestämmas en sjukpenninggrundande inkomst som uppgår till minst 115 400 kronor."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -11354,9 +11410,22 @@
     "kapitel": "35",
     "paragraf_rubrik": "Innehåll",
     "paragraf": "1",
+    "paragraf_periodisering": "Upphör att gälla U:2025-06-01",
     "referens": "Lag (2014:239)",
     "stycke": 1,
     "text": "I detta kapitel finns bestämmelser om\n- rätten till garantiersättning i 2 och 3 §§,\n- försäkringstiden i 4-15 §§,\n- ersättningsnivåer i 18-20 §§,\n- beräkningsunderlag för garantiersättning i 21 och 22 §§, och\n- beräkning av garantiersättning i 23-25 §§."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
+    "underavdelning": "IV Sjukersättning och aktivitetsersättning",
+    "kapitel": "35",
+    "paragraf_rubrik": "Innehåll",
+    "paragraf": "1",
+    "paragraf_periodisering": "Träder i kraft I:2025-06-01",
+    "referens": "Lag (2024:1270)",
+    "stycke": 1,
+    "text": "I detta kapitel finns bestämmelser om\n- rätten till garantiersättning i 2 och 3 §§,\n- försäkringstiden i 4-7 och 11-15 §§,\n- ersättningsnivåer i 18-20 §§,\n- beräkningsunderlag för garantiersättning i 21 och 22 §§, och\n- beräkning av garantiersättning i 23-25 §§."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -11396,7 +11465,7 @@
     "paragraf_rubrik": "Försäkringstiden",
     "paragraf_underrubrik": "Inledande bestämmelser",
     "paragraf": "4",
-    "paragraf_periodisering": "Upphör att gälla U:2025-12-01",
+    "paragraf_periodisering": "Upphör att gälla U:2025-06-01",
     "referens": "Lag (2022:878)",
     "stycke": 1,
     "text": "Försäkringstid för rätt till garantiersättning tillgodoräknas en försäkrad\n1. enligt 6-11 §§ under tiden från och med det år då han eller hon fyllde 16 år till och med året före försäkringsfallet (faktisk försäkringstid),\n2. enligt 12 och 13 §§ för tiden därefter till och med det år då han eller hon fyller 65 år (framtida försäkringstid), och\n3. enligt 14 och 15 §§ om försäkringsfallet har inträffat före 18 års ålder."
@@ -11409,10 +11478,36 @@
     "paragraf_rubrik": "Försäkringstiden",
     "paragraf_underrubrik": "Inledande bestämmelser",
     "paragraf": "4",
-    "paragraf_periodisering": "Träder i kraft I:2025-12-01",
-    "referens": "Lag (2022:879)",
+    "paragraf_periodisering": "Träder i kraft I:2025-06-01",
+    "referens": "Lag (2024:1270)",
     "stycke": 1,
-    "text": "Försäkringstid för rätt till garantiersättning tillgodoräknas en försäkrad\n1. enligt 6-11 §§ under tiden från och med det år då han eller hon fyllde 16 år till och med året före försäkringsfallet (faktisk försäkringstid),\n2. enligt 12 och 13 §§ för tiden därefter till och med året före det år då han eller hon uppnår den vid försäkringsfallet gällande riktåldern för pension (framtida försäkringstid), och\n3. enligt 14 och 15 §§ om försäkringsfallet har inträffat före 18 års ålder."
+    "text": "Försäkringstid för rätt till garantiersättning tillgodoräknas en försäkrad\n1. enligt 6, 7 och 11 §§ under tiden från och med det år då han eller hon fyllde 16 år till och med året före försäkringsfallet (faktisk försäkringstid),\n2. enligt 12 och 13 §§ för tiden därefter till och med det år då han eller hon fyller 65 år (framtida försäkringstid), och\n3. enligt 14 och 15 §§ om försäkringsfallet har inträffat före 18 års ålder."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
+    "underavdelning": "IV Sjukersättning och aktivitetsersättning",
+    "kapitel": "35",
+    "paragraf_rubrik": "Försäkringstiden",
+    "paragraf_underrubrik": "Inledande bestämmelser",
+    "paragraf": "4",
+    "paragraf_periodisering": "Upphör att gälla U:2025-12-01",
+    "referens": "Lag (2024:1270)",
+    "stycke": 1,
+    "text": "Försäkringstid för rätt till garantiersättning tillgodoräknas en försäkrad\n1. enligt 6, 7 och 11 §§ under tiden från och med det år då han eller hon fyllde 16 år till och med året före försäkringsfallet (faktisk försäkringstid),\n2. enligt 12 och 13 §§ för tiden därefter till och med det år då han eller hon fyller 65 år (framtida försäkringstid), och\n3. enligt 14 och 15 §§ om försäkringsfallet har inträffat före 18 års ålder."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
+    "underavdelning": "IV Sjukersättning och aktivitetsersättning",
+    "kapitel": "35",
+    "paragraf_rubrik": "Försäkringstiden",
+    "paragraf_underrubrik": "Inledande bestämmelser",
+    "paragraf": "4",
+    "paragraf_periodisering": "Träder i kraft I:2025-12-01",
+    "referens": "Lag (2024:1272)",
+    "stycke": 1,
+    "text": "Försäkringstid för rätt till garantiersättning tillgodoräknas en försäkrad\n1. enligt 6, 7 och 11 §§ under tiden från och med det år då han eller hon fyllde 16 år till och med året före försäkringsfallet (faktisk försäkringstid),\n2. enligt 12 och 13 §§ för tiden därefter till och med året före det år då han eller hon uppnår den vid försäkringsfallet gällande riktåldern för pension (framtida försäkringstid), och\n3. enligt 14 och 15 §§ om försäkringsfallet har inträffat före 18 års ålder."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -11455,6 +11550,7 @@
     "paragraf_rubrik": "Försäkringstiden",
     "paragraf_underrubrik": "Vistelse i Sverige",
     "paragraf": "7",
+    "referens": "lag (2024:1270)",
     "stycke": 1,
     "text": "Som faktisk försäkringstid räknas även tid när en person före tidpunkten för bosättning i Sverige oavbrutet har vistats här i landet efter att ha ansökt om uppehållstillstånd."
   },
@@ -11464,11 +11560,23 @@
     "underavdelning": "IV Sjukersättning och aktivitetsersättning",
     "kapitel": "35",
     "paragraf_rubrik": "Försäkringstiden",
-    "paragraf_underrubrik": "Bosättning i tidigare hemland",
+    "paragraf_underrubrik": "Vistelse i Sverige",
+    "paragraf": "7",
+    "referens": "lag (2024:1270)",
+    "stycke": 2,
+    "text": "/Rubriken upphör att gälla U:2025-06-01 genom\n./ Bosättning i tidigare hemland"
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
+    "underavdelning": "IV Sjukersättning och aktivitetsersättning",
+    "kapitel": "35",
+    "paragraf_rubrik": "Försäkringstiden",
+    "paragraf_underrubrik": "Vistelse i Sverige",
     "paragraf": "8",
-    "referens": "Lag (2021:767)",
+    "referens": "lag (2024:1270)",
     "stycke": 1,
-    "text": "Om den försäkrade har beviljats uppehållstillstånd i Sverige som flykting enligt 4 kap. 1 § eller som alternativt skyddsbehövande enligt 2 § utlänningslagen (2005:716) eller enligt motsvarande äldre bestämmelser eller beviljats statusförklaring enligt 4 kap. 3 c § utlänningslagen eller motsvarande förklaring enligt äldre bestämmelser räknas som faktisk försäkringstid även tid då han eller hon har varit bosatt i sitt tidigare hemland från och med det år då han eller hon fyllde 16 år till tidpunkten då han eller hon först kom till Sverige."
+    "text": "/Upphör att gälla U:2025-06-01 genom\n./ Om den försäkrade har beviljats uppehållstillstånd i Sverige som flykting enligt 4 kap. 1 § eller som alternativt skyddsbehövande enligt 2 § utlänningslagen (2005:716) eller enligt motsvarande äldre bestämmelser eller beviljats statusförklaring enligt 4 kap. 3 c § utlänningslagen eller motsvarande förklaring enligt äldre bestämmelser räknas som faktisk försäkringstid även tid då han eller hon har varit bosatt i sitt tidigare hemland från och med det år då han eller hon fyllde 16 år till tidpunkten då han eller hon först kom till Sverige."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -11476,10 +11584,11 @@
     "underavdelning": "IV Sjukersättning och aktivitetsersättning",
     "kapitel": "35",
     "paragraf_rubrik": "Försäkringstiden",
-    "paragraf_underrubrik": "Bosättning i tidigare hemland",
+    "paragraf_underrubrik": "Vistelse i Sverige",
     "paragraf": "9",
+    "referens": "lag (2024:1270)",
     "stycke": 1,
-    "text": "Vid beräkningen enligt 8 § ska en så stor andel av tiden i hemlandet räknas in som svarar mot kvoten mellan\n- den tid när den försäkrade har varit bosatt i Sverige, inklusive den tid som avses i 7 §, från den första ankomsten till landet till och med året före försäkringsfallet och\n- hela tidrymden från det att den försäkrade första gången kom till landet till och med året före försäkringsfallet."
+    "text": "/Upphör att gälla U:2025-06-01 genom\n./ Vid beräkningen enligt 8 § ska en så stor andel av tiden i hemlandet räknas in som svarar mot kvoten mellan\n- den tid när den försäkrade har varit bosatt i Sverige, inklusive den tid som avses i 7 §, från den första ankomsten till landet till och med året före försäkringsfallet och\n- hela tidrymden från det att den försäkrade första gången kom till landet till och med året före försäkringsfallet."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -11487,8 +11596,9 @@
     "underavdelning": "IV Sjukersättning och aktivitetsersättning",
     "kapitel": "35",
     "paragraf_rubrik": "Försäkringstiden",
-    "paragraf_underrubrik": "Bosättning i tidigare hemland",
+    "paragraf_underrubrik": "Vistelse i Sverige",
     "paragraf": "9",
+    "referens": "lag (2024:1270)",
     "stycke": 2,
     "text": "Vid beräkningen ska det bortses från tid för vilken den försäkrade, vid bosättning i Sverige, har rätt till sådan ersättning från det andra landet som inte enligt 22 § ska ligga till grund för beräkning av garantiersättning."
   },
@@ -11498,10 +11608,11 @@
     "underavdelning": "IV Sjukersättning och aktivitetsersättning",
     "kapitel": "35",
     "paragraf_rubrik": "Försäkringstiden",
-    "paragraf_underrubrik": "Bosättning i tidigare hemland",
+    "paragraf_underrubrik": "Vistelse i Sverige",
     "paragraf": "10",
+    "referens": "lag (2024:1270)",
     "stycke": 1,
-    "text": "Vid tillämpning av 8 och 9 §§ likställs med tid för bosättning i hemlandet tid då den försäkrade före den första ankomsten till Sverige har befunnit sig i ett annat land där han eller hon beretts en tillfällig fristad."
+    "text": "/Upphör att gälla U:2025-06-01 genom\n./ Vid tillämpning av 8 och 9 §§ likställs med tid för bosättning i hemlandet tid då den försäkrade före den första ankomsten till Sverige har befunnit sig i ett annat land där han eller hon beretts en tillfällig fristad."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -11522,7 +11633,7 @@
     "paragraf_rubrik": "Försäkringstiden",
     "paragraf_underrubrik": "Framtida försäkringstid",
     "paragraf": "12",
-    "paragraf_periodisering": "Upphör att gälla U:2025-12-01",
+    "paragraf_periodisering": "Upphör att gälla U:2025-06-01",
     "referens": "Lag (2022:878)",
     "stycke": 1,
     "text": "Om den faktiska försäkringstiden enligt 6-11 §§ utgör minst fyra femtedelar av tiden från och med det år då den försäkrade fyllde 16 år till och med året före försäkringsfallet räknas hela tiden därefter till och med det år då den försäkrade fyller 65 år som framtida försäkringstid."
@@ -11535,10 +11646,36 @@
     "paragraf_rubrik": "Försäkringstiden",
     "paragraf_underrubrik": "Framtida försäkringstid",
     "paragraf": "12",
-    "paragraf_periodisering": "Träder i kraft I:2025-12-01",
-    "referens": "Lag (2022:879)",
+    "paragraf_periodisering": "Träder i kraft I:2025-06-01",
+    "referens": "Lag (2024:1270)",
     "stycke": 1,
-    "text": "Om den faktiska försäkringstiden enligt 6-11 §§ utgör minst fyra femtedelar av tiden från och med det år då den försäkrade fyllde 16 år till och med året före försäkringsfallet, räknas hela tiden därefter till och med året före det år då den försäkrade uppnår den vid försäkringsfallet gällande riktåldern för pension som framtida försäkringstid."
+    "text": "Om den faktiska försäkringstiden enligt 6, 7 och 11 §§ utgör minst fyra femtedelar av tiden från och med det år då den försäkrade fyllde 16 år till och med året före försäkringsfallet, räknas hela tiden därefter till och med det år då den försäkrade fyller 65 år som framtida försäkringstid."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
+    "underavdelning": "IV Sjukersättning och aktivitetsersättning",
+    "kapitel": "35",
+    "paragraf_rubrik": "Försäkringstiden",
+    "paragraf_underrubrik": "Framtida försäkringstid",
+    "paragraf": "12",
+    "paragraf_periodisering": "Upphör att gälla U:2025-12-01",
+    "referens": "Lag (2024:1270)",
+    "stycke": 1,
+    "text": "Om den faktiska försäkringstiden enligt 6, 7 och 11 §§ utgör minst fyra femtedelar av tiden från och med det år då den försäkrade fyllde 16 år till och med året före försäkringsfallet, räknas hela tiden därefter till och med det år då den försäkrade fyller 65 år som framtida försäkringstid."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
+    "underavdelning": "IV Sjukersättning och aktivitetsersättning",
+    "kapitel": "35",
+    "paragraf_rubrik": "Försäkringstiden",
+    "paragraf_underrubrik": "Framtida försäkringstid",
+    "paragraf": "12",
+    "paragraf_periodisering": "Träder i kraft I:2025-12-01",
+    "referens": "Lag (2024:1272)",
+    "stycke": 1,
+    "text": "Om den faktiska försäkringstiden enligt 6, 7 och 11 §§ utgör minst fyra femtedelar av tiden från och med det år då den försäkrade fyllde 16 år till och med året före försäkringsfallet, räknas hela tiden därefter till och med året före det år då den försäkrade uppnår den vid försäkringsfallet gällande riktåldern för pension som framtida försäkringstid."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -11612,7 +11749,7 @@
     "paragraf_rubrik": "Försäkringstiden",
     "paragraf_underrubrik": "Försäkringsfall före 18 års ålder",
     "paragraf": "15",
-    "paragraf_periodisering": "Upphör att gälla U:2025-12-01",
+    "paragraf_periodisering": "Upphör att gälla U:2025-06-01",
     "referens": "Lag (2022:878)",
     "stycke": 1,
     "text": "För en försäkrad som avses i 14 § ska som försäkringstid räknas tiden från och med det år då han eller hon fyllde 16 år till och med det år då han eller hon fyller 65 år. Hänsyn ska dock bara tas till tid då den försäkrade efter fyllda 16 år har uppfyllt förutsättningarna för tillgodoräknande av försäkringstid enligt 6-11 §§."
@@ -11625,10 +11762,36 @@
     "paragraf_rubrik": "Försäkringstiden",
     "paragraf_underrubrik": "Försäkringsfall före 18 års ålder",
     "paragraf": "15",
-    "paragraf_periodisering": "Träder i kraft I:2025-12-01",
-    "referens": "Lag (2022:879)",
+    "paragraf_periodisering": "Träder i kraft I:2025-06-01",
+    "referens": "Lag (2024:1270)",
     "stycke": 1,
-    "text": "För en försäkrad som avses i 14 § ska som försäkringstid räknas tiden från och med det år då han eller hon fyllde 16 år till och med året före det år då han eller hon uppnår den riktålder för pension som gällde när han eller hon fyllde 17 år. Hänsyn ska dock bara tas till tid då den försäkrade efter fyllda 16 år har uppfyllt förutsättningarna för tillgodoräknande av försäkringstid enligt 6-11 §§."
+    "text": "För en försäkrad som avses i 14 § ska som försäkringstid räknas tiden från och med det år då han eller hon fyllde 16 år till och med det år då han eller hon fyller 65 år. Hänsyn ska dock bara tas till tid då den försäkrade efter fyllda 16 år har uppfyllt förutsättningarna för tillgodoräknande av försäkringstid enligt 6, 7 och 11 §§."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
+    "underavdelning": "IV Sjukersättning och aktivitetsersättning",
+    "kapitel": "35",
+    "paragraf_rubrik": "Försäkringstiden",
+    "paragraf_underrubrik": "Försäkringsfall före 18 års ålder",
+    "paragraf": "15",
+    "paragraf_periodisering": "Upphör att gälla U:2025-12-01",
+    "referens": "Lag (2024:1270)",
+    "stycke": 1,
+    "text": "För en försäkrad som avses i 14 § ska som försäkringstid räknas tiden från och med det år då han eller hon fyllde 16 år till och med det år då han eller hon fyller 65 år. Hänsyn ska dock bara tas till tid då den försäkrade efter fyllda 16 år har uppfyllt förutsättningarna för tillgodoräknande av försäkringstid enligt 6, 7 och 11 §§."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
+    "underavdelning": "IV Sjukersättning och aktivitetsersättning",
+    "kapitel": "35",
+    "paragraf_rubrik": "Försäkringstiden",
+    "paragraf_underrubrik": "Försäkringsfall före 18 års ålder",
+    "paragraf": "15",
+    "paragraf_periodisering": "Träder i kraft I:2025-12-01",
+    "referens": "Lag (2024:1272)",
+    "stycke": 1,
+    "text": "För en försäkrad som avses i 14 § ska som försäkringstid räknas tiden från och med det år då han eller hon fyllde 16 år till och med året före det år då han eller hon uppnår den riktålder för pension som gällde när han eller hon fyllde 17 år. Hänsyn ska dock bara tas till tid då den försäkrade efter fyllda 16 år har uppfyllt förutsättningarna för tillgodoräknande av försäkringstid enligt 6, 7 och 11 §§."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -16937,9 +17100,9 @@
     "paragraf_rubrik": "Inkomst av annat förvärvsarbete",
     "paragraf_underrubrik": "Ersättning till den som är godkänd för F-skatt",
     "paragraf": "16",
-    "referens": "Lag (2011:1434)",
+    "referens": "Lag (2024:1135)",
     "stycke": 1,
-    "text": "Om mottagaren hade ett godkännande för F-skatt med villkor enligt 9 kap. 3 § skatteförfarandelagen (2011:1244), räknas ersättningen som inkomst av annat förvärvsarbete bara om godkännandet har åberopats skriftligen."
+    "text": "Om mottagaren hade ett godkännande för F-skatt med villkor enligt 9 kap. 2 § skatteförfarandelagen (2011:1244), räknas ersättningen som inkomst av annat förvärvsarbete bara om godkännandet har åberopats skriftligen."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -17006,22 +17169,8 @@
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel": "59",
     "paragraf_rubrik": "Inkomst av annat förvärvsarbete",
-    "paragraf_underrubrik": "Ersättning från handelsbolag till delägare, m.m.",
-    "paragraf": "21",
-    "paragraf_periodisering": "Rubriken träder i kraft I:den dag som regeringen bestämmer",
-    "referens": "lag (2012:834)",
-    "stycke": 1,
-    "text": "Har upphävts genom"
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-    "underavdelning": "III Inkomstgrundad ålderspension",
-    "kapitel": "59",
-    "paragraf_rubrik": "Inkomst av annat förvärvsarbete",
     "paragraf_underrubrik": "Ersättning som lämnas av vissa militära serviceverksamheter",
     "paragraf": "21",
-    "paragraf_periodisering": "Träder i kraft I:den dag som regeringen bestämmer",
     "referens": "Lag (2024:536)",
     "stycke": 1,
     "text": "Som inkomst av annat förvärvsarbete räknas lön eller annan ersättning för arbete som den försäkrade får från en amerikansk styrka eller en utländsk organisation som driver en sådan militär serviceverksamhet som regleras i avtalet den 5 december 2023 mellan Sverige och Amerikas förenta stater om försvarssamarbete, om den försäkrade är en sådan lokal civilanställd som avses i artikel 24 i avtalet."
@@ -21700,34 +21849,6 @@
     "kapitel_periodisering": "Rubriken träder i kraft I:2025-12-01",
     "paragraf_rubrik": "Försäkringstiden",
     "paragraf_underrubrik": "Vistelse i Sverige före bosättning",
-    "paragraf": "8",
-    "paragraf_periodisering": "Träder i kraft I:2025-12-01",
-    "referens": "Lag (2022:879)",
-    "stycke": 1,
-    "text": "Vid beräkningen enligt 7 § ska en så stor andel av tiden i hemlandet tillgodoräknas som svarar mot kvoten mellan\n- den tid under vilken den pensionssökande har varit bosatt i Sverige, inräknad den tid som avses i 6 §, från den första ankomsten till landet till och med kalenderåret före det år då han eller hon uppnådde riktåldern för pension och\n- hela tidsrymden från det att den pensionssökande första gången kom till Sverige till och med året före det kalenderår då han eller hon uppnådde riktåldern för pension."
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-    "underavdelning": "IV Garantipension",
-    "kapitel": "67",
-    "kapitel_periodisering": "Rubriken träder i kraft I:2025-12-01",
-    "paragraf_rubrik": "Försäkringstiden",
-    "paragraf_underrubrik": "Vistelse i Sverige före bosättning",
-    "paragraf": "8",
-    "paragraf_periodisering": "Träder i kraft I:2025-12-01",
-    "referens": "Lag (2022:879)",
-    "stycke": 2,
-    "text": "Vid beräkningen ska det bortses från tid för vilken den pensionssökande, vid bosättning i Sverige, har rätt till pension från hemlandet."
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-    "underavdelning": "IV Garantipension",
-    "kapitel": "67",
-    "kapitel_periodisering": "Rubriken träder i kraft I:2025-12-01",
-    "paragraf_rubrik": "Försäkringstiden",
-    "paragraf_underrubrik": "Vistelse i Sverige före bosättning",
     "paragraf": "9",
     "referens": "lag (2022:1266)",
     "stycke": 1,
@@ -21798,20 +21919,6 @@
     "referens": "lag (2022:1266)",
     "stycke": 1,
     "text": "Har upphävts genom"
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-    "underavdelning": "IV Garantipension",
-    "kapitel": "67",
-    "kapitel_periodisering": "Rubriken träder i kraft I:2025-12-01",
-    "paragraf_rubrik": "Försäkringstiden",
-    "paragraf_underrubrik": "Tiden mellan 16 och 24 års ålder",
-    "paragraf": "13",
-    "paragraf_periodisering": "Träder i kraft I:2025-12-01",
-    "referens": "Lag (2022:879)",
-    "stycke": 1,
-    "text": "För den som omedelbart före den kalendermånad då han eller hon uppnådde riktåldern för pension hade rätt till hel sjukersättning i form av garantiersättning gäller följande. Om det är förmånligare än en beräkning enligt 5-12 §§, räknas som försäkringstid för garantipension den försäkringstid som legat till grund för beräkning av sjukersättningen."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -26322,31 +26429,6 @@
     "kapitel": "93",
     "paragraf_rubrik": "Försäkring och ansökan, m.m.",
     "paragraf": "4",
-    "paragraf_periodisering": "Upphör att gälla U:2025-01-01",
-    "referens": "Lag (2022:1041)",
-    "stycke": 1,
-    "text": "En förmån enligt denna avdelning lämnas endast till den som har ett gällande försäkringsskydd för förmånen enligt 4 och 5 kap."
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "G BOSTADSSTÖD",
-    "underavdelning": "I Inledande bestämmelser",
-    "kapitel": "93",
-    "paragraf_rubrik": "Försäkring och ansökan, m.m.",
-    "paragraf": "4",
-    "paragraf_periodisering": "Upphör att gälla U:2025-01-01",
-    "referens": "Lag (2022:1041)",
-    "stycke": 2,
-    "text": "Bestämmelser om anmälan och ansökan samt vissa gemensamma bestämmelser om förmåner och handläggning finns i 104-117 kap. (avdelning H). Bostadsbidrag i form av tilläggsbidrag till barnfamiljer lämnas dock utan ansökan."
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "G BOSTADSSTÖD",
-    "underavdelning": "I Inledande bestämmelser",
-    "kapitel": "93",
-    "paragraf_rubrik": "Försäkring och ansökan, m.m.",
-    "paragraf": "4",
-    "paragraf_periodisering": "Träder i kraft I:2025-01-01",
     "referens": "Lag (2022:1042)",
     "stycke": 1,
     "text": "En förmån enligt denna avdelning lämnas endast till den som har ett gällande försäkringsskydd för förmånen enligt 4 och 5 kap."
@@ -26358,7 +26440,6 @@
     "kapitel": "93",
     "paragraf_rubrik": "Försäkring och ansökan, m.m.",
     "paragraf": "4",
-    "paragraf_periodisering": "Träder i kraft I:2025-01-01",
     "referens": "Lag (2022:1042)",
     "stycke": 2,
     "text": "Bestämmelser om anmälan och ansökan samt vissa gemensamma bestämmelser om förmåner och handläggning finns i 104-117 kap. (avdelning H)."
@@ -26441,31 +26522,6 @@
     "kapitel": "95",
     "paragraf_rubrik": "Inledande bestämmelser",
     "paragraf": "2",
-    "paragraf_periodisering": "Upphör att gälla U:2025-01-01",
-    "referens": "Lag (2022:1041)",
-    "stycke": 1,
-    "text": "Bostadsbidrag lämnas i form av\n1. bidrag till kostnader för bostad,\n2. särskilt bidrag för hemmavarande barn,\n3. särskilt bidrag för barn som bor växelvis,\n4. umgängesbidrag till den som på grund av vårdnad eller umgänge tidvis har barn boende i sitt hem, och\n5. tilläggsbidrag till barnfamiljer."
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "G BOSTADSSTÖD",
-    "underavdelning": "II Bostadsbidrag",
-    "kapitel": "95",
-    "paragraf_rubrik": "Inledande bestämmelser",
-    "paragraf": "2",
-    "paragraf_periodisering": "Upphör att gälla U:2025-01-01",
-    "referens": "Lag (2022:1041)",
-    "stycke": 2,
-    "text": "Med barn som bor växelvis avses ett barn som bor varaktigt hos båda sina föräldrar som inte bor tillsammans."
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "G BOSTADSSTÖD",
-    "underavdelning": "II Bostadsbidrag",
-    "kapitel": "95",
-    "paragraf_rubrik": "Inledande bestämmelser",
-    "paragraf": "2",
-    "paragraf_periodisering": "Träder i kraft I:2025-01-01",
     "referens": "Lag (2022:1042)",
     "stycke": 1,
     "text": "Bostadsbidrag lämnas i form av\n1. bidrag till kostnader för bostad,\n2. särskilt bidrag för hemmavarande barn,\n3. särskilt bidrag för barn som bor växelvis, och\n4. umgängesbidrag till den som på grund av vårdnad eller umgänge tidvis har barn boende i sitt hem."
@@ -26477,7 +26533,6 @@
     "kapitel": "95",
     "paragraf_rubrik": "Inledande bestämmelser",
     "paragraf": "2",
-    "paragraf_periodisering": "Träder i kraft I:2025-01-01",
     "referens": "Lag (2022:1042)",
     "stycke": 2,
     "text": "Med barn som bor växelvis avses ett barn som bor varaktigt hos båda sina föräldrar som inte bor tillsammans."
@@ -26499,31 +26554,6 @@
     "kapitel": "95",
     "paragraf_rubrik": "Inledande bestämmelser",
     "paragraf": "4",
-    "paragraf_periodisering": "Upphör att gälla U:2025-01-01",
-    "referens": "Lag (2022:1041)",
-    "stycke": 1,
-    "text": "Bostadsbidrag enligt 2 § första stycket 1-4 betalas ut löpande som preliminärt bidrag, beräknat efter en uppskattad bidragsgrundande inkomst. Sådant bidrag bestäms slutligt i efterhand på grundval av den fastställda bidragsgrundande inkomsten."
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "G BOSTADSSTÖD",
-    "underavdelning": "II Bostadsbidrag",
-    "kapitel": "95",
-    "paragraf_rubrik": "Inledande bestämmelser",
-    "paragraf": "4",
-    "paragraf_periodisering": "Upphör att gälla U:2025-01-01",
-    "referens": "Lag (2022:1041)",
-    "stycke": 2,
-    "text": "Bostadsbidrag enligt 2 § första stycket 5 beräknas inte på grundval av en bidragsgrundande inkomst. Sådant bidrag betalas ut löpande med ett belopp som bestäms enligt 97 kap. 23 a §."
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "G BOSTADSSTÖD",
-    "underavdelning": "II Bostadsbidrag",
-    "kapitel": "95",
-    "paragraf_rubrik": "Inledande bestämmelser",
-    "paragraf": "4",
-    "paragraf_periodisering": "Träder i kraft I:2025-01-01",
     "referens": "Lag (2022:1042)",
     "stycke": 1,
     "text": "Bostadsbidrag betalas ut löpande som preliminärt bidrag, beräknat efter en uppskattad bidragsgrundande inkomst. Bostadsbidraget bestäms slutligt i efterhand på grundval av den fastställda bidragsgrundande inkomsten."
@@ -26585,31 +26615,6 @@
     "kapitel": "96",
     "paragraf_rubrik": "Innehåll",
     "paragraf": "1",
-    "paragraf_periodisering": "Upphör att gälla U:2025-01-01",
-    "referens": "Lag (2022:1041)",
-    "stycke": 1,
-    "text": "I detta kapitel finns allmänna bestämmelser i 2-3 a §§."
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "G BOSTADSSTÖD",
-    "underavdelning": "II Bostadsbidrag",
-    "kapitel": "96",
-    "paragraf_rubrik": "Innehåll",
-    "paragraf": "1",
-    "paragraf_periodisering": "Upphör att gälla U:2025-01-01",
-    "referens": "Lag (2022:1041)",
-    "stycke": 2,
-    "text": "Vidare finns bestämmelser om\n- barnfamiljer i 4-9 §§,\n- hushåll utan barn i 10 och 11 §§, och\n- förmånstiden i 12-15 §§."
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "G BOSTADSSTÖD",
-    "underavdelning": "II Bostadsbidrag",
-    "kapitel": "96",
-    "paragraf_rubrik": "Innehåll",
-    "paragraf": "1",
-    "paragraf_periodisering": "Träder i kraft I:2025-01-01",
     "referens": "Lag (2022:1042)",
     "stycke": 1,
     "text": "I detta kapitel finns allmänna bestämmelser i 2 och 3 §§."
@@ -26621,7 +26626,6 @@
     "kapitel": "96",
     "paragraf_rubrik": "Innehåll",
     "paragraf": "1",
-    "paragraf_periodisering": "Träder i kraft I:2025-01-01",
     "referens": "Lag (2022:1042)",
     "stycke": 2,
     "text": "Vidare finns bestämmelser om\n- barnfamiljer i 4-9 §§,\n- hushåll utan barn i 10 och 11 §§, och\n- förmånstiden i 12-15 §§."
@@ -26892,19 +26896,6 @@
     "kapitel": "97",
     "paragraf_rubrik": "Innehåll",
     "paragraf": "1",
-    "paragraf_periodisering": "Upphör att gälla U:2025-01-01",
-    "referens": "Lag (2022:1041)",
-    "stycke": 1,
-    "text": "I detta kapitel finns bestämmelser om\n- bidragsgrundande inkomst i 2-13 §§,\n- kostnader för bostad i 14 §,\n- beräkning av bostadsbidrag till barnfamiljer i 15-18 och 20-23 a §§,\n- beräkning av bostadsbidrag till hushåll utan barn i 24-28 §§, och\n- undantag när bidragsbehov saknas i 29 §."
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "G BOSTADSSTÖD",
-    "underavdelning": "II Bostadsbidrag",
-    "kapitel": "97",
-    "paragraf_rubrik": "Innehåll",
-    "paragraf": "1",
-    "paragraf_periodisering": "Träder i kraft I:2025-01-01",
     "referens": "Lag (2022:1042)",
     "stycke": 1,
     "text": "I detta kapitel finns bestämmelser om\n- bidragsgrundande inkomst i 2-13 §§,\n- kostnader för bostad i 14 §,\n- beräkning av bostadsbidrag till barnfamiljer i 15-18 och 20-23 §§,\n- beräkning av bostadsbidrag till hushåll utan barn i 24-28 §§, och\n- undantag när bidragsbehov saknas i 29 §."
@@ -27181,33 +27172,6 @@
     "paragraf_rubrik": "Beräkning av bostadsbidrag till barnfamiljer",
     "paragraf_underrubrik": "Grundläggande bestämmelser",
     "paragraf": "15",
-    "paragraf_periodisering": "Upphör att gälla U:2025-01-01",
-    "referens": "Lag (2022:1041)",
-    "stycke": 1,
-    "text": "Bostadsbidrag till barnfamiljer beräknas enligt 18-23 a §§."
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "G BOSTADSSTÖD",
-    "underavdelning": "II Bostadsbidrag",
-    "kapitel": "97",
-    "paragraf_rubrik": "Beräkning av bostadsbidrag till barnfamiljer",
-    "paragraf_underrubrik": "Grundläggande bestämmelser",
-    "paragraf": "15",
-    "paragraf_periodisering": "Upphör att gälla U:2025-01-01",
-    "referens": "Lag (2022:1041)",
-    "stycke": 2,
-    "text": "Om den bidragsgrundande inkomsten överstiger 150 000 kronor för en försäkrad, eller för makar 75 000 kronor för var och en av dem, ska bidraget enligt 95 kap. 2 § första stycket 1-4 minskas med 20 procent av den överskjutande inkomsten."
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "G BOSTADSSTÖD",
-    "underavdelning": "II Bostadsbidrag",
-    "kapitel": "97",
-    "paragraf_rubrik": "Beräkning av bostadsbidrag till barnfamiljer",
-    "paragraf_underrubrik": "Grundläggande bestämmelser",
-    "paragraf": "15",
-    "paragraf_periodisering": "Träder i kraft I:2025-01-01",
     "referens": "Lag (2022:1042)",
     "stycke": 1,
     "text": "Bostadsbidrag till barnfamiljer beräknas enligt 18-23 §§."
@@ -27220,7 +27184,6 @@
     "paragraf_rubrik": "Beräkning av bostadsbidrag till barnfamiljer",
     "paragraf_underrubrik": "Grundläggande bestämmelser",
     "paragraf": "15",
-    "paragraf_periodisering": "Träder i kraft I:2025-01-01",
     "referens": "Lag (2022:1042)",
     "stycke": 2,
     "text": "Om den bidragsgrundande inkomsten överstiger 150 000 kronor för en försäkrad, eller för makar 75 000 kronor för var och en av dem, ska bidraget minskas med 20 procent av den överskjutande inkomsten."
@@ -27360,6 +27323,7 @@
     "paragraf_rubrik": "Beräkning av bostadsbidrag till barnfamiljer",
     "paragraf_underrubrik": "Umgängesbidrag",
     "paragraf": "23",
+    "paragraf_periodisering": "Rubriken upphör att gälla U:2025-07-01",
     "referens": "Lag (2017:1123)",
     "stycke": 1,
     "text": "Bostadsbidrag lämnas månadsvis som umgängesbidrag med\n- 500 kronor för ett barn,\n- 600 kronor för två barn, och\n- 700 kronor för tre eller flera barn."
@@ -27372,6 +27336,7 @@
     "paragraf_rubrik": "Beräkning av bostadsbidrag till barnfamiljer",
     "paragraf_underrubrik": "Umgängesbidrag",
     "paragraf": "23",
+    "paragraf_periodisering": "Rubriken upphör att gälla U:2025-07-01",
     "referens": "Lag (2017:1123)",
     "stycke": 2,
     "text": "Om det i hushållet förutom hemmavarande barn eller barn som bor växelvis även finns sådana barn som avses i 95 kap. 2 § 4 lämnas umgängesbidrag med 100 kronor per månad för varje barn som berättigar till umgängesbidrag."
@@ -27382,11 +27347,23 @@
     "underavdelning": "II Bostadsbidrag",
     "kapitel": "97",
     "paragraf_rubrik": "Beräkning av bostadsbidrag till barnfamiljer",
-    "paragraf_underrubrik": "Umgängesbidrag",
+    "paragraf_underrubrik": "Tilläggsbidrag till barnfamiljer",
+    "paragraf": "23a",
+    "referens": "Lag (2024:1255)",
+    "stycke": 1,
+    "text": "Bostadsbidrag lämnas månadsvis som tilläggsbidrag till barnfamiljer med ett belopp som motsvarar 25 procent av det preliminära bostadsbidrag som lämnas enligt 95 kap. 2 § första stycket 1-4 för samma månad."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "G BOSTADSSTÖD",
+    "underavdelning": "II Bostadsbidrag",
+    "kapitel": "97",
+    "paragraf_rubrik": "Beräkning av bostadsbidrag till barnfamiljer",
+    "paragraf_underrubrik": "Tilläggsbidrag till barnfamiljer",
     "paragraf": "23a",
     "referens": "lag (2022:1042)",
     "stycke": 1,
-    "text": "Har upphävts genom"
+    "text": "/Upphör att gälla U:2025-07-01 genom\n./ Bostadsbidrag lämnas månadsvis som tilläggsbidrag till barnfamiljer med ett belopp som motsvarar 25 procent av det preliminära bostadsbidrag som lämnas enligt 95 kap. 2 § första stycket 1-4 för samma månad."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -27485,19 +27462,6 @@
     "kapitel": "98",
     "paragraf_rubrik": "Innehåll",
     "paragraf": "1",
-    "paragraf_periodisering": "Upphör att gälla U:2025-01-01",
-    "referens": "Lag (2022:1041)",
-    "stycke": 1,
-    "text": "I detta kapitel finns bestämmelser om\n- preliminärt bostadsbidrag i 2-4 §§,\n- slutligt bostadsbidrag i 5-7 §§,\n- omprövning vid ändrade förhållanden i 8 och 9 §§,\n- utbetalning till annan än den försäkrade i 10 och 11 §§, och\n- tilläggsbidrag till barnfamiljer i 12 §."
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "G BOSTADSSTÖD",
-    "underavdelning": "II Bostadsbidrag",
-    "kapitel": "98",
-    "paragraf_rubrik": "Innehåll",
-    "paragraf": "1",
-    "paragraf_periodisering": "Träder i kraft I:2025-01-01",
     "referens": "Lag (2022:1042)",
     "stycke": 1,
     "text": "I detta kapitel finns bestämmelser om\n- preliminärt bostadsbidrag i 2-4 §§,\n- slutligt bostadsbidrag i 5-7 §§,\n- omprövning vid ändrade förhållanden i 8 och 9 §§, och\n- utbetalning till annan än den försäkrade i 10 och 11 §§."
@@ -28922,9 +28886,9 @@
     "kapitel": "103 d",
     "paragraf_rubrik": "Ersättningsnivåer",
     "paragraf": "2",
-    "referens": "Lag (2011:1513)",
+    "referens": "Lag (2024:1269)",
     "stycke": 1,
-    "text": "Helt boendetillägg lämnas för år räknat med högst\n- 84 000 kronor till en ogift försäkrad, och\n- 42 000 kronor till en gift försäkrad."
+    "text": "Helt boendetillägg lämnas för år räknat med högst\n- 104 400 kronor till en ogift försäkrad, och\n- 52 200 kronor till en gift försäkrad."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -28933,9 +28897,9 @@
     "kapitel": "103 d",
     "paragraf_rubrik": "Ersättningsnivåer",
     "paragraf": "3",
-    "referens": "Lag (2011:1513)",
+    "referens": "Lag (2024:1269)",
     "stycke": 1,
-    "text": "Beloppen enligt 2 § ska höjas med\n- 12 000 kronor till hushåll med ett barn,\n- 18 000 kronor till hushåll med två barn, och\n- 24 000 kronor till hushåll med tre eller flera barn."
+    "text": "Beloppen enligt 2 § ska höjas med\n- 18 000 kronor till hushåll med ett barn,\n- 30 000 kronor till hushåll med två barn, och\n- 42 000 kronor till hushåll med tre eller flera barn."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -28944,7 +28908,7 @@
     "kapitel": "103 d",
     "paragraf_rubrik": "Ersättningsnivåer",
     "paragraf": "3",
-    "referens": "Lag (2011:1513)",
+    "referens": "Lag (2024:1269)",
     "stycke": 2,
     "text": "Med barn avses sådana barn som enligt 96 kap. berättigar till bostadsbidrag."
   },
@@ -28999,9 +28963,9 @@
     "kapitel": "103 d",
     "paragraf_rubrik": "Minskning av boendetillägg",
     "paragraf": "7",
-    "referens": "Lag (2011:1513)",
+    "referens": "Lag (2024:1269)",
     "stycke": 1,
-    "text": "Boendetillägget enligt 2-4 §§ ska minskas med 70 procent av den bidragsgrundande inkomsten enligt 5 och 6 §§ som överstiger 58 400 kronor."
+    "text": "Boendetillägget enligt 2-4 §§ ska minskas med 70 procent av den bidragsgrundande inkomsten enligt 5 och 6 §§ som överstiger 83 950 kronor."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -29942,9 +29906,22 @@
     "kapitel": "108",
     "paragraf_rubrik": "Innehåll",
     "paragraf": "1",
+    "paragraf_periodisering": "Upphör att gälla U:2025-03-01",
     "referens": "Lag (2013:747)",
     "stycke": 1,
     "text": "I detta kapitel finns bestämmelser om\n- återbetalning av ersättning i 2-10 §§,\n- eftergift i 11-14 §§,\n- verkställighet m.m. av beslut om återkrav i 14 a §,\n- ränta i 15-18 §§,\n- dröjsmålsränta i 19 och 20 §§,\n- eftergift av ränta och dröjsmålsränta i 21 §, och\n- avdrag på ersättning (kvittning) i 22, 24 och 25 §§."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
+    "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
+    "kapitel": "108",
+    "paragraf_rubrik": "Innehåll",
+    "paragraf": "1",
+    "paragraf_periodisering": "Träder i kraft I:2025-03-01",
+    "referens": "Lag (2025:39)",
+    "stycke": 1,
+    "text": "I detta kapitel finns bestämmelser om\n- återbetalning av ersättning i 2-10 §§,\n- eftergift i 11-14 §§,\n- verkställighet m.m. av beslut om återkrav i 14 a §,\n- ränta i 15-18 §§,\n- dröjsmålsränta i 19 och 20 §§,\n- eftergift av ränta och dröjsmålsränta i 21 §,\n- avdrag på ersättning (kvittning) i 22, 24 och 25 §§, och\n- betalningssäkring i 26-31 §§."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -30173,9 +30150,36 @@
     "paragraf_rubrik": "Eftergift",
     "paragraf_underrubrik": "Verkställighet m.m. av beslut om återkrav",
     "paragraf": "14a",
+    "paragraf_periodisering": "Upphör att gälla U:2025-03-01",
     "referens": "Lag (2013:747)",
     "stycke": 1,
     "text": "Efter det att ett beslut om återkrav har fattats av Pensionsmyndigheten i ett ärende ska den fortsatta handläggningen på grund av beslutet handhas av Försäkringskassan, även om återkravet avser en förmån som ska administreras av Pensionsmyndigheten."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
+    "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
+    "kapitel": "108",
+    "paragraf_rubrik": "Eftergift",
+    "paragraf_underrubrik": "Verkställighet m.m. av beslut om återkrav",
+    "paragraf": "14a",
+    "paragraf_periodisering": "Träder i kraft I:2025-03-01",
+    "referens": "Lag (2025:39)",
+    "stycke": 1,
+    "text": "Efter det att ett beslut om återkrav har fattats av Pensionsmyndigheten i ett ärende ska den fortsatta handläggningen på grund av beslutet handhas av Försäkringskassan, även om återkravet avser en förmån som ska administreras av Pensionsmyndigheten."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
+    "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
+    "kapitel": "108",
+    "paragraf_rubrik": "Eftergift",
+    "paragraf_underrubrik": "Verkställighet m.m. av beslut om återkrav",
+    "paragraf": "14a",
+    "paragraf_periodisering": "Träder i kraft I:2025-03-01",
+    "referens": "Lag (2025:39)",
+    "stycke": 2,
+    "text": "Försäkringskassan ska handha handläggningen av betalningssäkring enligt 26-31 §§ även innan Pensionsmyndigheten har fattat ett beslut om återkrav. Pensionsmyndigheten ska lämna de uppgifter som behövs för denna handläggning till Försäkringskassan."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -30338,8 +30342,126 @@
     "paragraf_rubrik": "Avdrag på ersättning (kvittning)",
     "paragraf_underrubrik": "Närmare om förmåner till efterlevande",
     "paragraf": "25",
+    "paragraf_periodisering": "Rubriken träder i kraft I:2025-03-01",
     "stycke": 1,
     "text": "Om Pensionsmyndigheten har beslutat om återbetalning av efterlevandestöd eller garantipension till omställningspension, ska avdrag för den återkrävda förmånen i första hand göras på retroaktivt beviljad inkomstgrundad efterlevandepension som avser samma tid som återkravet, i den utsträckning betalning inte redan har skett."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
+    "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
+    "kapitel": "108",
+    "paragraf_rubrik": "Avdrag på ersättning (kvittning)",
+    "paragraf_underrubrik": "Betalningssäkring",
+    "paragraf": "26",
+    "paragraf_periodisering": "Träder i kraft I:2025-03-01",
+    "referens": "Lag (2025:39)",
+    "stycke": 1,
+    "text": "För att säkerställa återbetalning av ersättning samt betalning av ränta och dröjsmålsränta enligt detta kapitel får egendom som tillhör den som är betalningsskyldig tas i anspråk (betalningssäkring)."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
+    "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
+    "kapitel": "108",
+    "paragraf_rubrik": "Avdrag på ersättning (kvittning)",
+    "paragraf_underrubrik": "Betalningssäkring",
+    "paragraf": "27",
+    "paragraf_periodisering": "Träder i kraft I:2025-03-01",
+    "referens": "Lag (2025:39)",
+    "stycke": 1,
+    "text": "Beslut om betalningssäkring fattas av förvaltningsrätten på ansökan av Försäkringskassan."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
+    "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
+    "kapitel": "108",
+    "paragraf_rubrik": "Avdrag på ersättning (kvittning)",
+    "paragraf_underrubrik": "Betalningssäkring",
+    "paragraf": "28",
+    "paragraf_periodisering": "Träder i kraft I:2025-03-01",
+    "referens": "Lag (2025:39)",
+    "stycke": 1,
+    "text": "Betalningssäkring får beslutas om\n1. det finns en påtaglig risk för att den som är betalningsskyldig drar sig undan skyldigheten, och\n2. betalningsskyldigheten avser ett betydande belopp."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
+    "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
+    "kapitel": "108",
+    "paragraf_rubrik": "Avdrag på ersättning (kvittning)",
+    "paragraf_underrubrik": "Betalningssäkring",
+    "paragraf": "28",
+    "paragraf_periodisering": "Träder i kraft I:2025-03-01",
+    "referens": "Lag (2025:39)",
+    "stycke": 2,
+    "text": "Om ett beslut om återbetalning inte har fattats, får betalningssäkring bara beslutas om det är sannolikt att ett beslut om återbetalning kommer att fattas. En betalningssäkring får i sådana fall inte avse ett högre belopp än det belopp som återbetalningsskyldigheten sannolikt kommer att fastställas till."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
+    "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
+    "kapitel": "108",
+    "paragraf_rubrik": "Avdrag på ersättning (kvittning)",
+    "paragraf_underrubrik": "Betalningssäkring",
+    "paragraf": "28",
+    "paragraf_periodisering": "Träder i kraft I:2025-03-01",
+    "referens": "Lag (2025:39)",
+    "stycke": 3,
+    "text": "Ett beslut om betalningssäkring får fattas bara om skälen för beslutet uppväger det intrång eller men i övrigt som beslutet innebär för den som beslutet gäller eller för något annat motstående intresse."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
+    "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
+    "kapitel": "108",
+    "paragraf_rubrik": "Avdrag på ersättning (kvittning)",
+    "paragraf_underrubrik": "Betalningssäkring",
+    "paragraf": "29",
+    "paragraf_periodisering": "Träder i kraft I:2025-03-01",
+    "referens": "Lag (2025:39)",
+    "stycke": 1,
+    "text": "Vid prövning av frågor om betalningssäkring ska 46 kap. 9-13 §§, 14 § första stycket 1 och andra stycket första meningen, 15 § och 20-22 §§ skatteförfarandelagen (2011:1244) tillämpas. Vid tillämpningen av 46 kap. 9-13 §§, 14 § andra stycket första meningen och 20-22 §§ skatteförfarandelagen ska det som anges där om Skatteverket gälla Försäkringskassan. Vid tillämpningen av 46 kap. 14 § första stycket 1 och 15 § skatteförfarandelagen ska det som anges där om Skatteverket gälla Försäkringskassan eller Pensionsmyndigheten."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
+    "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
+    "kapitel": "108",
+    "paragraf_rubrik": "Avdrag på ersättning (kvittning)",
+    "paragraf_underrubrik": "Betalningssäkring",
+    "paragraf": "30",
+    "paragraf_periodisering": "Träder i kraft I:2025-03-01",
+    "referens": "Lag (2025:39)",
+    "stycke": 1,
+    "text": "Om ett beslut om återbetalning har fattats, ska frågor om betalningssäkring prövas av den förvaltningsrätt som enligt 113 kap. 14 § är behörig att pröva ett överklagande av beslutet om återbetalning."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
+    "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
+    "kapitel": "108",
+    "paragraf_rubrik": "Avdrag på ersättning (kvittning)",
+    "paragraf_underrubrik": "Betalningssäkring",
+    "paragraf": "30",
+    "paragraf_periodisering": "Träder i kraft I:2025-03-01",
+    "referens": "Lag (2025:39)",
+    "stycke": 2,
+    "text": "Om ett beslut om återbetalning inte har fattats, ska frågor om betalningssäkring som rör en person som är bosatt i Sverige prövas av den förvaltningsrätt inom vars domkrets personen har sin hemortskommun enligt 113 kap. 15 § vid tidpunkten för ansökan om betalningssäkring. I övriga fall ska frågor om betalningssäkring prövas av den förvaltningsrätt inom vars domkrets det första beslutet om ersättning som utredningen om återbetalning avser fattades."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
+    "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
+    "kapitel": "108",
+    "paragraf_rubrik": "Avdrag på ersättning (kvittning)",
+    "paragraf_underrubrik": "Betalningssäkring",
+    "paragraf": "31",
+    "paragraf_periodisering": "Träder i kraft I:2025-03-01",
+    "referens": "Lag (2025:39)",
+    "stycke": 1,
+    "text": "Vid prövning av verkställighet av ett beslut om betalningssäkring ska 69 kap. 13-18 §§ och 71 kap. 1 § första stycket skatteförfarandelagen (2011:1244) tillämpas. Vid tillämpningen ska det som anges där om Skatteverket gälla Försäkringskassan."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -30471,46 +30593,6 @@
     "paragraf_rubrik": "Ansökan och anmälan m.m.",
     "paragraf_underrubrik": "Ansökan m.m.",
     "paragraf": "6",
-    "paragraf_periodisering": "Upphör att gälla U:2025-01-01",
-    "referens": "Lag (2022:1041)",
-    "stycke": 1,
-    "text": "Ansökan behöver, trots det som föreskrivs i 4 §, inte göras om följande förmåner.\n1. Barnbidrag, i annat fall än som avses i 15 kap. 6 §. Det finns dock särskilda bestämmelser om anmälan som gäller flerbarnstillägg i 16 kap. 12 §.\n2. Sjukpenning i fall där den försäkrade på grund av sjukdomen är förhindrad eller har synnerliga svårigheter att göra en ansökan.\n3. Assistansersättning när kommunen har anmält till Försäkringskassan att det kan antas att den enskilde har rätt till sådan ersättning."
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
-    "underavdelning": "III Gemensamma bestämmelser om handläggning m.m.",
-    "kapitel": "110",
-    "paragraf_rubrik": "Ansökan och anmälan m.m.",
-    "paragraf_underrubrik": "Ansökan m.m.",
-    "paragraf": "6",
-    "paragraf_periodisering": "Upphör att gälla U:2025-01-01",
-    "referens": "Lag (2022:1041)",
-    "stycke": 2,
-    "text": "Om omvårdnadsbidrag eller merkostnadsersättning har beviljats för begränsad tid får den tid för vilken förmånen ska lämnas förlängas utan att ansökan om detta har gjorts."
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
-    "underavdelning": "III Gemensamma bestämmelser om handläggning m.m.",
-    "kapitel": "110",
-    "paragraf_rubrik": "Ansökan och anmälan m.m.",
-    "paragraf_underrubrik": "Ansökan m.m.",
-    "paragraf": "6",
-    "paragraf_periodisering": "Upphör att gälla U:2025-01-01",
-    "referens": "Lag (2022:1041)",
-    "stycke": 3,
-    "text": "Ytterligare bestämmelser om att förmåner lämnas utan ansökan finns beträffande\n1. sjukersättning och aktivitetsersättning i 36 kap. 25-27 §§,\n2. allmän ålderspension i 56 kap. 4 a och 6 §§,\n3. inkomstpensionstillägg i 74 a kap. 8 § andra stycket,\n4. efterlevandepension och efterlevandestöd i 77 kap. 13 §,\n5. efterlevandelivränta i 88 kap. 10 § första stycket,\n6. premiepension till efterlevande i 92 kap. 2 § första stycket, och\n7. bostadsbidrag i form av tilläggsbidrag till barnfamiljer i 93 kap. 4 § andra stycket."
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
-    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
-    "underavdelning": "III Gemensamma bestämmelser om handläggning m.m.",
-    "kapitel": "110",
-    "paragraf_rubrik": "Ansökan och anmälan m.m.",
-    "paragraf_underrubrik": "Ansökan m.m.",
-    "paragraf": "6",
-    "paragraf_periodisering": "Träder i kraft I:2025-01-01",
     "referens": "Lag (2022:1042)",
     "stycke": 1,
     "text": "Ansökan behöver, trots det som föreskrivs i 4 §, inte göras om följande förmåner.\n1. Barnbidrag, i annat fall än som avses i 15 kap. 6 §. Det finns dock särskilda bestämmelser om anmälan som gäller flerbarnstillägg i 16 kap. 12 §.\n2. Sjukpenning i fall där den försäkrade på grund av sjukdomen är förhindrad eller har synnerliga svårigheter att göra en ansökan.\n3. Assistansersättning när kommunen har anmält till Försäkringskassan att det kan antas att den enskilde har rätt till sådan ersättning."
@@ -30523,7 +30605,6 @@
     "paragraf_rubrik": "Ansökan och anmälan m.m.",
     "paragraf_underrubrik": "Ansökan m.m.",
     "paragraf": "6",
-    "paragraf_periodisering": "Träder i kraft I:2025-01-01",
     "referens": "Lag (2022:1042)",
     "stycke": 2,
     "text": "Om omvårdnadsbidrag eller merkostnadsersättning har beviljats för begränsad tid får den tid för vilken förmånen ska lämnas förlängas utan att ansökan om detta har gjorts."
@@ -30536,7 +30617,6 @@
     "paragraf_rubrik": "Ansökan och anmälan m.m.",
     "paragraf_underrubrik": "Ansökan m.m.",
     "paragraf": "6",
-    "paragraf_periodisering": "Träder i kraft I:2025-01-01",
     "referens": "Lag (2022:1042)",
     "stycke": 3,
     "text": "Ytterligare bestämmelser om att förmåner lämnas utan ansökan finns beträffande\n1. sjukersättning och aktivitetsersättning i 36 kap. 25-27 §§,\n2. allmän ålderspension i 56 kap. 4 a och 6 §§,\n3. inkomstpensionstillägg i 74 a kap. 8 § andra stycket,\n4. efterlevandepension och efterlevandestöd i 77 kap. 13 §,\n5. efterlevandelivränta i 88 kap. 10 § första stycket, och\n6. premiepension till efterlevande i 92 kap. 2 § första stycket."
@@ -34092,7 +34172,7 @@
     "paragraf": "9",
     "referens": "Lag (2020:427)",
     "stycke": 114,
-    "text": "2022:1042\n1. Denna lag träder i kraft den 1 januari 2025. (Lag 2024:471).\n2. Äldre bestämmelser gäller fortfarande för bostadsbidrag som avser tid före ikraftträdandet."
+    "text": "2022:1042\n1. Denna lag träder i kraft den 1 juli 2025. (Lag 2024:1256).\n2. Äldre bestämmelser gäller fortfarande för bostadsbidrag som avser tid före ikraftträdandet."
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -34192,5 +34272,60 @@
     "referens": "Lag (2020:427)",
     "stycke": 123,
     "text": "2024:508\n1. Denna lag träder i kraft den 1 oktober 2025.\n2. Äldre bestämmelser gäller fortfarande när en försäkrad får dagpenning enligt den upphävda lagen (1997:238) om arbetslöshetsförsäkring."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
+    "underavdelning": "IV Vissa organisatoriska bestämmelser",
+    "kapitel": "117",
+    "paragraf_rubrik": "Avvikande föreskrifter",
+    "paragraf": "9",
+    "referens": "Lag (2020:427)",
+    "stycke": 124,
+    "text": "2024:694\n1. Denna lag träder i kraft den 1 november 2024.\n2. För den som var folkbokförd i Sverige den 31 oktober 2024 gäller 5 kap. 3 § i den äldre lydelsen."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
+    "underavdelning": "IV Vissa organisatoriska bestämmelser",
+    "kapitel": "117",
+    "paragraf_rubrik": "Avvikande föreskrifter",
+    "paragraf": "9",
+    "referens": "Lag (2020:427)",
+    "stycke": 125,
+    "text": "2024:1255\n1. Denna lag träder i kraft den 1 januari 2025 i fråga om 97 kap. 23 a § och i övrigt den 1 april 2025.\n2. Äldre föreskrifter gäller fortfarande för bostadsbidrag som avser tid före den 1 januari 2025 och för föräldrapenning som avser tid före den 1 april 2025."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
+    "underavdelning": "IV Vissa organisatoriska bestämmelser",
+    "kapitel": "117",
+    "paragraf_rubrik": "Avvikande föreskrifter",
+    "paragraf": "9",
+    "referens": "Lag (2020:427)",
+    "stycke": 126,
+    "text": "2024:1269\n1. Denna lag träder i kraft den 1 januari 2025.\n2. Äldre bestämmelser gäller fortfarande i fråga om sjukpenning i särskilda fall, rehabiliteringspenning i särskilda fall och boendetillägg som avser tid före ikraftträdandet."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
+    "underavdelning": "IV Vissa organisatoriska bestämmelser",
+    "kapitel": "117",
+    "paragraf_rubrik": "Avvikande föreskrifter",
+    "paragraf": "9",
+    "referens": "Lag (2020:427)",
+    "stycke": 127,
+    "text": "2024:1270\n1. Denna lag träder i kraft den 1 juni 2025.\n2. Lagen tillämpas första gången för tid från och med den 1 juli 2025.\n3. För en försäkrad som har rätt till sjukersättning eller aktivitetsersättning från och med juli 2025 eller från och med en senare tidpunkt och som oavbrutet haft rätt till sjukersättning eller aktivitetsersättning sedan före den 1 juli 2025 gäller de upphävda paragraferna och bestämmelserna i 35 kap. 4, 12 och 15 §§ i den äldre lydelsen fortfarande för beräkning av försäkringstid för tid från och med 2003 till och med juni 2025.\n4. Bestämmelserna i 26 kap. 8 § och 27 kap. 35 och 54 §§ i den äldre lydelsen gäller fortfarande för den som har rätt till sjukersättning eller aktivitetsersättning för tid före den 1 juli 2025."
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
+    "underavdelning": "IV Vissa organisatoriska bestämmelser",
+    "kapitel": "117",
+    "paragraf_rubrik": "Avvikande föreskrifter",
+    "paragraf": "9",
+    "referens": "Lag (2020:427)",
+    "stycke": 128,
+    "text": "2025:39\n1. Denna lag träder i kraft den 1 mars 2025.\n2. De nya bestämmelserna tillämpas inte på beslut om återbetalning som har fattats före ikraftträdandet."
   }
 ]

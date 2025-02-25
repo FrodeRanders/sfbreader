@@ -885,12 +885,19 @@
             {
               "nummer": 1,
               "text": [
-                "Den som kommer till Sverige och kan antas komma att vistas här under längre tid än ett år ska anses vara bosatt här i landet. Detta gäller dock inte om synnerliga skäl talar mot det. En utlänning som enligt 4 § andra stycket folkbokföringslagen (1991:481) inte ska folkbokföras ska inte heller anses vara bosatt här."
+                "Den som kommer till Sverige och kan antas komma att vistas här under längre tid än ett år ska anses vara bosatt här i landet. Detta gäller dock inte om synnerliga skäl talar mot det."
               ],
               "punkt": []
             },
             {
               "nummer": 2,
+              "text": [
+                "En utlänning som har ett uppehållstillstånd med tillfälligt skydd, eller uppehållstillstånd efter tillfälligt skydd, enligt 21 kap. 2, 3, 4 eller 6 § utlänningslagen (2005:716) ska inte anses vara bosatt här. Detta gäller dock inte, om utlänningen har beviljats en flyktingstatusförklaring enligt 4 kap. 3 c § utlänningslagen eller ett resedokument enligt 4 kap. 4 § utlänningslagen."
+              ],
+              "punkt": []
+            },
+            {
+              "nummer": 3,
               "text": [
                 "En i Sverige bosatt person som lämnar landet ska fortfarande anses vara bosatt här i landet om utlandsvistelsen kan antas vara längst ett år."
               ],
@@ -898,7 +905,9 @@
             }
           ],
           "rubrik": "Bosättning i Sverige",
-          "referens": []
+          "referens": [
+            "Lag (2024:694)"
+          ]
         },
         {
           "nummer": "4",
@@ -946,7 +955,6 @@
         },
         {
           "nummer": "5a",
-          "periodisering": "Träder i kraft I:den dag som regeringen bestämmer",
           "stycke": [
             {
               "nummer": 1,
@@ -1063,7 +1071,13 @@
             {
               "nummer": 2,
               "text": [
-                "Avdelning B Familjeförmåner",
+                "Avdelning B Familjeförmåner"
+              ],
+              "punkt": []
+            },
+            {
+              "nummer": 3,
+              "text": [
                 "1. föräldrapenning på lägstanivå",
                 "och grundnivå, (11 och 12 kap.)",
                 "2. barnbidrag, (15 och 16 kap.)",
@@ -1100,7 +1114,7 @@
               ]
             },
             {
-              "nummer": 3,
+              "nummer": 4,
               "text": [
                 "Avdelning C Förmåner vid sjukdom eller arbetsskada",
                 "6. sjukpenning i särskilda fall, (28 a kap.)",
@@ -1128,7 +1142,7 @@
               ]
             },
             {
-              "nummer": 4,
+              "nummer": 5,
               "text": [
                 "Avdelning D Särskilda förmåner vid funktionshinder",
                 "9. merkostnadsersättning, (50 kap.)",
@@ -1154,7 +1168,7 @@
               ]
             },
             {
-              "nummer": 5,
+              "nummer": 6,
               "text": [
                 "Avdelning E Förmåner vid ålderdom",
                 "12. garantipension, (55, 56, 65-67 och",
@@ -1181,7 +1195,7 @@
               ]
             },
             {
-              "nummer": 6,
+              "nummer": 7,
               "text": [
                 "Avdelning F Förmåner till efterlevande",
                 "15. efterlevandestöd, (77, 79 och 85 kap.)",
@@ -1202,7 +1216,7 @@
               ]
             },
             {
-              "nummer": 7,
+              "nummer": 8,
               "text": [
                 "Avdelning G Bostadsstöd",
                 "17. bostadsbidrag, (95-98 kap.)",
@@ -1286,7 +1300,7 @@
             {
               "nummer": 2,
               "text": [
-                "Till den som har beviljats ett tidsbegränsat uppehållstillstånd får bosättningsbaserade förmåner lämnas utan hinder av att tillståndet har upphört att gälla, om en ansökan om fortsatt uppehållstillstånd har kommit in till Migrationsverket innan det tidigare tillståndet har upphört att gälla och ansökan avser ett fortsatt tillstånd på samma grund eller på en sådan annan grund som enligt 5 kap. 18 § andra stycket 8 b eller 5 b kap. 15 § andra stycket 3 utlänningslagen kan beviljas efter inresan eller ett nytt tillstånd med stöd av någon bestämmelse i lagen (2017:353) om uppehållstillstånd för studerande på gymnasial nivå. Om ansökan avslås får förmåner lämnas till dess att utlänningens tidsfrist för frivillig avresa enligt 8 kap. 21 § första stycket utlänningslagen har löpt ut. Om avslagsbeslutet inte innehåller någon tidsfrist för frivillig avresa får förmåner lämnas till dess att beslutet har fått laga kraft."
+                "Till den som har beviljats ett tidsbegränsat uppehållstillstånd får bosättningsbaserade förmåner lämnas utan hinder av att tillståndet har upphört att gälla, om en ansökan om fortsatt uppehållstillstånd har kommit in till Migrationsverket innan det tidigare tillståndet har upphört att gälla och ansökan avser ett fortsatt tillstånd på samma grund eller på en sådan annan grund som enligt 5 kap. 18 § andra stycket 8 b, 5 b kap. 15 § andra stycket 3 eller 6 a kap. 4 § andra stycket 10 utlänningslagen kan beviljas efter inresan eller ett nytt tillstånd med stöd av någon bestämmelse i lagen (2017:353) om uppehållstillstånd för studerande på gymnasial nivå. Om ansökan avslås får förmåner lämnas till dess att utlänningens tidsfrist för frivillig avresa enligt 8 kap. 21 § första stycket utlänningslagen har löpt ut. Om avslagsbeslutet inte innehåller någon tidsfrist för frivillig avresa får förmåner lämnas till dess att beslutet har fått laga kraft."
               ],
               "punkt": []
             },
@@ -1301,7 +1315,7 @@
           "rubrik": "Socialförsäkringsskyddet i samband med inflyttning till Sverige",
           "underrubrik": "När uppehållstillstånd behövs",
           "referens": [
-            "Lag (2022:304)"
+            "Lag (2024:1221)"
           ]
         },
         {
@@ -1660,30 +1674,6 @@
         },
         {
           "nummer": "5",
-          "periodisering": "Upphör att gälla U:den dag som regeringen bestämmer",
-          "stycke": [
-            {
-              "nummer": 1,
-              "text": [
-                "Arbete som utförs av en person som tillhör en annan stats beskickning eller karriärkonsulat ska anses som arbete i Sverige endast om det är förenligt med bestämmelserna om immunitet och privilegier i de konventioner som anges i 2 och 3 §§ lagen (1976:661) om immunitet och privilegier i vissa fall. Detta gäller även en sådan persons privattjänare."
-              ],
-              "punkt": []
-            },
-            {
-              "nummer": 2,
-              "text": [
-                "Ett sådant arbete som medför att en person på grund av anknytning till en internationell organisation omfattas av bestämmelserna i 4 § lagen om immunitet och privilegier i vissa fall ska anses som arbete i Sverige endast i den mån det är förenligt med vad som följer av tillämplig stadga eller avtal som anges i bilagan till den lagen."
-              ],
-              "punkt": []
-            }
-          ],
-          "rubrik": "Särskilda personkategorier",
-          "underrubrik": "Diplomater m.fl.",
-          "referens": []
-        },
-        {
-          "nummer": "5",
-          "periodisering": "Träder i kraft I:den dag som regeringen bestämmer",
           "stycke": [
             {
               "nummer": 1,
@@ -1726,7 +1716,13 @@
             {
               "nummer": 2,
               "text": [
-                "Avdelning B Familjeförmåner",
+                "Avdelning B Familjeförmåner"
+              ],
+              "punkt": []
+            },
+            {
+              "nummer": 3,
+              "text": [
                 "1. graviditetspenning, (10 kap.)",
                 "2. föräldrapenning på grundnivå eller sjukpenningnivå och",
                 "tillfällig föräldrapenning, (11-13 kap.)"
@@ -1745,7 +1741,7 @@
               ]
             },
             {
-              "nummer": 3,
+              "nummer": 4,
               "text": [
                 "Avdelning C Förmåner vid sjukdom eller arbetsskada",
                 "3. sjukpenning, (24-28 kap.)",
@@ -1785,7 +1781,7 @@
               ]
             },
             {
-              "nummer": 4,
+              "nummer": 5,
               "text": [
                 "Avdelning E Förmåner vid ålderdom",
                 "8. inkomstgrundad ålderspension, (55-64 och 69-71 kap.)",
@@ -1805,7 +1801,7 @@
               ]
             },
             {
-              "nummer": 5,
+              "nummer": 6,
               "text": [
                 "Avdelning F Förmåner till efterlevande",
                 "9. inkomstrelaterad",
@@ -3325,11 +3321,20 @@
                 "En förälder har rätt till föräldrapenningsförmåner endast för vård av barn som är bosatt i Sverige. Vid adoption ska barnet anses bosatt i Sverige om den blivande föräldern är bosatt här."
               ],
               "punkt": []
+            },
+            {
+              "nummer": 2,
+              "text": [
+                "Trots det som anges i första stycket har en förälder rätt till föräldrapenningsförmåner för vård av barn som har beviljats uppehållstillstånd med tillfälligt skydd, eller uppehållstillstånd efter tillfälligt skydd, enligt 21 kap. 2, 3, 4 eller 6 § utlänningslagen (2005:716)."
+              ],
+              "punkt": []
             }
           ],
           "rubrik": "Rätten till föräldrapenningsförmåner",
           "underrubrik": "Allmänna bestämmelser",
-          "referens": []
+          "referens": [
+            "Lag (2024:694)"
+          ]
         },
         {
           "nummer": "9",
@@ -3855,6 +3860,7 @@
         },
         {
           "nummer": "9",
+          "periodisering": "Upphör att gälla U:2025-04-01",
           "stycke": [
             {
               "nummer": 1,
@@ -3907,6 +3913,55 @@
           "referens": []
         },
         {
+          "nummer": "9",
+          "periodisering": "Träder i kraft I:2025-04-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Föräldrapenning lämnas enligt följande förmånsnivåer:",
+                "1. Hel föräldrapenning lämnas för dag när föräldern inte förvärvsarbetar.",
+                "2. Tre fjärdedels föräldrapenning lämnas när föräldern förvärvsarbetar högst en fjärdedel av normal arbetstid.",
+                "3. Halv föräldrapenning lämnas när föräldern förvärvsarbetar högst hälften av normal arbetstid.",
+                "4. En fjärdedels föräldrapenning lämnas när föräldern förvärvsarbetar högst tre fjärdedelar av normal arbetstid.",
+                "5. En åttondels föräldrapenning lämnas när föräldern förvärvsarbetar högst sju åttondelar av normal arbetstid."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. Hel föräldrapenning lämnas för dag när föräldern inte förvärvsarbetar."
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. Tre fjärdedels föräldrapenning lämnas när föräldern förvärvsarbetar högst en fjärdedel av normal arbetstid."
+                },
+                {
+                  "nummer": 3,
+                  "id": "3",
+                  "text": "3. Halv föräldrapenning lämnas när föräldern förvärvsarbetar högst hälften av normal arbetstid."
+                },
+                {
+                  "nummer": 4,
+                  "id": "4",
+                  "text": "4. En fjärdedels föräldrapenning lämnas när föräldern förvärvsarbetar högst tre fjärdedelar av normal arbetstid."
+                },
+                {
+                  "nummer": 5,
+                  "id": "5",
+                  "text": "5. En åttondels föräldrapenning lämnas när föräldern förvärvsarbetar högst sju åttondelar av normal arbetstid."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Rätten till föräldrapenning",
+          "underrubrik": "Förmånsnivåer och förvärvsarbete",
+          "referens": [
+            "Lag (2024:1255)"
+          ]
+        },
+        {
           "nummer": "10",
           "stycke": [
             {
@@ -3943,6 +3998,7 @@
         },
         {
           "nummer": "11",
+          "periodisering": "Upphör att gälla U:2025-04-01",
           "stycke": [
             {
               "nummer": 1,
@@ -3955,6 +4011,24 @@
           "rubrik": "Rätten till föräldrapenning",
           "underrubrik": "Förmånsnivåer och förvärvsarbete",
           "referens": []
+        },
+        {
+          "nummer": "11",
+          "periodisering": "Träder i kraft I:2025-04-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Föräldrapenning lämnas för tid som normalt är arbetsfri för föräldern endast om han eller hon i direkt anslutning till den arbetsfria tiden får föräldrapenning på motsvarande eller högre förmånsnivå och ersättningsnivå. Detta gäller dock endast för perioder av arbetsfri tid om högst fyra dagar."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Rätten till föräldrapenning",
+          "underrubrik": "Förmånsnivåer och förvärvsarbete",
+          "referens": [
+            "Lag (2024:1255)"
+          ]
         },
         {
           "nummer": "12",
@@ -10828,7 +10902,7 @@
             {
               "nummer": 2,
               "text": [
-                "Om mottagaren är godkänd för F-skatt med villkor enligt 9 kap. 3 § skatteförfarandelagen (2011:1244), räknas ersättningen som inkomst av annat förvärvsarbete bara om godkännandet skriftligen åberopas."
+                "Om mottagaren är godkänd för F-skatt med villkor enligt 9 kap. 2 § skatteförfarandelagen (2011:1244), räknas ersättningen som inkomst av annat förvärvsarbete bara om godkännandet åberopas skriftligen."
               ],
               "punkt": []
             }
@@ -10836,7 +10910,7 @@
           "rubrik": "Inkomst av annat förvärvsarbete",
           "underrubrik": "Ersättning till den som är godkänd för F-skatt",
           "referens": [
-            "Lag (2011:1434)"
+            "Lag (2024:1135)"
           ]
         },
         {
@@ -10906,7 +10980,7 @@
             {
               "nummer": 1,
               "text": [
-                "Som inkomst av annat förvärvsarbete räknas ersättning för arbete om ersättningen betalas ut till en mottagare som inte är godkänd för F-skatt eller är godkänd för F-skatt med villkor enligt 9 kap. 3 § skatteförfarandelagen (2011:1244), om",
+                "Som inkomst av annat förvärvsarbete räknas ersättning för arbete om ersättningen betalas ut till en mottagare som inte är godkänd för F-skatt eller är godkänd för F-skatt med villkor enligt 9 kap. 2 § skatteförfarandelagen (2011:1244), om",
                 "1. utbetalaren är en fysisk person eller ett dödsbo,",
                 "2. ersättningen inte är en utgift i en näringsverksamhet som bedrivs av utbetalaren,",
                 "3. ersättningen tillsammans med annan ersättning för arbete från samma utbetalare under beskattningsåret kan antas bli mindre än 10 000 kronor,",
@@ -10945,7 +11019,7 @@
           "rubrik": "Inkomst av annat förvärvsarbete",
           "underrubrik": "Viss ersättning från privatpersoner",
           "referens": [
-            "Lag (2011:1434)"
+            "Lag (2024:1135)"
           ]
         },
         {
@@ -10965,25 +11039,6 @@
         },
         {
           "nummer": "15",
-          "periodisering": "Rubriken träder i kraft I:den dag som regeringen bestämmer",
-          "stycke": [
-            {
-              "nummer": 1,
-              "text": [
-                "Har upphävts genom"
-              ],
-              "punkt": []
-            }
-          ],
-          "rubrik": "Inkomst av annat förvärvsarbete",
-          "underrubrik": "Ersättning från handelsbolag till delägare, m.m.",
-          "referens": [
-            "lag (2012:834)"
-          ]
-        },
-        {
-          "nummer": "15",
-          "periodisering": "Träder i kraft I:den dag som regeringen bestämmer",
           "stycke": [
             {
               "nummer": 1,
@@ -11433,6 +11488,7 @@
         },
         {
           "nummer": "8",
+          "periodisering": "Upphör att gälla U:2025-06-01",
           "stycke": [
             {
               "nummer": 1,
@@ -11445,6 +11501,23 @@
           "rubrik": "Ändring av den sjukpenninggrundande inkomsten",
           "referens": [
             "Lag (2014:239)"
+          ]
+        },
+        {
+          "nummer": "8",
+          "periodisering": "Träder i kraft I:2025-06-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Bestämmelsen i 7 § 1 ska tillämpas även när den försäkrade skulle ha fått sådan ersättning som avses där i form av garantiersättning om han eller hon hade haft rätt till sådan ersättning enligt bestämmelserna i 35 kap. 4-7 och 11-15 §§ om försäkringstid."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Ändring av den sjukpenninggrundande inkomsten",
+          "referens": [
+            "Lag (2024:1270)"
           ]
         },
         {
@@ -13096,7 +13169,7 @@
             {
               "nummer": 1,
               "text": [
-                "Den som betalar egenavgift och som gjort anmälan om karenstid enligt 29 § får efter uppsägningstid övergå till sjukpenning med kortare eller ingen karenstid, om han eller hon inte har fyllt 55 år vid anmälan till Försäkringskassan om ändrad karenstid. Uppsägningstiden är det antal dagar med vilka karenstiden förkortas."
+                "Den som betalar egenavgift och som gjort anmälan om karenstid enligt 29 § får efter uppsägningstid övergå till sjukpenning med kortare eller ingen karenstid. Uppsägningstiden är det antal dagar med vilka karenstiden förkortas."
               ],
               "punkt": []
             },
@@ -13118,7 +13191,7 @@
           "rubrik": "Förmånstiden",
           "underrubrik": "Karenstid för den som betalar egenavgift",
           "referens": [
-            "Lag (2018:647)"
+            "Lag (2024:1269)"
           ]
         },
         {
@@ -13203,6 +13276,7 @@
         },
         {
           "nummer": "35",
+          "periodisering": "Upphör att gälla U:2025-06-01",
           "stycke": [
             {
               "nummer": 1,
@@ -13216,6 +13290,24 @@
           "underrubrik": "Sjukpenning i samband med sjukersättning, aktivitetsersättning eller pension",
           "referens": [
             "Lag (2014:239)"
+          ]
+        },
+        {
+          "nummer": "35",
+          "periodisering": "Träder i kraft I:2025-06-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Bestämmelserna i 34 § om sjukersättning och aktivitetsersättning ska tillämpas även när den försäkrade skulle ha haft sådan ersättning i form av garantiersättning om han eller hon hade haft rätt till sådan ersättning enligt bestämmelserna i 35 kap. 4-7 och 11-15 §§ om försäkringstid."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Förmånstiden",
+          "underrubrik": "Sjukpenning i samband med sjukersättning, aktivitetsersättning eller pension",
+          "referens": [
+            "Lag (2024:1270)"
           ]
         },
         {
@@ -13846,6 +13938,7 @@
         },
         {
           "nummer": "54",
+          "periodisering": "Upphör att gälla U:2025-06-01",
           "stycke": [
             {
               "nummer": 1,
@@ -13859,6 +13952,24 @@
           "underrubrik": "Försäkrade som får sjukersättning eller aktivitetsersättning m.m.",
           "referens": [
             "Lag (2014:239)"
+          ]
+        },
+        {
+          "nummer": "54",
+          "periodisering": "Träder i kraft I:2025-06-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Bestämmelsen i 53 § 1 ska tillämpas även när den försäkrade skulle ha haft sjukersättning eller aktivitetsersättning i form av garantiersättning om han eller hon hade haft rätt till sådan ersättning enligt bestämmelserna i 35 kap. 4-7 och 11-15 §§ om försäkringstid."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
+          "underrubrik": "Försäkrade som får sjukersättning eller aktivitetsersättning m.m.",
+          "referens": [
+            "Lag (2024:1270)"
           ]
         },
         {
@@ -14759,7 +14870,7 @@
             {
               "nummer": 1,
               "text": [
-                "En försäkrad som omfattas av 3 § och som på grund av bestämmelserna om sjukpenninggrundande inkomst i denna balk inte skulle ha rätt till hel sjukpenning som på fortsättningsnivån medför en sjukpenning om minst 160 kronor per kalenderdag, har rätt till sjukpenning i särskilda fall vid sjukdom som sätter ned hans eller hennes arbetsförmåga."
+                "En försäkrad som omfattas av 3 § och som på grund av bestämmelserna om sjukpenninggrundande inkomst i denna balk inte skulle ha rätt till hel sjukpenning som på fortsättningsnivån medför en sjukpenning om minst 230 kronor per kalenderdag, har rätt till sjukpenning i särskilda fall vid sjukdom som sätter ned hans eller hennes arbetsförmåga."
               ],
               "punkt": []
             },
@@ -14773,7 +14884,7 @@
           ],
           "rubrik": "Rätten till sjukpenning i särskilda fall",
           "referens": [
-            "Lag (2011:1513)"
+            "Lag (2024:1269)"
           ]
         },
         {
@@ -14905,38 +15016,38 @@
               "nummer": 1,
               "text": [
                 "Sjukpenning i särskilda fall lämnas med högst",
-                "- 160 kronor per dag vid hel förmån,",
-                "- 120 kronor per dag vid tre fjärdedels förmån,",
-                "- 80 kronor per dag vid halv förmån, och",
-                "- 40 kronor per dag vid en fjärdedels förmån."
+                "- 230 kronor per dag vid hel förmån,",
+                "- 173 kronor per dag vid tre fjärdedels förmån,",
+                "- 115 kronor per dag vid halv förmån, och",
+                "- 58 kronor per dag vid en fjärdedels förmån."
               ],
               "punkt": [
                 {
                   "nummer": 1,
                   "id": "-",
-                  "text": "- 160 kronor per dag vid hel förmån,"
+                  "text": "- 230 kronor per dag vid hel förmån,"
                 },
                 {
                   "nummer": 2,
                   "id": "-",
-                  "text": "- 120 kronor per dag vid tre fjärdedels förmån,"
+                  "text": "- 173 kronor per dag vid tre fjärdedels förmån,"
                 },
                 {
                   "nummer": 3,
                   "id": "-",
-                  "text": "- 80 kronor per dag vid halv förmån, och"
+                  "text": "- 115 kronor per dag vid halv förmån, och"
                 },
                 {
                   "nummer": 4,
                   "id": "-",
-                  "text": "- 40 kronor per dag vid en fjärdedels förmån."
+                  "text": "- 58 kronor per dag vid en fjärdedels förmån."
                 }
               ]
             }
           ],
           "rubrik": "Ersättningsnivåer",
           "referens": [
-            "Lag (2011:1513)"
+            "Lag (2024:1269)"
           ]
         },
         {
@@ -15019,25 +15130,25 @@
               "nummer": 1,
               "text": [
                 "I det fall en försäkrad får sjukersättning lämnas hel sjukpenning i särskilda fall med högst",
-                "- 120 kronor per dag när sjukersättning lämnas som en fjärdedels förmån,",
-                "- 80 kronor per dag när sjukersättning lämnas som en halv förmån, och",
-                "- 40 kronor per dag när sjukersättning lämnas som tre fjärdedels förmån."
+                "- 173 kronor per dag när sjukersättning lämnas som en fjärdedels förmån,",
+                "- 115 kronor per dag när sjukersättning lämnas som en halv förmån, och",
+                "- 58 kronor per dag när sjukersättning lämnas som tre fjärdedels förmån."
               ],
               "punkt": [
                 {
                   "nummer": 1,
                   "id": "-",
-                  "text": "- 120 kronor per dag när sjukersättning lämnas som en fjärdedels förmån,"
+                  "text": "- 173 kronor per dag när sjukersättning lämnas som en fjärdedels förmån,"
                 },
                 {
                   "nummer": 2,
                   "id": "-",
-                  "text": "- 80 kronor per dag när sjukersättning lämnas som en halv förmån, och"
+                  "text": "- 115 kronor per dag när sjukersättning lämnas som en halv förmån, och"
                 },
                 {
                   "nummer": 3,
                   "id": "-",
-                  "text": "- 40 kronor per dag när sjukersättning lämnas som tre fjärdedels förmån."
+                  "text": "- 58 kronor per dag när sjukersättning lämnas som tre fjärdedels förmån."
                 }
               ]
             },
@@ -15067,18 +15178,11 @@
                   "text": "- den sjukpenning som lämnas per dag enligt 27 och 28 kap."
                 }
               ]
-            },
-            {
-              "nummer": 4,
-              "text": [
-                "Sjukpenning i särskilda fall vid livränta enligt 41 eller 43 kap."
-              ],
-              "punkt": []
             }
           ],
           "rubrik": "Sjukpenning i särskilda fall vid sjukersättning",
           "referens": [
-            "Lag (2011:1513)"
+            "Lag (2024:1269)"
           ]
         },
         {
@@ -15234,14 +15338,14 @@
             {
               "nummer": 1,
               "text": [
-                "Rätten till sjukpenning i särskilda fall upphör när det för den försäkrade har bestämts eller skulle ha kunnat bestämmas en sjukpenninggrundande inkomst som uppgår till minst 80 300 kronor."
+                "Rätten till sjukpenning i särskilda fall upphör när det för den försäkrade har bestämts eller skulle ha kunnat bestämmas en sjukpenninggrundande inkomst som uppgår till minst 115 400 kronor."
               ],
               "punkt": []
             }
           ],
           "rubrik": "Upphörande av rätten till sjukpenning i särskilda fall",
           "referens": [
-            "Lag (2011:1513)"
+            "Lag (2024:1269)"
           ]
         },
         {
@@ -16248,7 +16352,7 @@
             {
               "nummer": 1,
               "text": [
-                "En försäkrad som omfattas av 3 § och som på grund av bestämmelserna om sjukpenninggrundande inkomst i denna balk inte skulle ha rätt till hel rehabiliteringspenning motsvarande vad som för sjukpenning på fortsättningsnivån medför en sjukpenning om minst 160 kronor per kalenderdag, har rätt till rehabiliteringspenning i särskilda fall vid sjukdom som sätter ned hans eller hennes arbetsförmåga under tid som anges i 31 kap. 3 §."
+                "En försäkrad som omfattas av 3 § och som på grund av bestämmelserna om sjukpenninggrundande inkomst i denna balk inte skulle ha rätt till hel rehabiliteringspenning motsvarande vad som för sjukpenning på fortsättningsnivån medför en sjukpenning om minst 230 kronor per kalenderdag, har rätt till rehabiliteringspenning i särskilda fall vid sjukdom som sätter ned hans eller hennes arbetsförmåga under tid som anges i 31 kap. 3 §."
               ],
               "punkt": []
             },
@@ -16262,7 +16366,7 @@
           ],
           "rubrik": "Rätten till rehabiliteringspenning i särskilda fall",
           "referens": [
-            "Lag (2011:1513)"
+            "Lag (2024:1269)"
           ]
         },
         {
@@ -16304,38 +16408,38 @@
               "nummer": 1,
               "text": [
                 "Rehabiliteringspenning i särskilda fall lämnas med högst",
-                "- 160 kronor per dag vid hel förmån,",
-                "- 120 kronor per dag vid tre fjärdedels förmån,",
-                "- 80 kronor per dag vid halv förmån, och",
-                "- 40 kronor per dag vid en fjärdedels förmån."
+                "- 230 kronor per dag vid hel förmån,",
+                "- 173 kronor per dag vid tre fjärdedels förmån,",
+                "- 115 kronor per dag vid halv förmån, och",
+                "- 58 kronor per dag vid en fjärdedels förmån."
               ],
               "punkt": [
                 {
                   "nummer": 1,
                   "id": "-",
-                  "text": "- 160 kronor per dag vid hel förmån,"
+                  "text": "- 230 kronor per dag vid hel förmån,"
                 },
                 {
                   "nummer": 2,
                   "id": "-",
-                  "text": "- 120 kronor per dag vid tre fjärdedels förmån,"
+                  "text": "- 173 kronor per dag vid tre fjärdedels förmån,"
                 },
                 {
                   "nummer": 3,
                   "id": "-",
-                  "text": "- 80 kronor per dag vid halv förmån, och"
+                  "text": "- 115 kronor per dag vid halv förmån, och"
                 },
                 {
                   "nummer": 4,
                   "id": "-",
-                  "text": "- 40 kronor per dag vid en fjärdedels förmån."
+                  "text": "- 58 kronor per dag vid en fjärdedels förmån."
                 }
               ]
             }
           ],
           "rubrik": "Ersättningsnivåer",
           "referens": [
-            "Lag (2011:1513)"
+            "Lag (2024:1269)"
           ]
         },
         {
@@ -16402,25 +16506,25 @@
               "nummer": 1,
               "text": [
                 "I det fall en försäkrad får sjukersättning lämnas hel rehabiliteringspenning i särskilda fall med högst",
-                "- 120 kronor per dag när sjukersättning lämnas som en fjärdedels förmån,",
-                "- 80 kronor per dag när sjukersättning lämnas som en halv förmån, och",
-                "- 40 kronor per dag när sjukersättning lämnas som tre fjärdedels förmån."
+                "- 173 kronor per dag när sjukersättning lämnas som en fjärdedels förmån,",
+                "- 115 kronor per dag när sjukersättning lämnas som en halv förmån, och",
+                "- 58 kronor per dag när sjukersättning lämnas som tre fjärdedels förmån."
               ],
               "punkt": [
                 {
                   "nummer": 1,
                   "id": "-",
-                  "text": "- 120 kronor per dag när sjukersättning lämnas som en fjärdedels förmån,"
+                  "text": "- 173 kronor per dag när sjukersättning lämnas som en fjärdedels förmån,"
                 },
                 {
                   "nummer": 2,
                   "id": "-",
-                  "text": "- 80 kronor per dag när sjukersättning lämnas som en halv förmån, och"
+                  "text": "- 115 kronor per dag när sjukersättning lämnas som en halv förmån, och"
                 },
                 {
                   "nummer": 3,
                   "id": "-",
-                  "text": "- 40 kronor per dag när sjukersättning lämnas som tre fjärdedels förmån."
+                  "text": "- 58 kronor per dag när sjukersättning lämnas som tre fjärdedels förmån."
                 }
               ]
             },
@@ -16450,18 +16554,11 @@
                   "text": "- den rehabiliteringspenning som lämnas per dag enligt 31 kap."
                 }
               ]
-            },
-            {
-              "nummer": 4,
-              "text": [
-                "Rehabiliteringspenning i särskilda fall vid livränta enligt 41 eller 43 kap."
-              ],
-              "punkt": []
             }
           ],
           "rubrik": "Rehabiliteringspenning i särskilda fall vid sjukersättning",
           "referens": [
-            "Lag (2011:1513)"
+            "Lag (2024:1269)"
           ]
         },
         {
@@ -16579,14 +16676,14 @@
             {
               "nummer": 1,
               "text": [
-                "Rätten till rehabiliteringspenning i särskilda fall upphör när det för den försäkrade har bestämts eller skulle ha kunnat bestämmas en sjukpenninggrundande inkomst som uppgår till minst 80 300 kronor."
+                "Rätten till rehabiliteringspenning i särskilda fall upphör när det för den försäkrade har bestämts eller skulle ha kunnat bestämmas en sjukpenninggrundande inkomst som uppgår till minst 115 400 kronor."
               ],
               "punkt": []
             }
           ],
           "rubrik": "Upphörande av rätten till rehabiliteringspenning i särskilda fall",
           "referens": [
-            "Lag (2011:1513)"
+            "Lag (2024:1269)"
           ]
         },
         {
@@ -17676,6 +17773,7 @@
       "paragraf": [
         {
           "nummer": "1",
+          "periodisering": "Upphör att gälla U:2025-06-01",
           "stycke": [
             {
               "nummer": 1,
@@ -17719,6 +17817,54 @@
           "rubrik": "Innehåll",
           "referens": [
             "Lag (2014:239)"
+          ]
+        },
+        {
+          "nummer": "1",
+          "periodisering": "Träder i kraft I:2025-06-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "I detta kapitel finns bestämmelser om",
+                "- rätten till garantiersättning i 2 och 3 §§,",
+                "- försäkringstiden i 4-7 och 11-15 §§,",
+                "- ersättningsnivåer i 18-20 §§,",
+                "- beräkningsunderlag för garantiersättning i 21 och 22 §§, och",
+                "- beräkning av garantiersättning i 23-25 §§."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "-",
+                  "text": "- rätten till garantiersättning i 2 och 3 §§,"
+                },
+                {
+                  "nummer": 2,
+                  "id": "-",
+                  "text": "- försäkringstiden i 4-7 och 11-15 §§,"
+                },
+                {
+                  "nummer": 3,
+                  "id": "-",
+                  "text": "- ersättningsnivåer i 18-20 §§,"
+                },
+                {
+                  "nummer": 4,
+                  "id": "-",
+                  "text": "- beräkningsunderlag för garantiersättning i 21 och 22 §§, och"
+                },
+                {
+                  "nummer": 5,
+                  "id": "-",
+                  "text": "- beräkning av garantiersättning i 23-25 §§."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Innehåll",
+          "referens": [
+            "Lag (2024:1270)"
           ]
         },
         {
@@ -17771,7 +17917,7 @@
         },
         {
           "nummer": "4",
-          "periodisering": "Upphör att gälla U:2025-12-01",
+          "periodisering": "Upphör att gälla U:2025-06-01",
           "stycke": [
             {
               "nummer": 1,
@@ -17808,13 +17954,87 @@
         },
         {
           "nummer": "4",
+          "periodisering": "Träder i kraft I:2025-06-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Försäkringstid för rätt till garantiersättning tillgodoräknas en försäkrad",
+                "1. enligt 6, 7 och 11 §§ under tiden från och med det år då han eller hon fyllde 16 år till och med året före försäkringsfallet (faktisk försäkringstid),",
+                "2. enligt 12 och 13 §§ för tiden därefter till och med det år då han eller hon fyller 65 år (framtida försäkringstid), och",
+                "3. enligt 14 och 15 §§ om försäkringsfallet har inträffat före 18 års ålder."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. enligt 6, 7 och 11 §§ under tiden från och med det år då han eller hon fyllde 16 år till och med året före försäkringsfallet (faktisk försäkringstid),"
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. enligt 12 och 13 §§ för tiden därefter till och med det år då han eller hon fyller 65 år (framtida försäkringstid), och"
+                },
+                {
+                  "nummer": 3,
+                  "id": "3",
+                  "text": "3. enligt 14 och 15 §§ om försäkringsfallet har inträffat före 18 års ålder."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Försäkringstiden",
+          "underrubrik": "Inledande bestämmelser",
+          "referens": [
+            "Lag (2024:1270)"
+          ]
+        },
+        {
+          "nummer": "4",
+          "periodisering": "Upphör att gälla U:2025-12-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Försäkringstid för rätt till garantiersättning tillgodoräknas en försäkrad",
+                "1. enligt 6, 7 och 11 §§ under tiden från och med det år då han eller hon fyllde 16 år till och med året före försäkringsfallet (faktisk försäkringstid),",
+                "2. enligt 12 och 13 §§ för tiden därefter till och med det år då han eller hon fyller 65 år (framtida försäkringstid), och",
+                "3. enligt 14 och 15 §§ om försäkringsfallet har inträffat före 18 års ålder."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. enligt 6, 7 och 11 §§ under tiden från och med det år då han eller hon fyllde 16 år till och med året före försäkringsfallet (faktisk försäkringstid),"
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. enligt 12 och 13 §§ för tiden därefter till och med det år då han eller hon fyller 65 år (framtida försäkringstid), och"
+                },
+                {
+                  "nummer": 3,
+                  "id": "3",
+                  "text": "3. enligt 14 och 15 §§ om försäkringsfallet har inträffat före 18 års ålder."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Försäkringstiden",
+          "underrubrik": "Inledande bestämmelser",
+          "referens": [
+            "Lag (2024:1270)"
+          ]
+        },
+        {
+          "nummer": "4",
           "periodisering": "Träder i kraft I:2025-12-01",
           "stycke": [
             {
               "nummer": 1,
               "text": [
                 "Försäkringstid för rätt till garantiersättning tillgodoräknas en försäkrad",
-                "1. enligt 6-11 §§ under tiden från och med det år då han eller hon fyllde 16 år till och med året före försäkringsfallet (faktisk försäkringstid),",
+                "1. enligt 6, 7 och 11 §§ under tiden från och med det år då han eller hon fyllde 16 år till och med året före försäkringsfallet (faktisk försäkringstid),",
                 "2. enligt 12 och 13 §§ för tiden därefter till och med året före det år då han eller hon uppnår den vid försäkringsfallet gällande riktåldern för pension (framtida försäkringstid), och",
                 "3. enligt 14 och 15 §§ om försäkringsfallet har inträffat före 18 års ålder."
               ],
@@ -17822,7 +18042,7 @@
                 {
                   "nummer": 1,
                   "id": "1",
-                  "text": "1. enligt 6-11 §§ under tiden från och med det år då han eller hon fyllde 16 år till och med året före försäkringsfallet (faktisk försäkringstid),"
+                  "text": "1. enligt 6, 7 och 11 §§ under tiden från och med det år då han eller hon fyllde 16 år till och med året före försäkringsfallet (faktisk försäkringstid),"
                 },
                 {
                   "nummer": 2,
@@ -17840,7 +18060,7 @@
           "rubrik": "Försäkringstiden",
           "underrubrik": "Inledande bestämmelser",
           "referens": [
-            "Lag (2022:879)"
+            "Lag (2024:1272)"
           ]
         },
         {
@@ -17889,11 +18109,21 @@
                 "Som faktisk försäkringstid räknas även tid när en person före tidpunkten för bosättning i Sverige oavbrutet har vistats här i landet efter att ha ansökt om uppehållstillstånd."
               ],
               "punkt": []
+            },
+            {
+              "nummer": 2,
+              "text": [
+                "/Rubriken upphör att gälla U:2025-06-01 genom",
+                "./ Bosättning i tidigare hemland"
+              ],
+              "punkt": []
             }
           ],
           "rubrik": "Försäkringstiden",
           "underrubrik": "Vistelse i Sverige",
-          "referens": []
+          "referens": [
+            "lag (2024:1270)"
+          ]
         },
         {
           "nummer": "8",
@@ -17901,14 +18131,16 @@
             {
               "nummer": 1,
               "text": [
-                "Om den försäkrade har beviljats uppehållstillstånd i Sverige som flykting enligt 4 kap. 1 § eller som alternativt skyddsbehövande enligt 2 § utlänningslagen (2005:716) eller enligt motsvarande äldre bestämmelser eller beviljats statusförklaring enligt 4 kap. 3 c § utlänningslagen eller motsvarande förklaring enligt äldre bestämmelser räknas som faktisk försäkringstid även tid då han eller hon har varit bosatt i sitt tidigare hemland från och med det år då han eller hon fyllde 16 år till tidpunkten då han eller hon först kom till Sverige."
+                "/Upphör att gälla U:2025-06-01 genom",
+                "./ Om den försäkrade har beviljats uppehållstillstånd i Sverige som flykting enligt 4 kap. 1 § eller som alternativt skyddsbehövande enligt 2 § utlänningslagen (2005:716) eller enligt motsvarande äldre bestämmelser eller beviljats statusförklaring enligt 4 kap. 3 c § utlänningslagen eller motsvarande förklaring enligt äldre bestämmelser räknas som faktisk försäkringstid även tid då han eller hon har varit bosatt i sitt tidigare hemland från och med det år då han eller hon fyllde 16 år till tidpunkten då han eller hon först kom till Sverige."
               ],
               "punkt": []
             }
           ],
           "rubrik": "Försäkringstiden",
-          "underrubrik": "Bosättning i tidigare hemland",
+          "underrubrik": "Vistelse i Sverige",
           "referens": [
+            "lag (2024:1270)",
             "Lag (2021:767)"
           ]
         },
@@ -17918,7 +18150,8 @@
             {
               "nummer": 1,
               "text": [
-                "Vid beräkningen enligt 8 § ska en så stor andel av tiden i hemlandet räknas in som svarar mot kvoten mellan",
+                "/Upphör att gälla U:2025-06-01 genom",
+                "./ Vid beräkningen enligt 8 § ska en så stor andel av tiden i hemlandet räknas in som svarar mot kvoten mellan",
                 "- den tid när den försäkrade har varit bosatt i Sverige, inklusive den tid som avses i 7 §, från den första ankomsten till landet till och med året före försäkringsfallet och",
                 "- hela tidrymden från det att den försäkrade första gången kom till landet till och med året före försäkringsfallet."
               ],
@@ -17944,8 +18177,10 @@
             }
           ],
           "rubrik": "Försäkringstiden",
-          "underrubrik": "Bosättning i tidigare hemland",
-          "referens": []
+          "underrubrik": "Vistelse i Sverige",
+          "referens": [
+            "lag (2024:1270)"
+          ]
         },
         {
           "nummer": "10",
@@ -17953,14 +18188,17 @@
             {
               "nummer": 1,
               "text": [
-                "Vid tillämpning av 8 och 9 §§ likställs med tid för bosättning i hemlandet tid då den försäkrade före den första ankomsten till Sverige har befunnit sig i ett annat land där han eller hon beretts en tillfällig fristad."
+                "/Upphör att gälla U:2025-06-01 genom",
+                "./ Vid tillämpning av 8 och 9 §§ likställs med tid för bosättning i hemlandet tid då den försäkrade före den första ankomsten till Sverige har befunnit sig i ett annat land där han eller hon beretts en tillfällig fristad."
               ],
               "punkt": []
             }
           ],
           "rubrik": "Försäkringstiden",
-          "underrubrik": "Bosättning i tidigare hemland",
-          "referens": []
+          "underrubrik": "Vistelse i Sverige",
+          "referens": [
+            "lag (2024:1270)"
+          ]
         },
         {
           "nummer": "11",
@@ -17979,7 +18217,7 @@
         },
         {
           "nummer": "12",
-          "periodisering": "Upphör att gälla U:2025-12-01",
+          "periodisering": "Upphör att gälla U:2025-06-01",
           "stycke": [
             {
               "nummer": 1,
@@ -17997,12 +18235,12 @@
         },
         {
           "nummer": "12",
-          "periodisering": "Träder i kraft I:2025-12-01",
+          "periodisering": "Träder i kraft I:2025-06-01",
           "stycke": [
             {
               "nummer": 1,
               "text": [
-                "Om den faktiska försäkringstiden enligt 6-11 §§ utgör minst fyra femtedelar av tiden från och med det år då den försäkrade fyllde 16 år till och med året före försäkringsfallet, räknas hela tiden därefter till och med året före det år då den försäkrade uppnår den vid försäkringsfallet gällande riktåldern för pension som framtida försäkringstid."
+                "Om den faktiska försäkringstiden enligt 6, 7 och 11 §§ utgör minst fyra femtedelar av tiden från och med det år då den försäkrade fyllde 16 år till och med året före försäkringsfallet, räknas hela tiden därefter till och med det år då den försäkrade fyller 65 år som framtida försäkringstid."
               ],
               "punkt": []
             }
@@ -18010,7 +18248,43 @@
           "rubrik": "Försäkringstiden",
           "underrubrik": "Framtida försäkringstid",
           "referens": [
-            "Lag (2022:879)"
+            "Lag (2024:1270)"
+          ]
+        },
+        {
+          "nummer": "12",
+          "periodisering": "Upphör att gälla U:2025-12-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Om den faktiska försäkringstiden enligt 6, 7 och 11 §§ utgör minst fyra femtedelar av tiden från och med det år då den försäkrade fyllde 16 år till och med året före försäkringsfallet, räknas hela tiden därefter till och med det år då den försäkrade fyller 65 år som framtida försäkringstid."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Försäkringstiden",
+          "underrubrik": "Framtida försäkringstid",
+          "referens": [
+            "Lag (2024:1270)"
+          ]
+        },
+        {
+          "nummer": "12",
+          "periodisering": "Träder i kraft I:2025-12-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Om den faktiska försäkringstiden enligt 6, 7 och 11 §§ utgör minst fyra femtedelar av tiden från och med det år då den försäkrade fyllde 16 år till och med året före försäkringsfallet, räknas hela tiden därefter till och med året före det år då den försäkrade uppnår den vid försäkringsfallet gällande riktåldern för pension som framtida försäkringstid."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Försäkringstiden",
+          "underrubrik": "Framtida försäkringstid",
+          "referens": [
+            "Lag (2024:1272)"
           ]
         },
         {
@@ -18082,7 +18356,7 @@
         },
         {
           "nummer": "15",
-          "periodisering": "Upphör att gälla U:2025-12-01",
+          "periodisering": "Upphör att gälla U:2025-06-01",
           "stycke": [
             {
               "nummer": 1,
@@ -18100,12 +18374,12 @@
         },
         {
           "nummer": "15",
-          "periodisering": "Träder i kraft I:2025-12-01",
+          "periodisering": "Träder i kraft I:2025-06-01",
           "stycke": [
             {
               "nummer": 1,
               "text": [
-                "För en försäkrad som avses i 14 § ska som försäkringstid räknas tiden från och med det år då han eller hon fyllde 16 år till och med året före det år då han eller hon uppnår den riktålder för pension som gällde när han eller hon fyllde 17 år. Hänsyn ska dock bara tas till tid då den försäkrade efter fyllda 16 år har uppfyllt förutsättningarna för tillgodoräknande av försäkringstid enligt 6-11 §§."
+                "För en försäkrad som avses i 14 § ska som försäkringstid räknas tiden från och med det år då han eller hon fyllde 16 år till och med det år då han eller hon fyller 65 år. Hänsyn ska dock bara tas till tid då den försäkrade efter fyllda 16 år har uppfyllt förutsättningarna för tillgodoräknande av försäkringstid enligt 6, 7 och 11 §§."
               ],
               "punkt": []
             }
@@ -18113,7 +18387,43 @@
           "rubrik": "Försäkringstiden",
           "underrubrik": "Försäkringsfall före 18 års ålder",
           "referens": [
-            "Lag (2022:879)"
+            "Lag (2024:1270)"
+          ]
+        },
+        {
+          "nummer": "15",
+          "periodisering": "Upphör att gälla U:2025-12-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "För en försäkrad som avses i 14 § ska som försäkringstid räknas tiden från och med det år då han eller hon fyllde 16 år till och med det år då han eller hon fyller 65 år. Hänsyn ska dock bara tas till tid då den försäkrade efter fyllda 16 år har uppfyllt förutsättningarna för tillgodoräknande av försäkringstid enligt 6, 7 och 11 §§."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Försäkringstiden",
+          "underrubrik": "Försäkringsfall före 18 års ålder",
+          "referens": [
+            "Lag (2024:1270)"
+          ]
+        },
+        {
+          "nummer": "15",
+          "periodisering": "Träder i kraft I:2025-12-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "För en försäkrad som avses i 14 § ska som försäkringstid räknas tiden från och med det år då han eller hon fyllde 16 år till och med året före det år då han eller hon uppnår den riktålder för pension som gällde när han eller hon fyllde 17 år. Hänsyn ska dock bara tas till tid då den försäkrade efter fyllda 16 år har uppfyllt förutsättningarna för tillgodoräknande av försäkringstid enligt 6, 7 och 11 §§."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Försäkringstiden",
+          "underrubrik": "Försäkringsfall före 18 års ålder",
+          "referens": [
+            "Lag (2024:1272)"
           ]
         },
         {
@@ -26335,7 +26645,7 @@
             {
               "nummer": 1,
               "text": [
-                "Om mottagaren hade ett godkännande för F-skatt med villkor enligt 9 kap. 3 § skatteförfarandelagen (2011:1244), räknas ersättningen som inkomst av annat förvärvsarbete bara om godkännandet har åberopats skriftligen."
+                "Om mottagaren hade ett godkännande för F-skatt med villkor enligt 9 kap. 2 § skatteförfarandelagen (2011:1244), räknas ersättningen som inkomst av annat förvärvsarbete bara om godkännandet har åberopats skriftligen."
               ],
               "punkt": []
             }
@@ -26343,7 +26653,7 @@
           "rubrik": "Inkomst av annat förvärvsarbete",
           "underrubrik": "Ersättning till den som är godkänd för F-skatt",
           "referens": [
-            "Lag (2011:1434)"
+            "Lag (2024:1135)"
           ]
         },
         {
@@ -26473,25 +26783,6 @@
         },
         {
           "nummer": "21",
-          "periodisering": "Rubriken träder i kraft I:den dag som regeringen bestämmer",
-          "stycke": [
-            {
-              "nummer": 1,
-              "text": [
-                "Har upphävts genom"
-              ],
-              "punkt": []
-            }
-          ],
-          "rubrik": "Inkomst av annat förvärvsarbete",
-          "underrubrik": "Ersättning från handelsbolag till delägare, m.m.",
-          "referens": [
-            "lag (2012:834)"
-          ]
-        },
-        {
-          "nummer": "21",
-          "periodisering": "Träder i kraft I:den dag som regeringen bestämmer",
           "stycke": [
             {
               "nummer": 1,
@@ -33289,44 +33580,6 @@
           ]
         },
         {
-          "nummer": "8",
-          "periodisering": "Träder i kraft I:2025-12-01",
-          "stycke": [
-            {
-              "nummer": 1,
-              "text": [
-                "Vid beräkningen enligt 7 § ska en så stor andel av tiden i hemlandet tillgodoräknas som svarar mot kvoten mellan",
-                "- den tid under vilken den pensionssökande har varit bosatt i Sverige, inräknad den tid som avses i 6 §, från den första ankomsten till landet till och med kalenderåret före det år då han eller hon uppnådde riktåldern för pension och",
-                "- hela tidsrymden från det att den pensionssökande första gången kom till Sverige till och med året före det kalenderår då han eller hon uppnådde riktåldern för pension."
-              ],
-              "punkt": [
-                {
-                  "nummer": 1,
-                  "id": "-",
-                  "text": "- den tid under vilken den pensionssökande har varit bosatt i Sverige, inräknad den tid som avses i 6 §, från den första ankomsten till landet till och med kalenderåret före det år då han eller hon uppnådde riktåldern för pension och"
-                },
-                {
-                  "nummer": 2,
-                  "id": "-",
-                  "text": "- hela tidsrymden från det att den pensionssökande första gången kom till Sverige till och med året före det kalenderår då han eller hon uppnådde riktåldern för pension."
-                }
-              ]
-            },
-            {
-              "nummer": 2,
-              "text": [
-                "Vid beräkningen ska det bortses från tid för vilken den pensionssökande, vid bosättning i Sverige, har rätt till pension från hemlandet."
-              ],
-              "punkt": []
-            }
-          ],
-          "rubrik": "Försäkringstiden",
-          "underrubrik": "Vistelse i Sverige före bosättning",
-          "referens": [
-            "Lag (2022:879)"
-          ]
-        },
-        {
           "nummer": "9",
           "stycke": [
             {
@@ -33415,24 +33668,6 @@
           "underrubrik": "Tiden mellan 16 och 24 års ålder",
           "referens": [
             "lag (2022:1266)"
-          ]
-        },
-        {
-          "nummer": "13",
-          "periodisering": "Träder i kraft I:2025-12-01",
-          "stycke": [
-            {
-              "nummer": 1,
-              "text": [
-                "För den som omedelbart före den kalendermånad då han eller hon uppnådde riktåldern för pension hade rätt till hel sjukersättning i form av garantiersättning gäller följande. Om det är förmånligare än en beräkning enligt 5-12 §§, räknas som försäkringstid för garantipension den försäkringstid som legat till grund för beräkning av sjukersättningen."
-              ],
-              "punkt": []
-            }
-          ],
-          "rubrik": "Försäkringstiden",
-          "underrubrik": "Tiden mellan 16 och 24 års ålder",
-          "referens": [
-            "Lag (2022:879)"
           ]
         },
         {
@@ -40581,31 +40816,6 @@
         },
         {
           "nummer": "4",
-          "periodisering": "Upphör att gälla U:2025-01-01",
-          "stycke": [
-            {
-              "nummer": 1,
-              "text": [
-                "En förmån enligt denna avdelning lämnas endast till den som har ett gällande försäkringsskydd för förmånen enligt 4 och 5 kap."
-              ],
-              "punkt": []
-            },
-            {
-              "nummer": 2,
-              "text": [
-                "Bestämmelser om anmälan och ansökan samt vissa gemensamma bestämmelser om förmåner och handläggning finns i 104-117 kap. (avdelning H). Bostadsbidrag i form av tilläggsbidrag till barnfamiljer lämnas dock utan ansökan."
-              ],
-              "punkt": []
-            }
-          ],
-          "rubrik": "Försäkring och ansökan, m.m.",
-          "referens": [
-            "Lag (2022:1041)"
-          ]
-        },
-        {
-          "nummer": "4",
-          "periodisering": "Träder i kraft I:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -40766,62 +40976,6 @@
         },
         {
           "nummer": "2",
-          "periodisering": "Upphör att gälla U:2025-01-01",
-          "stycke": [
-            {
-              "nummer": 1,
-              "text": [
-                "Bostadsbidrag lämnas i form av",
-                "1. bidrag till kostnader för bostad,",
-                "2. särskilt bidrag för hemmavarande barn,",
-                "3. särskilt bidrag för barn som bor växelvis,",
-                "4. umgängesbidrag till den som på grund av vårdnad eller umgänge tidvis har barn boende i sitt hem, och",
-                "5. tilläggsbidrag till barnfamiljer."
-              ],
-              "punkt": [
-                {
-                  "nummer": 1,
-                  "id": "1",
-                  "text": "1. bidrag till kostnader för bostad,"
-                },
-                {
-                  "nummer": 2,
-                  "id": "2",
-                  "text": "2. särskilt bidrag för hemmavarande barn,"
-                },
-                {
-                  "nummer": 3,
-                  "id": "3",
-                  "text": "3. särskilt bidrag för barn som bor växelvis,"
-                },
-                {
-                  "nummer": 4,
-                  "id": "4",
-                  "text": "4. umgängesbidrag till den som på grund av vårdnad eller umgänge tidvis har barn boende i sitt hem, och"
-                },
-                {
-                  "nummer": 5,
-                  "id": "5",
-                  "text": "5. tilläggsbidrag till barnfamiljer."
-                }
-              ]
-            },
-            {
-              "nummer": 2,
-              "text": [
-                "Med barn som bor växelvis avses ett barn som bor varaktigt hos båda sina föräldrar som inte bor tillsammans."
-              ],
-              "punkt": []
-            }
-          ],
-          "rubrik": "Inledande bestämmelser",
-          "referens": [
-            "Lag (2022:1041)"
-          ]
-        },
-        {
-          "nummer": "2",
-          "periodisering": "Träder i kraft I:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -40884,31 +41038,6 @@
         },
         {
           "nummer": "4",
-          "periodisering": "Upphör att gälla U:2025-01-01",
-          "stycke": [
-            {
-              "nummer": 1,
-              "text": [
-                "Bostadsbidrag enligt 2 § första stycket 1-4 betalas ut löpande som preliminärt bidrag, beräknat efter en uppskattad bidragsgrundande inkomst. Sådant bidrag bestäms slutligt i efterhand på grundval av den fastställda bidragsgrundande inkomsten."
-              ],
-              "punkt": []
-            },
-            {
-              "nummer": 2,
-              "text": [
-                "Bostadsbidrag enligt 2 § första stycket 5 beräknas inte på grundval av en bidragsgrundande inkomst. Sådant bidrag betalas ut löpande med ett belopp som bestäms enligt 97 kap. 23 a §."
-              ],
-              "punkt": []
-            }
-          ],
-          "rubrik": "Inledande bestämmelser",
-          "referens": [
-            "Lag (2022:1041)"
-          ]
-        },
-        {
-          "nummer": "4",
-          "periodisering": "Träder i kraft I:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -41022,50 +41151,6 @@
       "paragraf": [
         {
           "nummer": "1",
-          "periodisering": "Upphör att gälla U:2025-01-01",
-          "stycke": [
-            {
-              "nummer": 1,
-              "text": [
-                "I detta kapitel finns allmänna bestämmelser i 2-3 a §§."
-              ],
-              "punkt": []
-            },
-            {
-              "nummer": 2,
-              "text": [
-                "Vidare finns bestämmelser om",
-                "- barnfamiljer i 4-9 §§,",
-                "- hushåll utan barn i 10 och 11 §§, och",
-                "- förmånstiden i 12-15 §§."
-              ],
-              "punkt": [
-                {
-                  "nummer": 1,
-                  "id": "-",
-                  "text": "- barnfamiljer i 4-9 §§,"
-                },
-                {
-                  "nummer": 2,
-                  "id": "-",
-                  "text": "- hushåll utan barn i 10 och 11 §§, och"
-                },
-                {
-                  "nummer": 3,
-                  "id": "-",
-                  "text": "- förmånstiden i 12-15 §§."
-                }
-              ]
-            }
-          ],
-          "rubrik": "Innehåll",
-          "referens": [
-            "Lag (2022:1041)"
-          ]
-        },
-        {
-          "nummer": "1",
-          "periodisering": "Träder i kraft I:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -41464,55 +41549,6 @@
       "paragraf": [
         {
           "nummer": "1",
-          "periodisering": "Upphör att gälla U:2025-01-01",
-          "stycke": [
-            {
-              "nummer": 1,
-              "text": [
-                "I detta kapitel finns bestämmelser om",
-                "- bidragsgrundande inkomst i 2-13 §§,",
-                "- kostnader för bostad i 14 §,",
-                "- beräkning av bostadsbidrag till barnfamiljer i 15-18 och 20-23 a §§,",
-                "- beräkning av bostadsbidrag till hushåll utan barn i 24-28 §§, och",
-                "- undantag när bidragsbehov saknas i 29 §."
-              ],
-              "punkt": [
-                {
-                  "nummer": 1,
-                  "id": "-",
-                  "text": "- bidragsgrundande inkomst i 2-13 §§,"
-                },
-                {
-                  "nummer": 2,
-                  "id": "-",
-                  "text": "- kostnader för bostad i 14 §,"
-                },
-                {
-                  "nummer": 3,
-                  "id": "-",
-                  "text": "- beräkning av bostadsbidrag till barnfamiljer i 15-18 och 20-23 a §§,"
-                },
-                {
-                  "nummer": 4,
-                  "id": "-",
-                  "text": "- beräkning av bostadsbidrag till hushåll utan barn i 24-28 §§, och"
-                },
-                {
-                  "nummer": 5,
-                  "id": "-",
-                  "text": "- undantag när bidragsbehov saknas i 29 §."
-                }
-              ]
-            }
-          ],
-          "rubrik": "Innehåll",
-          "referens": [
-            "Lag (2022:1041)"
-          ]
-        },
-        {
-          "nummer": "1",
-          "periodisering": "Träder i kraft I:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -42003,32 +42039,6 @@
         },
         {
           "nummer": "15",
-          "periodisering": "Upphör att gälla U:2025-01-01",
-          "stycke": [
-            {
-              "nummer": 1,
-              "text": [
-                "Bostadsbidrag till barnfamiljer beräknas enligt 18-23 a §§."
-              ],
-              "punkt": []
-            },
-            {
-              "nummer": 2,
-              "text": [
-                "Om den bidragsgrundande inkomsten överstiger 150 000 kronor för en försäkrad, eller för makar 75 000 kronor för var och en av dem, ska bidraget enligt 95 kap. 2 § första stycket 1-4 minskas med 20 procent av den överskjutande inkomsten."
-              ],
-              "punkt": []
-            }
-          ],
-          "rubrik": "Beräkning av bostadsbidrag till barnfamiljer",
-          "underrubrik": "Grundläggande bestämmelser",
-          "referens": [
-            "Lag (2022:1041)"
-          ]
-        },
-        {
-          "nummer": "15",
-          "periodisering": "Träder i kraft I:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -42334,6 +42344,7 @@
         },
         {
           "nummer": "23",
+          "periodisering": "Rubriken upphör att gälla U:2025-07-01",
           "stycke": [
             {
               "nummer": 1,
@@ -42381,15 +42392,34 @@
             {
               "nummer": 1,
               "text": [
-                "Har upphävts genom"
+                "Bostadsbidrag lämnas månadsvis som tilläggsbidrag till barnfamiljer med ett belopp som motsvarar 25 procent av det preliminära bostadsbidrag som lämnas enligt 95 kap. 2 § första stycket 1-4 för samma månad."
               ],
               "punkt": []
             }
           ],
           "rubrik": "Beräkning av bostadsbidrag till barnfamiljer",
-          "underrubrik": "Umgängesbidrag",
+          "underrubrik": "Tilläggsbidrag till barnfamiljer",
           "referens": [
-            "lag (2022:1042)"
+            "Lag (2024:1255)"
+          ]
+        },
+        {
+          "nummer": "23a",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "/Upphör att gälla U:2025-07-01 genom",
+                "./ Bostadsbidrag lämnas månadsvis som tilläggsbidrag till barnfamiljer med ett belopp som motsvarar 25 procent av det preliminära bostadsbidrag som lämnas enligt 95 kap. 2 § första stycket 1-4 för samma månad."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Beräkning av bostadsbidrag till barnfamiljer",
+          "underrubrik": "Tilläggsbidrag till barnfamiljer",
+          "referens": [
+            "lag (2022:1042)",
+            "Lag (2024:1255)"
           ]
         },
         {
@@ -42500,55 +42530,6 @@
       "paragraf": [
         {
           "nummer": "1",
-          "periodisering": "Upphör att gälla U:2025-01-01",
-          "stycke": [
-            {
-              "nummer": 1,
-              "text": [
-                "I detta kapitel finns bestämmelser om",
-                "- preliminärt bostadsbidrag i 2-4 §§,",
-                "- slutligt bostadsbidrag i 5-7 §§,",
-                "- omprövning vid ändrade förhållanden i 8 och 9 §§,",
-                "- utbetalning till annan än den försäkrade i 10 och 11 §§, och",
-                "- tilläggsbidrag till barnfamiljer i 12 §."
-              ],
-              "punkt": [
-                {
-                  "nummer": 1,
-                  "id": "-",
-                  "text": "- preliminärt bostadsbidrag i 2-4 §§,"
-                },
-                {
-                  "nummer": 2,
-                  "id": "-",
-                  "text": "- slutligt bostadsbidrag i 5-7 §§,"
-                },
-                {
-                  "nummer": 3,
-                  "id": "-",
-                  "text": "- omprövning vid ändrade förhållanden i 8 och 9 §§,"
-                },
-                {
-                  "nummer": 4,
-                  "id": "-",
-                  "text": "- utbetalning till annan än den försäkrade i 10 och 11 §§, och"
-                },
-                {
-                  "nummer": 5,
-                  "id": "-",
-                  "text": "- tilläggsbidrag till barnfamiljer i 12 §."
-                }
-              ]
-            }
-          ],
-          "rubrik": "Innehåll",
-          "referens": [
-            "Lag (2022:1041)"
-          ]
-        },
-        {
-          "nummer": "1",
-          "periodisering": "Träder i kraft I:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -45085,26 +45066,26 @@
               "nummer": 1,
               "text": [
                 "Helt boendetillägg lämnas för år räknat med högst",
-                "- 84 000 kronor till en ogift försäkrad, och",
-                "- 42 000 kronor till en gift försäkrad."
+                "- 104 400 kronor till en ogift försäkrad, och",
+                "- 52 200 kronor till en gift försäkrad."
               ],
               "punkt": [
                 {
                   "nummer": 1,
                   "id": "-",
-                  "text": "- 84 000 kronor till en ogift försäkrad, och"
+                  "text": "- 104 400 kronor till en ogift försäkrad, och"
                 },
                 {
                   "nummer": 2,
                   "id": "-",
-                  "text": "- 42 000 kronor till en gift försäkrad."
+                  "text": "- 52 200 kronor till en gift försäkrad."
                 }
               ]
             }
           ],
           "rubrik": "Ersättningsnivåer",
           "referens": [
-            "Lag (2011:1513)"
+            "Lag (2024:1269)"
           ]
         },
         {
@@ -45114,25 +45095,25 @@
               "nummer": 1,
               "text": [
                 "Beloppen enligt 2 § ska höjas med",
-                "- 12 000 kronor till hushåll med ett barn,",
-                "- 18 000 kronor till hushåll med två barn, och",
-                "- 24 000 kronor till hushåll med tre eller flera barn."
+                "- 18 000 kronor till hushåll med ett barn,",
+                "- 30 000 kronor till hushåll med två barn, och",
+                "- 42 000 kronor till hushåll med tre eller flera barn."
               ],
               "punkt": [
                 {
                   "nummer": 1,
                   "id": "-",
-                  "text": "- 12 000 kronor till hushåll med ett barn,"
+                  "text": "- 18 000 kronor till hushåll med ett barn,"
                 },
                 {
                   "nummer": 2,
                   "id": "-",
-                  "text": "- 18 000 kronor till hushåll med två barn, och"
+                  "text": "- 30 000 kronor till hushåll med två barn, och"
                 },
                 {
                   "nummer": 3,
                   "id": "-",
-                  "text": "- 24 000 kronor till hushåll med tre eller flera barn."
+                  "text": "- 42 000 kronor till hushåll med tre eller flera barn."
                 }
               ]
             },
@@ -45146,7 +45127,7 @@
           ],
           "rubrik": "Ersättningsnivåer",
           "referens": [
-            "Lag (2011:1513)"
+            "Lag (2024:1269)"
           ]
         },
         {
@@ -45242,14 +45223,14 @@
             {
               "nummer": 1,
               "text": [
-                "Boendetillägget enligt 2-4 §§ ska minskas med 70 procent av den bidragsgrundande inkomsten enligt 5 och 6 §§ som överstiger 58 400 kronor."
+                "Boendetillägget enligt 2-4 §§ ska minskas med 70 procent av den bidragsgrundande inkomsten enligt 5 och 6 §§ som överstiger 83 950 kronor."
               ],
               "punkt": []
             }
           ],
           "rubrik": "Minskning av boendetillägg",
           "referens": [
-            "Lag (2011:1513)"
+            "Lag (2024:1269)"
           ]
         },
         {
@@ -46790,6 +46771,7 @@
       "paragraf": [
         {
           "nummer": "1",
+          "periodisering": "Upphör att gälla U:2025-03-01",
           "stycke": [
             {
               "nummer": 1,
@@ -46845,6 +46827,72 @@
           "rubrik": "Innehåll",
           "referens": [
             "Lag (2013:747)"
+          ]
+        },
+        {
+          "nummer": "1",
+          "periodisering": "Träder i kraft I:2025-03-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "I detta kapitel finns bestämmelser om",
+                "- återbetalning av ersättning i 2-10 §§,",
+                "- eftergift i 11-14 §§,",
+                "- verkställighet m.m. av beslut om återkrav i 14 a §,",
+                "- ränta i 15-18 §§,",
+                "- dröjsmålsränta i 19 och 20 §§,",
+                "- eftergift av ränta och dröjsmålsränta i 21 §,",
+                "- avdrag på ersättning (kvittning) i 22, 24 och 25 §§, och",
+                "- betalningssäkring i 26-31 §§."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "-",
+                  "text": "- återbetalning av ersättning i 2-10 §§,"
+                },
+                {
+                  "nummer": 2,
+                  "id": "-",
+                  "text": "- eftergift i 11-14 §§,"
+                },
+                {
+                  "nummer": 3,
+                  "id": "-",
+                  "text": "- verkställighet m.m. av beslut om återkrav i 14 a §,"
+                },
+                {
+                  "nummer": 4,
+                  "id": "-",
+                  "text": "- ränta i 15-18 §§,"
+                },
+                {
+                  "nummer": 5,
+                  "id": "-",
+                  "text": "- dröjsmålsränta i 19 och 20 §§,"
+                },
+                {
+                  "nummer": 6,
+                  "id": "-",
+                  "text": "- eftergift av ränta och dröjsmålsränta i 21 §,"
+                },
+                {
+                  "nummer": 7,
+                  "id": "-",
+                  "text": "- avdrag på ersättning (kvittning) i 22, 24 och 25 §§, och"
+                },
+                {
+                  "nummer": 8,
+                  "id": "-",
+                  "text": "- betalningssäkring i 26-31 §§."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Innehåll",
+          "referens": [
+            "Lag (2025:39)"
           ]
         },
         {
@@ -47119,6 +47167,7 @@
         },
         {
           "nummer": "14a",
+          "periodisering": "Upphör att gälla U:2025-03-01",
           "stycke": [
             {
               "nummer": 1,
@@ -47132,6 +47181,31 @@
           "underrubrik": "Verkställighet m.m. av beslut om återkrav",
           "referens": [
             "Lag (2013:747)"
+          ]
+        },
+        {
+          "nummer": "14a",
+          "periodisering": "Träder i kraft I:2025-03-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Efter det att ett beslut om återkrav har fattats av Pensionsmyndigheten i ett ärende ska den fortsatta handläggningen på grund av beslutet handhas av Försäkringskassan, även om återkravet avser en förmån som ska administreras av Pensionsmyndigheten."
+              ],
+              "punkt": []
+            },
+            {
+              "nummer": 2,
+              "text": [
+                "Försäkringskassan ska handha handläggningen av betalningssäkring enligt 26-31 §§ även innan Pensionsmyndigheten har fattat ett beslut om återkrav. Pensionsmyndigheten ska lämna de uppgifter som behövs för denna handläggning till Försäkringskassan."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Eftergift",
+          "underrubrik": "Verkställighet m.m. av beslut om återkrav",
+          "referens": [
+            "Lag (2025:39)"
           ]
         },
         {
@@ -47324,6 +47398,7 @@
         },
         {
           "nummer": "25",
+          "periodisering": "Rubriken träder i kraft I:2025-03-01",
           "stycke": [
             {
               "nummer": 1,
@@ -47336,6 +47411,148 @@
           "rubrik": "Avdrag på ersättning (kvittning)",
           "underrubrik": "Närmare om förmåner till efterlevande",
           "referens": []
+        },
+        {
+          "nummer": "26",
+          "periodisering": "Träder i kraft I:2025-03-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "För att säkerställa återbetalning av ersättning samt betalning av ränta och dröjsmålsränta enligt detta kapitel får egendom som tillhör den som är betalningsskyldig tas i anspråk (betalningssäkring)."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Avdrag på ersättning (kvittning)",
+          "underrubrik": "Betalningssäkring",
+          "referens": [
+            "Lag (2025:39)"
+          ]
+        },
+        {
+          "nummer": "27",
+          "periodisering": "Träder i kraft I:2025-03-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Beslut om betalningssäkring fattas av förvaltningsrätten på ansökan av Försäkringskassan."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Avdrag på ersättning (kvittning)",
+          "underrubrik": "Betalningssäkring",
+          "referens": [
+            "Lag (2025:39)"
+          ]
+        },
+        {
+          "nummer": "28",
+          "periodisering": "Träder i kraft I:2025-03-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Betalningssäkring får beslutas om",
+                "1. det finns en påtaglig risk för att den som är betalningsskyldig drar sig undan skyldigheten, och",
+                "2. betalningsskyldigheten avser ett betydande belopp."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. det finns en påtaglig risk för att den som är betalningsskyldig drar sig undan skyldigheten, och"
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. betalningsskyldigheten avser ett betydande belopp."
+                }
+              ]
+            },
+            {
+              "nummer": 2,
+              "text": [
+                "Om ett beslut om återbetalning inte har fattats, får betalningssäkring bara beslutas om det är sannolikt att ett beslut om återbetalning kommer att fattas. En betalningssäkring får i sådana fall inte avse ett högre belopp än det belopp som återbetalningsskyldigheten sannolikt kommer att fastställas till."
+              ],
+              "punkt": []
+            },
+            {
+              "nummer": 3,
+              "text": [
+                "Ett beslut om betalningssäkring får fattas bara om skälen för beslutet uppväger det intrång eller men i övrigt som beslutet innebär för den som beslutet gäller eller för något annat motstående intresse."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Avdrag på ersättning (kvittning)",
+          "underrubrik": "Betalningssäkring",
+          "referens": [
+            "Lag (2025:39)"
+          ]
+        },
+        {
+          "nummer": "29",
+          "periodisering": "Träder i kraft I:2025-03-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Vid prövning av frågor om betalningssäkring ska 46 kap. 9-13 §§, 14 § första stycket 1 och andra stycket första meningen, 15 § och 20-22 §§ skatteförfarandelagen (2011:1244) tillämpas. Vid tillämpningen av 46 kap. 9-13 §§, 14 § andra stycket första meningen och 20-22 §§ skatteförfarandelagen ska det som anges där om Skatteverket gälla Försäkringskassan. Vid tillämpningen av 46 kap. 14 § första stycket 1 och 15 § skatteförfarandelagen ska det som anges där om Skatteverket gälla Försäkringskassan eller Pensionsmyndigheten."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Avdrag på ersättning (kvittning)",
+          "underrubrik": "Betalningssäkring",
+          "referens": [
+            "Lag (2025:39)"
+          ]
+        },
+        {
+          "nummer": "30",
+          "periodisering": "Träder i kraft I:2025-03-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Om ett beslut om återbetalning har fattats, ska frågor om betalningssäkring prövas av den förvaltningsrätt som enligt 113 kap. 14 § är behörig att pröva ett överklagande av beslutet om återbetalning."
+              ],
+              "punkt": []
+            },
+            {
+              "nummer": 2,
+              "text": [
+                "Om ett beslut om återbetalning inte har fattats, ska frågor om betalningssäkring som rör en person som är bosatt i Sverige prövas av den förvaltningsrätt inom vars domkrets personen har sin hemortskommun enligt 113 kap. 15 § vid tidpunkten för ansökan om betalningssäkring. I övriga fall ska frågor om betalningssäkring prövas av den förvaltningsrätt inom vars domkrets det första beslutet om ersättning som utredningen om återbetalning avser fattades."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Avdrag på ersättning (kvittning)",
+          "underrubrik": "Betalningssäkring",
+          "referens": [
+            "Lag (2025:39)"
+          ]
+        },
+        {
+          "nummer": "31",
+          "periodisering": "Träder i kraft I:2025-03-01",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Vid prövning av verkställighet av ett beslut om betalningssäkring ska 69 kap. 13-18 §§ och 71 kap. 1 § första stycket skatteförfarandelagen (2011:1244) tillämpas. Vid tillämpningen ska det som anges där om Skatteverket gälla Försäkringskassan."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Avdrag på ersättning (kvittning)",
+          "underrubrik": "Betalningssäkring",
+          "referens": [
+            "Lag (2025:39)"
+          ]
         }
       ],
       "avdelning": {
@@ -47587,101 +47804,6 @@
         },
         {
           "nummer": "6",
-          "periodisering": "Upphör att gälla U:2025-01-01",
-          "stycke": [
-            {
-              "nummer": 1,
-              "text": [
-                "Ansökan behöver, trots det som föreskrivs i 4 §, inte göras om följande förmåner.",
-                "1. Barnbidrag, i annat fall än som avses i 15 kap. 6 §. Det finns dock särskilda bestämmelser om anmälan som gäller flerbarnstillägg i 16 kap. 12 §.",
-                "2. Sjukpenning i fall där den försäkrade på grund av sjukdomen är förhindrad eller har synnerliga svårigheter att göra en ansökan.",
-                "3. Assistansersättning när kommunen har anmält till Försäkringskassan att det kan antas att den enskilde har rätt till sådan ersättning."
-              ],
-              "punkt": [
-                {
-                  "nummer": 1,
-                  "id": "1",
-                  "text": "1. Barnbidrag, i annat fall än som avses i 15 kap. 6 §. Det finns dock särskilda bestämmelser om anmälan som gäller flerbarnstillägg i 16 kap. 12 §."
-                },
-                {
-                  "nummer": 2,
-                  "id": "2",
-                  "text": "2. Sjukpenning i fall där den försäkrade på grund av sjukdomen är förhindrad eller har synnerliga svårigheter att göra en ansökan."
-                },
-                {
-                  "nummer": 3,
-                  "id": "3",
-                  "text": "3. Assistansersättning när kommunen har anmält till Försäkringskassan att det kan antas att den enskilde har rätt till sådan ersättning."
-                }
-              ]
-            },
-            {
-              "nummer": 2,
-              "text": [
-                "Om omvårdnadsbidrag eller merkostnadsersättning har beviljats för begränsad tid får den tid för vilken förmånen ska lämnas förlängas utan att ansökan om detta har gjorts."
-              ],
-              "punkt": []
-            },
-            {
-              "nummer": 3,
-              "text": [
-                "Ytterligare bestämmelser om att förmåner lämnas utan ansökan finns beträffande",
-                "1. sjukersättning och aktivitetsersättning i 36 kap. 25-27 §§,",
-                "2. allmän ålderspension i 56 kap. 4 a och 6 §§,",
-                "3. inkomstpensionstillägg i 74 a kap. 8 § andra stycket,",
-                "4. efterlevandepension och efterlevandestöd i 77 kap. 13 §,",
-                "5. efterlevandelivränta i 88 kap. 10 § första stycket,",
-                "6. premiepension till efterlevande i 92 kap. 2 § första stycket, och",
-                "7. bostadsbidrag i form av tilläggsbidrag till barnfamiljer i 93 kap. 4 § andra stycket."
-              ],
-              "punkt": [
-                {
-                  "nummer": 1,
-                  "id": "1",
-                  "text": "1. sjukersättning och aktivitetsersättning i 36 kap. 25-27 §§,"
-                },
-                {
-                  "nummer": 2,
-                  "id": "2",
-                  "text": "2. allmän ålderspension i 56 kap. 4 a och 6 §§,"
-                },
-                {
-                  "nummer": 3,
-                  "id": "3",
-                  "text": "3. inkomstpensionstillägg i 74 a kap. 8 § andra stycket,"
-                },
-                {
-                  "nummer": 4,
-                  "id": "4",
-                  "text": "4. efterlevandepension och efterlevandestöd i 77 kap. 13 §,"
-                },
-                {
-                  "nummer": 5,
-                  "id": "5",
-                  "text": "5. efterlevandelivränta i 88 kap. 10 § första stycket,"
-                },
-                {
-                  "nummer": 6,
-                  "id": "6",
-                  "text": "6. premiepension till efterlevande i 92 kap. 2 § första stycket, och"
-                },
-                {
-                  "nummer": 7,
-                  "id": "7",
-                  "text": "7. bostadsbidrag i form av tilläggsbidrag till barnfamiljer i 93 kap. 4 § andra stycket."
-                }
-              ]
-            }
-          ],
-          "rubrik": "Ansökan och anmälan m.m.",
-          "underrubrik": "Ansökan m.m.",
-          "referens": [
-            "Lag (2022:1041)"
-          ]
-        },
-        {
-          "nummer": "6",
-          "periodisering": "Träder i kraft I:2025-01-01",
           "stycke": [
             {
               "nummer": 1,
@@ -53655,14 +53777,14 @@
               "nummer": 114,
               "text": [
                 "2022:1042",
-                "1. Denna lag träder i kraft den 1 januari 2025. (Lag 2024:471).",
+                "1. Denna lag träder i kraft den 1 juli 2025. (Lag 2024:1256).",
                 "2. Äldre bestämmelser gäller fortfarande för bostadsbidrag som avser tid före ikraftträdandet."
               ],
               "punkt": [
                 {
                   "nummer": 1,
                   "id": "1",
-                  "text": "1. Denna lag träder i kraft den 1 januari 2025. (Lag 2024:471)."
+                  "text": "1. Denna lag träder i kraft den 1 juli 2025. (Lag 2024:1256)."
                 },
                 {
                   "nummer": 2,
@@ -53860,6 +53982,118 @@
                   "nummer": 2,
                   "id": "2",
                   "text": "2. Äldre bestämmelser gäller fortfarande när en försäkrad får dagpenning enligt den upphävda lagen (1997:238) om arbetslöshetsförsäkring."
+                }
+              ]
+            },
+            {
+              "nummer": 124,
+              "text": [
+                "2024:694",
+                "1. Denna lag träder i kraft den 1 november 2024.",
+                "2. För den som var folkbokförd i Sverige den 31 oktober 2024 gäller 5 kap. 3 § i den äldre lydelsen."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. Denna lag träder i kraft den 1 november 2024."
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. För den som var folkbokförd i Sverige den 31 oktober 2024 gäller 5 kap. 3 § i den äldre lydelsen."
+                }
+              ]
+            },
+            {
+              "nummer": 125,
+              "text": [
+                "2024:1255",
+                "1. Denna lag träder i kraft den 1 januari 2025 i fråga om 97 kap. 23 a § och i övrigt den 1 april 2025.",
+                "2. Äldre föreskrifter gäller fortfarande för bostadsbidrag som avser tid före den 1 januari 2025 och för föräldrapenning som avser tid före den 1 april 2025."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. Denna lag träder i kraft den 1 januari 2025 i fråga om 97 kap. 23 a § och i övrigt den 1 april 2025."
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. Äldre föreskrifter gäller fortfarande för bostadsbidrag som avser tid före den 1 januari 2025 och för föräldrapenning som avser tid före den 1 april 2025."
+                }
+              ]
+            },
+            {
+              "nummer": 126,
+              "text": [
+                "2024:1269",
+                "1. Denna lag träder i kraft den 1 januari 2025.",
+                "2. Äldre bestämmelser gäller fortfarande i fråga om sjukpenning i särskilda fall, rehabiliteringspenning i särskilda fall och boendetillägg som avser tid före ikraftträdandet."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. Denna lag träder i kraft den 1 januari 2025."
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. Äldre bestämmelser gäller fortfarande i fråga om sjukpenning i särskilda fall, rehabiliteringspenning i särskilda fall och boendetillägg som avser tid före ikraftträdandet."
+                }
+              ]
+            },
+            {
+              "nummer": 127,
+              "text": [
+                "2024:1270",
+                "1. Denna lag träder i kraft den 1 juni 2025.",
+                "2. Lagen tillämpas första gången för tid från och med den 1 juli 2025.",
+                "3. För en försäkrad som har rätt till sjukersättning eller aktivitetsersättning från och med juli 2025 eller från och med en senare tidpunkt och som oavbrutet haft rätt till sjukersättning eller aktivitetsersättning sedan före den 1 juli 2025 gäller de upphävda paragraferna och bestämmelserna i 35 kap. 4, 12 och 15 §§ i den äldre lydelsen fortfarande för beräkning av försäkringstid för tid från och med 2003 till och med juni 2025.",
+                "4. Bestämmelserna i 26 kap. 8 § och 27 kap. 35 och 54 §§ i den äldre lydelsen gäller fortfarande för den som har rätt till sjukersättning eller aktivitetsersättning för tid före den 1 juli 2025."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. Denna lag träder i kraft den 1 juni 2025."
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. Lagen tillämpas första gången för tid från och med den 1 juli 2025."
+                },
+                {
+                  "nummer": 3,
+                  "id": "3",
+                  "text": "3. För en försäkrad som har rätt till sjukersättning eller aktivitetsersättning från och med juli 2025 eller från och med en senare tidpunkt och som oavbrutet haft rätt till sjukersättning eller aktivitetsersättning sedan före den 1 juli 2025 gäller de upphävda paragraferna och bestämmelserna i 35 kap. 4, 12 och 15 §§ i den äldre lydelsen fortfarande för beräkning av försäkringstid för tid från och med 2003 till och med juni 2025."
+                },
+                {
+                  "nummer": 4,
+                  "id": "4",
+                  "text": "4. Bestämmelserna i 26 kap. 8 § och 27 kap. 35 och 54 §§ i den äldre lydelsen gäller fortfarande för den som har rätt till sjukersättning eller aktivitetsersättning för tid före den 1 juli 2025."
+                }
+              ]
+            },
+            {
+              "nummer": 128,
+              "text": [
+                "2025:39",
+                "1. Denna lag träder i kraft den 1 mars 2025.",
+                "2. De nya bestämmelserna tillämpas inte på beslut om återbetalning som har fattats före ikraftträdandet."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. Denna lag träder i kraft den 1 mars 2025."
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. De nya bestämmelserna tillämpas inte på beslut om återbetalning som har fattats före ikraftträdandet."
                 }
               ]
             }
