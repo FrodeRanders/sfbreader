@@ -1071,13 +1071,7 @@
             {
               "nummer": 2,
               "text": [
-                "Avdelning B Familjeförmåner"
-              ],
-              "punkt": []
-            },
-            {
-              "nummer": 3,
-              "text": [
+                "Avdelning B Familjeförmåner",
                 "1. föräldrapenning på lägstanivå",
                 "och grundnivå, (11 och 12 kap.)",
                 "2. barnbidrag, (15 och 16 kap.)",
@@ -1114,7 +1108,7 @@
               ]
             },
             {
-              "nummer": 4,
+              "nummer": 3,
               "text": [
                 "Avdelning C Förmåner vid sjukdom eller arbetsskada",
                 "6. sjukpenning i särskilda fall, (28 a kap.)",
@@ -1142,7 +1136,7 @@
               ]
             },
             {
-              "nummer": 5,
+              "nummer": 4,
               "text": [
                 "Avdelning D Särskilda förmåner vid funktionshinder",
                 "9. merkostnadsersättning, (50 kap.)",
@@ -1168,7 +1162,7 @@
               ]
             },
             {
-              "nummer": 6,
+              "nummer": 5,
               "text": [
                 "Avdelning E Förmåner vid ålderdom",
                 "12. garantipension, (55, 56, 65-67 och",
@@ -1216,7 +1210,7 @@
               ]
             },
             {
-              "nummer": 8,
+              "nummer": 7,
               "text": [
                 "Avdelning G Bostadsstöd",
                 "17. bostadsbidrag, (95-98 kap.)",
@@ -1716,13 +1710,7 @@
             {
               "nummer": 2,
               "text": [
-                "Avdelning B Familjeförmåner"
-              ],
-              "punkt": []
-            },
-            {
-              "nummer": 3,
-              "text": [
+                "Avdelning B Familjeförmåner",
                 "1. graviditetspenning, (10 kap.)",
                 "2. föräldrapenning på grundnivå eller sjukpenningnivå och",
                 "tillfällig föräldrapenning, (11-13 kap.)"
@@ -1741,7 +1729,7 @@
               ]
             },
             {
-              "nummer": 4,
+              "nummer": 3,
               "text": [
                 "Avdelning C Förmåner vid sjukdom eller arbetsskada",
                 "3. sjukpenning, (24-28 kap.)",
@@ -1781,7 +1769,7 @@
               ]
             },
             {
-              "nummer": 5,
+              "nummer": 4,
               "text": [
                 "Avdelning E Förmåner vid ålderdom",
                 "8. inkomstgrundad ålderspension, (55-64 och 69-71 kap.)",
@@ -1801,7 +1789,7 @@
               ]
             },
             {
-              "nummer": 6,
+              "nummer": 5,
               "text": [
                 "Avdelning F Förmåner till efterlevande",
                 "9. inkomstrelaterad",
