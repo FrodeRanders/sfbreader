@@ -104,7 +104,7 @@ public class HtmlProcessor {
                         Element firstChild = element.children().first();
                         assert "a".equals(firstChild.nodeName());
 
-                        kapitel(stack, element.text());
+                        kapitel(stack, element);
                     }
                     case "h4" -> {
                         log.trace("[sektion] >> {}", element.text());
@@ -165,9 +165,12 @@ public class HtmlProcessor {
             if (matcher.find()) {
                 String chapter = matcher.group(1);
                 String paragraph = matcher.group(2);
-
                 log.debug("[ankare] Kapitel {}, paragraf {}", chapter, paragraph);
-                paragraf(stack, parent, element, paragraph);
+
+                log.trace("[paragraf] >> {}", element);
+                assert "div".equals(parent.nodeName());
+
+                paragraf(stack, paragraph);
             }
             return;
         }
@@ -182,7 +185,8 @@ public class HtmlProcessor {
             String paragraph = matcher.group(2);
             String part = matcher.group(3);
 
-            log.debug("[ankare] Kapitel {}, paragraf {}, stycke {}", chapter, paragraph, part);
+            // Not really relevant when encountering Overgangsbestämmelser
+            // log.debug("[ankare] Kapitel {}, paragraf {}, stycke {}", chapter, paragraph, part);
 
             boolean stop = stack.empty();
             if (!stop) {
@@ -256,7 +260,7 @@ public class HtmlProcessor {
         }
     }
 
-    private void kapitel(Stack<Layer> stack, String text) {
+    private void kapitel(Stack<Layer> stack, Element element) {
         /* Ett kapitel kan detekteras med hjälp av flera indicier, men hur gör man här
          * där kapiteltexten brutits upp fel:
          *
@@ -270,16 +274,27 @@ public class HtmlProcessor {
          * Här har "vid dödsfall" felaktigt markerats som en rubrik i kapitlet :(
          */
 
+        String text = element.text();
 
+        Kapitel kapitel = null;
         Matcher matcher = KAPITEL_RE.matcher(text);
         if (matcher.find()) {
             String chapter = matcher.group(1);
             String name = matcher.group(2);
+            kapitel = new Kapitel(chapter, name);
+        }
 
-            //
+        /* <h3 name="overgang"><a name="overgang">Övergångsbestämmelser</a></h3> */
+        Attribute name = element.attribute("name");
+        if (/* necessary */ null != name && "overgang".equals(name.getValue())) {
+            element.text();
+            kapitel = new Overgang(text);
+        }
+
+        //
+        if (null != kapitel) {
             boolean stop = stack.empty();
             if (!stop) {
-                Kapitel kapitel = new Kapitel(chapter, name);
 
                 // We have a new chapter (Kapitel), so we want to pop anything lower than Avdelning
                 do {
@@ -375,9 +390,7 @@ public class HtmlProcessor {
         }
     }
 
-    private void paragraf(Stack<Layer> stack, Element parent, Element element, String paragraph) {
-        log.trace("[paragraf] >> {}", element);
-        assert "div".equals(parent.nodeName());
+    private void paragraf(Stack<Layer> stack, String paragraph) {
 
         //
         boolean stop = stack.empty();
@@ -389,7 +402,7 @@ public class HtmlProcessor {
                 Layer layer = stack.peek();
                 switch (layer.type()) {
                     case "Punkt", "Stycke", "Paragraf" -> popLayer("paragraf", stack);
-                    default /* "Kapitel", ["Underavdelning",] "Avdelning", "Lag" */ -> {
+                    default /* "Kapitel" (inkl "Overgang"), ["Underavdelning",] "Avdelning", "Lag" */ -> {
                         log.debug("[paragraf] Keeping: {}", layer);
                         stop = true;
                     }
@@ -433,22 +446,53 @@ public class HtmlProcessor {
         if (!stack.isEmpty()) {
             Layer current = stack.peek();
 
-            if (!"Underavdelning".equals(current.type())) {
-                /* Avdelning C, underavdelning VI följer inte mönstret med <h4>-tag,
-                 * exempelvis
-                 *   <h4 name="III  Efterlevandeförmåner från arbetsskadeförsäkringen m.m."><a name="III  Efterlevandeförmåner från arbetsskadeförsäkringen m.m.">III  Efterlevandeförmåner från arbetsskadeförsäkringen m.m.</a></h4>
-                 * utan förekommer som ren text :(
-                 *
-                 * <a class="paragraf" name="K44P6"><b>6 §</b></a>
-                 * Bestämmelserna [..] krigsskadeersättning.<br />
-                 * VI  Särskilda förmåner vid smitta, sjukdom eller skada
-                 * <p><a name="K44P6S2"></a></p><br />
-                 * <h3 name="K45">...</h3>
-                 */
-                Matcher matcher = UNDERAVDELNING_RE.matcher(text);
-                if (matcher.find()) {
-                    sektion(stack, text);
-                    return;
+            switch (current.type()) {
+                case "Overgang", "Stycke" -> {
+                    if (text.matches("\\d{4}:\\d+")) {
+                        log.info("[text#overgang] referens {}", text);
+
+                        boolean stop = stack.empty();
+                        if (!stop) {
+                            // We have a new "paragraph" among the Overgangsbestämmelser (Paragraf)
+                            do {
+                                Layer layer = stack.peek();
+                                switch (layer.type()) {
+                                    case "Punkt", "Stycke", "Paragraf" -> {
+                                        popLayer("text#overgang", stack);
+                                    }
+                                    default /* "Kapitel" (inkl. "Overgang"), ["Underavdelning",] "Avdelning", "Lag" */ -> {
+                                        log.debug("[text#overgang] Keeping: {}", layer);
+                                        stop = true;
+                                    }
+                                }
+                                stop |= stack.empty();
+                            } while (!stop);
+                        }
+
+                        paragraf(stack, text);
+                        return;
+                    }
+                }
+                case "Underavdelning" -> {
+                    /* do nothing */
+                }
+                default -> {
+                    /* Avdelning C, underavdelning VI följer inte mönstret med <h4>-tag,
+                     * exempelvis
+                     *   <h4 name="III  Efterlevandeförmåner från arbetsskadeförsäkringen m.m."><a name="III  Efterlevandeförmåner från arbetsskadeförsäkringen m.m.">III  Efterlevandeförmåner från arbetsskadeförsäkringen m.m.</a></h4>
+                     * utan förekommer som ren text :(
+                     *
+                     * <a class="paragraf" name="K44P6"><b>6 §</b></a>
+                     * Bestämmelserna [..] krigsskadeersättning.<br />
+                     * VI  Särskilda förmåner vid smitta, sjukdom eller skada
+                     * <p><a name="K44P6S2"></a></p><br />
+                     * <h3 name="K45">...</h3>
+                     */
+                    Matcher matcher = UNDERAVDELNING_RE.matcher(text);
+                    if (matcher.find()) {
+                        sektion(stack, text);
+                        return;
+                    }
                 }
             }
 
@@ -527,6 +571,9 @@ public class HtmlProcessor {
                 case "Paragrafrubrik" -> {
                     popLayer("text#sektion( Paragrafrubrik )", stack); // TODO
                 }
+                case "Overgang" -> {
+                    log.debug("[text] (superfluous) ignored at {}", current);
+                }
                 case "Kapitel" -> {
                     Matcher periodiseringMatcher = PERIODISERING_RE.matcher(text);
                     if (periodiseringMatcher.find()) {
@@ -540,7 +587,7 @@ public class HtmlProcessor {
                         log.debug("[text] (superfluous) ignored at {}", current);
                     }
                 }
-                default /* "Kapitel", "Avdelning", "Lag" */ -> {
+                default /* "Avdelning", "Lag" */ -> {
                     Matcher periodiseringMatcher = PERIODISERING_RE.matcher(text);
                     if (periodiseringMatcher.find()) {
                         String periodisering = periodiseringMatcher.group(1);

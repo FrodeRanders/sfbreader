@@ -22017,13 +22017,1038 @@
             {
               "nummer": 1,
               "text": [
-                "Bestämmelserna i 39 kap. och 42 kap. 7-12 §§ tillämpas i övrigt på motsvarande sätt i fråga om krigsskadeersättning."
+                "Bestämmelserna i 39 kap. och 42 kap. 7-12 §§ tillämpas i övrigt på motsvarande sätt i fråga om krigsskadeersättning.",
+                "VI Särskilda förmåner vid smitta, sjukdom eller skada"
               ],
               "punkt": []
             }
           ],
           "rubrik": "Förmånerna",
           "underrubrik": "Övriga frågor",
+          "referens": []
+        }
+      ],
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "V",
+        "namn": "Förmåner vid arbetsskada m.m."
+      }
+    },
+    {
+      "nummer": "45",
+      "namn": "Innehåll",
+      "paragraf": [
+        {
+          "nummer": "1",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "I denna underavdelning finns bestämmelser om",
+                "- smittbärarersättning i 46 kap., och - närståendepenning i 47 kap."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "-",
+                  "text": "- smittbärarersättning i 46 kap., och - närståendepenning i 47 kap."
+                }
+              ]
+            }
+          ],
+          "referens": []
+        }
+      ],
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "V",
+        "namn": "Förmåner vid arbetsskada m.m."
+      }
+    },
+    {
+      "nummer": "46",
+      "namn": "Smittbärarersättning",
+      "paragraf": [
+        {
+          "nummer": "1",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "I detta kapitel finns allmänna bestämmelser om smittbärarersättning i 2-4 §§."
+              ],
+              "punkt": []
+            },
+            {
+              "nummer": 2,
+              "text": [
+                "Vidare finns bestämmelser om - rätten till smittbärarpenning i 5-10 §§,",
+                "- förmånsnivåer och förvärvsarbete i 11-13 §§, - beräkning av smittbärarpenning i 14-17 §§,",
+                "- samordning med andra förmåner i 18 och 19 §§, och",
+                "- resekostnadsersättning i 20 och 21 §§."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "-",
+                  "text": "- förmånsnivåer och förvärvsarbete i 11-13 §§, - beräkning av smittbärarpenning i 14-17 §§,"
+                },
+                {
+                  "nummer": 2,
+                  "id": "-",
+                  "text": "- samordning med andra förmåner i 18 och 19 §§, och"
+                },
+                {
+                  "nummer": 3,
+                  "id": "-",
+                  "text": "- resekostnadsersättning i 20 och 21 §§."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Innehåll",
+          "referens": []
+        },
+        {
+          "nummer": "2",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Smittbärarersättning kan lämnas till en smittbärare i samband med åtgärder för smittskydd eller skydd för livsmedel."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Allmänna bestämmelser",
+          "referens": []
+        },
+        {
+          "nummer": "3",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Med smittbärare avses i detta kapitel",
+                "1. den som har eller kan antas ha en smittsam sjukdom utan att ha förlorat sin arbetsförmåga till följd av sjukdomen,",
+                "2. den som för eller kan antas föra smitta utan att vara sjuk i en smittsam sjukdom, och",
+                "3. den som i annat fall har eller kan antas ha varit utsatt för smitta av en samhällsfarlig sjukdom som avses i smittskyddslagen (2004:168) utan att vara sjuk i en sådan sjukdom."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. den som har eller kan antas ha en smittsam sjukdom utan att ha förlorat sin arbetsförmåga till följd av sjukdomen,"
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. den som för eller kan antas föra smitta utan att vara sjuk i en smittsam sjukdom, och"
+                },
+                {
+                  "nummer": 3,
+                  "id": "3",
+                  "text": "3. den som i annat fall har eller kan antas ha varit utsatt för smitta av en samhällsfarlig sjukdom som avses i smittskyddslagen (2004:168) utan att vara sjuk i en sådan sjukdom."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Allmänna bestämmelser",
+          "referens": []
+        },
+        {
+          "nummer": "4",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Smittbärarersättning lämnas i form av smittbärarpenning och resekostnadsersättning."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Allmänna bestämmelser",
+          "referens": []
+        },
+        {
+          "nummer": "5",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "En smittbärare har rätt till smittbärarpenning om han eller hon måste avstå från förvärvsarbete på grund av",
+                "1. beslut enligt smittskyddslagen (2004:168) eller livsmedelslagen (2006:804) eller föreskrifter som har meddelats med stöd av sistnämnda lag, eller",
+                "2. läkarundersökning eller hälsokontroll som smittbäraren genomgår utan föregående beslut enligt 1 och som syftar till att klarlägga om han eller hon är smittad av en allmänfarlig sjukdom eller har en sjukdom, en smitta, ett sår eller en annan skada, som kan göra livsmedel som han eller hon hanterar otjänligt som människoföda.",
+                "1. hälsokontroll vid inresa enligt 3 kap. 8 § smittskyddslagen, eller",
+                "2. beslut som avser avspärrning enligt 3 kap. 10 § smittskyddslagen."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. beslut enligt smittskyddslagen (2004:168) eller livsmedelslagen (2006:804) eller föreskrifter som har meddelats med stöd av sistnämnda lag, eller"
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. läkarundersökning eller hälsokontroll som smittbäraren genomgår utan föregående beslut enligt 1 och som syftar till att klarlägga om han eller hon är smittad av en allmänfarlig sjukdom eller har en sjukdom, en smitta, ett sår eller en annan skada, som kan göra livsmedel som han eller hon hanterar otjänligt som människoföda."
+                },
+                {
+                  "nummer": 3,
+                  "id": "1",
+                  "text": "1. hälsokontroll vid inresa enligt 3 kap. 8 § smittskyddslagen, eller"
+                },
+                {
+                  "nummer": 4,
+                  "id": "2",
+                  "text": "2. beslut som avser avspärrning enligt 3 kap. 10 § smittskyddslagen."
+                }
+              ]
+            },
+            {
+              "nummer": 2,
+              "text": [
+                "Första stycket gäller inte när det är fråga om"
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Rätten till smittbärarpenning",
+          "underrubrik": "Allmänna bestämmelser",
+          "referens": []
+        },
+        {
+          "nummer": "6",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Smittbärarpenning får dras in eller sättas ned om smittbäraren",
+                "1. inte följer förhållningsregler som har beslutats med stöd av smittskyddslagen (2004:168) eller överträder förbud enligt 3 kap. 9 § den lagen, eller",
+                "2. inte följer särskilda villkor i samband med ett beslut enligt livsmedelslagen (2006:804) eller föreskrifter som har meddelats med stöd av den lagen."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. inte följer förhållningsregler som har beslutats med stöd av smittskyddslagen (2004:168) eller överträder förbud enligt 3 kap. 9 § den lagen, eller"
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. inte följer särskilda villkor i samband med ett beslut enligt livsmedelslagen (2006:804) eller föreskrifter som har meddelats med stöd av den lagen."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Rätten till smittbärarpenning",
+          "underrubrik": "Allmänna bestämmelser",
+          "referens": []
+        },
+        {
+          "nummer": "7",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Smittbärarpenning lämnas från och med första dagen i ersättningsperioden och därefter så länge den försäkrade uppfyller förutsättningarna för rätt till smittbärarpenning."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Rätten till smittbärarpenning",
+          "underrubrik": "Förmånstiden",
+          "referens": []
+        },
+        {
+          "nummer": "8",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Bestämmelserna om sjukpenning i samband med pension, sjukersättning eller aktivitetsersättning i 27 kap. 34 § och sjukpenning i samband med 71-årsdagen i 27 kap. 37 § tillämpas även i fråga om smittbärarpenning."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Rätten till smittbärarpenning",
+          "underrubrik": "Förmånstiden",
+          "referens": [
+            "Lag (2022:878)"
+          ]
+        },
+        {
+          "nummer": "9",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "För en försäkrad som får smittbärarpenning ska bestämmelserna i 30 kap. 8-14 §§ om Försäkringskassans åtgärder för rehabilitering tillämpas."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Rätten till smittbärarpenning",
+          "underrubrik": "Rehabiliteringsåtgärder",
+          "referens": []
+        },
+        {
+          "nummer": "10",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Bestämmelserna om arbetsgivarinträde, m.m. i 27 kap. 56-60 §§ tilllämpas även i fråga om smittbärarpenning.",
+                "Förmånsnivåer och förvärvsarbete"
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Rätten till smittbärarpenning",
+          "underrubrik": "Arbetsgivarinträde m.m.",
+          "referens": []
+        },
+        {
+          "nummer": "11",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Smittbärarpenning lämnas enligt följande förmånsnivåer:",
+                "1. Hel smittbärarpenning lämnas när den försäkrade helt måste avstå från förvärvsarbete. 2. Tre fjärdedels smittbärarpenning lämnas när den försäkrade arbetar högst en fjärdedel av den tid han eller hon annars skulle ha arbetat. 3. Halv smittbärarpenning lämnas när den försäkrade arbetar högst hälften av den tid han eller hon annars skulle ha arbetat.",
+                "4. En fjärdedels smittbärarpenning lämnas när den försäkrade arbetar högst tre fjärdedelar av den tid han eller hon annars skulle ha arbetat."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. Hel smittbärarpenning lämnas när den försäkrade helt måste avstå från förvärvsarbete. 2. Tre fjärdedels smittbärarpenning lämnas när den försäkrade arbetar högst en fjärdedel av den tid han eller hon annars skulle ha arbetat. 3. Halv smittbärarpenning lämnas när den försäkrade arbetar högst hälften av den tid han eller hon annars skulle ha arbetat."
+                },
+                {
+                  "nummer": 2,
+                  "id": "4",
+                  "text": "4. En fjärdedels smittbärarpenning lämnas när den försäkrade arbetar högst tre fjärdedelar av den tid han eller hon annars skulle ha arbetat."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Rätten till smittbärarpenning",
+          "underrubrik": "Arbetsgivarinträde m.m.",
+          "referens": []
+        },
+        {
+          "nummer": "12",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Vid tillämpning av 11 § ska som förvärvsarbete inte betraktas sådant förvärvsarbete som utförs under tid då den försäkrade förvärvsarbetar med stöd av 37 kap. 3 §."
+              ],
+              "punkt": []
+            },
+            {
+              "nummer": 2,
+              "text": [
+                "Om det inte går att avgöra under vilken tid den försäkrade avstår från förvärvsarbete ska frånvaron i första hand anses som frånvaro från sådant förvärvsarbete som avses i 37 kap. 3 §."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Rätten till smittbärarpenning",
+          "underrubrik": "Arbetsgivarinträde m.m.",
+          "referens": []
+        },
+        {
+          "nummer": "13",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Med tid för förvärvsarbete likställs följande:",
+                "1. Ledighet för semester, dock inte om den försäkrade under ledigheten får semesterlön enligt semesterlagen (1977:480) och, enligt 15 § samma lag, kan begära att dag då han eller hon inte kan arbeta på grund av sjukdom inte ska räknas som semesterdag.",
+                "2. Ledighet under studietid för vilken oavkortade löneförmåner lämnas.",
+                "3. Ledighet under tid då den försäkrade får ersättning för att delta i teckenspråksutbildning för vissa föräldrar (TUFF).",
+                "4. Ledighet för ferier eller motsvarande uppehåll för lärare som är anställda inom utbildningsväsendet."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. Ledighet för semester, dock inte om den försäkrade under ledigheten får semesterlön enligt semesterlagen (1977:480) och, enligt 15 § samma lag, kan begära att dag då han eller hon inte kan arbeta på grund av sjukdom inte ska räknas som semesterdag."
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. Ledighet under studietid för vilken oavkortade löneförmåner lämnas."
+                },
+                {
+                  "nummer": 3,
+                  "id": "3",
+                  "text": "3. Ledighet under tid då den försäkrade får ersättning för att delta i teckenspråksutbildning för vissa föräldrar (TUFF)."
+                },
+                {
+                  "nummer": 4,
+                  "id": "4",
+                  "text": "4. Ledighet för ferier eller motsvarande uppehåll för lärare som är anställda inom utbildningsväsendet."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Rätten till smittbärarpenning",
+          "underrubrik": "Arbetsgivarinträde m.m.",
+          "referens": []
+        },
+        {
+          "nummer": "14",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Smittbärarpenning lämnas med ett belopp som motsvarar den försäkrades sjukpenning på normalnivån enligt 28 kap."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Beräkning av smittbärarpenning",
+          "underrubrik": "Den som är försäkrad för sjukpenning",
+          "referens": []
+        },
+        {
+          "nummer": "15",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Är smittbäraren inte försäkrad för sjukpenning enligt 6 kap. 6 § 3, ska smittbärarpenningen lämnas med det belopp som sjukpenningen skulle ha uppgått till om den sjukpenninggrundande inkomsten hade beräknats med bortseende från bestämmelserna i 25 kap. 3 § andra stycket 1 och 2."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Beräkning av smittbärarpenning",
+          "underrubrik": "Den som inte är försäkrad för sjukpenning",
+          "referens": []
+        },
+        {
+          "nummer": "16",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "I fall som avses i 15 § ska som inkomst av anställning även räknas ersättning för eget arbete från en arbetsgivare som är bosatt utomlands eller som är en utländsk juridisk person, när arbetet har utförts i arbetsgivarens verksamhet utomlands."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Beräkning av smittbärarpenning",
+          "underrubrik": "Den som inte är försäkrad för sjukpenning",
+          "referens": []
+        },
+        {
+          "nummer": "17",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Smittbärarpenning enligt 15 § ska beräknas per kalenderdag enligt 28 kap. 10 och 11 §§."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Beräkning av smittbärarpenning",
+          "underrubrik": "Den som inte är försäkrad för sjukpenning",
+          "referens": []
+        },
+        {
+          "nummer": "18",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Smittbärarpenningen ska minskas med följande förmåner i den utsträckning förmånerna lämnas för samma tid:",
+                "1. graviditetspenning,",
+                "2. föräldrapenningsförmåner,",
+                "3. sjuklön eller sådan ersättning från Försäkringskassan som avses i 20 § lagen (1991:1047) om sjuklön,",
+                "4. sjukpenning enligt denna balk eller motsvarande äldre lag,",
+                "5. rehabiliteringspenning,",
+                "6. livränta enligt denna balk eller motsvarande äldre författning på grund av smitta,",
+                "7. närståendepenning, och",
+                "8. statlig ersättning som lämnas för arbete i etableringsjobb."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. graviditetspenning,"
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. föräldrapenningsförmåner,"
+                },
+                {
+                  "nummer": 3,
+                  "id": "3",
+                  "text": "3. sjuklön eller sådan ersättning från Försäkringskassan som avses i 20 § lagen (1991:1047) om sjuklön,"
+                },
+                {
+                  "nummer": 4,
+                  "id": "4",
+                  "text": "4. sjukpenning enligt denna balk eller motsvarande äldre lag,"
+                },
+                {
+                  "nummer": 5,
+                  "id": "5",
+                  "text": "5. rehabiliteringspenning,"
+                },
+                {
+                  "nummer": 6,
+                  "id": "6",
+                  "text": "6. livränta enligt denna balk eller motsvarande äldre författning på grund av smitta,"
+                },
+                {
+                  "nummer": 7,
+                  "id": "7",
+                  "text": "7. närståendepenning, och"
+                },
+                {
+                  "nummer": 8,
+                  "id": "8",
+                  "text": "8. statlig ersättning som lämnas för arbete i etableringsjobb."
+                }
+              ]
+            },
+            {
+              "nummer": 2,
+              "text": [
+                "Det som föreskrivs i första stycket gäller även motsvarande förmån som lämnas till smittbäraren på grundval av utländsk lagstiftning."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Beräkning av smittbärarpenning",
+          "underrubrik": "Samordning med andra förmåner",
+          "referens": [
+            "Lag (2020:475)"
+          ]
+        },
+        {
+          "nummer": "19",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Om smittbäraren har inkomst av anställning från en arbetsgivare som avses i 1 eller 2 § lagen (1994:260) om offentlig anställning för tid som avses i 7 §, lämnas smittbärarpenning endast till den del den överstiger inkomsten."
+              ],
+              "punkt": []
+            },
+            {
+              "nummer": 2,
+              "text": [
+                "När anställningen avser arbete i etableringsjobb ska även statlig ersättning som lämnas för det arbetet räknas med i den inkomst som avses i första stycket."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Beräkning av smittbärarpenning",
+          "underrubrik": "Samordning med andra förmåner",
+          "referens": [
+            "Lag (2020:475)"
+          ]
+        },
+        {
+          "nummer": "20",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "En smittbärare har rätt till skälig ersättning för resekostnader i samband med läkarundersökning, hälsokontroll, vård, behandling eller annan motsvarande åtgärd som sker på grund av bestämmelserna i",
+                "1. smittskyddslagen (2004:168), eller",
+                "2. livsmedelslagen (2006:804) eller föreskrifter som har meddelats med stöd av sistnämnda lag."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. smittskyddslagen (2004:168), eller"
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. livsmedelslagen (2006:804) eller föreskrifter som har meddelats med stöd av sistnämnda lag."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Beräkning av smittbärarpenning",
+          "underrubrik": "Resekostnadsersättning",
+          "referens": []
+        },
+        {
+          "nummer": "21",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Ersättning enligt 20 § lämnas inte till den del ersättning för resan kan lämnas enligt",
+                "1. andra bestämmelser i denna balk,",
+                "2. någon äldre författning som motsvarar bestämmelserna i 39-43 kap., eller",
+                "3. bestämmelser i någon annan författning om ersättning av allmänna medel för sjukresor och sjuktransporter."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. andra bestämmelser i denna balk,"
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. någon äldre författning som motsvarar bestämmelserna i 39-43 kap., eller"
+                },
+                {
+                  "nummer": 3,
+                  "id": "3",
+                  "text": "3. bestämmelser i någon annan författning om ersättning av allmänna medel för sjukresor och sjuktransporter."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Beräkning av smittbärarpenning",
+          "underrubrik": "Resekostnadsersättning",
+          "referens": []
+        }
+      ],
+      "avdelning": {
+        "id": "C",
+        "namn": "FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA"
+      },
+      "underavdelning": {
+        "id": "V",
+        "namn": "Förmåner vid arbetsskada m.m."
+      }
+    },
+    {
+      "nummer": "47",
+      "namn": "Närståendepenning",
+      "paragraf": [
+        {
+          "nummer": "1",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "I detta kapitel finns inledande bestämmelser i 2 §."
+              ],
+              "punkt": []
+            },
+            {
+              "nummer": 2,
+              "text": [
+                "Vidare finns bestämmelser om",
+                "- rätten till närståendepenning i 3-6 §§,",
+                "- förlust av ersättning i 7 §,",
+                "- förmånstiden i 8-10 §§,",
+                "- förmånsnivåer och förvärvsarbete i 11-13 §§,",
+                "- beräkning av närståendepenning i 14-16 §§, och",
+                "- samordning med andra förmåner i 17 §."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "-",
+                  "text": "- rätten till närståendepenning i 3-6 §§,"
+                },
+                {
+                  "nummer": 2,
+                  "id": "-",
+                  "text": "- förlust av ersättning i 7 §,"
+                },
+                {
+                  "nummer": 3,
+                  "id": "-",
+                  "text": "- förmånstiden i 8-10 §§,"
+                },
+                {
+                  "nummer": 4,
+                  "id": "-",
+                  "text": "- förmånsnivåer och förvärvsarbete i 11-13 §§,"
+                },
+                {
+                  "nummer": 5,
+                  "id": "-",
+                  "text": "- beräkning av närståendepenning i 14-16 §§, och"
+                },
+                {
+                  "nummer": 6,
+                  "id": "-",
+                  "text": "- samordning med andra förmåner i 17 §."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Innehåll",
+          "referens": [
+            "Lag (2013:747)"
+          ]
+        },
+        {
+          "nummer": "2",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Bestämmelser om närståendepenning i samband med att en svårt sjuk person vårdas av en närstående finns i detta kapitel."
+              ],
+              "punkt": []
+            },
+            {
+              "nummer": 2,
+              "text": [
+                "I lagen (1988:1465) om ledighet för närståendevård finns bestämmelser i vilka anges när en arbetstagare som vårdar en närstående har rätt att vara ledig från sin anställning."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Inledande bestämmelser",
+          "referens": [
+            "Lag (2010:1307)"
+          ]
+        },
+        {
+          "nummer": "3",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "En försäkrad som vårdar en närstående som är svårt sjuk har rätt till närståendepenning för tid då han eller hon avstår från förvärvsarbete i samband med vården, om",
+                "1. den sjuke är försäkrad enligt någon bestämmelse i 4-7 kap.,",
+                "2. den sjuke vårdas här i landet, och 3. den sjuke har gett sitt samtycke till vården."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. den sjuke är försäkrad enligt någon bestämmelse i 4-7 kap.,"
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. den sjuke vårdas här i landet, och 3. den sjuke har gett sitt samtycke till vården."
+                }
+              ]
+            },
+            {
+              "nummer": 2,
+              "text": [
+                "Om den sjuke på grund av sitt tillstånd inte kan ge samtycke till vården enligt första stycket 3, ska i stället detta framgå."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Rätten till närståendepenning",
+          "referens": []
+        },
+        {
+          "nummer": "4",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Med en svårt sjuk person likställs den som har fått infektion av hiv (humant immunbristvirus) genom smitta",
+                "1. vid användning av blod eller blodprodukter vid behandling inom den svenska hälso- och sjukvården, eller",
+                "2. av en sådan person som avses i 1 och som är hans eller hennes nuvarande eller före detta make eller sambo, under förutsättning att smittan ägt rum innan den först smittade fått kännedom om sin infektion."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. vid användning av blod eller blodprodukter vid behandling inom den svenska hälso- och sjukvården, eller"
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. av en sådan person som avses i 1 och som är hans eller hennes nuvarande eller före detta make eller sambo, under förutsättning att smittan ägt rum innan den först smittade fått kännedom om sin infektion."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Rätten till närståendepenning",
+          "referens": []
+        },
+        {
+          "nummer": "5",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Om någon vårdar mer än en person under samma tid ger det inte rätt till ytterligare ersättning."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Rätten till närståendepenning",
+          "referens": []
+        },
+        {
+          "nummer": "6",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Närståendepenning för vård av en person får inte lämnas till flera vårdare för samma tid."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Rätten till närståendepenning",
+          "referens": []
+        },
+        {
+          "nummer": "7",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Rätten till närståendepenning går förlorad om en ansökan om denna förmån inte görs inom tre månader från den dag ersättningen avser. Detta gäller dock inte om det har funnits hinder för att göra en ansökan inom denna tid eller det finns särskilda skäl för att förmånen ändå bör lämnas."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Förlust av ersättning",
+          "referens": [
+            "Lag (2013:747)"
+          ]
+        },
+        {
+          "nummer": "8",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Närståendepenning lämnas för högst 100 dagar sammanlagt för varje person som vårdas. Ersättningen lämnas från och med första vårddagen."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Förmånstiden",
+          "referens": []
+        },
+        {
+          "nummer": "9",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Närståendepenning lämnas för högst 240 dagar sammanlagt vid vård av en närstående som har fått infektion av hiv på sätt som anges i 4 §. Ersättningen lämnas från och med första vårddagen."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Förmånstiden",
+          "referens": []
+        },
+        {
+          "nummer": "10",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Vid beräkning av antalet dagar med rätt till ersättning gäller följande:",
+                "- En dag med hel närståendepenning motsvarar en dag.",
+                "- En dag med tre fjärdedels, halv eller en fjärdedels närståendepenning motsvarar tre fjärdedelar, hälften respektive en fjärdedel av en dag."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "-",
+                  "text": "- En dag med hel närståendepenning motsvarar en dag."
+                },
+                {
+                  "nummer": 2,
+                  "id": "-",
+                  "text": "- En dag med tre fjärdedels, halv eller en fjärdedels närståendepenning motsvarar tre fjärdedelar, hälften respektive en fjärdedel av en dag."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Förmånstiden",
+          "referens": [
+            "Lag (2018:670)"
+          ]
+        },
+        {
+          "nummer": "11",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Närståendepenning lämnas enligt följande förmånsnivåer:",
+                "1. Hel närståendepenning lämnas för dag när en vårdare helt avstått från förvärvsarbete.",
+                "2. Tre fjärdedels närståendepenning lämnas för dag när en vårdare förvärvsarbetat högst en fjärdedel av den tid han eller hon annars skulle ha arbetat.",
+                "3. Halv närståendepenning lämnas för dag när en vårdare förvärvsarbetat högst hälften av den tid han eller hon annars skulle ha arbetat.",
+                "4. En fjärdedels närståendepenning lämnas för dag när en vårdare förvärvsarbetat högst tre fjärdedelar av den tid han eller hon annars skulle ha arbetat."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. Hel närståendepenning lämnas för dag när en vårdare helt avstått från förvärvsarbete."
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. Tre fjärdedels närståendepenning lämnas för dag när en vårdare förvärvsarbetat högst en fjärdedel av den tid han eller hon annars skulle ha arbetat."
+                },
+                {
+                  "nummer": 3,
+                  "id": "3",
+                  "text": "3. Halv närståendepenning lämnas för dag när en vårdare förvärvsarbetat högst hälften av den tid han eller hon annars skulle ha arbetat."
+                },
+                {
+                  "nummer": 4,
+                  "id": "4",
+                  "text": "4. En fjärdedels närståendepenning lämnas för dag när en vårdare förvärvsarbetat högst tre fjärdedelar av den tid han eller hon annars skulle ha arbetat."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Förmånsnivåer och förvärvsarbete",
+          "referens": [
+            "Lag (2017:1124)"
+          ]
+        },
+        {
+          "nummer": "12",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Vid tillämpningen av 11 § ska som förvärvsarbete inte betraktas sådant förvärvsarbete som utförs under tid då vårdaren förvärvsarbetar med stöd av 37 kap. 3 §."
+              ],
+              "punkt": []
+            },
+            {
+              "nummer": 2,
+              "text": [
+                "Om det inte går att avgöra under vilken tid vårdaren avstår från förvärvsarbete ska frånvaron i första hand anses som frånvaro från sådant förvärvsarbete som avses i 37 kap. 3 §."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Förmånsnivåer och förvärvsarbete",
+          "referens": []
+        },
+        {
+          "nummer": "13",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Om en vårdare får oreducerade löneförmåner under tid då han eller hon bedriver studier, likställs avstående från studier med avstående från förvärvsarbete i den utsträckning vårdaren går miste om löneförmånerna."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Förmånsnivåer och förvärvsarbete",
+          "referens": []
+        },
+        {
+          "nummer": "14",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Närståendepenning lämnas med ett belopp som motsvarar vårdarens sjukpenning på normalnivån enligt 28 kap. med de avvikelser som följer av 15 och 16 §§."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Beräkning av närståendepenning",
+          "underrubrik": "Grundläggande bestämmelser",
+          "referens": []
+        },
+        {
+          "nummer": "15",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Närståendepenning ska arbetstidsberäknas enligt 28 kap. 12-18 §§ för hela den tid som förmånen avser när ersättning lämnas på grundval av sjukpenninggrundande inkomst av anställning. Detta gäller dock inte i fall som avses i 6 § samma kapitel, då närståendepenning i stället ska kalenderdagsberäknas enligt 10 och 11 §§ i det kapitlet. Vad som föreskrivs i 28 kap. 6 § tredje stycket om när kalenderdagsberäknad sjukpenning lämnas till en arbetslös försäkrad under de första 14 dagarna i en sjukperiod, tillämpas i fråga om närståendepenning för hela den tid som förmånen avser."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Beräkning av närståendepenning",
+          "underrubrik": "Arbetstids- eller kalenderdagsberäknad närståendepenning",
+          "referens": [
+            "Lag (2010:2005)"
+          ]
+        },
+        {
+          "nummer": "16",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "För en vårdare som studerar får närståendepenningen vid ett studieuppehåll inte beräknas på grundval av den sjukpenninggrundande inkomst som följer av bestämmelserna i 26 kap. 22 §."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Beräkning av närståendepenning",
+          "underrubrik": "Särskilt om studerande under studieuppehåll",
+          "referens": []
+        },
+        {
+          "nummer": "17",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Närståendepenning lämnas inte i den utsträckning vårdaren för samma tid får",
+                "1. föräldrapenningsförmåner,",
+                "2. sjuklön eller sådan ersättning från Försäkringskassan som avses i 20 § lagen (1991:1047) om sjuklön,",
+                "3. sjukpenning,",
+                "4. rehabiliteringspenning, eller",
+                "5. ersättning som motsvarar sjukpenning enligt någon annan författning eller på grund av regeringens beslut i ett särskilt fall."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. föräldrapenningsförmåner,"
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. sjuklön eller sådan ersättning från Försäkringskassan som avses i 20 § lagen (1991:1047) om sjuklön,"
+                },
+                {
+                  "nummer": 3,
+                  "id": "3",
+                  "text": "3. sjukpenning,"
+                },
+                {
+                  "nummer": 4,
+                  "id": "4",
+                  "text": "4. rehabiliteringspenning, eller"
+                },
+                {
+                  "nummer": 5,
+                  "id": "5",
+                  "text": "5. ersättning som motsvarar sjukpenning enligt någon annan författning eller på grund av regeringens beslut i ett särskilt fall."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Beräkning av närståendepenning",
+          "underrubrik": "Samordning med andra förmåner",
           "referens": []
         }
       ],
@@ -34051,13 +35076,520 @@
             {
               "nummer": 1,
               "text": [
-                "Partiell garantipension utgör en så stor andel av garantipension beräknad enligt 21-25 §§ vid helt uttag som svarar mot den andel som tas ut."
+                "Partiell garantipension utgör en så stor andel av garantipension beräknad enligt 21-25 §§ vid helt uttag som svarar mot den andel som tas ut.",
+                "V Vissa gemensamma bestämmelser om allmän ålderspension"
               ],
               "punkt": []
             }
           ],
           "rubrik": "Beräkning av garantipension",
           "underrubrik": "Partiell garantipension",
+          "referens": []
+        }
+      ],
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Garantipension"
+      }
+    },
+    {
+      "nummer": "68",
+      "namn": "Innehåll",
+      "paragraf": [
+        {
+          "nummer": "1",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "I denna underavdelning finns bestämmelser om",
+                "- samordning av allmän ålderspension och yrkesskadelivränta i 69 kap.,",
+                "- ändring av beräkningsunderlag för allmän ålderspension i 70 kap., och",
+                "- utbetalning av allmän ålderspension i 71 kap."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "-",
+                  "text": "- samordning av allmän ålderspension och yrkesskadelivränta i 69 kap.,"
+                },
+                {
+                  "nummer": 2,
+                  "id": "-",
+                  "text": "- ändring av beräkningsunderlag för allmän ålderspension i 70 kap., och"
+                },
+                {
+                  "nummer": 3,
+                  "id": "-",
+                  "text": "- utbetalning av allmän ålderspension i 71 kap."
+                }
+              ]
+            }
+          ],
+          "referens": []
+        }
+      ],
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Garantipension"
+      }
+    },
+    {
+      "nummer": "69",
+      "namn": "Samordning av allmän ålderspension och yrkesskadelivränta",
+      "paragraf": [
+        {
+          "nummer": "1",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "I detta kapitel finns bestämmelser om",
+                "- när samordning ska ske i 2-5 §§, och",
+                "- hur samordning ska ske i 6-12 §§."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "-",
+                  "text": "- när samordning ska ske i 2-5 §§, och"
+                },
+                {
+                  "nummer": 2,
+                  "id": "-",
+                  "text": "- hur samordning ska ske i 6-12 §§."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Innehåll",
+          "referens": []
+        },
+        {
+          "nummer": "2",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Inkomstpension, tilläggspension eller garantipension ska minskas om den försäkrade har rätt till livränta (yrkesskadelivränta) på grund av obligatorisk försäkring enligt följande upphävda lagar:",
+                "1. lagen (1916:235) om försäkring för olycksfall i arbete,",
+                "2. lagen (1929:131) om försäkring för vissa yrkessjukdomar, och",
+                "3. lagen (1954:243) om yrkesskadeförsäkring."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. lagen (1916:235) om försäkring för olycksfall i arbete,"
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. lagen (1929:131) om försäkring för vissa yrkessjukdomar, och"
+                },
+                {
+                  "nummer": 3,
+                  "id": "3",
+                  "text": "3. lagen (1954:243) om yrkesskadeförsäkring."
+                }
+              ]
+            },
+            {
+              "nummer": 2,
+              "text": [
+                "Detsamma gäller om den försäkrade",
+                "1. enligt någon annan författning eller enligt särskilt beslut av regeringen har rätt till annan livränta, som bestäms eller betalas ut av Försäkringskassan, eller",
+                "2. får livränta enligt utländsk lagstiftning om yrkesskadeförsäkring."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "1",
+                  "text": "1. enligt någon annan författning eller enligt särskilt beslut av regeringen har rätt till annan livränta, som bestäms eller betalas ut av Försäkringskassan, eller"
+                },
+                {
+                  "nummer": 2,
+                  "id": "2",
+                  "text": "2. får livränta enligt utländsk lagstiftning om yrkesskadeförsäkring."
+                }
+              ]
+            }
+          ],
+          "rubrik": "När samordning ska ske",
+          "referens": []
+        },
+        {
+          "nummer": "3",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Inkomstpension, tilläggspension eller garantipension ska inte minskas på grund av livränta på grund av arbetsskada eller annan skada som avses i 41-44 kap."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "När samordning ska ske",
+          "referens": []
+        },
+        {
+          "nummer": "4",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Om samordning ska göras enligt 12 §, ska garantipensionen inte minskas enligt bestämmelserna i 6-11 §§."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "När samordning ska ske",
+          "referens": []
+        },
+        {
+          "nummer": "5",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Om en skada som livränta har börjat lämnas för återigen medför sjukdom som berättigar till sjukpenning, ska det anses som om livränta hade lämnats under sjukdomstiden."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "När samordning ska ske",
+          "referens": []
+        },
+        {
+          "nummer": "6",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Summan av inkomstpension, tilläggspension och garantipension ska minskas med tre fjärdedelar av varje livränta som överstiger en sjättedel av prisbasbeloppet och som den försäkrade får som skadad."
+              ],
+              "punkt": []
+            },
+            {
+              "nummer": 2,
+              "text": [
+                "Minskningen ska i första hand göras på garantipensionen och därefter på tilläggspensionen."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Hur samordning ska ske",
+          "underrubrik": "Grundläggande bestämmelser",
+          "referens": []
+        },
+        {
+          "nummer": "7",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Avdrag på inkomstpension och på tilläggspension enligt 63 kap. 6 § första stycket 1 får göras endast om den försäkrade kunnat tillgodoräkna sig pensionspoäng för minst ett år när skadan inträffade."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Hur samordning ska ske",
+          "underrubrik": "Grundläggande bestämmelser",
+          "referens": []
+        },
+        {
+          "nummer": "8",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Garantipension ska på motsvarande sätt som anges i 6 § minskas med livränta som den försäkrade får som efterlevande i annat fall än som avses i 87 och 88 kap.",
+                "Livränta med engångsbelopp 9 § Har livränta eller del av livränta eller livränta för viss tid bytts ut mot ett engångsbelopp, ska det vid beräkningen anses som om livränta lämnas eller som om den livränta som lämnas har höjts med ett belopp som motsvarar engångsbeloppet enligt de försäkringstekniska grunder som tillämpades vid utbytet."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Hur samordning ska ske",
+          "underrubrik": "Grundläggande bestämmelser",
+          "referens": []
+        },
+        {
+          "nummer": "10",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Summan av hel inkomstgrundad ålderspension och hel garantipension får aldrig, på grund av bestämmelserna i 2 och 6-8 §§, för månad räknat understiga",
+                "- 13 procent av prisbasbeloppet för den som är ogift, och",
+                "- 11,5 procent av prisbasbeloppet för den som är gift."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "-",
+                  "text": "- 13 procent av prisbasbeloppet för den som är ogift, och"
+                },
+                {
+                  "nummer": 2,
+                  "id": "-",
+                  "text": "- 11,5 procent av prisbasbeloppet för den som är gift."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Hur samordning ska ske",
+          "underrubrik": "Garantiregel",
+          "referens": []
+        },
+        {
+          "nummer": "11",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Vid beräkningen enligt 10 § ska bestämmelserna i 63 kap. 9 § tillämpas."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Hur samordning ska ske",
+          "underrubrik": "Garantiregel",
+          "referens": []
+        },
+        {
+          "nummer": "12",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "För en försäkrad som är född 1937 eller tidigare, och som i december 2002 fick såväl ålderspension som sådan yrkesskadelivränta såsom skadad som avses i 2 §, ska tilläggspensionen minskas enligt följande."
+              ],
+              "punkt": []
+            },
+            {
+              "nummer": 2,
+              "text": [
+                "Minskningen ska ske med ett belopp som motsvarar det belopp varmed den försäkrades ålderspension i december 2002 minskades för livränta såsom skadad med stöd av 17 kap. 2 § i den upphävda lagen (1962:381) om allmän försäkring. Om livräntan minskas efter utgången av 2002, ska det belopp som minskar tilläggspensionen minskas i motsvarande mån."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Hur samordning ska ske",
+          "underrubrik": "Försäkrade födda 1937 eller tidigare",
+          "referens": []
+        }
+      ],
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Garantipension"
+      }
+    },
+    {
+      "nummer": "70",
+      "namn": "Ändring av beräkningsunderlag för allmän ålderspension",
+      "paragraf": [
+        {
+          "nummer": "1",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "I detta kapitel finns bestämmelser om",
+                "- inkomstgrundad ålderspension i 2 och 3 §§,",
+                "- överförd pensionsrätt för premiepension i 4 §, och",
+                "- garantipension i 5 §."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "-",
+                  "text": "- inkomstgrundad ålderspension i 2 och 3 §§,"
+                },
+                {
+                  "nummer": 2,
+                  "id": "-",
+                  "text": "- överförd pensionsrätt för premiepension i 4 §, och"
+                },
+                {
+                  "nummer": 3,
+                  "id": "-",
+                  "text": "- garantipension i 5 §."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Innehåll",
+          "referens": []
+        },
+        {
+          "nummer": "2",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Ett beslut om inkomstgrundad ålderspension ska ändras om det föranleds av en ändring som gjorts i beräkningsunderlaget för beslutet eller av en ändring av ett beslut enligt skatteförfarandelagen (2011:1244) som avser egenavgift.",
+                "Detsamma gäller om det efter ändring av beslutet om slutlig skatt står klart att pensionsrätt för premiepension, till följd av bestämmelserna i 61 kap. 8 §, inte skulle ha tillgodoräknats."
+              ],
+              "punkt": []
+            },
+            {
+              "nummer": 2,
+              "text": [
+                "Ett beslut om pensionsrätt och pensionspoäng ska ändras också när det följer av bestämmelserna i 61 kap. 9 eller 21 § om obetalda avgifter."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Inkomstgrundad ålderspension",
+          "referens": [
+            "Lag (2011:1434)"
+          ]
+        },
+        {
+          "nummer": "3",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Den som ett beslut om ändring enligt 2 § avser ska skriftligen underrättas om ändringen och om hur man begär omprövning av beslutet.",
+                "Överförd pensionsrätt för premiepension"
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Inkomstgrundad ålderspension",
+          "referens": []
+        },
+        {
+          "nummer": "4",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Överförd pensionsrätt för premiepension ska ändras om ett beslut för den som överfört pensionsrätten har ändrats och detta föranleder en ändring av den överförda pensionsrätten."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Inkomstgrundad ålderspension",
+          "referens": []
+        },
+        {
+          "nummer": "5",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Ett beslut om garantipension för viss tid för den som är född 1937 eller tidigare ska ändras av Pensionsmyndigheten, om det föranleds av en ändring som gjorts i fråga om den pension eller de belopp för samma tid som ingått i beräkningsunderlaget enligt 66 kap. 5-15 §§.",
+                "Ett beslut om garantipension för viss tid för den som är född 1938 eller senare ska ändras av Pensionsmyndigheten, om det föranleds av en ändring som gjorts i fråga om den inkomstgrundade ålderspension, änkepension eller utländska förmån för samma tid som legat till grund för beräkningen av garantipensionen."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Garantipension",
+          "referens": []
+        }
+      ],
+      "avdelning": {
+        "id": "E",
+        "namn": "FÖRMÅNER VID ÅLDERDOM"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Garantipension"
+      }
+    },
+    {
+      "nummer": "71",
+      "namn": "Utbetalning av allmän ålderspension",
+      "paragraf": [
+        {
+          "nummer": "1",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "I detta kapitel finns bestämmelser om",
+                "- utbetalningsperiod i 2 §, och",
+                "- avrundning i 3-5 §§."
+              ],
+              "punkt": [
+                {
+                  "nummer": 1,
+                  "id": "-",
+                  "text": "- utbetalningsperiod i 2 §, och"
+                },
+                {
+                  "nummer": 2,
+                  "id": "-",
+                  "text": "- avrundning i 3-5 §§."
+                }
+              ]
+            }
+          ],
+          "rubrik": "Innehåll",
+          "referens": []
+        },
+        {
+          "nummer": "2",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Allmän ålderspension ska betalas ut månadsvis."
+              ],
+              "punkt": []
+            },
+            {
+              "nummer": 2,
+              "text": [
+                "Årspension som beräknas uppgå till högst 2 400 kronor ska dock, om det inte finns särskilda skäl, betalas ut i efterskott en eller två gånger per år. Efter överenskommelse med den försäkrade får pensionen även i andra fall betalas ut en eller två gånger per år."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Utbetalningsperiod",
+          "referens": []
+        },
+        {
+          "nummer": "4",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Vid beräkning enligt 3 § ska pensioner som betalas ut samtidigt anses som en enda pension.",
+                "Om inkomst- eller tilläggspension betalas ut samtidigt med garantipension, ska avrundningen enligt 3 § göras på garantipensionen."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Avrundning",
+          "referens": []
+        },
+        {
+          "nummer": "5",
+          "stycke": [
+            {
+              "nummer": 1,
+              "text": [
+                "Premiepension avrundas månadsvis till närmaste hela krontal, varvid 50 öre avrundas uppåt."
+              ],
+              "punkt": []
+            }
+          ],
+          "rubrik": "Premiepension",
           "referens": []
         }
       ],
@@ -51374,40 +52906,57 @@
                 "Regeringen får i den mån förhållandena kräver det föreskriva att förmåner som administreras av Försäkringskassan eller Pensionsmyndigheten inte ska betalas ut. Regeringen får också föreskriva att sådana förmåner ska bestämmas enligt andra grunder eller i annan ordning än som gäller enligt lag eller annan författning."
               ],
               "punkt": []
-            },
+            }
+          ],
+          "rubrik": "Avvikande föreskrifter",
+          "referens": []
+        }
+      ],
+      "avdelning": {
+        "id": "H",
+        "namn": "VISSA GEMENSAMMA BESTÄMMELSER"
+      },
+      "underavdelning": {
+        "id": "IV",
+        "namn": "Vissa organisatoriska bestämmelser"
+      }
+    },
+    {
+      "nummer": "Ö1",
+      "namn": "Övergångsbestämmelser",
+      "paragraf": [
+        {
+          "nummer": "2011:1082",
+          "stycke": [
             {
               "nummer": 2,
-              "text": [
-                "Övergångsbestämmelser",
-                "2011:1082"
-              ],
-              "punkt": []
-            },
-            {
-              "nummer": 3,
               "text": [
                 "Denna lag träder i kraft den 1 januari 2012. Äldre föreskrifter gäller fortfarande för förmåner som avser tid före ikraftträdandet."
               ],
               "punkt": []
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2011:1091",
+          "stycke": [
             {
-              "nummer": 4,
-              "text": [
-                "2011:1091"
-              ],
-              "punkt": []
-            },
-            {
-              "nummer": 5,
+              "nummer": 2,
               "text": [
                 "Denna lag träder i kraft den 1 november 2011. Den nya bestämmelsen ska dock tillämpas för tid från och med den 1 juli 2011."
               ],
               "punkt": []
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2011:1288",
+          "stycke": [
             {
-              "nummer": 6,
+              "nummer": 1,
               "text": [
-                "2011:1288",
                 "1. Denna lag träder i kraft den 1 januari 2012.",
                 "2. Bestämmelserna i 19 kap. 13 § i sin nya lydelse tillämpas första gången i fråga om betalningsskyldighet för underhållsstöd som avser tid efter den 31 januari 2014.",
                 "3. Äldre bestämmelser i 97 kap. 5 § gäller fortfarande för förmåner som avser tid före ikraftträdandet."
@@ -51429,11 +52978,16 @@
                   "text": "3. Äldre bestämmelser i 97 kap. 5 § gäller fortfarande för förmåner som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2011:1434",
+          "stycke": [
             {
-              "nummer": 7,
+              "nummer": 1,
               "text": [
-                "2011:1434",
                 "1. Denna lag träder i kraft den 1 januari 2012.",
                 "2. Lagen tillämpas på beskattningsår som börjar efter den 31 januari 2012.",
                 "3. Bestämmelserna om ränta i 64 kap. 28 § andra stycket och 108 kap. 17 § första stycket tillämpas på ränta som hänför sig till tid från och med den 1 januari 2013. För ränta som hänför sig till tid dessförinnan gäller i stället bestämmelserna om ränta i 19 kap. skattebetalningslagen (1997:483)."
@@ -51455,11 +53009,16 @@
                   "text": "3. Bestämmelserna om ränta i 64 kap. 28 § andra stycket och 108 kap. 17 § första stycket tillämpas på ränta som hänför sig till tid från och med den 1 januari 2013. För ränta som hänför sig till tid dessförinnan gäller i stället bestämmelserna om ränta i 19 kap. skattebetalningslagen (1997:483)."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2011:1513",
+          "stycke": [
             {
-              "nummer": 8,
+              "nummer": 1,
               "text": [
-                "2011:1513",
                 "1. Denna lag träder i kraft den 1 juli 2012 i fråga om 28 a kap. 18 §, 31 a kap. 13 § och 103 c kap. 9 och 10 §§ samt i övrigt den 1 januari 2012.",
                 "2. Bestämmelserna i 27 kap. 22 §, 23 § och 24 a § 1 tillämpas även för dagar från och med ikraftträdandet som ingår i en sjukperiod som har påbörjats dessförinnan.",
                 "3. Bestämmelserna i 27 kap. 24 a § 5 tillämpas även för en försäkrad som före ikraftträdandet har fått sjukpenning på fortsättningsnivån för 550 dagar eller tidsbegränsad sjukersättning under det högsta antalet månader som sådan ersättning kan betalas ut enligt 4 kap. 31 § lagen (2010:111) om införande av socialförsäkringsbalken.",
@@ -51493,53 +53052,55 @@
                   "text": "5. Ersättning enligt 28 a kap. lämnas för dagar i januari 2012, om den försäkrade har gjort en sjukanmälan senast den 31 januari 2012."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2011:1519",
+          "stycke": [
             {
-              "nummer": 9,
-              "text": [
-                "2011:1519"
-              ],
-              "punkt": []
-            },
-            {
-              "nummer": 10,
+              "nummer": 2,
               "text": [
                 "Denna lag träder i kraft den 1 januari 2012. De nya bestämmelserna ska tillämpas för tid från och med ikraftträdandet."
               ],
               "punkt": []
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2011:1520",
+          "stycke": [
             {
-              "nummer": 11,
-              "text": [
-                "2011:1520"
-              ],
-              "punkt": []
-            },
-            {
-              "nummer": 12,
+              "nummer": 2,
               "text": [
                 "Denna lag träder i kraft den 1 januari 2012. Äldre bestämmelser tillämpas fortfarande för bostadsbidrag som avser tid före ikraftträdandet."
               ],
               "punkt": []
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2012:98",
+          "stycke": [
             {
-              "nummer": 13,
-              "text": [
-                "2012:98"
-              ],
-              "punkt": []
-            },
-            {
-              "nummer": 14,
+              "nummer": 2,
               "text": [
                 "Denna lag träder i kraft den dag regeringen bestämmer och tillämpas på arbete som utförs efter ikraftträdandet."
               ],
               "punkt": []
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2012:256",
+          "stycke": [
             {
-              "nummer": 15,
+              "nummer": 1,
               "text": [
-                "2012:256",
                 "1. Denna lag träder i kraft den 1 juli 2012.",
                 "2. De nya bestämmelserna tillämpas även på sjukperioder som har påbörjats före ikraftträdandet. Bestämmelserna tillämpas dock första gången vid prövning av rätt till ersättning för dagar från och med ikraftträdandet."
               ],
@@ -51555,11 +53116,16 @@
                   "text": "2. De nya bestämmelserna tillämpas även på sjukperioder som har påbörjats före ikraftträdandet. Bestämmelserna tillämpas dock första gången vid prövning av rätt till ersättning för dagar från och med ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2012:599",
+          "stycke": [
             {
-              "nummer": 16,
+              "nummer": 1,
               "text": [
-                "2012:599",
                 "1. Denna lag träder i kraft den 1 november 2012.",
                 "2. De nya bestämmelserna om efterlevandepension, efterlevandestöd och efterlevandelivränta i 77 kap. 13 § och 88 kap. 10 § tillämpas vid dödsfall som inträffat efter den 31 oktober 2012.",
                 "3. Den nya bestämmelsen i 101 kap. 11 § tillämpas första gången på beslut om bostadstillägg som fattas efter den 31 oktober 2012."
@@ -51581,25 +53147,29 @@
                   "text": "3. Den nya bestämmelsen i 101 kap. 11 § tillämpas första gången på beslut om bostadstillägg som fattas efter den 31 oktober 2012."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2012:834",
+          "stycke": [
             {
-              "nummer": 17,
-              "text": [
-                "2012:834"
-              ],
-              "punkt": []
-            },
-            {
-              "nummer": 18,
+              "nummer": 2,
               "text": [
                 "Denna lag träder i kraft den 1 januari 2013 och tillämpas på ersättning som betalas ut respektive inkomst som uppbärs efter den 31 december 2012."
               ],
               "punkt": []
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2012:896",
+          "stycke": [
             {
-              "nummer": 19,
+              "nummer": 1,
               "text": [
-                "2012:896",
                 "1. Denna lag träder i kraft den 1 januari 2013.",
                 "2. De nya föreskrifterna i 18 kap. 21, 24 och 25 §§ tillämpas första gången i fråga om underhållsstöd som avser tid efter den 31 januari 2013.",
                 "3. De nya föreskrifterna i 19 kap. 43 § tredje stycket ska tillämpas när en bidragsskyldig inte i rätt tid har betalat ett fastställt belopp som har förfallit till betalning efter ikraftträdandet."
@@ -51621,25 +53191,29 @@
                   "text": "3. De nya föreskrifterna i 19 kap. 43 § tredje stycket ska tillämpas när en bidragsskyldig inte i rätt tid har betalat ett fastställt belopp som har förfallit till betalning efter ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2012:931",
+          "stycke": [
             {
-              "nummer": 20,
-              "text": [
-                "2012:931"
-              ],
-              "punkt": []
-            },
-            {
-              "nummer": 21,
+              "nummer": 2,
               "text": [
                 "Denna lag träder i kraft den 1 januari 2013. Äldre föreskrifter i 12 kap. 22, 23 och 35 §§ gäller fortfarande för förmåner som avser tid före ikraftträdandet."
               ],
               "punkt": []
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2012:932",
+          "stycke": [
             {
-              "nummer": 22,
+              "nummer": 1,
               "text": [
-                "2012:932",
                 "1. Denna lag träder i kraft den 1 januari 2013.",
                 "2. En försäkrad som vid ikraftträdandet har fyllt 55 år får senast den 30 april 2013 till Försäkringskassan anmäla försäkring med karenstid på 1 dag enligt bestämmelserna i 27 kap. 31 §.",
                 "3. Vid tillämpning av bestämmelserna i 27 kap. 39 § andra stycket och 27 kap. 39 a § ska, inom tolvmånadersperioden, även beaktas sjukperioder som infallit före ikraftträdandet.",
@@ -51667,39 +53241,42 @@
                   "text": "4. För en försäkrad som omfattas av 27 kap. 27 § första stycket 2 och som gör anmälan om karenstid på 1 dag enligt 27 kap. 29 § och för en försäkrad som omfattas av 27 kap. 28 b § första stycket första meningen ska ett beslut om särskilt högriskskydd, som fattats före ikraftträdandet enligt 27 kap. 40 § avseende de första sju dagarna i en sjukperiod, istället anses gälla för den första dagen i en sjukperiod."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2012:933",
+          "stycke": [
             {
-              "nummer": 23,
-              "text": [
-                "2012:933"
-              ],
-              "punkt": []
-            },
-            {
-              "nummer": 24,
+              "nummer": 2,
               "text": [
                 "Denna lag träder i kraft den 1 januari 2013 och tillämpas på aktivitetsersättning som avser tid efter den 31 januari 2013."
               ],
               "punkt": []
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2012:934",
+          "stycke": [
             {
-              "nummer": 25,
-              "text": [
-                "2012:934"
-              ],
-              "punkt": []
-            },
-            {
-              "nummer": 26,
+              "nummer": 2,
               "text": [
                 "Denna lag träder i kraft den 1 januari 2013. De nya bestämmelserna ska tillämpas för tid från och med ikraftträdandet."
               ],
               "punkt": []
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2012:935",
+          "stycke": [
             {
-              "nummer": 27,
+              "nummer": 1,
               "text": [
-                "2012:935",
                 "1. Denna lag träder i kraft den 1 juli 2013.",
                 "2. Föreskrifterna i 51 kap. 16 § första stycket 1 och andra stycket ska inte tillämpas när en personlig assistent har anställts före ikraftträdandet."
               ],
@@ -51715,11 +53292,16 @@
                   "text": "2. Föreskrifterna i 51 kap. 16 § första stycket 1 och andra stycket ska inte tillämpas när en personlig assistent har anställts före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2013:82",
+          "stycke": [
             {
-              "nummer": 28,
+              "nummer": 1,
               "text": [
-                "2013:82",
                 "1. Denna lag träder i kraft den 1 juli 2013.",
                 "2. Äldre föreskrifter gäller för beslut som har meddelats före ikraftträdandet."
               ],
@@ -51735,11 +53317,16 @@
                   "text": "2. Äldre föreskrifter gäller för beslut som har meddelats före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2013:747",
+          "stycke": [
             {
-              "nummer": 29,
+              "nummer": 1,
               "text": [
-                "2013:747",
                 "1. Denna lag träder i kraft den 1 november 2013 i fråga om 4 kap. 5 a § och 37 kap. 11 §, den 1 januari 2015 i fråga om 108 kap. 1, 14 a och 22 §§ samt i övrigt den 1 januari 2014.",
                 "2. Den nya bestämmelsen i 4 kap. 5 a § tillämpas första gången i fall som avses i punkten 3 från och med den 1 januari 2014.",
                 "3. Vid ikraftträdandet av 4 kap. 5 a § kan den som med stöd av förordning (EG) nr 883/2004 om samordning av de sociala trygghetssystemen omfattas av socialförsäkringsbalken vid utgången av oktober 2013, om han eller hon önskar det, kvarstå i svensk försäkring längst till och med den 30 april 2020. En anmälan om att fortsatt få omfattas av svensk försäkring ska ha inkommit till Försäkringskassan senast den 31 december 2013.",
@@ -51803,11 +53390,16 @@
                   "text": "10. De nya bestämmelserna i 101 kap. 10 a § tillämpas första gången på beslut varigenom sjukersättning eller aktivitetsersättning har beviljats för tid efter ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2013:999",
+          "stycke": [
             {
-              "nummer": 30,
+              "nummer": 1,
               "text": [
-                "2013:999",
                 "1. Denna lag träder i kraft den 1 januari 2014.",
                 "2. De nya föreskrifterna i 12 kap. 3, 8, 12, 13, 15 a, 15 b, 20, 41 a-41 h och 46 §§ tillämpas på föräldrapenning för ett barn som har fötts efter ikraftträdandet eller, vid adoption, när den som adopterat barnet har fått barnet i sin vård efter ikraftträdandet.",
                 "3. Den nya föreskriften i 12 kap. 12 a § tillämpas första gången på föräldrapenning som avser tid från och med den 1 januari 2015."
@@ -51829,11 +53421,16 @@
                   "text": "3. Den nya föreskriften i 12 kap. 12 a § tillämpas första gången på föräldrapenning som avser tid från och med den 1 januari 2015."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2013:1018",
+          "stycke": [
             {
-              "nummer": 31,
+              "nummer": 1,
               "text": [
-                "2013:1018",
                 "1. Denna lag träder i kraft den 1 mars 2014.",
                 "2. De nya föreskrifterna i 16 kap. 5-9, 12, 14 och 15 §§ tillämpas första gången",
                 "- på barn som är födda efter ikraftträdandet, eller, vid adoption, när den som adopterat barnet har fått barnet i sin vård efter ikraftträdandet, och",
@@ -51863,7 +53460,7 @@
               ]
             },
             {
-              "nummer": 32,
+              "nummer": 2,
               "text": [
                 "De nämnda föreskrifterna tillämpas dock också om det efter ikraftträdandet har gjorts en anmälan om till vem barnbidrag ska lämnas.",
                 "3. Vid tillämpning av äldre föreskrifter i 16 kap. 5-8 §§ gäller fortfarande den upphävda 16 kap. 10 §.",
@@ -51887,39 +53484,42 @@
                   "text": "5. Äldre föreskrifter i 16 kap. 18 § gäller fortfarande om socialnämndens begäran om utbetalning har kommit in till Försäkringskassan före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2013:1099",
+          "stycke": [
             {
-              "nummer": 33,
-              "text": [
-                "2013:1099"
-              ],
-              "punkt": []
-            },
-            {
-              "nummer": 34,
+              "nummer": 2,
               "text": [
                 "Denna lag träder i kraft den 1 januari 2014. Äldre bestämmelser tillämpas fortfarande för bostadstillägg som avser tid före ikraftträdandet."
               ],
               "punkt": []
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2013:1100",
+          "stycke": [
             {
-              "nummer": 35,
-              "text": [
-                "2013:1100"
-              ],
-              "punkt": []
-            },
-            {
-              "nummer": 36,
+              "nummer": 2,
               "text": [
                 "Denna lag träder i kraft den 1 januari 2014. Äldre bestämmelser tillämpas fortfarande för bostadsbidrag som avser tid före ikraftträdandet."
               ],
               "punkt": []
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2014:470",
+          "stycke": [
             {
-              "nummer": 37,
+              "nummer": 1,
               "text": [
-                "2014:470",
                 "1. Denna lag träder i kraft den 1 juli 2014.",
                 "2. De nya bestämmelserna tillämpas första gången på återkrav som har beslutats av Försäkringskassan efter ikraftträdandet."
               ],
@@ -51935,11 +53535,16 @@
                   "text": "2. De nya bestämmelserna tillämpas första gången på återkrav som har beslutats av Försäkringskassan efter ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2014:1548",
+          "stycke": [
             {
-              "nummer": 38,
+              "nummer": 1,
               "text": [
-                "2014:1548",
                 "1. Denna lag träder i kraft den 1 januari 2015.",
                 "2. Den nya föreskriften i 58 kap. 20 § tillämpas första gången på balanstal som ska beräknas för år 2016.",
                 "3. Den nya föreskriften i 62 kap. 5 § tillämpas första gången för fastställelseåret 2015."
@@ -51961,11 +53566,16 @@
                   "text": "3. Den nya föreskriften i 62 kap. 5 § tillämpas första gången för fastställelseåret 2015."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2015:119",
+          "stycke": [
             {
-              "nummer": 39,
+              "nummer": 1,
               "text": [
-                "2015:119",
                 "1. Denna lag träder i kraft den 1 april 2015.",
                 "2. De nya bestämmelserna ska dock tillämpas för tid från och med den 1 mars 2015."
               ],
@@ -51981,11 +53591,16 @@
                   "text": "2. De nya bestämmelserna ska dock tillämpas för tid från och med den 1 mars 2015."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2015:452",
+          "stycke": [
             {
-              "nummer": 40,
+              "nummer": 1,
               "text": [
-                "2015:452",
                 "1. Denna lag träder i kraft den 1 september 2015.",
                 "2. Bestämmelserna i den nya lydelsen tillämpas första gången i fråga om underhållsstöd och betalningsskyldighet som avser tid efter den 30 september 2015."
               ],
@@ -52001,11 +53616,16 @@
                   "text": "2. Bestämmelserna i den nya lydelsen tillämpas första gången i fråga om underhållsstöd och betalningsskyldighet som avser tid efter den 30 september 2015."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2015:453",
+          "stycke": [
             {
-              "nummer": 41,
+              "nummer": 1,
               "text": [
-                "2015:453",
                 "1. Denna lag träder i kraft den 1 oktober 2015 i fråga om 34 kap. 12 §, den 7 september 2015 i fråga om 28 kap. 11 § och i övrigt den 1 september 2015.",
                 "2. Äldre föreskrifter gäller fortfarande för förmåner som avser tid före ikraftträdandet."
               ],
@@ -52021,11 +53641,16 @@
                   "text": "2. Äldre föreskrifter gäller fortfarande för förmåner som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2015:674",
+          "stycke": [
             {
-              "nummer": 42,
+              "nummer": 1,
               "text": [
-                "2015:674",
                 "1. Denna lag träder i kraft den 1 januari 2016.",
                 "2. Äldre föreskrifter gäller fortfarande för föräldrapenning för ett barn som har fötts före ikraftträdandet, eller vid adoption, när den som adopterat barnet har fått barnet i sin vård före ikraftträdandet."
               ],
@@ -52041,11 +53666,16 @@
                   "text": "2. Äldre föreskrifter gäller fortfarande för föräldrapenning för ett barn som har fötts före ikraftträdandet, eller vid adoption, när den som adopterat barnet har fått barnet i sin vård före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2015:676",
+          "stycke": [
             {
-              "nummer": 43,
+              "nummer": 1,
               "text": [
-                "2015:676",
                 "1. Denna lag träder i kraft den 1 januari 2016.",
                 "2. De nya bestämmelserna i 58 kap. tillämpas första gången vid beräkning av inkomstindex, balanstal, dämpat balanstal och balansindex för år 2017 med de undantag som anges i punkterna 3 och 4. När beräkningarna görs ska de balanstal som har fastställts för respektive år användas.",
                 "3. Inkomstindex för år 2017 ska beräknas enligt följande. Det inkomstindex som har fastställts för år 2016 ska multipliceras med kvoten mellan",
@@ -52081,7 +53711,7 @@
               ]
             },
             {
-              "nummer": 44,
+              "nummer": 2,
               "text": [
                 "Vid beräkningen av inkomsterna tillämpas inte 59 kap. 4 § andra stycket.",
                 "4. Inkomstindex för år 2018 ska beräknas enligt följande. Det inkomstindex som har fastställts för år 2016 ska multipliceras med kvoten mellan",
@@ -52107,7 +53737,7 @@
               ]
             },
             {
-              "nummer": 45,
+              "nummer": 3,
               "text": [
                 "Vid beräkningen av inkomsterna tillämpas inte 59 kap. 4 § andra stycket.",
                 "5. De nya bestämmelserna i 41 kap. 21 § och 63 kap. 17 § tillämpas första gången vid omräkning av livränta respektive beräkning av årlig tilläggspension för år 2017."
@@ -52119,11 +53749,16 @@
                   "text": "5. De nya bestämmelserna i 41 kap. 21 § och 63 kap. 17 § tillämpas första gången vid omräkning av livränta respektive beräkning av årlig tilläggspension för år 2017."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2015:755",
+          "stycke": [
             {
-              "nummer": 46,
+              "nummer": 1,
               "text": [
-                "2015:755",
                 "1. Denna lag träder i kraft den 1 april 2016.",
                 "2. Bestämmelsen i 18 kap. 9 a § tillämpas första gången på sådana betalningar som har gjorts till Försäkringskassan efter ikraftträdandet.",
                 "3. De äldre bestämmelserna i 18 kap. 29 § och 19 kap. 32 § samt de upphävda bestämmelserna i 19 kap. 19 och 20 §§ gäller fortfarande avseende barns vistelse hos den bidragsskyldige som har inletts före ikraftträdandet.",
@@ -52151,11 +53786,16 @@
                   "text": "4. Den äldre lydelsen av 19 kap. 47 § i fråga om ränta vid anstånd gäller fortfarande för ränta som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2015:758",
+          "stycke": [
             {
-              "nummer": 47,
+              "nummer": 1,
               "text": [
-                "2015:758",
                 "1. Denna lag träder i kraft den 1 februari 2016.",
                 "2. Äldre föreskrifter gäller fortfarande när kommunalt vårdnadsbidrag har lämnats enligt den upphävda lagen (2008:307) om kommunalt vårdnadsbidrag."
               ],
@@ -52171,11 +53811,16 @@
                   "text": "2. Äldre föreskrifter gäller fortfarande när kommunalt vårdnadsbidrag har lämnats enligt den upphävda lagen (2008:307) om kommunalt vårdnadsbidrag."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2015:963",
+          "stycke": [
             {
-              "nummer": 48,
+              "nummer": 1,
               "text": [
-                "2015:963",
                 "1. Denna lag träder i kraft den 1 januari 2016 i fråga om 103 d kap. 1 och 9 §§ och 103 e kap. 3 § och i övrigt den 1 februari 2016.",
                 "2. Äldre föreskrifter gäller fortfarande för förmåner som avser tid före ikraftträdandet.",
                 "3. För den som före den 1 februari 2016 har påbörjat deltagande i arbetslivsintroduktion gäller 27 kap. 51 § och 103 c kap. 4 § i den äldre lydelsen."
@@ -52197,11 +53842,16 @@
                   "text": "3. För den som före den 1 februari 2016 har påbörjat deltagande i arbetslivsintroduktion gäller 27 kap. 51 § och 103 c kap. 4 § i den äldre lydelsen."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2015:964",
+          "stycke": [
             {
-              "nummer": 49,
+              "nummer": 1,
               "text": [
-                "2015:964",
                 "1. Denna lag träder i kraft den 1 januari 2016.",
                 "2. Äldre föreskrifter gäller fortfarande för föräldrapenning som avser tid före ikraftträdandet."
               ],
@@ -52217,11 +53867,16 @@
                   "text": "2. Äldre föreskrifter gäller fortfarande för föräldrapenning som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2016:1066",
+          "stycke": [
             {
-              "nummer": 50,
+              "nummer": 1,
               "text": [
-                "2016:1066",
                 "1. Denna lag träder i kraft den 1 januari 2017.",
                 "2. Äldre föreskrifter gäller fortfarande i ärenden i vilka en ansökan om bilstöd har kommit in till Försäkringskassan före ikraftträdandet.",
                 "3. Föreskrifterna i 52 kap. 22 a och 25 §§ tillämpas endast om anpassningen har utförts efter den 1 juli 2017."
@@ -52243,11 +53898,16 @@
                   "text": "3. Föreskrifterna i 52 kap. 22 a och 25 §§ tillämpas endast om anpassningen har utförts efter den 1 juli 2017."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2016:1269",
+          "stycke": [
             {
-              "nummer": 51,
+              "nummer": 1,
               "text": [
-                "2016:1269",
                 "1. Denna lag träder i kraft den 1 juli 2017.",
                 "2. För anställningar med lönebidrag som har beslutats före ikraftträdandet gäller 33 kap. 28 § i den äldre lydelsen."
               ],
@@ -52263,11 +53923,16 @@
                   "text": "2. För anställningar med lönebidrag som har beslutats före ikraftträdandet gäller 33 kap. 28 § i den äldre lydelsen."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2016:1291",
+          "stycke": [
             {
-              "nummer": 52,
+              "nummer": 1,
               "text": [
-                "2016:1291",
                 "1. Denna lag träder i kraft den 1 februari 2017.",
                 "2. Föreskrifterna i 33 kap. 16 §, 34 kap. 10 §, 35 kap. 18 och 19 §§, 36 kap. 2, 9 a, 15 och 18 §§ samt 79 kap. 7 § tillämpas första gången i fråga om ersättning som avser tid efter den 28 februari 2017.",
                 "3. Om ett beslut om förnyad utredning enligt 33 kap. 17 § har fattats före ikraftträdandet ska en sådan utredning göras även om tidpunkten för utredningen infaller efter ikraftträdandet. När den utredningen har slutförts ska Försäkringskassan, så länge rätt till sjukersättning föreligger, minst vart tredje år göra en uppföljning av den försäkrades arbetsförmåga enligt 33 kap. 17 § i den nya lydelsen."
@@ -52289,11 +53954,16 @@
                   "text": "3. Om ett beslut om förnyad utredning enligt 33 kap. 17 § har fattats före ikraftträdandet ska en sådan utredning göras även om tidpunkten för utredningen infaller efter ikraftträdandet. När den utredningen har slutförts ska Försäkringskassan, så länge rätt till sjukersättning föreligger, minst vart tredje år göra en uppföljning av den försäkrades arbetsförmåga enligt 33 kap. 17 § i den nya lydelsen."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2016:1292",
+          "stycke": [
             {
-              "nummer": 53,
+              "nummer": 1,
               "text": [
-                "2016:1292",
                 "1. Denna lag träder i kraft den 1 januari 2017.",
                 "2. Äldre föreskrifter gäller fortfarande för förmåner som avser tid före ikraftträdandet."
               ],
@@ -52309,11 +53979,16 @@
                   "text": "2. Äldre föreskrifter gäller fortfarande för förmåner som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2016:1293",
+          "stycke": [
             {
-              "nummer": 54,
+              "nummer": 1,
               "text": [
-                "2016:1293",
                 "1. Denna lag träder i kraft den 1 juli 2017.",
                 "2. Äldre föreskrifter gäller fortfarande för förmåner som avser tid före ikraftträdandet."
               ],
@@ -52329,11 +54004,16 @@
                   "text": "2. Äldre föreskrifter gäller fortfarande för förmåner som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2016:1294",
+          "stycke": [
             {
-              "nummer": 55,
+              "nummer": 1,
               "text": [
-                "2016:1294",
                 "1. Denna lag träder i kraft den 1 januari 2017.",
                 "2. I fråga om barn som har kommit i föräldrarnas vård före den 1 januari 2017 ska 21 kap. 2 § tillämpas i sin äldre lydelse."
               ],
@@ -52349,11 +54029,16 @@
                   "text": "2. I fråga om barn som har kommit i föräldrarnas vård före den 1 januari 2017 ska 21 kap. 2 § tillämpas i sin äldre lydelse."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2017:277",
+          "stycke": [
             {
-              "nummer": 56,
+              "nummer": 1,
               "text": [
-                "2017:277",
                 "1. Denna lag träder i kraft den 1 juli 2017.",
                 "2. Äldre föreskrifter gäller fortfarande för utbildningsbidrag för doktorander som lämnas senast den 30 juni 2022."
               ],
@@ -52369,11 +54054,16 @@
                   "text": "2. Äldre föreskrifter gäller fortfarande för utbildningsbidrag för doktorander som lämnas senast den 30 juni 2022."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2017:554",
+          "stycke": [
             {
-              "nummer": 57,
+              "nummer": 1,
               "text": [
-                "2017:554",
                 "1. Denna lag träder i kraft den 1 augusti 2017 i fråga om 112 kap. 4 § och i övrigt den 1 november 2017.",
                 "2. I fråga om ärenden som avser ansökan om äldreförsörjningsstöd eller bostadstillägg gäller 74 kap. 19 och 20 §§, 102 kap. 7 § samt 103 kap. 3 och 4 §§ i den äldre lydelsen fortfarande för förmåner som avser tid till och med den månad då beslut om slutlig skatt för beskattningsåret 2017 har fattats av Skatteverket. I fråga om ärenden som avser omprövning av äldreförsörjningsstöd och bostadstillägg tillämpas 74 kap. 19 och 20 §§, 102 kap. 7 § samt 103 kap. 3 och 4 §§ i den nya lydelsen första gången i fråga om förmåner som avser tid för vilken överskottet i inkomstslaget kapital ska beräknas utifrån beslut om slutlig skatt för beskattningsåret 2017."
               ],
@@ -52389,11 +54079,16 @@
                   "text": "2. I fråga om ärenden som avser ansökan om äldreförsörjningsstöd eller bostadstillägg gäller 74 kap. 19 och 20 §§, 102 kap. 7 § samt 103 kap. 3 och 4 §§ i den äldre lydelsen fortfarande för förmåner som avser tid till och med den månad då beslut om slutlig skatt för beskattningsåret 2017 har fattats av Skatteverket. I fråga om ärenden som avser omprövning av äldreförsörjningsstöd och bostadstillägg tillämpas 74 kap. 19 och 20 §§, 102 kap. 7 § samt 103 kap. 3 och 4 §§ i den nya lydelsen första gången i fråga om förmåner som avser tid för vilken överskottet i inkomstslaget kapital ska beräknas utifrån beslut om slutlig skatt för beskattningsåret 2017."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2017:559",
+          "stycke": [
             {
-              "nummer": 58,
+              "nummer": 1,
               "text": [
-                "2017:559",
                 "1. Denna lag träder i kraft den 1 juli 2017.",
                 "2. Äldre föreskrifter gäller fortfarande för föräldrapenning som avser dagar före ikraftträdandet.",
                 "3. Om föräldrapenning för ett barn har beviljats för dagar före ikraftträdandet ska 12 kap. 12 § i den äldre lydelsen tillämpas även för föräldrapenning som avser dagar efter ikraftträdandet."
@@ -52415,11 +54110,16 @@
                   "text": "3. Om föräldrapenning för ett barn har beviljats för dagar före ikraftträdandet ska 12 kap. 12 § i den äldre lydelsen tillämpas även för föräldrapenning som avser dagar efter ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2017:585",
+          "stycke": [
             {
-              "nummer": 59,
+              "nummer": 1,
               "text": [
-                "2017:585",
                 "1. Denna lag träder i kraft den 1 januari 2018.",
                 "2. Äldre föreskrifter gäller fortfarande när en nyanländ invandrare har en etableringsplan enligt den upphävda lagen (2010:197) om etableringsinsatser för vissa nyanlända invandrare, så länge den planen gäller."
               ],
@@ -52435,11 +54135,16 @@
                   "text": "2. Äldre föreskrifter gäller fortfarande när en nyanländ invandrare har en etableringsplan enligt den upphävda lagen (2010:197) om etableringsinsatser för vissa nyanlända invandrare, så länge den planen gäller."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2017:995",
+          "stycke": [
             {
-              "nummer": 60,
+              "nummer": 1,
               "text": [
-                "2017:995",
                 "1. Denna lag träder i kraft den 1 januari 2018.",
                 "2. De nya bestämmelserna tillämpas första gången i fråga om underhållsstöd och betalningsskyldighet som avser februari 2018."
               ],
@@ -52455,11 +54160,16 @@
                   "text": "2. De nya bestämmelserna tillämpas första gången i fråga om underhållsstöd och betalningsskyldighet som avser februari 2018."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2017:1123",
+          "stycke": [
             {
-              "nummer": 61,
+              "nummer": 1,
               "text": [
-                "2017:1123",
                 "1. Denna lag träder i kraft den 1 mars 2018.",
                 "2. De upphävda bestämmelserna i 17 kap. 4 § och 18 kap. 5, 16, 25, 31, 37 och 39 §§ samt de äldre bestämmelserna i 18 kap. 2, 20 och 35 §§ och 19 kap. 4 § ska fortfarande gälla för underhållsstöd som avser tid före april månad 2018.",
                 "3. De upphävda bestämmelserna i 17 kap. 4 § och 18 kap. 5, 16, 25, 31, 37 och 39 §§ samt de äldre bestämmelserna i 18 kap. 2, 20 och 35 §§ och 19 kap. 4 § ska utöver vad som föreskrivs i andra punkten fortfarande gälla för underhållsstöd som avser tid före februari månad 2021, om det för mars månad 2018 har lämnats underhållsstöd för barnet vid växelvist boende. I stället för det belopp som avses i den upphävda 18 kap. 25 § första stycket ska underhållsstöd då lämnas för var och en av föräldrarna med hälften av 1 173 kronor när stödet avser en månad som infaller under tiden april 2018 - januari 2019, med hälften av 773 kronor när stödet avser en månad som infaller under tiden februari 2019 - januari 2020 och med hälften av 373 kronor när stödet avser en månad som infaller under tiden februari 2020 - januari 2021. Från och med månaden efter den då barnet har fyllt 15 år ska respektive belopp före halveringen höjas med 150 kronor.",
@@ -52499,11 +54209,16 @@
                   "text": "6. I stället för de belopp som anges i 97 kap. 15 § andra stycket ska minskning av bostadsbidraget göras om den bidragsgrundande inkomsten överstiger 135 000 kronor respektive 67 500 kronor när bidraget avser en månad som infaller under tiden mars - december 2018, 142 000 kronor respektive 71 000 kronor när bidraget avser en månad som infaller under år 2019 och 148 000 kronor respektive 74 000 kronor när bidraget avser en månad som infaller under år 2020."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2017:1295",
+          "stycke": [
             {
-              "nummer": 62,
+              "nummer": 1,
               "text": [
-                "2017:1295",
                 "1. Denna lag träder i kraft den 1 januari 2018.",
                 "2. Äldre bestämmelser gäller fortfarande för förmåner som avser tid före ikraftträdandet."
               ],
@@ -52519,11 +54234,16 @@
                   "text": "2. Äldre bestämmelser gäller fortfarande för förmåner som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2017:1305",
+          "stycke": [
             {
-              "nummer": 63,
+              "nummer": 1,
               "text": [
-                "2017:1305",
                 "1. Denna lag träder i kraft den 1 januari 2018 i fråga om 26 kap. 17 §, 27 kap. 26 §, 108 kap. 10 §, 110 kap. 13 a § och 112 kap. 2 a § samt i övrigt den 1 juli 2018.",
                 "2. Bestämmelserna i 110 kap. 13 a § och 112 kap. 2 a § ska tillämpas första gången vid en begäran om sjukpenning eller sjukpenning i särskilda fall som har kommit in till Försäkringskassan den 1 januari 2018 eller därefter och som avser tid efter ikraftträdandet.",
                 "3. Äldre bestämmelser gäller fortfarande i fråga om förmåner som avser tid före ikraftträdandet."
@@ -52545,11 +54265,16 @@
                   "text": "3. Äldre bestämmelser gäller fortfarande i fråga om förmåner som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2017:1306",
+          "stycke": [
             {
-              "nummer": 64,
+              "nummer": 1,
               "text": [
-                "2017:1306",
                 "1. Denna lag träder i kraft den 1 juli 2018.",
                 "2. Den nya bestämmelsen i 30 kap. 6 § ska tillämpas även i fråga om försäkrade vars arbetsförmåga den 30 juni 2018 har varit nedsatt under minst 60 dagar eller kan antas komma att vara nedsatt under minst 60 dagar räknat från och med dagen då arbetsförmågan blev nedsatt. En plan för återgång i arbete ska då ha upprättats senast den 30 september 2018.",
                 "3. Äldre bestämmelser gäller fortfarande i fråga om sjukersättning och aktivitetsersättning som avser tid före ikraftträdandet."
@@ -52571,11 +54296,16 @@
                   "text": "3. Äldre bestämmelser gäller fortfarande i fråga om sjukersättning och aktivitetsersättning som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2017:1308",
+          "stycke": [
             {
-              "nummer": 65,
+              "nummer": 1,
               "text": [
-                "2017:1308",
                 "1. Denna lag träder i kraft den 1 mars 2018.",
                 "2. Äldre bestämmelser gäller fortfarande för tid före ikraftträdandet."
               ],
@@ -52591,11 +54321,16 @@
                   "text": "2. Äldre bestämmelser gäller fortfarande för tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2018:122",
+          "stycke": [
             {
-              "nummer": 66,
+              "nummer": 1,
               "text": [
-                "2018:122",
                 "1. Denna lag träder i kraft den 1 april 2018.",
                 "2. Den äldre bestämmelsen i 51 kap. 12 § gäller fortfarande för omprövningsbeslut som har meddelats före ikraftträdandet."
               ],
@@ -52611,11 +54346,16 @@
                   "text": "2. Den äldre bestämmelsen i 51 kap. 12 § gäller fortfarande för omprövningsbeslut som har meddelats före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2018:646",
+          "stycke": [
             {
-              "nummer": 67,
+              "nummer": 1,
               "text": [
-                "2018:646",
                 "1. Denna lag träder i kraft den 1 juli 2018.",
                 "2. Äldre föreskrifter gäller fortfarande för ansökan om efterlevandestöd som har kommit in till Pensionsmyndigheten före ikraftträdandet."
               ],
@@ -52631,11 +54371,16 @@
                   "text": "2. Äldre föreskrifter gäller fortfarande för ansökan om efterlevandestöd som har kommit in till Pensionsmyndigheten före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2018:647",
+          "stycke": [
             {
-              "nummer": 68,
+              "nummer": 1,
               "text": [
-                "2018:647",
                 "1. Denna lag träder i kraft den 1 januari 2019.",
                 "2. Äldre föreskrifter gäller fortfarande för en sjukperiod som har påbörjats före ikraftträdandet.",
                 "3. Vid beräkning av det allmänna högriskskyddet enligt 27 kap. 39 § första stycket ska en karensdag enligt föreskriftens äldre lydelse likställas med ett tillfälle med karensavdrag. Vid beräkning av det allmänna högriskskyddet enligt 27 kap. 39 § andra stycket ska sådana tillfällen då den försäkrade har gått miste om sjukpenning till följd av bestämmelserna i 27 kap. 27 § första stycket 2 i föreskriftens äldre lydelse likställas med tillfällen då den försäkrade går miste om sjukpenning till följd av bestämmelserna i 27 kap. 27 a §.",
@@ -52669,11 +54414,16 @@
                   "text": "5. Karensdag ska likställas med karensavdrag för den som före ikraftträdandet har fått ett beslut om särskilt högriskskydd enligt 27 kap. 40-42 §§."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2018:670",
+          "stycke": [
             {
-              "nummer": 69,
+              "nummer": 1,
               "text": [
-                "2018:670",
                 "1. Denna lag träder i kraft den 1 augusti 2018 i fråga om 25 kap. 1, 7 a och 9 §§ och i övrigt den 1 juli 2018.",
                 "2. Den nya bestämmelsen i 25 kap. 7 a § och bestämmelsen i 25 kap. 9 § i den nya lydelsen tillämpas första gången på ersättningsperioder som påbörjas efter ikraftträdandet.",
                 "3. Äldre bestämmelser om sjukpenninggrundande inkomst gäller fortfarande för förmåner som avser tid före ikraftträdandet."
@@ -52695,11 +54445,16 @@
                   "text": "3. Äldre bestämmelser om sjukpenninggrundande inkomst gäller fortfarande för förmåner som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2018:742",
+          "stycke": [
             {
-              "nummer": 70,
+              "nummer": 1,
               "text": [
-                "2018:742",
                 "1. Denna lag träder i kraft den 1 augusti 2018.",
                 "2. Den nya bestämmelsen tillämpas första gången i fråga om underhållsstöd som avser september 2018."
               ],
@@ -52715,11 +54470,16 @@
                   "text": "2. Den nya bestämmelsen tillämpas första gången i fråga om underhållsstöd som avser september 2018."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2018:743",
+          "stycke": [
             {
-              "nummer": 71,
+              "nummer": 1,
               "text": [
-                "2018:743",
                 "1. Denna lag träder i kraft den 1 januari 2019.",
                 "2. De nya bestämmelserna tillämpas första gången i fråga om underhållsstöd och betalningsskyldighet som avser februari 2019."
               ],
@@ -52735,11 +54495,16 @@
                   "text": "2. De nya bestämmelserna tillämpas första gången i fråga om underhållsstöd och betalningsskyldighet som avser februari 2019."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2018:745",
+          "stycke": [
             {
-              "nummer": 72,
+              "nummer": 1,
               "text": [
-                "2018:745",
                 "1. Denna lag träder i kraft den 1 januari 2019.",
                 "2. Den nya bestämmelsen ska tillämpas på försäkringsmedicinska utredningar som Försäkringskassan begär från och med ikraftträdandet."
               ],
@@ -52755,11 +54520,16 @@
                   "text": "2. Den nya bestämmelsen ska tillämpas på försäkringsmedicinska utredningar som Försäkringskassan begär från och med ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2018:772",
+          "stycke": [
             {
-              "nummer": 73,
+              "nummer": 1,
               "text": [
-                "2018:772",
                 "1. Denna lag träder i kraft den 1 juli 2018 i fråga om 64 kap. 25 och 46 §§ och i övrigt den 1 november 2018.",
                 "2. Äldre bestämmelser gäller fortfarande i fråga om samarbetsavtal som Pensionsmyndigheten har ingått med fondförvaltare före den 1 november 2018."
               ],
@@ -52775,11 +54545,16 @@
                   "text": "2. Äldre bestämmelser gäller fortfarande i fråga om samarbetsavtal som Pensionsmyndigheten har ingått med fondförvaltare före den 1 november 2018."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2018:1265",
+          "stycke": [
             {
-              "nummer": 74,
+              "nummer": 1,
               "text": [
-                "2018:1265",
                 "1. Denna lag träder i kraft den 1 januari 2019.",
                 "2. Ett beslut om vårdbidrag som har meddelats enligt äldre bestämmelser i 22 kap. ska fortsätta att gälla enligt vad som föreskrivs i beslutet, dock längst till dess att beslutet skulle ha upphört att gälla eller skulle ha omprövats om de äldre bestämmelserna i 22 kap. fortfarande hade varit tillämp- liga. Om ett sådant beslut inte har omprövats trots att det skulle ha gjorts under tid som de äldre bestämmelserna fortfarande gällde, ska beslutet fortsätta att gälla längst till den 31 december 2020, om det inte beslutas att det ska upphöra dessförinnan."
               ],
@@ -52797,7 +54572,7 @@
               ]
             },
             {
-              "nummer": 75,
+              "nummer": 2,
               "text": [
                 "Försäkringskassan får besluta att ett beslut om vårdbidrag som har meddelats enligt äldre bestämmelser i 22 kap. ska fortsätta att gälla även när",
                 "1. det har kommit in en ansökan om omvårdnadsbidrag eller merkostnadsersättning som ännu inte har prövats, och",
@@ -52817,14 +54592,14 @@
               ]
             },
             {
-              "nummer": 76,
+              "nummer": 3,
               "text": [
                 "Beslut enligt andra stycket gäller till dess att Försäkringskassan har prövat eller avskrivit en ansökan om omvårdnadsbidrag eller merkostnadsersättning, dock längst till den 1 juli 2022."
               ],
               "punkt": []
             },
             {
-              "nummer": 77,
+              "nummer": 4,
               "text": [
                 "Bestämmelserna i 22 kap. i den äldre lydelsen gäller fortfarande för vårdbidraget om ett beslut om förlängning har meddelats enligt andra stycket. Dock upphör förlängningsbeslutet att gälla om rätten till vårdbidraget ska omprövas enligt 22 kap. 17 § i den äldre lydelsen.",
                 "3. Äldre bestämmelser om vårdbidrag gäller fortfarande i ärenden där ansökan om vårdbidrag har gjorts före den 1 januari 2019.",
@@ -52872,11 +54647,18 @@
                   "text": "9. Äldre bestämmelser i 110 kap. 30 § andra stycket och 57 § andra stycket 1 och 6 gäller fortfarande för vårdbidrag enligt 22 kap. och handikappersättning enligt 50 kap., i deras lydelse före den 1 januari 2019."
                 }
               ]
-            },
+            }
+          ],
+          "referens": [
+            "Lag (2020:427)"
+          ]
+        },
+        {
+          "nummer": "2018:1627",
+          "stycke": [
             {
-              "nummer": 78,
+              "nummer": 1,
               "text": [
-                "2018:1627",
                 "1. Denna lag träder i kraft den 1 december 2018.",
                 "2. Den nya bestämmelsen i 5 kap. 17 a § och bestämmelserna i 5 kap. 18 §, 67 kap. 16 och 17 §§ och 81 kap. 9 § i den nya lydelsen tillämpas dock för tid från och med den 1 januari 2011.",
                 "3. Den som vid ikraftträdandet får garantipension eller garantipension till omställningspension utbetald till sig har fortsatt rätt att få förmånen även om han eller hon inte uppfyller kraven på försäkringstid i 67 eller 81 kap.",
@@ -52910,11 +54692,16 @@
                   "text": "5. Lagen upphör att gälla vid utgången av 2019."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2018:1628",
+          "stycke": [
             {
-              "nummer": 79,
+              "nummer": 1,
               "text": [
-                "2018:1628",
                 "1. Denna lag träder i kraft den 1 januari 2019.",
                 "2. Äldre bestämmelser gäller fortfarande för föräldrapenningsförmåner och flerbarnstillägg som avser tid före ikraftträdandet."
               ],
@@ -52930,11 +54717,16 @@
                   "text": "2. Äldre bestämmelser gäller fortfarande för föräldrapenningsförmåner och flerbarnstillägg som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2018:1952",
+          "stycke": [
             {
-              "nummer": 80,
+              "nummer": 1,
               "text": [
-                "2018:1952",
                 "1. Denna lag träder i kraft den 1 juli 2019.",
                 "2. Äldre föreskrifter gäller fortfarande för föräldrapenningsförmåner som avser dagar före ikraftträdandet."
               ],
@@ -52950,11 +54742,16 @@
                   "text": "2. Äldre föreskrifter gäller fortfarande för föräldrapenningsförmåner som avser dagar före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2019:644",
+          "stycke": [
             {
-              "nummer": 81,
+              "nummer": 1,
               "text": [
-                "2019:644",
                 "1. Denna lag träder i kraft den 31 december 2019.",
                 "2. Lagen tillämpas för garantipension och garantipension till omställningspension som avser tid från och med den 1 januari 2020.",
                 "3. Äldre bestämmelser gäller fortfarande för garantipension och garantipension till omställningspension som avser tid före den 1 januari 2020."
@@ -52976,11 +54773,16 @@
                   "text": "3. Äldre bestämmelser gäller fortfarande för garantipension och garantipension till omställningspension som avser tid före den 1 januari 2020."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2019:645",
+          "stycke": [
             {
-              "nummer": 82,
+              "nummer": 1,
               "text": [
-                "2019:645",
                 "1. Denna lag träder i kraft den 1 januari 2020.",
                 "2. Bestämmelserna tillämpas dock för tid från och med den 1 januari 2011.",
                 "3. Den som med stöd av punkten 3 i ikraftträdande- och övergångsbestämmelserna till lagen (2018:1627) om ändring i socialförsäkringsbalken hade fortsatt rätt att få garantipension eller garantipension till omställningspension, har fortsatt rätt att få förmånen även om han eller hon inte uppfyller kraven på försäkringstid i 67 eller 81 kap.",
@@ -53008,11 +54810,16 @@
                   "text": "4. Vid beräkning av garantipension eller garantipension till omställningspension får förmånen på grund av tillämpningen av 67 kap. 16, 16 a, 17 eller 17 a § eller 81 kap. 9 eller 9 a § inte beräknas till ett lägre belopp än det belopp med vilket förmånen före den 1 december 2018 har lämnats till den försäkrade. Förmånen får dock beräknas till ett lägre belopp om de belopp som ingår i beräkningsunderlaget ändras."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2019:646",
+          "stycke": [
             {
-              "nummer": 83,
+              "nummer": 1,
               "text": [
-                "2019:646",
                 "1. Denna lag träder i kraft den 1 januari 2023.",
                 "2. De upphävda paragraferna gäller dock fortfarande i fråga om garantipension och garantipension till omställningspension för tid före ikraftträdandet."
               ],
@@ -53028,11 +54835,19 @@
                   "text": "2. De upphävda paragraferna gäller dock fortfarande i fråga om garantipension och garantipension till omställningspension för tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": [
+            "Lag (2022:1036)",
+            "Lag (2022:1036)"
+          ]
+        },
+        {
+          "nummer": "2019:649",
+          "stycke": [
             {
-              "nummer": 84,
+              "nummer": 1,
               "text": [
-                "2019:649",
                 "1. Denna lag träder i kraft den 1 december 2019.",
                 "2. Lagen tillämpas första gången för förmåner som avser tid från och med den 1 januari 2020.",
                 "3. Äldre föreskrifter gäller fortfarande för den som uppnår respektive åldersgräns före den 1 januari 2020."
@@ -53054,11 +54869,16 @@
                   "text": "3. Äldre föreskrifter gäller fortfarande för den som uppnår respektive åldersgräns före den 1 januari 2020."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2019:651",
+          "stycke": [
             {
-              "nummer": 85,
+              "nummer": 1,
               "text": [
-                "2019:651",
                 "1. Denna lag träder i kraft den 1 december 2019.",
                 "2. De nya bestämmelserna tillämpas dock för tid från och med den 1 januari 2020.",
                 "3. Äldre bestämmelser gäller fortfarande för tid före utgången av 2019."
@@ -53080,11 +54900,16 @@
                   "text": "3. Äldre bestämmelser gäller fortfarande för tid före utgången av 2019."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2019:1294",
+          "stycke": [
             {
-              "nummer": 86,
+              "nummer": 1,
               "text": [
-                "2019:1294",
                 "1. Denna lag träder i kraft den 1 januari 2020.",
                 "2. Äldre föreskrifter gäller fortfarande för ansökan om efterlevandestöd som har kommit in till Pensionsmyndigheten före ikraftträdandet."
               ],
@@ -53100,11 +54925,16 @@
                   "text": "2. Äldre föreskrifter gäller fortfarande för ansökan om efterlevandestöd som har kommit in till Pensionsmyndigheten före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2020:427",
+          "stycke": [
             {
-              "nummer": 87,
+              "nummer": 1,
               "text": [
-                "2020:427",
                 "1. Denna lag träder i kraft den 1 juli 2020.",
                 "2. De nya bestämmelserna i 31 kap. 5 § första stycket 3 och andra stycket tillämpas inte när frånvaron från en arbetslivsinriktad rehabilitering avser tid före ikraftträdandet.",
                 "3. Den upphävda bestämmelsen i 27 kap. 55 a § gäller fortfarande när frånvaron från ett arbetsmarknadspolitiskt program avser tid före ikraftträdandet."
@@ -53126,11 +54956,16 @@
                   "text": "3. Den upphävda bestämmelsen i 27 kap. 55 a § gäller fortfarande när frånvaron från ett arbetsmarknadspolitiskt program avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2020:431",
+          "stycke": [
             {
-              "nummer": 88,
+              "nummer": 1,
               "text": [
-                "2020:431",
                 "1. Denna lag träder i kraft den 1 juli 2020.",
                 "2. Äldre bestämmelser gäller fortfarande för bostadsbidrag som avser tid före ikraftträdandet."
               ],
@@ -53146,11 +54981,16 @@
                   "text": "2. Äldre bestämmelser gäller fortfarande för bostadsbidrag som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2020:432",
+          "stycke": [
             {
-              "nummer": 89,
+              "nummer": 1,
               "text": [
-                "2020:432",
                 "1. Denna lag träder i kraft den 1 januari 2021.",
                 "2. Äldre bestämmelser gäller fortfarande för bostadsbidrag som avser tid före ikraftträdandet."
               ],
@@ -53166,11 +55006,16 @@
                   "text": "2. Äldre bestämmelser gäller fortfarande för bostadsbidrag som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2020:440",
+          "stycke": [
             {
-              "nummer": 90,
+              "nummer": 1,
               "text": [
-                "2020:440",
                 "1. Denna lag träder i kraft den 1 juli 2020.",
                 "2. Äldre bestämmelser gäller fortfarande för assistansersättning som avser tid före ikraftträdandet."
               ],
@@ -53186,11 +55031,16 @@
                   "text": "2. Äldre bestämmelser gäller fortfarande för assistansersättning som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2020:509",
+          "stycke": [
             {
-              "nummer": 91,
+              "nummer": 1,
               "text": [
-                "2020:509",
                 "1. Denna lag träder i kraft den 1 oktober 2020.",
                 "2. Äldre föreskrifter gäller fortfarande i ärenden i vilka en ansökan om bilstöd har kommit in till Försäkringskassan före ikraftträdandet.",
                 "3. Om en försäkrad har fått bilstöd för ett fordon med stöd av föreskrifterna i 52 kap. 8 § i den äldre lydelsen kan det till den försäkrade även fortsättningsvis lämnas bilstöd för det fordonet i fråga om åtgärder som avses i 52 kap. 8 § första stycket 2-4."
@@ -53212,11 +55062,16 @@
                   "text": "3. Om en försäkrad har fått bilstöd för ett fordon med stöd av föreskrifterna i 52 kap. 8 § i den äldre lydelsen kan det till den försäkrade även fortsättningsvis lämnas bilstöd för det fordonet i fråga om åtgärder som avses i 52 kap. 8 § första stycket 2-4."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2020:1239",
+          "stycke": [
             {
-              "nummer": 92,
+              "nummer": 1,
               "text": [
-                "2020:1239",
                 "1. Denna lag träder i kraft den 1 februari 2021.",
                 "2. De nya bestämmelserna tillämpas första gången för inkomstpensionstillägg som avser tid från och med den 1 september 2021.",
                 "3. Inkomstpensionstillägg ska lämnas utan ansökan till en försäkrad som har påbörjat uttag av inkomstgrundad ålderspension om förutsättningarna för inkomstpensionstillägg i 74 a kap. i övrigt är uppfyllda när lagen tillämpas första gången.",
@@ -53244,11 +55099,16 @@
                   "text": "4. En ansökan om allmän inkomstpension, tilläggspension eller premiepension som har kommit in till Pensionsmyndigheten när lagen tillämpas första gången ska även anses omfatta en ansökan om inkomstpensionstillägg."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2020:1271",
+          "stycke": [
             {
-              "nummer": 93,
+              "nummer": 1,
               "text": [
-                "2020:1271",
                 "1. Denna lag träder i kraft den 1 juni 2021.",
                 "2. Den nya bestämmelsen tillämpas första gången i fråga om underhållsstöd som avser juli 2021."
               ],
@@ -53264,11 +55124,16 @@
                   "text": "2. Den nya bestämmelsen tillämpas första gången i fråga om underhållsstöd som avser juli 2021."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2021:160",
+          "stycke": [
             {
-              "nummer": 94,
+              "nummer": 1,
               "text": [
-                "2021:160",
                 "1. Denna lag träder i kraft den 15 mars 2021.",
                 "2. De nya bestämmelserna tillämpas även på sjukperioder som har påbörjats före ikraftträdandet. Bestämmelserna tillämpas dock första gången vid prövning av rätt till ersättning för dagar från och med ikraftträdandet."
               ],
@@ -53284,11 +55149,16 @@
                   "text": "2. De nya bestämmelserna tillämpas även på sjukperioder som har påbörjats före ikraftträdandet. Bestämmelserna tillämpas dock första gången vid prövning av rätt till ersättning för dagar från och med ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2021:585",
+          "stycke": [
             {
-              "nummer": 95,
+              "nummer": 1,
               "text": [
-                "2021:585",
                 "1. Denna lag träder i kraft den 1 juli 2021.",
                 "2. Äldre bestämmelser gäller fortfarande för bostadsbidrag som avser tid före ikraftträdandet."
               ],
@@ -53304,11 +55174,16 @@
                   "text": "2. Äldre bestämmelser gäller fortfarande för bostadsbidrag som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2021:586",
+          "stycke": [
             {
-              "nummer": 96,
+              "nummer": 1,
               "text": [
-                "2021:586",
                 "1. Denna lag träder i kraft den 1 januari 2022.",
                 "2. Äldre bestämmelser gäller fortfarande för bostadsbidrag som avser tid före ikraftträdandet."
               ],
@@ -53324,11 +55199,16 @@
                   "text": "2. Äldre bestämmelser gäller fortfarande för bostadsbidrag som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2021:767",
+          "stycke": [
             {
-              "nummer": 97,
+              "nummer": 1,
               "text": [
-                "2021:767",
                 "1. Denna lag träder i kraft den 20 juli 2021.",
                 "2. För en utlänning som har beviljats uppehållstillstånd som övrig skyddsbehövande gäller 35 kap. 8 § och 67 kap. 7 § i den äldre lydelsen."
               ],
@@ -53344,11 +55224,16 @@
                   "text": "2. För en utlänning som har beviljats uppehållstillstånd som övrig skyddsbehövande gäller 35 kap. 8 § och 67 kap. 7 § i den äldre lydelsen."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2021:878",
+          "stycke": [
             {
-              "nummer": 98,
+              "nummer": 1,
               "text": [
-                "2021:878",
                 "1. Denna lag träder i kraft den 1 november 2021.",
                 "2. Äldre bestämmelser gäller fortfarande för personlig assistans som har utförts före ikraftträdandet."
               ],
@@ -53364,11 +55249,16 @@
                   "text": "2. Äldre bestämmelser gäller fortfarande för personlig assistans som har utförts före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2021:991",
+          "stycke": [
             {
-              "nummer": 99,
+              "nummer": 1,
               "text": [
-                "2021:991",
                 "1. Denna lag träder i kraft den 1 januari 2022.",
                 "2. Bestämmelserna i 18 kap. 9 a § i den nya lydelsen tillämpas även på betalningar som har gjorts till Försäkringskassan från och med den 1 augusti 2021. Detta gäller dock inte betalningar som före ikraftträdandet har beaktats vid beslut om att lämna underhållsstöd på grund av särskilda skäl.",
                 "3. För betalningar som har gjorts till Försäkringskassan under minst sex månader i följd före ikraftträdandet gäller fortfarande 18 kap. 9 a § i den äldre lydelsen. Om Försäkringskassan efter ikraftträdandet beslutar att lämna underhållsstöd på grund av särskilda skäl i dessa fall, ska dock de nya bestämmelserna i 18 kap. 9 a § andra och tredje styckena tillämpas."
@@ -53390,11 +55280,16 @@
                   "text": "3. För betalningar som har gjorts till Försäkringskassan under minst sex månader i följd före ikraftträdandet gäller fortfarande 18 kap. 9 a § i den äldre lydelsen. Om Försäkringskassan efter ikraftträdandet beslutar att lämna underhållsstöd på grund av särskilda skäl i dessa fall, ska dock de nya bestämmelserna i 18 kap. 9 a § andra och tredje styckena tillämpas."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2021:1240",
+          "stycke": [
             {
-              "nummer": 100,
+              "nummer": 1,
               "text": [
-                "2021:1240",
                 "1. Denna lag träder i kraft den 1 januari 2022 i fråga om 10 kap. 11 §, 12 kap. 25, 27 och 30 §§, 13 kap. 33 §, 25 kap. 5 §, 26 kap. 27 och 31 §§, 27 kap. 49 a § och 35 kap. 18 och 19 §§ och i övrigt den 1 februari 2022.",
                 "2. De nya bestämmelserna om sjukpenning i 27 och 28 kap. tillämpas även på sjukperioder som har påbörjats före ikraftträdandet. Bestämmelserna tillämpas dock första gången vid prövning av rätt till ersättning för dagar från och med ikraftträdandet.",
                 "3. Äldre bestämmelser gäller fortfarande i fråga om förmåner som avser tid före ikraftträdandet.",
@@ -53422,11 +55317,18 @@
                   "text": "4. Den som för den 31 december 2022 har beviljats sjukpenning med stöd av 27 kap. 49 a § har rätt att efter ansökan få frågan om rätten till sjukpenning från och med den 1 januari 2023 prövad utan hinder av att frågan tidigare avgjorts av Försäkringskassan eller domstol genom beslut som fått laga kraft."
                 }
               ]
-            },
+            }
+          ],
+          "referens": [
+            "Lag (2022:1855)"
+          ]
+        },
+        {
+          "nummer": "2021:1244",
+          "stycke": [
             {
-              "nummer": 101,
+              "nummer": 1,
               "text": [
-                "2021:1244",
                 "1. Denna lag träder i kraft den 1 januari 2022.",
                 "2. Äldre bestämmelser gäller fortfarande för förmåner som avser tid före ikraftträdandet."
               ],
@@ -53442,11 +55344,16 @@
                   "text": "2. Äldre bestämmelser gäller fortfarande för förmåner som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2021:1268",
+          "stycke": [
             {
-              "nummer": 102,
+              "nummer": 1,
               "text": [
-                "2021:1268",
                 "1. Denna lag träder i kraft den 1 juli 2022.",
                 "2. De nya bestämmelserna tillämpas första gången i fråga om underhållsstöd och betalningsskyldighet som avser augusti 2022."
               ],
@@ -53462,11 +55369,16 @@
                   "text": "2. De nya bestämmelserna tillämpas första gången i fråga om underhållsstöd och betalningsskyldighet som avser augusti 2022."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2022:761",
+          "stycke": [
             {
-              "nummer": 103,
+              "nummer": 1,
               "text": [
-                "2022:761",
                 "1. Denna lag träder i kraft den 20 juni 2022.",
                 "2. Äldre bestämmelser gäller fortfarande för fondavtal som har ingåtts före ikraftträdandet. När ett sådant fondavtal sägs upp ska dock premiepensionsmedlen i en fond som omfattas av det avtalet omplaceras med tillämpning av 64 kap. 27 a och 27 b §§.",
                 "3. Vid tillämpningen av äldre bestämmelser om granskning i 64 kap. 3 § tredje stycket och om uttag av avgifter för att täcka kostnader för sådan granskning i 64 kap. 40 § första stycket andra strecksatsen ska det som föreskrivs om Pensionsmyndigheten i stället gälla Fondtorgsnämnden. Detta gäller dock inte sådana granskningar enligt 64 kap. 3 § tredje stycket som har inletts före ikraftträdandet."
@@ -53488,11 +55400,16 @@
                   "text": "3. Vid tillämpningen av äldre bestämmelser om granskning i 64 kap. 3 § tredje stycket och om uttag av avgifter för att täcka kostnader för sådan granskning i 64 kap. 40 § första stycket andra strecksatsen ska det som föreskrivs om Pensionsmyndigheten i stället gälla Fondtorgsnämnden. Detta gäller dock inte sådana granskningar enligt 64 kap. 3 § tredje stycket som har inletts före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2022:878",
+          "stycke": [
             {
-              "nummer": 104,
+              "nummer": 1,
               "text": [
-                "2022:878",
                 "1. Denna lag träder i kraft den 1 december 2022.",
                 "2. Lagen tillämpas första gången för förmåner som avser tid från och med den 1 januari 2023.",
                 "3. Bestämmelsen om inkomstindex i 58 kap. 11 § i den nya lydelsen tillämpas dock första gången vid beräkning av det inkomstindex som ska gälla från och med den 1 januari 2025.",
@@ -53532,11 +55449,16 @@
                   "text": "6. Äldre föreskrifter om beräkningsunderlag för inkomstgrundad efterlevandepension gäller fortfarande för dödsfall som har inträffat före den 1 januari 2023."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2022:879",
+          "stycke": [
             {
-              "nummer": 105,
+              "nummer": 1,
               "text": [
-                "2022:879",
                 "1. Denna lag träder i kraft den 1 december 2025.",
                 "2. Lagen tillämpas första gången för förmåner som avser tid från och med den 1 januari 2026.",
                 "3. Bestämmelsen om inkomstindex i 58 kap. 11 § i den nya lydelsen tillämpas dock första gången vid beräkning av det inkomstindex som ska gälla från och med den 1 januari 2028.",
@@ -53576,11 +55498,16 @@
                   "text": "6. Äldre föreskrifter om beräkningsunderlag för inkomstgrundad efterlevandepension gäller fortfarande för dödsfall som har inträffat före den 1 januari 2026."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2022:934",
+          "stycke": [
             {
-              "nummer": 106,
+              "nummer": 1,
               "text": [
-                "2022:934",
                 "1. Denna lag träder i kraft den 1 juli 2022.",
                 "2. Lagen tillämpas första gången för bostadstillägg som avser augusti 2022.",
                 "3. Äldre bestämmelser gäller fortfarande för bostadstillägg som avser tid före den 1 augusti 2022."
@@ -53602,11 +55529,16 @@
                   "text": "3. Äldre bestämmelser gäller fortfarande för bostadstillägg som avser tid före den 1 augusti 2022."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2022:936",
+          "stycke": [
             {
-              "nummer": 107,
+              "nummer": 1,
               "text": [
-                "2022:936",
                 "1. Denna lag träder i kraft den 1 december 2022.",
                 "2. Lagen tillämpas första gången för förmåner som avser tid från och med den 1 januari 2023.",
                 "3. Äldre föreskrifter gäller fortfarande för den som uppnår åldersgränsen före den 1 januari 2023."
@@ -53628,11 +55560,16 @@
                   "text": "3. Äldre föreskrifter gäller fortfarande för den som uppnår åldersgränsen före den 1 januari 2023."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2022:937",
+          "stycke": [
             {
-              "nummer": 108,
+              "nummer": 1,
               "text": [
-                "2022:937",
                 "1. Denna lag träder i kraft den 1 december 2025.",
                 "2. Lagen tillämpas första gången för förmåner som avser tid från och med den 1 januari 2026.",
                 "3. Äldre föreskrifter gäller fortfarande för den som uppnår åldersgränsen före den 1 januari 2026."
@@ -53654,11 +55591,16 @@
                   "text": "3. Äldre föreskrifter gäller fortfarande för den som uppnår åldersgränsen före den 1 januari 2026."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2022:938",
+          "stycke": [
             {
-              "nummer": 109,
+              "nummer": 1,
               "text": [
-                "2022:938",
                 "1. Denna lag träder i kraft den 1 januari 2023.",
                 "2. Äldre föreskrifter gäller fortfarande för insatser som har påbörjats före ikraftträdandet."
               ],
@@ -53674,11 +55616,16 @@
                   "text": "2. Äldre föreskrifter gäller fortfarande för insatser som har påbörjats före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2022:939",
+          "stycke": [
             {
-              "nummer": 110,
+              "nummer": 1,
               "text": [
-                "2022:939",
                 "1. Denna lag träder i kraft den 1 september 2022.",
                 "2. Bestämmelsen i 27 kap. 49 b § i den nya lydelsen tillämpas även på sjukperioder som har påbörjats före ikraftträdandet. Bestämmelsen tillämpas dock första gången vid prövning av rätt till ersättning för dagar från och med ikraftträdandet."
               ],
@@ -53694,11 +55641,16 @@
                   "text": "2. Bestämmelsen i 27 kap. 49 b § i den nya lydelsen tillämpas även på sjukperioder som har påbörjats före ikraftträdandet. Bestämmelsen tillämpas dock första gången vid prövning av rätt till ersättning för dagar från och med ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2022:1031",
+          "stycke": [
             {
-              "nummer": 111,
+              "nummer": 1,
               "text": [
-                "2022:1031",
                 "1. Denna lag träder i kraft den 15 juli 2022.",
                 "2. De nya bestämmelserna tillämpas dock för tid från och med den 1 augusti 2022.",
                 "3. Äldre bestämmelser gäller fortfarande för tid före utgången av juli 2022."
@@ -53720,11 +55672,16 @@
                   "text": "3. Äldre bestämmelser gäller fortfarande för tid före utgången av juli 2022."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2022:1037",
+          "stycke": [
             {
-              "nummer": 112,
+              "nummer": 1,
               "text": [
-                "2022:1037",
                 "1. Denna lag träder i kraft den 1 oktober 2022.",
                 "2. Äldre bestämmelser gäller dock fortfarande i fråga om garantipension och garantipension till omställningspension för tid före ikraftträdandet."
               ],
@@ -53740,11 +55697,16 @@
                   "text": "2. Äldre bestämmelser gäller dock fortfarande i fråga om garantipension och garantipension till omställningspension för tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2022:1041",
+          "stycke": [
             {
-              "nummer": 113,
+              "nummer": 1,
               "text": [
-                "2022:1041",
                 "1. Denna lag träder i kraft den 1 juli 2022.",
                 "2. Äldre bestämmelser gäller fortfarande för bostadsbidrag som avser tid före ikraftträdandet."
               ],
@@ -53760,11 +55722,16 @@
                   "text": "2. Äldre bestämmelser gäller fortfarande för bostadsbidrag som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2022:1042",
+          "stycke": [
             {
-              "nummer": 114,
+              "nummer": 1,
               "text": [
-                "2022:1042",
                 "1. Denna lag träder i kraft den 1 juli 2025. (Lag 2024:1256).",
                 "2. Äldre bestämmelser gäller fortfarande för bostadsbidrag som avser tid före ikraftträdandet."
               ],
@@ -53780,11 +55747,16 @@
                   "text": "2. Äldre bestämmelser gäller fortfarande för bostadsbidrag som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2022:1222",
+          "stycke": [
             {
-              "nummer": 115,
+              "nummer": 1,
               "text": [
-                "2022:1222",
                 "1. Denna lag träder i kraft den 1 september 2022.",
                 "2. Äldre bestämmelser gäller fortfarande i fråga om sjukersättning som avser tid före ikraftträdandet."
               ],
@@ -53800,11 +55772,16 @@
                   "text": "2. Äldre bestämmelser gäller fortfarande i fråga om sjukersättning som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2022:1226",
+          "stycke": [
             {
-              "nummer": 116,
+              "nummer": 1,
               "text": [
-                "2022:1226",
                 "1. Denna lag träder i kraft den 1 januari 2023.",
                 "2. Äldre bestämmelser gäller fortfarande för assistansersättning som avser tid före ikraftträdandet."
               ],
@@ -53820,11 +55797,16 @@
                   "text": "2. Äldre bestämmelser gäller fortfarande för assistansersättning som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2022:1266",
+          "stycke": [
             {
-              "nummer": 117,
+              "nummer": 1,
               "text": [
-                "2022:1266",
                 "1. Denna lag träder i kraft den 2 december 2022.",
                 "2. Lagen tillämpas första gången för förmåner som avser tid från och med den 1 januari 2023.",
                 "3. Äldre bestämmelser i fråga om garantipension gäller fortfarande för den som är född 1957 eller tidigare.",
@@ -53852,11 +55834,16 @@
                   "text": "4. Äldre bestämmelser i fråga om garantipension till omställningspension gäller fortfarande för dödsfall som inträffade före den 1 januari 2023."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2022:1291",
+          "stycke": [
             {
-              "nummer": 118,
+              "nummer": 1,
               "text": [
-                "2022:1291",
                 "1. Denna lag träder i kraft den 2 augusti 2022.",
                 "2. Äldre föreskrifter gäller fortfarande för en anmälan om att avstå dagar med föräldrapenning på grundnivå som har gjorts före ikraftträdandet."
               ],
@@ -53872,11 +55859,16 @@
                   "text": "2. Äldre föreskrifter gäller fortfarande för en anmälan om att avstå dagar med föräldrapenning på grundnivå som har gjorts före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2022:1854",
+          "stycke": [
             {
-              "nummer": 119,
+              "nummer": 1,
               "text": [
-                "2022:1854",
                 "1. Denna lag träder i kraft den 1 januari 2024.",
                 "2. Den upphävda paragrafen gäller dock fortfarande för sjukpenning som avser tid före utgången av 2023."
               ],
@@ -53892,11 +55884,16 @@
                   "text": "2. Den upphävda paragrafen gäller dock fortfarande för sjukpenning som avser tid före utgången av 2023."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2022:1856",
+          "stycke": [
             {
-              "nummer": 120,
+              "nummer": 1,
               "text": [
-                "2022:1856",
                 "1. Denna lag träder i kraft den 1 januari 2023.",
                 "2. Äldre bestämmelser gäller fortfarande för bostadstillägg som avser tid före utgången av 2022."
               ],
@@ -53912,11 +55909,16 @@
                   "text": "2. Äldre bestämmelser gäller fortfarande för bostadstillägg som avser tid före utgången av 2022."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2023:441",
+          "stycke": [
             {
-              "nummer": 121,
+              "nummer": 1,
               "text": [
-                "2023:441",
                 "1. Denna lag träder i kraft den 1 juli 2023.",
                 "2. Äldre bestämmelser gäller fortfarande för bostadsbidrag som avser tid före ikraftträdandet."
               ],
@@ -53932,11 +55934,16 @@
                   "text": "2. Äldre bestämmelser gäller fortfarande för bostadsbidrag som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2023:905",
+          "stycke": [
             {
-              "nummer": 122,
+              "nummer": 1,
               "text": [
-                "2023:905",
                 "1. Denna lag träder i kraft den 1 januari 2024 i fråga om 64 kap. 34 § och i övrigt den 1 juli 2024.",
                 "2. Äldre föreskrifter gäller fortfarande för föräldrapenning som avser tid före ikraftträdandet."
               ],
@@ -53952,11 +55959,16 @@
                   "text": "2. Äldre föreskrifter gäller fortfarande för föräldrapenning som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2024:508",
+          "stycke": [
             {
-              "nummer": 123,
+              "nummer": 1,
               "text": [
-                "2024:508",
                 "1. Denna lag träder i kraft den 1 oktober 2025.",
                 "2. Äldre bestämmelser gäller fortfarande när en försäkrad får dagpenning enligt den upphävda lagen (1997:238) om arbetslöshetsförsäkring."
               ],
@@ -53972,11 +55984,16 @@
                   "text": "2. Äldre bestämmelser gäller fortfarande när en försäkrad får dagpenning enligt den upphävda lagen (1997:238) om arbetslöshetsförsäkring."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2024:694",
+          "stycke": [
             {
-              "nummer": 124,
+              "nummer": 1,
               "text": [
-                "2024:694",
                 "1. Denna lag träder i kraft den 1 november 2024.",
                 "2. För den som var folkbokförd i Sverige den 31 oktober 2024 gäller 5 kap. 3 § i den äldre lydelsen."
               ],
@@ -53992,11 +56009,16 @@
                   "text": "2. För den som var folkbokförd i Sverige den 31 oktober 2024 gäller 5 kap. 3 § i den äldre lydelsen."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2024:1255",
+          "stycke": [
             {
-              "nummer": 125,
+              "nummer": 1,
               "text": [
-                "2024:1255",
                 "1. Denna lag träder i kraft den 1 januari 2025 i fråga om 97 kap. 23 a § och i övrigt den 1 april 2025.",
                 "2. Äldre föreskrifter gäller fortfarande för bostadsbidrag som avser tid före den 1 januari 2025 och för föräldrapenning som avser tid före den 1 april 2025."
               ],
@@ -54012,11 +56034,16 @@
                   "text": "2. Äldre föreskrifter gäller fortfarande för bostadsbidrag som avser tid före den 1 januari 2025 och för föräldrapenning som avser tid före den 1 april 2025."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2024:1269",
+          "stycke": [
             {
-              "nummer": 126,
+              "nummer": 1,
               "text": [
-                "2024:1269",
                 "1. Denna lag träder i kraft den 1 januari 2025.",
                 "2. Äldre bestämmelser gäller fortfarande i fråga om sjukpenning i särskilda fall, rehabiliteringspenning i särskilda fall och boendetillägg som avser tid före ikraftträdandet."
               ],
@@ -54032,11 +56059,16 @@
                   "text": "2. Äldre bestämmelser gäller fortfarande i fråga om sjukpenning i särskilda fall, rehabiliteringspenning i särskilda fall och boendetillägg som avser tid före ikraftträdandet."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2024:1270",
+          "stycke": [
             {
-              "nummer": 127,
+              "nummer": 1,
               "text": [
-                "2024:1270",
                 "1. Denna lag träder i kraft den 1 juni 2025.",
                 "2. Lagen tillämpas första gången för tid från och med den 1 juli 2025.",
                 "3. För en försäkrad som har rätt till sjukersättning eller aktivitetsersättning från och med juli 2025 eller från och med en senare tidpunkt och som oavbrutet haft rätt till sjukersättning eller aktivitetsersättning sedan före den 1 juli 2025 gäller de upphävda paragraferna och bestämmelserna i 35 kap. 4, 12 och 15 §§ i den äldre lydelsen fortfarande för beräkning av försäkringstid för tid från och med 2003 till och med juni 2025.",
@@ -54064,11 +56096,16 @@
                   "text": "4. Bestämmelserna i 26 kap. 8 § och 27 kap. 35 och 54 §§ i den äldre lydelsen gäller fortfarande för den som har rätt till sjukersättning eller aktivitetsersättning för tid före den 1 juli 2025."
                 }
               ]
-            },
+            }
+          ],
+          "referens": []
+        },
+        {
+          "nummer": "2025:39",
+          "stycke": [
             {
-              "nummer": 128,
+              "nummer": 1,
               "text": [
-                "2025:39",
                 "1. Denna lag träder i kraft den 1 mars 2025.",
                 "2. De nya bestämmelserna tillämpas inte på beslut om återbetalning som har fattats före ikraftträdandet."
               ],
@@ -54086,13 +56123,7 @@
               ]
             }
           ],
-          "rubrik": "Avvikande föreskrifter",
-          "referens": [
-            "Lag (2020:427)",
-            "Lag (2022:1036)",
-            "Lag (2022:1036)",
-            "Lag (2022:1855)"
-          ]
+          "referens": []
         }
       ],
       "avdelning": {

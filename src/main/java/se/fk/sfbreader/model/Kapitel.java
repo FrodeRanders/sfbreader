@@ -10,14 +10,14 @@ public class Kapitel implements Layer {
     private static final Logger log = LoggerFactory.getLogger(Kapitel.class);
     private static final Logger strukturLog = LoggerFactory.getLogger("STRUKTUR");
 
-    private final String nummer;
-    private final String namn;
+    protected final String nummer;
+    protected final String namn;
 
     // Such as /Träder i kraft I:den dag som regeringen bestämmer/
     private String periodisering = null;
 
     @SerializedName(value = "paragraf")
-    private final Collection<Paragraf> paragrafer = new ArrayList<>();
+    protected final Collection<Paragraf> paragrafer = new ArrayList<>();
 
     @SerializedName(value = "avdelning")
     private Avdelning aktuellAvdelning = null;
