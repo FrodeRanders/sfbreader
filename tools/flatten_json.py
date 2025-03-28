@@ -20,7 +20,10 @@ def extract_texts(data):
                 else:
                     current_context["kapitel"] = obj["nummer"]
             if "namn" in obj:
-                current_context["namn"] = obj["namn"]
+                if "kapitel" in current_context:
+                    current_context["kapitel_namn"] = obj["namn"]
+                else:
+                    current_context["namn"] = obj["namn"]
             if "avdelning" in obj:
                 current_context["avdelning_id"] = obj["avdelning"].get("id", "")
                 current_context["avdelning_namn"] = obj["avdelning"].get("namn", "")
@@ -73,8 +76,12 @@ def assemble_stycke(item):
         "lag": "Socialförsäkringsbalk (2010:110)",
         "avdelning": avdelning,
         "underavdelning": underavdelning,
-        "kapitel": context.get('kapitel')
+        "kapitel": context.get('kapitel'),
     }
+
+    kapitel_namn = context.get('kapitel_namn')
+    if kapitel_namn:
+        dict["kapitel_namn"] = kapitel_namn
 
     kapitel_periodisering = context.get('kapitel_periodisering')
     if kapitel_periodisering:
