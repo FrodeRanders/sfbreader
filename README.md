@@ -1,6 +1,7 @@
 # sfbreader
 
 Försök till "digitalisering" av Socialförsäkringsbalken (extrakt av text med struktur).
+Det finns ett syskon-projekt [sfbanalys](https://github.com/FrodeRanders/sfbanalys), som kanske kan vara av intresse.
 
 ## Status
 Det är ett iterativt arbete att lyckas gå från text (eller i förekommande fall HTML) till motsvarande strukturerat format (JSON). Vi är skapligt där just nu. 
