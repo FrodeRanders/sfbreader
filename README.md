@@ -1,5 +1,7 @@
 # sfbreader
 
+Försök till "digitalisering" av Socialförsäkringsbalken (extrakt av text med struktur).
+
 ## Status
 Denna version är inte verifierad att läsa HTML-filen samt bryta upp denna på rätt sätt. 
 
