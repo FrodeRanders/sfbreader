@@ -12,6 +12,7 @@ public class Kapitel implements Layer {
 
     protected final String nummer;
     protected final String namn;
+    private final boolean synthetic;
 
     // Such as /Träder i kraft I:den dag som regeringen bestämmer/
     private String periodisering = null;
@@ -32,8 +33,13 @@ public class Kapitel implements Layer {
     private transient boolean paragrafrubrikRecentlySet = false;
 
     public Kapitel(String nummer, String namn) {
+        this(nummer, namn, false);
+    }
+
+    public Kapitel(String nummer, String namn, boolean synthetic) {
         this.nummer = nummer;
         this.namn = namn;
+        this.synthetic = synthetic;
         strukturLog.info(indent(4, "Kapitel: " + nummer + " " + namn));
     }
 
@@ -43,6 +49,10 @@ public class Kapitel implements Layer {
 
     public String namn() {
         return namn;
+    }
+
+    public boolean isSynthetic() {
+        return synthetic;
     }
 
     public void setPeriodisering(String periodisering) {

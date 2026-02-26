@@ -11,7 +11,11 @@ public class Overgang extends Kapitel {
     private static int serienummer = 0;
 
     public Overgang(String namn) {
-        super("Ö" + Integer.toString(++serienummer), namn);
+        this(namn, false);
+    }
+
+    public Overgang(String namn, boolean synthetic) {
+        super("Ö" + Integer.toString(++serienummer), namn, synthetic);
     }
 
     public void addParagraf(Paragraf p) {

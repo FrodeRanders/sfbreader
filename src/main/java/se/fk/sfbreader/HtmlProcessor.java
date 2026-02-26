@@ -20,14 +20,22 @@ public class HtmlProcessor {
     private static final Logger log = LoggerFactory.getLogger(HtmlProcessor.class);
 
     private static final Pattern AVDELNING_RE = Pattern.compile("^AVD\\.\\s+([A-Z])\\s+(.+)$");
+    private static final Pattern INLINE_AVDELNING_RE = Pattern.compile("^(?i)avdelning\\s+[A-ZÅÄÖ]\\s+.+$");
     private static final Pattern UNDERAVDELNING_RE = Pattern.compile("^([IVX]+)\\s+([A-ZÅÄÖ].+)$"); // may always have two (2) spaces after roman numeral???
     private static final Pattern KAPITEL_RE = Pattern.compile("^(\\d+\\s*[a-z]?)\\s+kap\\.\\s+(.+)$");
     private static final Pattern PARAGRAF_RE = Pattern.compile("^(\\d+\\s*[a-z]?)\\s*§$");
     private static final Pattern PARAGRAPH_ANCHOR_RE = Pattern.compile("K(\\d+[a-zA-Z]?)P(\\d+[a-zA-Z]?)");
+    private static final Pattern PARAGRAPH_ANCHOR_SIMPLE_RE = Pattern.compile("^P(\\d+[a-zA-Z]?)$");
     private static final Pattern PART_ANCHOR_RE = Pattern.compile("K(\\d+[a-zA-Z]?)P(\\d+[a-zA-Z]?)S(\\d+)");
+    private static final Pattern PART_ANCHOR_SIMPLE_RE = Pattern.compile("^P(\\d+[a-zA-Z]?)S(\\d+)$");
     private static final Pattern PERIODISERING_RE = Pattern.compile("^/(.+)/$");
+    private final String lagName;
+    private final String lagId;
+    private boolean sawRealChapter = false;
 
-    public HtmlProcessor() {
+    public HtmlProcessor(String lagName, String lagId) {
+        this.lagName = lagName;
+        this.lagId = lagId;
     }
 
     private void pushLayer(String where, Stack<Layer> stack, Layer layer) {
@@ -81,11 +89,16 @@ public class HtmlProcessor {
      *
      */
     public Optional<Lag> process(Document doc) {
+        sawRealChapter = false;
         Stack<Layer> stack = new Stack<>();
-        stack.push(new Lag("Socialförsäkringsbalk", "2010:110"));
+        stack.push(new Lag(lagName, lagId));
 
         // want to ignore <div class="sfstoc">
         Element body = doc.select("div:not(.sfstoc)").first();
+        if (null == body) {
+            log.error("Kunde inte lokalisera början på lagtext");
+            return Optional.empty();
+        }
 
         body.forEachNode(node -> {
             if (node instanceof Element element) {
@@ -171,6 +184,13 @@ public class HtmlProcessor {
                 assert "div".equals(parent.nodeName());
 
                 paragraf(stack, paragraph);
+            } else {
+                Matcher simple = PARAGRAPH_ANCHOR_SIMPLE_RE.matcher(id.getValue());
+                if (simple.find()) {
+                    String paragraph = simple.group(1);
+                    ensureDefaultChapterContext(stack);
+                    paragraf(stack, paragraph);
+                }
             }
             return;
         }
@@ -217,6 +237,30 @@ public class HtmlProcessor {
                     paragraf.add(nyttStycke);
 
                     pushLayer("ankare", stack, nyttStycke);
+                }
+            }
+            return;
+        }
+
+        Matcher simplePart = PART_ANCHOR_SIMPLE_RE.matcher(id.getValue());
+        if (simplePart.find()) {
+            ensureDefaultChapterContext(stack);
+            boolean stop = stack.empty();
+            if (!stop) {
+                Stycke previous = null;
+                do {
+                    Layer layer = stack.peek();
+                    switch (layer.type()) {
+                        case "Punkt", "Stycke" -> previous = (Stycke) popLayer("ankare#simple", stack);
+                        default -> stop = true;
+                    }
+                    stop |= stack.empty();
+                } while (!stop);
+
+                if (!stack.empty() && stack.peek() instanceof Paragraf paragraf) {
+                    Stycke nyttStycke = previous != null ? new Stycke(previous) : new Stycke();
+                    paragraf.add(nyttStycke);
+                    pushLayer("ankare#simple", stack, nyttStycke);
                 }
             }
         }
@@ -282,13 +326,14 @@ public class HtmlProcessor {
             String chapter = matcher.group(1);
             String name = matcher.group(2);
             kapitel = new Kapitel(chapter, name);
+            sawRealChapter = true;
         }
 
         /* <h3 name="overgang"><a name="overgang">Övergångsbestämmelser</a></h3> */
         Attribute name = element.attribute("name");
         if (/* necessary */ null != name && "overgang".equals(name.getValue())) {
             element.text();
-            kapitel = new Overgang(text);
+            kapitel = new Overgang(text, !sawRealChapter);
         }
 
         //
@@ -446,6 +491,15 @@ public class HtmlProcessor {
         if (!stack.isEmpty()) {
             Layer current = stack.peek();
 
+            if (current instanceof Stycke stycke
+                    && isInlineAvdelningHeading(text)
+                    && !stycke.isEmpty()) {
+                Stycke split = splitStycke(stack, "text#inline-avdelning");
+                if (split != null) {
+                    current = split;
+                }
+            }
+
             switch (current.type()) {
                 case "Overgang", "Stycke" -> {
                     if (text.matches("\\d{4}:\\d+")) {
@@ -597,5 +651,73 @@ public class HtmlProcessor {
                 }
             }
         }
+    }
+
+    private void ensureDefaultChapterContext(Stack<Layer> stack) {
+        boolean hasKapitel = stack.stream().anyMatch(l -> "Kapitel".equals(l.type()) || "Overgang".equals(l.type()));
+        if (hasKapitel) {
+            return;
+        }
+
+        Lag lag = null;
+        for (Layer layer : stack) {
+            if (layer instanceof Lag l) {
+                lag = l;
+                break;
+            }
+        }
+        if (lag == null) {
+            return;
+        }
+
+        Avdelning avdelning = null;
+        for (Layer layer : stack) {
+            if (layer instanceof Avdelning a) {
+                avdelning = a;
+            }
+        }
+        if (avdelning == null) {
+            avdelning = new Avdelning("A", "AUTO");
+            lag.add(avdelning);
+            pushLayer("default#avdelning", stack, avdelning);
+        }
+
+        Kapitel kapitel = new Kapitel("1", "Auto-generated chapter", true);
+        avdelning.addKapitel(kapitel);
+        pushLayer("default#kapitel", stack, kapitel);
+    }
+
+    private boolean isInlineAvdelningHeading(String text) {
+        return INLINE_AVDELNING_RE.matcher(text).matches();
+    }
+
+    private Stycke splitStycke(Stack<Layer> stack, String where) {
+        boolean stop = stack.empty();
+        Stycke previous = null;
+        if (stop) {
+            return null;
+        }
+
+        do {
+            Layer layer = stack.peek();
+            switch (layer.type()) {
+                case "Punkt", "Stycke" -> {
+                    Layer popped = popLayer(where, stack);
+                    if (popped instanceof Stycke s) {
+                        previous = s;
+                    }
+                }
+                default -> stop = true;
+            }
+            stop |= stack.empty();
+        } while (!stop);
+
+        if (!stack.empty() && stack.peek() instanceof Paragraf paragraf) {
+            Stycke nyttStycke = previous != null ? new Stycke(previous) : new Stycke();
+            paragraf.add(nyttStycke);
+            pushLayer(where, stack, nyttStycke);
+            return nyttStycke;
+        }
+        return null;
     }
 }

@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 import java.util.Objects;
 
 // Exempel: Socialförsäkringsbalk (2010:110)
@@ -17,6 +18,8 @@ public class Lag implements Layer {
 
     @SerializedName(value = "kapitel")
     private final Collection<Kapitel> kapitlen = new ArrayList<>();
+    @SerializedName(value = "paragraf")
+    private final Collection<Paragraf> paragrafer = new ArrayList<>();
 
     // Don't serialize
     private transient Collection<Avdelning> avdelningar = new ArrayList<>();
@@ -54,8 +57,25 @@ public class Lag implements Layer {
         return avdelningar;
     }
 
+    public Collection<Paragraf> getParagrafer() {
+        return paragrafer;
+    }
+
     public void prune() {
         kapitlen.forEach(Kapitel::prune);
+        paragrafer.forEach(Paragraf::prune);
+    }
+
+    public void prepareForSerialization() {
+        paragrafer.clear();
+        Iterator<Kapitel> it = kapitlen.iterator();
+        while (it.hasNext()) {
+            Kapitel k = it.next();
+            if (k.isSynthetic()) {
+                paragrafer.addAll(k.get());
+                it.remove();
+            }
+        }
     }
 
     @Override

@@ -3,6 +3,7 @@ package se.fk.sfbreader.model;
 import com.google.gson.annotations.SerializedName;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import se.fk.sfbreader.PeriodiseringMarker;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -14,6 +15,10 @@ public class Paragraf implements Layer {
 
     // Such as /Träder i kraft I:den dag som regeringen bestämmer/
     private String periodisering = null;
+    private String versionStatus = "UNTAGGED";
+    private String versionKind = null;
+    private String versionDate = null;
+    private String versionIdentity = null;
 
     @SerializedName(value = "stycke")
     private final Collection<Stycke> stycken = new ArrayList<>();
@@ -58,10 +63,27 @@ public class Paragraf implements Layer {
 
     public void setPeriodisering(String periodisering) {
         this.periodisering = periodisering;
+        applyVersionMetadata(periodisering);
     }
 
     public Optional<String> getPeriodisering() {
         return Optional.ofNullable(periodisering);
+    }
+
+    public Optional<String> getVersionStatus() {
+        return Optional.ofNullable(versionStatus);
+    }
+
+    public Optional<String> getVersionKind() {
+        return Optional.ofNullable(versionKind);
+    }
+
+    public Optional<String> getVersionDate() {
+        return Optional.ofNullable(versionDate);
+    }
+
+    public Optional<String> getVersionIdentity() {
+        return Optional.ofNullable(versionIdentity);
     }
 
     public void setParagrafrubriker(List<Paragrafrubrik> paragrafrubriker) {
@@ -127,5 +149,51 @@ public class Paragraf implements Layer {
         }
         buf.append("}");
         return buf.toString();
+    }
+
+    private void applyVersionMetadata(String periodisering) {
+        versionKind = null;
+        versionDate = null;
+        versionIdentity = null;
+
+        PeriodiseringMarker.Parsed parsed = PeriodiseringMarker.parse(periodisering);
+        switch (parsed.status()) {
+            case NONE -> versionStatus = "UNTAGGED";
+            case VALID_DATED -> {
+                versionStatus = "DATED";
+                versionKind = toVersionKind(parsed.kind());
+                versionDate = parsed.date() == null ? null : parsed.date().toString();
+                if (versionKind != null && versionDate != null) {
+                    versionIdentity = versionKind + ":" + versionDate;
+                }
+            }
+            case VALID_RELATIVE -> {
+                versionStatus = "UNRESOLVED";
+                versionKind = toVersionKind(parsed.kind());
+                String tail = parsed.tail() == null ? "" : parsed.tail().trim();
+                if (versionKind != null && !tail.isEmpty()) {
+                    versionIdentity = versionKind + ":" + tail;
+                } else if (parsed.raw() != null && !parsed.raw().isBlank()) {
+                    versionIdentity = parsed.raw().trim();
+                }
+            }
+            case INVALID -> {
+                versionStatus = "INVALID";
+                versionKind = toVersionKind(parsed.kind());
+                if (parsed.raw() != null && !parsed.raw().isBlank()) {
+                    versionIdentity = parsed.raw().trim();
+                }
+            }
+        }
+    }
+
+    private static String toVersionKind(PeriodiseringMarker.Kind kind) {
+        if (kind == null) {
+            return null;
+        }
+        return switch (kind) {
+            case UPPHOR -> "U";
+            case IKRAFT -> "I";
+        };
     }
 }
