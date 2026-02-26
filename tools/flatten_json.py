@@ -47,6 +47,8 @@ def extract_texts(data):
                     current_context["kapitel_periodisering"] = obj["periodisering"]
                 if "paragraf" in current_context:
                     current_context["paragraf_periodisering"] = obj["periodisering"]
+            if "kategori" in obj:
+                current_context["kategori"] = obj["kategori"]
             if "stycke" in obj:
                 for stycke in obj["stycke"]:
                     if isinstance(stycke, dict):
@@ -104,6 +106,10 @@ def assemble_stycke(item):
     referens = context.get('referens')
     if referens:
         dict["referens"] = referens
+
+    kategori = context.get('kategori')
+    if kategori:
+        dict["kategori"] = kategori
 
     dict["stycke"] = context.get('stycke')
     dict["text"] = item["text"]

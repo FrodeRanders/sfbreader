@@ -6,6 +6,7 @@
     "kapitel": "1",
     "kapitel_namn": "Innehåll m.m.",
     "paragraf": "1",
+    "kategori": "beskrivning",
     "stycke": 1,
     "text": "Denna balk innehåller bestämmelser om social trygghet genom de sociala försäkringar samt andra ersättnings- och bidragssystem som behandlas i avdelningarna B-G (socialförsäkringen)."
   },
@@ -16,6 +17,7 @@
     "kapitel": "1",
     "kapitel_namn": "Innehåll m.m.",
     "paragraf": "2",
+    "kategori": "beskrivning",
     "stycke": 1,
     "text": "Balken är indelad i avdelningar, som betecknas med stora bokstäver."
   },
@@ -26,6 +28,7 @@
     "kapitel": "1",
     "kapitel_namn": "Innehåll m.m.",
     "paragraf": "2",
+    "kategori": "beskrivning",
     "stycke": 2,
     "text": "Avdelningarna är indelade i underavdelningar, som betecknas med romerska siffror."
   },
@@ -37,6 +40,7 @@
     "kapitel_namn": "Innehåll m.m.",
     "paragraf": "3",
     "referens": "Lag (2020:1239)",
+    "kategori": "beskrivning",
     "stycke": 1,
     "text": "Övergripande bestämmelser finns i 1-7 kap. (avdelning A)."
   },
@@ -48,6 +52,7 @@
     "kapitel_namn": "Innehåll m.m.",
     "paragraf": "3",
     "referens": "Lag (2020:1239)",
+    "kategori": "beskrivning",
     "stycke": 2,
     "text": "Vidare finns bestämmelser om\n- familjeförmåner i 8-22 kap. (avdelning B),\n- förmåner vid sjukdom eller arbetsskada i 23-47 kap. (avdelning C),\n- särskilda förmåner vid funktionshinder i 48-52 kap. (avdelning D),\n- förmåner vid ålderdom i 53-74 a kap. (avdelning E),\n- förmåner till efterlevande i 75-92 kap. (avdelning F), och\n- bostadsstöd i 93-103 e kap. (avdelning G)."
   },
@@ -59,6 +64,7 @@
     "kapitel_namn": "Innehåll m.m.",
     "paragraf": "3",
     "referens": "Lag (2020:1239)",
+    "kategori": "beskrivning",
     "stycke": 3,
     "text": "Vissa gemensamma bestämmelser om förmånerna, handläggningen och organisationen finns i 104-117 kap. (avdelning H)."
   },
@@ -69,6 +75,7 @@
     "kapitel": "1",
     "kapitel_namn": "Innehåll m.m.",
     "paragraf": "4",
+    "kategori": "beskrivning",
     "stycke": 1,
     "text": "I avdelning A finns\n- allmänna bestämmelser, definitioner och förklaringar i 2 kap., och\n- övergripande bestämmelser om socialförsäkringsskyddet i 3-7 kap."
   },
@@ -79,6 +86,7 @@
     "kapitel": "1",
     "kapitel_namn": "Innehåll m.m.",
     "paragraf": "4",
+    "kategori": "beskrivning",
     "stycke": 2,
     "text": "Det finns definitioner och förklaringar också i andra avdelningar."
   },
@@ -91,6 +99,7 @@
     "paragraf_rubrik": "Innehåll",
     "paragraf": "1",
     "referens": "Lag (2019:649)",
+    "kategori": "beskrivning",
     "stycke": 1,
     "text": "I detta kapitel finns bestämmelser om\n- socialförsäkringens administration, m.m. i 2 §,\n- socialförsäkringens finansiering, m.m. i 3 och 4 §§,\n- internationella förhållanden i 5 §,\n- prisbasbelopp m.m. i 6-10 §§,\n- riktålder för pension i 10 a-10 d §§, och\n- definitioner och förklaringar i 11-17 §§."
   },
@@ -103,6 +112,7 @@
     "paragraf_rubrik": "Socialförsäkringens administration, m.m.",
     "paragraf": "2",
     "referens": "Lag (2022:761)",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Socialförsäkringen administreras av Försäkringskassan, Pensionsmyndigheten, Fondtorgsnämnden och Skatteverket."
   },
@@ -115,6 +125,7 @@
     "paragraf_rubrik": "Socialförsäkringens administration, m.m.",
     "paragraf": "2",
     "referens": "Lag (2022:761)",
+    "kategori": "definition",
     "stycke": 2,
     "text": "Hos Försäkringskassan ska det finnas ett allmänt ombud för socialförsäkringen. Regeringen utser det allmänna ombudet."
   },
@@ -127,6 +138,7 @@
     "paragraf_rubrik": "Socialförsäkringens administration, m.m.",
     "paragraf": "2",
     "referens": "Lag (2022:761)",
+    "kategori": "beskrivning",
     "stycke": 3,
     "text": "I inledningen av avdelningarna B-G finns bestämmelser om vilken myndighet som handlägger ärenden om förmåner som avses i den avdelningen."
   },
@@ -138,6 +150,7 @@
     "kapitel_namn": "Allmänna bestämmelser, definitioner och förklaringar",
     "paragraf_rubrik": "Socialförsäkringens finansiering, m.m.",
     "paragraf": "3",
+    "kategori": "beskrivning",
     "stycke": 1,
     "text": "Bestämmelser om finansiering av socialförsäkringen finns i\n- socialavgiftslagen (2000:980),\n- lagen (1994:1744) om allmän pensionsavgift,\n- lagen (1998:676) om statlig ålderspensionsavgift, och\n- lagen (2000:981) om fördelning av socialavgifter."
   },
@@ -149,6 +162,7 @@
     "kapitel_namn": "Allmänna bestämmelser, definitioner och förklaringar",
     "paragraf_rubrik": "Socialförsäkringens finansiering, m.m.",
     "paragraf": "3",
+    "kategori": "beskrivning",
     "stycke": 2,
     "text": "Socialförsäkringen finansieras också genom avkastning på vissa av de avgifter som anges i första stycket."
   },
@@ -160,6 +174,7 @@
     "kapitel_namn": "Allmänna bestämmelser, definitioner och förklaringar",
     "paragraf_rubrik": "Socialförsäkringens finansiering, m.m.",
     "paragraf": "4",
+    "kategori": "beskrivning",
     "stycke": 1,
     "text": "Förutom enligt de lagar som anges i 3 § finansieras socialförsäkringen med medel från statsbudgeten samt, i den omfattning som anges i denna balk, genom särskilda betalningar från kommuner och enskilda."
   },
@@ -172,6 +187,7 @@
     "paragraf_rubrik": "Internationella förhållanden",
     "paragraf": "5",
     "referens": "Lag (2010:1312)",
+    "kategori": "beskrivning",
     "stycke": 1,
     "text": "Unionsrätten inom Europeiska unionen (EU) eller inom Europeiska ekonomiska samarbetsområdet (EES) eller avtal om social trygghet eller andra avtal som ingåtts med andra stater kan medföra begränsningar i tillämpligheten av bestämmelserna i denna balk."
   },
@@ -184,6 +200,7 @@
     "paragraf_rubrik": "Extraordinära händelser i fredstid",
     "paragraf": "5a",
     "referens": "Lag (2020:189)",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela föreskrifter om undantag från bestämmelserna om tillfällig föräldrapenning i 13 kap., sjukpenning och karens i 27 och 28 kap., smittbärarpenning i 46 kap. och handläggning av ärenden i 110 kap. Sådana föreskrifter kan endast meddelas vid extraordinära händelser i fredstid."
   },
@@ -195,6 +212,7 @@
     "kapitel_namn": "Allmänna bestämmelser, definitioner och förklaringar",
     "paragraf_rubrik": "Prisbasbelopp m.m.",
     "paragraf": "6",
+    "kategori": "beskrivning",
     "stycke": 1,
     "text": "Vissa beräkningar som anges i denna balk ska grundas på ett prisbasbelopp eller förhöjt prisbasbelopp som beräknas för varje år."
   },
@@ -206,6 +224,7 @@
     "kapitel_namn": "Allmänna bestämmelser, definitioner och förklaringar",
     "paragraf_rubrik": "Prisbasbelopp m.m.",
     "paragraf": "7",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Prisbasbeloppet räknas fram genom att bastalet 36 396 multipliceras med det jämförelsetal som anger förhållandet mellan det allmänna prisläget i juni året före det som prisbasbeloppet avser och prisläget i juni 1997. Det framräknade prisbasbeloppet avrundas till närmaste hundratal kronor."
   },
@@ -217,6 +236,7 @@
     "kapitel_namn": "Allmänna bestämmelser, definitioner och förklaringar",
     "paragraf_rubrik": "Prisbasbelopp m.m.",
     "paragraf": "8",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Det förhöjda prisbasbeloppet räknas fram och avrundas på samma sätt som prisbasbeloppet. Vid framräkning av det förhöjda prisbasbeloppet används dock i stället bastalet 37 144."
   },
@@ -239,6 +259,7 @@
     "kapitel_namn": "Allmänna bestämmelser, definitioner och förklaringar",
     "paragraf_rubrik": "Prisbasbelopp m.m.",
     "paragraf": "10",
+    "kategori": "beskrivning",
     "stycke": 1,
     "text": "I 58 kap. finns bestämmelser om inkomstbasbelopp, inkomstindex, balanstal och balansindex."
   },
@@ -263,6 +284,7 @@
     "paragraf_rubrik": "Riktålder för pension",
     "paragraf": "10b",
     "referens": "Lag (2019:649)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Riktålder för pension räknas fram genom att det till bastalet 65 läggs 2/3 av differensen mellan\n- den vid 65 års ålder återstående medellivslängden för befolkningen i Sverige under femårsperioden närmast före det år riktåldern beräknas, och\n- motsvarande värde för jämförelseåret 1994."
   },
@@ -275,6 +297,7 @@
     "paragraf_rubrik": "Riktålder för pension",
     "paragraf": "10b",
     "referens": "Lag (2019:649)",
+    "kategori": "regel",
     "stycke": 2,
     "text": "Den framräknade riktåldern för pension ska avrundas till närmaste helår."
   },
@@ -287,6 +310,7 @@
     "paragraf_rubrik": "Riktålder för pension",
     "paragraf": "10c",
     "referens": "Lag (2019:649)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Den beräknade riktåldern för pension ska gälla för det sjätte året efter beräkningsåret."
   },
@@ -299,6 +323,7 @@
     "paragraf_rubrik": "Riktålder för pension",
     "paragraf": "10c",
     "referens": "Lag (2019:649)",
+    "kategori": "regel",
     "stycke": 2,
     "text": "När en gällande riktålder för pension ändras ska en åldersgräns som är knuten till den riktåldern som gällde före ändringen fortsätta att gälla för en försäkrad som före ändringen har uppnått en sådan åldersgräns."
   },
@@ -311,6 +336,7 @@
     "paragraf_rubrik": "Riktålder för pension",
     "paragraf": "10d",
     "referens": "Lag (2019:649)",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Regeringen eller den myndighet som regeringen bestämmer kan med stöd av 8 kap. 7 § regeringsformen meddela närmare föreskrifter om riktåldern för pension."
   },
@@ -323,6 +349,7 @@
     "paragraf_rubrik": "Definitioner och förklaringar",
     "paragraf_underrubrik": "Förmån",
     "paragraf": "11",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Med förmåner avses i denna balk dagersättningar, pensioner, livräntor, kostnadsersättningar, bidrag samt andra utbetalningar eller åtgärder som den enskilde är försäkrad för enligt 4-7 kap."
   },
@@ -335,6 +362,7 @@
     "paragraf_rubrik": "Definitioner och förklaringar",
     "paragraf_underrubrik": "Ogift",
     "paragraf": "12",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Det som i denna balk föreskrivs om den som är ogift tillämpas även i fråga om den som är änka, änkling eller frånskild, om inget annat anges."
   },
@@ -347,6 +375,7 @@
     "paragraf_rubrik": "Definitioner och förklaringar",
     "paragraf_underrubrik": "Sambor",
     "paragraf": "13",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Vad som avses med sambor framgår av 1 § sambolagen (2003:376)."
   },
@@ -359,6 +388,7 @@
     "paragraf_rubrik": "Definitioner och förklaringar",
     "paragraf_underrubrik": "Förälder",
     "paragraf": "14",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Om föräldraskap till barn och rättsverkan av adoption finns bestämmelser i 1 och 4 kap. föräldrabalken."
   },
@@ -372,6 +402,7 @@
     "paragraf_underrubrik": "Blivande adoptivförälder",
     "paragraf": "15",
     "referens": "Lag (2018:1290)",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Med blivande adoptivförälder avses i denna balk den som efter socialnämndens medgivande har tagit emot ett barn för stadigvarande vård och fostran i syfte att adoptera barnet."
   },
@@ -384,6 +415,7 @@
     "paragraf_rubrik": "Definitioner och förklaringar",
     "paragraf_underrubrik": "Familjehemsförälder",
     "paragraf": "16",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Med familjehemsförälder avses i denna balk den som har tagit emot ett barn för stadigvarande vård och fostran i ett enskilt hem som inte tillhör någon av barnets föräldrar eller någon annan som har vårdnaden om barnet."
   },
@@ -397,6 +429,7 @@
     "paragraf_underrubrik": "Avgiftspliktig",
     "paragraf": "17",
     "referens": "Lag (2012:834)",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Med avgiftspliktig ersättning och avgiftspliktig inkomst avses detsamma som i 2 kap. 10-11 §§ respektive 3 kap. 3-8 §§ socialavgiftslagen (2000:980)."
   },
@@ -407,6 +440,7 @@
     "kapitel": "3",
     "kapitel_namn": "Innehåll",
     "paragraf": "1",
+    "kategori": "beskrivning",
     "stycke": 1,
     "text": "I denna underavdelning finns allmänna bestämmelser om socialförsäkringsskyddet i 4 kap."
   },
@@ -417,6 +451,7 @@
     "kapitel": "3",
     "kapitel_namn": "Innehåll",
     "paragraf": "1",
+    "kategori": "beskrivning",
     "stycke": 2,
     "text": "Vidare finns bestämmelser om\n- bosättningsbaserade förmåner i 5 kap.,\n- arbetsbaserade förmåner i 6 kap., och\n- övriga förmåner i 7 kap."
   },
@@ -428,6 +463,7 @@
     "kapitel_namn": "Allmänna bestämmelser om försäkringsskyddet",
     "paragraf_rubrik": "Innehåll",
     "paragraf": "1",
+    "kategori": "beskrivning",
     "stycke": 1,
     "text": "I detta kapitel finns bestämmelser om\n- försäkringsgrenar i 2 §,\n- försäkrad och gällande skydd i 3 och 4 §§, och\n- internationella förhållanden i 5 §."
   },
@@ -439,6 +475,7 @@
     "kapitel_namn": "Allmänna bestämmelser om försäkringsskyddet",
     "paragraf_rubrik": "Försäkringsgrenar",
     "paragraf": "2",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Socialförsäkringen är indelad i tre försäkringsgrenar.\nDessa avser\n1. förmåner som grundas på bosättning i Sverige (bosättningsbaserade förmåner),\n2. förmåner som grundas på arbete i Sverige (arbetsbaserade förmåner), och\n3. förmåner som grundas på andra omständigheter än bosättning eller arbete i Sverige (övriga förmåner)."
   },
@@ -450,6 +487,7 @@
     "kapitel_namn": "Allmänna bestämmelser om försäkringsskyddet",
     "paragraf_rubrik": "Försäkrad och gällande skydd",
     "paragraf": "3",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Försäkrad är den som uppfyller de krav i fråga om bosättning, arbete eller andra omständigheter som avses i 2 § samt gällande krav på försäkringstider."
   },
@@ -461,6 +499,7 @@
     "kapitel_namn": "Allmänna bestämmelser om försäkringsskyddet",
     "paragraf_rubrik": "Försäkrad och gällande skydd",
     "paragraf": "3",
+    "kategori": "regel",
     "stycke": 2,
     "text": "För att omfattas av socialförsäkringsskyddet ska den försäkrade dessutom uppfylla de andra villkor som gäller för respektive förmån enligt 5-7 kap."
   },
@@ -472,6 +511,7 @@
     "kapitel_namn": "Allmänna bestämmelser om försäkringsskyddet",
     "paragraf_rubrik": "Försäkrad och gällande skydd",
     "paragraf": "4",
+    "kategori": "beskrivning",
     "stycke": 1,
     "text": "Ytterligare bestämmelser om rätten till förmåner finns i 8-117 kap. (avdelningarna B-H)."
   },
@@ -484,6 +524,7 @@
     "paragraf_rubrik": "Internationella förhållanden",
     "paragraf": "5",
     "referens": "Lag (2010:1312)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Den som, enligt vad som följer av Europaparlamentets och rådets förordning (EG) nr 883/2004 av den 29 april 2004 om samordning av de sociala trygghetssystemen, omfattas av lagstiftningen i en annan stat är inte försäkrad för sådana förmåner enligt denna balk som motsvarar förmåner som avses i förordningen."
   },
@@ -496,6 +537,7 @@
     "paragraf_rubrik": "Internationella förhållanden",
     "paragraf": "5a",
     "referens": "Lag (2013:747)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "En person som är lokalt anställd vid en svensk utlandsmyndighet är inte försäkrad enligt denna balk när det gäller den anställningen. En sådan person ska inte anses som offentligt anställd vid tillämpning av förordning (EG) nr 883/2004 om samordning av de sociala trygghetssystemen."
   },
@@ -508,6 +550,7 @@
     "paragraf_rubrik": "Innehåll",
     "paragraf": "1",
     "referens": "Lag (2019:646)",
+    "kategori": "beskrivning",
     "stycke": 1,
     "text": "I detta kapitel finns bestämmelser om\n- bosättning i Sverige i 2 och 3 §§,\n- särskilda personkategorier i 4-8 §§,\n- de bosättningsbaserade förmånerna i 9 och 10 §§,\n- socialförsäkringsskyddet i samband med inflyttning till Sverige i 11 och 12 §§,\n- förmåner vid utlandsvistelse i 13-16 §§, och\n- speciella försäkringssituationer i 17 och 18 §§."
   },
@@ -519,6 +562,7 @@
     "kapitel_namn": "Bosättningsbaserade förmåner",
     "paragraf_rubrik": "Bosättning i Sverige",
     "paragraf": "2",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Vid tillämpning av bestämmelserna i denna balk ska, om inget annat särskilt anges, en person anses vara bosatt i Sverige om han eller hon har sitt egentliga hemvist här i landet."
   },
@@ -531,6 +575,7 @@
     "paragraf_rubrik": "Bosättning i Sverige",
     "paragraf": "3",
     "referens": "Lag (2024:694)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Den som kommer till Sverige och kan antas komma att vistas här under längre tid än ett år ska anses vara bosatt här i landet. Detta gäller dock inte om synnerliga skäl talar mot det."
   },
@@ -543,6 +588,7 @@
     "paragraf_rubrik": "Bosättning i Sverige",
     "paragraf": "3",
     "referens": "Lag (2024:694)",
+    "kategori": "regel",
     "stycke": 2,
     "text": "En utlänning som har ett uppehållstillstånd med tillfälligt skydd, eller uppehållstillstånd efter tillfälligt skydd, enligt 21 kap. 2, 3, 4 eller 6 § utlänningslagen (2005:716) ska inte anses vara bosatt här. Detta gäller dock inte, om utlänningen har beviljats en flyktingstatusförklaring enligt 4 kap. 3 c § utlänningslagen eller ett resedokument enligt 4 kap. 4 § utlänningslagen."
   },
@@ -555,6 +601,7 @@
     "paragraf_rubrik": "Bosättning i Sverige",
     "paragraf": "3",
     "referens": "Lag (2024:694)",
+    "kategori": "regel",
     "stycke": 3,
     "text": "En i Sverige bosatt person som lämnar landet ska fortfarande anses vara bosatt här i landet om utlandsvistelsen kan antas vara längst ett år."
   },
@@ -567,6 +614,7 @@
     "paragraf_rubrik": "Särskilda personkategorier",
     "paragraf_underrubrik": "Statsanställda",
     "paragraf": "4",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Den som av en statlig arbetsgivare sänds till ett annat land för arbete för arbetsgivarens räkning ska anses vara bosatt i Sverige under hela utsändningstiden om han eller hon tidigare någon gång varit bosatt här i landet."
   },
@@ -579,6 +627,7 @@
     "paragraf_rubrik": "Särskilda personkategorier",
     "paragraf_underrubrik": "Statsanställda",
     "paragraf": "4",
+    "kategori": "regel",
     "stycke": 2,
     "text": "När en annan stat som arbetsgivare sänder en person till Sverige för arbete för arbetsgivarens räkning ska den personen inte anses vara bosatt här i landet."
   },
@@ -591,6 +640,7 @@
     "paragraf_rubrik": "Särskilda personkategorier",
     "paragraf_underrubrik": "Diplomater m.fl.",
     "paragraf": "5",
+    "kategori": "regel",
     "stycke": 1,
     "text": "En person som tillhör en annan stats beskickning eller karriärkonsulat eller dess betjäning ska anses vara bosatt i Sverige endast om det är förenligt med bestämmelserna om immunitet och privilegier i de konventioner som anges i 2 och 3 §§ lagen (1976:661) om immunitet och privilegier i vissa fall. Detta gäller även en sådan persons privattjänare."
   },
@@ -603,6 +653,7 @@
     "paragraf_rubrik": "Särskilda personkategorier",
     "paragraf_underrubrik": "Diplomater m.fl.",
     "paragraf": "5",
+    "kategori": "regel",
     "stycke": 2,
     "text": "En person som på grund av anknytning till en internationell organisation omfattas av bestämmelserna i 4 § lagen om immunitet och privilegier i vissa fall ska anses vara bosatt i Sverige endast i den mån det är förenligt med vad som följer av tillämplig stadga eller avtal som anges i bilagan till den lagen."
   },
@@ -616,6 +667,7 @@
     "paragraf_underrubrik": "Diplomater m.fl.",
     "paragraf": "5a",
     "referens": "Lag (2024:536)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Den som tillhör en främmande stats militära styrka eller ett Natohögkvarter, inklusive deras civila komponenter, och omfattas av 7, 8 eller 10 § lagen (1976:661) om immunitet och privilegier i vissa fall ska inte anses vara bosatt här i landet."
   },
@@ -629,6 +681,7 @@
     "paragraf_underrubrik": "Diplomater m.fl.",
     "paragraf": "5a",
     "referens": "Lag (2024:536)",
+    "kategori": "regel",
     "stycke": 2,
     "text": "Första stycket gäller inte den som är anställd av en utländsk organisation och ingår i den civila komponenten av en sådan militär styrka som avses i 10 § lagen om immunitet och privilegier i vissa fall, om han eller hon är svensk medborgare."
   },
@@ -642,6 +695,7 @@
     "paragraf_underrubrik": "Diplomater m.fl.",
     "paragraf": "5a",
     "referens": "Lag (2024:536)",
+    "kategori": "regel",
     "stycke": 3,
     "text": "Den som är anhörig till den som avses i första stycket eller är en sådan leverantör till styrkan som avses i 10 § lagen om immunitet och privilegier i vissa fall, ska anses vara bosatt i Sverige endast om han eller hon är svensk medborgare eller, utan att vara svensk medborgare, var bosatt här när han eller hon fick ställning som anhörig eller leverantör."
   },
@@ -654,6 +708,7 @@
     "paragraf_rubrik": "Särskilda personkategorier",
     "paragraf_underrubrik": "Biståndsarbetare m.fl.",
     "paragraf": "6",
+    "kategori": "regel",
     "stycke": 1,
     "text": "En i Sverige bosatt person som lämnar landet för arbete för arbetsgivarens räkning ska fortfarande anses vara bosatt här, om han eller hon är anställd av\n1. en svensk ideell organisation som bedriver biståndsverksamhet, eller\n2. ett svenskt trossamfund eller ett organ som är knutet till ett sådant samfund."
   },
@@ -666,6 +721,7 @@
     "paragraf_rubrik": "Särskilda personkategorier",
     "paragraf_underrubrik": "Biståndsarbetare m.fl.",
     "paragraf": "6",
+    "kategori": "regel",
     "stycke": 2,
     "text": "Första stycket gäller endast om utlandsvistelsen kan antas vara längst fem år."
   },
@@ -679,6 +735,7 @@
     "paragraf_underrubrik": "Utlandsstuderande m.fl.",
     "paragraf": "7",
     "referens": "Lag (2017:277)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "En i Sverige bosatt person som lämnar landet för att studera i ett annat land ska fortfarande anses vara bosatt här så länge han eller hon genomgår en studiestödsberättigande utbildning."
   },
@@ -692,6 +749,7 @@
     "paragraf_underrubrik": "Utlandsstuderande m.fl.",
     "paragraf": "7",
     "referens": "Lag (2017:277)",
+    "kategori": "regel",
     "stycke": 2,
     "text": "Den som kommer till Sverige för att studera ska inte anses vara bosatt här."
   },
@@ -704,6 +762,7 @@
     "paragraf_rubrik": "Särskilda personkategorier",
     "paragraf_underrubrik": "Familjemedlemmar",
     "paragraf": "8",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Det som föreskrivs om personer som avses i 4-7 §§ gäller även medföljande make samt barn som inte fyllt 18 år. Med make likställs den som utan att vara gift med den utsände lever tillsammans med denne, om de tidigare har varit gifta eller gemensamt har eller har haft barn."
   },
@@ -717,6 +776,7 @@
     "paragraf_underrubrik": "De bosättningsbaserade förmånerna",
     "paragraf": "9",
     "referens": "Lag (2018:1265)",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Den som är bosatt i Sverige är försäkrad för följande förmåner:"
   },
@@ -730,6 +790,7 @@
     "paragraf_underrubrik": "De bosättningsbaserade förmånerna",
     "paragraf": "9",
     "referens": "Lag (2018:1265)",
+    "kategori": "definition",
     "stycke": 2,
     "text": "Avdelning B Familjeförmåner\n1. föräldrapenning på lägstanivå\noch grundnivå, (11 och 12 kap.)\n2. barnbidrag, (15 och 16 kap.)\n3. underhållsstöd, (17-19 kap.)\n4. adoptionsbidrag, (21 kap.)\n5. omvårdnadsbidrag (22 kap.)"
   },
@@ -743,6 +804,7 @@
     "paragraf_underrubrik": "De bosättningsbaserade förmånerna",
     "paragraf": "9",
     "referens": "Lag (2018:1265)",
+    "kategori": "definition",
     "stycke": 3,
     "text": "Avdelning C Förmåner vid sjukdom eller arbetsskada\n6. sjukpenning i särskilda fall, (28 a kap.)\n7. rehabilitering, bidrag till arbetshjälpmedel, särskilt bidrag och rehabiliteringspenning i\nsärskilda fall, (29-31 a kap.)\n8. sjukersättning och aktivitetsersättning i form av\ngarantiersättning, (33 och 35-37 kap.)"
   },
@@ -756,6 +818,7 @@
     "paragraf_underrubrik": "De bosättningsbaserade förmånerna",
     "paragraf": "9",
     "referens": "Lag (2018:1265)",
+    "kategori": "definition",
     "stycke": 4,
     "text": "Avdelning D Särskilda förmåner vid funktionshinder\n9. merkostnadsersättning, (50 kap.)\n10. assistansersättning, (51 kap.)\n11. bilstöd, (52 kap.)"
   },
@@ -769,6 +832,7 @@
     "paragraf_underrubrik": "De bosättningsbaserade förmånerna",
     "paragraf": "9",
     "referens": "Lag (2018:1265)",
+    "kategori": "definition",
     "stycke": 5,
     "text": "Avdelning E Förmåner vid ålderdom\n12. garantipension, (55, 56, 65-67 och\n69-71 kap.)\n13. särskilt pensionstillägg, (73 kap.)\n14. äldreförsörjningsstöd, (74 kap.)"
   },
@@ -782,6 +846,7 @@
     "paragraf_underrubrik": "De bosättningsbaserade förmånerna",
     "paragraf": "9",
     "referens": "Lag (2018:1265)",
+    "kategori": "definition",
     "stycke": 6,
     "text": "Avdelning F Förmåner till efterlevande\n15. efterlevandestöd, (77, 79 och 85 kap.)\n16. garantipension till\nomställningspension, (77, 81 och 85 kap.)"
   },
@@ -795,6 +860,7 @@
     "paragraf_underrubrik": "De bosättningsbaserade förmånerna",
     "paragraf": "9",
     "referens": "Lag (2018:1265)",
+    "kategori": "definition",
     "stycke": 7,
     "text": "Avdelning G Bostadsstöd\n17. bostadsbidrag, (95-98 kap.)\n18. bostadstillägg, och (100-103 kap.)\n19. boendetillägg. (103 a-103 e kap.)"
   },
@@ -808,6 +874,7 @@
     "paragraf_underrubrik": "De bosättningsbaserade förmånerna",
     "paragraf": "10",
     "referens": "Lag (2011:1513)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "När det gäller förmåner till efterlevande enligt 9 § 15 och 16 är det den efterlevande som ska vara försäkrad för förmånerna."
   },
@@ -820,6 +887,7 @@
     "paragraf_rubrik": "Socialförsäkringsskyddet i samband med inflyttning till Sverige",
     "paragraf_underrubrik": "Vid anmälan om bosättning",
     "paragraf": "11",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Till den som bosätter sig i Sverige men inte är folkbokförd här får bosättningsbaserade förmåner inte lämnas för längre tid tillbaka än tre månader före den månad när anmälan om bosättningen gjordes till Försäkringskassan eller när Försäkringskassan på annat sätt fick kännedom om bosättningen."
   },
@@ -832,6 +900,7 @@
     "paragraf_rubrik": "Socialförsäkringsskyddet i samband med inflyttning till Sverige",
     "paragraf_underrubrik": "Vid anmälan om bosättning",
     "paragraf": "11",
+    "kategori": "beskrivning",
     "stycke": 2,
     "text": "Bestämmelser om anmälan om bosättning i Sverige finns i 110 kap. 43 §."
   },
@@ -845,6 +914,7 @@
     "paragraf_underrubrik": "När uppehållstillstånd behövs",
     "paragraf": "12",
     "referens": "Lag (2024:1221)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Till den som enligt utlänningslagen (2005:716) behöver ha uppehållstillstånd i Sverige får bosättningsbaserade förmåner lämnas tidigast från och med den dag då ett sådant tillstånd börjar gälla men inte för längre tid tillbaka än tre månader före det att tillståndet beviljades. Om det finns synnerliga skäl, får förmåner lämnas även om uppehållstillstånd inte har beviljats."
   },
@@ -858,6 +928,7 @@
     "paragraf_underrubrik": "När uppehållstillstånd behövs",
     "paragraf": "12",
     "referens": "Lag (2024:1221)",
+    "kategori": "regel",
     "stycke": 2,
     "text": "Till den som har beviljats ett tidsbegränsat uppehållstillstånd får bosättningsbaserade förmåner lämnas utan hinder av att tillståndet har upphört att gälla, om en ansökan om fortsatt uppehållstillstånd har kommit in till Migrationsverket innan det tidigare tillståndet har upphört att gälla och ansökan avser ett fortsatt tillstånd på samma grund eller på en sådan annan grund som enligt 5 kap. 18 § andra stycket 8 b, 5 b kap. 15 § andra stycket 3 eller 6 a kap. 4 § andra stycket 10 utlänningslagen kan beviljas efter inresan eller ett nytt tillstånd med stöd av någon bestämmelse i lagen (2017:353) om uppehållstillstånd för studerande på gymnasial nivå. Om ansökan avslås får förmåner lämnas till dess att utlänningens tidsfrist för frivillig avresa enligt 8 kap. 21 § första stycket utlänningslagen har löpt ut. Om avslagsbeslutet inte innehåller någon tidsfrist för frivillig avresa får förmåner lämnas till dess att beslutet har fått laga kraft."
   },
@@ -871,6 +942,7 @@
     "paragraf_underrubrik": "När uppehållstillstånd behövs",
     "paragraf": "12",
     "referens": "Lag (2024:1221)",
+    "kategori": "regel",
     "stycke": 3,
     "text": "Förmåner enligt första stycket lämnas inte för tid då bistånd enligt lagen (1994:137) om mottagande av asylsökande m.fl. har lämnats till den försäkrade, om förmånerna är av motsvarande karaktär."
   },
@@ -883,6 +955,7 @@
     "paragraf_rubrik": "Socialförsäkringsskyddet i samband med inflyttning till Sverige",
     "paragraf_underrubrik": "Förmåner vid utlandsvistelse",
     "paragraf": "13",
+    "kategori": "regel",
     "stycke": 1,
     "text": "För tid då en försäkrad inte vistas i ett land som ingår i Europeiska ekonomiska samarbetsområdet (EES) eller i Schweiz kan förmåner som grundas på bosättning lämnas endast i de fall som avses i 14 och 15 §§."
   },
@@ -896,6 +969,7 @@
     "paragraf_underrubrik": "Förmåner vid utlandsvistelse",
     "paragraf": "14",
     "referens": "Lag (2011:1513)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Förmåner får lämnas om utlandsvistelsen kan antas vara längst sex månader. Äldreförsörjningsstöd enligt 9 § 14 kan dock lämnas endast om utlandsvistelsen kan antas vara längst tre månader. Sjukpenning i särskilda fall enligt 9 § 6 och rehabiliteringspenning i särskilda fall enligt 9 § 7 får för tid då en försäkrad vistas utomlands lämnas endast om Försäkringskassan medger att den försäkrade reser till utlandet."
   },
@@ -909,6 +983,7 @@
     "paragraf_underrubrik": "Förmåner vid utlandsvistelse",
     "paragraf": "14",
     "referens": "Lag (2011:1513)",
+    "kategori": "definition",
     "stycke": 2,
     "text": "Förmåner enligt 9 § 8, 12, 13, 15 och 16 kan lämnas så länge den försäkrades bosättning i Sverige består."
   },
@@ -922,6 +997,7 @@
     "paragraf_underrubrik": "Förmåner vid utlandsvistelse",
     "paragraf": "15",
     "referens": "Lag (2011:1513)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Tidsbegränsningen och kravet på medgivande i 14 § första stycket gäller inte för sådana statsanställda och deras familjemedlemmar som avses i 4 och 8 §§."
   },
@@ -935,6 +1011,7 @@
     "paragraf_underrubrik": "Förmåner vid utlandsvistelse",
     "paragraf": "15",
     "referens": "Lag (2011:1513)",
+    "kategori": "regel",
     "stycke": 2,
     "text": "Tidsbegränsningen och kravet på medgivande gäller inte heller för familjeförmåner enligt 9 § 1-4 till biståndsarbetare m.fl.\noch studerande eller deras familjemedlemmar som avses i 6-8 §§."
   },
@@ -947,6 +1024,7 @@
     "paragraf_rubrik": "Socialförsäkringsskyddet i samband med inflyttning till Sverige",
     "paragraf_underrubrik": "Förmåner vid utlandsvistelse",
     "paragraf": "16",
+    "kategori": "beskrivning",
     "stycke": 1,
     "text": "I 110 kap. 45 § finns bestämmelser om när den försäkrade är skyldig att anmäla till Försäkringskassan att han eller hon lämnar Sverige."
   },
@@ -959,6 +1037,7 @@
     "paragraf_rubrik": "Socialförsäkringsskyddet i samband med inflyttning till Sverige",
     "paragraf_underrubrik": "Speciella försäkringssituationer",
     "paragraf": "17",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Regeringen eller den myndighet som regeringen bestämmer meddelar föreskrifter om i vilken utsträckning barn som är politiska flyktingar är försäkrade för underhållsstöd enligt 9 § 3 även om de inte är bosatta i Sverige."
   },
@@ -973,7 +1052,7 @@
     "paragraf": "17a",
     "referens": "lag (2019:646)",
     "stycke": 1,
-    "text": "Har upphävts genom"
+    "text": "Har upphävts genom lag (2019:646)"
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -985,6 +1064,7 @@
     "paragraf_underrubrik": "Speciella försäkringssituationer",
     "paragraf": "18",
     "referens": "Lag (2019:644)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Har rätten till en bosättningsbaserad förmån upphört med tillämpning av bestämmelserna om bosättning i 2-8 §§ eller bestämmelserna om utlandsvistelse i 13-15 §§, får förmånen efter ansökan hos den handläggande myndigheten fortsätta att lämnas om det med hänsyn till omständigheterna skulle framstå som uppenbart oskäligt att dra in förmånen."
   },
@@ -999,7 +1079,7 @@
     "paragraf": "18a",
     "referens": "lag (2019:646)",
     "stycke": 1,
-    "text": "Har upphävts genom"
+    "text": "Har upphävts genom lag (2019:646)"
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
@@ -1009,6 +1089,7 @@
     "kapitel_namn": "Arbetsbaserade förmåner",
     "paragraf_rubrik": "Innehåll",
     "paragraf": "1",
+    "kategori": "beskrivning",
     "stycke": 1,
     "text": "I detta kapitel finns bestämmelser om\n- arbete i Sverige i 2 §,\n- särskilda personkategorier i 3-5 §§,\n- de arbetsbaserade förmånerna i 6 och 7 §§,\n- försäkringstid i 8-12 §§,\n- socialförsäkringsskyddets tidsmässiga omfattning i samband med arbete i Sverige i 13 och 14 §§,\n- förmåner vid utlandsvistelse i 15-18 §§, och\n- speciella försäkringssituationer i 19-22 §§."
   },
@@ -1020,6 +1101,7 @@
     "kapitel_namn": "Arbetsbaserade förmåner",
     "paragraf_rubrik": "Arbete i Sverige",
     "paragraf": "2",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Vid tillämpning av bestämmelserna i denna balk avses med arbete i Sverige, om inget annat särskilt anges, förvärvsarbete i verksamhet här i landet."
   },
@@ -1031,6 +1113,7 @@
     "kapitel_namn": "Arbetsbaserade förmåner",
     "paragraf_rubrik": "Arbete i Sverige",
     "paragraf": "2",
+    "kategori": "definition",
     "stycke": 2,
     "text": "Om en fysisk person som bedriver näringsverksamhet har sådant fast driftställe i Sverige som avses i 2 kap. 29 § inkomstskattelagen (1999:1229) ska verksamhet som hänför sig till driftstället anses bedriven här i landet."
   },
@@ -1044,6 +1127,7 @@
     "paragraf_underrubrik": "Sjömän",
     "paragraf": "3",
     "paragraf_periodisering": "Upphör att gälla U:den dag regeringen bestämmer",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Arbete som sjöman på svenskt handelsfartyg ska anses som arbete i Sverige. Detta gäller även arbete som utförs\n1. i anställning på ett utländskt handelsfartyg som en svensk redare hyr i huvudsak obemannat, om anställningen sker hos redaren eller hos någon arbetsgivare som redaren har anlitat, eller\n2. i anställning hos ägaren till ett svenskt handelsfartyg eller hos någon arbetsgivare som anlitats av ägaren, om fartyget hyrs ut till en utländsk redare i huvudsak obemannat."
   },
@@ -1057,6 +1141,7 @@
     "paragraf_underrubrik": "Sjömän",
     "paragraf": "3",
     "paragraf_periodisering": "Upphör att gälla U:den dag regeringen bestämmer",
+    "kategori": "definition",
     "stycke": 2,
     "text": "Med sjöman avses den som enligt 3 § sjömanslagen (1973:282) ska anses som sjöman."
   },
@@ -1071,6 +1156,7 @@
     "paragraf": "3",
     "paragraf_periodisering": "Träder i kraft I:den dag regeringen bestämmer",
     "referens": "Lag (2012:98)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Arbete som sjöman på ett svenskt handelsfartyg ska anses som arbete i Sverige. Detta gäller även arbete som utförs\n1. i anställning på ett utländskt handelsfartyg som en svensk redare hyr i huvudsak obemannat, om anställningen sker hos redaren eller hos någon arbetsgivare som redaren har anlitat, eller\n2. i anställning hos ägaren till ett svenskt handelsfartyg eller hos någon arbetsgivare som anlitats av ägaren, om fartyget hyrs ut till en utländsk redare i huvudsak obemannat."
   },
@@ -1085,6 +1171,7 @@
     "paragraf": "3",
     "paragraf_periodisering": "Träder i kraft I:den dag regeringen bestämmer",
     "referens": "Lag (2012:98)",
+    "kategori": "regel",
     "stycke": 2,
     "text": "Arbete som sjöman på ett handelsfartyg från tredjeland ska också anses som arbete i Sverige, om sjömannen är bosatt i Sverige och fartyget inte uteslutande går i sådan inre fart som avses i 3 § sjömanslagen (1973:282)."
   },
@@ -1099,6 +1186,7 @@
     "paragraf": "3",
     "paragraf_periodisering": "Träder i kraft I:den dag regeringen bestämmer",
     "referens": "Lag (2012:98)",
+    "kategori": "regel",
     "stycke": 3,
     "text": "Andra stycket gäller inte fiskefartyg eller traditionsfartyg."
   },
@@ -1113,6 +1201,7 @@
     "paragraf": "3",
     "paragraf_periodisering": "Träder i kraft I:den dag regeringen bestämmer",
     "referens": "Lag (2012:98)",
+    "kategori": "definition",
     "stycke": 4,
     "text": "Med sjöman avses den som enligt 3 § sjömanslagen ska anses som sjöman."
   },
@@ -1125,6 +1214,7 @@
     "paragraf_rubrik": "Särskilda personkategorier",
     "paragraf_underrubrik": "Utsändning m.m.",
     "paragraf": "4",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Arbete utomlands för en arbetsgivare med verksamhet i Sverige ska anses som arbete här i landet, om arbetstagaren är utsänd av arbetsgivaren och arbetet kan antas vara längst ett år."
   },
@@ -1137,6 +1227,7 @@
     "paragraf_rubrik": "Särskilda personkategorier",
     "paragraf_underrubrik": "Utsändning m.m.",
     "paragraf": "4",
+    "kategori": "regel",
     "stycke": 2,
     "text": "När en utländsk arbetsgivare under motsvarande förhållande sänder någon till Sverige för arbete ska arbete i Sverige inte anses föreligga."
   },
@@ -1149,6 +1240,7 @@
     "paragraf_rubrik": "Särskilda personkategorier",
     "paragraf_underrubrik": "Utsändning m.m.",
     "paragraf": "4",
+    "kategori": "regel",
     "stycke": 3,
     "text": "I fall som anges i 5 kap. 4 § gäller första och andra styckena även om utsändningstiden kan antas vara längre än ett år."
   },
@@ -1162,6 +1254,7 @@
     "paragraf_underrubrik": "Diplomater m.fl.",
     "paragraf": "5",
     "referens": "Lag (2024:536)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Arbete som utförs av en person som tillhör en annan stats beskickning eller karriärkonsulat ska anses som arbete i Sverige endast om det är förenligt med bestämmelserna om immunitet och privilegier i de konventioner som anges i 2 och 3 §§ lagen (1976:661) om immunitet och privilegier i vissa fall. Detta gäller även en sådan persons privattjänare."
   },
@@ -1175,6 +1268,7 @@
     "paragraf_underrubrik": "Diplomater m.fl.",
     "paragraf": "5",
     "referens": "Lag (2024:536)",
+    "kategori": "regel",
     "stycke": 2,
     "text": "Ett sådant arbete som medför att en person på grund av anknytning till en internationell organisation omfattas av bestämmelserna i 4 § lagen om immunitet och privilegier i vissa fall ska anses som arbete i Sverige endast i den mån det är förenligt med vad som följer av tillämplig stadga eller avtal som anges i bilagan till den lagen."
   },
@@ -1188,6 +1282,7 @@
     "paragraf_underrubrik": "Diplomater m.fl.",
     "paragraf": "5",
     "referens": "Lag (2024:536)",
+    "kategori": "regel",
     "stycke": 3,
     "text": "Arbete som utförs av en person som tillhör en amerikansk styrka, en anhörig till en sådan person eller en leverantör till styrkan ska anses som arbete i Sverige endast om det är förenligt med avtalet den 5 december 2023 mellan Sverige och Amerikas förenta stater om försvarssamarbete."
   },
@@ -1201,6 +1296,7 @@
     "paragraf_underrubrik": "De arbetsbaserade förmånerna",
     "paragraf": "6",
     "referens": "Lag (2020:1239)",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Den som arbetar i Sverige är försäkrad för följande förmåner:"
   },
@@ -1214,6 +1310,7 @@
     "paragraf_underrubrik": "De arbetsbaserade förmånerna",
     "paragraf": "6",
     "referens": "Lag (2020:1239)",
+    "kategori": "definition",
     "stycke": 2,
     "text": "Avdelning B Familjeförmåner\n1. graviditetspenning, (10 kap.)\n2. föräldrapenning på grundnivå eller sjukpenningnivå och\ntillfällig föräldrapenning, (11-13 kap.)"
   },
@@ -1227,6 +1324,7 @@
     "paragraf_underrubrik": "De arbetsbaserade förmånerna",
     "paragraf": "6",
     "referens": "Lag (2020:1239)",
+    "kategori": "definition",
     "stycke": 3,
     "text": "Avdelning C Förmåner vid sjukdom eller arbetsskada\n3. sjukpenning, (24-28 kap.)\n4. rehabilitering, rehabiliteringsersättning och\nbidrag till arbetshjälpmedel, (29-31 kap.)\n5. inkomstrelaterad sjukersättning och inkomstrelaterad\naktivitetsersättning, (33, 34, 36 och 37 kap.)\n6. arbetsskadeersättning, (39-42 kap.)\n7. närståendepenning, (47 kap.)"
   },
@@ -1240,6 +1338,7 @@
     "paragraf_underrubrik": "De arbetsbaserade förmånerna",
     "paragraf": "6",
     "referens": "Lag (2020:1239)",
+    "kategori": "definition",
     "stycke": 4,
     "text": "Avdelning E Förmåner vid ålderdom\n8. inkomstgrundad ålderspension, (55-64 och 69-71 kap.)\n8 a. inkomstpensionstillägg, (74 a kap.)"
   },
@@ -1253,6 +1352,7 @@
     "paragraf_underrubrik": "De arbetsbaserade förmånerna",
     "paragraf": "6",
     "referens": "Lag (2020:1239)",
+    "kategori": "definition",
     "stycke": 5,
     "text": "Avdelning F Förmåner till efterlevande\n9. inkomstrelaterad\nefterlevandepension, (77, 78, 80 och 82-85\nkap.)\n10. efterlevandeförmåner från\narbetsskadeförsäkringen, och (87 och 88 kap.)\n11. efterlevandeskydd i form av\npremiepension. (89-92 kap.)"
   },
@@ -1265,6 +1365,7 @@
     "paragraf_rubrik": "Särskilda personkategorier",
     "paragraf_underrubrik": "De arbetsbaserade förmånerna",
     "paragraf": "7",
+    "kategori": "regel",
     "stycke": 1,
     "text": "När det gäller pensionsförmåner och skadeersättning till efterlevande enligt 6 § 9-11 är det den avlidne som ska ha varit försäkrad för förmånerna."
   },
@@ -1277,6 +1378,7 @@
     "paragraf_rubrik": "Försäkringstid",
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "paragraf": "8",
+    "kategori": "definition",
     "stycke": 1,
     "text": "För arbetstagare gäller försäkringen enligt 6 § från och med den första dagen av anställningstiden. För andra gäller försäkringen från och med den dag då arbetet har påbörjats."
   },
@@ -1289,6 +1391,7 @@
     "paragraf_rubrik": "Försäkringstid",
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "paragraf": "8",
+    "kategori": "regel",
     "stycke": 2,
     "text": "Försäkringen upphör att gälla tre månader, eller för sådana förmåner som anges i 6 § 5 ett år, efter den dag då arbetet har upphört av någon annan anledning än ledighet för semester, ferier eller motsvarande uppehåll (efterskyddstid).\nFörsäkringen upphör tidigare än som nu sagts om den enskilde börjar arbeta i ett annat land och omfattas av motsvarande försäkring i det landet eller om det finns andra särskilda skäl."
   },
@@ -1301,6 +1404,7 @@
     "paragraf_rubrik": "Försäkringstid",
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "paragraf": "9",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Om en förmån som avses i 6 § lämnas när försäkringen ska upphöra enligt 8 §, fortsätter försäkringen enligt 6 § att gälla under den tid för vilken förmånen lämnas."
   },
@@ -1314,6 +1418,7 @@
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "paragraf": "10",
     "referens": "Lag (2017:585)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Försäkringen enligt 6 § fortsätter att gälla efter efterskyddstiden enligt 8 § så länge bestämmelserna i 26 kap. 11-16 §§ om sjukpenninggrundande inkomst vid förvärvsavbrott (SGI-skyddad tid) är tillämpliga på personen."
   },
@@ -1326,6 +1431,7 @@
     "paragraf_rubrik": "Försäkringstid",
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "paragraf": "11",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Försäkringen för pensioner eller skadeersättningar som avses i 6 § 6 och 8-11 gäller när rätten till en förmån enligt de bestämmelser som anges där kan härledas från ett arbete i Sverige. Detsamma gäller försäkringen för föräldrapenning på grund- eller sjukpenningnivå enligt 6 § 2."
   },
@@ -1338,6 +1444,7 @@
     "paragraf_rubrik": "Försäkringstid",
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "paragraf": "11",
+    "kategori": "regel",
     "stycke": 2,
     "text": "Försäkringen för pensioner enligt första stycket gäller också när rätten till förmånen kan härledas från sådan ersättning som anges i 19 och 20 §§."
   },
@@ -1350,6 +1457,7 @@
     "paragraf_rubrik": "Försäkringstid",
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "paragraf": "12",
+    "kategori": "regel",
     "stycke": 1,
     "text": "För biståndsarbetare m.fl. enligt 5 kap. 6 § som till följd av utlandsarbete inte omfattas av den arbetsbaserade försäkringen och som efter utlandstjänstgöringens slut återvänder till Sverige ska efterskyddstiden börja löpa först efter återkomsten, om utlandstjänstgöringen varat längst fem år."
   },
@@ -1363,6 +1471,7 @@
     "paragraf_underrubrik": "Vid anmälan om arbete i Sverige",
     "paragraf": "13",
     "referens": "Lag (2020:1239)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Arbetsbaserade förmåner enligt 6 § 1-5 och 7-8 a får inte lämnas för längre tid tillbaka än tre månader före den månad då Försäkringskassan fick kännedom om arbetet."
   },
@@ -1376,6 +1485,7 @@
     "paragraf_underrubrik": "Vid anmälan om arbete i Sverige",
     "paragraf": "13",
     "referens": "Lag (2020:1239)",
+    "kategori": "beskrivning",
     "stycke": 2,
     "text": "Bestämmelser om anmälan om arbete för den som inte är bosatt i Sverige finns i 110 kap. 44 §."
   },
@@ -1388,6 +1498,7 @@
     "paragraf_rubrik": "Socialförsäkringsskyddets tidsmässiga omfattning i samband med arbete i Sverige",
     "paragraf_underrubrik": "När arbetstillstånd eller uppehållstillstånd behövs",
     "paragraf": "14",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Den som enligt utlänningslagen (2005:716) behöver ha arbetstillstånd i Sverige eller ett uppehållstillstånd med motsvarande verkan har inte rätt till arbetsbaserade förmåner förrän ett sådant tillstånd har beviljats. Ersättning får lämnas tidigast från och med den dag då tillståndet börjar gälla men inte för längre tid tillbaka än tre månader före det att tillståndet beviljades."
   },
@@ -1400,6 +1511,7 @@
     "paragraf_rubrik": "Socialförsäkringsskyddets tidsmässiga omfattning i samband med arbete i Sverige",
     "paragraf_underrubrik": "När arbetstillstånd eller uppehållstillstånd behövs",
     "paragraf": "14",
+    "kategori": "definition",
     "stycke": 2,
     "text": "Begränsningarna i första stycket gäller inte arbetsskadeersättning enligt 6 § 6 eller arbetsskadeersättning till efterlevande enligt 6 § 10."
   },
@@ -1412,6 +1524,7 @@
     "paragraf_rubrik": "Socialförsäkringsskyddets tidsmässiga omfattning i samband med arbete i Sverige",
     "paragraf_underrubrik": "Förmåner vid utlandsvistelse",
     "paragraf": "15",
+    "kategori": "regel",
     "stycke": 1,
     "text": "För tid då en försäkrad vistas utomlands kan förmåner vid sjukdom, graviditet, tillfällig vård av barn och rehabilitering enligt 6 § 1-4 lämnas endast\n- om ett ersättningsfall inträffar utomlands medan den försäkrade där utför sådant arbete som ska anses som arbete i Sverige, eller\n- om Försäkringskassan medger att den försäkrade reser till utlandet."
   },
@@ -1425,6 +1538,7 @@
     "paragraf_underrubrik": "Förmåner vid utlandsvistelse",
     "paragraf": "16",
     "referens": "Lag (2020:1239)",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Förmåner enligt 6 § 5, 6, 8 och 9-11 lämnas för tid då den försäkrade vistas utomlands så länge rätten till förmånen består. Detta gäller också i fråga om föräldrapenning på grund- eller sjukpenningnivå enligt 6 § 2,\n1. om barnet är bosatt i Sverige, eller\n2. om Försäkringskassan medger det, när ett barn hämtas i samband med adoption."
   },
@@ -1438,6 +1552,7 @@
     "paragraf_underrubrik": "Förmåner vid utlandsvistelse",
     "paragraf": "16",
     "referens": "Lag (2020:1239)",
+    "kategori": "definition",
     "stycke": 2,
     "text": "Första stycket första meningen gäller också i fråga om inkomstpensionstillägg enligt 6 § 8 a om den försäkrade anses vara bosatt i Sverige."
   },
@@ -1450,6 +1565,7 @@
     "paragraf_rubrik": "Socialförsäkringsskyddets tidsmässiga omfattning i samband med arbete i Sverige",
     "paragraf_underrubrik": "Förmåner vid utlandsvistelse",
     "paragraf": "17",
+    "kategori": "definition",
     "stycke": 1,
     "text": "När det gäller efterlevandeförmåner ska det som anges i 16 § om försäkrad gälla den försäkrades efterlevande."
   },
@@ -1462,6 +1578,7 @@
     "paragraf_rubrik": "Socialförsäkringsskyddets tidsmässiga omfattning i samband med arbete i Sverige",
     "paragraf_underrubrik": "Förmåner vid utlandsvistelse",
     "paragraf": "18",
+    "kategori": "beskrivning",
     "stycke": 1,
     "text": "I 110 kap. 45 § finns bestämmelser om när den försäkrade är skyldig att anmäla till Försäkringskassan att han eller hon lämnar Sverige."
   },
@@ -1474,6 +1591,7 @@
     "paragraf_rubrik": "Socialförsäkringsskyddets tidsmässiga omfattning i samband med arbete i Sverige",
     "paragraf_underrubrik": "Speciella försäkringssituationer",
     "paragraf": "19",
+    "kategori": "regel",
     "stycke": 1,
     "text": "En person som får inkomstrelaterad sjukersättning eller inkomstrelaterad aktivitetsersättning enligt 6 § 5 är försäkrad för inkomstgrundad ålderspension enligt 6 § 8 beräknad på denna ersättning."
   },
@@ -1488,6 +1606,7 @@
     "paragraf": "20",
     "paragraf_periodisering": "Upphör att gälla U:2025-10-01",
     "referens": "Lag (2018:1265)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Den som får någon av följande förmåner är försäkrad för inkomstrelaterad sjukersättning och inkomstrelaterad aktivitetsersättning enligt 6 § 5, inkomstgrundad ålderspension enligt 6 § 8 och inkomstrelaterad efterlevandeförmån enligt 6 § 9 och 11:\n1. omvårdnadsbidrag enligt 5 kap. 9 § 5,\n2. dagpenning från arbetslöshetskassa,\n3. aktivitetsstöd till den som deltar i ett arbetsmarknadspolitiskt program,\n4. ersättning till deltagare i teckenspråksutbildning för vissa föräldrar (TUFF),\n5. dagpenning till totalförsvarspliktiga som tjänstgör enligt lagen (1994:1809) om totalförsvarsplikt och till andra som får dagpenning enligt de grunder som gäller för totalförsvarspliktiga, och\n6. stipendium som enligt 11 kap. 46 § inkomstskattelagen (1999:1229) ska tas upp som intäkt i inkomstslaget tjänst."
   },
@@ -1502,6 +1621,7 @@
     "paragraf": "20",
     "paragraf_periodisering": "Träder i kraft I:2025-10-01",
     "referens": "Lag (2024:508)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Den som får någon av följande förmåner är försäkrad för inkomstrelaterad sjukersättning och inkomstrelaterad aktivitetsersättning enligt 6 § 5, inkomstgrundad ålderspension enligt 6 § 8 och inkomstrelaterad efterlevandeförmån enligt 6 § 9 och 11:\n1. omvårdnadsbidrag enligt 5 kap. 9 § 5,\n2. arbetslöshetsersättning enligt lagen (2024:506) om arbetslöshetsförsäkring,\n3. aktivitetsstöd till den som deltar i ett arbetsmarknadspolitiskt program,\n4. ersättning till deltagare i teckenspråksutbildning för vissa föräldrar (TUFF),\n5. dagpenning till totalförsvarspliktiga som tjänstgör enligt lagen (1994:1809) om totalförsvarsplikt och till andra som får dagpenning enligt de grunder som gäller för totalförsvarspliktiga, och\n6. stipendium som enligt 11 kap. 46 § inkomstskattelagen (1999:1229) ska tas upp som intäkt i inkomstslaget tjänst."
   },
@@ -1514,6 +1634,7 @@
     "paragraf_rubrik": "Socialförsäkringsskyddets tidsmässiga omfattning i samband med arbete i Sverige",
     "paragraf_underrubrik": "Speciella försäkringssituationer",
     "paragraf": "21",
+    "kategori": "beskrivning",
     "stycke": 1,
     "text": "När det gäller inkomstgrundad ålderspension enligt 6 § 8 finns i 60 kap. dessutom bestämmelser om beräkning av pensionsgrundande belopp för\n- plikttjänstgöring,\n- studier, och\n- vård av småbarn (barnår)."
   },
@@ -1526,6 +1647,7 @@
     "paragraf_rubrik": "Socialförsäkringsskyddets tidsmässiga omfattning i samband med arbete i Sverige",
     "paragraf_underrubrik": "Speciella försäkringssituationer",
     "paragraf": "22",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Den som genomgår utbildning som är förenad med särskild risk för arbetsskada är försäkrad för arbetsskadeersättning enligt 6 § 6 och 10."
   },
@@ -1538,6 +1660,7 @@
     "paragraf_rubrik": "Socialförsäkringsskyddets tidsmässiga omfattning i samband med arbete i Sverige",
     "paragraf_underrubrik": "Speciella försäkringssituationer",
     "paragraf": "22",
+    "kategori": "definition",
     "stycke": 2,
     "text": "Regeringen eller den myndighet som regeringen bestämmer meddelar ytterligare föreskrifter om försäkring enligt första stycket."
   },
@@ -1549,6 +1672,7 @@
     "kapitel_namn": "Övriga förmåner",
     "paragraf_rubrik": "Innehåll",
     "paragraf": "1",
+    "kategori": "beskrivning",
     "stycke": 1,
     "text": "I detta kapitel finns bestämmelser om\n- statligt personskadeskydd i 2-6 §§,\n- krigsskadeersättning till sjömän i 7-9 §§, och\n- smittbärarersättning i 10 §."
   },
@@ -1562,6 +1686,7 @@
     "paragraf_underrubrik": "Personkretsen",
     "paragraf": "2",
     "referens": "Lag (2010:1308)",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Försäkrad för statligt personskadeskydd enligt 43 kap. är\n1. den som tjänstgör enligt lagen (1994:1809) om totalförsvarsplikt, eller inställer sig till mönstring eller annan uttagning enligt den lagen eller genomgår militär utbildning inom Försvarsmakten som rekryt,\n2. den som medverkar i räddningstjänst eller i övning med en kommunal organisation för räddningstjänst enligt lagen (2003:778) om skydd mot olyckor, eller i räddningstjänst enligt 10 kap. 1 § andra stycket luftfartslagen (2010:500),\n3. den som är intagen för vård i kriminalvårdsanstalt, i ett hem som avses i 12 § lagen (1990:52) med särskilda bestämmelser om vård av unga eller i ett hem som avses i 22 § lagen (1988:870) om vård av missbrukare i vissa fall samt den som är häktad eller anhållen eller i annat fall intagen eller tagen i förvar i kriminalvårdsanstalt, häkte eller polisarrest,\n4. den som utför samhällstjänst på grund av en föreskrift som har meddelats med stöd av 27 kap. 2 a § eller 28 kap. 2 a § brottsbalken,\n5. den som utför ungdomstjänst enligt 32 kap. 2 § eller 3 § första stycket 1 brottsbalken, och\n6. den som utför oavlönat arbete enligt en föreskrift som har meddelats med stöd av 8 § första stycket 2 lagen (1994:451) om intensivövervakning med elektronisk kontroll."
   },
@@ -1574,6 +1699,7 @@
     "paragraf_rubrik": "Statligt personskadeskydd",
     "paragraf_underrubrik": "Personkretsen",
     "paragraf": "3",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Regeringen eller den myndighet som regeringen bestämmer meddelar föreskrifter om i vilka fall bestämmelserna i 43 kap. ska tillämpas även på den som, i annat fall än som avses i 2 §, frivilligt deltar i verksamhet inom totalförsvaret eller i verksamhet för att avvärja eller begränsa skada på människor eller egendom eller i miljön."
   },
@@ -1586,6 +1712,7 @@
     "paragraf_rubrik": "Statligt personskadeskydd",
     "paragraf_underrubrik": "Försäkringstider",
     "paragraf": "4",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Personskadeskyddet börjar gälla när den första resan påbörjas till sådan verksamhet eller intagning som avses i 2 § 1-3 och upphör när den sista resan från verksamheten eller intagningen avslutats."
   },
@@ -1598,6 +1725,7 @@
     "paragraf_rubrik": "Statligt personskadeskydd",
     "paragraf_underrubrik": "Försäkringstider",
     "paragraf": "4",
+    "kategori": "regel",
     "stycke": 2,
     "text": "Vid sådan verksamhet som avses i 2 § 4-6 börjar personskadeskyddet gälla när den dömde påbörjar resan till platsen för verksamheten och upphör när resan från platsen avslutats."
   },
@@ -1610,6 +1738,7 @@
     "paragraf_rubrik": "Statligt personskadeskydd",
     "paragraf_underrubrik": "Försäkringstider",
     "paragraf": "5",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Vistas någon under tid som avses i 4 § i något annat land än Sverige, Danmark utom Färöarna och Grönland, Finland eller Norge gäller personskadeskyddet endast om staten har ordnat eller bekostat resan."
   },
@@ -1622,6 +1751,7 @@
     "paragraf_rubrik": "Statligt personskadeskydd",
     "paragraf_underrubrik": "Försäkringstider",
     "paragraf": "6",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Bestämmelserna i 6 kap. 7 §, 11 § första stycket och 16 § om försäkring, försäkringstid och utlandsvistelse ska tillämpas även när det gäller personskadeersättning."
   },
@@ -1634,6 +1764,7 @@
     "paragraf_rubrik": "Krigsskadeersättning till sjömän",
     "paragraf_underrubrik": "Personkretsen",
     "paragraf": "7",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Försäkrad för krigsskadeersättning till sjömän enligt 44 kap. är den som vid en tjänstgöring på svenskt fartyg är försäkrad för arbetsskadeersättning enligt 6 kap. 6 § 6 och som anses som sjöman enligt sjömanslagen (1973:282) eller ändå följer med fartyget och utför arbete för fartygets räkning."
   },
@@ -1802,6 +1933,7 @@
     "paragraf_rubrik": "Rätten till graviditetspenning",
     "paragraf_underrubrik": "Nedsatt arbetsförmåga",
     "paragraf": "2",
+    "kategori": "regel",
     "stycke": 1,
     "text": "En försäkrad som är gravid har rätt till graviditetspenning,\n1. om graviditeten sätter ned hennes förmåga att utföra sitt förvärvsarbete med minst en fjärdedel, och\n2. hon inte kan omplaceras till annat mindre ansträngande arbete enligt 19 § föräldraledighetslagen (1995:584)."
   },
@@ -1814,6 +1946,7 @@
     "paragraf_rubrik": "Rätten till graviditetspenning",
     "paragraf_underrubrik": "Nedsatt arbetsförmåga",
     "paragraf": "2",
+    "kategori": "regel",
     "stycke": 2,
     "text": "Som förvärvsarbete ska inte betraktas sådant förvärvsarbete som den försäkrade utför under tid för vilken hon får sjukersättning enligt bestämmelserna i 37 kap. 3 §. Om det inte går att avgöra under vilken tid den försäkrade avstår från förvärvsarbete ska frånvaron i första hand anses som frånvaro från sådant förvärvsarbete som avses i 37 kap. 3 §."
   },
@@ -1826,6 +1959,7 @@
     "paragraf_rubrik": "Rätten till graviditetspenning",
     "paragraf_underrubrik": "Förbud mot förvärvsarbete",
     "paragraf": "3",
+    "kategori": "regel",
     "stycke": 1,
     "text": "En försäkrad som är gravid har rätt till graviditetspenning om hon\n1. inte får sysselsättas i sitt förvärvsarbete på grund av en föreskrift om förbud mot arbete under graviditeten, som har meddelats med stöd av 4 kap. 6 § arbetsmiljölagen (1977:1160), och\n2. inte kan omplaceras till annat arbete enligt 18 § föräldraledighetslagen (1995:584)."
   },
@@ -1838,6 +1972,7 @@
     "paragraf_rubrik": "Rätten till graviditetspenning",
     "paragraf_underrubrik": "Förbud mot förvärvsarbete",
     "paragraf": "3",
+    "kategori": "definition",
     "stycke": 2,
     "text": "Bestämmelserna i 2 § andra stycket tillämpas även i fall som avses i denna paragraf."
   },
@@ -1851,6 +1986,7 @@
     "paragraf_underrubrik": "Risker i arbetsmiljön",
     "paragraf": "3a",
     "referens": "Lag (2013:746)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "En gravid försäkrad som har inkomst av annat förvärvsarbete än anställning och som bedriver näringsverksamhet har rätt till graviditetspenning, om förvärvsarbetet innehåller någon risk för skadlig inverkan på hennes hälsa, graviditeten eller fostret."
   },
@@ -1864,6 +2000,7 @@
     "paragraf_underrubrik": "Risker i arbetsmiljön",
     "paragraf": "3a",
     "referens": "Lag (2013:746)",
+    "kategori": "definition",
     "stycke": 2,
     "text": "Bestämmelserna i 2 § andra stycket tillämpas även i fall som avses i denna paragraf."
   },
@@ -1876,6 +2013,7 @@
     "paragraf_rubrik": "Rätten till graviditetspenning",
     "paragraf_underrubrik": "Förmånsnivåer",
     "paragraf": "4",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Graviditetspenning lämnas som hel, tre fjärdedels, halv eller en fjärdedels förmån."
   },
@@ -1888,6 +2026,7 @@
     "paragraf_rubrik": "Rätten till graviditetspenning",
     "paragraf_underrubrik": "Samordning med andra förmåner",
     "paragraf": "5",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Graviditetspenning lämnas inte till den del den försäkrade för samma tid får\n- sjukpenning, eller\n- sjuklön eller sådan ersättning från Försäkringskassan som avses i 20 § lagen (1991:1047) om sjuklön."
   },
@@ -1900,6 +2039,7 @@
     "paragraf_rubrik": "Rätten till graviditetspenning",
     "paragraf_underrubrik": "Förmånstiden",
     "paragraf": "6",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Graviditetspenning vid nedsatt arbetsförmåga enligt 2 § lämnas för varje dag som nedsättningen består. Ersättningen lämnas dock tidigast från och med den sextionde dagen före den beräknade tidpunkten för barnets födelse."
   },
@@ -1912,6 +2052,7 @@
     "paragraf_rubrik": "Rätten till graviditetspenning",
     "paragraf_underrubrik": "Förmånstiden",
     "paragraf": "7",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Graviditetspenning vid förbud mot förvärvsarbete enligt 3 § lämnas för varje dag som förbudet gäller."
   },
@@ -1925,6 +2066,7 @@
     "paragraf_underrubrik": "Förmånstiden",
     "paragraf": "7a",
     "referens": "Lag (2013:746)",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Graviditetspenning enligt 3 a § lämnas för varje dag som kvinnan avstår från att utföra förvärvsarbetet."
   },
@@ -1937,6 +2079,7 @@
     "paragraf_rubrik": "Rätten till graviditetspenning",
     "paragraf_underrubrik": "Förmånstiden",
     "paragraf": "8",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Graviditetspenning lämnas längst till och med den elfte dagen före den beräknade tidpunkten för barnets födelse."
   },
@@ -1949,6 +2092,7 @@
     "paragraf_rubrik": "Rätten till graviditetspenning",
     "paragraf_underrubrik": "Förmånstiden",
     "paragraf": "9",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Graviditetspenning beviljas för en viss period."
   },
@@ -1962,6 +2106,7 @@
     "paragraf_underrubrik": "Beräkning av graviditetspenning, m.m.",
     "paragraf": "10",
     "referens": "Lag (2017:1305)",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Graviditetspenning beräknas enligt bestämmelserna om sjukpenning och sjukpenninggrundande inkomst i 25-28 kap., med de undantag som anges i 11 §."
   },
@@ -1975,6 +2120,7 @@
     "paragraf_underrubrik": "Beräkning av graviditetspenning, m.m.",
     "paragraf": "11",
     "referens": "Lag (2021:1240)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Det som i denna balk i övrigt eller i annan författning föreskrivs om sjukpenning enligt 25-28 kap. gäller i tillämpliga delar även i fråga om graviditetspenning, med undantag av bestämmelserna i\n- 25 kap. 5 § om bortseende från inkomst av anställning och annat förvärvsarbete överstigande 10,0 prisbasbelopp,\n- 27 kap. 5 § om ersättning för merutgifter,\n- 27 kap. 27 §, 27 a § och 28 b § första stycket om karensavdrag och karensdagar,\n- 27 kap. 29-33 a §§ om karenstid, och\n- 28 kap. 7 § 2 om beräkningsunderlag för sjukpenning på fortsättningsnivån."
   },
@@ -1988,6 +2134,7 @@
     "paragraf_underrubrik": "Beräkning av graviditetspenning, m.m.",
     "paragraf": "11",
     "referens": "Lag (2021:1240)",
+    "kategori": "regel",
     "stycke": 2,
     "text": "Vid beräkning av graviditetspenning ska det vid beräkningen av den sjukpenninggrundande inkomsten bortses från inkomst av anställning och annat förvärvsarbete till den del summan av dessa inkomster överstiger 7,5 prisbasbelopp. Det ska vid denna beräkning i första hand bortses från inkomst av annat förvärvsarbete."
   },
@@ -2001,6 +2148,7 @@
     "paragraf_underrubrik": "Beräkning av graviditetspenning, m.m.",
     "paragraf": "11",
     "referens": "Lag (2021:1240)",
+    "kategori": "definition",
     "stycke": 3,
     "text": "För hel graviditetspenning motsvarar ersättningsnivån beräkningsunderlaget för sjukpenning på normalnivån enligt 28 kap. 7 § 1 grundat på en sjukpenninggrundande inkomst beräknad enligt första och andra styckena."
   },
@@ -2012,6 +2160,7 @@
     "kapitel_namn": "Allmänna bestämmelser om föräldrapenningsförmåner",
     "paragraf_rubrik": "Innehåll",
     "paragraf": "1",
+    "kategori": "beskrivning",
     "stycke": 1,
     "text": "I detta kapitel finns inledande bestämmelser i 2-3 §§."
   },
@@ -2023,6 +2172,7 @@
     "kapitel_namn": "Allmänna bestämmelser om föräldrapenningsförmåner",
     "paragraf_rubrik": "Innehåll",
     "paragraf": "1",
+    "kategori": "beskrivning",
     "stycke": 2,
     "text": "Vidare finns bestämmelser om\n- föräldrabegreppet i 4-6 §§,\n- adoptionsbegreppet i 7 §,\n- rätten till föräldrapenningsförmåner i 8-13 §§,\n- samordning med andra förmåner i 14-16 §§, och\n- utbetalning till annan än förälder i 17 §."
   },
@@ -2035,6 +2185,7 @@
     "paragraf_rubrik": "Inledande bestämmelser",
     "paragraf": "2",
     "referens": "Lag (2010:2005)",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Föräldrapenningsförmåner lämnas i följande former:\n1. föräldrapenning för vård av barn med anledning av barns födelse eller vid adoption av barn (12 kap.), och\n2. tillfällig föräldrapenning i särskilda situationer när någon avstår från förvärvsarbete för att vårda barn eller i samband med att ett barn har avlidit (13 kap.)."
   },
@@ -2046,6 +2197,7 @@
     "kapitel_namn": "Allmänna bestämmelser om föräldrapenningsförmåner",
     "paragraf_rubrik": "Inledande bestämmelser",
     "paragraf": "3",
+    "kategori": "definition",
     "stycke": 1,
     "text": "I föräldraledighetslagen (1995:584) finns bestämmelser i vilka anges när en arbetstagare som får föräldrapenningsförmåner har rätt att vara ledig från sin anställning."
   },
@@ -2059,6 +2211,7 @@
     "paragraf_underrubrik": "Vem som likställs med förälder",
     "paragraf": "4",
     "referens": "Lag (2018:1952)",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Vid tillämpningen av bestämmelserna om föräldrapenningsförmåner likställs med en förälder följande personer:\n1. förälders make som stadigvarande sammanbor med föräldern,\n2. förälders sambo,\n3. särskilt förordnad vårdnadshavare som har vård om barnet, och\n4. blivande adoptivförälder."
   },
@@ -2072,6 +2225,7 @@
     "paragraf_underrubrik": "Utvidgning för föräldrapenning",
     "paragraf": "4a",
     "referens": "Lag (2023:905)",
+    "kategori": "definition",
     "stycke": 1,
     "text": "I fråga om föräldrapenning för en försäkrad som har fått rätt till sådan förmån genom överlåtelse enligt 12 kap. 17 a § likställs den försäkrade med en förälder."
   },
@@ -2085,6 +2239,7 @@
     "paragraf_underrubrik": "Utvidgning för tillfällig föräldrapenning",
     "paragraf": "5",
     "referens": "Lag (2018:1952)",
+    "kategori": "definition",
     "stycke": 1,
     "text": "När det gäller tillfällig föräldrapenning likställs med en förälder även familjehemsförälder."
   },
@@ -2098,6 +2253,7 @@
     "paragraf_underrubrik": "Utvidgning för tillfällig föräldrapenning",
     "paragraf": "5",
     "referens": "Lag (2018:1952)",
+    "kategori": "definition",
     "stycke": 2,
     "text": "Första stycket gäller inte i fall som avses i 13 kap. 8 och 9 §§."
   },
@@ -2110,6 +2266,7 @@
     "paragraf_rubrik": "Föräldrabegreppet",
     "paragraf_underrubrik": "Utvidgning för tillfällig föräldrapenning",
     "paragraf": "6",
+    "kategori": "definition",
     "stycke": 1,
     "text": "I fråga om tillfällig föräldrapenning för en försäkrad som har fått rätt till sådan förmån enligt 13 kap. 8, 9, 11 eller 31 a § likställs den försäkrade med en förälder."
   },
@@ -2122,6 +2279,7 @@
     "paragraf_rubrik": "Föräldrabegreppet",
     "paragraf_underrubrik": "Utvidgning för tillfällig föräldrapenning",
     "paragraf": "6",
+    "kategori": "regel",
     "stycke": 2,
     "text": "En försäkrad som enligt första stycket är likställd med en förälder får dock inte överlåta rätten till tillfällig föräldrapenning enligt 13 kap. 8 §. Inte heller får Försäkringskassan bevilja tillfällig föräldrapenning enligt 13 kap. 9 § på grundval av ett medgivande av en sådan försäkrad."
   },
@@ -2135,6 +2293,7 @@
     "paragraf_underrubrik": "Adoptionsbegreppet",
     "paragraf": "7",
     "referens": "Lag (2018:1290)",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Vid tillämpning av bestämmelserna om föräldrapenningsförmåner likställs med adoption att någon efter socialnämndens medgivande har tagit emot ett barn för stadigvarande vård och fostran i syfte att adoptera barnet."
   },
@@ -2148,6 +2307,7 @@
     "paragraf_underrubrik": "Adoptionsbegreppet",
     "paragraf": "7",
     "referens": "Lag (2018:1290)",
+    "kategori": "definition",
     "stycke": 2,
     "text": "Vid tillämpning av bestämmelserna om föräldrapenningsförmåner likställs den tidpunkt när den som adopterat ett barn har fått barnet i sin vård med tidpunkten för ett barns födelse, dock inte vid beräkning av barnets ålder."
   },
@@ -2161,6 +2321,7 @@
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "paragraf": "8",
     "referens": "Lag (2024:694)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "En förälder har rätt till föräldrapenningsförmåner endast för vård av barn som är bosatt i Sverige. Vid adoption ska barnet anses bosatt i Sverige om den blivande föräldern är bosatt här."
   },
@@ -2174,6 +2335,7 @@
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "paragraf": "8",
     "referens": "Lag (2024:694)",
+    "kategori": "regel",
     "stycke": 2,
     "text": "Trots det som anges i första stycket har en förälder rätt till föräldrapenningsförmåner för vård av barn som har beviljats uppehållstillstånd med tillfälligt skydd, eller uppehållstillstånd efter tillfälligt skydd, enligt 21 kap. 2, 3, 4 eller 6 § utlänningslagen (2005:716)."
   },
@@ -2186,6 +2348,7 @@
     "paragraf_rubrik": "Rätten till föräldrapenningsförmåner",
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "paragraf": "9",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Oavsett antalet barn kan en förälder inte få mer än sammanlagt hel föräldrapenning per dag."
   },
@@ -2199,6 +2362,7 @@
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "paragraf": "10",
     "referens": "Lag (2018:1628)",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Föräldrapenningsförmåner får inte lämnas till båda föräldrarna för samma barn och tid i annat fall än som anges i 12 kap. 4 a § och 5 a-7 §§ samt 13 kap. 10, 11, 13, 26 och 30 §§."
   },
@@ -2212,6 +2376,7 @@
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "paragraf": "10",
     "referens": "Lag (2018:1628)",
+    "kategori": "regel",
     "stycke": 2,
     "text": "Tillfällig föräldrapenning enligt 13 kap. 31 e § får lämnas till flera föräldrar för samma barn och tid."
   },
@@ -2225,6 +2390,7 @@
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "paragraf": "10",
     "referens": "Lag (2018:1628)",
+    "kategori": "definition",
     "stycke": 3,
     "text": "För tillfällig föräldrapenning gäller även 13 kap. 3 §."
   },
@@ -2237,6 +2403,7 @@
     "paragraf_rubrik": "Rätten till föräldrapenningsförmåner",
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "paragraf": "11",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Föräldrapenningsförmåner lämnas inte för dag då en förälder är semesterledig enligt semesterlagen (1977:480)."
   },
@@ -2250,6 +2417,7 @@
     "paragraf_underrubrik": "Anmälan till Försäkringskassan",
     "paragraf": "12",
     "referens": "Lag (2018:1628)",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Föräldrapenning får inte lämnas för tid innan anmälan gjorts till Försäkringskassan. Detta gäller dock inte om det har funnits hinder för en sådan anmälan eller det finns särskilda skäl för att föräldrapenning ändå bör lämnas."
   },
@@ -2262,6 +2430,7 @@
     "paragraf_rubrik": "Rätten till föräldrapenningsförmåner",
     "paragraf_underrubrik": "Arbetsgivarinträde m.m.",
     "paragraf": "13",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Bestämmelserna i 27 kap. 56-58 och 60 §§ om arbetsgivarinträde och konsulärt bistånd tillämpas även i fråga om föräldrapenningsförmåner."
   },
@@ -2274,6 +2443,7 @@
     "paragraf_rubrik": "Samordning med andra förmåner",
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "paragraf": "14",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Föräldrapenningsförmåner lämnas inte om en förälder för samma tid får någon av följande förmåner:\n1. sjuklön eller sådan ersättning från Försäkringskassan som avses i 20 § lagen (1991:1047) om sjuklön,\n2. sjukpenning, och\n3. ersättning som motsvarar sjukpenning enligt annan författning eller på grund av regeringens beslut i ett särskilt fall."
   },
@@ -2286,6 +2456,7 @@
     "paragraf_rubrik": "Samordning med andra förmåner",
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "paragraf": "14",
+    "kategori": "definition",
     "stycke": 2,
     "text": "Första stycket gäller även när föräldern får motsvarande förmån på grundval av utländsk lagstiftning."
   },
@@ -2298,6 +2469,7 @@
     "paragraf_rubrik": "Samordning med andra förmåner",
     "paragraf_underrubrik": "Föräldrapenning och motsvarande utländska förmåner",
     "paragraf": "15",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Föräldrapenning med anledning av ett barns födelse lämnas inte om det för samma barn och tid lämnas en motsvarande förmån enligt utländsk lagstiftning."
   },
@@ -2311,6 +2483,7 @@
     "paragraf_underrubrik": "Tillfällig föräldrapenning och omvårdnadsbidrag",
     "paragraf": "16",
     "referens": "Lag (2018:1265)",
+    "kategori": "definition",
     "stycke": 1,
     "text": "Tillfällig föräldrapenning lämnas inte för sådant behov av omvårdnad eller tillsyn av ett barn som har grundat rätt till omvårdnadsbidrag."
   },
@@ -2323,6 +2496,7 @@
     "paragraf_rubrik": "Samordning med andra förmåner",
     "paragraf_underrubrik": "Utbetalning till annan än förälder",
     "paragraf": "17",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Om en förälder som inte fyllt 18 år har rätt till en föräldrapenningsförmån, får Försäkringskassan på begäran av socialnämnden besluta att föräldrapenningen helt eller delvis ska betalas ut till någon annan person eller till nämnden att användas till förälderns och familjens nytta."
   },
@@ -2335,6 +2509,7 @@
     "paragraf_rubrik": "Innehåll",
     "paragraf": "1",
     "referens": "Lag (2023:905)",
+    "kategori": "beskrivning",
     "stycke": 1,
     "text": "I detta kapitel finns bestämmelser om\n- rätten till föräldrapenning i 2-11 §§,\n- förmånstiden i 12-13 §§,\n- vem som får föräldrapenningen i 14-17 c §§,\n- ersättningsnivåer i 18-24 §§,\n- beräkning av föräldrapenning på sjukpenningnivån i 25-31 §§,\n- beräkning av antalet dagar med rätt till föräldrapenning i 32-34 §§,\n- föräldrapenning för de första 180 dagarna i 35-38 §§,\n- föräldrapenning efter 180 dagar i 39-41 §§,\n- föräldrapenning för tid efter barnets fjärde levnadsår i 41 a-41 h §§, och\n- föräldrapenning vid flerbarnsfödsel i 42-46 §§."
   },
@@ -2347,6 +2522,7 @@
     "paragraf_rubrik": "Rätten till föräldrapenning",
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "paragraf": "2",
+    "kategori": "regel",
     "stycke": 1,
     "text": "Rätt till föräldrapenning har en försäkrad förälder som vårdar barn under tid när han eller hon inte förvärvsarbetar eller avstår från förvärvsarbete."
   },
@@ -2359,6 +2535,7 @@
     "paragraf_rubrik": "Rätten till föräldrapenning",
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "paragraf": "2",
+    "kategori": "definition",
     "stycke": 2,
     "text": "Föräldrapenning lämnas i de fall och under de närmare förutsättningar som anges i detta kapitel. Förmånen kan vara bosättningsbaserad enligt 5 kap. eller arbetsbaserad enligt 6 kap."
   },
