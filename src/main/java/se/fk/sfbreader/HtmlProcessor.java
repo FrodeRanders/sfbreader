@@ -19,8 +19,13 @@ import java.util.regex.Pattern;
 public class HtmlProcessor {
     private static final Logger log = LoggerFactory.getLogger(HtmlProcessor.class);
 
-    private static final Pattern AVDELNING_RE = Pattern.compile("^AVD\\.\\s+([A-Z])\\s+(.+)$");
-    private static final Pattern INLINE_AVDELNING_RE = Pattern.compile("^(?i)avdelning\\s+[A-ZÅÄÖ]\\s+.+$");
+    private static final Pattern AVDELNING_RE = Pattern.compile(
+            "^(?:AVD\\.|AVDELNING)\\s+([A-Z0-9IVX]+)\\.?\\s+(.+)$",
+            Pattern.CASE_INSENSITIVE
+    );
+    private static final Pattern INLINE_AVDELNING_RE = Pattern.compile(
+            "^(?i)avdelning\\s+[A-Z0-9IVX]+\\.?\\s+.+$"
+    );
     private static final Pattern UNDERAVDELNING_RE = Pattern.compile("^([IVX]+)\\s+([A-ZÅÄÖ].+)$"); // may always have two (2) spaces after roman numeral???
     private static final Pattern KAPITEL_RE = Pattern.compile("^(\\d+\\s*[a-z]?)\\s+kap\\.\\s+(.+)$");
     private static final Pattern PARAGRAF_RE = Pattern.compile("^(\\d+\\s*[a-z]?)\\s*§$");

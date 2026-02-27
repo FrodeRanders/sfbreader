@@ -15,7 +15,10 @@ import java.util.regex.Pattern;
 public class TextProcessor {
     private static final Logger log = LoggerFactory.getLogger(TextProcessor.class);
     private static final String WS = "[\\s\\u00A0]";
-    private static final Pattern AVDELNING_RE = Pattern.compile("^AVD\\." + WS + "+([A-Z])" + WS + "+(.+)$");
+    private static final Pattern AVDELNING_RE = Pattern.compile(
+            "^(?:AVD\\.|AVDELNING)" + WS + "+([A-Z0-9IVX]+)\\.?"+ WS + "+(.+)$",
+            Pattern.CASE_INSENSITIVE
+    );
     private static final Pattern UNDERAVDELNING_RE = Pattern.compile("^([IVX]+)" + WS + "{2,}(.+)$");
     private static final Pattern KAPITEL_RE = Pattern.compile("^(\\d+" + WS + "*[a-z]?)" + WS + "+kap\\." + WS + "+([A-ZÅÄÖ].+)$");
     private static final Pattern PARAGRAF_RE = Pattern.compile("^(\\d+" + WS + "*[a-z]?)" + WS + "*§(?!§)" + WS + "*(.*)$");
