@@ -55,6 +55,12 @@ public class Application {
                 .desc("Directory where output is produced")
                 .longOpt("directory")
                 .get());
+        options.addOption(Option.builder("o")
+                .required(false)
+                .hasArg()
+                .desc("Output JSON path (default: <input-file-dir>/output.json)")
+                .longOpt("output-json")
+                .get());
         options.addOption(Option.builder("s")
                 .required(false)
                 .hasArg()
@@ -172,16 +178,18 @@ public class Application {
                     commandLine.getOptionValue("periodisering-mode"),
                     commandLine.hasOption("strict-periodisering")
             );
+            Optional<Path> outputJsonPath = Optional.ofNullable(commandLine.getOptionValue("o"))
+                    .map(Path::of);
 
             //
-            process(inputFile, templates, directory, System.out, sourceMode, reconciliationOptions, effectiveDate, periodiseringMode);
+            process(inputFile, templates, directory, System.out, sourceMode, reconciliationOptions, effectiveDate, periodiseringMode, outputJsonPath);
         } catch (Throwable t) {
             log.error(t.getMessage(), t);
             t.printStackTrace(System.err);
         }
     }
 
-    private static void process(final Path inputFile, final Collection<Path> templates, final Path directory, final PrintStream out, final SourceMode sourceMode, final ReconciliationOptions reconciliationOptions, final Optional<LocalDate> effectiveDate, final PeriodiseringMode periodiseringMode) {
+    private static void process(final Path inputFile, final Collection<Path> templates, final Path directory, final PrintStream out, final SourceMode sourceMode, final ReconciliationOptions reconciliationOptions, final Optional<LocalDate> effectiveDate, final PeriodiseringMode periodiseringMode, final Optional<Path> outputJsonPath) {
         try {
             DocumentSources sourceStreams = DocumentSources.from(inputFile, StandardCharsets.UTF_8);
             String lagName = sourceStreams.title().orElse("Unknown law");
@@ -296,7 +304,12 @@ public class Application {
             }
 
             //
-            try (PrintWriter pw = new PrintWriter(Files.newBufferedWriter(inputFile.resolveSibling("output.json"), StandardCharsets.UTF_8))) {
+            Path jsonOut = outputJsonPath.orElseGet(() -> inputFile.resolveSibling("output.json"));
+            Path parent = jsonOut.toAbsolutePath().getParent();
+            if (parent != null) {
+                Files.createDirectories(parent);
+            }
+            try (PrintWriter pw = new PrintWriter(Files.newBufferedWriter(jsonOut, StandardCharsets.UTF_8))) {
                 lag.prepareForSerialization();
                 pw.write(gson.toJson(lag));
             }

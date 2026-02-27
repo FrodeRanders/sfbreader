@@ -89,6 +89,8 @@ public class TextProcessor {
                     sawRealChapter = true;
                     if (currentAvdelning != null) {
                         currentAvdelning.addKapitel(currentKapitel);
+                    } else {
+                        lag.addKapitel(currentKapitel);
                     }
                     if (currentUnderavdelning != null) {
                         currentKapitel.setAktuellUnderavdelning(currentUnderavdelning);
@@ -104,6 +106,8 @@ public class TextProcessor {
                     currentKapitel = new Overgang(line, !sawRealChapter);
                     if (currentAvdelning != null) {
                         currentAvdelning.addKapitel(currentKapitel);
+                    } else {
+                        lag.addKapitel(currentKapitel);
                     }
                     currentParagraf = null;
                     currentStycke = null;

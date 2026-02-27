@@ -356,6 +356,8 @@ public class HtmlProcessor {
 
                 if (!stack.empty() && stack.peek() instanceof Avdelning avdelning) {
                     avdelning.addKapitel(kapitel);
+                } else if (!stack.empty() && stack.peek() instanceof Lag lag) {
+                    lag.addKapitel(kapitel);
                 }
 
                 pushLayer("kapitel", stack, kapitel);

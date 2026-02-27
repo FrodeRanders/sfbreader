@@ -53,6 +53,11 @@ public class Lag implements Layer {
         avdelningar.add(a);
     }
 
+    public void addKapitel(Kapitel k) {
+        Objects.requireNonNull(k, "k");
+        kapitlen.add(k);
+    }
+
     public Collection<Avdelning> get() {
         return avdelningar;
     }
