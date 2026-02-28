@@ -1,11 +1,11 @@
 @prefix def:  <http://data.sfa.se/ontologi/lagrum/definition#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix eli: <http://data.europa.eu/eli/ontology#> .
-@prefix eu: <http://publications.europa.eu/resource/authority/subdivision/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix eli:  <http://data.europa.eu/eli/ontology#> .
+@prefix eu:   <http://publications.europa.eu/resource/authority/subdivision/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 
 #
 # Försäkringskassans ontologi for svensk lagtext.
@@ -47,10 +47,9 @@
 #     mellan eu:PRT och eu:CPT", så detta måste vara 'underavdelning'.
 #
 
-
 def: a owl:Ontology ;
-    rdfs:label "Forsakringskassans ontologi for svensk lagtext"@sv ;
-    rdfs:comment "Generell ontologi for svensk lagtext, profilerad med ELI och EU subdivision-koder."@sv .
+    rdfs:label "Forsakringskassans ontologi för svensk lagtext"@sv ;
+    rdfs:comment "Generell ontologi för svensk lagtext, profilerad med ELI och EU subdivision-koder för SKOS."@sv .
 
 
 def:Lag a owl:Class ;
@@ -67,45 +66,75 @@ def:StrukturellEnhet a owl:Class ;
 
 def:Avdelning a owl:Class ;
     rdfs:label "Avdelning"@sv ;
-    rdfs:subClassOf def:StrukturellEnhet ,
-        [ a owl:Restriction ; owl:onProperty def:subdivisionCode ; owl:hasValue eu:PRT ] .
+    rdfs:subClassOf
+          def:StrukturellEnhet,
+          [
+        a owl:Restriction ;
+        owl:onProperty def:subdivisionCode ;
+        owl:hasValue eu:PRT
+    ] .
 
 
 def:Underavdelning a owl:Class ;
     rdfs:label "Underavdelning"@sv ;
-    rdfs:comment "Niva mellan avdelning och kapitel (nar den finns)."@sv ;
-    rdfs:subClassOf def:StrukturellEnhet ,
-        [ a owl:Restriction ; owl:onProperty def:subdivisionCode ; owl:hasValue eu:TIS ] .
+    rdfs:comment "Nivå mellan avdelning och kapitel (nar den finns)."@sv ;
+    rdfs:subClassOf
+           def:StrukturellEnhet,
+           [
+         a owl:Restriction ;
+         owl:onProperty def:subdivisionCode ;
+         owl:hasValue eu:TIS
+     ] .
 
 
 def:Kapitel a owl:Class ;
     rdfs:label "Kapitel"@sv ;
-    rdfs:subClassOf def:StrukturellEnhet ,
-        [ a owl:Restriction ; owl:onProperty def:subdivisionCode ; owl:hasValue eu:CPT ] .
+    rdfs:subClassOf
+            def:StrukturellEnhet,
+            [
+          a owl:Restriction ;
+          owl:onProperty def:subdivisionCode ;
+          owl:hasValue eu:CPT
+      ] .
 
 
 def:Paragraf a owl:Class ;
     rdfs:label "Paragraf"@sv ;
-    rdfs:subClassOf def:StrukturellEnhet ,
-        [ a owl:Restriction ; owl:onProperty def:subdivisionCode ; owl:hasValue eu:ART ] .
+    rdfs:subClassOf
+         def:StrukturellEnhet,
+         [
+       a owl:Restriction ;
+       owl:onProperty def:subdivisionCode ;
+       owl:hasValue eu:ART
+    ] .
 
 
 def:Stycke a owl:Class ;
     rdfs:label "Stycke"@sv ;
-    rdfs:subClassOf def:StrukturellEnhet ,
-        [ a owl:Restriction ; owl:onProperty def:subdivisionCode ; owl:hasValue eu:PAR ] .
+    rdfs:subClassOf
+           def:StrukturellEnhet,
+           [
+         a owl:Restriction ;
+         owl:onProperty def:subdivisionCode ;
+         owl:hasValue eu:PAR
+     ] .
 
 
 def:Punkt a owl:Class ;
     rdfs:label "Punkt"@sv ;
-    rdfs:subClassOf def:StrukturellEnhet ,
-        [ a owl:Restriction ; owl:onProperty def:subdivisionCode ; owl:hasValue eu:SUB ] .
+    rdfs:subClassOf
+          def:StrukturellEnhet,
+          [
+        a owl:Restriction ;
+        owl:onProperty def:subdivisionCode ;
+        owl:hasValue eu:SUB
+    ] .
 
 
 # Klassificering mot EU-kodlistan (SKOS-koncept).
 def:subdivisionCode a owl:ObjectProperty ;
     rdfs:label "subdivision-kod"@sv ;
-    rdfs:comment "Kod i EU:s authority/subdivision for strukturell niva."@sv ;
+    rdfs:comment "Kod i EU:s authority/subdivision för strukturell nivå."@sv ;
     rdfs:domain def:StrukturellEnhet ;
     rdfs:range skos:Concept ;
     rdfs:subPropertyOf dct:type .
@@ -121,7 +150,7 @@ def:harAvdelning a owl:ObjectProperty ;
 
 
 def:ingarILag a owl:ObjectProperty ;
-    rdfs:label "ingar i lag"@sv ;
+    rdfs:label "ingår i lag"@sv ;
     rdfs:domain def:Avdelning ;
     rdfs:range def:Lag ;
     rdfs:subPropertyOf eli:is_part_of ;
@@ -136,7 +165,7 @@ def:harUnderavdelning a owl:ObjectProperty ;
 
 
 def:ingarIAvdelning a owl:ObjectProperty ;
-    rdfs:label "ingar i avdelning"@sv ;
+    rdfs:label "ingår i avdelning"@sv ;
     rdfs:domain def:Underavdelning ;
     rdfs:range def:Avdelning ;
     rdfs:subPropertyOf eli:is_part_of ;
@@ -151,7 +180,7 @@ def:harKapitel a owl:ObjectProperty ;
 
 
 def:ingarIAvdelningKapitel a owl:ObjectProperty ;
-    rdfs:label "kapitel ingar i avdelning"@sv ;
+    rdfs:label "kapitel ingår i avdelning"@sv ;
     rdfs:domain def:Kapitel ;
     rdfs:range def:Avdelning ;
     rdfs:subPropertyOf eli:is_part_of ;
@@ -160,14 +189,14 @@ def:ingarIAvdelningKapitel a owl:ObjectProperty ;
 
 def:harKapitelDirekt a owl:ObjectProperty ;
     rdfs:label "har kapitel direkt"@sv ;
-    rdfs:comment "For lagar dar kapitel ligger direkt under lag."@sv ;
+    rdfs:comment "För lagar där kapitel ligger direkt under lag."@sv ;
     rdfs:domain def:Lag ;
     rdfs:range def:Kapitel ;
     rdfs:subPropertyOf eli:has_part .
 
 
 def:ingarILagKapitel a owl:ObjectProperty ;
-    rdfs:label "kapitel ingar i lag"@sv ;
+    rdfs:label "kapitel ingår i lag"@sv ;
     rdfs:domain def:Kapitel ;
     rdfs:range def:Lag ;
     rdfs:subPropertyOf eli:is_part_of ;
@@ -182,7 +211,7 @@ def:harParagraf a owl:ObjectProperty ;
 
 
 def:ingarIKapitel a owl:ObjectProperty ;
-    rdfs:label "paragraf ingar i kapitel"@sv ;
+    rdfs:label "paragraf ingår i kapitel"@sv ;
     rdfs:domain def:Paragraf ;
     rdfs:range def:Kapitel ;
     rdfs:subPropertyOf eli:is_part_of ;
@@ -191,14 +220,14 @@ def:ingarIKapitel a owl:ObjectProperty ;
 
 def:harParagrafDirekt a owl:ObjectProperty ;
     rdfs:label "har paragraf direkt"@sv ;
-    rdfs:comment "For lagar dar paragrafer ligger direkt under lag."@sv ;
+    rdfs:comment "För lagar där paragrafer ligger direkt under lag."@sv ;
     rdfs:domain def:Lag ;
     rdfs:range def:Paragraf ;
     rdfs:subPropertyOf eli:has_part .
 
 
 def:ingarILagParagraf a owl:ObjectProperty ;
-    rdfs:label "paragraf ingar i lag"@sv ;
+    rdfs:label "paragraf ingår i lag"@sv ;
     rdfs:domain def:Paragraf ;
     rdfs:range def:Lag ;
     rdfs:subPropertyOf eli:is_part_of ;
@@ -213,7 +242,7 @@ def:harStycke a owl:ObjectProperty ;
 
 
 def:ingarIParagraf a owl:ObjectProperty ;
-    rdfs:label "stycke ingar i paragraf"@sv ;
+    rdfs:label "stycke ingår i paragraf"@sv ;
     rdfs:domain def:Stycke ;
     rdfs:range def:Paragraf ;
     rdfs:subPropertyOf eli:is_part_of ;
@@ -228,7 +257,7 @@ def:harPunkt a owl:ObjectProperty ;
 
 
 def:ingarIStycke a owl:ObjectProperty ;
-    rdfs:label "punkt ingar i stycke"@sv ;
+    rdfs:label "punkt ingår i stycke"@sv ;
     rdfs:domain def:Punkt ;
     rdfs:range def:Stycke ;
     rdfs:subPropertyOf eli:is_part_of ;
@@ -251,7 +280,7 @@ def:harText a owl:DatatypeProperty ;
 
 
 def:giltigFrom a owl:DatatypeProperty ;
-    rdfs:label "giltig from"@sv ;
+    rdfs:label "giltig från och med"@sv ;
     rdfs:domain def:StrukturellEnhet ;
     rdfs:range xsd:date ;
     rdfs:subPropertyOf eli:first_date_entry_in_force .
