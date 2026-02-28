@@ -121,8 +121,6 @@ def main() -> None:
     rel_har_stycke: List[Tuple[str, str]] = []
     rel_har_punkt: List[Tuple[str, str]] = []
 
-    saw_real_avdelning = False
-    saw_real_chapter = False
     used_synthetic_context = False
     processed_rows = 0
     skipped_rows = 0
@@ -139,12 +137,7 @@ def main() -> None:
             skipped_rows += 1
             continue
 
-        has_real_avd = bool(avd_raw)
         has_real_chapter = bool(kapitel)
-        if has_real_avd:
-            saw_real_avdelning = True
-        if has_real_chapter:
-            saw_real_chapter = True
 
         if not has_real_chapter and args.synthetic_context:
             kapitel = "0"
@@ -244,8 +237,6 @@ def main() -> None:
             chapter_dates[kap_res] = (s, e)
 
     lag_labels = ":Resurs:Lag"
-    if not saw_real_avdelning:
-        lag_labels += ":EnkelLag"
 
     lines: List[str] = []
     lines.append("// Generated from flat JSON by tools/flat_json_to_cypher.py")
@@ -253,18 +244,28 @@ def main() -> None:
     lines.append("")
     lines.append(
         f"MERGE (n{lag_labels} {{id: '{cypher_escape(lag_res)}'}}) "
-        f"SET n += {props_to_map({'label_sv': lag_label, 'uri': lag_res})};"
+        f"SET n += {props_to_map({'label_sv': lag_label, 'uri': lag_res, 'eliType': 'eli:LegalResource', 'subdivisionCode': 'eu:ACT'})};"
     )
     lines.append("")
 
     for avd_id, avd_res in sorted(avdelning_nodes.items()):
-        props = {"label_sv": f"Avdelning {avd_id}", "uri": avd_res}
+        props = {
+            "label_sv": f"Avdelning {avd_id}",
+            "uri": avd_res,
+            "eliType": "eli:LegalResourceSubdivision",
+            "subdivisionCode": "eu:PRT",
+        }
         if avd_id in avdelning_titles:
             props["harTitel"] = avdelning_titles[avd_id]
         lines.append(f"MERGE (n:Resurs:Avdelning {{id: '{cypher_escape(avd_res)}'}}) SET n += {props_to_map(props)};")
 
     for (avd_id, under_id), under_res in sorted(under_nodes.items()):
-        props = {"label_sv": f"Underavdelning {under_id}", "uri": under_res}
+        props = {
+            "label_sv": f"Underavdelning {under_id}",
+            "uri": under_res,
+            "eliType": "eli:LegalResourceSubdivision",
+            "subdivisionCode": "eu:TIS",
+        }
         if (avd_id, under_id) in under_titles:
             props["harTitel"] = under_titles[(avd_id, under_id)]
         lines.append(
@@ -272,7 +273,12 @@ def main() -> None:
         )
 
     for (marker, kap), kap_res in sorted(kapitel_nodes.items(), key=lambda kv: (kv[0][0], as_int(kv[0][1]), kv[0][1])):
-        props = {"label_sv": f"Kapitel {kap}", "uri": kap_res}
+        props = {
+            "label_sv": f"Kapitel {kap}",
+            "uri": kap_res,
+            "eliType": "eli:LegalResourceSubdivision",
+            "subdivisionCode": "eu:CPT",
+        }
         if (marker, kap) in kapitel_titles:
             props["namn"] = kapitel_titles[(marker, kap)]
         s, e = chapter_dates.get(kap_res, (None, None))
@@ -289,7 +295,12 @@ def main() -> None:
         return marker, c_num, p_num, p_suffix
 
     for _key, par_res in sorted(paragraf_nodes.items(), key=par_sort):
-        props = {"label_sv": paragraf_labels.get(par_res, "Paragraf"), "uri": par_res}
+        props = {
+            "label_sv": paragraf_labels.get(par_res, "Paragraf"),
+            "uri": par_res,
+            "eliType": "eli:LegalResourceSubdivision",
+            "subdivisionCode": "eu:ART",
+        }
         s, e = paragraph_dates.get(par_res, (None, None))
         if s:
             props["giltigFrom"] = s
@@ -298,11 +309,22 @@ def main() -> None:
         lines.append(f"MERGE (n:Resurs:Paragraf {{id: '{cypher_escape(par_res)}'}}) SET n += {props_to_map(props)};")
 
     for (_par, sty), sty_res in sorted(stycke_nodes.items(), key=lambda kv: (kv[0][0], as_int(kv[0][1]), kv[0][1])):
-        props = {"label_sv": f"Stycke {sty}", "uri": sty_res}
+        props = {
+            "label_sv": f"Stycke {sty}",
+            "uri": sty_res,
+            "eliType": "eli:LegalResourceSubdivision",
+            "subdivisionCode": "eu:PAR",
+        }
         lines.append(f"MERGE (n:Resurs:Stycke {{id: '{cypher_escape(sty_res)}'}}) SET n += {props_to_map(props)};")
 
     for (_sty, _), pkt_res in sorted(punkt_nodes.items(), key=lambda kv: kv[1]):
-        props = {"label_sv": "Textpunkt", "uri": pkt_res, "harText": point_text.get(pkt_res, "")}
+        props = {
+            "label_sv": "Textpunkt",
+            "uri": pkt_res,
+            "harText": point_text.get(pkt_res, ""),
+            "eliType": "eli:LegalResourceSubdivision",
+            "subdivisionCode": "eu:SUB",
+        }
         lines.append(f"MERGE (n:Resurs:Punkt {{id: '{cypher_escape(pkt_res)}'}}) SET n += {props_to_map(props)};")
 
     lines.append("")

@@ -110,14 +110,37 @@ Generera RDF/Turtle från flattenad JSON (instansdata enligt `def:`-ontologin):
 
 > tools/flat_json_to_ttl.py -i data/SFB-flat.json -o data/SFB-flat.ttl
 
-För enkla akter utan avdelning/kapitel länkas `Paragraf` direkt till `Lag` (nya direkta egenskaper i ontologin).
+För akter utan avdelning/kapitel länkas `Paragraf` direkt till `Lag` (direkta egenskaper i ontologin).
 Legacy-läge med syntetiskt kontextkapitel:
 
 > tools/flat_json_to_ttl.py -i data/FL-flat.json -o /tmp/FL-flat.ttl --synthetic-context
 
+### Ontologimodell (ELI + subdivision)
+
+Ontologin i `rdf/socialförsäkringsbalk.ttl` är nu profilerad enligt:
+
+- ELI som grundmodell för juridisk resurs och del-helhet:
+  - `def:Lag rdfs:subClassOf eli:LegalResource`
+  - `def:StrukturellEnhet rdfs:subClassOf eli:LegalResourceSubdivision`
+  - strukturrelationer är subproperties till `eli:has_part` / `eli:is_part_of`
+- EU:s kodlista `http://publications.europa.eu/resource/authority/subdivision/` för nivåklassificering:
+  - `def:subdivisionCode eu:PRT|TIS|CPT|ART|PAR|SUB`
+  - laginstanser markeras med `dct:type eu:ACT`
+
+Notera:
+
+- `skos:exactMatch` används inte längre för klassmappning i ontologin.
+- Uppdelningen `EnkelLag`/`KomplexLag` är borttagen; samma modell hanterar båda strukturtyperna via valfria nivåer.
+
 Generera motsvarande Cypher (samma nod-id/struktur som TTL-exporten):
 
 > tools/flat_json_to_cypher.py -i data/SFB-flat.json -o data/SFB-flat.cypher
+
+Cypher-exporten är synkad med samma begreppsmodell som TTL-exporten:
+- ingen `EnkelLag`/`KomplexLag`-klassificering
+- lagnoder får `subdivisionCode='eu:ACT'`
+- strukturenheter får `subdivisionCode` (`eu:PRT|TIS|CPT|ART|PAR|SUB`)
+- ELI-roll markeras i property `eliType` (`eli:LegalResource` / `eli:LegalResourceSubdivision`)
 
 Exempel på kapitel-lös akt med syntetiskt kontextkapitel (default):
 

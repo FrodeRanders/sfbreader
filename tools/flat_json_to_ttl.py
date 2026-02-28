@@ -124,8 +124,6 @@ def main() -> None:
     by_paragraf_stycke: Dict[str, Set[str]] = defaultdict(set)
     by_stycke_punkt: Dict[str, Set[str]] = defaultdict(set)
 
-    saw_real_avdelning = False
-    saw_real_chapter = False
     used_synthetic_context = False
     processed_rows = 0
     skipped_rows = 0
@@ -142,12 +140,7 @@ def main() -> None:
             skipped_rows += 1
             continue
 
-        has_real_avd = bool(avd_raw)
         has_real_chapter = bool(kapitel)
-        if has_real_avd:
-            saw_real_avdelning = True
-        if has_real_chapter:
-            saw_real_chapter = True
 
         if not has_real_chapter and args.synthetic_context:
             kapitel = "0"
@@ -243,12 +236,17 @@ def main() -> None:
                 end = k_period[1]
             chapter_dates[kap_res] = (start, end)
 
-    lag_type = "def:Lag"
-    if not saw_real_avdelning:
-        lag_type = "def:EnkelLag"
-
     triples: List[str] = []
-    triples.extend(emit_node(lag_res, lag_type, [f"rdfs:label {ttl_string(lag_label)}@sv"]))
+    triples.extend(
+        emit_node(
+            lag_res,
+            "def:Lag",
+            [
+                f"rdfs:label {ttl_string(lag_label)}@sv",
+                "dct:type eu:ACT",
+            ],
+        )
+    )
 
     for avd_id, avd_res in sorted(avdelning_nodes.items()):
         triples.append(f"{lag_res} def:harAvdelning {avd_res} .")
@@ -256,6 +254,7 @@ def main() -> None:
         preds = [f"rdfs:label {ttl_string(f'Avdelning {avd_id}')}@sv"]
         if avdelning_titles.get(avd_id):
             preds.append(f"def:harTitel {ttl_string(avdelning_titles[avd_id])}")
+        preds.append("def:subdivisionCode eu:PRT")
         triples.extend(emit_node(avd_res, "def:Avdelning", preds))
 
     for (avd_id, under_id), under_res in sorted(under_nodes.items()):
@@ -265,6 +264,7 @@ def main() -> None:
         preds = [f"rdfs:label {ttl_string(f'Underavdelning {under_id}')}@sv"]
         if under_titles.get((avd_id, under_id)):
             preds.append(f"def:harTitel {ttl_string(under_titles[(avd_id, under_id)])}")
+        preds.append("def:subdivisionCode eu:TIS")
         triples.extend(emit_node(under_res, "def:Underavdelning", preds))
 
     for (marker, kap), kap_res in sorted(kapitel_nodes.items(), key=lambda kv: (kv[0][0], as_int(kv[0][1]), kv[0][1])):
@@ -283,6 +283,7 @@ def main() -> None:
             preds.append(f"def:giltigFrom {ttl_string(start)}^^xsd:date")
         if end:
             preds.append(f"def:giltigTill {ttl_string(end)}^^xsd:date")
+        preds.append("def:subdivisionCode eu:CPT")
         triples.extend(emit_node(kap_res, "def:Kapitel", preds))
 
     def paragraph_sort(item: Tuple[Tuple[str, str, str, str], str]) -> Tuple[str, int, int, str]:
@@ -305,12 +306,22 @@ def main() -> None:
             preds.append(f"def:giltigFrom {ttl_string(start)}^^xsd:date")
         if end:
             preds.append(f"def:giltigTill {ttl_string(end)}^^xsd:date")
+        preds.append("def:subdivisionCode eu:ART")
         triples.extend(emit_node(par_res, "def:Paragraf", preds))
 
     for (par_res, sty), sty_res in sorted(stycke_nodes.items(), key=lambda kv: (kv[0][0], as_int(kv[0][1]), kv[0][1])):
         triples.append(f"{par_res} def:harStycke {sty_res} .")
         triples.append(f"{sty_res} def:ingårIParagraf {par_res} .")
-        triples.extend(emit_node(sty_res, "def:Stycke", [f"rdfs:label {ttl_string(f'Stycke {sty}')}@sv"]))
+        triples.extend(
+            emit_node(
+                sty_res,
+                "def:Stycke",
+                [
+                    f"rdfs:label {ttl_string(f'Stycke {sty}')}@sv",
+                    "def:subdivisionCode eu:PAR",
+                ],
+            )
+        )
 
     for (_sty_key, pkt_res) in sorted(punkt_nodes.items(), key=lambda kv: kv[1]):
         sty_res = _sty_key[0]
@@ -320,13 +331,19 @@ def main() -> None:
             emit_node(
                 pkt_res,
                 "def:Punkt",
-                [f"def:harText {ttl_string(point_text.get(pkt_res, ''))}", f"rdfs:label {ttl_string('Textpunkt')}@sv"],
+                [
+                    f"def:harText {ttl_string(point_text.get(pkt_res, ''))}",
+                    f"rdfs:label {ttl_string('Textpunkt')}@sv",
+                    "def:subdivisionCode eu:SUB",
+                ],
             )
         )
 
     prefixes = [
         f"@prefix def: <{args.definitions_prefix}> .",
         f"@prefix inst: <{args.instance_base}> .",
+        "@prefix dct: <http://purl.org/dc/terms/> .",
+        "@prefix eu: <http://publications.europa.eu/resource/authority/subdivision/> .",
         "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .",
         "@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .",
         "",
