@@ -1,4 +1,4 @@
-@prefix def: <http://fk.se/ontology/definitions#> .
+@prefix def:  <http://data.sfa.se/ontologi/lagrum/definition#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix eli: <http://data.europa.eu/eli/ontology#> .
 @prefix eu: <http://publications.europa.eu/resource/authority/subdivision/> .
@@ -7,13 +7,45 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-# Forsakringskassans ontologi for svensk lagtext.
+#
+# Försäkringskassans ontologi for svensk lagtext.
 #
 # Modellprincip:
-# - ELI utgor ryggraden for juridisk resurs och del-helhet-relationer.
-# - EU:s subdivision-kodlista anger klassificering av strukturell niva.
-# - Ingen uppdelning i EnkelLag/KomplexLag behovs; samma klass (def:Lag)
-#   med valfria mellanliggande nivaer fungerar for alla strukturvarianter.
+# - ELI utgör ryggraden för juridisk resurs och del-helhet-relationer.
+# - EU:s subdivision-kodlista anger klassificering av strukturell nivå.
+#
+# Nivåer enligt autority/subdivision
+# +======================================================================+
+# |      Nivå      | SKOS:Concept |  Svensk term  |    Engelsk term      |
+# +======================================================================+
+# |      Lag       |   eu:ACT     |     akt       |        act           |
+# +----------------+--------------+---------------+----------------------+
+# |   Avdelning    |   eu:PRT     |     del       |        part          |
+# +----------------+--------------+---------------+----------------------+
+# | Underavdelning |   eu:TIS     |   avdelning   |  title (subdivision) |
+# +----------------+--------------+---------------+----------------------+
+# |    Kapitel     |   eu:CPT     |    kapitel    |       chapter        |
+# +----------------+--------------+---------------+----------------------+
+# |   Paragraf     |   eu:ART     |    artikel    |       article        |
+# +----------------+--------------+---------------+----------------------+
+# |    Stycke      |   eu:PAR     |    punkt      |      paragraph       |
+# +----------------+--------------+---------------+----------------------+
+# |    Punkt       |   eu:SUB     |    stycke     |    subparagraph      |
+# +----------------+--------------+---------------+----------------------+
+# | (1), (2), ...  |   eu:PNT     |               |                      |
+# | (a), (b), ...  |   eu:PTA     |     led       |       point          |
+# | (i), (ii), ... |   eu:PTI     |               |                      |
+# +----------------+--------------+---------------+----------------------+
+#
+# Kommentar:
+#     Den engelska definitionen av eu:PAR svarar mot stycke medan den
+#     engelska definitionen av eu:SUB svarar mot punkt. Den svenska termen
+#     ser ut att vara omkastad, så vi utgår därför ifrån definitionen
+#     i stället för svensk term.
+#     Vi har en liknande situation för eu:PRT <-> eu:TIS, där den svenska
+#     termen är märklig. Definitionen av eu:TIS nämner att denna "faller
+#     mellan eu:PRT och eu:CPT", så detta måste vara 'underavdelning'.
+#
 
 
 def: a owl:Ontology ;

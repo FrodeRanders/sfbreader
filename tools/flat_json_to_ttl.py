@@ -18,7 +18,11 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("-i", "--input", required=True, help="Input flattened JSON file.")
     p.add_argument("-o", "--output", required=True, help="Output TTL file.")
     p.add_argument("--instance-base", default="http://fk.se/ontology/instances/", help="inst: base IRI")
-    p.add_argument("--definitions-prefix", default="http://fk.se/ontology/definitions#", help="def: base IRI")
+    p.add_argument(
+        "--definitions-prefix",
+        default="http://data.sfa.se/ontologi/lagrum/definition#",
+        help="def: base IRI",
+    )
     p.add_argument(
         "--synthetic-context",
         action="store_true",
