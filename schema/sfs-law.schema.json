@@ -1,0 +1,291 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schema/sfs-law.schema.json",
+  "title": "SFS digitaliserad lagtext (hierarkisk eller tillplattad)",
+  "description": "Validerar både hierarkisk och tillplattad representation av svensk lagtext.",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/hierarchicalLaw"
+    },
+    {
+      "$ref": "#/$defs/flatLaw"
+    }
+  ],
+  "$defs": {
+    "versionMeta": {
+      "type": "object",
+      "properties": {
+        "versionStatus": {
+          "type": ["string", "null"]
+        },
+        "periodisering": {
+          "type": ["string", "null"]
+        },
+        "versionDate": {
+          "type": ["string", "null"],
+          "format": "date"
+        },
+        "versionIdentity": {
+          "type": ["string", "null"]
+        },
+        "versionKind": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+    "labelledDivision": {
+      "type": "object",
+      "required": ["id", "namn"],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "namn": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "punkt": {
+      "type": "object",
+      "required": ["nummer", "id", "text"],
+      "properties": {
+        "nummer": {
+          "type": ["integer", "string"]
+        },
+        "id": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "stycke": {
+      "type": "object",
+      "required": ["nummer", "text", "punkt"],
+      "properties": {
+        "nummer": {
+          "type": ["integer", "string"]
+        },
+        "text": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          ]
+        },
+        "punkt": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/punkt"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "paragraf": {
+      "type": "object",
+      "required": ["nummer", "stycke", "referens"],
+      "properties": {
+        "nummer": {
+          "type": "string"
+        },
+        "rubrik": {
+          "type": ["string", "null"]
+        },
+        "underrubrik": {
+          "type": ["string", "null"]
+        },
+        "referens": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "stycke": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/stycke"
+          }
+        },
+        "versionStatus": {
+          "type": ["string", "null"]
+        },
+        "periodisering": {
+          "type": ["string", "null"]
+        },
+        "versionDate": {
+          "type": ["string", "null"],
+          "format": "date"
+        },
+        "versionIdentity": {
+          "type": ["string", "null"]
+        },
+        "versionKind": {
+          "type": ["string", "null"]
+        }
+      },
+      "additionalProperties": false
+    },
+    "kapitel": {
+      "type": "object",
+      "required": ["nummer", "namn", "synthetic", "paragraf"],
+      "properties": {
+        "nummer": {
+          "type": "string"
+        },
+        "namn": {
+          "type": "string"
+        },
+        "synthetic": {
+          "type": "boolean"
+        },
+        "avdelning": {
+          "$ref": "#/$defs/labelledDivision"
+        },
+        "underavdelning": {
+          "$ref": "#/$defs/labelledDivision"
+        },
+        "paragraf": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/paragraf"
+          }
+        },
+        "periodisering": {
+          "type": ["string", "null"]
+        },
+        "versionDate": {
+          "type": ["string", "null"],
+          "format": "date"
+        },
+        "versionIdentity": {
+          "type": ["string", "null"]
+        },
+        "versionKind": {
+          "type": ["string", "null"]
+        },
+        "versionStatus": {
+          "type": ["string", "null"]
+        }
+      },
+      "additionalProperties": false
+    },
+    "hierarchicalLaw": {
+      "type": "object",
+      "required": ["id", "namn", "paragraf", "kapitel"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[0-9]{4}:[0-9]+$"
+        },
+        "namn": {
+          "type": "string"
+        },
+        "paragraf": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/paragraf"
+          }
+        },
+        "kapitel": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/kapitel"
+          }
+        }
+      },
+      "allOf": [
+        {
+          "anyOf": [
+            {
+              "properties": {
+                "paragraf": {
+                  "minItems": 1
+                }
+              }
+            },
+            {
+              "properties": {
+                "kapitel": {
+                  "minItems": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "additionalProperties": false
+    },
+    "flatEntry": {
+      "type": "object",
+      "required": ["lag", "text", "paragraf", "stycke", "versionStatus"],
+      "properties": {
+        "lag": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "paragraf": {
+          "type": "string"
+        },
+        "stycke": {
+          "type": "integer"
+        },
+        "kapitel": {
+          "type": ["string", "null"]
+        },
+        "kapitel_namn": {
+          "type": ["string", "null"]
+        },
+        "avdelning": {
+          "type": ["string", "null"]
+        },
+        "underavdelning": {
+          "type": ["string", "null"]
+        },
+        "paragraf_rubrik": {
+          "type": ["string", "null"]
+        },
+        "paragraf_underrubrik": {
+          "type": ["string", "null"]
+        },
+        "paragraf_periodisering": {
+          "type": ["string", "null"]
+        },
+        "referens": {
+          "type": ["string", "null"]
+        },
+        "versionStatus": {
+          "type": "string"
+        },
+        "versionDate": {
+          "type": ["string", "null"],
+          "format": "date"
+        },
+        "versionIdentity": {
+          "type": ["string", "null"]
+        },
+        "versionKind": {
+          "type": ["string", "null"]
+        }
+      },
+      "additionalProperties": false
+    },
+    "flatLaw": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/flatEntry"
+      }
+    }
+  }
+}
