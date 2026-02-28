@@ -1,0 +1,181 @@
+Lag: Socialförsäkringsbalk (2010:110)
+
+ Avdelning: A ÖVERGRIPANDE BESTÄMMELSER
+
+
+  Underavdelning: II Socialförsäkringsskyddet
+
+   Kapitel: 5 Bosättningsbaserade förmåner
+
+
+-->    K5P9 Paragraf: 9 rubrik="Särskilda personkategorier" underrubrik="De bosättningsbaserade förmånerna"
+   (dessutom kaos bland punkterna)
+
+
+   Kapitel: 6 Arbetsbaserade förmåner
+
+
+--> K6P6 Paragraf: 6 rubrik="Särskilda personkategorier" underrubrik="De arbetsbaserade förmånerna"
+    (dessutom kaos bland punkterna)
+    
+    
+
+   Kapitel: 7 Övriga förmåner
+
+    K7P7 Paragraf: 7 rubrik="Krigsskadeersättning till sjömän" underrubrik="Personkretsen"
+    (underrubriken är "konstig")
+    
+ --> K7P10 Paragraf: 10 rubrik="Krigsskadeersättning till sjömän" underrubrik="Smittbärarersättning"
+
+ Avdelning: B FAMILJEFÖRMÅNER
+
+  Underavdelning: II Graviditetspenning och föräldrapenningsförmåner
+
+   Kapitel: 10 Graviditetspenning
+
+--> K10P10 Paragraf: 10 rubrik="Rätten till graviditetspenning" underrubrik="Beräkning av graviditetspenning, m.m."
+
+
+ Avdelning: C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA
+
+  Underavdelning: II Sjukpenning m.m.
+
+   Kapitel: 27 Allmänna bestämmelser om sjukpenning
+
+--> K27P46 Paragraf: 46 rubrik="Förmånstiden" underrubrik="Grundläggande bestämmelse"
+<h4 name="XXX"><a name="XXX">XXX</a></h4>
+
+ Avdelning: E FÖRMÅNER VID ÅLDERDOM
+
+  Underavdelning: II Övergripande bestämmelser om allmän ålderspension
+
+   Kapitel: 55 Allmänna bestämmelser om allmän ålderspension
+
+--> K55P8 Paragraf: 8 rubrik="Inkomstgrundad ålderspension" underrubrik="Garantipension"
+    (huvudrubrik: Garantipension, underrubrik:Vad är garantipension?)
+    
+  Underavdelning: III Inkomstgrundad ålderspension
+
+   Kapitel: 59 Pensionsgrundande inkomst
+
+    K59P1 Paragraf: 1
+
+--> K59P2 Paragraf: 2
+    (huvudrubrik: Allmänna bestämmelser om pensionsgrundande inkomst, underrubrik: Vad är pensionsgrundande inkomst?)
+
+
+   Kapitel: 60 Pensionsgrundande belopp
+
+    K60P1 Paragraf: 1
+
+--> K60P2 Paragraf: 2
+    (huvudrubrik: Inledande bestämmelser, underrubrik: Vad är pensionsgrundande belopp?)
+
+--> K60P7 Paragraf: 7
+    (huvudrubrik: Pensionsgrundande belopp för sjukersättning eller aktivitetsersättning, underrubrik: Vem får tillgodoräknas pensionsgrundande belopp?)
+
+--> K60P17 Paragraf: 17
+    (huvudrubrik: Pensionsgrundande belopp för plikttjänstgöring, underrubrik: Vem får tillgodoräknas pensionsgrundande belopp?)
+
+    K60P18 Paragraf: 18
+
+    K60P18 Paragraf: 18
+
+--> K60P19 Paragraf: 19
+    (huvudrubrik: Pensionsgrundande belopp för studier, underrubrik: Vem får tillgodoräknas pensionsgrundande belopp?)
+
+--> K60P21 Paragraf: 21
+    (huvudrubrik: Pensionsgrundande belopp för barnår, underrubrik: Vem får tillgodoräknas pensionsgrundande belopp?)
+
+   Kapitel: 61 Pensionsrätt och pensionspoäng
+
+--> K61P2 Paragraf: 2
+    (huvudrubrik: Inledande bestämmelser, underrubrik: Vad är pensionsrätt?)
+
+
+   Kapitel: 62 Inkomstpension
+
+    K62P15 Paragraf: 15 rubrik="Allmänna bestämmelser om pensionsbehållning" underrubrik="Arvsvinstfaktorer vid dödsfall efter 16 års ålder men minst fem år före riktåldern för pension"
+??? Periodisering på rubriker ????
+
+
+
+--> K62P20 Paragraf: 20 rubrik="Omräkning med hänsyn till inkomstindex" underrubrik="Allmänna bestämmelser"
+    (underrubriken fel: I vilken ordning skall omräkning ske?)
+    
+--> K62P21 Paragraf: 21 rubrik="Omräkning med hänsyn till inkomstindex" underrubrik="Omräkning vid uttag av pension"
+    (underrubriken fel: Omräkning vid uttag av pension)
+
+<h4 name="XXX"><a name="XXX">XXX</a></h4>
+    
+??? periodisering på rubriknivå???
+
+    K62P44 Paragraf: 44 rubrik="Omräkning av inkomstpension" underrubrik="Omräkning vid uppnådd riktålder för pension vid tidigt uttag"
+
+ Avdelning: F FÖRMÅNER TILL EFTERLEVANDE
+
+
+  Underavdelning: II Efterlevandepension och efterlevandestöd
+
+   Kapitel: 82 Beräkningsunderlag för inkomstgrundad efterlevandepension
+
+??? Periodisering av rubrik !!!
+
+    K82P9 Paragraf: 9 rubrik="Pensionsbehållning efter avlidna som var födda 1938 eller senare och som avlidit före uppnådd riktålder för pension" underrubrik="Beräkning av faktisk pensionsbehållning"
+
+
+
+  Underavdelning: III Efterlevandeförmåner från arbetsskadeförsäkringen m.m.
+
+   Kapitel: 87 Allmänna bestämmelser om arbetsskadeersättning m.m.
+--> !!! delar av kapiteltext har blivit rubrik: "vid dödsfall" !!!
+   
+
+ Avdelning: G BOSTADSSTÖD
+
+  Underavdelning: II Bostadsbidrag
+
+   Kapitel: 96 Rätten till bostadsbidrag
+
+    K96P1 Paragraf: 1
+
+--> K96P1 Paragraf: 1
+    ??? Periodisering ???
+    
+
+   Kapitel: 97 Beräkning av bostadsbidrag
+
+    K97P1 Paragraf: 1
+
+--> K97P1 Paragraf: 1
+    ??? Periodisering ???
+
+--> K97P23a Paragraf: 23a rubrik="Beräkning av bostadsbidrag till barnfamiljer" underrubrik="Umgängesbidrag"
+    (Underavdelning är konstig: Tilläggsbidrag till barnfamiljer)
+
+ Avdelning: H VISSA GEMENSAMMA BESTÄMMELSER
+
+  Underavdelning: II Gemensamma bestämmelser om förmåner m.m.
+
+   Kapitel: 108 Återkrav och ränta
+
+--> K108P14a Paragraf: 14a rubrik="Eftergift" underrubrik="Sjukersättning och bostadsbidrag"
+    (underrubrik fel: Verkställighet m.m. av beslut om återkrav)
+    ??? Periodisering av rubrik ???
+
+<h4 name="XXX"><a name="XXX">XXX</a></h4>
+
+??? Massa periodisering, bl.a. av rubrik ???
+
+  Underavdelning: III Gemensamma bestämmelser om handläggning m.m.
+
+   Kapitel: 110 Handläggning av ärenden
+
+--> K110P38 Paragraf: 38 rubrik="Uppgiftsskyldighet för andra än parter" underrubrik="Kommunal nämnd"
+    (underrubrik fel: Bevisupptagning rörande arbetsskada m.m. vid allmän domstol)
+    
+
+
+  Underavdelning: IV Vissa organisatoriska bestämmelser
+
+??? Ändringar och övergångsbestämmelser

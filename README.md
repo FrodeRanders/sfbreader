@@ -1,4 +1,4 @@
-# sfbreader
+# sfsreader
 
 Försök till "digitalisering" av Socialförsäkringsbalken (extrakt av text med struktur).
 Det finns ett syskon-projekt [sfbanalys](https://github.com/FrodeRanders/sfbanalys), som kanske kan vara av intresse.
@@ -10,22 +10,22 @@ Det är ett iterativt arbete att lyckas gå från text (eller i förekommande fa
 
 > curl -o sfs-2010-110.html https://data.riksdagen.se/dokument/sfs-2010-110.html
 
-> java -jar target/sfbreader-1.0-SNAPSHOT.jar -t template/sfs.stg -- sfs-2010-110.html
+> java -jar target/sfsreader-1.0-SNAPSHOT.jar -t template/sfs.stg -- sfs-2010-110.html
 
 För XML-källa (`dokumentstatus`) med både `<text>` och `<html>`:
 
-> java -jar target/sfbreader-1.0-SNAPSHOT.jar -t template/sfs.stg -- data/sfs-2010-110.txt.xml
+> java -jar target/sfsreader-1.0-SNAPSHOT.jar -t template/sfs.stg -- data/sfs-2010-110.txt.xml
 
 Val av källa:
 
-> java -jar target/sfbreader-1.0-SNAPSHOT.jar -s hybrid -t template/sfs.stg -- data/sfs-2010-110.txt.xml
+> java -jar target/sfsreader-1.0-SNAPSHOT.jar -s hybrid -t template/sfs.stg -- data/sfs-2010-110.txt.xml
 
 `-s|--source-mode` accepterar `html`, `text` eller `hybrid` (default).
 `-t|--template` är nu valfri: om den utelämnas produceras ingen LaTeX-utskrift, men `output.json` och övriga analysfiler skrivs fortfarande.
 
 Välj rättslig "giltighetsdag" (filter för aktiva variant-paragrafer med `U:`/`I:`):
 
-> java -jar target/sfbreader-1.0-SNAPSHOT.jar -e 2028-07-01 -t template/sfs.stg -- data/sfs-2010-110.txt.xml
+> java -jar target/sfsreader-1.0-SNAPSHOT.jar -e 2028-07-01 -t template/sfs.stg -- data/sfs-2010-110.txt.xml
 
 `-e|--effective-date` accepterar `YYYY-MM-DD`.
 Det skapas även `effective-date-report.json` med urvalsstatistik.
@@ -33,14 +33,14 @@ Dessutom skapas `periodisering-schedule.json` med daterade övergångar och näs
 
 Validera periodiseringsmarkörer strikt:
 
-> java -jar target/sfbreader-1.0-SNAPSHOT.jar --strict-periodisering -t template/sfs.stg -- data/sfs-2010-110.txt.xml
+> java -jar target/sfsreader-1.0-SNAPSHOT.jar --strict-periodisering -t template/sfs.stg -- data/sfs-2010-110.txt.xml
 
 `--strict-periodisering` returnerar non-zero om ogiltiga/olösta markörer finns efter parsning/filtering.
 Detaljer skrivs till `periodisering-validation.json`.
 
 Alternativt kan läget sättas explicit:
 
-> java -jar target/sfbreader-1.0-SNAPSHOT.jar --periodisering-mode strict -t template/sfs.stg -- data/sfs-2010-110.txt.xml
+> java -jar target/sfsreader-1.0-SNAPSHOT.jar --periodisering-mode strict -t template/sfs.stg -- data/sfs-2010-110.txt.xml
 
 `--periodisering-mode` accepterar `strict`, `lenient` (default) eller `off`.
 `--strict-periodisering` finns kvar för bakåtkompatibilitet och motsvarar `--periodisering-mode strict`.
@@ -52,7 +52,7 @@ Vid `hybrid` skrivs även:
 
 Baseline och CI-gating:
 
-> java -jar target/sfbreader-1.0-SNAPSHOT.jar -s hybrid -b data/reconciliation-baseline.txt -f -t template/sfs.stg -- data/sfs-2010-110.txt.xml
+> java -jar target/sfsreader-1.0-SNAPSHOT.jar -s hybrid -b data/reconciliation-baseline.txt -f -t template/sfs.stg -- data/sfs-2010-110.txt.xml
 
 - `-b|--reconciliation-baseline` läser allowlist-nycklar (en per rad)
 - `-f|--fail-on-new-high` returnerar non-zero om nya HIGH-fynd finns utanför baseline
@@ -101,7 +101,7 @@ Skriptet gör nu även en separat regressionskontroll för:
   - `data/periodisering-unresolved-baseline.txt`
   - `data/periodisering-invalid-baseline.txt`
 
-Notera: om periodiseringsmarkörer (`/Upphör att gälla U:.../`, `/Träder i kraft I:.../`) blir kvar inne i paragraftext efter parsning, loggas varningar i `sfbreader.log`.
+Notera: om periodiseringsmarkörer (`/Upphör att gälla U:.../`, `/Träder i kraft I:.../`) blir kvar inne i paragraftext efter parsning, loggas varningar i `sfsreader.log`.
 Varje paragrafvariant får även explicit versionsmetadata i `output.json`:
 `versionStatus`, `versionKind`, `versionDate`, `versionIdentity`.
 För lagar utan avdelning/kapitel (t.ex. med `P...`-ankare) exporteras paragrafnivå utan syntetiska `kapitel`-noder i `output.json`.

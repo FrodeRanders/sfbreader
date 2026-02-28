@@ -11,7 +11,7 @@ echo "[1/4] Running unit tests..."
 echo "[2/4] Running reconciliation + baseline checks..."
 "${ROOT_DIR}/tools/check_reconciliation.sh" "${INPUT_PATH}" \
   "${ROOT_DIR}/data/reconciliation-baseline.txt" \
-  "/tmp/sfbreader-check-all" \
+  "/tmp/sfsreader-check-all" \
   "${ROOT_DIR}/data/periodisering-mismatch-baseline.txt" \
   "${ROOT_DIR}/data/periodisering-unresolved-baseline.txt" \
   "${ROOT_DIR}/data/periodisering-invalid-baseline.txt" \

@@ -2,10 +2,10 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-JAR_PATH="${ROOT_DIR}/target/sfbreader-1.0-SNAPSHOT.jar"
+JAR_PATH="${ROOT_DIR}/target/sfsreader-1.0-SNAPSHOT.jar"
 INPUT_PATH="${1:-${ROOT_DIR}/data/sfs-2010-110.txt.xml}"
 BASELINE_PATH="${2:-${ROOT_DIR}/data/reconciliation-baseline.txt}"
-OUT_DIR="${3:-/tmp/sfbreader-hybrid-check}"
+OUT_DIR="${3:-/tmp/sfsreader-hybrid-check}"
 PERIODISERING_BASELINE_PATH="${4:-${ROOT_DIR}/data/periodisering-mismatch-baseline.txt}"
 PERIODISERING_UNRESOLVED_BASELINE_PATH="${5:-${ROOT_DIR}/data/periodisering-unresolved-baseline.txt}"
 PERIODISERING_INVALID_BASELINE_PATH="${6:-${ROOT_DIR}/data/periodisering-invalid-baseline.txt}"

@@ -2,9 +2,9 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-JAR_PATH="${ROOT_DIR}/target/sfbreader-1.0-SNAPSHOT.jar"
+JAR_PATH="${ROOT_DIR}/target/sfsreader-1.0-SNAPSHOT.jar"
 INPUT_PATH="${1:-${ROOT_DIR}/data/sfs-2010-110.txt.xml}"
-OUT_DIR="${2:-/tmp/sfbreader-refresh-baselines}"
+OUT_DIR="${2:-/tmp/sfsreader-refresh-baselines}"
 TEMPLATE_PATH="${ROOT_DIR}/template/sfs.stg"
 RECON_BASELINE="${ROOT_DIR}/data/reconciliation-baseline.txt"
 

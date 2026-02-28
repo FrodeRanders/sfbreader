@@ -8,8 +8,8 @@
     <!-- Appenders (writing to file in various ways) -->
     <Appenders>
         <RollingFile name="INTERNAL"
-                     fileName="${log-path}/sfbreader.log"
-                     filePattern="${log-path}/sfbreader-%d{yyyy-MM-dd}-%i.log">
+                     fileName="${log-path}/sfsreader.log"
+                     filePattern="${log-path}/sfsreader-%d{yyyy-MM-dd}-%i.log">
             <PatternLayout> <!-- %c{1} -->
                 <!--<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] [%t] %c %m%n</pattern>-->
                 <pattern>%m%n</pattern>

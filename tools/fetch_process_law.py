@@ -12,7 +12,7 @@ def parse_args() -> argparse.Namespace:
     )
     p.add_argument("lagref", help='Lagreferens, e.g. "2018:585"')
     p.add_argument("--data-dir", default="data", help="Directory for source and outputs (default: data)")
-    p.add_argument("--jar", default="target/sfbreader-1.0-SNAPSHOT.jar", help="Path to sfbreader jar")
+    p.add_argument("--jar", default="target/sfsreader-1.0-SNAPSHOT.jar", help="Path to SFS-reader jar")
     p.add_argument("--source-mode", default="hybrid", choices=("html", "text", "hybrid"), help="Source mode")
     p.add_argument("--skip-download", action="store_true", help="Do not download if the XML file already exists")
     p.add_argument("--force-download", action="store_true", help="Always download, even if local file exists")
