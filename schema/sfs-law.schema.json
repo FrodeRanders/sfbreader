@@ -33,7 +33,7 @@
         }
       }
     },
-    "labelledDivision": {
+    "labeledDivision": {
       "type": "object",
       "required": ["id", "namn"],
       "properties": {
@@ -149,10 +149,10 @@
           "type": "boolean"
         },
         "avdelning": {
-          "$ref": "#/$defs/labelledDivision"
+          "$ref": "#/$defs/labeledDivision"
         },
         "underavdelning": {
-          "$ref": "#/$defs/labelledDivision"
+          "$ref": "#/$defs/labeledDivision"
         },
         "paragraf": {
           "type": "array",
