@@ -82,4 +82,14 @@ public class DocumentSourcesTest {
             return Optional.of(new String(is.readAllBytes(), StandardCharsets.UTF_8));
         }
     }
+    @Test
+    public void acceptsRawTextInput() throws Exception {
+        Path path = Files.createTempFile("sfs-source-", ".txt");
+        try {
+            Files.writeString(path, "Testlag (2000:1)\n1 § En regel.", StandardCharsets.UTF_8);
+            DocumentSources sources = DocumentSources.from(path, StandardCharsets.UTF_8);
+            assertTrue(sources.openTextStream().isPresent());
+            assertTrue(sources.openHtmlStream().isEmpty());
+        } finally { Files.deleteIfExists(path); }
+    }
 }

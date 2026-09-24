@@ -8,14 +8,17 @@ import java.util.*;
 public class Overgang extends Kapitel {
     private static final Logger log = LoggerFactory.getLogger(Overgang.class);
 
-    private static int serienummer = 0;
 
     public Overgang(String namn) {
         this(namn, false);
     }
 
     public Overgang(String namn, boolean synthetic) {
-        super("Ö" + Integer.toString(++serienummer), namn, synthetic);
+        this(namn, synthetic, 1);
+    }
+
+    public Overgang(String namn, boolean synthetic, int ordinal) {
+        super("Ö" + ordinal, namn, synthetic);
     }
 
     public void addParagraf(Paragraf p) {

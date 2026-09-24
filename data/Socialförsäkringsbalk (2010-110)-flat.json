@@ -3119,7 +3119,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Om en förälder på grund av sjukdom eller funktionshinder varaktigt saknar förmåga att vårda barnet, får den andra föräldern föräldrapenning under hela den tid som anges i 12 §.\nAvstående från föräldrapenning",
+    "text": "Om en förälder på grund av sjukdom eller funktionshinder varaktigt saknar förmåga att vårda barnet, får den andra föräldern föräldrapenning under hela den tid som anges i 12 §.",
     "kapitel": "12",
     "paragraf": "16",
     "stycke": 1,
@@ -3140,7 +3140,7 @@
     "underavdelning": "II Graviditetspenning och föräldrapenningsförmåner",
     "kapitel_namn": "Föräldrapenning",
     "paragraf_rubrik": "Vem får föräldrapenningen?",
-    "paragraf_underrubrik": "Förmåga att vårda barnet saknas",
+    "paragraf_underrubrik": "Avstående från föräldrapenning",
     "referens": "Lag (2022:1291)",
     "versionStatus": "UNTAGGED"
   },
@@ -3154,7 +3154,7 @@
     "underavdelning": "II Graviditetspenning och föräldrapenningsförmåner",
     "kapitel_namn": "Föräldrapenning",
     "paragraf_rubrik": "Vem får föräldrapenningen?",
-    "paragraf_underrubrik": "Förmåga att vårda barnet saknas",
+    "paragraf_underrubrik": "Avstående från föräldrapenning",
     "referens": "Lag (2022:1291)",
     "versionStatus": "UNTAGGED"
   },
@@ -3168,7 +3168,7 @@
     "underavdelning": "II Graviditetspenning och föräldrapenningsförmåner",
     "kapitel_namn": "Föräldrapenning",
     "paragraf_rubrik": "Vem får föräldrapenningen?",
-    "paragraf_underrubrik": "Förmåga att vårda barnet saknas",
+    "paragraf_underrubrik": "Avstående från föräldrapenning",
     "referens": "Lag (2022:1291)",
     "versionStatus": "UNTAGGED"
   },
@@ -5706,7 +5706,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Lämnas förlängt underhållsstöd gäller det som föreskrivs om boföräldern i 23 § andra stycket den studerande.\nBarn hos särskilt förordnade vårdnadshavare",
+    "text": "Lämnas förlängt underhållsstöd gäller det som föreskrivs om boföräldern i 23 § andra stycket den studerande.",
     "kapitel": "18",
     "paragraf": "6",
     "stycke": 3,
@@ -5727,7 +5727,7 @@
     "underavdelning": "IV Underhållsstöd",
     "kapitel_namn": "Underhållsstödet",
     "paragraf_rubrik": "Allmänna bestämmelser om rätten till underhållsstöd",
-    "paragraf_underrubrik": "Förlängt underhållsstöd",
+    "paragraf_underrubrik": "Barn hos särskilt förordnade vårdnadshavare",
     "referens": "Lag (2015:755)",
     "versionStatus": "UNTAGGED"
   },
@@ -5741,7 +5741,7 @@
     "underavdelning": "IV Underhållsstöd",
     "kapitel_namn": "Underhållsstödet",
     "paragraf_rubrik": "Allmänna bestämmelser om rätten till underhållsstöd",
-    "paragraf_underrubrik": "Förlängt underhållsstöd",
+    "paragraf_underrubrik": "Barn hos särskilt förordnade vårdnadshavare",
     "referens": "Lag (2015:755)",
     "versionStatus": "UNTAGGED"
   },
@@ -8399,6 +8399,19 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
+    "text": "Om ersättning för arbete för någon annans räkning inte kan antas uppgå till minst 1 000 kronor under året, räknas ersättningen från denne som sjukpenninggrundande inkomst endast om ersättningen utgör inkomst av näringsverksamhet.",
+    "kapitel": "25",
+    "paragraf": "16",
+    "stycke": 1,
+    "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
+    "underavdelning": "II Sjukpenning m.m.",
+    "kapitel_namn": "Allmänna bestämmelser om sjukpenninggrundande inkomst och årsarbetstid",
+    "paragraf_rubrik": "Undantag för vissa inkomster",
+    "paragraf_underrubrik": "Ersättning understigande 1 000 kronor",
+    "versionStatus": "UNTAGGED"
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
     "text": "Som sjukpenninggrundande inkomst räknas inte semesterlön till den del lönen överstiger vad som skulle ha betalats i lön för utfört arbete under motsvarande tid. Motsvarande begränsning gäller för semesterersättning.",
     "kapitel": "25",
     "paragraf": "17",
@@ -8406,8 +8419,8 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenninggrundande inkomst och årsarbetstid",
-    "paragraf_rubrik": "Inkomst av annat förvärvsarbete",
-    "paragraf_underrubrik": "Undantag för vissa inkomster",
+    "paragraf_rubrik": "Undantag för vissa inkomster",
+    "paragraf_underrubrik": "Semesterlön och semesterersättning",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -8419,7 +8432,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenninggrundande inkomst och årsarbetstid",
-    "paragraf_rubrik": "Inkomst av annat förvärvsarbete",
+    "paragraf_rubrik": "Undantag för vissa inkomster",
     "paragraf_underrubrik": "Vissa utdelningar, kapitalinkomster och lån",
     "versionStatus": "UNTAGGED"
   },
@@ -8432,7 +8445,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenninggrundande inkomst och årsarbetstid",
-    "paragraf_rubrik": "Inkomst av annat förvärvsarbete",
+    "paragraf_rubrik": "Undantag för vissa inkomster",
     "paragraf_underrubrik": "Mindre ersättning till idrottsutövare",
     "referens": "Lag (2013:949)",
     "versionStatus": "UNTAGGED"
@@ -8446,7 +8459,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenninggrundande inkomst och årsarbetstid",
-    "paragraf_rubrik": "Inkomst av annat förvärvsarbete",
+    "paragraf_rubrik": "Undantag för vissa inkomster",
     "paragraf_underrubrik": "Vissa avtalsförmåner som avses i lagen om särskild löneskatt",
     "versionStatus": "UNTAGGED"
   },
@@ -8459,7 +8472,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenninggrundande inkomst och årsarbetstid",
-    "paragraf_rubrik": "Inkomst av annat förvärvsarbete",
+    "paragraf_rubrik": "Undantag för vissa inkomster",
     "paragraf_underrubrik": "Ersättning från vinstandelsstiftelse",
     "versionStatus": "UNTAGGED"
   },
@@ -8472,7 +8485,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenninggrundande inkomst och årsarbetstid",
-    "paragraf_rubrik": "Inkomst av annat förvärvsarbete",
+    "paragraf_rubrik": "Undantag för vissa inkomster",
     "paragraf_underrubrik": "Ersättning från vinstandelsstiftelse",
     "versionStatus": "UNTAGGED"
   },
@@ -8485,7 +8498,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenninggrundande inkomst och årsarbetstid",
-    "paragraf_rubrik": "Inkomst av annat förvärvsarbete",
+    "paragraf_rubrik": "Undantag för vissa inkomster",
     "paragraf_underrubrik": "Ersättning från vinstandelsstiftelse",
     "versionStatus": "UNTAGGED"
   },
@@ -8498,7 +8511,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenninggrundande inkomst och årsarbetstid",
-    "paragraf_rubrik": "Inkomst av annat förvärvsarbete",
+    "paragraf_rubrik": "Undantag för vissa inkomster",
     "paragraf_underrubrik": "Ersättning från vinstandelsstiftelse",
     "versionStatus": "UNTAGGED"
   },
@@ -8511,15 +8524,28 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenninggrundande inkomst och årsarbetstid",
-    "paragraf_rubrik": "Inkomst av annat förvärvsarbete",
+    "paragraf_rubrik": "Undantag för vissa inkomster",
     "paragraf_underrubrik": "Försäkrade som senast för juli 2008 beviljats icke tidsbegränsad sjukersättning",
     "versionStatus": "UNTAGGED"
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Årsarbetstid ska beräknas för en försäkrad som har en sjukpenninggrundande inkomst som helt eller delvis avser anställning. Årsarbetstiden beräknas när den enligt särskilda bestämmelser har betydelse för beräkningen av en förmån. 26 § Årsarbetstiden är det antal timmar eller dagar per år som en försäkrad tills vidare kan antas komma att ha som ordinarie arbetstid eller motsvarande normal arbetstid i sitt förvärvsarbete.",
+    "text": "Årsarbetstid ska beräknas för en försäkrad som har en sjukpenninggrundande inkomst som helt eller delvis avser anställning. Årsarbetstiden beräknas när den enligt särskilda bestämmelser har betydelse för beräkningen av en förmån.",
     "kapitel": "25",
     "paragraf": "25",
+    "stycke": 1,
+    "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
+    "underavdelning": "II Sjukpenning m.m.",
+    "kapitel_namn": "Allmänna bestämmelser om sjukpenninggrundande inkomst och årsarbetstid",
+    "paragraf_rubrik": "Årsarbetstid",
+    "paragraf_underrubrik": "Allmänna bestämmelser",
+    "versionStatus": "UNTAGGED"
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "text": "Årsarbetstiden är det antal timmar eller dagar per år som en försäkrad tills vidare kan antas komma att ha som ordinarie arbetstid eller motsvarande normal arbetstid i sitt förvärvsarbete.",
+    "kapitel": "25",
+    "paragraf": "26",
     "stycke": 1,
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
@@ -8993,7 +9019,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Det som föreskrivs i 19 § andra stycket tillämpas även vid sjukdom för en försäkrad som fullgör plikttjänstgöring eller militär utbildning inom Försvarsmakten som avses i 16 §.\nDetta gäller dock endast vid utbildning som är längre än 60 dagar.\nBehandling eller rehabilitering",
+    "text": "Det som föreskrivs i 19 § andra stycket tillämpas även vid sjukdom för en försäkrad som fullgör plikttjänstgöring eller militär utbildning inom Försvarsmakten som avses i 16 §.\nDetta gäller dock endast vid utbildning som är längre än 60 dagar.",
     "kapitel": "26",
     "paragraf": "20",
     "stycke": 1,
@@ -9015,7 +9041,7 @@
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Bestämmande och behållande av sjukpenninggrundande inkomst samt beräkning av årsarbetstiden i vissa situationer",
     "paragraf_rubrik": "Sjukpenninggrundande inkomst och årsarbetstid i vissa situationer",
-    "paragraf_underrubrik": "Plikttjänstgöring samt annan militär utbildning och tjänstgöring",
+    "paragraf_underrubrik": "Behandling eller rehabilitering",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -10527,19 +10553,6 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
-    "kapitel": "27",
-    "paragraf": "45",
-    "stycke": 2,
-    "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-    "underavdelning": "II Sjukpenning m.m.",
-    "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
-    "paragraf_underrubrik": "Förmånsnivåer och arbetsförmåga",
-    "versionStatus": "UNTAGGED"
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
     "text": "Vid bedömningen av om arbetsförmågan är nedsatt ska det beaktas om den försäkrade på grund av sjukdomen inte kan utföra sitt vanliga arbete eller annat lämpligt arbete som arbetsgivaren tillfälligt erbjuder honom eller henne.",
     "kapitel": "27",
     "paragraf": "46",
@@ -10547,7 +10560,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Grundläggande bestämmelse",
     "referens": "Lag (2021:1240)",
     "versionStatus": "UNTAGGED"
@@ -10561,7 +10574,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Grundläggande bestämmelse",
     "referens": "Lag (2021:1240)",
     "versionStatus": "UNTAGGED"
@@ -10575,7 +10588,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Grundläggande bestämmelse",
     "referens": "Lag (2021:1240)",
     "versionStatus": "UNTAGGED"
@@ -10589,7 +10602,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Särskilt om bedömningen efter 90 dagar",
     "versionStatus": "UNTAGGED"
   },
@@ -10602,7 +10615,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Särskilt om bedömningen efter 90 dagar",
     "versionStatus": "UNTAGGED"
   },
@@ -10615,7 +10628,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Särskilt om bedömningen efter 180 dagar",
     "referens": "Lag (2021:1243)",
     "versionStatus": "UNTAGGED"
@@ -10629,7 +10642,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Särskilt om bedömningen efter 180 dagar",
     "referens": "Lag (2021:1243)",
     "versionStatus": "UNTAGGED"
@@ -10643,7 +10656,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Särskilt om bedömningen efter 180 dagar",
     "referens": "Lag (2021:1243)",
     "versionStatus": "UNTAGGED"
@@ -10657,7 +10670,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Särskilt om bedömningen efter 365 dagar",
     "referens": "Lag (2021:1240)",
     "versionStatus": "UNTAGGED"
@@ -10671,7 +10684,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Särskilt om bedömningen efter 365 dagar",
     "referens": "Lag (2021:1240)",
     "versionStatus": "UNTAGGED"
@@ -10685,7 +10698,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Särskilt om bedömningen efter 365 dagar",
     "referens": "Lag (2021:1240)",
     "versionStatus": "UNTAGGED"
@@ -10699,7 +10712,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Särskilt om bedömningen efter 365 dagar",
     "referens": "lag (2022:1854)",
     "versionStatus": "UNTAGGED"
@@ -10713,7 +10726,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Bedömningen för behovsanställda",
     "referens": "Lag (2022:939)",
     "versionStatus": "UNTAGGED"
@@ -10727,7 +10740,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Bedömningen för behovsanställda",
     "referens": "Lag (2022:939)",
     "versionStatus": "UNTAGGED"
@@ -10741,7 +10754,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Bedömningen för behovsanställda",
     "referens": "Lag (2022:939)",
     "versionStatus": "UNTAGGED"
@@ -10755,7 +10768,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Bedömningen för behovsanställda",
     "referens": "Lag (2021:1240)",
     "versionStatus": "UNTAGGED"
@@ -10769,7 +10782,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Undantag för vissa försäkrade som har rätt till inkomstgrundad ålderspension",
     "referens": "Lag (2021:1240)",
     "versionStatus": "UNTAGGED"
@@ -10783,7 +10796,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Undantag för vissa försäkrade som har rätt till inkomstgrundad ålderspension",
     "referens": "Lag (2021:1240)",
     "versionStatus": "UNTAGGED"
@@ -10797,7 +10810,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Undantag för vissa försäkrade som har rätt till inkomstgrundad ålderspension",
     "referens": "Lag (2021:1240)",
     "versionStatus": "UNTAGGED"
@@ -10811,7 +10824,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Undantag för vissa försäkrade som har rätt till inkomstgrundad ålderspension",
     "referens": "Lag (2021:1240)",
     "versionStatus": "UNTAGGED"
@@ -10825,7 +10838,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Bedömning av arbetsförmågan vid medicinsk behandling och rehabilitering",
     "versionStatus": "UNTAGGED"
   },
@@ -10838,7 +10851,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Sammanläggning av sjukperioder",
     "referens": "Lag (2015:963)",
     "versionStatus": "UNTAGGED"
@@ -10852,7 +10865,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Föräldralediga",
     "versionStatus": "UNTAGGED"
   },
@@ -10865,7 +10878,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Försäkrade som får sjukersättning eller aktivitetsersättning m.m.",
     "versionStatus": "UNTAGGED"
   },
@@ -10878,7 +10891,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Försäkrade som får sjukersättning eller aktivitetsersättning m.m.",
     "referens": "Lag (2024:1270)",
     "versionStatus": "UNTAGGED"
@@ -10892,7 +10905,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Försäkrade som får sjukersättning eller aktivitetsersättning m.m.",
     "versionStatus": "UNTAGGED"
   },
@@ -10905,7 +10918,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Försäkrade som får sjukersättning eller aktivitetsersättning m.m.",
     "versionStatus": "UNTAGGED"
   },
@@ -10918,7 +10931,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Försäkrade som får sjukersättning eller aktivitetsersättning m.m.",
     "paragraf_periodisering": "Rubriken träder i kraft I:2026-03-01",
     "referens": "lag (2020:427)",
@@ -10934,7 +10947,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Försäkrade som har genomfört arbetsprövning",
     "paragraf_periodisering": "Träder i kraft I:2026-03-01",
     "referens": "Lag (2026:40)",
@@ -10952,7 +10965,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Allmänna bestämmelser om sjukpenning",
-    "paragraf_rubrik": "Förmånstiden",
+    "paragraf_rubrik": "Bedömning av arbetsförmågans nedsättning - (Rehabiliteringskedjan)",
     "paragraf_underrubrik": "Försäkrade som lämnat arbetsmarknadspolitiska program",
     "versionStatus": "UNTAGGED"
   },
@@ -11100,18 +11113,6 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Grundläggande bestämmelser Beräkningsmetoder",
-    "kapitel": "28",
-    "paragraf": "1",
-    "stycke": 3,
-    "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
-    "underavdelning": "II Sjukpenning m.m.",
-    "kapitel_namn": "Beräkning av sjukpenning",
-    "paragraf_rubrik": "Innehåll",
-    "versionStatus": "UNTAGGED"
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
     "text": "Sjukpenning lämnas som\n- kalenderdagsberäknad sjukpenning, eller\n- arbetstidsberäknad sjukpenning.",
     "kapitel": "28",
     "paragraf": "2",
@@ -11119,19 +11120,19 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Beräkning av sjukpenning",
-    "paragraf_rubrik": "Innehåll",
+    "paragraf_rubrik": "Grundläggande bestämmelser Beräkningsmetoder",
     "versionStatus": "UNTAGGED"
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Kalenderdagsberäknad sjukpenning lämnas för alla dagar i veckan oavsett om den försäkrade skulle ha utfört förvärvsarbete eller inte.\nArbetstidsberäknad sjukpenning lämnas bara för timmar eller dagar när den försäkrade skulle ha förvärvsarbetat.\nNär kalenderdagsberäknas respektive arbetstidsberäknas sjukpenningen?",
+    "text": "Kalenderdagsberäknad sjukpenning lämnas för alla dagar i veckan oavsett om den försäkrade skulle ha utfört förvärvsarbete eller inte.\nArbetstidsberäknad sjukpenning lämnas bara för timmar eller dagar när den försäkrade skulle ha förvärvsarbetat.",
     "kapitel": "28",
     "paragraf": "3",
     "stycke": 1,
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Beräkning av sjukpenning",
-    "paragraf_rubrik": "Innehåll",
+    "paragraf_rubrik": "Grundläggande bestämmelser Beräkningsmetoder",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -11143,7 +11144,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Beräkning av sjukpenning",
-    "paragraf_rubrik": "Innehåll",
+    "paragraf_rubrik": "När kalenderdagsberäknas respektive arbetstidsberäknas sjukpenningen?",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -11155,7 +11156,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Beräkning av sjukpenning",
-    "paragraf_rubrik": "Innehåll",
+    "paragraf_rubrik": "När kalenderdagsberäknas respektive arbetstidsberäknas sjukpenningen?",
     "referens": "Lag (2010:2005)",
     "versionStatus": "UNTAGGED"
   },
@@ -11168,7 +11169,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Beräkning av sjukpenning",
-    "paragraf_rubrik": "Innehåll",
+    "paragraf_rubrik": "När kalenderdagsberäknas respektive arbetstidsberäknas sjukpenningen?",
     "referens": "Lag (2010:2005)",
     "versionStatus": "UNTAGGED"
   },
@@ -11181,7 +11182,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Beräkning av sjukpenning",
-    "paragraf_rubrik": "Innehåll",
+    "paragraf_rubrik": "När kalenderdagsberäknas respektive arbetstidsberäknas sjukpenningen?",
     "referens": "Lag (2010:2005)",
     "versionStatus": "UNTAGGED"
   },
@@ -11194,7 +11195,7 @@
     "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
     "underavdelning": "II Sjukpenning m.m.",
     "kapitel_namn": "Beräkning av sjukpenning",
-    "paragraf_rubrik": "Innehåll",
+    "paragraf_rubrik": "När kalenderdagsberäknas respektive arbetstidsberäknas sjukpenningen?",
     "referens": "Lag (2010:2005)",
     "versionStatus": "UNTAGGED"
   },
@@ -13968,7 +13969,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Sammanlagd hel sjukersättning får aldrig, på grund av bestämmelserna i 3-7 §§, för månad räknat understiga 5 procent av prisbasbeloppet.\nFörvärvsarbete som hinder för rätt till förmån",
+    "text": "Sammanlagd hel sjukersättning får aldrig, på grund av bestämmelserna i 3-7 §§, för månad räknat understiga 5 procent av prisbasbeloppet.",
     "kapitel": "36",
     "paragraf": "8",
     "stycke": 1,
@@ -13989,7 +13990,7 @@
     "underavdelning": "IV Sjukersättning och aktivitetsersättning",
     "kapitel_namn": "Gemensamma bestämmelser om sjukersättning och aktivitetsersättning",
     "paragraf_rubrik": "Samordning med andra förmåner",
-    "paragraf_underrubrik": "Livränta",
+    "paragraf_underrubrik": "Förvärvsarbete som hinder för rätt till förmån",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -14612,7 +14613,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Ändring av sjukersättning och aktivitetsersättning ska gälla från och med månaden efter den när anledningen till ändringen uppkommit. Om ökningen kräver ansökan av den som är berättigad till sådan ersättning tillämpas 33 kap. 14 § första stycket.\nUtbetalning av ersättning 29 § Sjukersättning och aktivitetsersättning ska betalas ut månadsvis. Om det årliga beloppet av sådana förmåner uppgår till högst 2 400 kronor ska dock, om det inte finns särskilda skäl, utbetalning ske i efterskott en eller två gånger per år. Efter överenskommelse med den försäkrade får utbetalning även i annat fall ske en eller två gånger per år. 30 § När månadsbelopp för sjukersättning och aktivitetsersättning beräknas ska det belopp för år räknat som beräkningen utgår från avrundas till närmaste hela krontal som är jämnt delbart med tolv. Är det årliga beloppet av sjukersättning och aktivitetsersättning lägre än tolv kronor, faller ersättningen bort för den månad som beräkningen avser. Avrundning ska i första hand göras på garantiersättning enligt 35 kap.",
+    "text": "Ändring av sjukersättning och aktivitetsersättning ska gälla från och med månaden efter den när anledningen till ändringen uppkommit. Om ökningen kräver ansökan av den som är berättigad till sådan ersättning tillämpas 33 kap. 14 § första stycket.",
     "kapitel": "36",
     "paragraf": "28",
     "stycke": 1,
@@ -14621,6 +14622,32 @@
     "kapitel_namn": "Gemensamma bestämmelser om sjukersättning och aktivitetsersättning",
     "paragraf_rubrik": "Omprövning vid ändrade förhållanden",
     "paragraf_underrubrik": "Ändring av ersättning",
+    "versionStatus": "UNTAGGED"
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "text": "Sjukersättning och aktivitetsersättning ska betalas ut månadsvis. Om det årliga beloppet av sådana förmåner uppgår till högst 2 400 kronor ska dock, om det inte finns särskilda skäl, utbetalning ske i efterskott en eller två gånger per år. Efter överenskommelse med den försäkrade får utbetalning även i annat fall ske en eller två gånger per år.",
+    "kapitel": "36",
+    "paragraf": "29",
+    "stycke": 1,
+    "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
+    "underavdelning": "IV Sjukersättning och aktivitetsersättning",
+    "kapitel_namn": "Gemensamma bestämmelser om sjukersättning och aktivitetsersättning",
+    "paragraf_rubrik": "Omprövning vid ändrade förhållanden",
+    "paragraf_underrubrik": "Utbetalning av ersättning",
+    "versionStatus": "UNTAGGED"
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "text": "När månadsbelopp för sjukersättning och aktivitetsersättning beräknas ska det belopp för år räknat som beräkningen utgår från avrundas till närmaste hela krontal som är jämnt delbart med tolv. Är det årliga beloppet av sjukersättning och aktivitetsersättning lägre än tolv kronor, faller ersättningen bort för den månad som beräkningen avser. Avrundning ska i första hand göras på garantiersättning enligt 35 kap.",
+    "kapitel": "36",
+    "paragraf": "30",
+    "stycke": 1,
+    "avdelning": "C FÖRMÅNER VID SJUKDOM ELLER ARBETSSKADA",
+    "underavdelning": "IV Sjukersättning och aktivitetsersättning",
+    "kapitel_namn": "Gemensamma bestämmelser om sjukersättning och aktivitetsersättning",
+    "paragraf_rubrik": "Omprövning vid ändrade förhållanden",
+    "paragraf_underrubrik": "Utbetalning av ersättning",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -16830,7 +16857,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Bestämmelserna om arbetsgivarinträde, m.m. i 27 kap. 56-60 §§ tilllämpas även i fråga om smittbärarpenning.\nFörmånsnivåer och förvärvsarbete",
+    "text": "Bestämmelserna om arbetsgivarinträde, m.m. i 27 kap. 56-60 §§ tilllämpas även i fråga om smittbärarpenning.",
     "kapitel": "46",
     "paragraf": "10",
     "stycke": 1,
@@ -16851,7 +16878,7 @@
     "underavdelning": "V Förmåner vid arbetsskada m.m.",
     "kapitel_namn": "Smittbärarersättning",
     "paragraf_rubrik": "Rätten till smittbärarpenning",
-    "paragraf_underrubrik": "Arbetsgivarinträde m.m.",
+    "paragraf_underrubrik": "Förmånsnivåer och förvärvsarbete",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -16864,7 +16891,7 @@
     "underavdelning": "V Förmåner vid arbetsskada m.m.",
     "kapitel_namn": "Smittbärarersättning",
     "paragraf_rubrik": "Rätten till smittbärarpenning",
-    "paragraf_underrubrik": "Arbetsgivarinträde m.m.",
+    "paragraf_underrubrik": "Förmånsnivåer och förvärvsarbete",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -16877,7 +16904,7 @@
     "underavdelning": "V Förmåner vid arbetsskada m.m.",
     "kapitel_namn": "Smittbärarersättning",
     "paragraf_rubrik": "Rätten till smittbärarpenning",
-    "paragraf_underrubrik": "Arbetsgivarinträde m.m.",
+    "paragraf_underrubrik": "Förmånsnivåer och förvärvsarbete",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -16890,7 +16917,7 @@
     "underavdelning": "V Förmåner vid arbetsskada m.m.",
     "kapitel_namn": "Smittbärarersättning",
     "paragraf_rubrik": "Rätten till smittbärarpenning",
-    "paragraf_underrubrik": "Arbetsgivarinträde m.m.",
+    "paragraf_underrubrik": "Förmånsnivåer och förvärvsarbete",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -19232,20 +19259,6 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Vem kan få inkomstpension, tilläggspension och premiepension?",
-    "kapitel": "55",
-    "paragraf": "4",
-    "stycke": 2,
-    "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-    "underavdelning": "II Övergripande bestämmelser om allmän ålderspension",
-    "kapitel_namn": "Allmänna bestämmelser om allmän ålderspension",
-    "paragraf_rubrik": "Inkomstgrundad ålderspension",
-    "paragraf_underrubrik": "Årlig redovisning",
-    "referens": "Lag (2025:379)",
-    "versionStatus": "UNTAGGED"
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
     "text": "En försäkrad som är född 1937 eller tidigare kan få inkomstgrundad ålderspension i form av tilläggspension.",
     "kapitel": "55",
     "paragraf": "5",
@@ -19254,7 +19267,7 @@
     "underavdelning": "II Övergripande bestämmelser om allmän ålderspension",
     "kapitel_namn": "Allmänna bestämmelser om allmän ålderspension",
     "paragraf_rubrik": "Inkomstgrundad ålderspension",
-    "paragraf_underrubrik": "Årlig redovisning",
+    "paragraf_underrubrik": "Vem kan få inkomstpension, tilläggspension och premiepension?",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -19267,7 +19280,7 @@
     "underavdelning": "II Övergripande bestämmelser om allmän ålderspension",
     "kapitel_namn": "Allmänna bestämmelser om allmän ålderspension",
     "paragraf_rubrik": "Inkomstgrundad ålderspension",
-    "paragraf_underrubrik": "Årlig redovisning",
+    "paragraf_underrubrik": "Vem kan få inkomstpension, tilläggspension och premiepension?",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -19280,7 +19293,7 @@
     "underavdelning": "II Övergripande bestämmelser om allmän ålderspension",
     "kapitel_namn": "Allmänna bestämmelser om allmän ålderspension",
     "paragraf_rubrik": "Inkomstgrundad ålderspension",
-    "paragraf_underrubrik": "Årlig redovisning",
+    "paragraf_underrubrik": "Vem kan få inkomstpension, tilläggspension och premiepension?",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -19293,7 +19306,7 @@
     "underavdelning": "II Övergripande bestämmelser om allmän ålderspension",
     "kapitel_namn": "Allmänna bestämmelser om allmän ålderspension",
     "paragraf_rubrik": "Inkomstgrundad ålderspension",
-    "paragraf_underrubrik": "Årlig redovisning",
+    "paragraf_underrubrik": "Vem kan få inkomstpension, tilläggspension och premiepension?",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -19305,8 +19318,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "II Övergripande bestämmelser om allmän ålderspension",
     "kapitel_namn": "Allmänna bestämmelser om allmän ålderspension",
-    "paragraf_rubrik": "Inkomstgrundad ålderspension",
-    "paragraf_underrubrik": "Garantipension",
+    "paragraf_rubrik": "Garantipension",
+    "paragraf_underrubrik": "Vad är garantipension?",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -19318,7 +19331,7 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "II Övergripande bestämmelser om allmän ålderspension",
     "kapitel_namn": "Allmänna bestämmelser om allmän ålderspension",
-    "paragraf_rubrik": "Inkomstgrundad ålderspension",
+    "paragraf_rubrik": "Garantipension",
     "paragraf_underrubrik": "Vem kan få garantipension?",
     "versionStatus": "UNTAGGED"
   },
@@ -19331,7 +19344,7 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "II Övergripande bestämmelser om allmän ålderspension",
     "kapitel_namn": "Allmänna bestämmelser om allmän ålderspension",
-    "paragraf_rubrik": "Inkomstgrundad ålderspension",
+    "paragraf_rubrik": "Garantipension",
     "paragraf_underrubrik": "Vem kan få garantipension?",
     "versionStatus": "UNTAGGED"
   },
@@ -20234,6 +20247,7 @@
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande inkomst",
     "paragraf_rubrik": "Allmänna bestämmelser om pensionsgrundande inkomst",
+    "paragraf_underrubrik": "Vad är pensionsgrundande inkomst?",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -20245,7 +20259,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande inkomst",
-    "paragraf_rubrik": "Vilka inkomster är pensionsgrundande?",
+    "paragraf_rubrik": "Allmänna bestämmelser om pensionsgrundande inkomst",
+    "paragraf_underrubrik": "Vilka inkomster är pensionsgrundande?",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -20257,19 +20272,21 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande inkomst",
-    "paragraf_rubrik": "Vilka inkomster är pensionsgrundande?",
+    "paragraf_rubrik": "Allmänna bestämmelser om pensionsgrundande inkomst",
+    "paragraf_underrubrik": "Vilka inkomster är pensionsgrundande?",
     "versionStatus": "UNTAGGED"
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Den försäkrades pensionsgrundande inkomst för ett år (intjänandeåret) utgörs av summan av hans eller hennes inkomster av anställning och inkomster av annat förvärvsarbete för det året.\nVid beräkningen ska det bortses från inkomster av anställning och inkomster av annat förvärvsarbete till den del summan av dessa överstiger 7,5 inkomstbasbelopp under intjänandeåret (intjänandetaket). Det bortses i första hand från inkomster av annat förvärvsarbete.\nNär fastställs pensionsgrundande inkomst?",
+    "text": "Den försäkrades pensionsgrundande inkomst för ett år (intjänandeåret) utgörs av summan av hans eller hennes inkomster av anställning och inkomster av annat förvärvsarbete för det året.\nVid beräkningen ska det bortses från inkomster av anställning och inkomster av annat förvärvsarbete till den del summan av dessa överstiger 7,5 inkomstbasbelopp under intjänandeåret (intjänandetaket). Det bortses i första hand från inkomster av annat förvärvsarbete.",
     "kapitel": "59",
     "paragraf": "4",
     "stycke": 1,
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande inkomst",
-    "paragraf_rubrik": "Hur beräknas pensionsgrundande inkomst?",
+    "paragraf_rubrik": "Allmänna bestämmelser om pensionsgrundande inkomst",
+    "paragraf_underrubrik": "Hur beräknas pensionsgrundande inkomst?",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -20281,7 +20298,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande inkomst",
-    "paragraf_rubrik": "Hur beräknas pensionsgrundande inkomst?",
+    "paragraf_rubrik": "Allmänna bestämmelser om pensionsgrundande inkomst",
+    "paragraf_underrubrik": "När fastställs pensionsgrundande inkomst?",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -20293,7 +20311,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande inkomst",
-    "paragraf_rubrik": "Hur beräknas pensionsgrundande inkomst?",
+    "paragraf_rubrik": "Allmänna bestämmelser om pensionsgrundande inkomst",
+    "paragraf_underrubrik": "När fastställs pensionsgrundande inkomst?",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -20305,7 +20324,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande inkomst",
-    "paragraf_rubrik": "Hur beräknas pensionsgrundande inkomst?",
+    "paragraf_rubrik": "Allmänna bestämmelser om pensionsgrundande inkomst",
+    "paragraf_underrubrik": "När fastställs pensionsgrundande inkomst?",
     "referens": "Lag (2011:1075)",
     "versionStatus": "UNTAGGED"
   },
@@ -20318,7 +20338,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande inkomst",
-    "paragraf_rubrik": "Hur beräknas pensionsgrundande inkomst?",
+    "paragraf_rubrik": "Allmänna bestämmelser om pensionsgrundande inkomst",
+    "paragraf_underrubrik": "När fastställs pensionsgrundande inkomst?",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -20554,7 +20575,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Det som anges i 17 § gäller inte om den som har betalat ut ersättningen känt till att uppgiften om godkännande för F-skatt var oriktig.\nViss ersättning från privatpersoner",
+    "text": "Det som anges i 17 § gäller inte om den som har betalat ut ersättningen känt till att uppgiften om godkännande för F-skatt var oriktig.",
     "kapitel": "59",
     "paragraf": "18",
     "stycke": 1,
@@ -20576,7 +20597,7 @@
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande inkomst",
     "paragraf_rubrik": "Inkomst av annat förvärvsarbete",
-    "paragraf_underrubrik": "Ersättning till den som är godkänd för F-skatt",
+    "paragraf_underrubrik": "Viss ersättning från privatpersoner",
     "referens": "Lag (2011:1434)",
     "versionStatus": "UNTAGGED"
   },
@@ -20714,7 +20735,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "När pensionsgrundande inkomst beräknas ska det bortses från sådan ersättning från en vinstandelsstiftelse som härrör från bidrag som arbetsgivaren har lämnat under åren 1988-1991.\nHur är samordnade sociala förmåner pensionsgrundande?",
+    "text": "När pensionsgrundande inkomst beräknas ska det bortses från sådan ersättning från en vinstandelsstiftelse som härrör från bidrag som arbetsgivaren har lämnat under åren 1988-1991.",
     "kapitel": "59",
     "paragraf": "28",
     "stycke": 1,
@@ -20727,7 +20748,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Har Försäkringskassan eller en arbetslöshetskassa till en försäkrad för en viss månad betalat ut en ersättning som är pensionsgrundande antingen genom att den utgör pensionsgrundande inkomst, eller genom att det ska beräknas ett pensionsgrundande belopp för den enligt 60 kap. 7 § eller pensionspoäng enligt 61 kap. 20 §, och har den försäkrade senare för samma månad beviljats annan ersättning som är pensionsgrundande och samordnad med den ersättning som tidigare har betalats ut, gäller följande. Den senare beviljade ersättningen är pensionsgrundande endast till den del ersättningen avser tid från och med den månad då den har betalats ut. 30 § Vid tillämpning av 29 § ska det anses som om sjukersättning eller aktivitetsersättning har betalats ut före livränta, om det vid samma tidpunkt beviljas\n- inkomstrelaterad sjukersättning eller inkomstrelaterad aktivitetsersättning, och - livränta på grund av arbetsskada eller annan skada som avses i 41-44 kap.",
+    "text": "Har Försäkringskassan eller en arbetslöshetskassa till en försäkrad för en viss månad betalat ut en ersättning som är pensionsgrundande antingen genom att den utgör pensionsgrundande inkomst, eller genom att det ska beräknas ett pensionsgrundande belopp för den enligt 60 kap. 7 § eller pensionspoäng enligt 61 kap. 20 §, och har den försäkrade senare för samma månad beviljats annan ersättning som är pensionsgrundande och samordnad med den ersättning som tidigare har betalats ut, gäller följande. Den senare beviljade ersättningen är pensionsgrundande endast till den del ersättningen avser tid från och med den månad då den har betalats ut.",
     "kapitel": "59",
     "paragraf": "29",
     "stycke": 1,
@@ -20735,7 +20756,20 @@
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande inkomst",
     "paragraf_rubrik": "Undantag för vissa inkomster",
-    "paragraf_underrubrik": "Ersättning från vinstandelsstiftelse",
+    "paragraf_underrubrik": "Hur är samordnade sociala förmåner pensionsgrundande?",
+    "versionStatus": "UNTAGGED"
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "text": "Vid tillämpning av 29 § ska det anses som om sjukersättning eller aktivitetsersättning har betalats ut före livränta, om det vid samma tidpunkt beviljas\n- inkomstrelaterad sjukersättning eller inkomstrelaterad aktivitetsersättning, och - livränta på grund av arbetsskada eller annan skada som avses i 41-44 kap.",
+    "kapitel": "59",
+    "paragraf": "30",
+    "stycke": 1,
+    "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
+    "underavdelning": "III Inkomstgrundad ålderspension",
+    "kapitel_namn": "Pensionsgrundande inkomst",
+    "paragraf_rubrik": "Undantag för vissa inkomster",
+    "paragraf_underrubrik": "Hur är samordnade sociala förmåner pensionsgrundande?",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -20748,7 +20782,7 @@
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande inkomst",
     "paragraf_rubrik": "Undantag för vissa inkomster",
-    "paragraf_underrubrik": "Ersättning från vinstandelsstiftelse",
+    "paragraf_underrubrik": "Hur är samordnade sociala förmåner pensionsgrundande?",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -20946,6 +20980,7 @@
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
     "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Vad är pensionsgrundande belopp?",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -20957,7 +20992,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "För vad kan man få pensionsgrundande belopp?",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "För vad kan man få pensionsgrundande belopp?",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -20969,7 +21005,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "För vad kan man få pensionsgrundande belopp?",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "För vad kan man få pensionsgrundande belopp?",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -20981,7 +21018,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Fastställande av pensionsgrundande belopp",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Fastställande av pensionsgrundande belopp",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -20993,7 +21031,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Fastställande av pensionsgrundande belopp",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Fastställande av pensionsgrundande belopp",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21005,7 +21044,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Fastställande av pensionsgrundande belopp",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Fastställande av pensionsgrundande belopp",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21017,7 +21057,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Fastställande av pensionsgrundande belopp",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Fastställande av pensionsgrundande belopp",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21029,7 +21070,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Pensionsgrundande belopp för sjukersättning eller aktivitetsersättning",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Pensionsgrundande belopp för sjukersättning eller aktivitetsersättning",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21041,7 +21083,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Pensionsgrundande belopp för sjukersättning eller aktivitetsersättning",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Pensionsgrundande belopp för sjukersättning eller aktivitetsersättning",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21053,7 +21096,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Pensionsgrundande belopp för sjukersättning eller aktivitetsersättning",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Pensionsgrundande belopp för sjukersättning eller aktivitetsersättning",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21065,7 +21109,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Beräkning av pensionsgrundande belopp",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Beräkning av pensionsgrundande belopp",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21077,7 +21122,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Beräkning av pensionsgrundande belopp",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Beräkning av pensionsgrundande belopp",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21089,7 +21135,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Beräkning av pensionsgrundande belopp",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Beräkning av pensionsgrundande belopp",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21101,7 +21148,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Beräkning av pensionsgrundande belopp",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Beräkning av pensionsgrundande belopp",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21113,7 +21161,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Beräkning av pensionsgrundande belopp",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Beräkning av pensionsgrundande belopp",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21125,7 +21174,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Beräkning av pensionsgrundande belopp",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Beräkning av pensionsgrundande belopp",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21137,7 +21187,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Beräkning av pensionsgrundande belopp",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Beräkning av pensionsgrundande belopp",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21149,7 +21200,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Samordnade sociala förmåner",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Samordnade sociala förmåner",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21161,7 +21213,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Samordnade sociala förmåner",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Samordnade sociala förmåner",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21173,7 +21226,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Samordnade sociala förmåner",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Samordnade sociala förmåner",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21185,7 +21239,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Samordnade sociala förmåner",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Samordnade sociala förmåner",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21197,7 +21252,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Pensionsgrundande belopp för plikttjänstgöring",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Pensionsgrundande belopp för plikttjänstgöring",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21209,7 +21265,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Pensionsgrundande belopp för plikttjänstgöring",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Pensionsgrundande belopp för plikttjänstgöring",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21221,7 +21278,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Beräkning av pensionsgrundande belopp",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Beräkning av pensionsgrundande belopp",
     "referens": "Lag (2022:879)",
     "versionStatus": "UNTAGGED"
   },
@@ -21234,7 +21292,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Beräkning av pensionsgrundande belopp",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Beräkning av pensionsgrundande belopp",
     "referens": "Lag (2022:879)",
     "versionStatus": "UNTAGGED"
   },
@@ -21247,7 +21306,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Pensionsgrundande belopp för studier",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Pensionsgrundande belopp för studier",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21259,7 +21319,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Pensionsgrundande belopp för studier",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Pensionsgrundande belopp för studier",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21271,7 +21332,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Beräkning av pensionsgrundande belopp",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Beräkning av pensionsgrundande belopp",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21283,7 +21345,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Pensionsgrundande belopp för barnår",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Pensionsgrundande belopp för barnår",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21295,7 +21358,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Pensionsgrundande belopp för barnår",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Pensionsgrundande belopp för barnår",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21307,7 +21371,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Pensionsgrundande belopp för barnår",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Pensionsgrundande belopp för barnår",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21319,7 +21384,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Pensionsgrundande belopp för barnår",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Pensionsgrundande belopp för barnår",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21331,7 +21397,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Pensionsgrundande belopp för barnår",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Pensionsgrundande belopp för barnår",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21343,7 +21410,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Pensionsgrundande belopp för barnår",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Pensionsgrundande belopp för barnår",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21355,7 +21423,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Pensionsgrundande belopp för barnår",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Pensionsgrundande belopp för barnår",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21367,7 +21436,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Pensionsgrundande belopp för barnår",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Pensionsgrundande belopp för barnår",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21379,7 +21449,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Vem som likställs med förälder",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Vem som likställs med förälder",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21391,7 +21462,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Vem som likställs med mor",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Vem som likställs med mor",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21403,7 +21475,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Upphävt faderskap eller föräldraskap",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Upphävt faderskap eller föräldraskap",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21415,7 +21488,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Upphävt faderskap eller föräldraskap",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Upphävt faderskap eller föräldraskap",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21427,7 +21501,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Villkor om bosättning och vårdnad, m.m.",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Villkor om bosättning och vårdnad, m.m.",
     "referens": "Lag (2022:879)",
     "versionStatus": "UNTAGGED"
   },
@@ -21440,7 +21515,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Villkor om bosättning och vårdnad, m.m.",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Villkor om bosättning och vårdnad, m.m.",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21452,7 +21528,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Villkor om bosättning och vårdnad, m.m.",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Villkor om bosättning och vårdnad, m.m.",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21464,7 +21541,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Villkor om bosättning och vårdnad, m.m.",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Villkor om bosättning och vårdnad, m.m.",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21476,7 +21554,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Villkor om bosättning och vårdnad, m.m.",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Villkor om bosättning och vårdnad, m.m.",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21488,7 +21567,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Villkor om barnets ålder",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Villkor om barnets ålder",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21500,7 +21580,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Villkor om barnets ålder",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Villkor om barnets ålder",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21512,7 +21593,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Villkor om barnets ålder",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Villkor om barnets ålder",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21524,7 +21606,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsgrundande belopp",
-    "paragraf_rubrik": "Villkor om barnets ålder",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Villkor om barnets ålder",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21928,6 +22011,7 @@
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsrätt och pensionspoäng",
     "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Vad är pensionsrätt?",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21939,7 +22023,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsrätt och pensionspoäng",
-    "paragraf_rubrik": "Vad är pensionspoäng?",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Vad är pensionspoäng?",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21951,7 +22036,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsrätt och pensionspoäng",
-    "paragraf_rubrik": "Fastställande av pensionsrätt",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Fastställande av pensionsrätt",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -21963,7 +22049,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Pensionsrätt och pensionspoäng",
-    "paragraf_rubrik": "Fastställande av pensionsrätt",
+    "paragraf_rubrik": "Inledande bestämmelser",
+    "paragraf_underrubrik": "Fastställande av pensionsrätt",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -22336,9 +22423,22 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Vårdår ska tillgodoräknas en förälder som är bosatt här i landet och som under större delen av ett kalenderår har vårdat ett barn som är bosatt här och som är yngre än tre år.\nFör samma barn och år får vårdår tillgodoräknas endast en förälder. 25 § Vid tillämpningen av 24 § likställs med förälder\n1. familjehemsförälder såvitt avser barn som vårdas hos honom eller henne,\n2. förälders make som stadigvarande sammanbor med föräldern, och\n3. förälders sambo som tidigare har varit gift med eller har eller har haft barn med föräldern.",
+    "text": "Vårdår ska tillgodoräknas en förälder som är bosatt här i landet och som under större delen av ett kalenderår har vårdat ett barn som är bosatt här och som är yngre än tre år.\nFör samma barn och år får vårdår tillgodoräknas endast en förälder.",
     "kapitel": "61",
     "paragraf": "24",
+    "stycke": 1,
+    "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
+    "underavdelning": "III Inkomstgrundad ålderspension",
+    "kapitel_namn": "Pensionsrätt och pensionspoäng",
+    "paragraf_rubrik": "Beräkning av pensionspoäng",
+    "paragraf_underrubrik": "År med pensionspoäng vid vård av småbarn (vårdår)",
+    "versionStatus": "UNTAGGED"
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "text": "Vid tillämpningen av 24 § likställs med förälder\n1. familjehemsförälder såvitt avser barn som vårdas hos honom eller henne,\n2. förälders make som stadigvarande sammanbor med föräldern, och\n3. förälders sambo som tidigare har varit gift med eller har eller har haft barn med föräldern.",
+    "kapitel": "61",
+    "paragraf": "25",
     "stycke": 1,
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
@@ -22411,9 +22511,21 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "En försäkrad som är född 1938 eller senare har rätt till inkomstpension om han eller hon har en pensionsbehållning. 4 § Bestämmelser om uttag av inkomstpension finns i 56 kap.",
+    "text": "En försäkrad som är född 1938 eller senare har rätt till inkomstpension om han eller hon har en pensionsbehållning.",
     "kapitel": "62",
     "paragraf": "3",
+    "stycke": 1,
+    "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
+    "underavdelning": "III Inkomstgrundad ålderspension",
+    "kapitel_namn": "Inkomstpension",
+    "paragraf_rubrik": "Allmänna bestämmelser om inkomstpension",
+    "versionStatus": "UNTAGGED"
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "text": "Bestämmelser om uttag av inkomstpension finns i 56 kap.",
+    "kapitel": "62",
+    "paragraf": "4",
     "stycke": 1,
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
@@ -22490,19 +22602,6 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Omräkning av pensionsbehållning med hänsyn till arvsvinster",
-    "kapitel": "62",
-    "paragraf": "8",
-    "stycke": 2,
-    "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-    "underavdelning": "III Inkomstgrundad ålderspension",
-    "kapitel_namn": "Inkomstpension",
-    "paragraf_rubrik": "Allmänna bestämmelser om pensionsbehållning",
-    "paragraf_underrubrik": "Återkallat eller minskat uttag av pension",
-    "versionStatus": "UNTAGGED"
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
     "text": "Pensionsbehållningar för personer som har avlidit (arvsvinster) ska, om inte annat följer av 10 §, fördelas till försäkrade som\n1. är födda samma år som de avlidna,\n2. levde vid utgången av dödsfallsåret, och 3. har tillgodoräknats pensionsrätt för inkomstpension.",
     "kapitel": "62",
     "paragraf": "9",
@@ -22510,7 +22609,7 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Inkomstpension",
-    "paragraf_rubrik": "Allmänna bestämmelser om pensionsbehållning",
+    "paragraf_rubrik": "Omräkning av pensionsbehållning med hänsyn till arvsvinster",
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "versionStatus": "UNTAGGED"
   },
@@ -22523,7 +22622,7 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Inkomstpension",
-    "paragraf_rubrik": "Allmänna bestämmelser om pensionsbehållning",
+    "paragraf_rubrik": "Omräkning av pensionsbehållning med hänsyn till arvsvinster",
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "versionStatus": "UNTAGGED"
   },
@@ -22536,7 +22635,7 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Inkomstpension",
-    "paragraf_rubrik": "Allmänna bestämmelser om pensionsbehållning",
+    "paragraf_rubrik": "Omräkning av pensionsbehållning med hänsyn till arvsvinster",
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "versionStatus": "UNTAGGED"
   },
@@ -22549,7 +22648,7 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Inkomstpension",
-    "paragraf_rubrik": "Allmänna bestämmelser om pensionsbehållning",
+    "paragraf_rubrik": "Omräkning av pensionsbehållning med hänsyn till arvsvinster",
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "versionStatus": "UNTAGGED"
   },
@@ -22562,7 +22661,7 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Inkomstpension",
-    "paragraf_rubrik": "Allmänna bestämmelser om pensionsbehållning",
+    "paragraf_rubrik": "Omräkning av pensionsbehållning med hänsyn till arvsvinster",
     "paragraf_underrubrik": "Allmänna bestämmelser",
     "versionStatus": "UNTAGGED"
   },
@@ -22575,7 +22674,7 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Inkomstpension",
-    "paragraf_rubrik": "Allmänna bestämmelser om pensionsbehållning",
+    "paragraf_rubrik": "Omräkning av pensionsbehållning med hänsyn till arvsvinster",
     "paragraf_underrubrik": "Hur ska arvsvinsterna fördelas?",
     "referens": "Lag (2022:879)",
     "versionStatus": "UNTAGGED"
@@ -22589,7 +22688,7 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Inkomstpension",
-    "paragraf_rubrik": "Allmänna bestämmelser om pensionsbehållning",
+    "paragraf_rubrik": "Omräkning av pensionsbehållning med hänsyn till arvsvinster",
     "paragraf_underrubrik": "Hur ska arvsvinsterna fördelas?",
     "referens": "Lag (2022:879)",
     "versionStatus": "UNTAGGED"
@@ -22603,7 +22702,7 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Inkomstpension",
-    "paragraf_rubrik": "Allmänna bestämmelser om pensionsbehållning",
+    "paragraf_rubrik": "Omräkning av pensionsbehållning med hänsyn till arvsvinster",
     "paragraf_underrubrik": "Hur ska arvsvinsterna fördelas?",
     "referens": "Lag (2022:879)",
     "versionStatus": "UNTAGGED"
@@ -22617,7 +22716,7 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Inkomstpension",
-    "paragraf_rubrik": "Allmänna bestämmelser om pensionsbehållning",
+    "paragraf_rubrik": "Omräkning av pensionsbehållning med hänsyn till arvsvinster",
     "paragraf_underrubrik": "Arvsvinstfaktorer vid dödsfall före 17 års ålder",
     "versionStatus": "UNTAGGED"
   },
@@ -22630,7 +22729,7 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Inkomstpension",
-    "paragraf_rubrik": "Allmänna bestämmelser om pensionsbehållning",
+    "paragraf_rubrik": "Omräkning av pensionsbehållning med hänsyn till arvsvinster",
     "paragraf_underrubrik": "Arvsvinstfaktorer vid dödsfall före 17 års ålder",
     "versionStatus": "UNTAGGED"
   },
@@ -22643,7 +22742,7 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Inkomstpension",
-    "paragraf_rubrik": "Allmänna bestämmelser om pensionsbehållning",
+    "paragraf_rubrik": "Omräkning av pensionsbehållning med hänsyn till arvsvinster",
     "paragraf_underrubrik": "Arvsvinstfaktorer vid dödsfall efter 16 års ålder men minst fem år före riktåldern för pension",
     "referens": "Lag (2022:879)",
     "versionStatus": "UNTAGGED"
@@ -22657,7 +22756,7 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Inkomstpension",
-    "paragraf_rubrik": "Allmänna bestämmelser om pensionsbehållning",
+    "paragraf_rubrik": "Omräkning av pensionsbehållning med hänsyn till arvsvinster",
     "paragraf_underrubrik": "Arvsvinstfaktorer vid dödsfall efter 16 års ålder men minst fem år före riktåldern för pension",
     "referens": "Lag (2022:879)",
     "versionStatus": "UNTAGGED"
@@ -22671,7 +22770,7 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Inkomstpension",
-    "paragraf_rubrik": "Allmänna bestämmelser om pensionsbehållning",
+    "paragraf_rubrik": "Omräkning av pensionsbehållning med hänsyn till arvsvinster",
     "paragraf_underrubrik": "Arvsvinstfaktorer vid dödsfall fyra eller färre år före riktåldern för pension",
     "referens": "Lag (2022:879)",
     "versionStatus": "UNTAGGED"
@@ -22685,7 +22784,7 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Inkomstpension",
-    "paragraf_rubrik": "Allmänna bestämmelser om pensionsbehållning",
+    "paragraf_rubrik": "Omräkning av pensionsbehållning med hänsyn till arvsvinster",
     "paragraf_underrubrik": "Arvsvinstfaktorer vid dödsfall fyra eller färre år före riktåldern för pension",
     "referens": "Lag (2022:879)",
     "versionStatus": "UNTAGGED"
@@ -22699,7 +22798,7 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Inkomstpension",
-    "paragraf_rubrik": "Allmänna bestämmelser om pensionsbehållning",
+    "paragraf_rubrik": "Omräkning av pensionsbehållning med hänsyn till arvsvinster",
     "paragraf_underrubrik": "Arvsvinstfaktorer vid dödsfall fyra eller färre år före riktåldern för pension",
     "referens": "Lag (2022:879)",
     "versionStatus": "UNTAGGED"
@@ -22745,19 +22844,6 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "I vilken ordning ska omräkning ske?",
-    "kapitel": "62",
-    "paragraf": "19",
-    "stycke": 2,
-    "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-    "underavdelning": "III Inkomstgrundad ålderspension",
-    "kapitel_namn": "Inkomstpension",
-    "paragraf_rubrik": "Omräkning med hänsyn till inkomstindex",
-    "paragraf_underrubrik": "Allmänna bestämmelser",
-    "versionStatus": "UNTAGGED"
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
     "text": "Omräkningen av pensionsbehållningen med hänsyn till inkomstindex eller balansindex ska göras efter det att pensionsrätt för närmast föregående år har fastställts och arvsvinstomräkningen enligt 9-17 §§ har gjorts.",
     "kapitel": "62",
     "paragraf": "20",
@@ -22766,7 +22852,7 @@
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Inkomstpension",
     "paragraf_rubrik": "Omräkning med hänsyn till inkomstindex",
-    "paragraf_underrubrik": "Allmänna bestämmelser",
+    "paragraf_underrubrik": "I vilken ordning ska omräkning ske?",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -22923,15 +23009,40 @@
     "kapitel_namn": "Inkomstpension",
     "paragraf_rubrik": "Beräkning av årlig inkomstpension",
     "paragraf_underrubrik": "Beräkning av pensionsbehållning",
-    "referens": "Lag (2010:1307)",
     "versionStatus": "UNTAGGED"
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Om den pension som tagits ut har begränsats till viss andel av hel förmån (partiellt uttag), ska minskningen av pensionsbehållningen begränsas till motsvarande andel. 32 § Minskning enligt 31 § ska inte göras i fråga om belopp som pensionsbehållningen har ökats med enligt 8 §. 33 § Om inkomstpension tas ut med tre fjärdedelar, hälften eller en fjärdedel av hel förmån, ska beräkningsreglerna i 30-32 §§ tillämpas endast på så stor andel av pensionsbehållningen som motsvarar respektive förmånsnivå.\nDelningstal",
+    "text": "Om den pension som tagits ut har begränsats till viss andel av hel förmån (partiellt uttag), ska minskningen av pensionsbehållningen begränsas till motsvarande andel.",
     "kapitel": "62",
     "paragraf": "31",
     "stycke": 2,
+    "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
+    "underavdelning": "III Inkomstgrundad ålderspension",
+    "kapitel_namn": "Inkomstpension",
+    "paragraf_rubrik": "Beräkning av årlig inkomstpension",
+    "paragraf_underrubrik": "Beräkning av pensionsbehållning",
+    "versionStatus": "UNTAGGED"
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "text": "Minskning enligt 31 § ska inte göras i fråga om belopp som pensionsbehållningen har ökats med enligt 8 §.",
+    "kapitel": "62",
+    "paragraf": "32",
+    "stycke": 1,
+    "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
+    "underavdelning": "III Inkomstgrundad ålderspension",
+    "kapitel_namn": "Inkomstpension",
+    "paragraf_rubrik": "Beräkning av årlig inkomstpension",
+    "paragraf_underrubrik": "Beräkning av pensionsbehållning",
+    "versionStatus": "UNTAGGED"
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "text": "Om inkomstpension tas ut med tre fjärdedelar, hälften eller en fjärdedel av hel förmån, ska beräkningsreglerna i 30-32 §§ tillämpas endast på så stor andel av pensionsbehållningen som motsvarar respektive förmånsnivå.",
+    "kapitel": "62",
+    "paragraf": "33",
+    "stycke": 1,
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Inkomstpension",
@@ -22950,7 +23061,7 @@
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Inkomstpension",
     "paragraf_rubrik": "Beräkning av årlig inkomstpension",
-    "paragraf_underrubrik": "Beräkning av pensionsbehållning",
+    "paragraf_underrubrik": "Delningstal",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -22963,7 +23074,7 @@
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Inkomstpension",
     "paragraf_rubrik": "Beräkning av årlig inkomstpension",
-    "paragraf_underrubrik": "Beräkning av pensionsbehållning",
+    "paragraf_underrubrik": "Delningstal",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -22976,7 +23087,7 @@
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Inkomstpension",
     "paragraf_rubrik": "Beräkning av årlig inkomstpension",
-    "paragraf_underrubrik": "Beräkning av pensionsbehållning",
+    "paragraf_underrubrik": "Delningstal",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -22989,7 +23100,7 @@
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Inkomstpension",
     "paragraf_rubrik": "Beräkning av årlig inkomstpension",
-    "paragraf_underrubrik": "Beräkning av pensionsbehållning",
+    "paragraf_underrubrik": "Delningstal",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -23289,7 +23400,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Bestämmelser om garantitillägg för försäkrade födda något av åren 1938-1953 finns i 18-22 §§.\nAvkortning när den försäkrade inte kan tillgodoräknas 30 år med pensionspoäng",
+    "text": "Bestämmelser om garantitillägg för försäkrade födda något av åren 1938-1953 finns i 18-22 §§.",
     "kapitel": "63",
     "paragraf": "7",
     "stycke": 1,
@@ -23310,7 +23421,7 @@
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Tilläggspension",
     "paragraf_rubrik": "Beräkning av årlig tilläggspension",
-    "paragraf_underrubrik": "Ersättningsnivåer m.m.",
+    "paragraf_underrubrik": "Avkortning när den försäkrade inte kan tillgodoräknas 30 år med pensionspoäng",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -23323,7 +23434,7 @@
     "underavdelning": "III Inkomstgrundad ålderspension",
     "kapitel_namn": "Tilläggspension",
     "paragraf_rubrik": "Beräkning av årlig tilläggspension",
-    "paragraf_underrubrik": "Ersättningsnivåer m.m.",
+    "paragraf_underrubrik": "Avkortning när den försäkrade inte kan tillgodoräknas 30 år med pensionspoäng",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -25889,20 +26000,6 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Uttag av inkomstgrundad ålderspension från en annan tidpunkt än vid riktåldern för pension för den som är född 1958 eller 1959",
-    "kapitel": "67",
-    "paragraf": "20a",
-    "stycke": 2,
-    "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
-    "underavdelning": "IV Garantipension",
-    "kapitel_namn": "Garantipension för den som är född 1938 eller senare",
-    "paragraf_rubrik": "Beräkningsunderlag för garantipension",
-    "paragraf_underrubrik": "Uttag av inkomstgrundad ålderspension från en annan tidpunkt än vid 65 års ålder för den som är född 1954-1957",
-    "referens": "Lag (2022:878)",
-    "versionStatus": "UNTAGGED"
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
     "text": "Om den försäkrade är född 1958 eller 1959 och har rätt till inkomstpension, ska beräkningsunderlaget alltid bestämmas som om inkomstpensionen hade börjat lyftas den kalendermånad då den försäkrade fyller 66 år.",
     "kapitel": "67",
     "paragraf": "20b",
@@ -25911,7 +26008,7 @@
     "underavdelning": "IV Garantipension",
     "kapitel_namn": "Garantipension för den som är född 1938 eller senare",
     "paragraf_rubrik": "Beräkningsunderlag för garantipension",
-    "paragraf_underrubrik": "Uttag av inkomstgrundad ålderspension från en annan tidpunkt än vid 65 års ålder för den som är född 1954-1957",
+    "paragraf_underrubrik": "Uttag av inkomstgrundad ålderspension från en annan tidpunkt än vid riktåldern för pension för den som är född 1958 eller 1959",
     "referens": "Lag (2022:879)",
     "versionStatus": "UNTAGGED"
   },
@@ -26191,7 +26288,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Garantipension ska på motsvarande sätt som anges i 6 § minskas med livränta som den försäkrade får som efterlevande i annat fall än som avses i 87 och 88 kap.\nLivränta med engångsbelopp 9 § Har livränta eller del av livränta eller livränta för viss tid bytts ut mot ett engångsbelopp, ska det vid beräkningen anses som om livränta lämnas eller som om den livränta som lämnas har höjts med ett belopp som motsvarar engångsbeloppet enligt de försäkringstekniska grunder som tillämpades vid utbytet.",
+    "text": "Garantipension ska på motsvarande sätt som anges i 6 § minskas med livränta som den försäkrade får som efterlevande i annat fall än som avses i 87 och 88 kap.",
     "kapitel": "69",
     "paragraf": "8",
     "stycke": 1,
@@ -26200,6 +26297,19 @@
     "kapitel_namn": "Samordning av allmän ålderspension och yrkesskadelivränta",
     "paragraf_rubrik": "Hur samordning ska ske",
     "paragraf_underrubrik": "Grundläggande bestämmelser",
+    "versionStatus": "UNTAGGED"
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "text": "Har livränta eller del av livränta eller livränta för viss tid bytts ut mot ett engångsbelopp, ska det vid beräkningen anses som om livränta lämnas eller som om den livränta som lämnas har höjts med ett belopp som motsvarar engångsbeloppet enligt de försäkringstekniska grunder som tillämpades vid utbytet.",
+    "kapitel": "69",
+    "paragraf": "9",
+    "stycke": 1,
+    "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
+    "underavdelning": "IV Garantipension",
+    "kapitel_namn": "Samordning av allmän ålderspension och yrkesskadelivränta",
+    "paragraf_rubrik": "Hur samordning ska ske",
+    "paragraf_underrubrik": "Livränta med engångsbelopp",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -26294,7 +26404,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Den som ett beslut om ändring enligt 2 § avser ska skriftligen underrättas om ändringen och om hur man begär omprövning av beslutet.\nÖverförd pensionsrätt för premiepension",
+    "text": "Den som ett beslut om ändring enligt 2 § avser ska skriftligen underrättas om ändringen och om hur man begär omprövning av beslutet.",
     "kapitel": "70",
     "paragraf": "3",
     "stycke": 1,
@@ -26313,7 +26423,7 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "IV Garantipension",
     "kapitel_namn": "Ändring av beräkningsunderlag för allmän ålderspension",
-    "paragraf_rubrik": "Inkomstgrundad ålderspension",
+    "paragraf_rubrik": "Överförd pensionsrätt för premiepension",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -26366,6 +26476,19 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
+    "text": "När inkomstpension, tilläggspension eller garantipension beräknas för månad ska den årspension som beräkningen grundar sig på avrundas till närmaste hela krontal som är jämnt delbart med tolv.",
+    "kapitel": "71",
+    "paragraf": "3",
+    "stycke": 1,
+    "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
+    "underavdelning": "IV Garantipension",
+    "kapitel_namn": "Utbetalning av allmän ålderspension",
+    "paragraf_rubrik": "Avrundning",
+    "paragraf_underrubrik": "Inkomstpension, tilläggspension och garantipension",
+    "versionStatus": "UNTAGGED"
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
     "text": "Vid beräkning enligt 3 § ska pensioner som betalas ut samtidigt anses som en enda pension.\nOm inkomst- eller tilläggspension betalas ut samtidigt med garantipension, ska avrundningen enligt 3 § göras på garantipensionen.",
     "kapitel": "71",
     "paragraf": "4",
@@ -26374,6 +26497,7 @@
     "underavdelning": "IV Garantipension",
     "kapitel_namn": "Utbetalning av allmän ålderspension",
     "paragraf_rubrik": "Avrundning",
+    "paragraf_underrubrik": "Inkomstpension, tilläggspension och garantipension",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -26385,7 +26509,8 @@
     "avdelning": "E FÖRMÅNER VID ÅLDERDOM",
     "underavdelning": "IV Garantipension",
     "kapitel_namn": "Utbetalning av allmän ålderspension",
-    "paragraf_rubrik": "Premiepension",
+    "paragraf_rubrik": "Avrundning",
+    "paragraf_underrubrik": "Premiepension",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -28913,7 +29038,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Vid bedömningen av om villkoret i 11 § är uppfyllt ska hänsyn även tas till sådana år efter dödsfallet för vilka antagen pensionsbehållning enligt 14-19 §§ ska beräknas.\nBeräkning av antagen pensionsbehållning",
+    "text": "Vid bedömningen av om villkoret i 11 § är uppfyllt ska hänsyn även tas till sådana år efter dödsfallet för vilka antagen pensionsbehållning enligt 14-19 §§ ska beräknas.",
     "kapitel": "82",
     "paragraf": "13",
     "stycke": 1,
@@ -28934,7 +29059,7 @@
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Beräkningsunderlag för inkomstgrundad efterlevandepension",
     "paragraf_rubrik": "Pensionsbehållning efter avlidna som var födda 1938 eller senare och som avlidit före uppnådd riktålder för pension",
-    "paragraf_underrubrik": "Beräkning av faktisk pensionsbehållning",
+    "paragraf_underrubrik": "Beräkning av antagen pensionsbehållning",
     "referens": "Lag (2022:879)",
     "versionStatus": "UNTAGGED"
   },
@@ -28948,7 +29073,7 @@
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Beräkningsunderlag för inkomstgrundad efterlevandepension",
     "paragraf_rubrik": "Pensionsbehållning efter avlidna som var födda 1938 eller senare och som avlidit före uppnådd riktålder för pension",
-    "paragraf_underrubrik": "Beräkning av faktisk pensionsbehållning",
+    "paragraf_underrubrik": "Beräkning av antagen pensionsbehållning",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -28961,7 +29086,7 @@
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Beräkningsunderlag för inkomstgrundad efterlevandepension",
     "paragraf_rubrik": "Pensionsbehållning efter avlidna som var födda 1938 eller senare och som avlidit före uppnådd riktålder för pension",
-    "paragraf_underrubrik": "Beräkning av faktisk pensionsbehållning",
+    "paragraf_underrubrik": "Beräkning av antagen pensionsbehållning",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -28974,7 +29099,7 @@
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Beräkningsunderlag för inkomstgrundad efterlevandepension",
     "paragraf_rubrik": "Pensionsbehållning efter avlidna som var födda 1938 eller senare och som avlidit före uppnådd riktålder för pension",
-    "paragraf_underrubrik": "Beräkning av faktisk pensionsbehållning",
+    "paragraf_underrubrik": "Beräkning av antagen pensionsbehållning",
     "referens": "Lag (2022:879)",
     "versionStatus": "UNTAGGED"
   },
@@ -28988,7 +29113,7 @@
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Beräkningsunderlag för inkomstgrundad efterlevandepension",
     "paragraf_rubrik": "Pensionsbehållning efter avlidna som var födda 1938 eller senare och som avlidit före uppnådd riktålder för pension",
-    "paragraf_underrubrik": "Beräkning av faktisk pensionsbehållning",
+    "paragraf_underrubrik": "Beräkning av antagen pensionsbehållning",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -29001,7 +29126,7 @@
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Beräkningsunderlag för inkomstgrundad efterlevandepension",
     "paragraf_rubrik": "Pensionsbehållning efter avlidna som var födda 1938 eller senare och som avlidit före uppnådd riktålder för pension",
-    "paragraf_underrubrik": "Beräkning av faktisk pensionsbehållning",
+    "paragraf_underrubrik": "Beräkning av antagen pensionsbehållning",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -29014,7 +29139,7 @@
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Beräkningsunderlag för inkomstgrundad efterlevandepension",
     "paragraf_rubrik": "Pensionsbehållning efter avlidna som var födda 1938 eller senare och som avlidit före uppnådd riktålder för pension",
-    "paragraf_underrubrik": "Beräkning av faktisk pensionsbehållning",
+    "paragraf_underrubrik": "Beräkning av antagen pensionsbehållning",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -29215,19 +29340,6 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Rätten till 90-procentstillägg",
-    "kapitel": "83",
-    "paragraf": "5",
-    "stycke": 2,
-    "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
-    "underavdelning": "II Efterlevandepension och efterlevandestöd",
-    "kapitel_namn": "Änkepension",
-    "paragraf_rubrik": "Rätten till änkepension på grundval av pensionspoäng",
-    "paragraf_underrubrik": "Änkor födda 1945 eller senare",
-    "versionStatus": "UNTAGGED"
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
     "text": "En änka som är född 1945 eller senare har rätt till 90- procentstillägg om hon, utöver vad som krävs enligt 3 och 5 §§, uppfyller villkoren i 7 §.",
     "kapitel": "83",
     "paragraf": "6",
@@ -29236,7 +29348,7 @@
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Änkepension",
     "paragraf_rubrik": "Rätten till änkepension på grundval av pensionspoäng",
-    "paragraf_underrubrik": "Änkor födda 1945 eller senare",
+    "paragraf_underrubrik": "Rätten till 90-procentstillägg",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -29249,7 +29361,7 @@
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Änkepension",
     "paragraf_rubrik": "Rätten till änkepension på grundval av pensionspoäng",
-    "paragraf_underrubrik": "Änkor födda 1945 eller senare",
+    "paragraf_underrubrik": "Rätten till 90-procentstillägg",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -29262,7 +29374,7 @@
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Änkepension",
     "paragraf_rubrik": "Rätten till änkepension på grundval av pensionspoäng",
-    "paragraf_underrubrik": "Änkor födda 1945 eller senare",
+    "paragraf_underrubrik": "Rätten till 90-procentstillägg",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -29292,18 +29404,6 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Änkor som är födda 1944 eller tidigare",
-    "kapitel": "84",
-    "paragraf": "1",
-    "stycke": 2,
-    "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
-    "underavdelning": "II Efterlevandepension och efterlevandestöd",
-    "kapitel_namn": "Beräkning av änkepension",
-    "paragraf_rubrik": "Innehåll",
-    "versionStatus": "UNTAGGED"
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
     "text": "Änkepension till en änka som är född 1944 eller tidigare ska för år räknat motsvara 40 procent eller, om det efter den avlidne finns barn som har rätt till barnpension efter honom enligt 78 kap., 35 procent av\n1. hel förtidspension enligt 4 § för den avlidne, eller\n2. inkomstgrundad ålderspension enligt 5 § för den avlidne.",
     "kapitel": "84",
     "paragraf": "2",
@@ -29311,7 +29411,8 @@
     "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Beräkning av änkepension",
-    "paragraf_rubrik": "Grundläggande bestämmelser",
+    "paragraf_rubrik": "Änkor som är födda 1944 eller tidigare",
+    "paragraf_underrubrik": "Grundläggande bestämmelser",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -29323,7 +29424,8 @@
     "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Beräkning av änkepension",
-    "paragraf_rubrik": "Grundläggande bestämmelser",
+    "paragraf_rubrik": "Änkor som är födda 1944 eller tidigare",
+    "paragraf_underrubrik": "Grundläggande bestämmelser",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -29335,7 +29437,8 @@
     "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Beräkning av änkepension",
-    "paragraf_rubrik": "Grundläggande bestämmelser",
+    "paragraf_rubrik": "Änkor som är födda 1944 eller tidigare",
+    "paragraf_underrubrik": "Grundläggande bestämmelser",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -29347,7 +29450,8 @@
     "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Beräkning av änkepension",
-    "paragraf_rubrik": "Grundläggande bestämmelser",
+    "paragraf_rubrik": "Änkor som är födda 1944 eller tidigare",
+    "paragraf_underrubrik": "Grundläggande bestämmelser",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -29359,7 +29463,8 @@
     "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Beräkning av änkepension",
-    "paragraf_rubrik": "Grundläggande bestämmelser",
+    "paragraf_rubrik": "Änkor som är födda 1944 eller tidigare",
+    "paragraf_underrubrik": "Grundläggande bestämmelser",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -29371,7 +29476,8 @@
     "avdelning": "F FÖRMÅNER TILL EFTERLEVANDE",
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Beräkning av änkepension",
-    "paragraf_rubrik": "Grundläggande bestämmelser",
+    "paragraf_rubrik": "Änkor som är födda 1944 eller tidigare",
+    "paragraf_underrubrik": "Grundläggande bestämmelser",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -29390,7 +29496,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Beloppet enligt 6 § 1 ska beräknas på grundval av den förtidspension som skulle ha lämnats till mannen om denne hade fått rätt till hel sådan pension vid utgången av 1989 och om pensionen då hade beräknats med tillämpning av 13 kap. 3 § i den upphävda lagen (1962:381) om allmän försäkring.\nOm mannen vid utgången av 1989 hade rätt till tilläggspension i form av ålderspension, ska dock beloppet enligt 6 § 1 beräknas med tillämpning av 12 kap. 2 § första och andra styckena i den upphävda lagen om allmän försäkring i deras lydelse vid utgången av 1989.\nMinskning av 90-procentstillägg för änkor som inte hade fyllt 50 år vid makens död",
+    "text": "Beloppet enligt 6 § 1 ska beräknas på grundval av den förtidspension som skulle ha lämnats till mannen om denne hade fått rätt till hel sådan pension vid utgången av 1989 och om pensionen då hade beräknats med tillämpning av 13 kap. 3 § i den upphävda lagen (1962:381) om allmän försäkring.\nOm mannen vid utgången av 1989 hade rätt till tilläggspension i form av ålderspension, ska dock beloppet enligt 6 § 1 beräknas med tillämpning av 12 kap. 2 § första och andra styckena i den upphävda lagen om allmän försäkring i deras lydelse vid utgången av 1989.",
     "kapitel": "84",
     "paragraf": "7",
     "stycke": 1,
@@ -29411,7 +29517,7 @@
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Beräkning av änkepension",
     "paragraf_rubrik": "Änkor som är födda 1945 eller senare",
-    "paragraf_underrubrik": "Grundläggande bestämmelser",
+    "paragraf_underrubrik": "Minskning av 90-procentstillägg för änkor som inte hade fyllt 50 år vid makens död",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -29424,7 +29530,7 @@
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Beräkning av änkepension",
     "paragraf_rubrik": "Änkor som är födda 1945 eller senare",
-    "paragraf_underrubrik": "Grundläggande bestämmelser",
+    "paragraf_underrubrik": "Minskning av 90-procentstillägg för änkor som inte hade fyllt 50 år vid makens död",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -29546,7 +29652,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Vid tillämpning av 12 och 13 §§ ska, om pensionspoäng till följd av bristande eller underlåten avgiftsbetalning inte har tillgodoräknats eller har minskats, hänsyn tas till den ålderspension i form av tilläggspension som skulle ha betalats ut om full avgift hade betalats.\nÄnkor födda 1954 eller senare",
+    "text": "Vid tillämpning av 12 och 13 §§ ska, om pensionspoäng till följd av bristande eller underlåten avgiftsbetalning inte har tillgodoräknats eller har minskats, hänsyn tas till den ålderspension i form av tilläggspension som skulle ha betalats ut om full avgift hade betalats.",
     "kapitel": "84",
     "paragraf": "15",
     "stycke": 1,
@@ -29567,7 +29673,7 @@
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Beräkning av änkepension",
     "paragraf_rubrik": "Samordning med inkomstgrundad ålderspension",
-    "paragraf_underrubrik": "Obetalda avgifter för änkor födda 1930-1953",
+    "paragraf_underrubrik": "Änkor födda 1954 eller senare",
     "referens": "Lag (2022:879)",
     "versionStatus": "UNTAGGED"
   },
@@ -29581,7 +29687,7 @@
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Beräkning av änkepension",
     "paragraf_rubrik": "Samordning med inkomstgrundad ålderspension",
-    "paragraf_underrubrik": "Obetalda avgifter för änkor födda 1930-1953",
+    "paragraf_underrubrik": "Änkor födda 1954 eller senare",
     "referens": "Lag (2022:879)",
     "versionStatus": "UNTAGGED"
   },
@@ -29595,7 +29701,7 @@
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Beräkning av änkepension",
     "paragraf_rubrik": "Samordning med inkomstgrundad ålderspension",
-    "paragraf_underrubrik": "Obetalda avgifter för änkor födda 1930-1953",
+    "paragraf_underrubrik": "Änkor födda 1954 eller senare",
     "referens": "Lag (2022:879)",
     "versionStatus": "UNTAGGED"
   },
@@ -29609,7 +29715,7 @@
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Beräkning av änkepension",
     "paragraf_rubrik": "Samordning med inkomstgrundad ålderspension",
-    "paragraf_underrubrik": "Obetalda avgifter för änkor födda 1930-1953",
+    "paragraf_underrubrik": "Änkor födda 1954 eller senare",
     "referens": "Lag (2022:879)",
     "versionStatus": "UNTAGGED"
   },
@@ -29623,7 +29729,7 @@
     "underavdelning": "II Efterlevandepension och efterlevandestöd",
     "kapitel_namn": "Beräkning av änkepension",
     "paragraf_rubrik": "Samordning med inkomstgrundad ålderspension",
-    "paragraf_underrubrik": "Obetalda avgifter för änkor födda 1930-1953",
+    "paragraf_underrubrik": "Änkor födda 1954 eller senare",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -31876,7 +31982,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Om den bidragsgrundande inkomsten överstiger 41 000 kronor för en försäkrad, eller 58 000 kronor för makar, ska bidraget minskas med en tredjedel av den överskjutande inkomsten. 25 § Bidrag som beräknas till mindre belopp än 1 200 kronor för helt år betalas inte ut.",
+    "text": "Om den bidragsgrundande inkomsten överstiger 41 000 kronor för en försäkrad, eller 58 000 kronor för makar, ska bidraget minskas med en tredjedel av den överskjutande inkomsten.",
     "kapitel": "97",
     "paragraf": "24",
     "stycke": 2,
@@ -31889,7 +31995,20 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Bostadsbidrag i form av bidrag till kostnaderna för bostaden lämnas med 90 procent av den del av bostadskostnaden per månad som överstiger 1 800 kronor men inte 2 600 kronor.\n. 27 § Om bostadskostnaden överstiger 2 600 kronor lämnas bostadsbidrag med 65 procent av den överskjutande bostadskostnaden per månad upp till 3 600 kronor.",
+    "text": "Bidrag som beräknas till mindre belopp än 1 200 kronor för helt år betalas inte ut.",
+    "kapitel": "97",
+    "paragraf": "25",
+    "stycke": 1,
+    "avdelning": "G BOSTADSSTÖD",
+    "underavdelning": "II Bostadsbidrag",
+    "kapitel_namn": "Beräkning av bostadsbidrag",
+    "paragraf_rubrik": "Beräkning av bostadsbidrag till hushåll utan barn",
+    "paragraf_underrubrik": "Grundläggande bestämmelser",
+    "versionStatus": "UNTAGGED"
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "text": "Bostadsbidrag i form av bidrag till kostnaderna för bostaden lämnas med 90 procent av den del av bostadskostnaden per månad som överstiger 1 800 kronor men inte 2 600 kronor.",
     "kapitel": "97",
     "paragraf": "26",
     "stycke": 1,
@@ -31903,9 +32022,23 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
+    "text": "Om bostadskostnaden överstiger 2 600 kronor lämnas bostadsbidrag med 65 procent av den överskjutande bostadskostnaden per månad upp till 3 600 kronor.",
+    "kapitel": "97",
+    "paragraf": "27",
+    "stycke": 1,
+    "avdelning": "G BOSTADSSTÖD",
+    "underavdelning": "II Bostadsbidrag",
+    "kapitel_namn": "Beräkning av bostadsbidrag",
+    "paragraf_rubrik": "Beräkning av bostadsbidrag till hushåll utan barn",
+    "paragraf_underrubrik": "Bidrag till kostnader för bostad",
+    "referens": "Lag (2011:1520)",
+    "versionStatus": "UNTAGGED"
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
     "text": "Högre bostadskostnad än som anges i första stycket får beaktas, om den försäkrade eller hans eller hennes make är funktionshindrad.",
     "kapitel": "97",
-    "paragraf": "26",
+    "paragraf": "27",
     "stycke": 2,
     "avdelning": "G BOSTADSSTÖD",
     "underavdelning": "II Bostadsbidrag",
@@ -32067,7 +32200,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "På belopp som ska betalas tillbaka enligt 6 § första stycket ska en avgift betalas. Avgiften på återbetalningsbeloppet beräknas med ledning av den statslåneränta som gällde vid utgången av det kalenderår som bidraget avser.\nRegeringen eller den myndighet som regeringen bestämmer meddelar närmare föreskrifter om beräkningen av tillägget och avgiften.\nOmprövning vid ändrade förhållanden",
+    "text": "På belopp som ska betalas tillbaka enligt 6 § första stycket ska en avgift betalas. Avgiften på återbetalningsbeloppet beräknas med ledning av den statslåneränta som gällde vid utgången av det kalenderår som bidraget avser.\nRegeringen eller den myndighet som regeringen bestämmer meddelar närmare föreskrifter om beräkningen av tillägget och avgiften.",
     "kapitel": "98",
     "paragraf": "7",
     "stycke": 2,
@@ -32086,7 +32219,7 @@
     "avdelning": "G BOSTADSSTÖD",
     "underavdelning": "II Bostadsbidrag",
     "kapitel_namn": "Särskilda handläggningsregler för bostadsbidrag",
-    "paragraf_rubrik": "Slutligt bostadsbidrag",
+    "paragraf_rubrik": "Omprövning vid ändrade förhållanden",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -32098,7 +32231,7 @@
     "avdelning": "G BOSTADSSTÖD",
     "underavdelning": "II Bostadsbidrag",
     "kapitel_namn": "Särskilda handläggningsregler för bostadsbidrag",
-    "paragraf_rubrik": "Slutligt bostadsbidrag",
+    "paragraf_rubrik": "Omprövning vid ändrade förhållanden",
     "referens": "Lag (2025:1546)",
     "versionStatus": "UNTAGGED"
   },
@@ -32111,7 +32244,7 @@
     "avdelning": "G BOSTADSSTÖD",
     "underavdelning": "II Bostadsbidrag",
     "kapitel_namn": "Särskilda handläggningsregler för bostadsbidrag",
-    "paragraf_rubrik": "Slutligt bostadsbidrag",
+    "paragraf_rubrik": "Omprövning vid ändrade förhållanden",
     "referens": "Lag (2025:1546)",
     "versionStatus": "UNTAGGED"
   },
@@ -32300,19 +32433,6 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Särskilt om sjukersättning eller aktivitetsersättning",
-    "kapitel": "101",
-    "paragraf": "3",
-    "stycke": 2,
-    "avdelning": "G BOSTADSSTÖD",
-    "underavdelning": "III Bostadstillägg",
-    "kapitel_namn": "Rätten till bostadstillägg",
-    "paragraf_rubrik": "Förmåner som kan ge rätt till bostadstillägg",
-    "paragraf_underrubrik": "Huvudregel",
-    "versionStatus": "UNTAGGED"
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
     "text": "Bostadstillägg kan lämnas även när sjukersättning eller aktivitetsersättning har förklarats vilande enligt 36 kap. 13-15 §§ eller inte lämnas på grund av bestämmelserna i 106 kap. 16 §.",
     "kapitel": "101",
     "paragraf": "4",
@@ -32321,7 +32441,7 @@
     "underavdelning": "III Bostadstillägg",
     "kapitel_namn": "Rätten till bostadstillägg",
     "paragraf_rubrik": "Förmåner som kan ge rätt till bostadstillägg",
-    "paragraf_underrubrik": "Huvudregel",
+    "paragraf_underrubrik": "Särskilt om sjukersättning eller aktivitetsersättning",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -32334,7 +32454,7 @@
     "underavdelning": "III Bostadstillägg",
     "kapitel_namn": "Rätten till bostadstillägg",
     "paragraf_rubrik": "Förmåner som kan ge rätt till bostadstillägg",
-    "paragraf_underrubrik": "Huvudregel",
+    "paragraf_underrubrik": "Särskilt om sjukersättning eller aktivitetsersättning",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -32499,7 +32619,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "I fråga om en försäkrad som är gift beräknas den bidragsgrundande inkomsten för den försäkrade och hans eller hennes make var för sig.\nReduceringsinkomst",
+    "text": "I fråga om en försäkrad som är gift beräknas den bidragsgrundande inkomsten för den försäkrade och hans eller hennes make var för sig.",
     "kapitel": "102",
     "paragraf": "4",
     "stycke": 1,
@@ -32520,12 +32640,12 @@
     "underavdelning": "III Bostadstillägg",
     "kapitel_namn": "Beräkning av bostadstillägg",
     "paragraf_rubrik": "Allmänna bestämmelser",
-    "paragraf_underrubrik": "Bidragsgrundande inkomst",
+    "paragraf_underrubrik": "Reduceringsinkomst",
     "versionStatus": "UNTAGGED"
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "I fråga om makar ska reduceringsinkomsten för var och en av dem beräknas utgöra hälften av deras sammanlagda reduceringsinkomst.\nBeräkning av bidragsgrundande inkomst",
+    "text": "I fråga om makar ska reduceringsinkomsten för var och en av dem beräknas utgöra hälften av deras sammanlagda reduceringsinkomst.",
     "kapitel": "102",
     "paragraf": "6",
     "stycke": 1,
@@ -32533,7 +32653,7 @@
     "underavdelning": "III Bostadstillägg",
     "kapitel_namn": "Beräkning av bostadstillägg",
     "paragraf_rubrik": "Allmänna bestämmelser",
-    "paragraf_underrubrik": "Bidragsgrundande inkomst",
+    "paragraf_underrubrik": "Reduceringsinkomst",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -32545,7 +32665,7 @@
     "avdelning": "G BOSTADSSTÖD",
     "underavdelning": "III Bostadstillägg",
     "kapitel_namn": "Beräkning av bostadstillägg",
-    "paragraf_rubrik": "Allmänna bestämmelser",
+    "paragraf_rubrik": "Beräkning av bidragsgrundande inkomst",
     "paragraf_underrubrik": "Grundläggande bestämmelse",
     "referens": "Lag (2020:1239)",
     "versionStatus": "UNTAGGED"
@@ -32559,7 +32679,7 @@
     "avdelning": "G BOSTADSSTÖD",
     "underavdelning": "III Bostadstillägg",
     "kapitel_namn": "Beräkning av bostadstillägg",
-    "paragraf_rubrik": "Allmänna bestämmelser",
+    "paragraf_rubrik": "Beräkning av bidragsgrundande inkomst",
     "paragraf_underrubrik": "Inkomstslaget näringsverksamhet",
     "referens": "Lag (2011:1075)",
     "versionStatus": "UNTAGGED"
@@ -32573,7 +32693,7 @@
     "avdelning": "G BOSTADSSTÖD",
     "underavdelning": "III Bostadstillägg",
     "kapitel_namn": "Beräkning av bostadstillägg",
-    "paragraf_rubrik": "Allmänna bestämmelser",
+    "paragraf_rubrik": "Beräkning av bidragsgrundande inkomst",
     "paragraf_underrubrik": "Inkomstslaget kapital",
     "versionStatus": "UNTAGGED"
   },
@@ -32586,7 +32706,7 @@
     "avdelning": "G BOSTADSSTÖD",
     "underavdelning": "III Bostadstillägg",
     "kapitel_namn": "Beräkning av bostadstillägg",
-    "paragraf_rubrik": "Allmänna bestämmelser",
+    "paragraf_rubrik": "Beräkning av bidragsgrundande inkomst",
     "paragraf_underrubrik": "Förmögenhet",
     "referens": "Lag (2012:599)",
     "versionStatus": "UNTAGGED"
@@ -32600,7 +32720,7 @@
     "avdelning": "G BOSTADSSTÖD",
     "underavdelning": "III Bostadstillägg",
     "kapitel_namn": "Beräkning av bostadstillägg",
-    "paragraf_rubrik": "Allmänna bestämmelser",
+    "paragraf_rubrik": "Beräkning av bidragsgrundande inkomst",
     "paragraf_underrubrik": "Förmögenhet",
     "versionStatus": "UNTAGGED"
   },
@@ -32613,7 +32733,7 @@
     "avdelning": "G BOSTADSSTÖD",
     "underavdelning": "III Bostadstillägg",
     "kapitel_namn": "Beräkning av bostadstillägg",
-    "paragraf_rubrik": "Allmänna bestämmelser",
+    "paragraf_rubrik": "Beräkning av bidragsgrundande inkomst",
     "paragraf_underrubrik": "Förmögenhet",
     "versionStatus": "UNTAGGED"
   },
@@ -32626,7 +32746,7 @@
     "avdelning": "G BOSTADSSTÖD",
     "underavdelning": "III Bostadstillägg",
     "kapitel_namn": "Beräkning av bostadstillägg",
-    "paragraf_rubrik": "Allmänna bestämmelser",
+    "paragraf_rubrik": "Beräkning av bidragsgrundande inkomst",
     "paragraf_underrubrik": "Förmögenhet",
     "versionStatus": "UNTAGGED"
   },
@@ -32639,7 +32759,7 @@
     "avdelning": "G BOSTADSSTÖD",
     "underavdelning": "III Bostadstillägg",
     "kapitel_namn": "Beräkning av bostadstillägg",
-    "paragraf_rubrik": "Allmänna bestämmelser",
+    "paragraf_rubrik": "Beräkning av bidragsgrundande inkomst",
     "paragraf_underrubrik": "Vissa andra inkomster",
     "referens": "Lag (2015:758)",
     "versionStatus": "UNTAGGED"
@@ -34310,7 +34430,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Ska ersättning betalas ut endast för del av en kalendermånad, beräknas ersättningen för varje dag till en trettiondel av månadsbeloppet och avrundas till närmaste högre krontal. Detsamma gäller om garantipension till omställningspension ska minskas enligt 30 § för del av kalendermånad.\nBestämmelserna i första stycket gäller inte för förmåner som beräknas per dag.\nAvdrag för kostnader för uppehälle",
+    "text": "Ska ersättning betalas ut endast för del av en kalendermånad, beräknas ersättningen för varje dag till en trettiondel av månadsbeloppet och avrundas till närmaste högre krontal. Detsamma gäller om garantipension till omställningspension ska minskas enligt 30 § för del av kalendermånad.\nBestämmelserna i första stycket gäller inte för förmåner som beräknas per dag.",
     "kapitel": "106",
     "paragraf": "37",
     "stycke": 1,
@@ -34331,13 +34451,13 @@
     "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
     "kapitel_namn": "Förmåner vid verkställighet i anstalt eller vård på institution m.m.",
     "paragraf_rubrik": "Gemensamma bestämmelser",
-    "paragraf_underrubrik": "Ersättning endast för del av kalendermånad",
+    "paragraf_underrubrik": "Avdrag för kostnader för uppehälle",
     "referens": "Lag (2011:1434)",
     "versionStatus": "UNTAGGED"
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "När det gäller graviditetspenning, tillfällig föräldrapenning, sjukpenning, rehabiliteringspenning och smittbärarpenning ska det innehållna beloppet betalas ut till den som har begärt avdraget.\n. 39 § Avdrag för kostnad som avses i 38 § ska beräknas till 80 kronor för dag.\nNär det gäller graviditetspenning, tillfällig föräldrapenning, sjukpenning, rehabiliteringspenning och smittbärarpenning får avdraget utgöra högst en tredjedel av ersättningens belopp efter skatteavdrag. I övriga fall får avdraget utgöra högst en tredjedel av förmånernas månadsbelopp efter skatteavdrag delat med 30. Avdraget på förmånen ska avrundas till närmaste lägre krontal.",
+    "text": "När det gäller graviditetspenning, tillfällig föräldrapenning, sjukpenning, rehabiliteringspenning och smittbärarpenning ska det innehållna beloppet betalas ut till den som har begärt avdraget.",
     "kapitel": "106",
     "paragraf": "38",
     "stycke": 2,
@@ -34345,8 +34465,21 @@
     "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
     "kapitel_namn": "Förmåner vid verkställighet i anstalt eller vård på institution m.m.",
     "paragraf_rubrik": "Gemensamma bestämmelser",
-    "paragraf_underrubrik": "Ersättning endast för del av kalendermånad",
+    "paragraf_underrubrik": "Avdrag för kostnader för uppehälle",
     "referens": "Lag (2011:1434)",
+    "versionStatus": "UNTAGGED"
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "text": "Avdrag för kostnad som avses i 38 § ska beräknas till 80 kronor för dag.\nNär det gäller graviditetspenning, tillfällig föräldrapenning, sjukpenning, rehabiliteringspenning och smittbärarpenning får avdraget utgöra högst en tredjedel av ersättningens belopp efter skatteavdrag. I övriga fall får avdraget utgöra högst en tredjedel av förmånernas månadsbelopp efter skatteavdrag delat med 30. Avdraget på förmånen ska avrundas till närmaste lägre krontal.",
+    "kapitel": "106",
+    "paragraf": "39",
+    "stycke": 1,
+    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
+    "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
+    "kapitel_namn": "Förmåner vid verkställighet i anstalt eller vård på institution m.m.",
+    "paragraf_rubrik": "Gemensamma bestämmelser",
+    "paragraf_underrubrik": "Avdrag för kostnader för uppehälle",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -34359,7 +34492,7 @@
     "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
     "kapitel_namn": "Förmåner vid verkställighet i anstalt eller vård på institution m.m.",
     "paragraf_rubrik": "Gemensamma bestämmelser",
-    "paragraf_underrubrik": "Ersättning endast för del av kalendermånad",
+    "paragraf_underrubrik": "Avdrag för kostnader för uppehälle",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -34376,18 +34509,6 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Sammanträffande av förmåner vid retroaktiv utbetalning",
-    "kapitel": "107",
-    "paragraf": "1",
-    "stycke": 2,
-    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
-    "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
-    "kapitel_namn": "Andra gemensamma bestämmelser om förmåner",
-    "paragraf_rubrik": "Innehåll",
-    "versionStatus": "UNTAGGED"
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
     "text": "Om Försäkringskassan eller Pensionsmyndigheten har betalat ut en ersättning enligt denna balk till en försäkrad och någon av myndigheterna senare beviljar den försäkrade en annan ersättning enligt balken retroaktivt för samma tid som den tidigare utbetalade ersättningen avser gäller följande. Avdrag på den retroaktiva ersättningen ska göras med det belopp som överstiger vad som skulle ha betalats ut för perioden om beslut om båda ersättningarna hade fattats samtidigt.",
     "kapitel": "107",
     "paragraf": "2",
@@ -34395,7 +34516,7 @@
     "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
     "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
     "kapitel_namn": "Andra gemensamma bestämmelser om förmåner",
-    "paragraf_rubrik": "Innehåll",
+    "paragraf_rubrik": "Sammanträffande av förmåner vid retroaktiv utbetalning",
     "referens": "Lag (2022:858)",
     "versionStatus": "UNTAGGED"
   },
@@ -34408,7 +34529,7 @@
     "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
     "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
     "kapitel_namn": "Andra gemensamma bestämmelser om förmåner",
-    "paragraf_rubrik": "Innehåll",
+    "paragraf_rubrik": "Sammanträffande av förmåner vid retroaktiv utbetalning",
     "referens": "Lag (2022:858)",
     "versionStatus": "UNTAGGED"
   },
@@ -34421,7 +34542,7 @@
     "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
     "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
     "kapitel_namn": "Andra gemensamma bestämmelser om förmåner",
-    "paragraf_rubrik": "Innehåll",
+    "paragraf_rubrik": "Sammanträffande av förmåner vid retroaktiv utbetalning",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -34433,7 +34554,7 @@
     "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
     "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
     "kapitel_namn": "Andra gemensamma bestämmelser om förmåner",
-    "paragraf_rubrik": "Innehåll",
+    "paragraf_rubrik": "Sammanträffande av förmåner vid retroaktiv utbetalning",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -34445,7 +34566,7 @@
     "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
     "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
     "kapitel_namn": "Andra gemensamma bestämmelser om förmåner",
-    "paragraf_rubrik": "Innehåll",
+    "paragraf_rubrik": "Sammanträffande av förmåner vid retroaktiv utbetalning",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -34457,7 +34578,7 @@
     "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
     "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
     "kapitel_namn": "Andra gemensamma bestämmelser om förmåner",
-    "paragraf_rubrik": "Innehåll",
+    "paragraf_rubrik": "Sammanträffande av förmåner vid retroaktiv utbetalning",
     "referens": "Lag (2025:404)",
     "versionStatus": "UNTAGGED"
   },
@@ -34470,7 +34591,7 @@
     "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
     "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
     "kapitel_namn": "Andra gemensamma bestämmelser om förmåner",
-    "paragraf_rubrik": "Innehåll",
+    "paragraf_rubrik": "Sammanträffande av förmåner vid retroaktiv utbetalning",
     "referens": "Lag (2025:404)",
     "versionStatus": "UNTAGGED"
   },
@@ -34573,7 +34694,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Om barnbidrag inte har lyfts före utgången av året efter det då bidraget blev tillgängligt för lyftning är fordran preskriberad.\nUnderhållsstöd",
+    "text": "Om barnbidrag inte har lyfts före utgången av året efter det då bidraget blev tillgängligt för lyftning är fordran preskriberad.",
     "kapitel": "107",
     "paragraf": "13",
     "stycke": 1,
@@ -34594,7 +34715,7 @@
     "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
     "kapitel_namn": "Andra gemensamma bestämmelser om förmåner",
     "paragraf_rubrik": "Preskription",
-    "paragraf_underrubrik": "Barnbidrag",
+    "paragraf_underrubrik": "Underhållsstöd",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -34921,20 +35042,6 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Verkställighet m.m. av beslut om återkrav",
-    "kapitel": "108",
-    "paragraf": "14",
-    "stycke": 2,
-    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
-    "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
-    "kapitel_namn": "Återkrav och ränta",
-    "paragraf_rubrik": "Eftergift",
-    "paragraf_underrubrik": "Sjukersättning och bostadsbidrag",
-    "referens": "Lag (2014:470)",
-    "versionStatus": "UNTAGGED"
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
     "text": "Efter det att ett beslut om återkrav har fattats av Pensionsmyndigheten i ett ärende ska den fortsatta handläggningen på grund av beslutet handhas av Försäkringskassan, även om återkravet avser en förmån som ska administreras av Pensionsmyndigheten.",
     "kapitel": "108",
     "paragraf": "14a",
@@ -34943,7 +35050,7 @@
     "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
     "kapitel_namn": "Återkrav och ränta",
     "paragraf_rubrik": "Eftergift",
-    "paragraf_underrubrik": "Sjukersättning och bostadsbidrag",
+    "paragraf_underrubrik": "Verkställighet m.m. av beslut om återkrav",
     "referens": "Lag (2025:39)",
     "versionStatus": "UNTAGGED"
   },
@@ -34957,7 +35064,7 @@
     "underavdelning": "II Gemensamma bestämmelser om förmåner m.m.",
     "kapitel_namn": "Återkrav och ränta",
     "paragraf_rubrik": "Eftergift",
-    "paragraf_underrubrik": "Sjukersättning och bostadsbidrag",
+    "paragraf_underrubrik": "Verkställighet m.m. av beslut om återkrav",
     "referens": "Lag (2025:39)",
     "versionStatus": "UNTAGGED"
   },
@@ -36215,20 +36322,6 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Bevisupptagning rörande arbetsskada m.m. vid allmän domstol",
-    "kapitel": "110",
-    "paragraf": "37a",
-    "stycke": 3,
-    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
-    "underavdelning": "III Gemensamma bestämmelser om handläggning m.m.",
-    "kapitel_namn": "Handläggning av ärenden",
-    "paragraf_rubrik": "Uppgiftsskyldighet för andra än parter",
-    "paragraf_underrubrik": "Kommunal nämnd",
-    "referens": "Lag (2022:938)",
-    "versionStatus": "UNTAGGED"
-  },
-  {
-    "lag": "Socialförsäkringsbalk (2010:110)",
     "text": "Försäkringskassan och Pensionsmyndigheten får i ärenden om arbetsskadeförsäkring, statligt personskadeskydd och krigsskadeersättning begära att tingsrätt håller förhör med vittne eller sakkunnig. För förhöret ska i tillämpliga delar gälla det som föreskrivs om bevisupptagning utom huvudförhandling.",
     "kapitel": "110",
     "paragraf": "38",
@@ -36237,7 +36330,7 @@
     "underavdelning": "III Gemensamma bestämmelser om handläggning m.m.",
     "kapitel_namn": "Handläggning av ärenden",
     "paragraf_rubrik": "Uppgiftsskyldighet för andra än parter",
-    "paragraf_underrubrik": "Kommunal nämnd",
+    "paragraf_underrubrik": "Bevisupptagning rörande arbetsskada m.m. vid allmän domstol",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -36250,7 +36343,7 @@
     "underavdelning": "III Gemensamma bestämmelser om handläggning m.m.",
     "kapitel_namn": "Handläggning av ärenden",
     "paragraf_rubrik": "Uppgiftsskyldighet för andra än parter",
-    "paragraf_underrubrik": "Kommunal nämnd",
+    "paragraf_underrubrik": "Bevisupptagning rörande arbetsskada m.m. vid allmän domstol",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -37140,9 +37233,22 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Försäkringskassans och Pensionsmyndighetens beslut får överklagas hos allmän förvaltningsdomstol.\nEtt beslut får dock inte överklagas av en enskild innan beslutet har omprövats enligt 7 §. En enskilds överklagande av ett sådant beslut innan beslutet har omprövats ska anses som en begäran om omprövning enligt nämnda paragraf. 11 § Det som föreskrivs i 10 § andra stycket gäller inte i fråga om beslut som avses i 7 § andra stycket första meningen och inte heller beslut som har meddelats med stöd av 3 §. Den enskildes begäran om omprövning av ett sådant beslut ska anses som ett överklagande.",
+    "text": "Försäkringskassans och Pensionsmyndighetens beslut får överklagas hos allmän förvaltningsdomstol.\nEtt beslut får dock inte överklagas av en enskild innan beslutet har omprövats enligt 7 §. En enskilds överklagande av ett sådant beslut innan beslutet har omprövats ska anses som en begäran om omprövning enligt nämnda paragraf.",
     "kapitel": "113",
     "paragraf": "10",
+    "stycke": 1,
+    "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
+    "underavdelning": "III Gemensamma bestämmelser om handläggning m.m.",
+    "kapitel_namn": "Ändring, omprövning och överklagande av beslut",
+    "paragraf_rubrik": "Överklagande av Försäkringskassans och Pensionsmyndighetens beslut",
+    "paragraf_underrubrik": "Allmänna bestämmelser",
+    "versionStatus": "UNTAGGED"
+  },
+  {
+    "lag": "Socialförsäkringsbalk (2010:110)",
+    "text": "Det som föreskrivs i 10 § andra stycket gäller inte i fråga om beslut som avses i 7 § andra stycket första meningen och inte heller beslut som har meddelats med stöd av 3 §. Den enskildes begäran om omprövning av ett sådant beslut ska anses som ett överklagande.",
+    "kapitel": "113",
+    "paragraf": "11",
     "stycke": 1,
     "avdelning": "H VISSA GEMENSAMMA BESTÄMMELSER",
     "underavdelning": "III Gemensamma bestämmelser om handläggning m.m.",
@@ -37179,7 +37285,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Om det allmänna ombudet har överklagat ett beslut av Försäkringskassan eller Pensionsmyndigheten, förs det allmännas talan i allmän förvaltningsdomstol av ombudet.\nRätt domstol",
+    "text": "Om det allmänna ombudet har överklagat ett beslut av Försäkringskassan eller Pensionsmyndigheten, förs det allmännas talan i allmän förvaltningsdomstol av ombudet.",
     "kapitel": "113",
     "paragraf": "13",
     "stycke": 1,
@@ -37200,7 +37306,7 @@
     "underavdelning": "III Gemensamma bestämmelser om handläggning m.m.",
     "kapitel_namn": "Ändring, omprövning och överklagande av beslut",
     "paragraf_rubrik": "Överklagande av Försäkringskassans och Pensionsmyndighetens beslut",
-    "paragraf_underrubrik": "Allmänna bestämmelser",
+    "paragraf_underrubrik": "Rätt domstol",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -37213,7 +37319,7 @@
     "underavdelning": "III Gemensamma bestämmelser om handläggning m.m.",
     "kapitel_namn": "Ändring, omprövning och överklagande av beslut",
     "paragraf_rubrik": "Överklagande av Försäkringskassans och Pensionsmyndighetens beslut",
-    "paragraf_underrubrik": "Allmänna bestämmelser",
+    "paragraf_underrubrik": "Rätt domstol",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -37226,7 +37332,7 @@
     "underavdelning": "III Gemensamma bestämmelser om handläggning m.m.",
     "kapitel_namn": "Ändring, omprövning och överklagande av beslut",
     "paragraf_rubrik": "Överklagande av Försäkringskassans och Pensionsmyndighetens beslut",
-    "paragraf_underrubrik": "Allmänna bestämmelser",
+    "paragraf_underrubrik": "Rätt domstol",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -37239,7 +37345,7 @@
     "underavdelning": "III Gemensamma bestämmelser om handläggning m.m.",
     "kapitel_namn": "Ändring, omprövning och överklagande av beslut",
     "paragraf_rubrik": "Överklagande av Försäkringskassans och Pensionsmyndighetens beslut",
-    "paragraf_underrubrik": "Allmänna bestämmelser",
+    "paragraf_underrubrik": "Rätt domstol",
     "versionStatus": "UNTAGGED"
   },
   {
@@ -37297,7 +37403,7 @@
   },
   {
     "lag": "Socialförsäkringsbalk (2010:110)",
-    "text": "Ett överklagande av Försäkringskassans, Pensionsmyndighetens eller en allmän förvaltningsdomstols beslut ska ha kommit in inom två månader från den dag då klaganden fick del av beslutet. Om det är det allmänna ombudet, Försäkringskassan eller Pensionsmyndigheten som överklagar beslutet, ska tiden dock räknas från den dag då beslutet meddelades.\nHandlingar till fel myndighet",
+    "text": "Ett överklagande av Försäkringskassans, Pensionsmyndighetens eller en allmän förvaltningsdomstols beslut ska ha kommit in inom två månader från den dag då klaganden fick del av beslutet. Om det är det allmänna ombudet, Försäkringskassan eller Pensionsmyndigheten som överklagar beslutet, ska tiden dock räknas från den dag då beslutet meddelades.",
     "kapitel": "113",
     "paragraf": "20",
     "stycke": 1,
@@ -37318,7 +37424,7 @@
     "underavdelning": "III Gemensamma bestämmelser om handläggning m.m.",
     "kapitel_namn": "Ändring, omprövning och överklagande av beslut",
     "paragraf_rubrik": "Överklagande av Försäkringskassans och Pensionsmyndighetens beslut",
-    "paragraf_underrubrik": "Tidsfrister för begäran om omprövning och överklagande",
+    "paragraf_underrubrik": "Handlingar till fel myndighet",
     "versionStatus": "UNTAGGED"
   },
   {

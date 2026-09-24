@@ -47,11 +47,21 @@ public class TextProcessor {
         Stycke currentStycke = null;
         boolean pendingNewStycke = false;
         boolean sawRealChapter = false;
+        int transitionCount = 0;
 
         try (BufferedReader br = new BufferedReader(reader)) {
-            String raw;
-            while ((raw = br.readLine()) != null) {
-                String line = raw.strip();
+            TextStructure structure = new TextStructure(br.lines().collect(java.util.stream.Collectors.joining("\n")));
+            for (int lineIndex = 0; lineIndex < structure.lines.size(); lineIndex++) {
+                String line = structure.lines.get(lineIndex);
+                TextStructure.Heading heading = structure.headings.get(lineIndex + 1);
+                if (heading != null && currentKapitel != null) {
+                    currentKapitel.setAktuellParagrafrubrik(new Paragrafrubrik(heading.text()));
+                    currentParagraf = null;
+                    currentStycke = null;
+                    pendingNewStycke = false;
+                    continue;
+                }
+                if (structure.headingContinuations.contains(lineIndex + 1)) continue;
                 if (line.isEmpty()) {
                     if (currentParagraf != null && currentStycke != null && !currentStycke.isEmpty()) {
                         pendingNewStycke = true;
@@ -60,7 +70,7 @@ public class TextProcessor {
                 }
 
                 Matcher avdMatcher = AVDELNING_RE.matcher(line);
-                if (avdMatcher.find()) {
+                if (avdMatcher.find() && !(currentParagraf != null && line.startsWith("Avdelning "))) {
                     currentAvdelning = new Avdelning(avdMatcher.group(1), avdMatcher.group(2));
                     lag.add(currentAvdelning);
                     lag.setAktuellAvdelning(currentAvdelning);
@@ -87,7 +97,7 @@ public class TextProcessor {
                 }
 
                 Matcher kapMatcher = KAPITEL_RE.matcher(line);
-                if (kapMatcher.find()) {
+                if (kapMatcher.find() && TextStructure.isChapterStart(structure.lines, lineIndex)) {
                     currentKapitel = new Kapitel(normalizeNumberToken(kapMatcher.group(1)), kapMatcher.group(2));
                     sawRealChapter = true;
                     if (currentAvdelning != null) {
@@ -106,7 +116,7 @@ public class TextProcessor {
                 }
 
                 if ("Övergångsbestämmelser".equalsIgnoreCase(line)) {
-                    currentKapitel = new Overgang(line, !sawRealChapter);
+                    currentKapitel = new Overgang(line, !sawRealChapter, ++transitionCount);
                     if (currentAvdelning != null) {
                         currentAvdelning.addKapitel(currentKapitel);
                     } else {
@@ -118,8 +128,17 @@ public class TextProcessor {
                     continue;
                 }
 
+                if (currentKapitel instanceof Overgang && line.matches("\\d{4}:\\d+")) {
+                    currentParagraf = new Paragraf(line);
+                    currentKapitel.addParagraf(currentParagraf);
+                    currentStycke = new Stycke();
+                    currentParagraf.add(currentStycke);
+                    pendingNewStycke = false;
+                    continue;
+                }
+
                 Matcher parMatcher = PARAGRAF_RE.matcher(line);
-                if (parMatcher.find()) {
+                if (parMatcher.find() && TextStructure.isSectionStart(structure.lines, lineIndex)) {
                     if (currentKapitel == null) {
                         if (currentAvdelning == null) {
                             currentAvdelning = new Avdelning("A", "AUTO");
@@ -152,8 +171,8 @@ public class TextProcessor {
                 }
 
                 if (currentParagraf != null) {
-                    if (pendingNewStycke) {
-                        currentStycke = new Stycke();
+                    if (pendingNewStycke && !line.matches("^(?:-|[0-9]+[a-z]?\\.|[a-z]\\.)\\s+.*")) {
+                        currentStycke = currentStycke == null ? new Stycke() : new Stycke(currentStycke);
                         currentParagraf.add(currentStycke);
                         pendingNewStycke = false;
                     }
@@ -163,6 +182,7 @@ public class TextProcessor {
                         currentParagraf.add(currentStycke);
                     }
 
+                    pendingNewStycke = false;
                     PeriodiseringSplit split = splitPeriodiseringPrefix(line);
                     if (split.periodisering != null && !split.periodisering.isBlank()
                             && currentParagraf.getPeriodisering().isEmpty()) {
@@ -183,7 +203,7 @@ public class TextProcessor {
     private static String normalizeNumberToken(String token) {
         return token
                 .replace('\u00A0', ' ')
-                .replaceAll("\\s+", " ")
+                .replaceAll("\\s+", "")
                 .strip();
     }
 

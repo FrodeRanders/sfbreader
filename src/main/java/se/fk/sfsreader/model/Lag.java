@@ -62,6 +62,10 @@ public class Lag implements Layer {
         return avdelningar;
     }
 
+    public Collection<Kapitel> getKapitel() {
+        return kapitlen;
+    }
+
     public Collection<Paragraf> getParagrafer() {
         return paragrafer;
     }

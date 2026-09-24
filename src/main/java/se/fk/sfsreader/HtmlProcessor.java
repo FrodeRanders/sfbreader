@@ -37,6 +37,7 @@ public class HtmlProcessor {
     private final String lagName;
     private final String lagId;
     private boolean sawRealChapter = false;
+    private int transitionCount = 0;
 
     public HtmlProcessor(String lagName, String lagId) {
         this.lagName = lagName;
@@ -95,6 +96,7 @@ public class HtmlProcessor {
      */
     public Optional<Lag> process(Document doc) {
         sawRealChapter = false;
+        transitionCount = 0;
         Stack<Layer> stack = new Stack<>();
         stack.push(new Lag(lagName, lagId));
 
@@ -173,6 +175,9 @@ public class HtmlProcessor {
         if (/* necessary */ null == id || !id.hasDeclaredValue()) {
             id = element.attribute("name");
         }
+
+        // Decorative/link anchors can have neither id nor name.
+        if (id == null || !id.hasDeclaredValue()) return;
 
         if (/* necessary */ null != clazz && "paragraf".equalsIgnoreCase(clazz.getValue())) {
             // --- paragraf ---
@@ -338,7 +343,7 @@ public class HtmlProcessor {
         Attribute name = element.attribute("name");
         if (/* necessary */ null != name && "overgang".equals(name.getValue())) {
             element.text();
-            kapitel = new Overgang(text, !sawRealChapter);
+            kapitel = new Overgang(text, !sawRealChapter, ++transitionCount);
         }
 
         //

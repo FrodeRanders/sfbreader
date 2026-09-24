@@ -1,4 +1,4 @@
-@prefix def:  <http://data.sfa.se/ontologi/lagrum/definition#> .
+@prefix def:  <http://data.sfa.se/ontologi/lagrum/v1> .
 @prefix dct:  <http://purl.org/dc/terms/> .
 @prefix eli:  <http://data.europa.eu/eli/ontology#> .
 @prefix eu:   <http://publications.europa.eu/resource/authority/subdivision/> .

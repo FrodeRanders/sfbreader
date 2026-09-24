@@ -175,7 +175,7 @@ public class HybridReconciler {
 
                     addPeriodiseringValidityFindings(findings, byType, bySeverity, variantKey, location, htmlVariant, textVariant);
 
-                    if (!hp.isEmpty() && !tp.isEmpty() && !hp.equals(tp)) {
+                    if (!hp.equals(tp)) {
                         addFinding(findings, byType, bySeverity,
                                 new Finding(
                                         "paragraph_periodisering_mismatch:" + variantKey,
@@ -206,6 +206,13 @@ public class HybridReconciler {
                         continue;
                     }
 
+                    if (equivalentText(hb, tb) && !htmlVariant.stycken().equals(textVariant.stycken())) {
+                        addFinding(findings, byType, bySeverity, new Finding(
+                                "paragraph_stycke_mismatch:" + variantKey, "paragraph_stycke_mismatch",
+                                Severity.MEDIUM, Category.STRUCTURAL,
+                                "Different stycke boundaries at " + location, metadataPeriodisering(htmlVariant.periodisering()),
+                                metadataPeriodisering(textVariant.periodisering())));
+                    }
                     if (!equivalentText(hb, tb)) {
                         if (formatEquivalent(hb, tb)) {
                             addFinding(findings, byType, bySeverity,
@@ -250,25 +257,23 @@ public class HybridReconciler {
         Map<String, ChapterView> out = new HashMap<>();
         Set<Kapitel> seenKapitel = Collections.newSetFromMap(new IdentityHashMap<>());
 
-        for (Avdelning avdelning : lag.get()) {
-            for (Kapitel kapitel : avdelning.get()) {
-                if (!seenKapitel.add(kapitel)) {
-                    continue;
-                }
+        for (Kapitel kapitel : lag.getKapitel()) {
+            if (!seenKapitel.add(kapitel)) {
+                continue;
+            }
 
-                String chapterId = normalizeId(kapitel.id());
-                ChapterView chapter = out.computeIfAbsent(chapterId, id -> new ChapterView(kapitel.namn()));
-                for (Paragraf paragraf : kapitel.get()) {
-                    String paragraphId = normalizeId(paragraf.nummer());
-                    String body = paragraphBody(paragraf);
-                    String periodisering = normalize(paragraf.getPeriodisering().orElse(""));
-                    String versionIdentity = normalize(paragraf.getVersionIdentity().orElse(""));
-                    String versionStatus = normalize(paragraf.getVersionStatus().orElse("UNTAGGED"));
-                    ParagraphVariant variant = new ParagraphVariant(body, periodisering, versionIdentity, versionStatus);
-                    List<ParagraphVariant> variants = chapter.paragraphs.computeIfAbsent(paragraphId, ignored -> new ArrayList<>());
-                    if (!variants.contains(variant)) {
-                        variants.add(variant);
-                    }
+            String chapterId = normalizeId(kapitel.id());
+            ChapterView chapter = out.computeIfAbsent(chapterId, id -> new ChapterView(kapitel.namn()));
+            for (Paragraf paragraf : kapitel.get()) {
+                String paragraphId = normalizeId(paragraf.nummer());
+                String body = paragraphBody(paragraf);
+                String periodisering = normalize(paragraf.getPeriodisering().orElse(""));
+                String versionIdentity = normalize(paragraf.getVersionIdentity().orElse(""));
+                String versionStatus = normalize(paragraf.getVersionStatus().orElse("UNTAGGED"));
+                ParagraphVariant variant = new ParagraphVariant(body, periodisering, versionIdentity, versionStatus, paragraf.get().stream().map(s -> normalizeLoose(String.join(" ", s.get()))).toList());
+                List<ParagraphVariant> variants = chapter.paragraphs.computeIfAbsent(paragraphId, ignored -> new ArrayList<>());
+                if (!variants.contains(variant)) {
+                    variants.add(variant);
                 }
             }
         }
@@ -463,7 +468,7 @@ public class HybridReconciler {
         }
     }
 
-    private record ParagraphVariant(String body, String periodisering, String versionIdentity, String versionStatus) {}
+    private record ParagraphVariant(String body, String periodisering, String versionIdentity, String versionStatus, List<String> stycken) {}
 
     private record VariantPair(ParagraphVariant html, ParagraphVariant text) {}
 
@@ -518,21 +523,28 @@ public class HybridReconciler {
         if (Objects.equals(an, bn)) {
             return true;
         }
-        if (an.isEmpty() || bn.isEmpty()) {
-            return false;
-        }
-        String shorter = an.length() <= bn.length() ? an : bn;
-        String longer = an.length() > bn.length() ? an : bn;
-        return longer.startsWith(shorter) && (double) shorter.length() / (double) longer.length() > 0.95;
+        return false;
+    }
+
+    private static List<String> numericTokens(String value) {
+        var matcher = java.util.regex.Pattern.compile("\\d+(?:[,.:-]\\d+)*").matcher(numericSpacing(normalizeLoose(value)));
+        List<String> out = new ArrayList<>();
+        while (matcher.find()) out.add(matcher.group());
+        return out;
+    }
+
+    private static String numericSpacing(String value) {
+        return value.replaceAll("(?<=\\d)\\s*([,:.\\-])\\s*(?=\\d)", "$1");
     }
 
     private static boolean formatEquivalent(String a, String b) {
-        String af = normalizeLoose(a)
+        if (!numericTokens(a).equals(numericTokens(b))) return false;
+        String af = numericSpacing(normalizeLoose(a))
                 .replaceAll("[,.;:()\\-]", "")
                 .replaceAll("\\s+", " ")
                 .trim()
                 .toLowerCase();
-        String bf = normalizeLoose(b)
+        String bf = numericSpacing(normalizeLoose(b))
                 .replaceAll("[,.;:()\\-]", "")
                 .replaceAll("\\s+", " ")
                 .trim()

@@ -197,12 +197,21 @@ public class Application {
             HtmlProcessor htmlProcessor = new HtmlProcessor(lagName, lagId);
             TextProcessor textProcessor = new TextProcessor(lagName, lagId);
 
+            Optional<String> sourceText = Optional.empty();
+            try (InputStream text = sourceStreams.openTextStream().orElse(null)) {
+                if (text != null) sourceText = Optional.of(new String(text.readAllBytes(), StandardCharsets.UTF_8));
+            }
             Optional<Lag> lagFromHtml = Optional.empty();
             if (sourceMode.parseHtml()) {
                 Optional<InputStream> htmlStream = sourceStreams.openHtmlStream();
                 if (htmlStream.isPresent()) {
                     try (InputStream is = htmlStream.get()) {
-                        lagFromHtml = pullFromStream(is, "http://nope.local", StandardCharsets.UTF_8, htmlProcessor);
+                        Document html = Jsoup.parse(is, StandardCharsets.UTF_8.name(), "http://nope.local");
+                        if (sourceMode == SourceMode.HYBRID && sourceText.isPresent()) {
+                            HybridSourceRepair.Report repairs = new HybridSourceRepair().repair(html, sourceText.get());
+                            Files.writeString(inputFile.resolveSibling("source-repair.json"), gson.toJson(repairs), StandardCharsets.UTF_8);
+                        }
+                        lagFromHtml = htmlProcessor.process(html);
                     }
                 }
             }
@@ -220,7 +229,7 @@ public class Application {
 
             Optional<Lag> _lag = sourceMode.selectPrimary(lagFromHtml, lagFromText);
             if (sourceMode == SourceMode.HYBRID && lagFromHtml.isPresent() && lagFromText.isPresent()) {
-                log.info("Both HTML and text payload parsed from '{}'. Using HTML as primary structure source.",
+                log.info("Both HTML and text payload parsed from '{}'. Using HTML structure with text-supported boundary repairs.",
                         inputFile.getFileName());
 
                 HybridReconciler reconciler = new HybridReconciler();

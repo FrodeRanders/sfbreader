@@ -50,9 +50,10 @@ final class DocumentSources {
             return resolved;
         }
 
-        // Backward-compatible mode for raw HTML files.
-        log.info("Input '{}' treated as HTML", inputFile.getFileName());
-        return new DocumentSources(Optional.empty(), Optional.of(bytes), Optional.empty(), Optional.empty())
+        boolean html = Pattern.compile("(?is)<(?:html|body|div|p|h[1-6])(?:\\s|>)").matcher(content).find();
+        log.info("Input '{}' treated as {}", inputFile.getFileName(), html ? "HTML" : "text");
+        return new DocumentSources(html ? Optional.empty() : Optional.of(bytes),
+                html ? Optional.of(bytes) : Optional.empty(), Optional.empty(), Optional.empty())
                 .resolveMetadata(charset);
     }
 
@@ -74,9 +75,7 @@ final class DocumentSources {
 
     static boolean looksLikeRiksdagenXml(String content) {
         return content.contains("<dokumentstatus>")
-                && content.contains("<dokument>")
-                && content.contains("<text>")
-                && content.contains("<html>");
+                && content.contains("<dokument>");
     }
 
     private static DocumentSources fromRiksdagenXml(String xml, Charset charset) throws Exception {

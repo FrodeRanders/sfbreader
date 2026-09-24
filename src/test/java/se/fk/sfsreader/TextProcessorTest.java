@@ -118,6 +118,65 @@ public class TextProcessorTest {
         assertEquals("Ny lydelse", flattened(newVariant));
     }
 
+    @Test
+    public void keepsWrappedReferenceAndSeparatesHeadingsAndNumberedStycken() throws Exception {
+        String input = "25 kap. Test\n10 § Första stycket.\n\n"
+                + "Om mottagaren avses i 9 kap.\n2 § skatteförfarandelagen gäller detta.\n\n"
+                + "Ersättning understigande 1 000 kronor\n16 § Om något gäller.\n"
+                + "Semesterlön och semesterersättning\n\n17 § Nästa regel.";
+        Lag lag = new TextProcessor().process(new StringReader(input)).orElseThrow();
+        assertEquals(3, lag.getKapitel().iterator().next().get().size());
+        Paragraf p10 = HybridSourceRepairTest.section(lag, "25", "10");
+        assertEquals(List.of(1,2), p10.get().stream().map(Stycke::nummer).toList());
+        assertTrue(flattened(p10).contains("9 kap. 2 § skatteförfarandelagen"));
+        Paragraf p16 = HybridSourceRepairTest.section(lag, "25", "16");
+        assertEquals("Om något gäller.", flattened(p16));
+        assertTrue(p16.rubriker().contains("Ersättning understigande"));
+    }
+
+    @Test
+    public void listAfterBlankLineStaysWithItsIntroduction() throws Exception {
+        Lag lag = new TextProcessor().process(new StringReader(
+                "25 kap. Test\n2 § Följande gäller:\n\n1. första punkten,\n2. andra punkten.\n\nAndra stycket."
+        )).orElseThrow();
+        Paragraf p = HybridSourceRepairTest.section(lag,"25","2");
+        assertEquals(2, p.get().size());
+        assertTrue(String.join(" ", p.get().iterator().next().get()).contains("2. andra punkten."));
+        assertEquals(List.of(1,2), p.get().stream().map(Stycke::nummer).toList());
+    }
+
+    @Test
+    public void inlineDivisionLabelsDoNotResetChapter() throws Exception {
+        Lag lag = new TextProcessor().process(new StringReader(
+                "AVD. A TEST\n5 kap. Test\n9 § Förmåner:\n\nAvdelning B Familjeförmåner\n1. förmån.\n10 § Nästa regel."
+        )).orElseThrow();
+        assertEquals(1, lag.getKapitel().size());
+        assertTrue(HybridSourceRepairTest.body(HybridSourceRepairTest.section(lag,"5","9")).contains("Avdelning B"));
+        assertNotNull(HybridSourceRepairTest.section(lag,"5","10"));
+    }
+
+    @Test
+    public void wrappedChapterReferenceDoesNotMoveFollowingSections() throws Exception {
+        Lag lag = new TextProcessor().process(new StringReader(
+                "74 a kap. Test\n4 § Försäkringstid enligt\n59 kap. Försäkringstiden räknas.\n\n5 § Nästa regel."
+        )).orElseThrow();
+        assertEquals(1, lag.getKapitel().size());
+        assertTrue(HybridSourceRepairTest.body(HybridSourceRepairTest.section(lag,"74a","4")).contains("59 kap. Försäkringstiden"));
+        assertNotNull(HybridSourceRepairTest.section(lag,"74a","5"));
+    }
+
+    @Test
+    public void transitionIdsAreLocalToTheDocumentAndAmendmentsArePreserved() throws Exception {
+        String text = "1 kap. Test\n1 § Regel.\n\nÖvergångsbestämmelser\n\n2020:1\n\nDenna lag träder i kraft.\n\n2021:2\n\n1. Första punkten.\n\n2. Andra punkten.";
+        for (int i = 0; i < 2; i++) {
+            Lag lag = new TextProcessor().process(new StringReader(text)).orElseThrow();
+            var transition = HybridSourceRepairTest.chapter(lag,"Ö1");
+            assertEquals(2, transition.get().size());
+            assertEquals("Denna lag träder i kraft.", HybridSourceRepairTest.body(HybridSourceRepairTest.section(lag,"Ö1","2020:1")));
+            assertTrue(HybridSourceRepairTest.body(HybridSourceRepairTest.section(lag,"Ö1","2021:2")).contains("2. Andra punkten."));
+        }
+    }
+
     private static Avdelning firstAvdelning(Lag lag) {
         Iterator<Avdelning> it = lag.get().iterator();
         assertTrue("Expected at least one avdelning", it.hasNext());

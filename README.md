@@ -6,6 +6,10 @@ Det finns ett syskon-projekt [sfbanalys](https://github.com/FrodeRanders/sfbanal
 ## Status
 Det är ett iterativt arbete att lyckas gå från text (eller i förekommande fall HTML) till motsvarande strukturerat format (JSON). Vi är skapligt där just nu. 
 
+## Återställning med stöd av textkällan
+
+Hybridläget återställer nu saknade paragrafankare och omarkerade rubriker när text- och HTML-källan ger entydigt stöd. Åtgärder och olösta matchningar skrivs till `source-repair.json`. Se [metod, begränsningar och reproduktion](doc/source-repair.md).
+
 ## Användning
 
 > curl -o sfs-2010-110.html https://data.riksdagen.se/dokument/sfs-2010-110.html

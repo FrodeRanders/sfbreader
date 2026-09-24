@@ -22,7 +22,7 @@ import static org.junit.Assume.assumeTrue;
 public class HybridAnomalyRegressionTest {
 
     @Test
-    public void fixtureContainsKnownAnomalyFindings() throws Exception {
+    public void fixtureDetectsMissingSgiSectionsBeforeRepair() throws Exception {
         Path fixture = Path.of("data/sfs-2010-110.txt.xml");
         assumeTrue("Fixture missing: " + fixture, Files.exists(fixture));
 
@@ -52,22 +52,12 @@ public class HybridAnomalyRegressionTest {
                 .collect(Collectors.toMap(HybridReconciler.Finding::key, Function.identity(), (a, b) -> a));
         Set<String> keys = byKey.keySet();
 
-        // Anchors from sfb-anomalier.txt to prevent accidental "fixes" that drop known detections.
-        //assertTrue(keys.contains("paragraph_variant_count:K5 P9"));
-        //assertFalse("K6 P6 HTML pre-wrapping anomaly should be fixed",
-        //        keys.contains("paragraph_text_mismatch:K6 P6#V1"));
-        assertTrue(keys.contains("paragraph_text_mismatch:K27 P46#V1"));
-        assertTrue(keys.contains("paragraph_text_mismatch:K55 P8#V1"));
-        assertTrue(keys.contains("paragraph_text_mismatch:K59 P2#V1"));
-        assertTrue(keys.contains("paragraph_text_mismatch:K60 P2#V1"));
-        assertTrue(keys.contains("paragraph_text_mismatch:K61 P2#V1"));
-        assertTrue(keys.contains("paragraph_text_mismatch:K87 P1#V1"));
-        assertTrue(keys.contains("paragraph_text_mismatch:K97 P23a#V1"));
+        // Compare the unmodified HTML with text: these omissions must remain detectable.
+        assertTrue(keys.contains("paragraph_missing_html:K25 P16"));
+        assertTrue(keys.contains("paragraph_missing_html:K25 P26"));
+        assertTrue(keys.contains("paragraph_text_mismatch:K25 P25#V1"));
+        assertEquals(HybridReconciler.Severity.HIGH, byKey.get("paragraph_missing_html:K25 P16").severity());
 
-        //HybridReconciler.Finding k5p9 = byKey.get("paragraph_variant_count:K5 P9");
-        //assertNotNull(k5p9);
-        //assertEquals(HybridReconciler.Severity.HIGH, k5p9.severity());
-        //assertEquals(HybridReconciler.Category.STRUCTURAL, k5p9.category());
     }
 
     @Test
