@@ -15,10 +15,13 @@ final class TextStructure {
 
     record Section(String chapter, String number, int line, String opening) {}
     record Heading(String chapter, int firstLine, int lastLine, String text) {}
+    record ChapterHeading(String chapter, int firstLine, int lastLine, String text) {}
     final List<String> lines;
     final List<Section> sections = new ArrayList<>();
     final Map<Integer, Heading> headings = new LinkedHashMap<>();
     final Set<Integer> headingContinuations = new HashSet<>();
+    final Map<Integer, ChapterHeading> chapterHeadings = new LinkedHashMap<>();
+    final Set<Integer> chapterContinuations = new HashSet<>();
 
     TextStructure(String source) {
         lines = Arrays.stream(source.split("\\R", -1)).map(s -> s.replace('\u00a0', ' ').strip()).toList();
@@ -26,7 +29,19 @@ final class TextStructure {
         for (int i = 0; i < lines.size(); i++) {
             String line = lines.get(i);
             Matcher cm = CHAPTER.matcher(line);
-            if (isChapterStart(lines, i)) { cm.matches(); chapter = number(cm.group(1)); }
+            if (isChapterStart(lines, i)) {
+                cm.matches(); chapter = number(cm.group(1));
+                int end = i;
+                while (end + 1 < lines.size() && !lines.get(end + 1).isBlank()
+                        && !structural(lines.get(end + 1))
+                        && !lines.get(end + 1).startsWith("/")) end++;
+                // A continuation may itself look like a chapter citation, e.g.
+                // "52 kap. inkomstskattelagen". The complete title is independent
+                // evidence for repairing a split HTML heading.
+                chapterHeadings.put(i + 1, new ChapterHeading(chapter, i + 1, end + 1,
+                        normalize(String.join(" ", lines.subList(i, end + 1)))));
+                for (int j = i + 2; j <= end + 1; j++) chapterContinuations.add(j);
+            }
             if (line.equalsIgnoreCase("Övergångsbestämmelser")) break;
             if (isSectionStart(lines, i)) {
                 Matcher pm = SECTION.matcher(line);
@@ -49,10 +64,31 @@ final class TextStructure {
         if (!matcher.matches()) return false;
         // A soft wrap after "9 kap." must not create a new "2 §".
         if (index > 0 && lines.get(index - 1).matches(".*\\bkap\\.$")) return false;
+        // Tab-separated columns after the marker belong to a table, not to a
+        // new provision (the first cell is frequently a section reference).
+        if (lines.get(index).matches("^\\d+\\s*[a-z]?\\s*§[ \\t]*\\t.*")) return false;
         String body = matcher.group(2);
+        // A bare marker on the next physical line can finish a wrapped citation.
+        if (body.isEmpty() && index > 0
+                && lines.get(index - 1).matches("(?i).*\\b(?:i|enligt|och|samt|se)\\s*$")) return false;
         // Lowercase text, punctuation and item numbers after § are reference continuations.
         return body.isEmpty() || Character.isUpperCase(body.codePointAt(0))
                 || body.matches("^/(Upphör|Träder|Rubriken).*" );
+    }
+
+    static boolean isContentsEntry(String line) {
+        return normalize(line).matches("^\\d+\\s*[a-z]?\\s+kap\\.\\s*[-–—]\\s+.+");
+    }
+
+    static boolean isContentsDivision(List<String> lines, int index) {
+        // The title may wrap over several lines before the chapter list starts.
+        for (int next = index + 1; next < lines.size(); next++) {
+            String line = lines.get(next);
+            if (line.isBlank()) continue;
+            if (isContentsEntry(line)) return true;
+            if (structural(line) || !line.equals(line.toUpperCase(Locale.ROOT))) return false;
+        }
+        return false;
     }
 
     private void findPrecedingHeadings(int sectionLine, String chapter) {

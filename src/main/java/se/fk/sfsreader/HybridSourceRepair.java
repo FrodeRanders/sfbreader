@@ -6,7 +6,7 @@ import java.security.MessageDigest;
 import java.util.*;
 import java.util.regex.*;
 
-/** Repairs only uniquely aligned missing boundaries. Never inserts wording from one source
+/** Repairs uniquely aligned missing or incorrect boundaries. Never inserts wording from one source
  * into the other. The report preserves the original text-node contents and source location.
  */
 public final class HybridSourceRepair {
@@ -21,8 +21,10 @@ public final class HybridSourceRepair {
     public Report repair(Document html, String sourceText) {
         String htmlHash = sha256(html.outerHtml());
         TextStructure structure = new TextStructure(sourceText);
-        List<Located> originalNodes = textNodes(html);
         List<Finding> findings = new ArrayList<>();
+        repairSplitChapterHeadings(html, structure, findings);
+        recordContentsDivisions(html, structure, findings);
+        List<Located> originalNodes = textNodes(html);
         Set<String> anchors = new HashSet<>();
         for (Element anchor : html.select("a.paragraf")) {
             anchors.add(anchor.hasAttr("id") ? anchor.id() : anchor.attr("name"));
@@ -99,8 +101,111 @@ public final class HybridSourceRepair {
             located.node.replaceWith(element);
         }
         return new Report(sha256(sourceText), htmlHash,
-                "textLine: 1-based in decoded XML text; section htmlTextNode: 0-based eligible node in original DOM; heading node: after section edits; start/end: UTF-16, end exclusive; htmlDomSha256: jsoup outerHtml before repairs",
+                "textLine: 1-based in decoded XML text; section htmlTextNode: 0-based eligible node after chapter repairs; heading node: after section edits; chapter/division/anchor observations use -1 for node and offsets; start/end: UTF-16, end exclusive; htmlDomSha256: jsoup outerHtml before repairs",
                 List.copyOf(findings));
+    }
+
+    private static void recordContentsDivisions(Document html, TextStructure structure, List<Finding> findings) {
+        for (Element heading : html.select("h2")) {
+            if (heading.closest(".sfstoc") != null || !HtmlProcessor.isContentsDivision(heading)) continue;
+            // HTML-only mode uses the same detection. In hybrid mode, demote
+            // the markup as a recorded, idempotent repair without deleting text.
+            int line = -1;
+            for (int i = 0; i < structure.lines.size(); i++) {
+                if (!structure.lines.get(i).isBlank()
+                        && TextStructure.normalize(heading.text()).startsWith(structure.lines.get(i))
+                        && TextStructure.isContentsDivision(structure.lines, i)) { line = i + 1; break; }
+            }
+            findings.add(new Finding("repaired", "contents_division_as_body", null, null,
+                    line, -1, -1, -1, heading.text(), null,
+                    "Division label followed by chapter-list entries is retained as provision text; it does not open a division"));
+            heading.tagName("span");
+        }
+    }
+
+    private static void repairSplitChapterHeadings(Document html, TextStructure structure, List<Finding> findings) {
+        for (Element first : new ArrayList<>(html.select("h3"))) {
+            if (first.parent() == null || first.closest(".sfstoc") != null) continue;
+            Matcher start = TextStructure.CHAPTER.matcher(first.text());
+            if (!start.matches()) continue;
+            String chapter = TextStructure.number(start.group(1));
+            Node next = first.nextSibling();
+            while (next != null && visibleText(next).isBlank()) next = next.nextSibling();
+            if (!(next instanceof Element second) || !second.is("h3")) continue;
+            Matcher continuation = Pattern.compile("^(\\d+\\s*[a-z]?)\\s+kap\\.\\s+.+$").matcher(second.text());
+            if (!continuation.matches()) continue;
+            String wrongChapter = TextStructure.number(continuation.group(1));
+            if (chapter.equals(wrongChapter)) continue;
+            String joined = TextStructure.normalize(first.text() + " " + second.text());
+            var candidates = structure.chapterHeadings.values().stream()
+                    .filter(h -> h.chapter().equals(chapter) && h.text().equals(joined)).toList();
+            if (candidates.size() != 1) continue;
+            var evidence = candidates.getFirst();
+            List<Element> anchors = new ArrayList<>();
+            for (Node node = second.nextSibling(); node != null; node = node.nextSibling()) {
+                if (node instanceof Element e) {
+                    if (e.is("h2,h3")) break;
+                    anchors.addAll(e.select("a"));
+                }
+            }
+            var sections = anchors.stream().filter(a -> a.hasClass("paragraf")).toList();
+            boolean aligned = !sections.isEmpty();
+            for (Element anchor : sections) {
+                Matcher marker = TextStructure.SECTION.matcher(anchor.text());
+                if (!marker.matches()) { aligned = false; break; }
+                String paragraph = TextStructure.number(marker.group(1));
+                String opening = followingSectionText(anchor);
+                long matches = structure.sections.stream().filter(s -> s.chapter().equals(chapter)
+                        && s.number().equals(paragraph) && opening.startsWith(TextStructure.normalize(s.opening()))).count();
+                String address = anchor.hasAttr("id") ? anchor.id() : anchor.attr("name");
+                if (matches != 1 || !address.equals("K" + wrongChapter + "P" + paragraph)) {
+                    aligned = false; break;
+                }
+            }
+            if (!aligned) {
+                findings.add(new Finding("unresolved", "split_chapter_heading", chapter, null,
+                        evidence.firstLine(), -1, -1, -1, first.text() + "\n" + second.text(), evidence.text(),
+                        "Combined heading agrees with text, but subsequent section anchors/openings do not align uniquely"));
+                continue;
+            }
+            findings.add(new Finding("repaired", "split_chapter_heading", chapter, null,
+                    evidence.firstLine(), -1, -1, -1, first.text() + "\n" + second.text(), evidence.text(),
+                    "Adjacent HTML chapter headings form one complete text heading; subsequent section openings align uniquely"));
+            // Move the existing text nodes; no source wording is copied or discarded.
+            Element label = first.selectFirst("a");
+            if (label == null) label = first;
+            label.appendText(" ");
+            Element tail = second.selectFirst("a");
+            if (tail == null) tail = second;
+            for (Node child : new ArrayList<>(tail.childNodes())) label.appendChild(child);
+            second.remove();
+            Pattern oldAddress = Pattern.compile("^K" + Pattern.quote(wrongChapter) + "(P\\d+[a-z]?(?:S\\d+)?)$");
+            for (Element anchor : anchors) {
+                for (String attribute : List.of("name", "id")) {
+                    String original = anchor.attr(attribute);
+                    Matcher address = oldAddress.matcher(original);
+                    if (!address.matches()) continue;
+                    String corrected = "K" + chapter + address.group(1);
+                    anchor.attr(attribute, corrected);
+                    findings.add(new Finding("repaired", "chapter_anchor_address", chapter, null,
+                            evidence.firstLine(), -1, -1, -1, original, corrected,
+                            "Corrected " + attribute + " within the uniquely aligned split chapter"));
+                }
+            }
+        }
+    }
+
+    private static String visibleText(Node node) {
+        return node instanceof TextNode t ? t.getWholeText() : node instanceof Element e ? e.text() : "";
+    }
+
+    private static String followingSectionText(Element anchor) {
+        StringBuilder text = new StringBuilder(anchor.text());
+        for (Node node = anchor.nextSibling(); node != null; node = node.nextSibling()) {
+            if (node instanceof Element e && e.is("h2,h3,h4,a.paragraf")) break;
+            text.append(' ').append(visibleText(node));
+        }
+        return TextStructure.normalize(text.toString());
     }
 
     private record MatchSection(Match match, TextStructure.Section section) {}

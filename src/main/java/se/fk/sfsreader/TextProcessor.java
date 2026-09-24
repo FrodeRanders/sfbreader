@@ -53,6 +53,7 @@ public class TextProcessor {
             TextStructure structure = new TextStructure(br.lines().collect(java.util.stream.Collectors.joining("\n")));
             for (int lineIndex = 0; lineIndex < structure.lines.size(); lineIndex++) {
                 String line = structure.lines.get(lineIndex);
+                if (structure.chapterContinuations.contains(lineIndex + 1)) continue;
                 TextStructure.Heading heading = structure.headings.get(lineIndex + 1);
                 if (heading != null && currentKapitel != null) {
                     currentKapitel.setAktuellParagrafrubrik(new Paragrafrubrik(heading.text()));
@@ -70,7 +71,8 @@ public class TextProcessor {
                 }
 
                 Matcher avdMatcher = AVDELNING_RE.matcher(line);
-                if (avdMatcher.find() && !(currentParagraf != null && line.startsWith("Avdelning "))) {
+                if (avdMatcher.find() && !TextStructure.isContentsDivision(structure.lines, lineIndex)
+                        && !(currentParagraf != null && line.startsWith("Avdelning "))) {
                     currentAvdelning = new Avdelning(avdMatcher.group(1), avdMatcher.group(2));
                     lag.add(currentAvdelning);
                     lag.setAktuellAvdelning(currentAvdelning);
@@ -98,7 +100,10 @@ public class TextProcessor {
 
                 Matcher kapMatcher = KAPITEL_RE.matcher(line);
                 if (kapMatcher.find() && TextStructure.isChapterStart(structure.lines, lineIndex)) {
-                    currentKapitel = new Kapitel(normalizeNumberToken(kapMatcher.group(1)), kapMatcher.group(2));
+                    var chapterHeading = structure.chapterHeadings.get(lineIndex + 1);
+                    Matcher fullHeading = KAPITEL_RE.matcher(chapterHeading.text());
+                    fullHeading.matches();
+                    currentKapitel = new Kapitel(normalizeNumberToken(kapMatcher.group(1)), fullHeading.group(2));
                     sawRealChapter = true;
                     if (currentAvdelning != null) {
                         currentAvdelning.addKapitel(currentKapitel);

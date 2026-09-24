@@ -3,6 +3,7 @@ package se.fk.sfsreader;
 import org.jsoup.nodes.Attribute;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
+import org.jsoup.nodes.Node;
 import org.jsoup.nodes.TextNode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -108,6 +109,9 @@ public class HtmlProcessor {
         }
 
         body.forEachNode(node -> {
+            if (node instanceof Element e && e.closest(".sfstoc") != null) return;
+            if (node instanceof TextNode t && t.parent() instanceof Element p
+                    && p.closest(".sfstoc") != null) return;
             if (node instanceof Element element) {
                 Element parent = element.parent(); // parent may be null!
 
@@ -117,7 +121,9 @@ public class HtmlProcessor {
                         log.trace("[avdelning] >> {}", element);
                         assert null == parent || "div".equals(parent.nodeName());
 
-                        avdelning(stack, element.text());
+                        // The in-law contents overview uses the same h2 markup as
+                        // real divisions. Keep these labels in the provision body.
+                        if (!isContentsDivision(element)) avdelning(stack, element.text());
                     }
                     case "h3" -> {
                         log.trace("[kapitel] >> {}", element);
@@ -135,7 +141,7 @@ public class HtmlProcessor {
                     }
                     case "a" -> ankare(stack, parent, element);
                     case "i" -> referens(stack, element);
-                    case "div", "p", "br", "pre", "b" -> {
+                    case "div", "p", "br", "pre", "b", "span" -> {
                         String es = element.text().trim();
                         if (es.length() > 32) {
                             es = es.substring(0, 32) + "...";
@@ -701,6 +707,16 @@ public class HtmlProcessor {
 
     private boolean isInlineAvdelningHeading(String text) {
         return INLINE_AVDELNING_RE.matcher(text).matches();
+    }
+
+    static boolean isContentsDivision(Element heading) {
+        for (Node node = heading.nextSibling(); node != null; node = node.nextSibling()) {
+            if (node instanceof Element e && (e.is("h2,h3,h4,a.paragraf"))) return false;
+            String text = node instanceof TextNode t ? t.getWholeText()
+                    : node instanceof Element e ? e.text() : "";
+            if (!text.isBlank()) return TextStructure.isContentsEntry(text);
+        }
+        return false;
     }
 
     private Stycke splitStycke(Stack<Layer> stack, String where) {
